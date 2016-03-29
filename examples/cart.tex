@@ -1,0 +1,41 @@
+\documentclass{article}
+\let\sty\texttt
+\begin{document}
+\title{Coucou\footnote{Coucou} --- Toi\footnote{Toi}}
+\author{Moi\thanks{Moi}}
+\date{Aujourd'hui}
+\maketitle
+
+\begin{quote}
+Default \hacha{} behavior for \sty{article}: all footnotes
+together, cut at sections.
+\end{quote}
+\tableofcontents
+\part{Grand un}
+\section{\sty{Un \& vice}}
+Un\footnote{un}.
+\subsection{\sty{Un}-Un}
+Un-Un~\footnote{un-un}.
+\subsection{\sty{Un}-Deux}
+Un-Deux~\footnote{un-deux}.
+
+
+\subsection{Un-Trois}
+Un-Trois~\footnote{un-trois}.
+\subsubsection{Un-Trois-Un}
+Un-Trois-Un~\footnote{un-trois-un}.
+\subsubsection{Un-Trois-Deix}
+Un-Trois-Deux~\footnote{un-trois-deux}.
+
+
+
+\subsection{Un-Quatre}
+Un-Quatre~\footnote{un-quatre}.
+\section{Deux}
+Deux\footnote{deux}.
+\section{Trois}
+Trois\footnote{trois}.
+\part{Grand deux}
+\section{Quatre}
+Quatre\footnote{quatre}.
+\end{document}

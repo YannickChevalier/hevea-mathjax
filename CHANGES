@@ -1,0 +1,730 @@
+version 2.28
+     * lstlisting: find files lstlang?.sty in path (as latex does).
+version 2.27
+     * info: Add initial capitals for some words (workaround against
+             (reported) info reader v 6.0 bug
+version 2.26
+     * add a warning in case of missing \end{document}
+     * cleveref.hva patch (removes extra white space), credit: Tim Bourke.
+version 2.25
+     * Oups !! Forgot to add svg.hva, corrected.
+version 2.24
+     * Add svg.hva style file, to produce svg images.
+     * More robust build.
+version 2.23
+     * include examples source in the distribution, as advertisedd on
+       web page.
+version 2.22
+     * Attempt umplementation of \specialcomment (comment package).
+     * \indexname now used in packages makeidx and multind as the default
+       index name (Was 'Index')
+version 2.21
+     * Preliminary support for the portuguese language (credit Carlos Camarao)
+
+version 2.20
+     * Correct  2.09 correction, the test for the status of char '"' was
+       negated... (PR #004)
+version 2.19
+     * Add a command \@htmlargs for re-defining the <html...> opening tag
+       attributes.
+version 2.18
+     * PREFIX?=/usr/local in Makefile, to allow overriding by environment variable.
+     * Adapt to ocaml 4.02, use 'Bytes' module + backward compatibility
+       hack.
+     * Some patches by Damien: typos + illegal format strings.
+version 2.17
+     * Adapt to ocaml 4.02 (suppress a few 'Deprecated' warnings)
+version 2.16
+     * Patchy: change fnsymbol from '%' to '$'
+version 2.15
+     * Correct definition of \@addstyle as '%' can now occur
+       in attr -> inline definition of \@printnostyle
+     * Correct bug : define \% as \char037 not as \@print{\char045} !     
+version 2.14
+     * Rationalize buffer usage and suppress private buff module.
+version 2.13
+     * More effort to skip comments in arguments.
+version 2.12
+     * esponja: allow ':' in attribute names.
+version 2.11
+     * hacha: allow ':' in attribute names.
+version 2.10
+     * Bug in \@makesection (latexcommon.hva). \end@sec@step was
+       absent from the definition of stared sectionning comamnd.
+       As a result the first label in section was used as the id of the
+       section.
+     * typo-bug in text/hevea.hva
+version 2.09
+     * Corrected a very unfortunate bug in german babel:
+      \@german@dquote has to consider the case when '"' is not active..
+version 2.08
+     * Added \fcolorbox
+version 2.07
+     * bug in hacha -tocbis/-tocter when no cut induced by section.
+     * Do not change (\cutname) the name of toplevel file.
+version 2.06
+     * Two bugs reported by Michael Ernst fixed *
+     - Some spaces dissapeared in toc's FIX -> add braces around macro
+       expansion in subst_expn
+     - Spurious '_' outside of math mode warnings when \label{..._...}
+       occurs in section titles FIX -> add \@getprint around
+       \sec@id@attr in \@doaddtoc [latexcommon.hva] and \cuthere
+       [html/hevea.hva].
+version 2.05
+     - Promote to official release
+version 2.04+dev2
+     - Correct esponja bug for windows : in windows you cannot
+       remove a file when it is still open !
+version 2.04+dev1
+     - patch by C Deleuze for a few fixes in info mode.
+version 2.04
+     - added \addto command to augment macros
+     - partial implementation of cleveref
+     - implemented hyperef \autoref
+     - added hidden labeltype package to specify label types  in .haux files
+     - implemented global options
+version 2.03+dev
+     - Change in \label management: if \label{lbl} occurs in the argument
+       of a sectionning command (a.k.a section title),
+       then the tag lbl will be used as the id
+       of the enclosing <h...> element in html output.
+       A specific warning is introduced to flag multiple occurences
+       of \label in section titles.
+version 2.03
+     - Correct \addcontentsline so as to avoid any style, in .haux
+       and make  \@addcontentsline  armoured (useless?)
+version 2.02
+     - Correct ocaml minimal version number in README
+version 2.01
+     - In delimited argument parsing, skip several comments (only one
+       was allowed before).
+     - Added undersection package, for underlined section headers.     
+version 2.00
+     - HTML 5.0 output.
+version 1.99
+     - Last released version that outputs html 4.0
+     - Simplified html.mli, text.mli and info.mli by including outManager
+       signature
+     - Corrected installer bug (lstlang?.sty not installed !!)
+     - Buffers with underlying rope structure (use our own)
+version 1.10+17
+     - Testing svn based release script
+version 1.10+16
+     - bug in amsmath.hva (missing \fi, suggestion by Toomas Rosin)
+version 1.10+15
+     - corrected file handle leak (in @iffileexists get.mll)
+     - Added optional argunment to \newindex (makeidx package)
+version 1.10+14
+     - Silly bug in natbib-common.hva : forgot one argument to
+       \NAT@bibitem in the no-optional argument case.      
+version 1.10+13
+     - added greek option to babel
+     - changes of imagen
+        1. Adopt pngalpha device for ghostscript
+        2. Use convert in place of pbmplus 
+version 1.10+11
+     - correct (?) handling of DESTDIR
+     - hacha recognises 'style' parameters, so as not
+       to be fooled by missing chapters in article mode.
+version 1.10+10
+     - ftp links -> htp links in documentation
+     - tried awful ack to echo %HEVEA in image files,
+       does not work revert.
+     - added option -dAutoRotate=/None in gs invokation by imagen.
+       (suggestion of Sebastien Flicker)
+     - amsmaths.hva: corrected bug in split environemnt.
+     - \refstepcounter in \bititem -> set \theref, allow
+       a hack [\ref{...}] \sim \cite{...} (Some do that).
+version 1.10+9
+     - listings: invisible delimiters [and no invisible comments]
+     - \stepcounter -> \refstepcounter, for slide counter in seminar.hva
+     - suppressed -gloss and -bib options that performed nothing.
+     - execute \textnormal starting math mode.
+version 1.10+8
+     - different url parsing for hyperref. Looks more compatible.
+version 1.10+7
+version 1.10+6
+     - added hanging and booktabs package (all definitions are no-ops)
+version 1.10+5
+     - \newline definition as \\ is a bad idea in tables -> \@br
+version 1.10+4
+     - remove explicit vertical VALIGN=top for @{...} in arrays (html.ml).
+     - esponja was 'optimizing' <SUB>t1<SUB>t2</SUB></SUB> into
+       <SUB>t1t2</SUB>. Correction: treat SUP and SUB as A. (htmlparse.ml)
+version 1.10+3
+     - very unfortunate typo: d\e'cembre -> d\'ecembre (french-common.hva)
+version 1.10+2
+     - added import package (no starred variants yet)
+     - listings: range{begin,env}{prefix,suffix} keys.
+       Result may be non-compliant, moire testing needed.
+     - \Let -> \@Let (plain.hva), [clash with user definition was likely].
+version 1.10+1
+     - Allow \par in footnotetext (latexcommon.hva)
+version 1.10
+     - corrected hacha that generated non-compliant HTML lists !
+version 1.09+12
+     - added cutflow* environment.    
+     - correct packages.hva
+        Now package state is pushed/restored by RequirePackage
+        [needed for proper saving of package options]
+version 1.09+11
+     - natbib being added nightmare. Should release soon.
+version 1.09+10
+     - restored extra argument to \text@accent, silly ?
+     - added a bit of documentation on math accents
+version 1.09+8
+     - labels for indexes restricted to sectionning labels.
+       (credit to Yevgeniy Makarov)
+version 1.09+7
+     - Some changes for active characters -, ', and `
+         * -- not merged in entity if TT is on.
+         * ' -> simple right quote, ` simple left quote
+version 1.09+6
+     - test new technique for release [shell]
+     - skip_blanks in save.mll -> also eat spaces after
+       \n (-> \urldef more compatible ??)
+     - \usepackage{hevea} -> execute \usepackage{comment} for LaTeX
+        compatibility
+     - Change \warning into \hva@warning
+     - New \AtEndOfFile command, rediscovered Latexmacros.replace at
+       the occasion!
+version 1.09+5
+     - Include documentation for Thai.
+     - A few typos in doc.
+     - A few correction in french.hva -> \@print@u + \og\fg.
+     - '\r' '\n' is scanned while looking for \par
+     - Add empty group after title in section (for \xspace ! -> no space)
+     - Introduced \RequirePackage
+version 1.09+4
+     - thai support
+     - add vertical magins to styles .part and .title
+     - listings, added inputencoding key.
+     - Corrected footnotes flushing (to follow documentation)
+        and made documentation more precise.
+     - listings,  *keywords* keys with correct interface
+        (already here for *emph*).      
+version 1.09+3
+     - UTF-8 support, hard to test.
+     - abstract type for unicode + many less files for input encodings
+     - Added input encodings koi8-r et cp1251 (Russian)
+version 1.09+2
+     - Correct some bugs for output to dir (imagen on absolute path).
+     - And above all document that.
+     - Produce doc in subdirectory doc/doc.
+     - Document -toc{is,ter} options for hacha.
+version 1.09+1
+     - Simplified error messages for accents, too many
+       problems in displaying argument.
+     - hevea/hacha/imagen accept dir/file as input or output
+      with sensible (?) behavior
+version 1.09
+     - Release at last.
+version 1.08+23
+     - more things in winfonts + doc + some tuning by
+       IE viewing.
+     - primitives \push@styles,\pop@styles to save,restore styles
+       accross blocks (mathpartir)
+version 1.08+22
+     - make byte-test in examples -> specific tests
+     - footnote to extra file, change behavior document.
+     - special footnote flusing for \maketitle
+     - Bug, hacha (close_chapter, cut.mll) must not close
+       chapter page when it equals toc page.
+     - Factor out code for mathdisplay (latexscan.mll) +
+       new internal commands \displaymath \enddisplaymath ->
+       display math without latex env (useful for mathpartir.)
+     - Esponja removes unreferenced style classes.
+     - Backtracking info printed directly in do_expand_command (latescan.mll)
+version 1.08+21
+     - Corrected bars for math accents: WIDTH= -> STYLE="width:..
+       and added some tests in examples/sym.tex
+     - Notice : horiz bars in table -> <TD CLASS="hbar" STYLE="height=..">
+       is the most simple and works for both moz and IE.
+     - Suppress vertical-align in dcells !
+       Vertical alignment is controlled by TR.
+       (used by \@open{DISPLAY}{VALIGN="top"} in html/mathpartir)
+     - Big trouble with styled displays (IE) finally solved
+       by width:auto; in styles dcell and display.
+version 1.08+20
+     - added winfonts.hva, to replace a few entities by ascii art
+     - initial value of 'true' for extendedchars (listings)
+     - adopt most recent mac encoding 0xDB -> euro sign
+     - added three window codepages and applemac in inputenc, useful ?
+version 1.08+19
+     - added sym.tex in examples.
+     - suppress -symbols option !
+     - Back to ALIGN attributes in display cells, corresponding
+       CSS declaration (text-align) does not apply to TABLE alignement,
+       which breaks proper alignement of displays eg in numerator/denominator
+       of \frac.
+     - New behavior for \title, \title after \begin{document} should work
+       with documentation.
+     - Suppress DIV CLASS="center" around displays,
+       include margin-left:auto; margin-right-auto in display class
+       There is one complication : top level displays now
+       have to be kept (cf open_maths in htmlMaths.ml).
+       Beside an enclosing group is needed (for limiting the scope
+       of font changes in $$... $$).
+version 1.08+18
+     - Clarify and document footnote flushing.
+     - \vdash and \dashv unicode entities were swapped (iso-symb.hva)
+version 1.08+17
+     - Styles defined by \newstyle can go into external file, by
+       \externalcsstrue
+     - Added \marginpar
+version 1.08+16
+     - Flush footnotes at end of 'minipage' environments
+     - \@seename -> \seename in index.hva/makeidx.hva
+version 1.08+15
+     - eat space before scanning \verb, \lstlisting argument
+       (Save.save_verbatim) 
+     - hacha: bug in toplevel toc for -tocter mode those where
+       closed too often. Finally working ?
+     - hacha/footnotes: added \@footnoteflush in \cutend -> footnotes text in
+       the same file as marks most of the time
+     - added stacks for redefining/restoring commands (\hva@newstack)
+     - include imagen options as comment in image file -> force
+       production of images when options change. Then, Misc also
+       has a checkpointed state, so as to avoid double inclusion
+       of options with -fix.
+version 1.08+14
+     - added xspace.hva
+version 1.08+13
+     - added bibhva executable, so as to call bibtex on .haux files
+       yielding .hbbl files
+     - managed for .haux files to be bibtex processable
+     - \textsubscript does not exist!
+     - \textsubscript forgotten.
+     - Small bug in 'mid' counts in \process@delim@top
+     - styled theorem-like envs
+     - \setkeys => \@seytkeys in mathpartir (avoid echo in image file)
+     - Be more tolerant with lists without \item (warning) + avoid producing
+       such in multicolumn indexes.
+     - added ifpdf package
+     - Style all list environments (+ thefootnotes, the bibliography)
+     - Corrected bug in table of Contents:
+         Section whose level is < to tocdepth should go into toc,
+         regardless of secnumdepth
+     - Suppressed first line, if empty, in verbatim (and verbatim*).       
+     - New placement of hacha anchors (inside section headers, through command
+       \@secanchor)
+     - Suppressed some spurious newlines in html output (mostly in HEAD)
+     - ? is no more special (equivalent to @) in indexes
+       " becomes more general (quote everything)
+     - option -dv
+     - chngcntr package.
+     - Use P elements for paragraphs, numerous changes,
+       \n\n lines found while parsing arguments pending, useful ?
+version 1.08+12
+     - Big trouble : forgot mapings in distribution !
+version 1.08+11
+     - Important change in managing inputencodings/charsets, so
+       as they can be different. Documentation done.
+        Basically: for all chars in input
+        1. Translate to unicode
+        2. From one unicode char
+            a- Output as a char if possible in doc charset
+            b- Otherwise, output numerical reference.
+
+     - Changed \limits/\nolimits scanning, so as to find last !
+     - latin encoding support, through the inputenc package and
+       checked numerical entities (\@print@u)
+       Defaut charset is now US-ASCII.
+     - Added eurosym package
+     - Added textcomp package
+     - compatibility deepcut/thebibliography, \sectionning command
+       \@bbliosection must appear in outer scope.
+     - deepcut: also cut footnotes.
+     - chapterbib : sectionbib -> entry in toc.
+version 1.08+10
+     - deepcut patched
+     - supertable completed.
+     - longtable package, a nightmare
+     - forget option argument in \caption, fixed
+     - publicize the generic url hevea.inria.fr
+     - a few changes in graphics/graphicx to allow loading both
+       (and \@imagecommand in html/hevea.hva uses \def)
+     - show/noshow option for package figcut.
+version 1.08+9
+     - figcut and deepcut packages.
+     - \lstavoidpre command in listings -> allow copy/paste in listings.
+version 1.08+8
+     - \settoplinks command for changing hacha links aspect.
+     - Basic chapterbib (works for included files only, no top level
+       bibliography).
+version 1.08+7
+    - change caption (in figure, tables) formatting -> new command
+      \hva@caption that can be redefined for customisation.
+    - correct (once again) eol marker in listings
+      (line skip was missing for firstline=n, n > 1)
+    - new option -pdf for imagen.
+version 1.08+6
+    - ignore keys fraction and myfraction in mathpartir (warning)
+    - trick to allow nested \underline\overline in displays.
+version 1.08+5
+    - Bug in new integerface, canniot use \unset to deactivate
+      a stringizer.., use \lst@inactivate in place. Very inneficient.
+    - new interfaces for commemts and strings, still
+      need to activate various styles in strings,
+      Note the new mecanism for strings,generalize to other
+      delims ? (to implement delete)
+    - new -t option for imagen (doc pending) -> dvips
+    - Got rid of spurious line skip at start of lstlisting env.
+
+version 1.08+4
+    - added delim, moredelim, deletedelim, should now implement
+      new interface for comments and strinsg, and normalize style
+      command names... Semantics of 'delete' key is somehow radical...
+
+version 1.08+3
+    - esponja -> keep color inside A elts
+    - made \today proper (lot of space were introduced).
+    - -w Z warning -> quite a lot of corrections.
+    - Huge bug (all ' -> - in text mode).
+    - breaklines in listings -> warning
+    - Previous fix introduced a bug in balanced/nested comments:
+      replace scan of \endgroup by call to end_comment.
+    - Listing bugs, style command can be arguments to commentstyle and
+      stringstyle
+
+version 1.08+2
+    - <<-o - >> redirects html output to stdout.
+    - added tabsize, showtabs and tab keys in listings, approximate rendering.
+    - added default values for keywords
+    - changed keywords management
+        * keywords are installed while defining languages (and not in
+          hook AfterSetLanguage)
+        * all keywords are erased in PreSetlanguage
+    - added classes in keywords
+    - debugged showlines in listings,  at end ?
+version 1.08+1
+    - key frame (and a few others, related to frames) in listings
+    - \title, \author and \date now work after \begin{document}
+    - Small bug listings, an additional line was appended at the end
+      of listings when showlines=true
+    
+version 1.08
+    - Serious german babel, with active '"'
+
+version 1.08
+    -Release : two major changes
+     * Replace symbol font by entities
+     * Introduction of style sheets.
+version 1.07+2
+   - added some entities for textquoteleft etc. + package ragged2e + bug
+     in german.hva
+   - bug in text generation (safe_make_string in Text.put_line)
+   - output named html colors when appropriate.
+   - added \ifwhitepre to identify space-white=pre,
+     this flags alters Html.put_nbsp behavoir. Should also apply to \@br.
+   - worked on manual (style sheets)
+   - Added interpretation of - -- --- `` and '' in main latexscan.mll
+version 1.07+1
+   - Add lineranges in listings + cleaning showlines
+   - Start using style-sheets
+   - Integrate mathpartir
+   - Small listings bugs (space forgotten in \lstinline"A A").
+   - Erase bussproof and proof, concentrate on Didier's mathparir
+   - Change title/maketitle management -> typeset after document is
+     opened in image file (allow \includegrahics in \title!)
+   - Two listings bugs [backslash newline in strings & argument parsing for
+     lstinline].
+   - Get rid of cpp in Makefile (use sed instead, hope this will work for everybody!)
+   - added all *.hva in libs.defs
+   - added html/style-sheets.hva in libs.def
+   - caption/label keys in the listing package.
+   - change '-o path' behavior for hacha, all generated files go into directory
+     'dirname path'
+   - \@addimagenopt + looking for imagen in libdir (documentation pending)
+   - supertabular package.
+   - change rawhtml -> output in html mode only + new raw and rawtext envs
+   - Additional entities for big delimiters.
+      
+version 1.07
+   - Release, to follow ocaml evolution.
+
+version 1.06+1
+   - Added \lstnewenvironment  in package listings
+   - Pb pour les delims de hauteur 1 : -> rescanner le delimiteur ! Pas le tps.
+   - Bug in text manager : incorrect behavior \centering-like declarations.
+     Solution make the align flags systematically stacked
+   - Add a command-line flag to hacha
+        -nolinks -> suppress Previous/Up/Next links
+   - Small hacha bug : replicate \htmlfoot argument in index.html file
+     even when hevea generated footer is absent.
+   - New \@charset command and xxcharset.exe script, to control
+     output document character set.
+   - firstnumber=auto|last|nnn in listings.hva
+   - started adding an example for listings (exlst.tex)
+   - proper (?) implementation of emph classes in listings
+     (some debug print left)
+   - key label in listings + ignore empty fst argument of env
+     listing + patch on initial line numbers
+   - An attempt to follow << listings >> pace of developement
+     all '*label*' keys are now '*numbers*' keys, snif.
+   - Added bgcolor definition in hevea.sty, not very good
+   - Spaces are irrelevant everywhere in array/tabular format
+   - A new warning for \right and \left in non-display mode.
+   - Special parsing (\@verbimagearg) for ``\DeclareGraphicsRule'' last
+     argument.
+   - Allow multiples > and < in package array.
+   - Better error message for undefined defaults in keyval.
+   - Do not check comments before Save.arg_verbatim.
+   - Added a new primitive \@styleattr
+   - Almost complete multibib package.
+   - Small bit of xypic (-> all \xymatrix are images).
+version 1.06
+version 1.06-7
+  - \ifmagen indroduced, \imagentrue at beginning of .image.tex,
+    \imagenfalse in hevea.sty, if \ifimagen undefined.
+  - Bug -> stopimage in lstinline.
+  - Throw away index when some key field is empty (i.e. mimic makeindex)
+  - Introduced \htmprefix
+  - Bug in ``\@displayint'' (introduced by the new ``\@getprint'')
+  - compatibility with ocaml 3.03 (do not close a file twice)
+  - Table of contents a` la LaTeX.
+  - new ``-hrf'' option for hacha
+  - PNG managment in hevea/imagen
+  - Added a ``-quant'' option to imagen
+  - Changed ``\@getprint'' to interpret characters Cleaned a few bad usages of ``\@getprint''
+  - Added ``\hyperref'' with optional argument.
+  - Added underscore package
+  - Bug htmlfoot, <!--FOOTER--> MUST appear last in hevea output
+  - small stuff in listings (showlines and continued line  numbering)
+version 1.06-6
+  - Added esponja
+  - Better error diagnostic for bad usage of \begin{document}... \end{document}
+  - Added a \tocnomber command to include section numbers in table of
+    contents
+  - Better amstmath package  
+version 1.06-5
+  - \index allowed in section titles (@norefs extension)
+  - Big dynamic scoping bug in packages.hva
+  - Two easy misfeature disappear
+        . trailing -exec prog brougth back one step
+        . blanks allowed in array formats        
+  - Option -version
+  - Bug in image.ml, finalize -> active := false, to make module restartable
+  - Bug moreverb, protect get_line by save_lexstate/restore_lexstate.
+  - Bug paragraphe (remettre Save.seen_par a` false dans make_stack).
+  - Bug \iftest -> modifs locales (par fun_register)
+  - Bug argument csname de \newcommand dans toimage -> save_arg
+  - Licence du manuel.
+  - Bug par, Dest.par None doit e^tre un nop (cf. appel dans expand_command,
+    avec name = \par).
+  - insertion d'un @verbarg pour les clefs de labels et de citations
+  - Hot oubliait les notes de bas de page.
+  - Simplification Misc.copy_hashtbl,
+    ne marche plus pour les liaisans multiples.
+  - small simplification fancyvrb
+  - \sbox lrbox finally ok ?
+  - New \@getprintnostyle primitive
+  - Leading spaces in \usepackage{pkg1, pgk2}
+  - New optimized mode for styles.
+  - Plein de bugs corrige's (arguments a` , notamment), listings et fancyverb
+  
+version 1.06-4   
+version 1.06-3  
+  - Bug hacha, all output now goes into current directory
+  - Paragraphs not ok, quick fix (in \\begin and \\end)
+  - All document was typeset inside a Latexmacros group !
+      -> change \document \enddocument commands
+  - Corrected a bugs in argument parsing/scanning (save_sup/sub and
+    arg scanning with ``may_cont''
+  - alltt flags ignored when the alltt package is not loaded
+  - A little more for fancyvrb 
+
+version 1.06-2
+  - Started implementing the fancyvrb package
+
+version 1.06-1  
+  - A la TeX \mathop
+  - patched bugs in info genearation
+  - alltt implementation revised. Efficency concern
+  - listings package implementation
+  - \def and \let now have TeX semantics *IMPORTANT*
+  - \toplinks, for prev,up, next links on the root file.
+  - Bug for paragraphs inside \@stopoutput.. \@restoreoutput.
+  - Bug CamlCode in get.mll lexer. Correction is patchy.
+version 1.05
+
+version 1.05-7
+  - More customability for arrays and paragraphs
+  - PDF manual
+  - ``Environments'' toimage and verbimage do not define scope in latex
+    anymore.
+  - Some patches in array formats.
+  - New ``cutflow'' feature in hacha.
+  - Bad interaction beeteen new indexenv code and multiple indexes :
+      code for  indexenv is now re-entrant.
+  - Index on two columns by default.
+  - Bug footnotes at document end in info mode
+version 1.05-6
+  - Bad index entries are better treated
+  - nasty regression bug in \bibitem, example in suite.tex
+  - \label and \ref allowed in section headers (by a new @norefs environment)
+  - \@try{txt1}{txt2} as exception handler -> Generalized checkpoints and
+    hot starts.
+  - New primitive \@getprint : get_prim_arg + \@notags + Dest.put,
+    for HTML attributes
+  - Bug exception NoGood (entry.mll and index.tex)
+  - Two bugs: \tabbing closed a group at startup and Sys.rename failure
+    when target exists on windows.
+  - keyval package.
+  - Bug range references in indexes (``|('' .. ``|)'' now ignored)
+  - xxdate.exe script and \today in latexcommon.hva.
+  - -exec prog option for generating .hva files on the fly
+  - New license (QPL).
+  - color (I mean no color!) for text
+  - documentation for new hyperlinks macros and url package
+  - bug argument de \cite
+  - \imageflush is now a hva macro that calls \imgsrc.
+    (internal is \@imageflush)
+  - Bug in htmlMath : # now is a complex character.
+  - new index scheme a` la latex, with external files
+  - aux files read by \document
+  - added de \@stopoutput \@restartoutput
+  - bug \@stopimage \@stopimage .. \@restartimage \@restartimage ->
+     a new stack for active in Image.
+  - hevea.sty based uppon ``comment.sty''
+  - Bug at the end of image scanner
+         (top_close_block was done after stop_other_scan...)
+  - new hevea.sty as a package.
+  - half implemented ``hyperref'' package needs doc
+  - implemented the ``url'' package needs documentation (-> compat.hva)
+  - new management of pending mods in html.ml,
+    cancellation is done on a per-color basis -> more or less efficient ?
+  - Added many colors (hsv, named color models)
+  - new panic mode, (old mode sometimes made hevea loop for ever)
+  - new fancyarticle.hva style for the manual
+  - introduced \@hr -> <HR>  
+  - started length management
+  - all primitives should get their argument by get_prim_arg
+     -> primitive argument are substituted/processed
+        (except \@print of course)
+  - new management of bindings, lexbuf is associated with a current
+    environment.
+  - new primitive \execafter -> graphics package implementation.
+version 1.05-5
+  - Beta version anounced on user mailing list.
+version 1.05-4
+  - Bug basein, file extension is stripped only if it is ``.tex''
+  - Bug verbatiminput (end of file now raises Misc.EndInput).
+version 1.05-3
+  - Allow a few catcode changes on active characters
+  - l,c,r cells get top-aligned when there are other cells with
+    vertical alignement specified (such as p).
+  - new ``Stack'' module.
+  - ``-tocbis'' option for hacha
+  - Introduced \texlet \texdef and better documentation for TeX macros.
+  - Computation of cross-referencing information using .haux files
+  - Delimited arguments
+version 1.05-2
+  - synchro videoc
+version 1.05-1
+  - Small bug in optional arg parsing ('\n' before arg)
+  - Warning for \def with delimiting characters
+  - Small table of contents at file start (hacha modification).
+  - Support for the \FRAME macro from Scientific Word.
+  - For paragraph breaks -> empty lines may contain spaces.
+  - Added a -entities switch -> math symbols as HTML 4.0 entities and
+    unicode character references (yet uncomplete)
+  - Refine the -pedantic option wrt to 4.0 transitional
+
+version 1.04
+  - Experimental mathml mode, for equations.
+  - Choose html 4.0 transitional as default output language
+  - html.ml split into html.ml, htmlCommon.ml and htmlMath.ml.
+  - Better list-making environment and better documentation for them.
+  - Suppressed ``Videoc'' when in text mode.
+  - Added \csname ... \endcsname,
+    environement names such as ``list1'' are supported
+  - Symbols defined as .hva source files.
+  - All internal macros can now be redefined.
+  - Simplified internal macro values (-> 2 constructor only,
+    and CamlCode arg is  lexbuf -> unit)
+  - Added an index in the manual (only extensions on LaTeX are indexed).
+  - Added a secnumdepth counter and make high order defitions for sectional
+    units.
+  - Better paragraph managment across \label and \index.
+  - info and text output, important changes in library organization.
+  - mutind.hva compatibility file (added a \indexname internal command).
+  - Better looking indexes, index tags get expanded.
+  - New behavior for ``_'' and ``^'' outside math mode: they are
+    echoed and a warning is issued
+  - Simplified ``space after macro'' managment.
+  - Mathematical accents added, rendering is far from perfect.
+  - \\ in display mode does not emit <BR> anymore
+  - Small ams compatibility  mode : displayed equations (ams.hva)
+    and \numberwithin (modified Counter.ml for that).
+  - Silly bug : opened files where never closed.
+  - Better error message for missing \makeindex.
+  - Eat \\ optional argument after \hline.
+  - Bug in book.hva : \section* down to \susubsection* should ``\cuthere''
+
+version 1.03
+  - \htmlfoot and \htmlhead commands.
+  - Independant lexers for getting booleans and integers (module Get)
+  - Optimized the regexps for headers in hacha.
+  - A new ``image'' file is generated only when its content changed
+    w.r.t. hevea previous run
+  - macros ``centering'', ``raggedleft'' and ``raggedright''
+  - integrate the ``snippet'' plugin (by Christian.Queinnec@lip6.fr)
+  - change computation of values (integer and boolean)
+  - optimization of size changes, in term of the generated HTML size
+  - commands \ifthenelse and \equal from the ifthenelse package
+  - compatibility with the ``array'' package
+  - html.sty changed into hevea.sty
+  - Better error messages by better exception handling
+         (thanks to Pierre.Weis@inria.fr)
+  - Hevea style files now have extension ``.hva''
+  - Make main scanner a functor (add outManager.mli). This is a first
+    step toward having several output languages.
+  - Added the -extra and -mag options to imagen
+  - Started a FAQ
+  - Cleaned up somehow the output of iso-latin1 special symbols by putting
+    all their definitions in hevea.sty.
+  - Added a -noiso switch to output HTML entities such as &eacute; in place
+    of iso-latin1 characters such as ``é''.
+  - Better macro for \simeq (-> defined in hevea.sty)
+  - Bug in displays : spurious </text-level> were introduced by get_block
+    and by "FORGET".
+  - More precise error message in case of unbalanced environments :
+        the opening line of the pending environment is shown.
+  - Experimental seminar mode
+  - Substitute \input argument
+  - \longrightarrow et \leftrightarrow were forgotten.
+  - Bugs in altt (%, &).
+version 1.02
+  - imagen is less nfs intensive (pipes, temporary files in /usr/tmp) and
+    characters are anti-aliased.
+  - Color in the ``color'' package style.
+  - new verbimage and verblatex that implement the old behavior of
+    latexonly and toimage.
+  - new toimage and latexonlu environments that can appear inside
+    others environments dynamically.
+  - macros arguments are now substituted inside ``toimage'' environments
+  - Small cosmetic changes in paragraph breaks inside nested lists.
+  - Corrected bug in the interaction of \left... \right and \over
+  - added \includonly
+  - added  \@bodyargs \@htmlargs macros to parametrize the <BODY> and <HTML>
+tags.
+  - implemented \renewenvironment.
+  - correctly implemented call-by-name.
+  - the tabbing environment now works as specified.
+  - small bug corrected: spaces after \begin{verbatim} were eaten.
+  - _\cmd and ^\cmd are now recognized
+  - \hspace and \vspace now interpret simple length arguments. (added a length.mll file)
+  - Corrected a bug on the scope of definitions, when a definition fails.
+  - Added support for verbatiminput, on an idea by Philippe Queinnec
+    (Philippe.Queinnec@enseeiht.fr)
+  - Changed module Aux into Auxx, to ease Philip A. Viton (pviton@magnus.acs.ohio-state.edu) Windows port.
+
+Version 1.01 Bug fixes.
+  - Corrected a bug with \frac and \over: text before them appeared
+    above fraction.
+  - Corrected a HACHA bug: a spurious </UL> was introduced before footer.
+  - Corrected a few bugs in documentation (htmlraw -> rawhtml).
+
+Version 1.0
+  Initial release.

@@ -1,0 +1,1470 @@
+\documentclass{article}
+\usepackage{a4wide}
+\usepackage{latexsym}
+\usepackage[latin1]{inputenc}
+\usepackage{../hevea}
+\usepackage{url}
+\usepackage{makeidx}
+\usepackage{color,colortbl}
+\usepackage{ifthen,calc,array,alltt,comment}
+\usepackage{suite-macros}
+
+\title{Test\thanks{Une étoile} de \hevea\thanks{Autre chose}}
+\makeindex
+
+\begin{document}
+\author{}
+\maketitle
+
+\section{Test des polices}
+
+Test {\tt tt \it \Large tt it Large {\bf tt it Large bf } tt it Large
+{\rm Large rm } et encore \normalsize normalsize}
+
+\begin{center}\Large
+Roman
+
+\textsc{\texttt{\textrm{Roman, small caps}}}
+
+\textsf{\textit{Sans Sherif family, italic shape} Sans Sherif family}
+
+\texttt{\textsl{TT family, slanted shape}}
+
+\end{center}
+
+
+\subsection*{Test des tailles}
+\begin{center}%
+\newcommand{\tst}[1]{\csname #1\endcsname{}#1}
+\tst{tiny} \tst{footnotesize} \tst{scriptsize} \tst{small} \tst{normalsize} \tst{large} \tst{Large} \tst{huge} \tst{Huge}
+\tst{huge} \tst{Large}  \tst{large} \tst{normalsize} \tst{small} \tst{scriptsize} \tst{footnotesize} \tst{tiny}
+\end{center}
+
+\begin{htmlonly}
+\subsection{Mélange de couleurs et de familles}
+{\red red \purple purple \ttfamily en rouge et tt}
+
+{\purple purple \red red \ttfamily en rouge et tt}
+\end{htmlonly}
+
+\begin{htmlonly}
+\subsection{Couleurs à la \hevea{}}
+{\Huge
+\purple purple
+\silver silver
+\gray gray
+\white white
+\maroon maroon
+\red red
+\fuchsia fuchsia
+\green green
+\lime lime
+\olive olive
+\yellow yellow
+\navy navy
+\blue blue
+\teal teal
+\aqua aqua
+\htmlcolor{202020}et \c{c}a, c'est presque noir~?
+\htmlcolor{e0e0e0}et \c{c}a, c'est presque blanc~?
+}
+\end{htmlonly}
+
+\subsection{Couleurs à la \textit{color}}
+\subsubsection{Couleurs par défaut}
+\textcolor{black}{noir},
+\textcolor{white}{blanc},
+\textcolor{red}{rouge},
+\textcolor{green}{vert},
+\textcolor{blue}{bleu},
+\textcolor{cyan}{cyan},
+\textcolor{yellow}{jaune},
+\textcolor{magenta}{magenta}.
+
+\definecolor{medium}{gray}{0.5}
+\textcolor{medium}{gris moyen}.
+
+\definecolor{otheryellow}{cmyk}{0, 0, 1, 0.5}
+\textcolor{otheryellow}{Un autre jaune}.
+\begin{htmlonly}
+\subsubsection{Modèle HSV}
+\newcounter{hue}
+\whiledo{\value{hue}<360}
+{\textcolor[hsv]{\thehue,1,1}{\thehue}
+\addtocounter{hue}{1}}
+
+Link colors for the \textsf{fancysection} package:
+\begin{center}
+\setcounter{hue}{0}
+\whiledo{\value{hue}<360}
+{\textcolor[hsv]{\thehue,1,.4}{\underline{visited}}
+\textcolor[hsv]{\thehue,1,.7}{\underline{link}}
+\addtocounter{hue}{10}}
+\end{center}
+
+\subsubsection{Modèle \texttt{named}}
+\newcommand{\testNamed}[1]{\textcolor[named]{#1}{#1}}
+\testNamed{GreenYellow}
+\testNamed{Yellow}
+\testNamed{Goldenrod}
+\testNamed{Dandelion}
+\testNamed{Apricot}
+\testNamed{Peach}
+\testNamed{Melon}
+\testNamed{YellowOrange}
+\testNamed{Orange}
+\testNamed{BurntOrange}
+\testNamed{Bittersweet}
+\testNamed{RedOrange}
+\testNamed{Mahogany}
+\testNamed{Maroon}
+\testNamed{BrickRed}
+\testNamed{Red}
+\testNamed{OrangeRed}
+\testNamed{RubineRed}
+\testNamed{WildStrawberry}
+\testNamed{Salmon}
+\testNamed{CarnationPink}
+\testNamed{Magenta}
+\testNamed{VioletRed}
+\testNamed{Rhodamine}
+\testNamed{Mulberry}
+\testNamed{RedViolet}
+\testNamed{Fuchsia}
+\testNamed{Lavender}
+\testNamed{Thistle}
+\testNamed{Orchid}
+\testNamed{DarkOrchid}
+\testNamed{Purple}
+\testNamed{Plum}
+\testNamed{Violet}
+\testNamed{RoyalPurple}
+\testNamed{BlueViolet}
+\testNamed{Periwinkle}
+\testNamed{CadetBlue}
+\testNamed{CornflowerBlue}
+\testNamed{MidnightBlue}
+\testNamed{NavyBlue}
+\testNamed{RoyalBlue}
+\testNamed{Blue}
+\testNamed{Cerulean}
+\testNamed{Cyan}
+\testNamed{ProcessBlue}
+\testNamed{SkyBlue}
+\testNamed{Turquoise}
+\testNamed{TealBlue}
+\testNamed{Aquamarine}
+\testNamed{BlueGreen}
+\testNamed{Emerald}
+\testNamed{JungleGreen}
+\testNamed{SeaGreen}
+\testNamed{Green}
+\testNamed{ForestGreen}
+\testNamed{PineGreen}
+\testNamed{LimeGreen}
+\testNamed{YellowGreen}
+\testNamed{SpringGreen}
+\testNamed{OliveGreen}
+\testNamed{RawSienna}
+\testNamed{Sepia}
+\testNamed{Brown}
+\testNamed{Tan}
+\testNamed{Gray}
+\testNamed{Black}
+\testNamed{White}
+\end{htmlonly}
+
+\begin{htmlonly}
+\subsection{Optimizer test}
+\subsubsection{Testing a direct class definition}
+Let us consider class ``\texttt{tst}'', {\cls Sans oblique maroon, \hevea}.
+
+Below, colors and style in URL's, small ``E'' in \hevea.
+
+\begin{itemize}
+\item
+Without class: the url~\ahref{\heveaurl}{\hevea} is redirected to~\ahrefurl{\heveasecret}.
+\item Styled, outside:
+{\cls
+the url~\ahref{\heveaurl}{\hevea} is redirected to~\ahrefurl{\heveasecret}.
+}
+\item Style, inside:
+the url~\ahref{\heveaurl}{{\cls\hevea}} is redirected to~\ahrefurl{{\cls\heveasecret}}.
+\end{itemize}
+\subsubsection{Testing a direct style definition}
+Let us consider style ``\texttt{\@tst}'', {\sty Sans oblique maroon, \hevea}.
+
+Below, colors and style in URL's, small ``E'' in \hevea.
+
+\begin{itemize}
+\item
+Without class: the url~\ahref{\heveaurl}{\hevea} is redirected to~\ahrefurl{\heveasecret}.
+\item Styled, outside:
+{\sty
+the url~\ahref{\heveaurl}{\hevea} is redirected to~\ahrefurl{\heveasecret}.
+}
+\item Style, inside:
+the url~\ahref{\heveaurl}{{\sty\hevea}} is redirected to~\ahrefurl{{\sty\heveasecret}}.
+\end{itemize}
+
+\subsubsection{Color mix}
+\def\col@item{\color@name\textcolor{red}{red}}
+\newcommand{\color@mix}[1]
+{{#1{\col@item\color{\color@name}\col@item{\col@item\color{\color@name}\col@item}}\color@name}}
+\begin{itemize}
+\item With class: \color@mix{\clshigh}
+\item With style: \color@mix{\styhigh}
+\item With color: \color@mix{\color{\color@name}}
+\item With macro: \color@mix{\green}
+\end{itemize}
+One may notice that macro {\green green} and color
+\textcolor{green}{green}\footnote{Indeed \textcolor{green}{green}
+is macro {\lime{}\texttt{\backslash{}lime}}.
+Similarily, \textcolor{magenta}{magenta} is macro
+{\fuchsia{}\texttt{\backslash{}fuchsia}},
+\textcolor{cyan}{cyan} is macro
+{\aqua{}\texttt{\backslash{}aqua}}}.
+are different\ldots{} And now
+the same in monospace font
+\begin{itemize}\ttfamily
+\item With class: \color@mix{\clshigh}
+\item With style: \color@mix{\styhigh}
+\item With color: \color@mix{\color{\color@name}}
+\item With macro: \color@mix{\green}
+\end{itemize}
+\end{htmlonly}
+
+\section{Paragraphs}
+
+\subsection{No par skip}
+coucou \begin{em}coucou\end{em} ha ??
+\begin{flushleft}
+\quad\verb+\begin{list}{+{\it default\_label}\verb+}{+{\it decls}\verb+}+
+\end{flushleft}
+coucou
+\begin{verbatim}
+coucou verbatim
+\end{verbatim}
+Coucou
+\begin{quote}
+Quotation coucou
+\end{quote}
+Coucou
+$$
+\left(\begin{array}{ll}
+1 & 2
+\end{array}\right)
+\qquad
+\begin{array}{ll}
+1 & 2
+\end{array}
+$$
+Yet another\label{nopar} After label.
+\subsection{Par skip}
+coucou \begin{em}coucou\end{em} ha ??
+
+\begin{flushleft}
+\quad\verb+\begin{list}{+{\it default\_label}\verb+}{+{\it decls}\verb+}+
+\end{flushleft}
+
+coucou
+
+\begin{verbatim}
+coucou vertabim
+\end{verbatim}
+
+Coucou
+
+\begin{quote}
+Quotation coucou
+\end{quote}
+
+Coucou
+
+$$
+\left(\begin{array}{ll}
+1 & 2
+\end{array}\right)
+\qquad
+\begin{array}{ll}
+1 & 2
+\end{array}
+$$
+
+Yet another
+
+\label{par}
+After label.
+
+\subsection{Paragraphes dans les listes imbriquées (du à
+Ph. A. Vitton)}
+
+This is a test of nested lists.
+\begin{itemize}
+\item This the first item in the top-level
+
+\item This is the second item in the top-level
+
+\begin{itemize}
+\item This is the first item in the second level
+
+\item This is the second item in the second level
+\end{itemize}
+
+\item This is the last item in the top level
+\end{itemize}
+And here is the end of the test.
+
+\subsection{Labels des \texttt{enumerate}}
+\begin{enumerate}
+\item Pour la numérotation
+\begin{enumerate}
+\item Premier.
+\item Second.
+\begin{enumerate}
+\item Encore un.
+\begin{enumerate}\label{dernierenum}
+\item \label{dernieritem}Et
+puis un autre, et là, pour \LaTeX{}, c'est le dernier.
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+Le dernier item est~\ref{dernieritem}. Et le dernier enumerate est~\ref{dernierenum}.
+\section{Arguments}
+Le i chapô sans espaces~: ``\^\i \^{\i }\^\i\^{\i}''
+
+Le i chapô avec espaces~: ``\^\i{} {\^{\i }} \^\i\ \^{\i}''
+
+Les caract\`eres accentu\'es sans peine~:
+``bien \'elev\'e bien \'{e}lev\'{e} tr\`es bien.''
+
+Chaque tableau est un paragraphe
+{\newcommand{\test}[2]{\begin{tabular}{rcl}arg$_1$ & = & ``#1'' \\ arg$_2$ &
+= & ``#2''\end{tabular}}
+\newcommand{\aaa}{$\alpha$}
+
+\test{a}{b}
+
+\test\aaa\aaa
+
+\test\aaa{\aaa}
+
+\test\i i}
+
+\subsection{Espaces et commandes}\label{espace}
+
+\begin{itemize}
+\item Sans espace~:
+
+{avant\bf après},
+{avant\let\decl=\bf avant\decl après},
+{\newcommand{\avant}{avant}\avant après},
+{\newcommand{\test}[1]{#1\bf }\test{avant}après},
+{avant\ref{espace}après},
+{\newcommand{\test}{\ref{espace}}avant\test après},
+{avan\char116 après}.
+
+\item Avec espace~:
+
+{\let\boite=\textbf\boite{avant} après},
+\mbox{avant} après,
+{\newcommand{\test}[1]{#1\bf}\test{avant} après},
+{avant\newcommand{\apres}{après} \apres},
+avant\newsavebox{\testb}\sbox{\testb}{avant} {\usebox{\testb} après},
+{avant \ref{espace} après},
+{\newcommand{\test}[1]{\ref{#1}}avant \test{espace} après},
+{avant\label{zorglub} après},
+{avan\symbol{116} après}.
+\end{itemize}
+
+\section{Math mode}
+
+\subsection{Italiques en mode math}
+
+Alors j'y vais~: $1 + a_{i+1} + \int^N_01/x dx + \frac{\partial x}{2}$
+
+Et puis une petite mbox en exposant~: {\LARGE $\alpha^{\mbox{gros $\beta$}}$}.
+
+Et puis faut bien essayer les autres trucs:
+
+\begin{tabular}{ll}
+{\bf bold} & $\mathbf{1 + a_{i+1} + \int^N_01/x dx + \frac{\partial
+x}{2}}$\\
+{\sf sans sherif} &
+$\mathsf{1 + a_{i+1} + \int^N_01/x dx + \frac{\partial x}{2}}$\\
+{\it italique} &
+$\mathit{1 + a_{i+1} + \int^N_01/x dx + \frac{\partial x}{2}}$
+\end{tabular}
+
+\noindent Bon, on a connu pire~!
+
+
+\subsection{Test des exposants abusifs} $1^{2^{3^{4^5}}}$
+
+
+
+\section{Test du display}
+$$
+ 1 + {\cal A} + 1 = 3
+$$
+
+Comme au dessus mais en mode display:
+
+$$1 + a_{i+1} + \int^N_01/x dx + \frac{\partial x}{2}$$
+
+Mauvais espacement en mode display~:
+$$
+{C_N \over C_{N-1}} + \frac{C_{N+1}}{C_N} + \frac{C_{N-2}}{C_{N-1}}
++ 4 + \cdots + 5
+$$
+
+\section{Les fractions}
+\[
+{x\over y} + f+ \frac{a}{b} + 1
+\]
+
+$$
+A \over B
+$$
+\subsection{Exemples d'utilisateurs}
+
+Ce sont des mélanges de fractions et de délimiteurs.
+\subsection{Lévy}
+{\bfseries
+$\begin{array}{@{\hspace{0ex}}l@{\hspace{0.6ex}}l}
+ {C_N \over {N+1}} & = {C_{N-1} \over N} + {2 \over {N+1}} = {C_2 \over 3} +
+\sum_{3 \leq k \leq N} {2 \over {k+1}} \\[1.7ex]
+
+                  &\simeq 2 \sum_{1 \leq k \leq N} {1 \over k} \simeq
+2 \int_1^N {1 \over x} dx =  2 \ln N
+\end{array}$
+}
+\subsection{Brisset}
+$$
+\left\{{b\over\left({c\over{}d}\right)}\right\}
+$$
+
+\subsection{Alliot}
+$$
+k=
+\left(
+\tan {\left[
+\left(
+\frac{n}{N+1}%
+\right)
+\frac{\pi}2
+\right]}%
+\right)^{p}
+$$
+\subsection{Maranget}
+Centrage des num\'erateurs et d\'enominateurs.
+$$
+\sum_{t=2}^T u_{it} + \frac{1}{\frac{1}{1 + \frac{\pi}{2}}}
+$$
+Et
+$$
+\sum_{t=2}^T u_{it} + \frac{\frac{1}{1}}{1 + \frac{\pi}{2}}
+$$
+
+Ce tableau doit \^etre centr\'e.
+$$
+\begin{array}{cc}
+1 & 2\\
+3 & 4
+\end{array}
+$$
+
+Ces forumules sont \texttt{rclr}.
+$$
+\begin{array}{rclr}
+A_0 & = & 1 & + \frac{1}{2} + \frac{1}{3} \\
+A_1 & = & 1 + \frac{1}{2} & + \frac{1}{3}\\
+A_1 + \frac{A_1}{1} &
+\stackrel{\cdots{}A\cdots}{=} & 1 + \frac{1}{2} + \frac{1}{3} &
+\end{array}
+$$
+
+
+\section{Les tableaux}
+
+\subsection{Environnement définissant un tableau}
+
+\newenvironment{tabdeux}{\begin{tabular}{cc}}{\end{tabular}}
+
+\begin{tabdeux}
+1 & 2
+\end{tabdeux}
+
+\subsection{Les modes dans les tableaux}
+
+\begin{tabular}{c@{foo}c}
+\tt tt & \it it\\
+\sf sf & \sc sc\\
+\end{tabular}
+
+\subsection{Tableaux d'une ligne}
+$$
+\begin{array}{ll}
+1 & 2
+\end{array}
+$$
+
+$$
+\left(\begin{array}{c} 1 \\
+\begin{array}{ll}
+2 & 3
+\end{array}
+\end{array}\right)
+$$
+
+\begin{tabular}{|*{10}{c}}
+1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
+3 & 4 & 5 & 6 & 7 & 8 & 10 & 9 & 1 & 2
+\end{tabular}
+
+\subsection{Multicolonnes}
+
+\begin{tabular}{|rl}
+  zobi & zobi \\
+\multicolumn{2}{c}{coucou-coucou} \\
+\multicolumn{1}{c}{zobi-1} & \multicolumn{1}{c}{zobi-2}
+\end{tabular}
+
+\begin{center}
+\newcommand{\sep}{\quad}
+\begin{tabular}{l|@{\sep}r@{\sep}r@{\sep}r@{\sep}r@{\sep}r}
+& \texttt{fib} &
+\texttt{afib} &
+\texttt{pat} &
+\texttt{qsort} &
+\texttt{count}\\ \hline
+\texttt{join} &  32.0 & 14.5 & 37.2 & 9.9 & 16.4 \\
+\texttt{jocaml} & 5.7 &  3.5 & 5.4 & 1.4 & 4.2 \\
+\texttt{Bologna} & 11.9 & 6.2 &  9.4 & 16.8 & 5.3 \\
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|r|rl|l|} \hline
+\multicolumn{1}{|c}{$n$} & \multicolumn{1}{|c}{$N$} &  &
+                                             \multicolumn{1}{|c|}{Exemple}\\
+\hline
+16 & 65 536                      &  $= \; 6 \times 10^4$  & Macintosh SE/30 \\
+\hline
+32 & 4 294 967 296               &  $= \; 4 \times 10^9$  & Sun, Hp \\
+\hline
+64 & 18 446 744 073 709 551 616  &  $ = \; 2 \times 10^{19}$ & Alpha \\
+\hline
+\end{tabular}
+\end{center}
+
+
+\begin{tabular}{l@{\qquad}p{.3\linewidth}@{\qquad}p{.3\linewidth}}
+Macro & \multicolumn{1}{c}{\hevea} &  \multicolumn{1}{c}{\LaTeX}\\
+\hline
+
+\verb+\url{+\textit{url}\verb+}{+\textit{text}\verb+}+ &
+make \textit{text} an hyperlink to \textit{url} &
+echo \textit{text}\\ \hline
+
+\verb+\footurl{+\textit{url}\verb+}{+\textit{text}\verb+}+ &
+make \textit{text} an hyperlink to \textit{url} &
+make \textit{url} a footnote to \textit{text},
+\textit{url} is shown in typewriter font\\ \hline
+
+\verb+\oneurl{+\textit{url}\verb+}+ &
+make \textit{url} an hyperlink to \textit{url}.
+&
+typeset \textit{url} in typewriter font\\ \hline
+\verb\\
+
+\verb+\mailto{+address\verb+}+ &
+make \textit{address} a ``mailto'' link to \textit{address} &
+typeset \textit{address} in typewriter font\\ \hline
+
+\verb+\home{+\textit{text}\verb+}+ &
+\multicolumn{2}{p{.6\linewidth}}{produce a home-dir url both for output and links, output aspect is: ``\home{\textit{text}}''}
+\end{tabular}
+
+\subsection{Les attributs des tables}
+\begin{center}
+\ifhevea
+\renewcommand{\@table@attributes}{style="width:50\%;border:ridge 10px"}%
+\fi
+\begin{tabular}{cc}
+coucou & foo \\
+argl   & bar
+\end{tabular}
+
+\ifhevea\renewcommand{\@table@attributes}{style="background:gray;border-spacing:0;border:0"}
+\newenvironment{bg}[1]
+  {\begin{bgcolor}[style="border-spacing:0;border:0"]{#1}}
+  {\end{bgcolor}}
+\begin{tabular}{cc}
+\begin{bg}{red}coucou\end{bg} & \begin{bg}{white}foo\end{bg}\\
+argl   & \raggedleft
+\begin{tabular}{cc}
+\begin{bg}{yellow}coucou\end{bg}&\begin{bg}{green}coucou\end{bg}
+\end{tabular}
+\end{tabular}
+
+\newcommand{\pair}[2]
+  {\@open{TR}{}%
+  \@open{TD}{style="background-color:yellow"}#1\@close{TD}%
+  \@open{TD}{}#2\@close{TD}\@close{TR}}
+\newcommand{\impair}[2]
+  {\@open{TR}{}%
+  \@open{TD}{}#1\@close{TD}%
+  \@open{TD}{style="background-color:yellow"}#2\@close{TD}\@close{TR}}
+\newenvironment{damier}
+  {\@open{TABLE}{style="background:lime;border-spacing:0;border:0"}}
+  {\@close{TABLE}}
+\newcounter{damier}
+\begin{damier}
+\whiledo{\value{damier}<2}
+{\pair{coucou}{foo}
+\impair{foo}{coucou}
+\addtocounter{damier}{1}}
+\end{damier}
+\fi
+\end{center}
+
+\subsection{Package \texttt{colortbl}}
+\newcounter{damierbis}
+\newcolumntype{C}{>{\columncolor{cyan}}c}
+\newcolumntype{Y}{>{\columncolor{yellow}}c}
+\newenvironment{damier}[1]
+  {\ifhevea\renewcommand{\@table@attributes}{style="border-spacing:0;border:0"}\fi
+  \setcounter{damierbis}{#1}\begin{tabular}{YC}}
+  {\end{tabular}}
+\newcommand{\pair}[2]{#1 & #2}
+\newcommand{\impair}[2]{\multicolumn{1}{C}{#1} & \multicolumn{1}{Y}{#2}}
+\begin{damier}{4}
+\whiledo{\value{damierbis}>0}
+{\pair{coucou}{foo}\\
+\impair{foo}{coucou}\\
+\addtocounter{damierbis}{-1}}
+\pair{coucou}{foo}\\
+\impair{foo}{coucou}
+\end{damier}
+
+\subsection{Les délimiteurs}
+$$
+\left\{\begin{array}{cc}
+\left(\begin{array}{c}1\end{array}\right) &
+\left(2\right)
+\end{array}\right\}
+$$
+
+$$
+\left|\left\{
+\left( 1 \right) =
+\left( 1 \right) =
+\left( 1 \right) =
+\left[\begin{array}{c}1\\2\\3\end{array}\right]
+\right\}\right\}
+$$
+
+$$\begin{array}{lll}\hline \hline \\
+\left(\begin{array}{rrr}\hline
+4 & 9 & 2 \\
+3 & 5 & 7 \\
+8 & 1 & 6 \\ \hline
+\end{array} \right) &
+\left(\begin{array}{rrrrr}
+11 & 18 & 25 &  2 & 9 \\
+10 & 12 & 19 & 21 & 3 \\
+ 4 &  6 & 13 & 20 & 22 \\
+23 &  5 &  7 & 14 & 16 \\
+17 & 24 &  1 &  8 & 15
+\end{array} \right) &
+\left(\begin{array}{rrrrrrc}
+22 & 31 & 40 & 49 &  2 & 11 & 20 \\
+21 & 23 & 32 & 41 & 43 &  3 & 12 \\
+13 & 15 & 24 & 33 & 42 & 44 &  4 \\
+ 5 & 14 & 16 & 25 & 34 & 36 & 45 \\
+46 &  6 &  8 & 17 & 26 & 35 & 37 \\
+38 & 47 &  7 &  9 & 18 & 27 & 29 \\
+30 & 39 & 48 &  1 & 10 & 19 &
+\left\{\begin{array}{ll} 0 & 0 \\ 0 & 0 \end{array}\right\}
+\end{array}\right) \\\hline \hline
+\end{array} $$
+
+\subsection{\texttt{array} et \texttt{tabular} en mode display math}
+$$
+\left(\begin{tabular}{c}
+$\Gamma$\\
+$\Delta$\\
+\end{tabular}\right)
+$$
+
+$$
+\left(\begin{array}{c}
+\Gamma\\
+\Delta
+\end{array}\right)
+$$
+\subsection{Un exemple très tordu}
+
+\begin{center}
+\begin{tabular}{lllllllllllll}
+% +
+\begin{tabular}{|@{\enspace}c@{\enspace}|}
+    \\
+    \\
+    \\
+    \\
+    \\
+$+$ \\ \hline
+\end{tabular} &
+% + *
+\begin{tabular}{|@{\enspace}c@{\enspace}|}
+    \\
+    \\
+    \\
+    \\
+$*$ \\
+$+$ \\ \hline
+\end{tabular} &
+% + * +
+\begin{tabular}{|@{\enspace}c@{\enspace}|}
+    \\
+    \\
+    \\
+$+$ \\
+$*$ \\
+$+$ \\ \hline
+\end{tabular} &
+% + * + 35
+\begin{tabular}{|@{\enspace}c@{\enspace}|}
+    \\
+    \\
+$35$ \\
+$+$   \\
+$*$ \\
+$+$ \\ \hline
+\end{tabular} &
+% + * 71
+\begin{tabular}{|@{\enspace}c@{\enspace}|}
+    \\
+   \\
+    \\
+71   \\
+$*$ \\
+$+$ \\ \hline
+\end{tabular} &
+% + * 71 +
+\begin{tabular}{|@{\enspace}c@{\enspace}|}
+    \\
+    \\
+$+$    \\
+71    \\
+$*$  \\
+$+$ \\ \hline
+\end{tabular} &
+% + * 71 + 5
+\begin{tabular}{|@{\enspace}c@{\enspace}|}
+     \\
+ 5   \\
+$+$    \\
+71    \\
+$*$  \\
+$+$ \\ \hline
+\end{tabular} &
+% + 781
+\begin{tabular}{|@{\enspace}c@{\enspace}|}
+    \\
+    \\
+    \\
+    \\
+781  \\
+$+$ \\ \hline
+\end{tabular} &
+% + 781 *
+\begin{tabular}{|@{\enspace}c@{\enspace}|}
+    \\
+    \\
+    \\
+$*$    \\
+781  \\
+$+$ \\ \hline
+\end{tabular} &
+% + 781 * +
+\begin{tabular}{|@{\enspace}c@{\enspace}|}
+    \\
+  \\
+$+$ \\
+$*$ \\
+781  \\
+$+$ \\ \hline
+\end{tabular} &
+% + 781 * + 7
+\begin{tabular}{|@{\enspace}c@{\enspace}|}
+    \\
+ 7   \\
+ $+$ \\
+$*$ \\
+781  \\
+$+$ \\ \hline
+\end{tabular} &
+% + 781 * 15
+\begin{tabular}{|@{\enspace}c@{\enspace}|}
+    \\
+$*$ \\
+15 \\
+$*$ \\
+781  \\
+$+$ \\ \hline
+\end{tabular} &
+% + 781 * 15 * 9* 9
+\begin{tabular}{|@{\enspace}c@{\enspace}|}
+9   \\
+$*$ \\
+15 \\
+$*$ \\
+781  \\
+$+$ \\ \hline
+\end{tabular}
+% 1996
+\end{tabular}
+\end{center}
+
+
+
+\subsubsection{Quelques délimiteurs imbriqués}
+
+\begin{table}[h]
+$$
+\left[\left(\begin{array}{cc} 1 & 2 \\ \alpha & a_i^k
+\end{array}\right)
++ \sum_{j=0}^{\kappa(j) < \Delta(k)} \left|\begin{array}{cc} {\cal A}  & \aleph \\ \gamma & \partial
+x\over y \end{array}\right|\right]
+$$
+\caption{\label{t1}Les délimiteurs dans une table (voir section~\ref{allrefs})}
+\end{table}
+
+\subsection{Les exposants terribles}\label{plushaut}
+$$
+ 2^{\left.\begin{array}{@{}c@{}}
+{\mbox{\scriptsize 2}^{\mbox{$\cdot^{\mbox{$\cdot^{\mbox{$\cdot^2$}}$}}$}}
+}\end{array}\right\} n}
+$$
+
+\subsection{Newtheorm + cases}
+
+\newtheorem{theoreme}{Th\'eor\`eme}
+\newtheorem{ath}[theoreme]{Autre théorème}
+\newcommand{\Preuve}{\noindent{\bf Preuve} ~}
+
+\begin{theoreme}\label{un}
+Soit $M^p$ la puissance p-i\`eme de la matrice $M$, le co{e}fficient
+$M^{p}_{i,j}$ est \'egal au nombre de chemins de longueur $p$ de $G$
+dont l'origine est le sommet $x_i$ et dont l'extr\'emit\'e est le
+sommet $x_j$.
+\end{theoreme}
+\begin{ath}[Pour voir]\label{deux}
+Ça devrait avoir le numéro 2.
+\end{ath}
+\Preuve On effectue une r\'ecurrence sur $p$. Pour $p=1$ le
+r\'esultat est imm\'ediat car un chemin de longueur $1$ est un arc du
+graphe. Le calcul de $M^p$, pour $p > 1$ donne: \[M^{p}_{i,j} =
+\sum_{k=1}^{n}M^{p-1}_{i,k} M_{k,j}\] Or tout chemin de longueur $p$
+entre $x_i$ et $x_j$ se d\'ecompose en un chemin de longueur $p-1$
+entre $x_i$ et un certain $x_k$ suivi d'un arc reliant $x_k$ et $x_j$.
+Le r\'esultat d\'ecoule alors de l' hypoth\`ese de r\'ecurrence
+suivant laquelle $M^{p-1}_{i,k}$ est le nombre de chemins de longueur
+$p-1$ joignant $x_i$ \`a $x_k$.
+
+$$L(i,j)=\cases{1 + L(i-1,j-1)            &si $a_i=b_j$ \cr
+                \max (L(i,j-1),L(i-1,j))  &sinon.}      \eqno{(*)}
+$$
+
+\section{Les boîtes}
+\newsavebox{\coucou}
+\begin{lrbox}{\coucou}
+Coucou!
+\end{lrbox}
+\usebox{\coucou}
+{\ttfamily
+$$
+\usebox{\coucou}
+\begin{lrbox}{\coucou}
+\(\int^1_0 \pi dx\)
+\end{lrbox}
+\usebox{\coucou}
+\sbox{\coucou}{}
+\mbox{C'est du tt vide: ``\usebox{\coucou}''}
+$$}
+
+\section{Quelques références}\label{ici}\label{allrefs}
+Alors ici je suis en~\ref{ici}. Ensuite je serai là-bas
+en~\ref{labas}.
+Il y a déjà un petit moment j'étais plus haut avec plein de potes exposants~\ref{plushaut}.
+J'ai aussi écrit des théorèmes~\ref{un} et~\ref{deux}.
+
+J'ai déjà fait une table~: la table~\ref{t1}. J'en ai une autre à la
+fin, la table~\ref{t2}.
+
+J'essaie aussi une figure~\ref{figure}
+\begin{figure}[t]
+\begin{center}Pan dans la figure\end{center}
+\caption{\label{figure}Je suis une figure}
+\end{figure}
+\subsection{Poussons le vice ici\label{vice}~\ref{vice}}
+Cette sous-section~\ref{vice} pousse le vice jusqu'à avoir à la
+fois un \verb+\label+ et un \verb+\ref+ dans son titre.
+
+
+\section{Quelques notes de bas de page}\label{labas}
+Coucou\footnote{coucou}
+\textsl{et là ??\footnote{Une autre}}.
+Une note recomposée\footnotemark\footnotetext{Numéro \ifhevea{}quatre\else{}trois\fi}.
+
+\begin{table*}
+\begin{flushleft}
+Ceci est la table de la fin.\\
+Bref c'est fini.\\
+\end{flushleft}
+\caption{\label{t2}}
+\end{table*}
+
+\section{Encore un effort}
+
+\def\trans#1{\stackrel{#1}{\rightarrow}}
+$$
+A_0 = \epsilon(\{e_0\}) \trans{\alpha_0} A_1 \trans{\alpha_1} \cdots \trans{\alpha_{k-1}} A_k
+$$
+
+$$
+e_i \in \epsilon(A) ~ \mbox{et} ~ (e_i,e_{i+1},\epsilon) \in T  \Rightarrow
+e_{i+1} \in \epsilon(A)
+$$
+
+$$
+A^{3+k-1}_{j+8-i}
+$$
+
+$$\tt
+\alpha_j
+$$
+
+\begin{itemize}\label{coucou}
+\item Chouette r\'ef\'erence~\ref{coucou}, non ?
+\end{itemize}
+
+\section{Quelques listes}\label{listes}
+\begingroup
+\begin{trivlist}
+\item Coucou
+\item Zobi\label{zob:triv}
+\end{trivlist}
+
+\newcounter{coucou}
+\renewcommand{\thecoucou}{\Alph{coucou}}
+\begin{list}{\thecoucou}{\renewcommand{\makelabel}[1]{\underline{#1}}\usecounter{coucou}}\label{label-inside-list}
+\item Coucou
+\item Zobi\label{zob:under}
+\end{list}
+R\'ef\'erence~: \ref{label-inside-list}
+
+À comparer avec~:
+\begin{list}{\thecoucou}{\usecounter{coucou}}\label{zob:top}
+\item Coucou
+\item Zobi\label{zob:compare}
+\end{list}
+Avec les références \ref{zob:top}, \ref{zob:triv}, \ref{zob:under}
+et~\ref{zob:compare}.
+
+\newenvironment{foo}{\begin{trivlist}\it\item[coucou]}{\end{trivlist}}
+\begin{foo}
+Foo! foooooooooooooooooooo.
+\end{foo}
+\index{autre@L'index \hevea{} doit être~\ref{listes}}
+
+Et puis encore un:
+\newenvironment{list2}{\begin{list}
+    {}{\setlength{\itemsep}{0em} \setlength{\labelsep}{0em}
+      \renewcommand{\makelabel}[1]{\textbf{$\bullet$\ ##1}}}}{\end{list}}
+\begin{list2}
+\item Coucou
+\item Zobi
+\begin{list2}
+\item[a] Coucou
+\item[b] Zobi
+\end{list2}
+\end{list2}
+
+\section{Beurk}
+
+{\centering coucou}
+
+\begin{itemize}
+\raggedleft
+\item coucou
+\end{itemize}
+
+{\raggedright coucou}
+
+
+\begin{center}
+coucou
+\end{center}
+
+\begin{flushleft}
+coucou
+\end{flushleft}
+
+\begin{flushright}
+coucou
+\end{flushright}
+\endgroup
+
+\section{Test de l'index}
+\newcommand{\gros}[1]{{\Huge#1}}
+\index{a}
+\index{a}
+\index{aa}
+\index{a|gros}
+\index{a@$\alpha$}
+\index{b}
+\index{b!a}
+\index{b!a!a}
+\index{b!a!a}
+\index{b!a!a!a|gros}
+\index{b!a!a!a}
+\index{b!a!a!a!a!a!a|see{ailleurs}}
+\index{b!a!a!a!a!a!a|textit}
+\index{b!a!a!a@$\alpha_{\alpha}$}
+\index{b!a!a!b}
+\index{b!a!b}
+\index{b@$\beta$|see{b}}
+\index{foo}
+\index{z@\textbf{Pour z}}
+
+Dans cet index les numéros sont ceux de cette section, sauf un.
+\printindex
+\section{Macro substitution}
+
+\noindent X\enspace X\\
+X\quad X\\
+X\qquad X
+
+%\newcommand{\app}[2]{#1{#2}}
+%\app{\texttt}{coucou}
+
+\newcommand{\gensymbol}{{\rm\sl symbol}}
+\newcommand{\nelist}[2]{#1 {\tt #2} \ldots {\tt #2} #1}
+
+
+Un espace~: ``\nelist{\gensymbol}{sep}''
+
+Tout collé~: \gensymbol {\tt sep}
+
+Les arguments substitués sont lexés sans tenir compte de la suite
+\newcommand{\coucoux}[2]{{#1#2}}
+\newcommand{\coucoubis}[2]{{#1 #2}}
+
+Ca marche~: \coucoux{\it}{zobi}
+
+Il y a un espace avant ``zobi''~: [\coucoubis{\it}{zobi}]
+\subsection{un}
+
+Tout pareil:
+\begin{quote}
+$1+2^n$
+\(1+2^n\)
+\begin{math}1+2^n\end{math}
+\ensuremath{1+2^n}
+$\ensuremath{1+2^n}$
+\end{quote}
+
+Tout pareil en display:
+\begin{quote}
+$$1 + \sum_{i=0}^{2^n} i^i$$
+\begin{displaymath}
+1 + \sum_{i=0}^{2^n} i^i
+\end{displaymath}
+\end{quote}
+
+\begin{equation}
+\pi \sim 3.14159\ldots\label{uneq}
+\end{equation}
+
+\subsection{deux}
+\begin{equation}\label{deuxeq}
+e \sim 2.71\ldots
+\end{equation}
+
+J'ai fait deux équations~\ref{uneq} et~\ref{deuxeq}.
+J'en fais encore deux ci-dessous~\ref{troiseq} et~\ref{cinqeq}:
+\begin{eqnarray}
+e & = & \sum_{n=0}^{\infty} \frac{1}{n!}\label{troiseq}\\
+\nonumber\pi & \sim & 4 * \arctan(1)\label{quatreeq}\\
+\log(1+\epsilon) & = & 1 + \epsilon + O(\epsilon)\label{cinqeq}\\
+\nonumber\lefteqn{1 + 2 + 3 + \cdots + n}\\
+  & = & \frac{n*(n+1)}{2}
+\end{eqnarray}
+
+Les mêmes sans les numéros:
+\begin{eqnarray*}
+e & = & \sum_{n=0}^{\infty} \frac{1}{n!}\\
+\pi & \sim & 4 * \arctan(1)
+\end{eqnarray*}
+
+\subsection{Display dans les tableaux}
+Ici, \verb+array+ ouvre le mode ``display maths''. Comparons,
+$\left[\sum_{n=0}^{\infty} \frac{1}{n!} + \frac{1}{2}\right]$ et
+$
+\left[\begin{array}{c}
+ \sum_{n=0}^{\infty} \frac{1}{n!} + \frac{1}{2}
+\end{array}\right]
+$
+
+Et puis aussi la façon de procéder, c'est à dire en mode
+\emph{display} dès le début~:
+$$
+\left[\begin{array}{c}
+\displaystyle \sum_{n=0}^{\infty} \frac{1}{n!} + \frac{1}{2}
+\end{array}\right]
+$$
+\subsubsection{Ellipsis}
+$$
+1 + 2 + \cdots + n \quad
+\left\{\begin{array}{c}
+1\\ \vdots \\ 2
+\end{array}\right\}
+\quad
+\left|\begin{array}{ccc}
+1 & & \\ & \ddots & \\ & & 2
+\end{array}\right|
+$$
+
+\subsubsection{Replacement symbol}
+$$
+A \leadsto B
+$$
+
+\subsubsection{Putting one thing above the other}
+$$
+\overline{A}  \stackrel{B}{\rightarrow}  \underline{C}
+$$
+Et pis en texte: $\overline{A} \stackrel{B}{\rightarrow}
+\underline{C}$
+
+
+\subsection{Arrays}
+\begin{tabular}{*{3}{l}}
+1 & 2 & 3\\
+\\
+3 & 2 & 1
+\end{tabular}
+
+\begin{tabular*}{10cm}{*3{|@{\extracolsep{\fill}}l}|}
+1 & 2 & 3\\
+  &   &  \\
+3 & 2 & 1
+\end{tabular*}
+
+\section{The \texttt{ifthen} Package}
+
+\subsection{Des ok partout}
+\newboolean{coucou}\newboolean{zob}%
+\ifthenelse{\boolean{coucou}}{\setboolean{zob}{false}}{\setboolean{zob}{true}}%
+
+
+\ifthenelse{\boolean{coucou}}{malaise}{ok}
+\ifthenelse{\boolean{coucou} \or \boolean{zob}}{ok}{malaise}
+
+\newcommand{\vrai}{true}%
+\ifthenelse{\equal{\vrai}{true} \and \not\(\equal{\vrai}{}\)}{ok}{malaise}
+
+
+\subsection{La totale}
+{\newcounter{ca}\newcounter{cb}}%
+\newcommand{\printgcd}[2]{%
+  \setcounter{ca}{#1}\setcounter{cb}{#2}%
+  Gcd(#1, #2) =
+  \whiledo{\not\(\value{ca}= \value{cb}\)}%
+    {\ifthenelse{\value{ca}>\value{cb}}%
+      {\addtocounter{ca}{-\value{cb}}}%
+      {\addtocounter{cb}{-\value{ca}}}%
+    gcd(\arabic{ca}, \arabic{cb}) = }%
+  \arabic{ca}.}%
+Test du pgcd : \printgcd{54}{30}
+
+\section{The \texttt{calc} package}
+Aller voir~\cite{latexbis}
+
+\section{The \texttt{comment} package}
+\includecomment{inclus}
+\begin{comment}
+\typeout{BUG: je ne devrais pas apparaître~!!!!}
+\end{comment}
+
+\begin{inclus}
+\begin{itemize}
+\item Premier item.
+\end{inclus}
+\item Deuxième item.
+\begin{inclus}
+\item Troisi\`eme item.
+\end{itemize}
+\end{inclus}
+
+
+\subsection{Me suis-je planté~?}
+\newcounter{plante}
+\setcounter{plante}{2}
+\addtocounter{plante}{1 + -\value{plante} * -2 }
+Ça doit faire $7$~: \theplante
+
+
+\setcounter{plante}{\value{plante}/2}
+Ça doit faire $3$~: \theplante
+
+\addtocounter{plante}{1+--1}
+Ça doit faire $5$~: \theplante
+
+\addtocounter{plante}{0-+-+1}
+Ça doit faire $6$~: \theplante
+
+\setcounter{plante}{1+---2}
+Ça doit faire $-1$~: \theplante
+
+\setcounter{plante}{1+-1*-2*-\value{plante}}
+Ça doit faire $3$~: \theplante
+
+\subsection{Pascal chez les Romains}
+\newcounter{res}\newcounter{x}\newcounter{y}
+\newcommand{\crec}[2]{%
+\setcounter{x}{#1}\setcounter{y}{#2}%
+\ifthenelse{\value{x}=0}{\addtocounter{res}{1}}
+{\ifthenelse{\value{x}=\value{y}}{\addtocounter{res}{1}}{\crec{#1}{#2-1}\crec{#1-1}{#2-1}}}}
+\newcommand{\C}[2]{\setcounter{res}{0}\crec{#1}{#2}\theres}
+
+\newcommand{\pascalrow}{%
+\ifthenelse{\value{j} < \value{i}}
+  {\C{\value{j}}{\value{i}}& &\addtocounter{j}{1}\pascalrow}
+  {\C{\value{i}}{\value{i}}}}%
+
+\newcounter{i}\newcounter{j}\newcounter{k}
+\newcommand{\emptycols}[1]{\setcounter{k}{#1}\ifthenelse{\value{k}=0}{}{&\emptycols{#1-1}}}%
+\newcommand{\pascalcols}[1]{%
+\setcounter{i}{0}%
+\whiledo{\value{i} < #1}{%
+  \setcounter{j}{0}%
+  \emptycols{#1-\value{i}-1}\pascalrow%
+  \addtocounter{i}{1}%
+  \ifthenelse{\value{i}<#1}{\\}{}}}%
+%BEGIN LATEX
+\newcommand{\PBS}[1]{\let\tmp=\\#1\let\\=\tmp}
+%END LATEX
+%HEVEA\newcommand{\PBS}[1]{#1}
+\newcolumntype{P}[1]{p{#1}}
+\newcommand{\pascal}[2]{%
+\setcounter{i}{2*#1-1}%
+\begin{tabular}{*{\value{i}}{@{}>{\PBS\centering}P{#2}}}
+\pascalcols{#1}
+\end{tabular}}
+
+\begin{tabular}{cc}\hline
+\pascal{8}{2ex} &
+\renewcommand{\theres}{\roman{res}}%
+\pascal{8}{4ex}\\ \hline
+\end{tabular}
+
+\section{The \texttt{array} package}
+
+\subsection{Trucs simples}
+\newcolumntype{B}[1]{>{\raggedleft}b{#1}}
+\noindent Aligné en bas (et à droite)~:\\
+\begin{tabular}{B{.30\linewidth}|B{.30\linewidth}|B{.30\linewidth}}
+Ceci est un texte assez long pour faire plusieures lignes,
+enfin j'espère. En effet les lignes HTML sont plus longues que les
+lignes de \LaTeX{}, surtout avec le format de ce document de test.  &
+Là aussi il faut bosser un peu pour avoir plus d'une ligne &
+Là, c'est court exprès
+\end{tabular}
+
+\bigskip
+
+\newcolumntype{M}[1]{>{\centering}m{#1}}
+\noindent Aligné au centre~:\\
+\begin{tabular}{M{.30\linewidth}M{.30\linewidth}M{.30\linewidth}}
+Ceci est un texte assez long pour faire plusieures lignes,
+enfin j'espère. En effet les lignes HTML sont plus longues que les
+lignes de \LaTeX{}, surtout avec le format de ce document de test.  &
+Là aussi il faut bosser un peu pour avoir plus d'une ligne &
+Là, c'est court exprès
+\end{tabular}
+
+\bigskip
+
+\noindent Aligné en haut~:\\
+\begin{tabular}{p{.30\linewidth}p{.30\linewidth}p{.30\linewidth}}
+\raggedright Ceci est un texte assez long pour faire plusieures lignes,
+enfin j'espère. En effet les lignes HTML sont plus longues que les
+lignes de \LaTeX{}, surtout avec le format de ce document de test.  &
+Là aussi il faut bosser un peu pour avoir plus d'une ligne &
+Là, c'est court exprès
+\end{tabular}
+
+\bigskip
+
+\noindent Mais si on mélange, alors ça n'a plus rien à voir~:\\
+\begin{tabular}{b{.30\linewidth}p{.30\linewidth}b{.30\linewidth}}
+\raggedright Ceci est un texte assez long pour faire plusieures lignes,
+enfin j'espère. En effet les lignes HTML sont plus longues que les
+lignes de \LaTeX{}, surtout avec le format de ce document de test.  &
+Là aussi il faut bosser un peu pour avoir plus d'une ligne &
+Là, c'est court exprès
+\end{tabular}
+
+\subsection{Horreurs diverses}
+$$
+\begin{array}{c@{=}>{$n }c<{ n$}}
+\Gamma_A & Coucou \\ \hline
+\multicolumn{2}{>{m }b{2cm}<{ m}}{coucou}\\ \hline
+\Gamma_A & Coucou \\
+\end{array}
+$$
+
+$$
+\begin{array}{c@{=}c}
+\Gamma_A & Coucou \\ \hline
+\multicolumn{2}{>{m }b{2cm}<{ m}}{coucou coucou}\\ \hline
+\Gamma_A & Coucou \\
+\end{array}
+$$
+
+
+\begin{tabular}{>{\bf}c|>{\it}r}
+Coucou & Zob\\
+Foo & Foobis\\
+\end{tabular}
+
+\begin{tabular}{c>{$}c<{$}}
+Coucou & \Gamma_A\\
+Coucou & \Gamma_A \\
+\end{tabular}
+
+\section{Macros \TeX}
+\begin{flushleft}
+\newcommand{\testone}[2][default]{\texttt{testone}(#1,#2)}
+\def\testtwo[#1]#2{\texttt{testtwo}(#1,#2)}
+\def\argument{argument}
+
+\noindent
+\testone{argument}; \\
+\testone[bracketed argument]{argument}. \\
+\testtwo[bracketed {\bf argument]}]{argument}.
+
+\noindent
+\testone{\argument}; \\
+\testone
+     [bracketed \argument]
+     {\argument}. \\
+\testtwo[bracketed \argument]{\argument}.
+
+\def\Look{\textsc{Look}}
+\def\x{\textsc{x}}
+\def\cs AB#1#2C$#3\$ {#3{ab#1}#1 c\x #2}%$
+\cs AB {\Look}{}C${And \$}{look}\$ 5.
+
+\def\moi AVANT#1APRES{#1}
+\moi AVANTAPRAPRES
+\def\toi#1AAC{#1}
+``\toi AAAC''
+\end{flushleft}%$
+
+\begingroup
+\def\ya
+  #1{\def\yb
+    ##1#1{\def\yc
+      ####1##1{\def\yd
+        ########1####1{########1 + ####1 + ##1 + #1}}}}%
+Ça doit faire : 4 + 3 + 2 + 1
+
+Ça fait : \ya{1}\yb21\yc32\yd43
+\endgroup
+
+\subsection{Test de \texttt{\char92csname}}
+Ce test réalise un tableau à affectation unique.
+
+\begin{flushleft}
+\def\zset#1#2{\expandafter\def\csname coucou#1\endcsname{#2}}%
+\def\zget#1{\csname coucou#1\endcsname}%
+\zset{100}{cent}%
+cent: \zget{100}
+
+\newcounter{foo}\zset{\thefoo}{coucou}%
+coucou: \zget{\thefoo}
+
+\stepcounter{foo}\zset{\thefoo}{encore}%
+encore: \zget{\thefoo}, coucou: \zget{0}
+
+\def\zob{zob}\def\foo{\zob}\zset{\foo}{FOO}%
+FOO: \zget{zob}
+
+\zset{10}{zorglub}\zset{\zget{10}}{\texttt{coucou}}%
+\texttt{coucou}: \zget{\zget{10}}, \texttt{coucou}: \zget{zorglub}
+\end{flushleft}
+
+
+\section{Un peu de \texttt{alltt}}
+\newcommand{\nth}[2]{${#1}_{#2}$}
+\begin{alltt}
+        ocamlrun caml.out \nth{arg}{1} \nth{arg}{2} \ldots \nth{arg}{n}
+\end{alltt}
+
+\begin{alltt}
+        ocamlc -use-runtime /home/me/ocamlunixrun -o myprog \char92
+                unix.cma threads.cma {\it{your .cmo and .cma files}}
+\end{alltt}
+\newcommand{\under}[1]{$_{\mbox{#1}}$}
+\newcommand{\rien}[1]{~#1~}
+\begin{alltt}
+Et voici notre ami le ``#1'' et notre pote le ``_''.
+Et voici une macro qui fait des indices A\under{1}.
+\end{alltt}
+
+Bon y avait un problème avec les arguments dont le caractère alltt ou
+pas est à considérer là où il apparaissent en tant qu'arguments.
+Bref ya des \verb+$$+ là dessous:
+\begin{alltt}
+\rien{\rien{\rien{$$}}}
+\end{alltt}
+
+%\newenvironment{vicieux}{\begin{alltt}\Large}{\end{alltt}}
+%\begin{vicieux}\rien{\rien{$$}}\end{vicieux}
+
+Normalement on a des tirets genre \verb+-- & --+,
+ici \texttt{-- \& ---}, et dessous aussi~:
+\begin{alltt}
+-- & --
+\end{alltt}
+
+\section{Les notes de bas de page en folie}
+I hate this footnote\footnote{this is the footnote}
+twice\footnotemark[\value{footnote}].
+
+\newcounter{bof}\setcounter{bof}{\value{footnote}}\addtocounter{bof}{1}
+It was Gnats\footnotemark\ and Gnus\footnotemark\
+\addtocounter{footnote}{-1}%
+\footnotetext{Small insects}%
+\addtocounter{footnote}{1}\footnotetext{Large mammals}%
+as we trekked through Africa, and gnats\footnotemark[\value{bof}]
+and gnus\addtocounter{bof}{1}\footnotemark[\value{bof}] again and again\ldots
+Une dernière note de bas de page pour la route\footnote{Je suis la
+dernière}.
+
+\begin{thebibliography}{xxxxxxxxxx}
+\bibitem[\LaTeX-bis]{latexbis}
+M.~Gooseens, F.~Mittelbach, A.~Samarin.
+\newblock {\em The \LaTeX{} Companion}
+\newblock Addison-Websley, 1994.
+\bibitem{foo} Numéro un.
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,36 @@
+J'ai la joie d'anoncer la nouvelle release d'HEVEA.
+
+      HEVEA, version 1.09 un traducteur rapide de LaTeX vers HTML.
+
+  HEVEA traduit un sous-ensemble quasi complet de LaTeX2e
+  vers HTML 4.0 transitionel.
+
+  Plus d'information en <http://hevea.inria.fr/>
+
+QUOI DE NEUF ?
+
+  Par rapport à la version précédente, il y a, entre autres 
+
+    - De nouveaux packages
+        ifpdf, chngcntr, inputenc (encodage latins 8bits)
+        eurosym (hevea passe à l'euro avec un petit retard),
+        textcomp, longtable, supertabular.
+
+    - Plus de liberté (au fait hevea est du logiciel libre)
+        Un truc bizarre a disparu. On peut maintenant mettre \title{...}
+        après \bgin{document} si on a envie.
+
+    - Plus de propreté
+        Le HTML généré est je crois, plus propre, emploi massif
+        des feuilles de styles, paragraphes rendus par l'élément P.
+
+ATTENTION
+
+  Pour compiler hevea 1.09, il faut ocaml (au moins) 3.07.
+  <http://caml.inria.fr/ocaml/>
+
+  Une version Windows compilée est disponible, merci Ph. Viton.
+  <http://facweb.knowlton.ohio-state.edu/pviton/support/winport.html>
+
+  Les packagers Linux ne tarderont pas à adopter la nouvelle version.
+

@@ -1,0 +1,216 @@
+\documentclass {article}
+%\usepackage {texnames}
+\usepackage {array}
+\usepackage {url}
+\usepackage {amssymb}
+\usepackage {amsmath}
+\usepackage {hevea}
+
+\def\imp{\to}
+\def\land{\mathbin\&}
+
+\title{\hevea{} User Documentation}
+\author{Luc Maranget\thanks{Inria Rocquencourt -- BP 105, 78153 Le
+Chesnay Cedex. {\tt \mailto{Luc.Maranget@inria.fr}}}}
+\date{\today}
+
+%\title {Styles Everywhere}
+%\author {Abhishek Thakur}
+%HEVEA \loadcssfile{x.css}
+%HEVEA \loadcssfile{y.css}
+%HEVEA \newstyle{H1.part}{background:blue;color:white;font-variant:small-caps}
+%HEVEA \newstyle{.section}{background:blue;color:white}
+%HEVEA \newstyle{.subsection}{background:blue;color:white}
+%HEVEA \newstyle{.titlecommon}{background:\#ddccaa;color:white}
+%HEVEA \newstyle{.titlemain}{padding:5;background:\#ffeecc;color:black;font-variant:small-caps;font-size:30pt}
+%HEVEA \newstyle{.titlerest}{padding:5;background:\#ffeecc;color:black;font-variant:small-caps}
+%HEVEA \newstyle{H5}{background:cyan;color:black}
+%HEVEA \newstyle{.subparagraph}{background:magenta;color:white}
+%HEVEA \newstyle{.itemize}{border:dotted black;margin-left:20;background:\#eeddbb;color:black;font-variant:small-caps}
+%HEVEA \newstyle{.li-itemize}{padding-left:10;border-left:solid blue;background:\#bbddff;color:black;font-variant:small-caps}
+%HEVEA \newstyle{.enumerate}{border:solid black;margin-left:20;background:\#eeddbb;color:\#ccccc;font-style:italic}
+%HEVEA \newstyle{.li-enumerate}{padding-left:10;background:\#bbddff;color:black;font-variant:small-caps}
+%HEVEA \newstyle{.list}{border:solid red;padding:8;margin-left:20;background:\#eeddbb;color:black;font-style:italic;font-variant:small-caps}
+%HEVEA \newstyle{.dt-list}{background:\#eeddbb;color:black;font-style:italic;font-variant:small-caps}
+%HEVEA \newstyle{.dd-list}{border:solid blue;background:\#bbddff;color:black;font-style:italic;font-variant:normal}
+%HEVEA \newstyle{.tabular}{margin-left:20;background:\#eeddbb;color:black}
+%HEVEA \newstyle{.proof}{border:solid \#88aacc;background:\#bbddff;color:black;align:center}
+%HEVEA \newstyle{.bussproofs}{border:thin solid red;background:\#eeddbb;color:black;align:center}
+
+%\newstyle{H3}{background:blue;color:white;font:sans-serif}
+%\setstyles{background:blue;color:white;font:sans-serif}
+%\setstyles{backgound:green}
+%HEVEA \newstyle{.fancy}{background:\#00cb00;color:white}
+%HEVEA \newstyle{.ruled-table}{border:solid black;padding:5;background:\#00cb00;color:white}
+\begin{document}
+
+\maketitle
+
+\part{Adding Style to Macros and Environments}
+
+\section {Adding 'Style' to Listing Mechanisms}
+HEVEA implements the list environments \texttt{itemize}, \texttt{enumerate}, \texttt{description} using the HTML block elements \texttt{UL}, \texttt{OL}, and \texttt{DL}. The \texttt{$\setminus$begin} and \texttt{$\setminus$end} commands correspond to opening and closing of the respective blocks. 
+
+To allow the user to add style, the blocks for each environment is opened with the a class, whose name is the same as the name of the environment. This allows the user to give a specific style by defining the class in the preamble using the \texttt{$\setminus$newstyle} command. The following subsections describe the three environments in detail, with examples. 
+
+\subsection{Itemize}
+\begin{tabular}{lll}
+Name of Class & : & itemize\\
+Example & : & <UL CLASS=itemize> .... </UL>, <LI CLASS=li-itemize>\\
+\end{tabular}
+
+Class definitions 
+\begin{verbatim}
+\newstyle{.itemize}{border:dotted black;margin-left:20;background:\#eeddbb;color:black;font-variant:small-caps}
+\newstyle{.li-itemize}{border-left:solid blue;padding-left:10;background:\#bbddff;color:black;font-variant:small-caps}
+\end{verbatim}
+in the document preamble, for an input 
+\begin{verbatim}
+\begin{itemize}
+\item First Row of \texttt{Itemize}
+\item Second Row of \texttt{Itemize}
+\item Third Row of \texttt{Itemize}
+\end{itemize}
+\end{verbatim}
+would produce output 
+\begin{itemize}
+\item First Row of \texttt{Itemize}
+\item Second Row of \texttt{Itemize}
+\item Third Row of \texttt{Itemize}
+\end{itemize}
+Note the use of $\setminus$\# when specifying the color in the \emph{rgb} format. It is exactly what one would do when printing out \# in \LaTeX{} (it would be unreasonable to expect the argument to be parsed in verbose). The arguments of all style commands follow the same principle.
+\subsection{Enumerate}
+\begin{tabular}{lll}
+Name of Class & : & enumerate\\
+Example & : & <OL CLASS=enumerate> .... </OL>, <LI CLASS=li-enumerate>\\
+Example Class Definition & : & $\setminus$newstyle\{.enumerate\}\{border:solid black;margin-left:20;background:\#eeddbb;color:black;font-variant:small-caps;font-style:italics\}\\
+ & & $\setminus$newstyle\{.li-enumerate\}\{padding-left:10;background:\#bbddff;color:black;font-variant:small-caps\}\\
+\end{tabular}
+
+An input of the form
+\begin{verbatim}
+\begin{enumerate}
+\item First Row of \texttt{Enumerate}
+\item Second Row of \texttt{Enumerate}
+\item Third Row of \texttt{Enumerate}
+\end{enumerate}
+\end{verbatim}
+would then produce output of the form\begin{enumerate}
+\item First Row of \texttt{Enumerate}
+\item Second Row of \texttt{Enumerate}
+\item Third Row of \texttt{Enumerate}
+\end{enumerate}
+
+\subsection{Description}
+\begin{tabular}{lll}
+Name of Class & : & list\\
+Example & : & <DL CLASS=list> .... </DL>, <DT CLASS=dt-list>, <DD CLASS=dd-list>\\
+Example Class Definition & : & $\setminus$newstyle\{.list\}\{border:solid red;padding:8;margin-left:20;background:$\setminus$\#eeddbb;color:black;font-style:italic;font-variant:small-caps\}\\
+ & & $\setminus$newstyle\{.dt-list\}\{background:\#eeddbb;color:black;font-style:italic;font-variant:small-caps\}\\
+ & & $\setminus$newstyle\{.dd-list\}\{border:solid blue;background:\#bbddff;color:black;font-style:italic;font-variant:normal\}\\
+\end{tabular}
+
+An input of the form
+\begin{verbatim}
+\begin{description}
+\item[Itemize] Unordered lists. $${unordered \over lists}$$
+\item[Enumerate] Ordered lists. $${ordered \over lists}$$
+\item[Description] Lists with user-defined labels, (also referred to as description lists). $${description \over lists}$$ 
+\end{description}
+\end{verbatim}
+would then produce output of the form
+\begin{description}
+\item[Itemize] Unordered lists. $${unordered \over lists}$$
+\item[Enumerate] Ordered lists. $${ordered \over lists}$$
+\item[Description] Lists with user-defined labels, (also referred to as description lists). $${description \over lists}$$ 
+\end{description}
+
+\section{Using DIV for Styles}
+Due to internal use of certain environments by HEVEA, they cannot be supported by defining an appropriate class in the preamble. A typical example would be the \texttt{table} environment. Defining a class \emph{.table} and using it universaly would throw also effect math constructs, such as \verb+\over,\frac,\xleftarrow,etc.+, besides many other things.
+
+One could separate \emph{internal} usages from the \emph{real} ones, using a class \emph{.internal} for the former; however, the use of constructs such as tables and arrays is too wide and entertwined to be able to do that. 
+
+However, for such constructs, limited support for style-sheets is offered by the environment \verb+\divstyle+, which takes the name of a class as an argument, and encloses the part inside using \verb+<DIV CLASS=...>+ and \verb+</DIV>+. 
+
+The limitation is that the enclosed part may generate more HTML blocks, and only the inherited style attributes shall apply uniformly inside. However, it is pretty effective for some basic styling.
+
+As an example consider the class definition below.
+\begin{verbatim}
+\newstyle{.ruled-table}{border:solid black; padding:5; background:\#00cb00;color:white}
+\end{verbatim}   
+Enclosing a \emph{tabular} environment using \emph{divstyle} with the class \emph{.ruled-table} as the argument, as shown below
+\begin{verbatim}
+$$
+\begin{divstyle}{ruled-table}
+\begin{tabular}{|>{\tt}c|p{0.7\hsize}|}
+...
+\end{tabular}
+\end{divstyle}
+$$
+\end{verbatim}
+will produced output of the form
+
+%\begin{divstyle}{ruled-table}
+$$
+\def \val {{\em v}}
+\def \arraystretch {1.4}
+%HEVEA \begin{divstyle}{ruled-table}
+\begin{tabular}{|>{\tt}c|p{0.7\hsize}|}
+\hline
+\bf key & \bf Effect for value {\val}
+\\\hline\hline
+before & Execute {\val} before typesetting the rule.
+         Useful for instance to change the maximal width of the rule.
+\\\hline
+width &  Set the width of the rule to {\val}
+\\\hline
+narrower & Set the width of the rule to {\val} times \verb"\hsize".
+\\\hline
+left & Put a label {\val} on the left of the rule
+\\\hline
+Left & Idem, but as if the label had zero width. 
+\\\hline
+Right & As \verb"Left", but on  the right of the rule.
+\\\hline
+right & As \verb"left",  but on the right of the rule.
+\\\hline
+leftskip & Cheat by (skip negative space) {\val} on the left side.
+\\\hline
+rightskip & Cheat by {\val} on the right side of the rule.
+\\\hline
+vdots & Raise the rule by {\val} and insert vertical dots. 
+\\\hline
+\end{tabular}
+%HEVEA \end{divstyle}
+$$
+%\end{divstyle}
+
+As one can see, all attributes except color (which is not inherited), worked. Thus the user should remember to use only those arttributes which do not need to be inherited (e.g. border and padding, used once at the beginning), or those that get inherited by blocks inside (e.g. background).
+
+A typical error would be of the kind.
+\begin{verbatim}
+\begin{divstyle}{ruled-table}
+I should be $$\frac{white}{white}$$
+\end{divstyle}
+\end{verbatim}
+which would result in
+
+\begin{divstyle}{ruled-table}
+I should be $$\frac{white}{white}$$
+\end{divstyle}
+
+However, such problems usually arise in math mode, when most stuff is set using tables, and fewer attributes are inherited. The simpler version
+ \begin{verbatim}
+\begin{divstyle}{ruled-table}
+I should be $\frac{white}{white}$
+\end{divstyle}
+\end{verbatim}
+would still work!
+
+\begin{divstyle}{ruled-table}
+I should be $\frac{white}{white}$
+\end{divstyle}
+
+\label {options}
+
+\end{document}

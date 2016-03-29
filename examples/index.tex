@@ -1,0 +1,131 @@
+\documentclass{article}
+\usepackage{url}
+\usepackage{fancysection}
+\colorsections{200}
+\title{Examples of \hevea{} usage}
+
+\begin{document}\maketitle
+
+\section*{Some examples on the web}
+\begin{tocenv}
+\item Courses
+\begin{tocenv}
+\item The on-line
+``\ahref{http://www.enseignement.polytechnique.fr/profs/informatique/Luc.Maranget/compil/poly/}{\emph{polycopi\'e}}''
+of my compilation course at \'Ecole polytechnique.
+Another
+``\ahref{http://www.enseignement.polytechnique.fr/profs/informatique/Luc.Maranget/421/poly/}{\emph{polycopi\'e}}'' of mine.
+\item Another on-line
+``\ahref{http://www.enseignement.polytechnique.fr/informatique/ARCHIVES/IF/poly/index.html}{\emph{polycopi\'e}}''
+from \'Ecole polytechnique.
+\item \ahref{http://www.grappa.univ-lille3.fr/polys/reseaux-2004/index.html}{Another course}, from Universit\'e de Lille~III.
+\end{tocenv}
+\item Manuals and tutorials.
+\begin{tocenv}
+\item The on-line manual of \ahref{\url|http://www.di.ens.fr/~pouzet/lucid-synchrone/manual_html/index.html|}{Lucid Synchrone}.
+\item The on-line
+\ahref{http://caml.inria.fr/pub/docs/manual-ocaml/index.html}{Objective
+Caml} manual.
+\item The on-line
+\ahref{http://www.lifl.fr/\home{boulet}/softs/mldoc/index.html}{MlDoc}
+manual. MlDoc is a literate programming tool.
+\item The on-line
+\ahref{http://omake.metaprl.org/omake.html}{OMake} manual.
+\end{tocenv}
+\end{tocenv}
+
+
+\section*{Examples from the distribution}
+Source for these examples is included in the distribution in
+sub-directory \texttt{examples}.
+\begin{itemize}
+\item The \ahrefurl{Makefile}
+
+\item A simple article,  source is \ahrefurl{a.tex}.
+You can compare \LaTeX{} output (\ahrefurl{a.dvi}) and \hevea{} output~\ahrefurl{a.html}. The \html{} output is
+generated with the french option set:
+\begin{verbatim}
+# hevea a.tex
+\end{verbatim}
+While the text output generated with:
+\begin{verbatim}
+# hevea -text a.tex
+\end{verbatim}
+
+\item The test suite: \ahrefurl{suite.tex}
+(\hevea{} style file \ahrefurl{suite-macros.hva}, \LaTeX{} style file
+\ahrefurl{suite-macros.sty})
+and \ahrefurl{suite.html} (see
+also \ahrefurl{suite.dvi} and \ahrefurl{suite.txt}).
+
+\item A complete article, cut into pieces , with images (source is
+\ahrefurl{pat.tex}, output is \ahrefurl{pat.dvi}, 
+\ahrefurl{pat.html} and \ahrefurl{pat.txt}). To yield this result, \verb+gpic+ is first
+applied to \verb+pat.tex+, yielding \verb+tmp.tex+; \LaTeX\ and
+\texttt{bibtex} are then used to produce the appropriate \verb+tmp.aux+ and
+\verb+tmp.bbl+ files; finally \hevea{}, \hacha{} and \texttt{imagen}
+are run as follows:
+\begin{verbatim}
+# hevea pat.hva -e pat.def tmp.tex
+# hacha -o pat.html tmp.html
+# imagen tmp
+\end{verbatim}
+Notice that the \LaTeX{} style file \ahrefurl{pat.def} is not loaded and
+that a simplified \ahrefurl{pat.hva} is loaded.
+
+Using option ``\texttt{-fix}'', \texttt{imagen} does not need to be
+run explicitely~:
+\begin{verbatim}
+# hevea -fix pat.hva -e pat.def tmp.tex
+# hacha -o pat.html tmp.html
+\end{verbatim}
+
+This example also serves as a test of \hacha{} advanced features,
+direct access to the article \ahref{conclusion.html}{conclusion}
+and \ahref{benchmarks.html}{performance figures}.
+
+\item How to use the \verb+latexonly+ and \verb+toimage+ environments
+inside other environments.
+Source files are \ahrefurl{env.hva} and
+\ahrefurl{env.tex}), output file is \ahrefurl{env.html}.
+\texttt{gpic}, \hevea{} and \texttt{imagen}
+are run as follows:
+\begin{verbatim}
+# gpic -t < env.tex > tenv.tex
+# hevea env.hva tenv.tex -o env.html
+# imagen env
+\end{verbatim}
+
+\item The ``\emph{Smile!}'' example, from the manual.
+Files are \ahrefurl{smile.hva}, \ahrefurl{smile.tex} and
+\ahrefurl{smile.html}, command sequence is~:
+\begin{verbatim}
+# gpic -t < smile.tex > tsmile.tex
+# hevea smile.hva tsmile.tex -o smile.html
+# imagen smile
+\end{verbatim}
+
+\item A few amstex primitives, \ahrefurl{amstex.tex},
+\ahrefurl{amstex.dvi}, \ahrefurl{amstex.html} and \ahrefurl{amstex.txt}.
+\hevea{} is invoked as:
+\begin{verbatim}
+# hevea [-text] amstex.tex
+\end{verbatim}
+
+\item The \texttt{graphics} package, \ahrefurl{graphics.tex}
+and \ahrefurl{graphics.html}.
+\hevea{} is invoked as:
+\begin{verbatim}
+# hevea graphics.tex
+# imagen graphics
+\end{verbatim} 
+
+\item A lot of symbols, \ahrefurl{sym.html}.
+Almost all the sympols provided by default and by packages
+\texttt{latexsym},
+\texttt{textcomp},
+\texttt{amssymb} and \texttt{amsmath}.
+
+\item \ahref{test/index.html}{More tests}: systematic tests of some of \hevea{} features.
+\end{itemize}
+\end{document}

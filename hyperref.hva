@@ -1,0 +1,65 @@
+\ProvidesPackage{hyperref}
+\RequirePackage{url}
+\RequirePackage{labeltype}
+\@primitives{hyperref}
+\newcommand{\@hr@expand}[1]
+{\begingroup\catcode`\%=12\catcode`\~=12#1\endgroup}
+\newcommand{\texorpdfstring}[2]{#1}
+\newcommand{\hyperlink}[2]{\ahrefloc{#1}{#2}}
+\newcommand{\hypertarget}[2]{\aname{#1}{#2}}
+\newcommand{\hyperdef}[3]{\hypertarget{#1.#2}{#3}}
+\newcommand{\hyperbaseurl}[1]{}
+\newcommand{\@hyperreflabel}[2]{\ahrefloc{\@getprint{#1}}{{\let\ref\@auxread#2}}}
+\newcommand{\hyperref}[1][]
+{\ifoptarg\let\hyper@next\@hyperreflabel\else
+\let\hyper@next\@hyperref\fi
+\hyper@next{#1}}
+\def\url{\begingroup
+\def\UrlLeft##1\UrlRight{\ahrefurl{##1}}%
+\urlstyle{tt}%
+\Url}
+\newcommand{\hypersetup}[1]{}
+%%%%%%%%%%%%%%%%%
+%%Autoref stuff%%
+%%%%%%%%%%%%%%%%%
+%%Load list of words according to language
+\input{hrlang.hva}
+\newcommand{\HyLang@DeclareLang}[3]
+{\DeclareOption{#1}{\csname HyLang@#2\endcsname}}
+\HyLang@DeclareLang{english}{english}{}
+\HyLang@DeclareLang{UKenglish}{english}{}
+\HyLang@DeclareLang{british}{english}{}
+\HyLang@DeclareLang{USenglish}{english}{}
+\HyLang@DeclareLang{american}{english}{}
+\HyLang@DeclareLang{german}{german}{}
+\HyLang@DeclareLang{austrian}{german}{}
+\HyLang@DeclareLang{ngerman}{german}{}
+\HyLang@DeclareLang{naustrian}{german}{}
+\HyLang@DeclareLang{brazil}{portuges}{}
+\HyLang@DeclareLang{brazilian}{portuges}{}
+\HyLang@DeclareLang{portuguese}{portuges}{}
+\HyLang@DeclareLang{spanish}{spanish}{}
+\HyLang@DeclareLang{afrikaans}{afrikaans}{}
+\HyLang@DeclareLang{french}{french}{}
+\HyLang@DeclareLang{frenchb}{french}{}
+\HyLang@DeclareLang{francais}{french}{}
+\HyLang@DeclareLang{acadian}{french}{}
+\HyLang@DeclareLang{canadien}{french}{}
+\HyLang@DeclareLang{italian}{italian}{}
+\HyLang@DeclareLang{magyar}{magyar}{}
+\HyLang@DeclareLang{hungarian}{magyar}{}
+%%English default
+\HyLang@english
+%%Get the right sectionname macro from type
+\newcommand{\@hr@name}[1]
+{\ifu\csname #1autorefname\endcsname\csname #1name\endcsname\else
+\csname #1autorefname\endcsname\fi}
+\let\@hr@deflabeltype\@deflabeltype
+\def\@deflabeltype#1#2{%
+\@hr@deflabeltype{#1}{#2}
+\def\csname @hr@#1@name\endcsname{\@hr@name{#2}}%
+}
+%%expand \ref so as to include section name in link.
+\newcommand{\autoref}[1]{%
+\@locref{\@check@anchor@label{#1}}{\csname @hr@#1@name\endcsname~\@auxread{#1}}}
+\ProcessOptions*

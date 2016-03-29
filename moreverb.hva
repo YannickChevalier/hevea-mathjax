@@ -1,0 +1,11 @@
+\usepackage{verbatim}
+\@primitives{moreverb}
+\newcommand{\verbatimtabsize}{8}
+\newenvironment{boxedverbatim}
+{\@open{table}{style="border:1px;border-spacing:0" class="cellpadding1"}\@open{tr}{}\@open{td}{style="text-align:left"}\verbatim}
+{\endverbatim\@close{td}\@close{tr}\@close{table}}
+\newcommand{\verbatimtabinput}[2][\verbatimtabsize]
+  {\@scaninput{\begin{verbatimtab}[#1]
+}{#2}{\end{verbatimtab}}}
+\newcommand{\listinginput}[3][1]
+  {\@scaninput{\begin{listing}[#1]{#2}}{#3}{\end{listing}}}

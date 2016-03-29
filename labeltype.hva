@@ -1,0 +1,20 @@
+\ProvidesPackage{labeltype}
+%%%internal package for getting section type info for labels
+%%Redefinitions of \refstepcounter and \label to catch label types
+%%NB: label type is counter name
+\def\currentlabeltype{none}
+\let\@rt@oldrefstepcounter\refstepcounter
+\renewcommand{\refstepcounter}[1]
+{\def\currentlabeltype{#1}\@rt@oldrefstepcounter{#1}}
+\let\@rt@old@label\label
+\renewcommand{\label}[2][]
+{\@rt@old@label[#1]{#2}%
+\@auxdowrite{\@print{\@deflabeltype}\{#2\}\{\currentlabeltype\}\@print{
+}}}
+%%Hum also redefines \enumerate...
+\let\@rt@oldenumerate\enumerate
+\renewcommand{\enumerate}{\def\currentlabeltype{item}\@rt@oldenumerate}
+%NB:It is up to client packages to
+% (1) redefine/extend \@deflabeltype
+% (2) define \@lt@item@type
+\newcommand{\@deflabeltype}[2]{}

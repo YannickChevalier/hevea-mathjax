@@ -1,0 +1,137 @@
+#! /bin/sh
+LATEX=latex
+DVIPS=dvips
+GS=gs
+COM=/tmp/imagen-com.$$
+RESOLUTION=100 # resolution in dpi
+CROP="-trim +repage "
+EXTRA=" "
+MARGIN="-bordercolor none -border 2 "
+TOGIF="-background white -flatten -interlace Plane gif:-"
+TOPNG="-interlace Plane -quality 90 png:-"
+TOEXT=${TOPNG}
+EXT=png
+TODIR="."
+SVG=false
+RM="/bin/rm -f"
+
+
+while true
+do
+    case $1 in
+     -todir)
+       shift
+       TODIR="$1"
+       mkdir -p ${TODIR} 2> /dev/null || :
+       ;;
+     -gif)
+	TOEXT=${TOGIF}
+        EXT=gif
+        ;;
+     -png)
+        TOEXT=${TOPNG}
+        EXT=png
+        ;;
+     -pnm)
+        TOEXT="pnm:-"
+        EXT=pnm
+        ;;
+     -svg)
+        SVG=true
+        ;;
+     -quant)
+        shift
+        echo "Warning: option -quant deprecated" 1>&2
+        ;;
+    -extra)
+        shift
+        EXTRA="$1"
+        ;;
+    -mag)
+        shift
+	RESOLUTION="$( expr '(' "$1" '*' 100 '+' 999 ')' '/' 1000)"
+        ;;
+    -res)
+        shift
+        RESOLUTION="$1"
+        ;;
+    -t)
+        shift
+        TPAPER="-t $1"
+        ;;
+     -pdflatex|-pdf)
+         LATEX=pdflatex
+       ;;
+    -raw)
+       EXTRA=''
+       MARGIN=''
+       TOEXT="pnm:-"
+      ;;
+    *)
+        break
+        ;;
+    esac
+    shift
+done
+echo "RESOLUTION: $RESOLUTION"
+
+case $1 in
+  '')
+   BASE=image
+   ;;
+  *)
+   BASE=$1
+  ;;
+esac
+NAME=${BASE}.image
+
+trap "${RM} ${NAME}.dvi ${NAME}.pdf `basename ${NAME}.log` `basename ${NAME}.aux` head.tmp body.tmp ${COM} ; exit 2" 1 2 3 8 10 13 15
+
+DVIPSOPTS="-Z $TPAPER"
+GSOPTS="-q -dNOPAUSE -dBATCH -dNOPROMPT -sDEVICE=pngalpha \
+	-r$RESOLUTION -dAutoRotatePages=/None \
+        -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -dDOINTERPOLATE \
+        -P- -dSAFER"
+
+CONVERT="convert png:- ${CROP} ${EXTRA} ${MARGIN} ${TOEXT}"
+echo ${CONVERT} > ${COM}
+if [ "${TODIR}" = "." ]
+then
+  FINAL=${BASE}%03d.${EXT}
+else
+  FINAL=${TODIR}/${BASE}%03d.${EXT}
+fi
+test -f  ${NAME}.tex ||\
+{ echo "Failure: no ${NAME}.tex file!" 2>&1 ; exit 2 ; }
+${LATEX} ${NAME}.tex
+NAMEDIR=`dirname ${NAME}`
+if [ "${LATEX}" = "pdflatex" ]
+then
+  if [ ${NAMEDIR} != "." ]
+  then
+    mv `basename ${NAME}.pdf` ${NAME}.pdf
+  fi
+  cat ${NAME}.pdf
+else
+ if [ ${NAMEDIR} != "." ]
+  then
+    mv `basename ${NAME}.dvi` ${NAME}.dvi
+  fi
+  ${DVIPS} ${DVIPSOPTS} -o - ${NAME}.dvi
+fi |\
+${GS} ${GSOPTS} -sOutputFile="| sh ${COM} > ${FINAL}" -
+
+if $SVG
+then
+  pdflatex  ${NAME}.tex
+  if [ ${NAMEDIR} != "." ]
+  then
+    mv `basename ${NAME}.pdf` ${NAME}.pdf
+  fi
+  pdfcrop ${NAME}.pdf ${NAME}.crop.pdf
+  pdf2svg ${NAME}.crop.pdf "${TODIR}/${BASE}%03d.svg" all
+  ${RM} ${NAME}.crop.pdf
+fi
+
+${RM} ${COM} ${NAME}.dvi ${NAME}.pdf  head.tmp body.tmp
+${RM} `basename ${NAME}.log` `basename ${NAME}.aux`
