@@ -29,7 +29,8 @@ type destination = Html | Text | Info
 ;;
 let mathml = ref false
 ;;
-
+let mathjax = ref false
+;;
 (*to activate advanced entities*) 
 let moreentities = ref false
 ;;
@@ -94,7 +95,8 @@ let _ = Arg.parse
    "be pedantic in interpreting HTML 4.0 transitional definition") ;
   ("-mathml",Arg.Unit (fun() -> mathml := true),
    "produces MathML output for equations, very experimental");
-
+  ("-mathjax",Arg.Unit (fun() -> mathjax := true),
+   "Uses MathJax  to handle math mode  [not in the trunk]");
   ("-text",Arg.Unit (fun () -> symbol_mode :=  SText ; destination := Text),
    "output plain text");
   ("-info",Arg.Unit (fun () -> symbol_mode :=  SText ; destination := Info),

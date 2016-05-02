@@ -113,6 +113,11 @@ let finalize_header () =
     Out.to_chan chan style_buff ;
     close_out chan
   end ;
+  if !mathjax then
+    begin
+      adjoin_to_header "<script type=\"text/javascript\"\n\tsrc= \"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\"></script>" ;
+      adjoin_to_header "<script type=\"text/x-mathjax-config;executed=true\">\n\t\tMathJax.Hub.Config({\"HTML-CSS\": { preferredFont: \"TeX\", availableFonts: [\"STIX\",\"TeX\"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },\n\t\ttex2jax: { inlineMath: [ [\"$\", \"$\"], [\"\\\\\\\\(\",\"\\\\\\\\)\"] ], displayMath: [ [\"$$\",\"$$\"], [\"\\\\[\", \"\\\\]\"] ], processEscapes: true, ignoreClass: \"tex2jax_ignore|dno\" },\n\t\tTeX: {  noUndefined: { attributes: { mathcolor: \"red\", mathbackground: \"#FFEEEE\", mathsize: \"90%\" } }, Macros: { href: \"{}\" } },\n\t\tmessageStyle: \"none\"\n\t});\n\t</script>"
+    end ;
   common_headers := Out.to_string header_buff
 
 let html_buff = Out.create_buff "html-buf"

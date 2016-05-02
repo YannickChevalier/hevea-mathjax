@@ -19,6 +19,7 @@ val destination : destination ref
 
 val moreentities : bool ref
 val mathml : bool ref
+val mathjax : bool ref
 val pedantic : bool ref
 val fixpoint : bool ref
 val optimize : bool ref

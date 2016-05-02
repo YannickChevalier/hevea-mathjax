@@ -988,31 +988,54 @@ let translate_put_unicode_string s =
   translate_next next
 
 let top_open_maths main dodo =
-  push stack_in_math !in_math ;
-  in_math := true ;
-  if !display then  Dest.item_display () ;
-  push stack_display !display ;
-  if dodo then begin
-    display  := true ;
-    Dest.open_maths dodo;
-  end else begin
-    Dest.open_maths dodo;
-    top_open_display () ;
-  end ;
-  scan_this main "\\normalfont"
-
-and top_close_maths dodo =
-  in_math := pop stack_in_math ;
-  if dodo then begin
-    Dest.close_maths dodo
-  end else begin
-    top_close_display () ;
-    Dest.close_maths dodo
-  end ;
-  display := pop stack_display ;
-  if !display then begin
-    Dest.item_display ()
-  end
+  if not !mathjax then
+    begin
+      push stack_in_math !in_math ;
+      in_math := true ;
+      if !display then  Dest.item_display () ;
+      push stack_display !display ;
+      if dodo then begin
+	display  := true ;
+	Dest.open_maths dodo;
+      end else begin
+	Dest.open_maths dodo;
+	top_open_display () ;
+      end ;
+      scan_this main "\\normalfont"
+    end
+  else
+    begin
+      if !display then
+	Dest.put "\\["
+      else
+	Dest.put "\\("
+    end
+	
+    and top_close_maths dodo =
+	if not !mathjax then
+	  begin
+	    in_math := pop stack_in_math ;
+	    if dodo then begin
+	      Dest.close_maths dodo
+	    end else begin
+	      top_close_display () ;
+	      Dest.close_maths dodo
+	    end ;
+	    display := pop stack_display ;
+	    if !display then begin
+	      Dest.item_display ()
+	    end
+	  end
+	else
+	  begin
+	    if !display then
+	      begin
+		top_close_display () ;
+		Dest.put "\\]"
+	      end
+	    else
+	      Dest.put "\\)" ;
+	  end
 ;;
 
 } 
@@ -1025,7 +1048,8 @@ let hexa = ['0'-'9''a'-'f']
 (* Horreur malheur, enfin sait-on jamais (mauvais transcodage) *)
 let newline = '\n' | ('\r' '\n')
 
-rule  main = parse
+ rule
+    main = parse
 (* comments *)
 | '%'
     {do_expand_command main skip_blanks "\\@hevea@percent" lexbuf ;
@@ -1061,7 +1085,10 @@ rule  main = parse
 	if dodo then ignore (skip_blanks lexbuf)
       end
     end ;
-    main lexbuf }
+     if !mathjax then
+       mathjax_verbatim lexbuf
+     else
+       main lexbuf }
 
 (* Definitions of  simple macros *)
 (* inside tables and array *)
@@ -1416,14 +1443,23 @@ and skip_comment = parse
      prerr_endline ("Comment:"^lexeme lexbuf) ;
    if !flushing then Dest.flush_out () }
 
-
 and skip_to_end_latex = parse
 | '%' ['%'' ']* ("END"|"end") ' '+ ("LATEX"|"latex")
     {skip_comment lexbuf ; skip_spaces lexbuf}
 | _ 
     {skip_to_end_latex lexbuf}
 | eof {fatal ("End of file in %BEGIN LATEX ... %END LATEX")}
-{
+	
+and mathjax_verbatim = parse
+    | "\\enddisplaymath" |  "\\]" | "$$" 
+	{ top_close_maths true ; close_env "*display" ; main lexbuf }
+    | "\\)" |'$'
+	{ top_close_maths false ; close_env "*math" ; main lexbuf }
+    | _ as math_content
+	{ Dest.put_char math_content ; mathjax_verbatim lexbuf }
+
+      
+      {
 
 let () = ()
 ;;
@@ -1450,6 +1486,18 @@ and expand_command_no_skip name lexbuf = do_expand_command main no_skip name lex
 def_code "\\displaymath"
   (fun lexbuf -> top_open_maths main true ; skip_pop lexbuf) ;
 def_code "\\enddisplaymath"
+  (fun _lexbuf -> top_close_maths true) ;
+()
+;;
+def_code "\\("
+  (fun lexbuf -> top_open_maths main false ; skip_pop lexbuf) ;
+def_code "\\)"
+  (fun _lexbuf -> top_close_maths false) ;
+()
+;;
+def_code "\\["
+  (fun lexbuf -> top_open_maths main true ; skip_pop lexbuf) ;
+def_code "\\]"
   (fun _lexbuf -> top_close_maths true) ;
 ()
 ;;
@@ -2729,6 +2777,7 @@ newif_ref "html" html;
 newif_ref "text" text;
 newif_ref "info" text;
 newif_ref "mathml" Parse_opts.mathml;
+newif_ref "mathjax" Parse_opts.mathjax;
 newif_ref "optarg" optarg;
 newif_ref "styleloaded" styleloaded;
 newif_ref "activebrace" activebrace;
