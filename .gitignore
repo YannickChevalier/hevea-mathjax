@@ -1,3 +1,13 @@
 bytes.ml
 bytes.mli
 algo.*
+_build/**
+article.hva
+bibhva.opt
+config.sh
+esponja.opt
+giacfr.tex
+hacha.opt
+hevea.hva
+hevea.opt
+
