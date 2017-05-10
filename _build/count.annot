@@ -1,0 +1,126 @@
+"count.ml" 24 991 1001 "count.ml" 24 991 1012
+call(
+  stack
+)
+"count.ml" 28 1036 1042 "count.ml" 28 1036 1046
+type(
+  key -> int t -> int t
+)
+ident(
+  def incr "count.ml" 30 1101 1118 "count.ml" 31 1119 1122
+)
+"count.ml" 28 1036 1047 "count.ml" 28 1036 1048
+type(
+  key
+)
+ident(
+  def k "count.ml" 28 1036 1049 "count.ml" 30 1101 1118
+)
+"count.ml" 28 1036 1049 "count.ml" 28 1036 1050
+type(
+  int t
+)
+ident(
+  def m "count.ml" 29 1053 1057 "count.ml" 30 1101 1118
+)
+"count.ml" 29 1053 1061 "count.ml" 29 1053 1062
+type(
+  int
+)
+ident(
+  def v "count.ml" 30 1101 1105 "count.ml" 30 1101 1118
+)
+"count.ml" 29 1053 1069 "count.ml" 29 1053 1073
+type(
+  key -> int t -> int
+)
+ident(
+  ext_ref find
+)
+"count.ml" 29 1053 1074 "count.ml" 29 1053 1075
+type(
+  key
+)
+ident(
+  int_ref k "count.ml" 28 1036 1047 "count.ml" 28 1036 1048
+)
+"count.ml" 29 1053 1076 "count.ml" 29 1053 1077
+type(
+  int t
+)
+ident(
+  int_ref m "count.ml" 28 1036 1049 "count.ml" 28 1036 1050
+)
+"count.ml" 29 1053 1069 "count.ml" 29 1053 1077
+call(
+  stack
+)
+type(
+  int
+)
+"count.ml" 29 1053 1083 "count.ml" 29 1053 1092
+type(
+  exn
+)
+"count.ml" 29 1053 1096 "count.ml" 29 1053 1097
+type(
+  int
+)
+"count.ml" 29 1053 1065 "count.ml" 29 1053 1097
+type(
+  int
+)
+"count.ml" 30 1101 1105 "count.ml" 30 1101 1108
+type(
+  key -> int -> int t -> int t
+)
+ident(
+  ext_ref add
+)
+"count.ml" 30 1101 1109 "count.ml" 30 1101 1110
+type(
+  key
+)
+ident(
+  int_ref k "count.ml" 28 1036 1047 "count.ml" 28 1036 1048
+)
+"count.ml" 30 1101 1112 "count.ml" 30 1101 1113
+type(
+  int
+)
+ident(
+  int_ref v "count.ml" 29 1053 1061 "count.ml" 29 1053 1062
+)
+"count.ml" 30 1101 1113 "count.ml" 30 1101 1114
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"count.ml" 30 1101 1114 "count.ml" 30 1101 1115
+type(
+  int
+)
+"count.ml" 30 1101 1111 "count.ml" 30 1101 1116
+type(
+  int
+)
+"count.ml" 30 1101 1117 "count.ml" 30 1101 1118
+type(
+  int t
+)
+ident(
+  int_ref m "count.ml" 28 1036 1049 "count.ml" 28 1036 1050
+)
+"count.ml" 30 1101 1105 "count.ml" 30 1101 1118
+call(
+  tail
+)
+type(
+  int t
+)
+"count.ml" 29 1053 1057 "count.ml" 30 1101 1118
+type(
+  int t
+)

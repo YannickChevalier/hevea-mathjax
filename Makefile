@@ -22,6 +22,7 @@ OCBFLAGS=-j 4 -classic-display
 PGM=hevea.byte hacha.byte esponja.byte bibhva.byte
 PGMNATIVE=$(PGM:.byte=.native)
 
+.PRECIOUS: %.ml
 all: $(TARGET)
 
 install: config.sh

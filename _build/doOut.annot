@@ -1,0 +1,6525 @@
+"doOut.ml" 14 754 758 "doOut.ml" 14 754 765
+type(
+  int ref
+)
+ident(
+  def verbose "doOut.ml" 16 775 775 "doOut.ml" 1 0 -1
+)
+"doOut.ml" 14 754 768 "doOut.ml" 14 754 771
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"doOut.ml" 14 754 772 "doOut.ml" 14 754 773
+type(
+  int
+)
+"doOut.ml" 14 754 768 "doOut.ml" 14 754 773
+type(
+  int ref
+)
+"doOut.ml" 54 1681 1694 "doOut.ml" 54 1681 1712
+call(
+  stack
+)
+"doOut.ml" 60 1877 1883 "doOut.ml" 60 1877 1889
+type(
+  int
+)
+ident(
+  def max_sz "doOut.ml" 62 1908 1910 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 60 1877 1892 "doOut.ml" 60 1877 1906
+type(
+  int
+)
+ident(
+  int_ref C.small_length "doOut.ml" 17 800 802 "doOut.ml" 17 800 824
+)
+"doOut.ml" 66 2017 2023 "doOut.ml" 66 2017 2031
+type(
+  int
+)
+ident(
+  def start_sz "doOut.ml" 68 2049 2051 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 66 2017 2034 "doOut.ml" 66 2017 2037
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"doOut.ml" 66 2017 2038 "doOut.ml" 66 2017 2040
+type(
+  int
+)
+"doOut.ml" 66 2017 2041 "doOut.ml" 66 2017 2047
+type(
+  int
+)
+ident(
+  int_ref max_sz "doOut.ml" 60 1877 1883 "doOut.ml" 60 1877 1889
+)
+"doOut.ml" 66 2017 2034 "doOut.ml" 66 2017 2047
+call(
+  stack
+)
+type(
+  int
+)
+"doOut.ml" 68 2049 2055 "doOut.ml" 68 2049 2065
+type(
+  unit -> buff
+)
+ident(
+  def alloc_buff "doOut.ml" 71 2143 2145 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 68 2049 2066 "doOut.ml" 68 2049 2068
+type(
+  unit
+)
+"doOut.ml" 69 2071 2081 "doOut.ml" 69 2071 2093
+type(
+  int -> Bytes.t
+)
+ident(
+  ext_ref Bytes.create
+)
+"doOut.ml" 69 2071 2094 "doOut.ml" 69 2071 2102
+type(
+  int
+)
+ident(
+  int_ref start_sz "doOut.ml" 66 2017 2023 "doOut.ml" 66 2017 2031
+)
+"doOut.ml" 69 2071 2081 "doOut.ml" 69 2071 2102
+type(
+  Bytes.t
+)
+"doOut.ml" 69 2071 2109 "doOut.ml" 69 2071 2110
+type(
+  int
+)
+"doOut.ml" 69 2071 2116 "doOut.ml" 69 2071 2124
+type(
+  int
+)
+ident(
+  int_ref start_sz "doOut.ml" 66 2017 2023 "doOut.ml" 66 2017 2031
+)
+"doOut.ml" 69 2071 2130 "doOut.ml" 69 2071 2137
+type(
+  S.t
+)
+ident(
+  ext_ref S.empty
+)
+"doOut.ml" 69 2071 2075 "doOut.ml" 69 2071 2141
+type(
+  buff
+)
+"doOut.ml" 71 2143 2149 "doOut.ml" 71 2143 2158
+type(
+  out_channel -> buff -> unit
+)
+ident(
+  def dump_buff "doOut.ml" 75 2219 2221 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 71 2143 2159 "doOut.ml" 71 2143 2163
+type(
+  out_channel
+)
+ident(
+  def chan "doOut.ml" 71 2143 2164 "doOut.ml" 73 2192 2217
+)
+"doOut.ml" 71 2143 2164 "doOut.ml" 71 2143 2165
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 72 2168 2172 "doOut.ml" 73 2192 2217
+)
+"doOut.ml" 72 2168 2172 "doOut.ml" 72 2168 2180
+type(
+  out_channel -> S.t -> unit
+)
+ident(
+  ext_ref S.output
+)
+"doOut.ml" 72 2168 2181 "doOut.ml" 72 2168 2185
+type(
+  out_channel
+)
+ident(
+  int_ref chan "doOut.ml" 71 2143 2159 "doOut.ml" 71 2143 2163
+)
+"doOut.ml" 72 2168 2186 "doOut.ml" 72 2168 2187
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 71 2143 2164 "doOut.ml" 71 2143 2165
+)
+"doOut.ml" 72 2168 2186 "doOut.ml" 72 2168 2189
+type(
+  S.t
+)
+"doOut.ml" 72 2168 2172 "doOut.ml" 72 2168 2189
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 73 2192 2196 "doOut.ml" 73 2192 2202
+type(
+  out_channel -> Bytes.t -> int -> int -> unit
+)
+ident(
+  ext_ref Pervasives.output
+)
+"doOut.ml" 73 2192 2203 "doOut.ml" 73 2192 2207
+type(
+  out_channel
+)
+ident(
+  int_ref chan "doOut.ml" 71 2143 2159 "doOut.ml" 71 2143 2163
+)
+"doOut.ml" 73 2192 2208 "doOut.ml" 73 2192 2209
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 71 2143 2164 "doOut.ml" 71 2143 2165
+)
+"doOut.ml" 73 2192 2208 "doOut.ml" 73 2192 2211
+type(
+  Bytes.t
+)
+"doOut.ml" 73 2192 2212 "doOut.ml" 73 2192 2213
+type(
+  int
+)
+"doOut.ml" 73 2192 2214 "doOut.ml" 73 2192 2215
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 71 2143 2164 "doOut.ml" 71 2143 2165
+)
+"doOut.ml" 73 2192 2214 "doOut.ml" 73 2192 2217
+type(
+  int
+)
+"doOut.ml" 73 2192 2196 "doOut.ml" 73 2192 2217
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 72 2168 2172 "doOut.ml" 73 2192 2217
+type(
+  unit
+)
+"doOut.ml" 75 2219 2225 "doOut.ml" 75 2219 2235
+type(
+  buff -> unit
+)
+ident(
+  def reset_buff "doOut.ml" 77 2267 2269 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 75 2219 2236 "doOut.ml" 75 2219 2237
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 75 2219 2240 "doOut.ml" 75 2219 2265
+)
+"doOut.ml" 75 2219 2240 "doOut.ml" 75 2219 2241
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 75 2219 2236 "doOut.ml" 75 2219 2237
+)
+"doOut.ml" 75 2219 2247 "doOut.ml" 75 2219 2248
+type(
+  int
+)
+"doOut.ml" 75 2219 2240 "doOut.ml" 75 2219 2248
+type(
+  unit
+)
+"doOut.ml" 75 2219 2251 "doOut.ml" 75 2219 2252
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 75 2219 2236 "doOut.ml" 75 2219 2237
+)
+"doOut.ml" 75 2219 2258 "doOut.ml" 75 2219 2265
+type(
+  S.t
+)
+ident(
+  ext_ref S.empty
+)
+"doOut.ml" 75 2219 2251 "doOut.ml" 75 2219 2265
+type(
+  unit
+)
+"doOut.ml" 75 2219 2240 "doOut.ml" 75 2219 2265
+type(
+  unit
+)
+"doOut.ml" 77 2267 2273 "doOut.ml" 77 2267 2284
+type(
+  buff -> int
+)
+ident(
+  def length_buff "doOut.ml" 79 2309 2311 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 77 2267 2285 "doOut.ml" 77 2267 2286
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 77 2267 2289 "doOut.ml" 77 2267 2307
+)
+"doOut.ml" 77 2267 2289 "doOut.ml" 77 2267 2290
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 77 2267 2285 "doOut.ml" 77 2267 2286
+)
+"doOut.ml" 77 2267 2289 "doOut.ml" 77 2267 2292
+type(
+  int
+)
+"doOut.ml" 77 2267 2293 "doOut.ml" 77 2267 2294
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"doOut.ml" 77 2267 2295 "doOut.ml" 77 2267 2303
+type(
+  S.t -> int
+)
+ident(
+  ext_ref S.length
+)
+"doOut.ml" 77 2267 2304 "doOut.ml" 77 2267 2305
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 77 2267 2285 "doOut.ml" 77 2267 2286
+)
+"doOut.ml" 77 2267 2304 "doOut.ml" 77 2267 2307
+type(
+  S.t
+)
+"doOut.ml" 77 2267 2295 "doOut.ml" 77 2267 2307
+call(
+  stack
+)
+type(
+  int
+)
+"doOut.ml" 77 2267 2289 "doOut.ml" 77 2267 2307
+type(
+  int
+)
+"doOut.ml" 79 2309 2315 "doOut.ml" 79 2309 2329
+type(
+  buff -> string
+)
+ident(
+  def to_string_buff "doOut.ml" 85 2481 2483 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 79 2309 2330 "doOut.ml" 79 2309 2331
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 80 2334 2338 "doOut.ml" 83 2451 2479
+)
+"doOut.ml" 80 2334 2342 "doOut.ml" 80 2334 2343
+type(
+  string
+)
+ident(
+  def r "doOut.ml" 81 2378 2382 "doOut.ml" 83 2451 2479
+)
+"doOut.ml" 80 2334 2346 "doOut.ml" 80 2334 2358
+type(
+  int -> string
+)
+ident(
+  ext_ref Bytes.create
+)
+"doOut.ml" 80 2334 2360 "doOut.ml" 80 2334 2371
+type(
+  buff -> int
+)
+ident(
+  int_ref length_buff "doOut.ml" 77 2267 2273 "doOut.ml" 77 2267 2284
+)
+"doOut.ml" 80 2334 2372 "doOut.ml" 80 2334 2373
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 79 2309 2330 "doOut.ml" 79 2309 2331
+)
+"doOut.ml" 80 2334 2359 "doOut.ml" 80 2334 2374
+call(
+  stack
+)
+type(
+  int
+)
+"doOut.ml" 80 2334 2346 "doOut.ml" 80 2334 2374
+type(
+  string
+)
+"doOut.ml" 81 2378 2382 "doOut.ml" 81 2378 2388
+type(
+  S.t -> Bytes.t -> int -> unit
+)
+ident(
+  ext_ref S.blit
+)
+"doOut.ml" 81 2378 2389 "doOut.ml" 81 2378 2390
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 79 2309 2330 "doOut.ml" 79 2309 2331
+)
+"doOut.ml" 81 2378 2389 "doOut.ml" 81 2378 2392
+type(
+  S.t
+)
+"doOut.ml" 81 2378 2393 "doOut.ml" 81 2378 2394
+type(
+  Bytes.t
+)
+ident(
+  int_ref r "doOut.ml" 80 2334 2342 "doOut.ml" 80 2334 2343
+)
+"doOut.ml" 81 2378 2395 "doOut.ml" 81 2378 2396
+type(
+  int
+)
+"doOut.ml" 81 2378 2382 "doOut.ml" 81 2378 2396
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 82 2400 2404 "doOut.ml" 82 2400 2421
+type(
+  Bytes.t -> int -> string -> int -> int -> unit
+)
+ident(
+  ext_ref Bytes.unsafe_blit
+)
+"doOut.ml" 82 2400 2422 "doOut.ml" 82 2400 2423
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 79 2309 2330 "doOut.ml" 79 2309 2331
+)
+"doOut.ml" 82 2400 2422 "doOut.ml" 82 2400 2425
+type(
+  Bytes.t
+)
+"doOut.ml" 82 2400 2426 "doOut.ml" 82 2400 2427
+type(
+  int
+)
+"doOut.ml" 82 2400 2428 "doOut.ml" 82 2400 2429
+type(
+  string
+)
+ident(
+  int_ref r "doOut.ml" 80 2334 2342 "doOut.ml" 80 2334 2343
+)
+"doOut.ml" 82 2400 2431 "doOut.ml" 82 2400 2439
+type(
+  S.t -> int
+)
+ident(
+  ext_ref S.length
+)
+"doOut.ml" 82 2400 2440 "doOut.ml" 82 2400 2441
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 79 2309 2330 "doOut.ml" 79 2309 2331
+)
+"doOut.ml" 82 2400 2440 "doOut.ml" 82 2400 2443
+type(
+  S.t
+)
+"doOut.ml" 82 2400 2430 "doOut.ml" 82 2400 2444
+call(
+  stack
+)
+type(
+  int
+)
+"doOut.ml" 82 2400 2445 "doOut.ml" 82 2400 2446
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 79 2309 2330 "doOut.ml" 79 2309 2331
+)
+"doOut.ml" 82 2400 2445 "doOut.ml" 82 2400 2448
+type(
+  int
+)
+"doOut.ml" 82 2400 2404 "doOut.ml" 82 2400 2448
+type(
+  unit
+)
+"doOut.ml" 83 2451 2455 "doOut.ml" 83 2451 2477
+type(
+  Bytes.t -> string
+)
+ident(
+  ext_ref Bytes.unsafe_to_string
+)
+"doOut.ml" 83 2451 2478 "doOut.ml" 83 2451 2479
+type(
+  Bytes.t
+)
+ident(
+  int_ref r "doOut.ml" 80 2334 2342 "doOut.ml" 80 2334 2343
+)
+"doOut.ml" 83 2451 2455 "doOut.ml" 83 2451 2479
+call(
+  tail
+)
+type(
+  string
+)
+"doOut.ml" 82 2400 2404 "doOut.ml" 83 2451 2479
+type(
+  string
+)
+"doOut.ml" 81 2378 2382 "doOut.ml" 83 2451 2479
+type(
+  string
+)
+"doOut.ml" 80 2334 2338 "doOut.ml" 83 2451 2479
+type(
+  string
+)
+"doOut.ml" 85 2481 2487 "doOut.ml" 85 2481 2500
+type(
+  buff -> unit
+)
+ident(
+  def do_flush_buff "doOut.ml" 91 2649 2651 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 85 2481 2501 "doOut.ml" 85 2481 2502
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 86 2505 2509 "doOut.ml" 89 2635 2647
+)
+"doOut.ml" 86 2505 2513 "doOut.ml" 86 2505 2514
+type(
+  string
+)
+ident(
+  def s "doOut.ml" 87 2537 2541 "doOut.ml" 89 2635 2647
+)
+"doOut.ml" 86 2505 2517 "doOut.ml" 86 2505 2529
+type(
+  int -> string
+)
+ident(
+  ext_ref Bytes.create
+)
+"doOut.ml" 86 2505 2530 "doOut.ml" 86 2505 2531
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 85 2481 2501 "doOut.ml" 85 2481 2502
+)
+"doOut.ml" 86 2505 2530 "doOut.ml" 86 2505 2533
+type(
+  int
+)
+"doOut.ml" 86 2505 2517 "doOut.ml" 86 2505 2533
+type(
+  string
+)
+"doOut.ml" 87 2537 2541 "doOut.ml" 87 2537 2558
+type(
+  Bytes.t -> int -> string -> int -> int -> unit
+)
+ident(
+  ext_ref Bytes.unsafe_blit
+)
+"doOut.ml" 87 2537 2559 "doOut.ml" 87 2537 2560
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 85 2481 2501 "doOut.ml" 85 2481 2502
+)
+"doOut.ml" 87 2537 2559 "doOut.ml" 87 2537 2562
+type(
+  Bytes.t
+)
+"doOut.ml" 87 2537 2563 "doOut.ml" 87 2537 2564
+type(
+  int
+)
+"doOut.ml" 87 2537 2565 "doOut.ml" 87 2537 2566
+type(
+  string
+)
+ident(
+  int_ref s "doOut.ml" 86 2505 2513 "doOut.ml" 86 2505 2514
+)
+"doOut.ml" 87 2537 2567 "doOut.ml" 87 2537 2568
+type(
+  int
+)
+"doOut.ml" 87 2537 2569 "doOut.ml" 87 2537 2570
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 85 2481 2501 "doOut.ml" 85 2481 2502
+)
+"doOut.ml" 87 2537 2569 "doOut.ml" 87 2537 2572
+type(
+  int
+)
+"doOut.ml" 87 2537 2541 "doOut.ml" 87 2537 2572
+type(
+  unit
+)
+"doOut.ml" 88 2575 2579 "doOut.ml" 88 2575 2580
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 85 2481 2501 "doOut.ml" 85 2481 2502
+)
+"doOut.ml" 88 2575 2586 "doOut.ml" 88 2575 2601
+type(
+  S.t -> string -> S.t
+)
+ident(
+  ext_ref S.append_string
+)
+"doOut.ml" 88 2575 2602 "doOut.ml" 88 2575 2603
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 85 2481 2501 "doOut.ml" 85 2481 2502
+)
+"doOut.ml" 88 2575 2602 "doOut.ml" 88 2575 2605
+type(
+  S.t
+)
+"doOut.ml" 88 2575 2607 "doOut.ml" 88 2575 2629
+type(
+  Bytes.t -> string
+)
+ident(
+  ext_ref Bytes.unsafe_to_string
+)
+"doOut.ml" 88 2575 2630 "doOut.ml" 88 2575 2631
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "doOut.ml" 86 2505 2513 "doOut.ml" 86 2505 2514
+)
+"doOut.ml" 88 2575 2606 "doOut.ml" 88 2575 2632
+call(
+  stack
+)
+type(
+  string
+)
+"doOut.ml" 88 2575 2586 "doOut.ml" 88 2575 2632
+call(
+  stack
+)
+type(
+  S.t
+)
+"doOut.ml" 88 2575 2579 "doOut.ml" 88 2575 2632
+type(
+  unit
+)
+"doOut.ml" 89 2635 2639 "doOut.ml" 89 2635 2640
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 85 2481 2501 "doOut.ml" 85 2481 2502
+)
+"doOut.ml" 89 2635 2646 "doOut.ml" 89 2635 2647
+type(
+  int
+)
+"doOut.ml" 89 2635 2639 "doOut.ml" 89 2635 2647
+type(
+  unit
+)
+"doOut.ml" 88 2575 2579 "doOut.ml" 89 2635 2647
+type(
+  unit
+)
+"doOut.ml" 87 2537 2541 "doOut.ml" 89 2635 2647
+type(
+  unit
+)
+"doOut.ml" 86 2505 2509 "doOut.ml" 89 2635 2647
+type(
+  unit
+)
+"doOut.ml" 91 2649 2655 "doOut.ml" 91 2649 2665
+type(
+  buff -> unit
+)
+ident(
+  def flush_buff "doOut.ml" 93 2703 2705 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 91 2649 2666 "doOut.ml" 91 2649 2667
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 91 2649 2670 "doOut.ml" 91 2649 2701
+)
+"doOut.ml" 91 2649 2673 "doOut.ml" 91 2649 2674
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 91 2649 2666 "doOut.ml" 91 2649 2667
+)
+"doOut.ml" 91 2649 2673 "doOut.ml" 91 2649 2676
+type(
+  int
+)
+"doOut.ml" 91 2649 2677 "doOut.ml" 91 2649 2678
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"doOut.ml" 91 2649 2679 "doOut.ml" 91 2649 2680
+type(
+  int
+)
+"doOut.ml" 91 2649 2673 "doOut.ml" 91 2649 2680
+type(
+  bool
+)
+"doOut.ml" 91 2649 2686 "doOut.ml" 91 2649 2699
+type(
+  buff -> unit
+)
+ident(
+  int_ref do_flush_buff "doOut.ml" 85 2481 2487 "doOut.ml" 85 2481 2500
+)
+"doOut.ml" 91 2649 2700 "doOut.ml" 91 2649 2701
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 91 2649 2666 "doOut.ml" 91 2649 2667
+)
+"doOut.ml" 91 2649 2686 "doOut.ml" 91 2649 2701
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 91 2649 2670 "doOut.ml" 91 2649 2701
+type(
+  unit
+)
+"doOut.ml" 93 2703 2709 "doOut.ml" 93 2703 2716
+type(
+  buff -> unit
+)
+ident(
+  def realloc "doOut.ml" 99 2857 2859 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 93 2703 2717 "doOut.ml" 93 2703 2718
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 94 2721 2725 "doOut.ml" 97 2825 2855
+)
+"doOut.ml" 94 2721 2729 "doOut.ml" 94 2721 2732
+type(
+  int
+)
+ident(
+  def nsz "doOut.ml" 95 2747 2751 "doOut.ml" 97 2825 2855
+)
+"doOut.ml" 94 2721 2735 "doOut.ml" 94 2721 2736
+type(
+  int
+)
+"doOut.ml" 94 2721 2737 "doOut.ml" 94 2721 2738
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"doOut.ml" 94 2721 2739 "doOut.ml" 94 2721 2740
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 93 2703 2717 "doOut.ml" 93 2703 2718
+)
+"doOut.ml" 94 2721 2739 "doOut.ml" 94 2721 2743
+type(
+  int
+)
+"doOut.ml" 94 2721 2735 "doOut.ml" 94 2721 2743
+type(
+  int
+)
+"doOut.ml" 95 2747 2755 "doOut.ml" 95 2747 2760
+type(
+  string
+)
+ident(
+  def nbuff "doOut.ml" 96 2783 2787 "doOut.ml" 97 2825 2855
+)
+"doOut.ml" 95 2747 2763 "doOut.ml" 95 2747 2775
+type(
+  int -> string
+)
+ident(
+  ext_ref Bytes.create
+)
+"doOut.ml" 95 2747 2776 "doOut.ml" 95 2747 2779
+type(
+  int
+)
+ident(
+  int_ref nsz "doOut.ml" 94 2721 2729 "doOut.ml" 94 2721 2732
+)
+"doOut.ml" 95 2747 2763 "doOut.ml" 95 2747 2779
+type(
+  string
+)
+"doOut.ml" 96 2783 2787 "doOut.ml" 96 2783 2804
+type(
+  Bytes.t -> int -> string -> int -> int -> unit
+)
+ident(
+  ext_ref Bytes.unsafe_blit
+)
+"doOut.ml" 96 2783 2805 "doOut.ml" 96 2783 2806
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 93 2703 2717 "doOut.ml" 93 2703 2718
+)
+"doOut.ml" 96 2783 2805 "doOut.ml" 96 2783 2808
+type(
+  Bytes.t
+)
+"doOut.ml" 96 2783 2809 "doOut.ml" 96 2783 2810
+type(
+  int
+)
+"doOut.ml" 96 2783 2811 "doOut.ml" 96 2783 2816
+type(
+  string
+)
+ident(
+  int_ref nbuff "doOut.ml" 95 2747 2755 "doOut.ml" 95 2747 2760
+)
+"doOut.ml" 96 2783 2817 "doOut.ml" 96 2783 2818
+type(
+  int
+)
+"doOut.ml" 96 2783 2819 "doOut.ml" 96 2783 2820
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 93 2703 2717 "doOut.ml" 93 2703 2718
+)
+"doOut.ml" 96 2783 2819 "doOut.ml" 96 2783 2822
+type(
+  int
+)
+"doOut.ml" 96 2783 2787 "doOut.ml" 96 2783 2822
+type(
+  unit
+)
+"doOut.ml" 97 2825 2829 "doOut.ml" 97 2825 2830
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 93 2703 2717 "doOut.ml" 93 2703 2718
+)
+"doOut.ml" 97 2825 2836 "doOut.ml" 97 2825 2841
+type(
+  Bytes.t
+)
+ident(
+  int_ref nbuff "doOut.ml" 95 2747 2755 "doOut.ml" 95 2747 2760
+)
+"doOut.ml" 97 2825 2829 "doOut.ml" 97 2825 2841
+type(
+  unit
+)
+"doOut.ml" 97 2825 2844 "doOut.ml" 97 2825 2845
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 93 2703 2717 "doOut.ml" 93 2703 2718
+)
+"doOut.ml" 97 2825 2852 "doOut.ml" 97 2825 2855
+type(
+  int
+)
+ident(
+  int_ref nsz "doOut.ml" 94 2721 2729 "doOut.ml" 94 2721 2732
+)
+"doOut.ml" 97 2825 2844 "doOut.ml" 97 2825 2855
+type(
+  unit
+)
+"doOut.ml" 97 2825 2829 "doOut.ml" 97 2825 2855
+type(
+  unit
+)
+"doOut.ml" 96 2783 2787 "doOut.ml" 97 2825 2855
+type(
+  unit
+)
+"doOut.ml" 95 2747 2751 "doOut.ml" 97 2825 2855
+type(
+  unit
+)
+"doOut.ml" 94 2721 2725 "doOut.ml" 97 2825 2855
+type(
+  unit
+)
+"doOut.ml" 99 2857 2867 "doOut.ml" 99 2857 2876
+type(
+  buff -> string -> int -> int -> unit
+)
+ident(
+  def vput_buff "doOut.ml" 99 2857 2859 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 99 2857 2879 "doOut.ml" 117 3471 3478
+)
+"doOut.ml" 99 2857 2879 "doOut.ml" 99 2857 2880
+type(
+  string
+)
+ident(
+  def s "doOut.ml" 99 2857 2881 "doOut.ml" 117 3471 3478
+)
+"doOut.ml" 99 2857 2881 "doOut.ml" 99 2857 2884
+type(
+  int
+)
+ident(
+  def pos "doOut.ml" 99 2857 2885 "doOut.ml" 117 3471 3478
+)
+"doOut.ml" 99 2857 2885 "doOut.ml" 99 2857 2888
+type(
+  int
+)
+ident(
+  def len "doOut.ml" 100 2891 2895 "doOut.ml" 117 3471 3478
+)
+"doOut.ml" 100 2891 2898 "doOut.ml" 100 2891 2899
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 100 2891 2898 "doOut.ml" 100 2891 2901
+type(
+  int
+)
+"doOut.ml" 100 2891 2902 "doOut.ml" 100 2891 2903
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"doOut.ml" 100 2891 2904 "doOut.ml" 100 2891 2907
+type(
+  int
+)
+ident(
+  int_ref len "doOut.ml" 99 2857 2885 "doOut.ml" 99 2857 2888
+)
+"doOut.ml" 100 2891 2898 "doOut.ml" 100 2891 2907
+type(
+  int
+)
+"doOut.ml" 100 2891 2908 "doOut.ml" 100 2891 2909
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"doOut.ml" 100 2891 2910 "doOut.ml" 100 2891 2911
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 100 2891 2910 "doOut.ml" 100 2891 2914
+type(
+  int
+)
+"doOut.ml" 100 2891 2898 "doOut.ml" 100 2891 2914
+type(
+  bool
+)
+"doOut.ml" 101 2926 2932 "doOut.ml" 101 2926 2949
+type(
+  string -> int -> Bytes.t -> int -> int -> unit
+)
+ident(
+  ext_ref Bytes.blit_string
+)
+"doOut.ml" 101 2926 2950 "doOut.ml" 101 2926 2951
+type(
+  string
+)
+ident(
+  int_ref s "doOut.ml" 99 2857 2879 "doOut.ml" 99 2857 2880
+)
+"doOut.ml" 101 2926 2952 "doOut.ml" 101 2926 2955
+type(
+  int
+)
+ident(
+  int_ref pos "doOut.ml" 99 2857 2881 "doOut.ml" 99 2857 2884
+)
+"doOut.ml" 101 2926 2956 "doOut.ml" 101 2926 2957
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 101 2926 2956 "doOut.ml" 101 2926 2959
+type(
+  Bytes.t
+)
+"doOut.ml" 101 2926 2960 "doOut.ml" 101 2926 2961
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 101 2926 2960 "doOut.ml" 101 2926 2963
+type(
+  int
+)
+"doOut.ml" 101 2926 2964 "doOut.ml" 101 2926 2967
+type(
+  int
+)
+ident(
+  int_ref len "doOut.ml" 99 2857 2885 "doOut.ml" 99 2857 2888
+)
+"doOut.ml" 101 2926 2932 "doOut.ml" 101 2926 2967
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 102 2970 2976 "doOut.ml" 102 2970 2977
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 102 2970 2983 "doOut.ml" 102 2970 2984
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 102 2970 2983 "doOut.ml" 102 2970 2986
+type(
+  int
+)
+"doOut.ml" 102 2970 2987 "doOut.ml" 102 2970 2988
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"doOut.ml" 102 2970 2989 "doOut.ml" 102 2970 2992
+type(
+  int
+)
+ident(
+  int_ref len "doOut.ml" 99 2857 2885 "doOut.ml" 99 2857 2888
+)
+"doOut.ml" 102 2970 2983 "doOut.ml" 102 2970 2992
+type(
+  int
+)
+"doOut.ml" 102 2970 2976 "doOut.ml" 102 2970 2992
+type(
+  unit
+)
+"doOut.ml" 100 2891 2920 "doOut.ml" 103 2993 3000
+type(
+  unit
+)
+"doOut.ml" 103 2993 3009 "doOut.ml" 103 2993 3010
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 103 2993 3009 "doOut.ml" 103 2993 3013
+type(
+  int
+)
+"doOut.ml" 103 2993 3014 "doOut.ml" 103 2993 3015
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"doOut.ml" 103 2993 3016 "doOut.ml" 103 2993 3022
+type(
+  int
+)
+ident(
+  int_ref max_sz "doOut.ml" 60 1877 1883 "doOut.ml" 60 1877 1889
+)
+"doOut.ml" 103 2993 3009 "doOut.ml" 103 2993 3022
+type(
+  bool
+)
+"doOut.ml" 104 3034 3040 "doOut.ml" 104 3034 3047
+type(
+  buff -> unit
+)
+ident(
+  int_ref realloc "doOut.ml" 93 2703 2709 "doOut.ml" 93 2703 2716
+)
+"doOut.ml" 104 3034 3048 "doOut.ml" 104 3034 3049
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 104 3034 3040 "doOut.ml" 104 3034 3049
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 105 3052 3058 "doOut.ml" 105 3052 3067
+type(
+  buff -> string -> int -> int -> unit
+)
+ident(
+  int_ref vput_buff "doOut.ml" 99 2857 2867 "doOut.ml" 99 2857 2876
+)
+"doOut.ml" 105 3052 3068 "doOut.ml" 105 3052 3069
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 105 3052 3070 "doOut.ml" 105 3052 3071
+type(
+  string
+)
+ident(
+  int_ref s "doOut.ml" 99 2857 2879 "doOut.ml" 99 2857 2880
+)
+"doOut.ml" 105 3052 3072 "doOut.ml" 105 3052 3075
+type(
+  int
+)
+ident(
+  int_ref pos "doOut.ml" 99 2857 2881 "doOut.ml" 99 2857 2884
+)
+"doOut.ml" 105 3052 3076 "doOut.ml" 105 3052 3079
+type(
+  int
+)
+ident(
+  int_ref len "doOut.ml" 99 2857 2885 "doOut.ml" 99 2857 2888
+)
+"doOut.ml" 105 3052 3058 "doOut.ml" 105 3052 3079
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 103 2993 3028 "doOut.ml" 106 3080 3087
+type(
+  unit
+)
+"doOut.ml" 106 3080 3096 "doOut.ml" 106 3080 3097
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 106 3080 3096 "doOut.ml" 106 3080 3099
+type(
+  int
+)
+"doOut.ml" 106 3080 3100 "doOut.ml" 106 3080 3101
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"doOut.ml" 106 3080 3102 "doOut.ml" 106 3080 3103
+type(
+  int
+)
+"doOut.ml" 106 3080 3096 "doOut.ml" 106 3080 3103
+type(
+  bool
+)
+"doOut.ml" 107 3109 3119 "doOut.ml" 107 3109 3122
+type(
+  string
+)
+ident(
+  def bsz "doOut.ml" 108 3146 3152 "doOut.ml" 110 3259 3300
+)
+"doOut.ml" 107 3109 3125 "doOut.ml" 107 3109 3137
+type(
+  int -> string
+)
+ident(
+  ext_ref Bytes.create
+)
+"doOut.ml" 107 3109 3138 "doOut.ml" 107 3109 3139
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 107 3109 3138 "doOut.ml" 107 3109 3142
+type(
+  int
+)
+"doOut.ml" 107 3109 3125 "doOut.ml" 107 3109 3142
+type(
+  string
+)
+"doOut.ml" 108 3146 3152 "doOut.ml" 108 3146 3169
+type(
+  string -> int -> Bytes.t -> int -> int -> unit
+)
+ident(
+  ext_ref Bytes.blit_string
+)
+"doOut.ml" 108 3146 3170 "doOut.ml" 108 3146 3171
+type(
+  string
+)
+ident(
+  int_ref s "doOut.ml" 99 2857 2879 "doOut.ml" 99 2857 2880
+)
+"doOut.ml" 108 3146 3172 "doOut.ml" 108 3146 3175
+type(
+  int
+)
+ident(
+  int_ref pos "doOut.ml" 99 2857 2881 "doOut.ml" 99 2857 2884
+)
+"doOut.ml" 108 3146 3176 "doOut.ml" 108 3146 3179
+type(
+  Bytes.t
+)
+ident(
+  int_ref bsz "doOut.ml" 107 3109 3119 "doOut.ml" 107 3109 3122
+)
+"doOut.ml" 108 3146 3180 "doOut.ml" 108 3146 3181
+type(
+  int
+)
+"doOut.ml" 108 3146 3182 "doOut.ml" 108 3146 3183
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 108 3146 3182 "doOut.ml" 108 3146 3186
+type(
+  int
+)
+"doOut.ml" 108 3146 3152 "doOut.ml" 108 3146 3186
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 109 3195 3201 "doOut.ml" 109 3195 3202
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 109 3195 3208 "doOut.ml" 109 3195 3223
+type(
+  S.t -> string -> S.t
+)
+ident(
+  ext_ref S.append_string
+)
+"doOut.ml" 109 3195 3224 "doOut.ml" 109 3195 3225
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 109 3195 3224 "doOut.ml" 109 3195 3227
+type(
+  S.t
+)
+"doOut.ml" 109 3195 3229 "doOut.ml" 109 3195 3251
+type(
+  Bytes.t -> string
+)
+ident(
+  ext_ref Bytes.unsafe_to_string
+)
+"doOut.ml" 109 3195 3252 "doOut.ml" 109 3195 3255
+type(
+  Bytes.t
+)
+ident(
+  int_ref bsz "doOut.ml" 107 3109 3119 "doOut.ml" 107 3109 3122
+)
+"doOut.ml" 109 3195 3228 "doOut.ml" 109 3195 3256
+call(
+  stack
+)
+type(
+  string
+)
+"doOut.ml" 109 3195 3208 "doOut.ml" 109 3195 3256
+call(
+  stack
+)
+type(
+  S.t
+)
+"doOut.ml" 109 3195 3201 "doOut.ml" 109 3195 3256
+type(
+  unit
+)
+"doOut.ml" 110 3259 3265 "doOut.ml" 110 3259 3274
+type(
+  buff -> string -> int -> int -> unit
+)
+ident(
+  int_ref vput_buff "doOut.ml" 99 2857 2867 "doOut.ml" 99 2857 2876
+)
+"doOut.ml" 110 3259 3275 "doOut.ml" 110 3259 3276
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 110 3259 3277 "doOut.ml" 110 3259 3278
+type(
+  string
+)
+ident(
+  int_ref s "doOut.ml" 99 2857 2879 "doOut.ml" 99 2857 2880
+)
+"doOut.ml" 110 3259 3280 "doOut.ml" 110 3259 3283
+type(
+  int
+)
+ident(
+  int_ref pos "doOut.ml" 99 2857 2881 "doOut.ml" 99 2857 2884
+)
+"doOut.ml" 110 3259 3283 "doOut.ml" 110 3259 3284
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"doOut.ml" 110 3259 3284 "doOut.ml" 110 3259 3285
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 110 3259 3284 "doOut.ml" 110 3259 3288
+type(
+  int
+)
+"doOut.ml" 110 3259 3279 "doOut.ml" 110 3259 3289
+type(
+  int
+)
+"doOut.ml" 110 3259 3291 "doOut.ml" 110 3259 3294
+type(
+  int
+)
+ident(
+  int_ref len "doOut.ml" 99 2857 2885 "doOut.ml" 99 2857 2888
+)
+"doOut.ml" 110 3259 3294 "doOut.ml" 110 3259 3295
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"doOut.ml" 110 3259 3295 "doOut.ml" 110 3259 3296
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 110 3259 3295 "doOut.ml" 110 3259 3299
+type(
+  int
+)
+"doOut.ml" 110 3259 3290 "doOut.ml" 110 3259 3300
+type(
+  int
+)
+"doOut.ml" 110 3259 3265 "doOut.ml" 110 3259 3300
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 109 3195 3201 "doOut.ml" 110 3259 3300
+type(
+  unit
+)
+"doOut.ml" 108 3146 3152 "doOut.ml" 110 3259 3300
+type(
+  unit
+)
+"doOut.ml" 107 3109 3115 "doOut.ml" 110 3259 3300
+type(
+  unit
+)
+"doOut.ml" 112 3316 3326 "doOut.ml" 112 3316 3328
+type(
+  int
+)
+ident(
+  def tr "doOut.ml" 113 3343 3349 "doOut.ml" 116 3433 3470
+)
+"doOut.ml" 112 3316 3331 "doOut.ml" 112 3316 3332
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 112 3316 3331 "doOut.ml" 112 3316 3335
+type(
+  int
+)
+"doOut.ml" 112 3316 3335 "doOut.ml" 112 3316 3336
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"doOut.ml" 112 3316 3336 "doOut.ml" 112 3316 3337
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 112 3316 3336 "doOut.ml" 112 3316 3339
+type(
+  int
+)
+"doOut.ml" 112 3316 3331 "doOut.ml" 112 3316 3339
+type(
+  int
+)
+"doOut.ml" 113 3343 3349 "doOut.ml" 113 3343 3367
+type(
+  string -> int -> Bytes.t -> int -> int -> unit
+)
+ident(
+  ext_ref String.unsafe_blit
+)
+"doOut.ml" 113 3343 3368 "doOut.ml" 113 3343 3369
+type(
+  string
+)
+ident(
+  int_ref s "doOut.ml" 99 2857 2879 "doOut.ml" 99 2857 2880
+)
+"doOut.ml" 113 3343 3370 "doOut.ml" 113 3343 3373
+type(
+  int
+)
+ident(
+  int_ref pos "doOut.ml" 99 2857 2881 "doOut.ml" 99 2857 2884
+)
+"doOut.ml" 113 3343 3374 "doOut.ml" 113 3343 3375
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 113 3343 3374 "doOut.ml" 113 3343 3377
+type(
+  Bytes.t
+)
+"doOut.ml" 113 3343 3378 "doOut.ml" 113 3343 3379
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 113 3343 3378 "doOut.ml" 113 3343 3381
+type(
+  int
+)
+"doOut.ml" 113 3343 3382 "doOut.ml" 113 3343 3384
+type(
+  int
+)
+ident(
+  int_ref tr "doOut.ml" 112 3316 3326 "doOut.ml" 112 3316 3328
+)
+"doOut.ml" 113 3343 3349 "doOut.ml" 113 3343 3384
+type(
+  unit
+)
+"doOut.ml" 114 3387 3393 "doOut.ml" 114 3387 3394
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 114 3387 3400 "doOut.ml" 114 3387 3401
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 114 3387 3400 "doOut.ml" 114 3387 3403
+type(
+  int
+)
+"doOut.ml" 114 3387 3403 "doOut.ml" 114 3387 3404
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"doOut.ml" 114 3387 3404 "doOut.ml" 114 3387 3406
+type(
+  int
+)
+ident(
+  int_ref tr "doOut.ml" 112 3316 3326 "doOut.ml" 112 3316 3328
+)
+"doOut.ml" 114 3387 3400 "doOut.ml" 114 3387 3406
+type(
+  int
+)
+"doOut.ml" 114 3387 3393 "doOut.ml" 114 3387 3406
+type(
+  unit
+)
+"doOut.ml" 115 3409 3415 "doOut.ml" 115 3409 3428
+type(
+  buff -> unit
+)
+ident(
+  int_ref do_flush_buff "doOut.ml" 85 2481 2487 "doOut.ml" 85 2481 2500
+)
+"doOut.ml" 115 3409 3429 "doOut.ml" 115 3409 3430
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 115 3409 3415 "doOut.ml" 115 3409 3430
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 116 3433 3439 "doOut.ml" 116 3433 3448
+type(
+  buff -> string -> int -> int -> unit
+)
+ident(
+  int_ref vput_buff "doOut.ml" 99 2857 2867 "doOut.ml" 99 2857 2876
+)
+"doOut.ml" 116 3433 3449 "doOut.ml" 116 3433 3450
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 99 2857 2877 "doOut.ml" 99 2857 2878
+)
+"doOut.ml" 116 3433 3451 "doOut.ml" 116 3433 3452
+type(
+  string
+)
+ident(
+  int_ref s "doOut.ml" 99 2857 2879 "doOut.ml" 99 2857 2880
+)
+"doOut.ml" 116 3433 3454 "doOut.ml" 116 3433 3457
+type(
+  int
+)
+ident(
+  int_ref pos "doOut.ml" 99 2857 2881 "doOut.ml" 99 2857 2884
+)
+"doOut.ml" 116 3433 3457 "doOut.ml" 116 3433 3458
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"doOut.ml" 116 3433 3458 "doOut.ml" 116 3433 3460
+type(
+  int
+)
+ident(
+  int_ref tr "doOut.ml" 112 3316 3326 "doOut.ml" 112 3316 3328
+)
+"doOut.ml" 116 3433 3453 "doOut.ml" 116 3433 3461
+type(
+  int
+)
+"doOut.ml" 116 3433 3463 "doOut.ml" 116 3433 3466
+type(
+  int
+)
+ident(
+  int_ref len "doOut.ml" 99 2857 2885 "doOut.ml" 99 2857 2888
+)
+"doOut.ml" 116 3433 3466 "doOut.ml" 116 3433 3467
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"doOut.ml" 116 3433 3467 "doOut.ml" 116 3433 3469
+type(
+  int
+)
+ident(
+  int_ref tr "doOut.ml" 112 3316 3326 "doOut.ml" 112 3316 3328
+)
+"doOut.ml" 116 3433 3462 "doOut.ml" 116 3433 3470
+type(
+  int
+)
+"doOut.ml" 116 3433 3439 "doOut.ml" 116 3433 3470
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 115 3409 3415 "doOut.ml" 116 3433 3470
+type(
+  unit
+)
+"doOut.ml" 114 3387 3393 "doOut.ml" 116 3433 3470
+type(
+  unit
+)
+"doOut.ml" 113 3343 3349 "doOut.ml" 116 3433 3470
+type(
+  unit
+)
+"doOut.ml" 111 3301 3310 "doOut.ml" 117 3471 3478
+type(
+  unit
+)
+"doOut.ml" 106 3080 3093 "doOut.ml" 117 3471 3478
+type(
+  unit
+)
+"doOut.ml" 103 2993 3006 "doOut.ml" 117 3471 3478
+type(
+  unit
+)
+"doOut.ml" 100 2891 2895 "doOut.ml" 117 3471 3478
+type(
+  unit
+)
+"doOut.ml" 120 3481 3487 "doOut.ml" 120 3481 3495
+type(
+  buff -> string -> int -> int -> unit
+)
+ident(
+  def put_buff "doOut.ml" 130 3787 3789 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 120 3481 3496 "doOut.ml" 120 3481 3497
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 120 3481 3498 "doOut.ml" 128 3779 3785
+)
+"doOut.ml" 120 3481 3498 "doOut.ml" 120 3481 3499
+type(
+  string
+)
+ident(
+  def s "doOut.ml" 120 3481 3500 "doOut.ml" 128 3779 3785
+)
+"doOut.ml" 120 3481 3500 "doOut.ml" 120 3481 3503
+type(
+  int
+)
+ident(
+  def pos "doOut.ml" 120 3481 3504 "doOut.ml" 128 3779 3785
+)
+"doOut.ml" 120 3481 3504 "doOut.ml" 120 3481 3507
+type(
+  int
+)
+ident(
+  def len "doOut.ml" 121 3510 3514 "doOut.ml" 128 3779 3785
+)
+"doOut.ml" 121 3510 3517 "doOut.ml" 121 3510 3518
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"doOut.ml" 121 3510 3518 "doOut.ml" 121 3510 3525
+type(
+  int ref
+)
+ident(
+  int_ref verbose "doOut.ml" 14 754 758 "doOut.ml" 14 754 765
+)
+"doOut.ml" 121 3510 3517 "doOut.ml" 121 3510 3525
+type(
+  int
+)
+"doOut.ml" 121 3510 3526 "doOut.ml" 121 3510 3527
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"doOut.ml" 121 3510 3528 "doOut.ml" 121 3510 3529
+type(
+  int
+)
+"doOut.ml" 121 3510 3517 "doOut.ml" 121 3510 3529
+type(
+  bool
+)
+"doOut.ml" 122 3535 3541 "doOut.ml" 122 3535 3548
+type(
+  (string ->
+   (out_channel -> buff -> unit) ->
+   buff -> (out_channel -> S.t -> unit) -> S.t -> unit, out_channel, 
+   unit)
+  format ->
+  string ->
+  (out_channel -> buff -> unit) ->
+  buff -> (out_channel -> S.t -> unit) -> S.t -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"doOut.ml" 122 3535 3549 "doOut.ml" 122 3535 3572
+type(
+  (string ->
+   (out_channel -> buff -> unit) ->
+   buff -> (out_channel -> S.t -> unit) -> S.t -> unit, out_channel, 
+   unit)
+  format
+)
+"doOut.ml" 123 3573 3582 "doOut.ml" 123 3573 3592
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"doOut.ml" 123 3573 3593 "doOut.ml" 123 3573 3594
+type(
+  string
+)
+ident(
+  int_ref s "doOut.ml" 120 3481 3498 "doOut.ml" 120 3481 3499
+)
+"doOut.ml" 123 3573 3595 "doOut.ml" 123 3573 3598
+type(
+  int
+)
+ident(
+  int_ref pos "doOut.ml" 120 3481 3500 "doOut.ml" 120 3481 3503
+)
+"doOut.ml" 123 3573 3599 "doOut.ml" 123 3573 3602
+type(
+  int
+)
+ident(
+  int_ref len "doOut.ml" 120 3481 3504 "doOut.ml" 120 3481 3507
+)
+"doOut.ml" 123 3573 3581 "doOut.ml" 123 3573 3603
+call(
+  stack
+)
+type(
+  string
+)
+"doOut.ml" 123 3573 3604 "doOut.ml" 123 3573 3613
+type(
+  out_channel -> buff -> unit
+)
+ident(
+  int_ref dump_buff "doOut.ml" 71 2143 2149 "doOut.ml" 71 2143 2158
+)
+"doOut.ml" 123 3573 3614 "doOut.ml" 123 3573 3615
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 120 3481 3496 "doOut.ml" 120 3481 3497
+)
+"doOut.ml" 123 3573 3616 "doOut.ml" 123 3573 3623
+type(
+  out_channel -> S.t -> unit
+)
+ident(
+  ext_ref S.debug
+)
+"doOut.ml" 123 3573 3624 "doOut.ml" 123 3573 3625
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 120 3481 3496 "doOut.ml" 120 3481 3497
+)
+"doOut.ml" 123 3573 3624 "doOut.ml" 123 3573 3627
+type(
+  S.t
+)
+"doOut.ml" 122 3535 3541 "doOut.ml" 123 3573 3627
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 121 3510 3514 "doOut.ml" 123 3573 3627
+type(
+  unit
+)
+"doOut.ml" 124 3630 3634 "doOut.ml" 124 3630 3643
+type(
+  buff -> string -> int -> int -> unit
+)
+ident(
+  int_ref vput_buff "doOut.ml" 99 2857 2867 "doOut.ml" 99 2857 2876
+)
+"doOut.ml" 124 3630 3644 "doOut.ml" 124 3630 3645
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 120 3481 3496 "doOut.ml" 120 3481 3497
+)
+"doOut.ml" 124 3630 3646 "doOut.ml" 124 3630 3647
+type(
+  string
+)
+ident(
+  int_ref s "doOut.ml" 120 3481 3498 "doOut.ml" 120 3481 3499
+)
+"doOut.ml" 124 3630 3648 "doOut.ml" 124 3630 3651
+type(
+  int
+)
+ident(
+  int_ref pos "doOut.ml" 120 3481 3500 "doOut.ml" 120 3481 3503
+)
+"doOut.ml" 124 3630 3652 "doOut.ml" 124 3630 3655
+type(
+  int
+)
+ident(
+  int_ref len "doOut.ml" 120 3481 3504 "doOut.ml" 120 3481 3507
+)
+"doOut.ml" 124 3630 3634 "doOut.ml" 124 3630 3655
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 125 3658 3665 "doOut.ml" 125 3658 3666
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"doOut.ml" 125 3658 3666 "doOut.ml" 125 3658 3673
+type(
+  int ref
+)
+ident(
+  int_ref verbose "doOut.ml" 14 754 758 "doOut.ml" 14 754 765
+)
+"doOut.ml" 125 3658 3665 "doOut.ml" 125 3658 3673
+type(
+  int
+)
+"doOut.ml" 125 3658 3674 "doOut.ml" 125 3658 3675
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"doOut.ml" 125 3658 3676 "doOut.ml" 125 3658 3677
+type(
+  int
+)
+"doOut.ml" 125 3658 3665 "doOut.ml" 125 3658 3677
+type(
+  bool
+)
+"doOut.ml" 126 3683 3687 "doOut.ml" 126 3683 3694
+type(
+  (string ->
+   (out_channel -> buff -> unit) ->
+   buff -> (out_channel -> S.t -> unit) -> S.t -> unit, out_channel, 
+   unit)
+  format ->
+  string ->
+  (out_channel -> buff -> unit) ->
+  buff -> (out_channel -> S.t -> unit) -> S.t -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"doOut.ml" 126 3683 3695 "doOut.ml" 126 3683 3723
+type(
+  (string ->
+   (out_channel -> buff -> unit) ->
+   buff -> (out_channel -> S.t -> unit) -> S.t -> unit, out_channel, 
+   unit)
+  format
+)
+"doOut.ml" 127 3724 3731 "doOut.ml" 127 3724 3741
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"doOut.ml" 127 3724 3742 "doOut.ml" 127 3724 3743
+type(
+  string
+)
+ident(
+  int_ref s "doOut.ml" 120 3481 3498 "doOut.ml" 120 3481 3499
+)
+"doOut.ml" 127 3724 3744 "doOut.ml" 127 3724 3747
+type(
+  int
+)
+ident(
+  int_ref pos "doOut.ml" 120 3481 3500 "doOut.ml" 120 3481 3503
+)
+"doOut.ml" 127 3724 3748 "doOut.ml" 127 3724 3751
+type(
+  int
+)
+ident(
+  int_ref len "doOut.ml" 120 3481 3504 "doOut.ml" 120 3481 3507
+)
+"doOut.ml" 127 3724 3730 "doOut.ml" 127 3724 3752
+call(
+  stack
+)
+type(
+  string
+)
+"doOut.ml" 127 3724 3753 "doOut.ml" 127 3724 3762
+type(
+  out_channel -> buff -> unit
+)
+ident(
+  int_ref dump_buff "doOut.ml" 71 2143 2149 "doOut.ml" 71 2143 2158
+)
+"doOut.ml" 127 3724 3763 "doOut.ml" 127 3724 3764
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 120 3481 3496 "doOut.ml" 120 3481 3497
+)
+"doOut.ml" 127 3724 3765 "doOut.ml" 127 3724 3772
+type(
+  out_channel -> S.t -> unit
+)
+ident(
+  ext_ref S.debug
+)
+"doOut.ml" 127 3724 3773 "doOut.ml" 127 3724 3774
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 120 3481 3496 "doOut.ml" 120 3481 3497
+)
+"doOut.ml" 127 3724 3773 "doOut.ml" 127 3724 3776
+type(
+  S.t
+)
+"doOut.ml" 126 3683 3687 "doOut.ml" 127 3724 3776
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 125 3658 3662 "doOut.ml" 127 3724 3776
+type(
+  unit
+)
+"doOut.ml" 128 3779 3783 "doOut.ml" 128 3779 3785
+type(
+  unit
+)
+"doOut.ml" 125 3658 3662 "doOut.ml" 128 3779 3785
+type(
+  unit
+)
+"doOut.ml" 124 3630 3634 "doOut.ml" 128 3779 3785
+type(
+  unit
+)
+"doOut.ml" 121 3510 3514 "doOut.ml" 128 3779 3785
+type(
+  unit
+)
+"doOut.ml" 130 3787 3793 "doOut.ml" 130 3787 3802
+type(
+  buff -> Bytes.t -> int -> int -> unit
+)
+ident(
+  def put_bytes "doOut.ml" 132 3864 3866 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 130 3787 3803 "doOut.ml" 130 3787 3804
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 130 3787 3805 "doOut.ml" 130 3787 3862
+)
+"doOut.ml" 130 3787 3805 "doOut.ml" 130 3787 3806
+type(
+  Bytes.t
+)
+ident(
+  def s "doOut.ml" 130 3787 3807 "doOut.ml" 130 3787 3862
+)
+"doOut.ml" 130 3787 3807 "doOut.ml" 130 3787 3810
+type(
+  int
+)
+ident(
+  def pos "doOut.ml" 130 3787 3811 "doOut.ml" 130 3787 3862
+)
+"doOut.ml" 130 3787 3811 "doOut.ml" 130 3787 3814
+type(
+  int
+)
+ident(
+  def len "doOut.ml" 130 3787 3817 "doOut.ml" 130 3787 3862
+)
+"doOut.ml" 130 3787 3817 "doOut.ml" 130 3787 3825
+type(
+  buff -> string -> int -> int -> unit
+)
+ident(
+  int_ref put_buff "doOut.ml" 120 3481 3487 "doOut.ml" 120 3481 3495
+)
+"doOut.ml" 130 3787 3826 "doOut.ml" 130 3787 3827
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 130 3787 3803 "doOut.ml" 130 3787 3804
+)
+"doOut.ml" 130 3787 3829 "doOut.ml" 130 3787 3851
+type(
+  Bytes.t -> string
+)
+ident(
+  ext_ref Bytes.unsafe_to_string
+)
+"doOut.ml" 130 3787 3852 "doOut.ml" 130 3787 3853
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "doOut.ml" 130 3787 3805 "doOut.ml" 130 3787 3806
+)
+"doOut.ml" 130 3787 3828 "doOut.ml" 130 3787 3854
+call(
+  stack
+)
+type(
+  string
+)
+"doOut.ml" 130 3787 3855 "doOut.ml" 130 3787 3858
+type(
+  int
+)
+ident(
+  int_ref pos "doOut.ml" 130 3787 3807 "doOut.ml" 130 3787 3810
+)
+"doOut.ml" 130 3787 3859 "doOut.ml" 130 3787 3862
+type(
+  int
+)
+ident(
+  int_ref len "doOut.ml" 130 3787 3811 "doOut.ml" 130 3787 3814
+)
+"doOut.ml" 130 3787 3817 "doOut.ml" 130 3787 3862
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 132 3864 3870 "doOut.ml" 132 3864 3883
+type(
+  buff -> char -> unit
+)
+ident(
+  def put_buff_char "doOut.ml" 140 4048 4050 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 132 3864 3884 "doOut.ml" 132 3864 3885
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 132 3864 3886 "doOut.ml" 138 4028 4046
+)
+"doOut.ml" 132 3864 3886 "doOut.ml" 132 3864 3887
+type(
+  char
+)
+ident(
+  def c "doOut.ml" 133 3890 3894 "doOut.ml" 138 4028 4046
+)
+"doOut.ml" 133 3890 3897 "doOut.ml" 133 3890 3898
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 132 3864 3884 "doOut.ml" 132 3864 3885
+)
+"doOut.ml" 133 3890 3897 "doOut.ml" 133 3890 3900
+type(
+  int
+)
+"doOut.ml" 133 3890 3901 "doOut.ml" 133 3890 3903
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"doOut.ml" 133 3890 3904 "doOut.ml" 133 3890 3905
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 132 3864 3884 "doOut.ml" 132 3864 3885
+)
+"doOut.ml" 133 3890 3904 "doOut.ml" 133 3890 3908
+type(
+  int
+)
+"doOut.ml" 133 3890 3897 "doOut.ml" 133 3890 3908
+type(
+  bool
+)
+"doOut.ml" 134 3920 3929 "doOut.ml" 134 3920 3930
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 132 3864 3884 "doOut.ml" 132 3864 3885
+)
+"doOut.ml" 134 3920 3929 "doOut.ml" 134 3920 3933
+type(
+  int
+)
+"doOut.ml" 134 3920 3934 "doOut.ml" 134 3920 3935
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"doOut.ml" 134 3920 3936 "doOut.ml" 134 3920 3942
+type(
+  int
+)
+ident(
+  int_ref max_sz "doOut.ml" 60 1877 1883 "doOut.ml" 60 1877 1889
+)
+"doOut.ml" 134 3920 3929 "doOut.ml" 134 3920 3942
+type(
+  bool
+)
+"doOut.ml" 134 3920 3948 "doOut.ml" 134 3920 3955
+type(
+  buff -> unit
+)
+ident(
+  int_ref realloc "doOut.ml" 93 2703 2709 "doOut.ml" 93 2703 2716
+)
+"doOut.ml" 134 3920 3956 "doOut.ml" 134 3920 3957
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 132 3864 3884 "doOut.ml" 132 3864 3885
+)
+"doOut.ml" 134 3920 3948 "doOut.ml" 134 3920 3957
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 135 3958 3969 "doOut.ml" 135 3958 3982
+type(
+  buff -> unit
+)
+ident(
+  int_ref do_flush_buff "doOut.ml" 85 2481 2487 "doOut.ml" 85 2481 2500
+)
+"doOut.ml" 135 3958 3983 "doOut.ml" 135 3958 3984
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 132 3864 3884 "doOut.ml" 132 3864 3885
+)
+"doOut.ml" 135 3958 3969 "doOut.ml" 135 3958 3984
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 133 3890 3914 "doOut.ml" 136 3985 3992
+type(
+  unit
+)
+"doOut.ml" 133 3890 3894 "doOut.ml" 136 3985 3992
+type(
+  unit
+)
+"doOut.ml" 137 3995 3999 "doOut.ml" 137 3995 4015
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  ext_ref Bytes.unsafe_set
+)
+"doOut.ml" 137 3995 4016 "doOut.ml" 137 3995 4017
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 132 3864 3884 "doOut.ml" 132 3864 3885
+)
+"doOut.ml" 137 3995 4016 "doOut.ml" 137 3995 4019
+type(
+  Bytes.t
+)
+"doOut.ml" 137 3995 4020 "doOut.ml" 137 3995 4021
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 132 3864 3884 "doOut.ml" 132 3864 3885
+)
+"doOut.ml" 137 3995 4020 "doOut.ml" 137 3995 4023
+type(
+  int
+)
+"doOut.ml" 137 3995 4024 "doOut.ml" 137 3995 4025
+type(
+  char
+)
+ident(
+  int_ref c "doOut.ml" 132 3864 3886 "doOut.ml" 132 3864 3887
+)
+"doOut.ml" 137 3995 3999 "doOut.ml" 137 3995 4025
+type(
+  unit
+)
+"doOut.ml" 138 4028 4032 "doOut.ml" 138 4028 4033
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 132 3864 3884 "doOut.ml" 132 3864 3885
+)
+"doOut.ml" 138 4028 4039 "doOut.ml" 138 4028 4040
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 132 3864 3884 "doOut.ml" 132 3864 3885
+)
+"doOut.ml" 138 4028 4039 "doOut.ml" 138 4028 4042
+type(
+  int
+)
+"doOut.ml" 138 4028 4043 "doOut.ml" 138 4028 4044
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"doOut.ml" 138 4028 4045 "doOut.ml" 138 4028 4046
+type(
+  int
+)
+"doOut.ml" 138 4028 4039 "doOut.ml" 138 4028 4046
+type(
+  int
+)
+"doOut.ml" 138 4028 4032 "doOut.ml" 138 4028 4046
+type(
+  unit
+)
+"doOut.ml" 137 3995 3999 "doOut.ml" 138 4028 4046
+type(
+  unit
+)
+"doOut.ml" 133 3890 3894 "doOut.ml" 138 4028 4046
+type(
+  unit
+)
+"doOut.ml" 140 4048 4054 "doOut.ml" 140 4048 4062
+type(
+  buff -> int -> char
+)
+ident(
+  def get_buff "doOut.ml" 146 4207 4209 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 140 4048 4063 "doOut.ml" 140 4048 4064
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 140 4048 4065 "doOut.ml" 143 4131 4168
+)
+"doOut.ml" 140 4048 4065 "doOut.ml" 140 4048 4066
+type(
+  int
+)
+ident(
+  def k "doOut.ml" 141 4069 4073 "doOut.ml" 143 4131 4168
+)
+"doOut.ml" 141 4069 4077 "doOut.ml" 141 4069 4080
+type(
+  int
+)
+ident(
+  def len "doOut.ml" 142 4099 4103 "doOut.ml" 143 4131 4168
+)
+"doOut.ml" 141 4069 4083 "doOut.ml" 141 4069 4091
+type(
+  S.t -> int
+)
+ident(
+  ext_ref S.length
+)
+"doOut.ml" 141 4069 4092 "doOut.ml" 141 4069 4093
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 140 4048 4063 "doOut.ml" 140 4048 4064
+)
+"doOut.ml" 141 4069 4092 "doOut.ml" 141 4069 4095
+type(
+  S.t
+)
+"doOut.ml" 141 4069 4083 "doOut.ml" 141 4069 4095
+call(
+  stack
+)
+type(
+  int
+)
+"doOut.ml" 142 4099 4106 "doOut.ml" 142 4099 4107
+type(
+  int
+)
+ident(
+  int_ref k "doOut.ml" 140 4048 4065 "doOut.ml" 140 4048 4066
+)
+"doOut.ml" 142 4099 4108 "doOut.ml" 142 4099 4109
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"doOut.ml" 142 4099 4110 "doOut.ml" 142 4099 4113
+type(
+  int
+)
+ident(
+  int_ref len "doOut.ml" 141 4069 4077 "doOut.ml" 141 4069 4080
+)
+"doOut.ml" 142 4099 4106 "doOut.ml" 142 4099 4113
+type(
+  bool
+)
+"doOut.ml" 142 4099 4119 "doOut.ml" 142 4099 4124
+type(
+  S.t -> int -> char
+)
+ident(
+  ext_ref S.get
+)
+"doOut.ml" 142 4099 4125 "doOut.ml" 142 4099 4126
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 140 4048 4063 "doOut.ml" 140 4048 4064
+)
+"doOut.ml" 142 4099 4125 "doOut.ml" 142 4099 4128
+type(
+  S.t
+)
+"doOut.ml" 142 4099 4129 "doOut.ml" 142 4099 4130
+type(
+  int
+)
+ident(
+  int_ref k "doOut.ml" 140 4048 4065 "doOut.ml" 140 4048 4066
+)
+"doOut.ml" 142 4099 4119 "doOut.ml" 142 4099 4130
+call(
+  tail
+)
+type(
+  char
+)
+"doOut.ml" 143 4131 4140 "doOut.ml" 143 4131 4156
+type(
+  Bytes.t -> int -> char
+)
+ident(
+  ext_ref Bytes.unsafe_get
+)
+"doOut.ml" 143 4131 4157 "doOut.ml" 143 4131 4158
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 140 4048 4063 "doOut.ml" 140 4048 4064
+)
+"doOut.ml" 143 4131 4157 "doOut.ml" 143 4131 4160
+type(
+  Bytes.t
+)
+"doOut.ml" 143 4131 4162 "doOut.ml" 143 4131 4163
+type(
+  int
+)
+ident(
+  int_ref k "doOut.ml" 140 4048 4065 "doOut.ml" 140 4048 4066
+)
+"doOut.ml" 143 4131 4163 "doOut.ml" 143 4131 4164
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"doOut.ml" 143 4131 4164 "doOut.ml" 143 4131 4167
+type(
+  int
+)
+ident(
+  int_ref len "doOut.ml" 141 4069 4077 "doOut.ml" 141 4069 4080
+)
+"doOut.ml" 143 4131 4161 "doOut.ml" 143 4131 4168
+type(
+  int
+)
+"doOut.ml" 143 4131 4140 "doOut.ml" 143 4131 4168
+type(
+  char
+)
+"doOut.ml" 142 4099 4103 "doOut.ml" 143 4131 4168
+type(
+  char
+)
+"doOut.ml" 141 4069 4073 "doOut.ml" 143 4131 4168
+type(
+  char
+)
+"doOut.ml" 146 4207 4213 "doOut.ml" 146 4207 4222
+type(
+  buff -> buff -> unit
+)
+ident(
+  def copy_buff "doOut.ml" 153 4347 4349 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 146 4207 4223 "doOut.ml" 146 4207 4226
+type(
+  buff
+)
+ident(
+  def src "doOut.ml" 146 4207 4227 "doOut.ml" 149 4291 4322
+)
+"doOut.ml" 146 4207 4227 "doOut.ml" 146 4207 4230
+type(
+  buff
+)
+ident(
+  def dst "doOut.ml" 147 4234 4238 "doOut.ml" 149 4291 4322
+)
+"doOut.ml" 147 4234 4238 "doOut.ml" 147 4234 4248
+type(
+  buff -> unit
+)
+ident(
+  int_ref flush_buff "doOut.ml" 91 2649 2655 "doOut.ml" 91 2649 2665
+)
+"doOut.ml" 147 4234 4249 "doOut.ml" 147 4234 4252
+type(
+  buff
+)
+ident(
+  int_ref dst "doOut.ml" 146 4207 4227 "doOut.ml" 146 4207 4230
+)
+"doOut.ml" 147 4234 4238 "doOut.ml" 147 4234 4252
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 148 4255 4259 "doOut.ml" 148 4255 4262
+type(
+  buff
+)
+ident(
+  int_ref dst "doOut.ml" 146 4207 4227 "doOut.ml" 146 4207 4230
+)
+"doOut.ml" 148 4255 4268 "doOut.ml" 148 4255 4276
+type(
+  S.t -> S.t -> S.t
+)
+ident(
+  ext_ref S.append
+)
+"doOut.ml" 148 4255 4277 "doOut.ml" 148 4255 4280
+type(
+  buff
+)
+ident(
+  int_ref dst "doOut.ml" 146 4207 4227 "doOut.ml" 146 4207 4230
+)
+"doOut.ml" 148 4255 4277 "doOut.ml" 148 4255 4282
+type(
+  S.t
+)
+"doOut.ml" 148 4255 4283 "doOut.ml" 148 4255 4286
+type(
+  buff
+)
+ident(
+  int_ref src "doOut.ml" 146 4207 4223 "doOut.ml" 146 4207 4226
+)
+"doOut.ml" 148 4255 4283 "doOut.ml" 148 4255 4288
+type(
+  S.t
+)
+"doOut.ml" 148 4255 4268 "doOut.ml" 148 4255 4288
+call(
+  stack
+)
+type(
+  S.t
+)
+"doOut.ml" 148 4255 4259 "doOut.ml" 148 4255 4288
+type(
+  unit
+)
+"doOut.ml" 149 4291 4295 "doOut.ml" 149 4291 4304
+type(
+  buff -> Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref put_bytes "doOut.ml" 130 3787 3793 "doOut.ml" 130 3787 3802
+)
+"doOut.ml" 149 4291 4305 "doOut.ml" 149 4291 4308
+type(
+  buff
+)
+ident(
+  int_ref dst "doOut.ml" 146 4207 4227 "doOut.ml" 146 4207 4230
+)
+"doOut.ml" 149 4291 4309 "doOut.ml" 149 4291 4312
+type(
+  buff
+)
+ident(
+  int_ref src "doOut.ml" 146 4207 4223 "doOut.ml" 146 4207 4226
+)
+"doOut.ml" 149 4291 4309 "doOut.ml" 149 4291 4314
+type(
+  Bytes.t
+)
+"doOut.ml" 149 4291 4315 "doOut.ml" 149 4291 4316
+type(
+  int
+)
+"doOut.ml" 149 4291 4317 "doOut.ml" 149 4291 4320
+type(
+  buff
+)
+ident(
+  int_ref src "doOut.ml" 146 4207 4223 "doOut.ml" 146 4207 4226
+)
+"doOut.ml" 149 4291 4317 "doOut.ml" 149 4291 4322
+type(
+  int
+)
+"doOut.ml" 149 4291 4295 "doOut.ml" 149 4291 4322
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 148 4255 4259 "doOut.ml" 149 4291 4322
+type(
+  unit
+)
+"doOut.ml" 147 4234 4238 "doOut.ml" 149 4291 4322
+type(
+  unit
+)
+"doOut.ml" 158 4415 4421 "doOut.ml" 158 4415 4426
+type(
+  out_channel -> t -> unit
+)
+ident(
+  def debug "doOut.ml" 167 4648 4650 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 158 4415 4427 "doOut.ml" 158 4415 4431
+type(
+  out_channel
+)
+ident(
+  def chan "doOut.ml" 158 4415 4434 "doOut.ml" 165 4605 4646
+)
+"doOut.ml" 159 4443 4454 "doOut.ml" 159 4443 4457
+type(
+  buff
+)
+ident(
+  def out "doOut.ml" 160 4461 4469 "doOut.ml" 163 4550 4560
+)
+"doOut.ml" 159 4443 4449 "doOut.ml" 159 4443 4457
+type(
+  t
+)
+"doOut.ml" 160 4461 4469 "doOut.ml" 160 4461 4480
+type(
+  out_channel -> char -> unit
+)
+ident(
+  ext_ref Pervasives.output_char
+)
+"doOut.ml" 160 4461 4481 "doOut.ml" 160 4461 4485
+type(
+  out_channel
+)
+ident(
+  int_ref chan "doOut.ml" 158 4415 4427 "doOut.ml" 158 4415 4431
+)
+"doOut.ml" 160 4461 4486 "doOut.ml" 160 4461 4489
+type(
+  char
+)
+"doOut.ml" 160 4461 4469 "doOut.ml" 160 4461 4489
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 161 4491 4499 "doOut.ml" 161 4491 4508
+type(
+  out_channel -> buff -> unit
+)
+ident(
+  int_ref dump_buff "doOut.ml" 71 2143 2149 "doOut.ml" 71 2143 2158
+)
+"doOut.ml" 161 4491 4509 "doOut.ml" 161 4491 4513
+type(
+  out_channel
+)
+ident(
+  int_ref chan "doOut.ml" 158 4415 4427 "doOut.ml" 158 4415 4431
+)
+"doOut.ml" 161 4491 4514 "doOut.ml" 161 4491 4517
+type(
+  buff
+)
+ident(
+  int_ref out "doOut.ml" 159 4443 4454 "doOut.ml" 159 4443 4457
+)
+"doOut.ml" 161 4491 4499 "doOut.ml" 161 4491 4517
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 162 4520 4528 "doOut.ml" 162 4520 4539
+type(
+  out_channel -> char -> unit
+)
+ident(
+  ext_ref Pervasives.output_char
+)
+"doOut.ml" 162 4520 4540 "doOut.ml" 162 4520 4544
+type(
+  out_channel
+)
+ident(
+  int_ref chan "doOut.ml" 158 4415 4427 "doOut.ml" 158 4415 4431
+)
+"doOut.ml" 162 4520 4545 "doOut.ml" 162 4520 4548
+type(
+  char
+)
+"doOut.ml" 162 4520 4528 "doOut.ml" 162 4520 4548
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 163 4550 4558 "doOut.ml" 163 4550 4560
+type(
+  unit
+)
+"doOut.ml" 162 4520 4528 "doOut.ml" 163 4550 4560
+type(
+  unit
+)
+"doOut.ml" 161 4491 4499 "doOut.ml" 163 4550 4560
+type(
+  unit
+)
+"doOut.ml" 160 4461 4469 "doOut.ml" 163 4550 4560
+type(
+  unit
+)
+"doOut.ml" 164 4561 4572 "doOut.ml" 164 4561 4573
+type(
+  out_channel
+)
+"doOut.ml" 164 4561 4567 "doOut.ml" 164 4561 4573
+type(
+  t
+)
+"doOut.ml" 164 4561 4577 "doOut.ml" 164 4561 4590
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"doOut.ml" 164 4561 4591 "doOut.ml" 164 4561 4595
+type(
+  out_channel
+)
+ident(
+  int_ref chan "doOut.ml" 158 4415 4427 "doOut.ml" 158 4415 4431
+)
+"doOut.ml" 164 4561 4596 "doOut.ml" 164 4561 4604
+type(
+  string
+)
+"doOut.ml" 164 4561 4577 "doOut.ml" 164 4561 4604
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 165 4605 4611 "doOut.ml" 165 4605 4615
+type(
+  t
+)
+"doOut.ml" 165 4605 4619 "doOut.ml" 165 4605 4632
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"doOut.ml" 165 4605 4633 "doOut.ml" 165 4605 4637
+type(
+  out_channel
+)
+ident(
+  int_ref chan "doOut.ml" 158 4415 4427 "doOut.ml" 158 4415 4431
+)
+"doOut.ml" 165 4605 4638 "doOut.ml" 165 4605 4646
+type(
+  string
+)
+"doOut.ml" 165 4605 4619 "doOut.ml" 165 4605 4646
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 158 4415 4434 "doOut.ml" 165 4605 4646
+type(
+  t -> unit
+)
+"doOut.ml" 167 4648 4654 "doOut.ml" 167 4648 4661
+type(
+  t -> string
+)
+ident(
+  def pp_type "doOut.ml" 172 4750 4752 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 168 4673 4684 "doOut.ml" 168 4673 4688
+type(
+  buff
+)
+ident(
+  def _out "doOut.ml" 168 4673 4692 "doOut.ml" 168 4673 4700
+)
+"doOut.ml" 168 4673 4679 "doOut.ml" 168 4673 4688
+type(
+  t
+)
+"doOut.ml" 168 4673 4692 "doOut.ml" 168 4673 4700
+type(
+  string
+)
+"doOut.ml" 169 4701 4712 "doOut.ml" 169 4701 4713
+type(
+  out_channel
+)
+"doOut.ml" 169 4701 4707 "doOut.ml" 169 4701 4713
+type(
+  t
+)
+"doOut.ml" 169 4701 4717 "doOut.ml" 169 4701 4725
+type(
+  string
+)
+"doOut.ml" 170 4726 4732 "doOut.ml" 170 4726 4736
+type(
+  t
+)
+"doOut.ml" 170 4726 4740 "doOut.ml" 170 4726 4748
+type(
+  string
+)
+"doOut.ml" 167 4648 4664 "doOut.ml" 170 4726 4748
+type(
+  t -> string
+)
+"doOut.ml" 172 4750 4756 "doOut.ml" 172 4750 4767
+type(
+  unit -> t
+)
+ident(
+  def create_buff "doOut.ml" 173 4795 4797 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 172 4750 4768 "doOut.ml" 172 4750 4770
+type(
+  unit
+)
+"doOut.ml" 172 4750 4780 "doOut.ml" 172 4750 4790
+type(
+  unit -> buff
+)
+ident(
+  int_ref alloc_buff "doOut.ml" 68 2049 2055 "doOut.ml" 68 2049 2065
+)
+"doOut.ml" 172 4750 4791 "doOut.ml" 172 4750 4793
+type(
+  unit
+)
+"doOut.ml" 172 4750 4779 "doOut.ml" 172 4750 4794
+call(
+  stack
+)
+type(
+  buff
+)
+"doOut.ml" 172 4750 4774 "doOut.ml" 172 4750 4794
+type(
+  t
+)
+"doOut.ml" 173 4795 4801 "doOut.ml" 173 4795 4812
+type(
+  out_channel -> t
+)
+ident(
+  def create_chan "doOut.ml" 174 4830 4832 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 173 4795 4813 "doOut.ml" 173 4795 4817
+type(
+  out_channel
+)
+ident(
+  def chan "doOut.ml" 173 4795 4820 "doOut.ml" 173 4795 4829
+)
+"doOut.ml" 173 4795 4825 "doOut.ml" 173 4795 4829
+type(
+  out_channel
+)
+ident(
+  int_ref chan "doOut.ml" 173 4795 4813 "doOut.ml" 173 4795 4817
+)
+"doOut.ml" 173 4795 4820 "doOut.ml" 173 4795 4829
+type(
+  t
+)
+"doOut.ml" 174 4830 4836 "doOut.ml" 174 4830 4847
+type(
+  unit -> t
+)
+ident(
+  def create_null "doOut.ml" 176 4859 4861 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 174 4830 4848 "doOut.ml" 174 4830 4850
+type(
+  unit
+)
+"doOut.ml" 174 4830 4853 "doOut.ml" 174 4830 4857
+type(
+  t
+)
+"doOut.ml" 176 4859 4865 "doOut.ml" 176 4859 4872
+type(
+  t -> bool
+)
+ident(
+  def is_null "doOut.ml" 182 4975 4977 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 176 4859 4875 "doOut.ml" 176 4859 4880
+type(
+  t -> t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"doOut.ml" 176 4859 4881 "doOut.ml" 176 4859 4885
+type(
+  t
+)
+"doOut.ml" 176 4859 4875 "doOut.ml" 176 4859 4885
+call(
+  stack
+)
+type(
+  t -> bool
+)
+"doOut.ml" 178 4887 4893 "doOut.ml" 178 4887 4901
+type(
+  t -> bool
+)
+ident(
+  def is_empty "doOut.ml" 182 4975 4977 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 179 4913 4924 "doOut.ml" 179 4913 4925
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 179 4913 4929 "doOut.ml" 179 4913 4956
+)
+"doOut.ml" 179 4913 4919 "doOut.ml" 179 4913 4925
+type(
+  t
+)
+"doOut.ml" 179 4913 4929 "doOut.ml" 179 4913 4930
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 179 4913 4924 "doOut.ml" 179 4913 4925
+)
+"doOut.ml" 179 4913 4929 "doOut.ml" 179 4913 4932
+type(
+  int
+)
+"doOut.ml" 179 4913 4933 "doOut.ml" 179 4913 4934
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"doOut.ml" 179 4913 4935 "doOut.ml" 179 4913 4936
+type(
+  int
+)
+"doOut.ml" 179 4913 4929 "doOut.ml" 179 4913 4936
+type(
+  bool
+)
+"doOut.ml" 179 4913 4937 "doOut.ml" 179 4913 4939
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"doOut.ml" 179 4913 4940 "doOut.ml" 179 4913 4948
+type(
+  S.t -> int
+)
+ident(
+  ext_ref S.length
+)
+"doOut.ml" 179 4913 4949 "doOut.ml" 179 4913 4950
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 179 4913 4924 "doOut.ml" 179 4913 4925
+)
+"doOut.ml" 179 4913 4949 "doOut.ml" 179 4913 4952
+type(
+  S.t
+)
+"doOut.ml" 179 4913 4940 "doOut.ml" 179 4913 4952
+call(
+  stack
+)
+type(
+  int
+)
+"doOut.ml" 179 4913 4953 "doOut.ml" 179 4913 4954
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"doOut.ml" 179 4913 4955 "doOut.ml" 179 4913 4956
+type(
+  int
+)
+"doOut.ml" 179 4913 4940 "doOut.ml" 179 4913 4956
+type(
+  bool
+)
+"doOut.ml" 179 4913 4929 "doOut.ml" 179 4913 4956
+type(
+  bool
+)
+"doOut.ml" 180 4957 4963 "doOut.ml" 180 4957 4964
+type(
+  t
+)
+"doOut.ml" 180 4957 4968 "doOut.ml" 180 4957 4973
+type(
+  bool
+)
+"doOut.ml" 178 4887 4904 "doOut.ml" 180 4957 4973
+type(
+  t -> bool
+)
+"doOut.ml" 182 4975 4981 "doOut.ml" 182 4975 4986
+type(
+  t -> unit
+)
+ident(
+  def reset "doOut.ml" 186 5083 5085 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 183 4998 5009 "doOut.ml" 183 4998 5010
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 183 4998 5014 "doOut.ml" 183 4998 5039
+)
+"doOut.ml" 183 4998 5004 "doOut.ml" 183 4998 5010
+type(
+  t
+)
+"doOut.ml" 183 4998 5014 "doOut.ml" 183 4998 5015
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 183 4998 5009 "doOut.ml" 183 4998 5010
+)
+"doOut.ml" 183 4998 5021 "doOut.ml" 183 4998 5022
+type(
+  int
+)
+"doOut.ml" 183 4998 5014 "doOut.ml" 183 4998 5022
+type(
+  unit
+)
+"doOut.ml" 183 4998 5025 "doOut.ml" 183 4998 5026
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 183 4998 5009 "doOut.ml" 183 4998 5010
+)
+"doOut.ml" 183 4998 5032 "doOut.ml" 183 4998 5039
+type(
+  S.t
+)
+ident(
+  ext_ref S.empty
+)
+"doOut.ml" 183 4998 5025 "doOut.ml" 183 4998 5039
+type(
+  unit
+)
+"doOut.ml" 183 4998 5014 "doOut.ml" 183 4998 5039
+type(
+  unit
+)
+"doOut.ml" 184 5040 5046 "doOut.ml" 184 5040 5047
+type(
+  t
+)
+"doOut.ml" 184 5040 5051 "doOut.ml" 184 5040 5056
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"doOut.ml" 184 5040 5058 "doOut.ml" 184 5040 5068
+type(
+  string -> exn
+)
+ident(
+  ext_ref Misc.fatal
+)
+"doOut.ml" 184 5040 5069 "doOut.ml" 184 5040 5080
+type(
+  string
+)
+"doOut.ml" 184 5040 5057 "doOut.ml" 184 5040 5081
+call(
+  stack
+)
+type(
+  exn
+)
+"doOut.ml" 184 5040 5051 "doOut.ml" 184 5040 5081
+type(
+  unit
+)
+"doOut.ml" 182 4975 4989 "doOut.ml" 184 5040 5081
+type(
+  t -> unit
+)
+"doOut.ml" 186 5083 5089 "doOut.ml" 186 5083 5096
+type(
+  t -> int
+)
+ident(
+  def get_pos "doOut.ml" 190 5152 5154 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 187 5108 5119 "doOut.ml" 187 5108 5120
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 187 5108 5124 "doOut.ml" 187 5108 5137
+)
+"doOut.ml" 187 5108 5114 "doOut.ml" 187 5108 5120
+type(
+  t
+)
+"doOut.ml" 187 5108 5124 "doOut.ml" 187 5108 5135
+type(
+  buff -> int
+)
+ident(
+  int_ref length_buff "doOut.ml" 77 2267 2273 "doOut.ml" 77 2267 2284
+)
+"doOut.ml" 187 5108 5136 "doOut.ml" 187 5108 5137
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 187 5108 5119 "doOut.ml" 187 5108 5120
+)
+"doOut.ml" 187 5108 5124 "doOut.ml" 187 5108 5137
+call(
+  tail
+)
+type(
+  int
+)
+"doOut.ml" 188 5138 5144 "doOut.ml" 188 5138 5145
+type(
+  t
+)
+"doOut.ml" 188 5138 5149 "doOut.ml" 188 5138 5150
+type(
+  int
+)
+"doOut.ml" 186 5083 5099 "doOut.ml" 188 5138 5150
+type(
+  t -> int
+)
+"doOut.ml" 190 5152 5158 "doOut.ml" 190 5152 5169
+type(
+  int -> t -> unit
+)
+ident(
+  def erase_start "doOut.ml" 196 5317 5319 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 190 5152 5170 "doOut.ml" 190 5152 5171
+type(
+  int
+)
+ident(
+  def n "doOut.ml" 190 5152 5174 "doOut.ml" 194 5268 5315
+)
+"doOut.ml" 191 5183 5194 "doOut.ml" 191 5183 5195
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 192 5199 5207 "doOut.ml" 193 5222 5267
+)
+"doOut.ml" 191 5183 5189 "doOut.ml" 191 5183 5195
+type(
+  t
+)
+"doOut.ml" 192 5199 5207 "doOut.ml" 192 5199 5217
+type(
+  buff -> unit
+)
+ident(
+  int_ref flush_buff "doOut.ml" 91 2649 2655 "doOut.ml" 91 2649 2665
+)
+"doOut.ml" 192 5199 5218 "doOut.ml" 192 5199 5219
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 191 5183 5194 "doOut.ml" 191 5183 5195
+)
+"doOut.ml" 192 5199 5207 "doOut.ml" 192 5199 5219
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 193 5222 5230 "doOut.ml" 193 5222 5231
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 191 5183 5194 "doOut.ml" 191 5183 5195
+)
+"doOut.ml" 193 5222 5237 "doOut.ml" 193 5222 5242
+type(
+  S.t -> int -> int -> S.t
+)
+ident(
+  ext_ref S.sub
+)
+"doOut.ml" 193 5222 5243 "doOut.ml" 193 5222 5244
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 191 5183 5194 "doOut.ml" 191 5183 5195
+)
+"doOut.ml" 193 5222 5243 "doOut.ml" 193 5222 5246
+type(
+  S.t
+)
+"doOut.ml" 193 5222 5247 "doOut.ml" 193 5222 5248
+type(
+  int
+)
+ident(
+  int_ref n "doOut.ml" 190 5152 5170 "doOut.ml" 190 5152 5171
+)
+"doOut.ml" 193 5222 5250 "doOut.ml" 193 5222 5258
+type(
+  S.t -> int
+)
+ident(
+  ext_ref S.length
+)
+"doOut.ml" 193 5222 5259 "doOut.ml" 193 5222 5260
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 191 5183 5194 "doOut.ml" 191 5183 5195
+)
+"doOut.ml" 193 5222 5259 "doOut.ml" 193 5222 5262
+type(
+  S.t
+)
+"doOut.ml" 193 5222 5250 "doOut.ml" 193 5222 5262
+call(
+  stack
+)
+type(
+  int
+)
+"doOut.ml" 193 5222 5263 "doOut.ml" 193 5222 5264
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"doOut.ml" 193 5222 5265 "doOut.ml" 193 5222 5266
+type(
+  int
+)
+ident(
+  int_ref n "doOut.ml" 190 5152 5170 "doOut.ml" 190 5152 5171
+)
+"doOut.ml" 193 5222 5249 "doOut.ml" 193 5222 5267
+type(
+  int
+)
+"doOut.ml" 193 5222 5237 "doOut.ml" 193 5222 5267
+call(
+  stack
+)
+type(
+  S.t
+)
+"doOut.ml" 193 5222 5230 "doOut.ml" 193 5222 5267
+type(
+  unit
+)
+"doOut.ml" 192 5199 5207 "doOut.ml" 193 5222 5267
+type(
+  unit
+)
+"doOut.ml" 194 5268 5274 "doOut.ml" 194 5268 5275
+type(
+  t
+)
+"doOut.ml" 194 5268 5279 "doOut.ml" 194 5268 5284
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"doOut.ml" 194 5268 5286 "doOut.ml" 194 5268 5296
+type(
+  string -> exn
+)
+ident(
+  ext_ref Misc.fatal
+)
+"doOut.ml" 194 5268 5297 "doOut.ml" 194 5268 5314
+type(
+  string
+)
+"doOut.ml" 194 5268 5285 "doOut.ml" 194 5268 5315
+call(
+  stack
+)
+type(
+  exn
+)
+"doOut.ml" 194 5268 5279 "doOut.ml" 194 5268 5315
+type(
+  unit
+)
+"doOut.ml" 190 5152 5174 "doOut.ml" 194 5268 5315
+type(
+  t -> unit
+)
+"doOut.ml" 196 5317 5323 "doOut.ml" 196 5317 5326
+type(
+  t -> string -> unit
+)
+ident(
+  def put "doOut.ml" 202 5491 5493 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 196 5317 5327 "doOut.ml" 196 5317 5330
+type(
+  t
+)
+ident(
+  def out "doOut.ml" 196 5317 5331 "doOut.ml" 199 5403 5449
+)
+"doOut.ml" 196 5317 5331 "doOut.ml" 196 5317 5332
+type(
+  string
+)
+ident(
+  def s "doOut.ml" 196 5317 5335 "doOut.ml" 199 5403 5449
+)
+"doOut.ml" 196 5317 5341 "doOut.ml" 196 5317 5344
+type(
+  t
+)
+ident(
+  int_ref out "doOut.ml" 196 5317 5327 "doOut.ml" 196 5317 5330
+)
+"doOut.ml" 197 5350 5354 "doOut.ml" 197 5350 5358
+type(
+  t
+)
+"doOut.ml" 197 5350 5362 "doOut.ml" 197 5350 5364
+type(
+  unit
+)
+"doOut.ml" 198 5365 5374 "doOut.ml" 198 5365 5378
+type(
+  out_channel
+)
+ident(
+  def chan "doOut.ml" 198 5365 5382 "doOut.ml" 198 5365 5402
+)
+"doOut.ml" 198 5365 5369 "doOut.ml" 198 5365 5378
+type(
+  t
+)
+"doOut.ml" 198 5365 5382 "doOut.ml" 198 5365 5395
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"doOut.ml" 198 5365 5396 "doOut.ml" 198 5365 5400
+type(
+  out_channel
+)
+ident(
+  int_ref chan "doOut.ml" 198 5365 5374 "doOut.ml" 198 5365 5378
+)
+"doOut.ml" 198 5365 5401 "doOut.ml" 198 5365 5402
+type(
+  string
+)
+ident(
+  int_ref s "doOut.ml" 196 5317 5331 "doOut.ml" 196 5317 5332
+)
+"doOut.ml" 198 5365 5382 "doOut.ml" 198 5365 5402
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 199 5403 5412 "doOut.ml" 199 5403 5413
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 199 5403 5417 "doOut.ml" 199 5403 5449
+)
+"doOut.ml" 199 5403 5407 "doOut.ml" 199 5403 5413
+type(
+  t
+)
+"doOut.ml" 199 5403 5417 "doOut.ml" 199 5403 5425
+type(
+  buff -> string -> int -> int -> unit
+)
+ident(
+  int_ref put_buff "doOut.ml" 120 3481 3487 "doOut.ml" 120 3481 3495
+)
+"doOut.ml" 199 5403 5426 "doOut.ml" 199 5403 5427
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 199 5403 5412 "doOut.ml" 199 5403 5413
+)
+"doOut.ml" 199 5403 5428 "doOut.ml" 199 5403 5429
+type(
+  string
+)
+ident(
+  int_ref s "doOut.ml" 196 5317 5331 "doOut.ml" 196 5317 5332
+)
+"doOut.ml" 199 5403 5430 "doOut.ml" 199 5403 5431
+type(
+  int
+)
+"doOut.ml" 199 5403 5433 "doOut.ml" 199 5403 5446
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"doOut.ml" 199 5403 5447 "doOut.ml" 199 5403 5448
+type(
+  string
+)
+ident(
+  int_ref s "doOut.ml" 196 5317 5331 "doOut.ml" 196 5317 5332
+)
+"doOut.ml" 199 5403 5432 "doOut.ml" 199 5403 5449
+type(
+  int
+)
+"doOut.ml" 199 5403 5417 "doOut.ml" 199 5403 5449
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 196 5317 5335 "doOut.ml" 199 5403 5449
+type(
+  unit
+)
+"doOut.ml" 202 5491 5497 "doOut.ml" 202 5491 5501
+type(
+  t -> Lexing.lexbuf -> unit
+)
+ident(
+  def blit "doOut.ml" 213 5865 5867 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 202 5491 5502 "doOut.ml" 202 5491 5505
+type(
+  t
+)
+ident(
+  def out "doOut.ml" 202 5491 5506 "doOut.ml" 211 5847 5863
+)
+"doOut.ml" 202 5491 5506 "doOut.ml" 202 5491 5512
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "doOut.ml" 203 5515 5519 "doOut.ml" 211 5847 5863
+)
+"doOut.ml" 204 5539 5549 "doOut.ml" 204 5539 5552
+type(
+  t
+)
+ident(
+  int_ref out "doOut.ml" 202 5491 5502 "doOut.ml" 202 5491 5505
+)
+"doOut.ml" 205 5558 5569 "doOut.ml" 205 5558 5570
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 206 5574 5582 "doOut.ml" 207 5638 5700
+)
+"doOut.ml" 205 5558 5564 "doOut.ml" 205 5558 5570
+type(
+  t
+)
+"doOut.ml" 206 5574 5586 "doOut.ml" 206 5574 5589
+type(
+  int
+)
+ident(
+  def len "doOut.ml" 207 5638 5646 "doOut.ml" 207 5638 5700
+)
+"doOut.ml" 206 5574 5592 "doOut.ml" 206 5574 5598
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "doOut.ml" 202 5491 5506 "doOut.ml" 202 5491 5512
+)
+"doOut.ml" 206 5574 5592 "doOut.ml" 206 5574 5611
+type(
+  int
+)
+"doOut.ml" 206 5574 5612 "doOut.ml" 206 5574 5613
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"doOut.ml" 206 5574 5614 "doOut.ml" 206 5574 5620
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "doOut.ml" 202 5491 5506 "doOut.ml" 202 5491 5512
+)
+"doOut.ml" 206 5574 5614 "doOut.ml" 206 5574 5634
+type(
+  int
+)
+"doOut.ml" 206 5574 5592 "doOut.ml" 206 5574 5634
+type(
+  int
+)
+"doOut.ml" 207 5638 5646 "doOut.ml" 207 5638 5655
+type(
+  buff -> Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref put_bytes "doOut.ml" 130 3787 3793 "doOut.ml" 130 3787 3802
+)
+"doOut.ml" 207 5638 5656 "doOut.ml" 207 5638 5657
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 205 5558 5569 "doOut.ml" 205 5558 5570
+)
+"doOut.ml" 207 5638 5658 "doOut.ml" 207 5638 5664
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "doOut.ml" 202 5491 5506 "doOut.ml" 202 5491 5512
+)
+"doOut.ml" 207 5638 5658 "doOut.ml" 207 5638 5675
+type(
+  Bytes.t
+)
+"doOut.ml" 207 5638 5676 "doOut.ml" 207 5638 5682
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "doOut.ml" 202 5491 5506 "doOut.ml" 202 5491 5512
+)
+"doOut.ml" 207 5638 5676 "doOut.ml" 207 5638 5696
+type(
+  int
+)
+"doOut.ml" 207 5638 5697 "doOut.ml" 207 5638 5700
+type(
+  int
+)
+ident(
+  int_ref len "doOut.ml" 206 5574 5586 "doOut.ml" 206 5574 5589
+)
+"doOut.ml" 207 5638 5646 "doOut.ml" 207 5638 5700
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 206 5574 5582 "doOut.ml" 207 5638 5700
+type(
+  unit
+)
+"doOut.ml" 208 5701 5712 "doOut.ml" 208 5701 5716
+type(
+  out_channel
+)
+ident(
+  def chan "doOut.ml" 209 5720 5728 "doOut.ml" 210 5784 5846
+)
+"doOut.ml" 208 5701 5707 "doOut.ml" 208 5701 5716
+type(
+  t
+)
+"doOut.ml" 209 5720 5732 "doOut.ml" 209 5720 5735
+type(
+  int
+)
+ident(
+  def len "doOut.ml" 210 5784 5792 "doOut.ml" 210 5784 5846
+)
+"doOut.ml" 209 5720 5738 "doOut.ml" 209 5720 5744
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "doOut.ml" 202 5491 5506 "doOut.ml" 202 5491 5512
+)
+"doOut.ml" 209 5720 5738 "doOut.ml" 209 5720 5757
+type(
+  int
+)
+"doOut.ml" 209 5720 5758 "doOut.ml" 209 5720 5759
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"doOut.ml" 209 5720 5760 "doOut.ml" 209 5720 5766
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "doOut.ml" 202 5491 5506 "doOut.ml" 202 5491 5512
+)
+"doOut.ml" 209 5720 5760 "doOut.ml" 209 5720 5780
+type(
+  int
+)
+"doOut.ml" 209 5720 5738 "doOut.ml" 209 5720 5780
+type(
+  int
+)
+"doOut.ml" 210 5784 5792 "doOut.ml" 210 5784 5798
+type(
+  out_channel -> string -> int -> int -> unit
+)
+ident(
+  ext_ref Pervasives.output
+)
+"doOut.ml" 210 5784 5799 "doOut.ml" 210 5784 5803
+type(
+  out_channel
+)
+ident(
+  int_ref chan "doOut.ml" 208 5701 5712 "doOut.ml" 208 5701 5716
+)
+"doOut.ml" 210 5784 5804 "doOut.ml" 210 5784 5810
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "doOut.ml" 202 5491 5506 "doOut.ml" 202 5491 5512
+)
+"doOut.ml" 210 5784 5804 "doOut.ml" 210 5784 5821
+type(
+  string
+)
+"doOut.ml" 210 5784 5822 "doOut.ml" 210 5784 5828
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "doOut.ml" 202 5491 5506 "doOut.ml" 202 5491 5512
+)
+"doOut.ml" 210 5784 5822 "doOut.ml" 210 5784 5842
+type(
+  int
+)
+"doOut.ml" 210 5784 5843 "doOut.ml" 210 5784 5846
+type(
+  int
+)
+ident(
+  int_ref len "doOut.ml" 209 5720 5732 "doOut.ml" 209 5720 5735
+)
+"doOut.ml" 210 5784 5792 "doOut.ml" 210 5784 5846
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 209 5720 5728 "doOut.ml" 210 5784 5846
+type(
+  unit
+)
+"doOut.ml" 211 5847 5853 "doOut.ml" 211 5847 5857
+type(
+  t
+)
+"doOut.ml" 211 5847 5861 "doOut.ml" 211 5847 5863
+type(
+  unit
+)
+"doOut.ml" 204 5539 5543 "doOut.ml" 211 5847 5863
+type(
+  unit
+)
+"doOut.ml" 213 5865 5871 "doOut.ml" 213 5865 5879
+type(
+  t -> char -> unit
+)
+ident(
+  def put_char "doOut.ml" 220 5998 6000 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 213 5865 5880 "doOut.ml" 213 5865 5883
+type(
+  t
+)
+ident(
+  def out "doOut.ml" 213 5865 5884 "doOut.ml" 217 5962 5995
+)
+"doOut.ml" 213 5865 5884 "doOut.ml" 213 5865 5885
+type(
+  char
+)
+ident(
+  def c "doOut.ml" 214 5888 5892 "doOut.ml" 217 5962 5995
+)
+"doOut.ml" 214 5888 5898 "doOut.ml" 214 5888 5901
+type(
+  t
+)
+ident(
+  int_ref out "doOut.ml" 213 5865 5880 "doOut.ml" 213 5865 5883
+)
+"doOut.ml" 215 5907 5913 "doOut.ml" 215 5907 5917
+type(
+  t
+)
+"doOut.ml" 215 5907 5921 "doOut.ml" 215 5907 5923
+type(
+  unit
+)
+"doOut.ml" 216 5924 5935 "doOut.ml" 216 5924 5939
+type(
+  out_channel
+)
+ident(
+  def chan "doOut.ml" 216 5924 5943 "doOut.ml" 216 5924 5961
+)
+"doOut.ml" 216 5924 5930 "doOut.ml" 216 5924 5939
+type(
+  t
+)
+"doOut.ml" 216 5924 5943 "doOut.ml" 216 5924 5954
+type(
+  out_channel -> char -> unit
+)
+ident(
+  ext_ref Pervasives.output_char
+)
+"doOut.ml" 216 5924 5955 "doOut.ml" 216 5924 5959
+type(
+  out_channel
+)
+ident(
+  int_ref chan "doOut.ml" 216 5924 5935 "doOut.ml" 216 5924 5939
+)
+"doOut.ml" 216 5924 5960 "doOut.ml" 216 5924 5961
+type(
+  char
+)
+ident(
+  int_ref c "doOut.ml" 213 5865 5884 "doOut.ml" 213 5865 5885
+)
+"doOut.ml" 216 5924 5943 "doOut.ml" 216 5924 5961
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 217 5962 5973 "doOut.ml" 217 5962 5974
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 217 5962 5978 "doOut.ml" 217 5962 5995
+)
+"doOut.ml" 217 5962 5968 "doOut.ml" 217 5962 5974
+type(
+  t
+)
+"doOut.ml" 217 5962 5978 "doOut.ml" 217 5962 5991
+type(
+  buff -> char -> unit
+)
+ident(
+  int_ref put_buff_char "doOut.ml" 132 3864 3870 "doOut.ml" 132 3864 3883
+)
+"doOut.ml" 217 5962 5992 "doOut.ml" 217 5962 5993
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 217 5962 5973 "doOut.ml" 217 5962 5974
+)
+"doOut.ml" 217 5962 5994 "doOut.ml" 217 5962 5995
+type(
+  char
+)
+ident(
+  int_ref c "doOut.ml" 213 5865 5884 "doOut.ml" 213 5865 5885
+)
+"doOut.ml" 217 5962 5978 "doOut.ml" 217 5962 5995
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 214 5888 5892 "doOut.ml" 217 5962 5995
+type(
+  unit
+)
+"doOut.ml" 220 5998 6004 "doOut.ml" 220 5998 6009
+type(
+  t -> unit
+)
+ident(
+  def flush "doOut.ml" 224 6066 6068 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 221 6021 6032 "doOut.ml" 221 6021 6036
+type(
+  out_channel
+)
+ident(
+  def chan "doOut.ml" 221 6021 6040 "doOut.ml" 221 6021 6050
+)
+"doOut.ml" 221 6021 6027 "doOut.ml" 221 6021 6036
+type(
+  t
+)
+"doOut.ml" 221 6021 6040 "doOut.ml" 221 6021 6045
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"doOut.ml" 221 6021 6046 "doOut.ml" 221 6021 6050
+type(
+  out_channel
+)
+ident(
+  int_ref chan "doOut.ml" 221 6021 6032 "doOut.ml" 221 6021 6036
+)
+"doOut.ml" 221 6021 6040 "doOut.ml" 221 6021 6050
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 222 6051 6057 "doOut.ml" 222 6051 6058
+type(
+  t
+)
+"doOut.ml" 222 6051 6062 "doOut.ml" 222 6051 6064
+type(
+  unit
+)
+"doOut.ml" 220 5998 6012 "doOut.ml" 222 6051 6064
+type(
+  t -> unit
+)
+"doOut.ml" 224 6066 6072 "doOut.ml" 224 6066 6076
+type(
+  (char -> unit) -> t -> unit
+)
+ident(
+  def iter "doOut.ml" 233 6292 6294 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 224 6066 6077 "doOut.ml" 224 6066 6078
+type(
+  char -> unit
+)
+ident(
+  def f "doOut.ml" 224 6066 6081 "doOut.ml" 231 6280 6290
+)
+"doOut.ml" 225 6090 6096 "doOut.ml" 225 6090 6100
+type(
+  t
+)
+"doOut.ml" 225 6090 6104 "doOut.ml" 225 6090 6106
+type(
+  unit
+)
+"doOut.ml" 226 6107 6118 "doOut.ml" 226 6107 6119
+type(
+  out_channel
+)
+"doOut.ml" 226 6107 6113 "doOut.ml" 226 6107 6119
+type(
+  t
+)
+"doOut.ml" 226 6107 6123 "doOut.ml" 226 6107 6128
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"doOut.ml" 226 6107 6130 "doOut.ml" 226 6107 6140
+type(
+  string -> exn
+)
+ident(
+  ext_ref Misc.fatal
+)
+"doOut.ml" 226 6107 6141 "doOut.ml" 226 6107 6151
+type(
+  string
+)
+"doOut.ml" 226 6107 6129 "doOut.ml" 226 6107 6152
+call(
+  stack
+)
+type(
+  exn
+)
+"doOut.ml" 226 6107 6123 "doOut.ml" 226 6107 6152
+type(
+  unit
+)
+"doOut.ml" 227 6153 6165 "doOut.ml" 227 6153 6166
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 228 6170 6178 "doOut.ml" 231 6280 6290
+)
+"doOut.ml" 227 6153 6159 "doOut.ml" 227 6153 6166
+type(
+  t
+)
+"doOut.ml" 228 6170 6178 "doOut.ml" 228 6170 6184
+type(
+  (char -> unit) -> S.t -> unit
+)
+ident(
+  ext_ref S.iter
+)
+"doOut.ml" 228 6170 6185 "doOut.ml" 228 6170 6186
+type(
+  char -> unit
+)
+ident(
+  int_ref f "doOut.ml" 224 6066 6077 "doOut.ml" 224 6066 6078
+)
+"doOut.ml" 228 6170 6187 "doOut.ml" 228 6170 6188
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 227 6153 6165 "doOut.ml" 227 6153 6166
+)
+"doOut.ml" 228 6170 6187 "doOut.ml" 228 6170 6190
+type(
+  S.t
+)
+"doOut.ml" 228 6170 6178 "doOut.ml" 228 6170 6190
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 229 6193 6205 "doOut.ml" 229 6193 6207
+type(
+  Bytes.t
+)
+ident(
+  def bb "doOut.ml" 230 6217 6225 "doOut.ml" 231 6280 6290
+)
+"doOut.ml" 229 6193 6210 "doOut.ml" 229 6193 6211
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 227 6153 6165 "doOut.ml" 227 6153 6166
+)
+"doOut.ml" 229 6193 6210 "doOut.ml" 229 6193 6213
+type(
+  Bytes.t
+)
+"doOut.ml" 230 6217 6233 "doOut.ml" 230 6217 6234
+type(
+  int
+)
+"doOut.ml" 230 6217 6238 "doOut.ml" 230 6217 6239
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 227 6153 6165 "doOut.ml" 227 6153 6166
+)
+"doOut.ml" 230 6217 6238 "doOut.ml" 230 6217 6241
+type(
+  int
+)
+"doOut.ml" 230 6217 6241 "doOut.ml" 230 6217 6242
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"doOut.ml" 230 6217 6242 "doOut.ml" 230 6217 6243
+type(
+  int
+)
+"doOut.ml" 230 6217 6238 "doOut.ml" 230 6217 6243
+type(
+  int
+)
+"doOut.ml" 230 6217 6247 "doOut.ml" 230 6217 6248
+type(
+  char -> unit
+)
+ident(
+  int_ref f "doOut.ml" 224 6066 6077 "doOut.ml" 224 6066 6078
+)
+"doOut.ml" 230 6217 6250 "doOut.ml" 230 6217 6266
+type(
+  Bytes.t -> int -> char
+)
+ident(
+  ext_ref Bytes.unsafe_get
+)
+"doOut.ml" 230 6217 6267 "doOut.ml" 230 6217 6269
+type(
+  Bytes.t
+)
+ident(
+  int_ref bb "doOut.ml" 229 6193 6205 "doOut.ml" 229 6193 6207
+)
+"doOut.ml" 230 6217 6270 "doOut.ml" 230 6217 6271
+type(
+  int
+)
+ident(
+  int_ref k "doOut.ml" 230 6217 6225 "doOut.ml" 230 6217 6277
+)
+"doOut.ml" 230 6217 6249 "doOut.ml" 230 6217 6272
+type(
+  char
+)
+"doOut.ml" 230 6217 6247 "doOut.ml" 230 6217 6272
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 230 6217 6225 "doOut.ml" 230 6217 6277
+type(
+  unit
+)
+"doOut.ml" 231 6280 6288 "doOut.ml" 231 6280 6290
+type(
+  unit
+)
+"doOut.ml" 230 6217 6225 "doOut.ml" 231 6280 6290
+type(
+  unit
+)
+"doOut.ml" 229 6193 6201 "doOut.ml" 231 6280 6290
+type(
+  unit
+)
+"doOut.ml" 228 6170 6178 "doOut.ml" 231 6280 6290
+type(
+  unit
+)
+"doOut.ml" 224 6066 6081 "doOut.ml" 231 6280 6290
+type(
+  t -> unit
+)
+"doOut.ml" 233 6292 6298 "doOut.ml" 233 6292 6307
+type(
+  (char -> (unit -> int) -> 'a) -> t -> unit
+)
+ident(
+  def iter_next "doOut.ml" 254 6804 6806 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 233 6292 6308 "doOut.ml" 233 6292 6309
+type(
+  char -> (unit -> int) -> 'a
+)
+ident(
+  def f "doOut.ml" 233 6292 6312 "doOut.ml" 252 6786 6802
+)
+"doOut.ml" 234 6321 6327 "doOut.ml" 234 6321 6331
+type(
+  t
+)
+"doOut.ml" 234 6321 6335 "doOut.ml" 234 6321 6337
+type(
+  unit
+)
+"doOut.ml" 235 6338 6349 "doOut.ml" 235 6338 6350
+type(
+  out_channel
+)
+"doOut.ml" 235 6338 6344 "doOut.ml" 235 6338 6350
+type(
+  t
+)
+"doOut.ml" 235 6338 6354 "doOut.ml" 235 6338 6359
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"doOut.ml" 235 6338 6361 "doOut.ml" 235 6338 6371
+type(
+  string -> exn
+)
+ident(
+  ext_ref Misc.fatal
+)
+"doOut.ml" 235 6338 6372 "doOut.ml" 235 6338 6387
+type(
+  string
+)
+"doOut.ml" 235 6338 6360 "doOut.ml" 235 6338 6388
+call(
+  stack
+)
+type(
+  exn
+)
+"doOut.ml" 235 6338 6354 "doOut.ml" 235 6338 6388
+type(
+  unit
+)
+"doOut.ml" 236 6389 6400 "doOut.ml" 236 6389 6401
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 238 6406 6414 "doOut.ml" 252 6786 6802
+)
+"doOut.ml" 236 6389 6395 "doOut.ml" 236 6389 6401
+type(
+  t
+)
+"doOut.ml" 238 6406 6422 "doOut.ml" 238 6406 6428
+type(
+  (unit -> int) -> unit
+)
+ident(
+  def do_rec "doOut.ml" 238 6406 6414 "doOut.ml" 252 6786 6802
+)
+"doOut.ml" 238 6406 6429 "doOut.ml" 238 6406 6433
+type(
+  unit -> int
+)
+ident(
+  def next "doOut.ml" 239 6436 6446 "doOut.ml" 243 6554 6567
+)
+"doOut.ml" 239 6436 6450 "doOut.ml" 239 6436 6451
+type(
+  int
+)
+ident(
+  def c "doOut.ml" 240 6465 6475 "doOut.ml" 243 6554 6567
+)
+"doOut.ml" 239 6436 6454 "doOut.ml" 239 6436 6458
+type(
+  unit -> int
+)
+ident(
+  int_ref next "doOut.ml" 238 6406 6429 "doOut.ml" 238 6406 6433
+)
+"doOut.ml" 239 6436 6459 "doOut.ml" 239 6436 6461
+type(
+  unit
+)
+"doOut.ml" 239 6436 6454 "doOut.ml" 239 6436 6461
+call(
+  stack
+)
+type(
+  int
+)
+"doOut.ml" 240 6465 6478 "doOut.ml" 240 6465 6479
+type(
+  int
+)
+ident(
+  int_ref c "doOut.ml" 239 6436 6450 "doOut.ml" 239 6436 6451
+)
+"doOut.ml" 240 6465 6480 "doOut.ml" 240 6465 6482
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"doOut.ml" 240 6465 6483 "doOut.ml" 240 6465 6485
+type(
+  int
+)
+"doOut.ml" 240 6465 6478 "doOut.ml" 240 6465 6485
+type(
+  bool
+)
+"doOut.ml" 241 6497 6509 "doOut.ml" 241 6497 6510
+type(
+  char -> (unit -> int) -> 'a
+)
+ident(
+  int_ref f "doOut.ml" 233 6292 6308 "doOut.ml" 233 6292 6309
+)
+"doOut.ml" 241 6497 6512 "doOut.ml" 241 6497 6520
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"doOut.ml" 241 6497 6521 "doOut.ml" 241 6497 6522
+type(
+  int
+)
+ident(
+  int_ref c "doOut.ml" 239 6436 6450 "doOut.ml" 239 6436 6451
+)
+"doOut.ml" 241 6497 6511 "doOut.ml" 241 6497 6523
+call(
+  stack
+)
+type(
+  char
+)
+"doOut.ml" 241 6497 6524 "doOut.ml" 241 6497 6528
+type(
+  unit -> int
+)
+ident(
+  int_ref next "doOut.ml" 238 6406 6429 "doOut.ml" 238 6406 6433
+)
+"doOut.ml" 241 6497 6509 "doOut.ml" 241 6497 6528
+call(
+  stack
+)
+type(
+  'a
+)
+"doOut.ml" 242 6530 6542 "doOut.ml" 242 6530 6548
+type(
+  (unit -> int) -> unit
+)
+ident(
+  int_ref do_rec "doOut.ml" 238 6406 6422 "doOut.ml" 238 6406 6428
+)
+"doOut.ml" 242 6530 6549 "doOut.ml" 242 6530 6553
+type(
+  unit -> int
+)
+ident(
+  int_ref next "doOut.ml" 238 6406 6429 "doOut.ml" 238 6406 6433
+)
+"doOut.ml" 242 6530 6542 "doOut.ml" 242 6530 6553
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 240 6465 6491 "doOut.ml" 243 6554 6567
+type(
+  unit
+)
+"doOut.ml" 240 6465 6475 "doOut.ml" 243 6554 6567
+type(
+  unit
+)
+"doOut.ml" 239 6436 6446 "doOut.ml" 243 6554 6567
+type(
+  unit
+)
+"doOut.ml" 244 6571 6579 "doOut.ml" 244 6571 6585
+type(
+  (unit -> int) -> unit
+)
+ident(
+  int_ref do_rec "doOut.ml" 238 6406 6422 "doOut.ml" 238 6406 6428
+)
+"doOut.ml" 245 6586 6601 "doOut.ml" 245 6586 6602
+type(
+  int ref
+)
+ident(
+  def k "doOut.ml" 246 6614 6624 "doOut.ml" 252 6786 6801
+)
+"doOut.ml" 245 6586 6605 "doOut.ml" 245 6586 6608
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"doOut.ml" 245 6586 6609 "doOut.ml" 245 6586 6610
+type(
+  int
+)
+"doOut.ml" 245 6586 6605 "doOut.ml" 245 6586 6610
+type(
+  int ref
+)
+"doOut.ml" 246 6614 6628 "doOut.ml" 246 6614 6630
+type(
+  unit
+)
+"doOut.ml" 247 6634 6650 "doOut.ml" 247 6634 6651
+type(
+  int
+)
+ident(
+  def i "doOut.ml" 248 6660 6672 "doOut.ml" 252 6786 6801
+)
+"doOut.ml" 247 6634 6654 "doOut.ml" 247 6634 6655
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"doOut.ml" 247 6634 6655 "doOut.ml" 247 6634 6656
+type(
+  int ref
+)
+ident(
+  int_ref k "doOut.ml" 245 6586 6601 "doOut.ml" 245 6586 6602
+)
+"doOut.ml" 247 6634 6654 "doOut.ml" 247 6634 6656
+type(
+  int
+)
+"doOut.ml" 248 6660 6675 "doOut.ml" 248 6660 6676
+type(
+  int
+)
+ident(
+  int_ref i "doOut.ml" 247 6634 6650 "doOut.ml" 247 6634 6651
+)
+"doOut.ml" 248 6660 6677 "doOut.ml" 248 6660 6679
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"doOut.ml" 248 6660 6680 "doOut.ml" 248 6660 6691
+type(
+  buff -> int
+)
+ident(
+  int_ref length_buff "doOut.ml" 77 2267 2273 "doOut.ml" 77 2267 2284
+)
+"doOut.ml" 248 6660 6692 "doOut.ml" 248 6660 6693
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 236 6389 6400 "doOut.ml" 236 6389 6401
+)
+"doOut.ml" 248 6660 6680 "doOut.ml" 248 6660 6693
+call(
+  stack
+)
+type(
+  int
+)
+"doOut.ml" 248 6660 6675 "doOut.ml" 248 6660 6693
+type(
+  bool
+)
+"doOut.ml" 248 6660 6699 "doOut.ml" 248 6660 6701
+type(
+  int
+)
+"doOut.ml" 250 6725 6739 "doOut.ml" 250 6725 6743
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"doOut.ml" 250 6725 6744 "doOut.ml" 250 6725 6745
+type(
+  int ref
+)
+ident(
+  int_ref k "doOut.ml" 245 6586 6601 "doOut.ml" 245 6586 6602
+)
+"doOut.ml" 250 6725 6739 "doOut.ml" 250 6725 6745
+type(
+  unit
+)
+"doOut.ml" 251 6747 6761 "doOut.ml" 251 6747 6770
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"doOut.ml" 251 6747 6772 "doOut.ml" 251 6747 6780
+type(
+  buff -> int -> char
+)
+ident(
+  int_ref get_buff "doOut.ml" 140 4048 4054 "doOut.ml" 140 4048 4062
+)
+"doOut.ml" 251 6747 6781 "doOut.ml" 251 6747 6782
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 236 6389 6400 "doOut.ml" 236 6389 6401
+)
+"doOut.ml" 251 6747 6783 "doOut.ml" 251 6747 6784
+type(
+  int
+)
+ident(
+  int_ref i "doOut.ml" 247 6634 6650 "doOut.ml" 247 6634 6651
+)
+"doOut.ml" 251 6747 6771 "doOut.ml" 251 6747 6785
+call(
+  tail
+)
+type(
+  char
+)
+"doOut.ml" 251 6747 6761 "doOut.ml" 251 6747 6785
+type(
+  int
+)
+"doOut.ml" 249 6702 6719 "doOut.ml" 252 6786 6801
+type(
+  int
+)
+"doOut.ml" 248 6660 6672 "doOut.ml" 252 6786 6801
+type(
+  int
+)
+"doOut.ml" 247 6634 6646 "doOut.ml" 252 6786 6801
+type(
+  int
+)
+"doOut.ml" 246 6614 6624 "doOut.ml" 252 6786 6801
+type(
+  unit -> int
+)
+"doOut.ml" 245 6586 6596 "doOut.ml" 252 6786 6802
+type(
+  unit -> int
+)
+"doOut.ml" 244 6571 6579 "doOut.ml" 252 6786 6802
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 238 6406 6414 "doOut.ml" 252 6786 6802
+type(
+  unit
+)
+"doOut.ml" 233 6292 6312 "doOut.ml" 252 6786 6802
+type(
+  t -> unit
+)
+"doOut.ml" 254 6804 6810 "doOut.ml" 254 6804 6819
+type(
+  t -> string
+)
+ident(
+  def to_string "doOut.ml" 262 6980 6982 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 255 6831 6842 "doOut.ml" 255 6831 6843
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 256 6847 6855 "doOut.ml" 258 6906 6915
+)
+"doOut.ml" 255 6831 6837 "doOut.ml" 255 6831 6843
+type(
+  t
+)
+"doOut.ml" 256 6847 6859 "doOut.ml" 256 6847 6860
+type(
+  string
+)
+ident(
+  def s "doOut.ml" 257 6883 6891 "doOut.ml" 258 6906 6915
+)
+"doOut.ml" 256 6847 6863 "doOut.ml" 256 6847 6877
+type(
+  buff -> string
+)
+ident(
+  int_ref to_string_buff "doOut.ml" 79 2309 2315 "doOut.ml" 79 2309 2329
+)
+"doOut.ml" 256 6847 6878 "doOut.ml" 256 6847 6879
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 255 6831 6842 "doOut.ml" 255 6831 6843
+)
+"doOut.ml" 256 6847 6863 "doOut.ml" 256 6847 6879
+call(
+  stack
+)
+type(
+  string
+)
+"doOut.ml" 257 6883 6891 "doOut.ml" 257 6883 6901
+type(
+  buff -> unit
+)
+ident(
+  int_ref reset_buff "doOut.ml" 75 2219 2225 "doOut.ml" 75 2219 2235
+)
+"doOut.ml" 257 6883 6902 "doOut.ml" 257 6883 6903
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 255 6831 6842 "doOut.ml" 255 6831 6843
+)
+"doOut.ml" 257 6883 6891 "doOut.ml" 257 6883 6903
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 258 6906 6914 "doOut.ml" 258 6906 6915
+type(
+  string
+)
+ident(
+  int_ref s "doOut.ml" 256 6847 6859 "doOut.ml" 256 6847 6860
+)
+"doOut.ml" 257 6883 6891 "doOut.ml" 258 6906 6915
+type(
+  string
+)
+"doOut.ml" 256 6847 6855 "doOut.ml" 258 6906 6915
+type(
+  string
+)
+"doOut.ml" 259 6916 6922 "doOut.ml" 259 6916 6926
+type(
+  t
+)
+"doOut.ml" 259 6916 6930 "doOut.ml" 259 6916 6932
+type(
+  string
+)
+"doOut.ml" 260 6933 6939 "doOut.ml" 260 6933 6940
+type(
+  t
+)
+"doOut.ml" 260 6933 6944 "doOut.ml" 260 6933 6949
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"doOut.ml" 260 6933 6951 "doOut.ml" 260 6933 6961
+type(
+  string -> exn
+)
+ident(
+  ext_ref Misc.fatal
+)
+"doOut.ml" 260 6933 6962 "doOut.ml" 260 6933 6977
+type(
+  string
+)
+"doOut.ml" 260 6933 6950 "doOut.ml" 260 6933 6978
+type(
+  exn
+)
+"doOut.ml" 260 6933 6944 "doOut.ml" 260 6933 6978
+type(
+  string
+)
+"doOut.ml" 254 6804 6822 "doOut.ml" 260 6933 6978
+type(
+  t -> string
+)
+"doOut.ml" 262 6980 6986 "doOut.ml" 262 6980 6993
+type(
+  t -> string list
+)
+ident(
+  def to_list "doOut.ml" 283 7569 7571 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 263 7005 7016 "doOut.ml" 263 7005 7017
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 264 7021 7029 "doOut.ml" 279 7496 7506
+)
+"doOut.ml" 263 7005 7011 "doOut.ml" 263 7005 7017
+type(
+  t
+)
+"doOut.ml" 264 7021 7033 "doOut.ml" 264 7021 7035
+type(
+  string list
+)
+ident(
+  def xs "doOut.ml" 267 7114 7122 "doOut.ml" 279 7496 7506
+)
+"doOut.ml" 265 7038 7051 "doOut.ml" 265 7038 7052
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 263 7005 7016 "doOut.ml" 263 7005 7017
+)
+"doOut.ml" 265 7038 7051 "doOut.ml" 265 7038 7054
+type(
+  int
+)
+"doOut.ml" 265 7038 7055 "doOut.ml" 265 7038 7056
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"doOut.ml" 265 7038 7057 "doOut.ml" 265 7038 7058
+type(
+  int
+)
+"doOut.ml" 265 7038 7051 "doOut.ml" 265 7038 7058
+type(
+  bool
+)
+"doOut.ml" 265 7038 7065 "doOut.ml" 265 7038 7081
+type(
+  Bytes.t -> int -> int -> string
+)
+ident(
+  ext_ref Bytes.sub_string
+)
+"doOut.ml" 265 7038 7082 "doOut.ml" 265 7038 7083
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 263 7005 7016 "doOut.ml" 263 7005 7017
+)
+"doOut.ml" 265 7038 7082 "doOut.ml" 265 7038 7085
+type(
+  Bytes.t
+)
+"doOut.ml" 265 7038 7086 "doOut.ml" 265 7038 7087
+type(
+  int
+)
+"doOut.ml" 265 7038 7088 "doOut.ml" 265 7038 7089
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 263 7005 7016 "doOut.ml" 263 7005 7017
+)
+"doOut.ml" 265 7038 7088 "doOut.ml" 265 7038 7091
+type(
+  int
+)
+"doOut.ml" 265 7038 7065 "doOut.ml" 265 7038 7091
+call(
+  stack
+)
+type(
+  string
+)
+"doOut.ml" 265 7038 7064 "doOut.ml" 265 7038 7092
+type(
+  string list
+)
+"doOut.ml" 266 7093 7108 "doOut.ml" 266 7093 7110
+type(
+  string list
+)
+"doOut.ml" 265 7038 7048 "doOut.ml" 266 7093 7110
+type(
+  string list
+)
+"doOut.ml" 267 7114 7126 "doOut.ml" 267 7114 7128
+type(
+  string list
+)
+ident(
+  def xs "doOut.ml" 268 7158 7166 "doOut.ml" 279 7496 7506
+)
+"doOut.ml" 267 7114 7131 "doOut.ml" 267 7114 7147
+type(
+  S.t -> string list -> string list
+)
+ident(
+  ext_ref S.to_list_append
+)
+"doOut.ml" 267 7114 7148 "doOut.ml" 267 7114 7149
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 263 7005 7016 "doOut.ml" 263 7005 7017
+)
+"doOut.ml" 267 7114 7148 "doOut.ml" 267 7114 7151
+type(
+  S.t
+)
+"doOut.ml" 267 7114 7152 "doOut.ml" 267 7114 7154
+type(
+  string list
+)
+ident(
+  int_ref xs "doOut.ml" 264 7021 7033 "doOut.ml" 264 7021 7035
+)
+"doOut.ml" 267 7114 7131 "doOut.ml" 267 7114 7154
+call(
+  stack
+)
+type(
+  string list
+)
+"doOut.ml" 268 7158 7169 "doOut.ml" 268 7158 7170
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"doOut.ml" 268 7158 7170 "doOut.ml" 268 7158 7177
+type(
+  int ref
+)
+ident(
+  int_ref verbose "doOut.ml" 14 754 758 "doOut.ml" 14 754 765
+)
+"doOut.ml" 268 7158 7169 "doOut.ml" 268 7158 7177
+type(
+  int
+)
+"doOut.ml" 268 7158 7178 "doOut.ml" 268 7158 7179
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"doOut.ml" 268 7158 7180 "doOut.ml" 268 7158 7181
+type(
+  int
+)
+"doOut.ml" 268 7158 7169 "doOut.ml" 268 7158 7181
+type(
+  bool
+)
+"doOut.ml" 269 7193 7209 "doOut.ml" 269 7193 7211
+type(
+  string list
+)
+ident(
+  int_ref xs "doOut.ml" 267 7114 7126 "doOut.ml" 267 7114 7128
+)
+"doOut.ml" 270 7217 7229 "doOut.ml" 270 7217 7231
+type(
+  string list
+)
+"doOut.ml" 270 7217 7233 "doOut.ml" 270 7217 7234
+type(
+  string
+)
+"doOut.ml" 270 7217 7232 "doOut.ml" 270 7217 7235
+type(
+  string list
+)
+"doOut.ml" 270 7217 7229 "doOut.ml" 270 7217 7235
+type(
+  string list
+)
+"doOut.ml" 270 7217 7239 "doOut.ml" 270 7217 7241
+type(
+  unit
+)
+"doOut.ml" 271 7242 7254 "doOut.ml" 271 7242 7255
+type(
+  string list
+)
+"doOut.ml" 272 7259 7273 "doOut.ml" 272 7259 7280
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"doOut.ml" 272 7259 7281 "doOut.ml" 272 7259 7298
+type(
+  (string -> unit, out_channel, unit) format
+)
+"doOut.ml" 273 7299 7316 "doOut.ml" 273 7299 7329
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"doOut.ml" 273 7299 7330 "doOut.ml" 273 7299 7333
+type(
+  string
+)
+"doOut.ml" 274 7334 7354 "doOut.ml" 274 7334 7362
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"doOut.ml" 275 7363 7390 "doOut.ml" 275 7363 7391
+type(
+  string
+)
+ident(
+  def s "doOut.ml" 275 7363 7395 "doOut.ml" 275 7363 7430
+)
+"doOut.ml" 275 7363 7395 "doOut.ml" 275 7363 7402
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"doOut.ml" 275 7363 7403 "doOut.ml" 275 7363 7411
+type(
+  (string -> string, unit, string) format
+)
+"doOut.ml" 275 7363 7413 "doOut.ml" 275 7363 7427
+type(
+  string -> string
+)
+ident(
+  ext_ref String.escaped
+)
+"doOut.ml" 275 7363 7428 "doOut.ml" 275 7363 7429
+type(
+  string
+)
+ident(
+  int_ref s "doOut.ml" 275 7363 7390 "doOut.ml" 275 7363 7391
+)
+"doOut.ml" 275 7363 7412 "doOut.ml" 275 7363 7430
+call(
+  stack
+)
+type(
+  string
+)
+"doOut.ml" 275 7363 7395 "doOut.ml" 275 7363 7430
+call(
+  tail
+)
+type(
+  string
+)
+"doOut.ml" 275 7363 7385 "doOut.ml" 275 7363 7431
+type(
+  string -> string
+)
+"doOut.ml" 276 7432 7454 "doOut.ml" 276 7432 7456
+type(
+  string list
+)
+ident(
+  int_ref xs "doOut.ml" 267 7114 7126 "doOut.ml" 267 7114 7128
+)
+"doOut.ml" 274 7334 7353 "doOut.ml" 276 7432 7457
+call(
+  stack
+)
+type(
+  string list
+)
+"doOut.ml" 273 7299 7315 "doOut.ml" 276 7432 7458
+call(
+  stack
+)
+type(
+  string
+)
+"doOut.ml" 272 7259 7273 "doOut.ml" 276 7432 7458
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 268 7158 7187 "doOut.ml" 277 7459 7470
+type(
+  unit
+)
+"doOut.ml" 268 7158 7166 "doOut.ml" 277 7459 7470
+type(
+  unit
+)
+"doOut.ml" 278 7473 7481 "doOut.ml" 278 7473 7491
+type(
+  buff -> unit
+)
+ident(
+  int_ref reset_buff "doOut.ml" 75 2219 2225 "doOut.ml" 75 2219 2235
+)
+"doOut.ml" 278 7473 7492 "doOut.ml" 278 7473 7493
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 263 7005 7016 "doOut.ml" 263 7005 7017
+)
+"doOut.ml" 278 7473 7481 "doOut.ml" 278 7473 7493
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 279 7496 7504 "doOut.ml" 279 7496 7506
+type(
+  string list
+)
+ident(
+  int_ref xs "doOut.ml" 267 7114 7126 "doOut.ml" 267 7114 7128
+)
+"doOut.ml" 278 7473 7481 "doOut.ml" 279 7496 7506
+type(
+  string list
+)
+"doOut.ml" 268 7158 7166 "doOut.ml" 279 7496 7506
+type(
+  string list
+)
+"doOut.ml" 267 7114 7122 "doOut.ml" 279 7496 7506
+type(
+  string list
+)
+"doOut.ml" 264 7021 7029 "doOut.ml" 279 7496 7506
+type(
+  string list
+)
+"doOut.ml" 280 7507 7513 "doOut.ml" 280 7507 7517
+type(
+  t
+)
+"doOut.ml" 280 7507 7521 "doOut.ml" 280 7507 7523
+type(
+  string list
+)
+"doOut.ml" 281 7524 7530 "doOut.ml" 281 7524 7531
+type(
+  t
+)
+"doOut.ml" 281 7524 7535 "doOut.ml" 281 7524 7540
+type(
+  exn -> string list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"doOut.ml" 281 7524 7542 "doOut.ml" 281 7524 7552
+type(
+  string -> exn
+)
+ident(
+  ext_ref Misc.fatal
+)
+"doOut.ml" 281 7524 7553 "doOut.ml" 281 7524 7566
+type(
+  string
+)
+"doOut.ml" 281 7524 7541 "doOut.ml" 281 7524 7567
+type(
+  exn
+)
+"doOut.ml" 281 7524 7535 "doOut.ml" 281 7524 7567
+type(
+  string list
+)
+"doOut.ml" 262 6980 6996 "doOut.ml" 281 7524 7567
+type(
+  t -> string list
+)
+"doOut.ml" 283 7569 7575 "doOut.ml" 283 7569 7582
+type(
+  out_channel -> t -> unit
+)
+ident(
+  def to_chan "doOut.ml" 291 7758 7760 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 283 7569 7583 "doOut.ml" 283 7569 7587
+type(
+  out_channel
+)
+ident(
+  def chan "doOut.ml" 283 7569 7590 "doOut.ml" 289 7691 7756
+)
+"doOut.ml" 284 7599 7610 "doOut.ml" 284 7599 7611
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 285 7615 7623 "doOut.ml" 286 7642 7662
+)
+"doOut.ml" 284 7599 7605 "doOut.ml" 284 7599 7611
+type(
+  t
+)
+"doOut.ml" 285 7615 7623 "doOut.ml" 285 7615 7632
+type(
+  out_channel -> buff -> unit
+)
+ident(
+  int_ref dump_buff "doOut.ml" 71 2143 2149 "doOut.ml" 71 2143 2158
+)
+"doOut.ml" 285 7615 7633 "doOut.ml" 285 7615 7637
+type(
+  out_channel
+)
+ident(
+  int_ref chan "doOut.ml" 283 7569 7583 "doOut.ml" 283 7569 7587
+)
+"doOut.ml" 285 7615 7638 "doOut.ml" 285 7615 7639
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 284 7599 7610 "doOut.ml" 284 7599 7611
+)
+"doOut.ml" 285 7615 7623 "doOut.ml" 285 7615 7639
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 286 7642 7650 "doOut.ml" 286 7642 7660
+type(
+  buff -> unit
+)
+ident(
+  int_ref reset_buff "doOut.ml" 75 2219 2225 "doOut.ml" 75 2219 2235
+)
+"doOut.ml" 286 7642 7661 "doOut.ml" 286 7642 7662
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 284 7599 7610 "doOut.ml" 284 7599 7611
+)
+"doOut.ml" 286 7642 7650 "doOut.ml" 286 7642 7662
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 285 7615 7623 "doOut.ml" 286 7642 7662
+type(
+  unit
+)
+"doOut.ml" 287 7663 7669 "doOut.ml" 287 7663 7673
+type(
+  t
+)
+"doOut.ml" 287 7663 7677 "doOut.ml" 287 7663 7679
+type(
+  unit
+)
+"doOut.ml" 288 7680 7686 "doOut.ml" 288 7680 7687
+type(
+  t
+)
+ident(
+  def b "doOut.ml" 289 7691 7698 "doOut.ml" 289 7691 7756
+)
+"doOut.ml" 289 7691 7698 "doOut.ml" 289 7691 7703
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"doOut.ml" 289 7691 7705 "doOut.ml" 289 7691 7715
+type(
+  string -> exn
+)
+ident(
+  ext_ref Misc.fatal
+)
+"doOut.ml" 289 7691 7717 "doOut.ml" 289 7691 7724
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"doOut.ml" 289 7691 7725 "doOut.ml" 289 7691 7742
+type(
+  (string -> string, unit, string) format
+)
+"doOut.ml" 289 7691 7744 "doOut.ml" 289 7691 7751
+type(
+  t -> string
+)
+ident(
+  int_ref pp_type "doOut.ml" 167 4648 4654 "doOut.ml" 167 4648 4661
+)
+"doOut.ml" 289 7691 7752 "doOut.ml" 289 7691 7753
+type(
+  t
+)
+ident(
+  int_ref b "doOut.ml" 288 7680 7686 "doOut.ml" 288 7680 7687
+)
+"doOut.ml" 289 7691 7743 "doOut.ml" 289 7691 7754
+type(
+  string
+)
+"doOut.ml" 289 7691 7716 "doOut.ml" 289 7691 7755
+type(
+  string
+)
+"doOut.ml" 289 7691 7704 "doOut.ml" 289 7691 7756
+type(
+  exn
+)
+"doOut.ml" 289 7691 7698 "doOut.ml" 289 7691 7756
+type(
+  unit
+)
+"doOut.ml" 283 7569 7590 "doOut.ml" 289 7691 7756
+type(
+  t -> unit
+)
+"doOut.ml" 291 7758 7764 "doOut.ml" 291 7758 7775
+type(
+  buff -> t -> unit
+)
+ident(
+  def hidden_copy "doOut.ml" 296 7909 7911 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 291 7758 7776 "doOut.ml" 291 7758 7785
+type(
+  buff
+)
+ident(
+  def from_rope "doOut.ml" 291 7758 7786 "doOut.ml" 294 7866 7907
+)
+"doOut.ml" 291 7758 7786 "doOut.ml" 291 7758 7793
+type(
+  t
+)
+ident(
+  def to_buff "doOut.ml" 291 7758 7796 "doOut.ml" 294 7866 7907
+)
+"doOut.ml" 291 7758 7802 "doOut.ml" 291 7758 7809
+type(
+  t
+)
+ident(
+  int_ref to_buff "doOut.ml" 291 7758 7786 "doOut.ml" 291 7758 7793
+)
+"doOut.ml" 292 7815 7819 "doOut.ml" 292 7815 7823
+type(
+  t
+)
+"doOut.ml" 292 7815 7827 "doOut.ml" 292 7815 7829
+type(
+  unit
+)
+"doOut.ml" 293 7830 7839 "doOut.ml" 293 7830 7840
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 293 7830 7844 "doOut.ml" 293 7830 7865
+)
+"doOut.ml" 293 7830 7834 "doOut.ml" 293 7830 7840
+type(
+  t
+)
+"doOut.ml" 293 7830 7844 "doOut.ml" 293 7830 7853
+type(
+  buff -> buff -> unit
+)
+ident(
+  int_ref copy_buff "doOut.ml" 146 4207 4213 "doOut.ml" 146 4207 4222
+)
+"doOut.ml" 293 7830 7854 "doOut.ml" 293 7830 7863
+type(
+  buff
+)
+ident(
+  int_ref from_rope "doOut.ml" 291 7758 7776 "doOut.ml" 291 7758 7785
+)
+"doOut.ml" 293 7830 7864 "doOut.ml" 293 7830 7865
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 293 7830 7839 "doOut.ml" 293 7830 7840
+)
+"doOut.ml" 293 7830 7844 "doOut.ml" 293 7830 7865
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 294 7866 7875 "doOut.ml" 294 7866 7879
+type(
+  out_channel
+)
+ident(
+  def chan "doOut.ml" 294 7866 7883 "doOut.ml" 294 7866 7907
+)
+"doOut.ml" 294 7866 7870 "doOut.ml" 294 7866 7879
+type(
+  t
+)
+"doOut.ml" 294 7866 7883 "doOut.ml" 294 7866 7892
+type(
+  out_channel -> buff -> unit
+)
+ident(
+  int_ref dump_buff "doOut.ml" 71 2143 2149 "doOut.ml" 71 2143 2158
+)
+"doOut.ml" 294 7866 7893 "doOut.ml" 294 7866 7897
+type(
+  out_channel
+)
+ident(
+  int_ref chan "doOut.ml" 294 7866 7875 "doOut.ml" 294 7866 7879
+)
+"doOut.ml" 294 7866 7898 "doOut.ml" 294 7866 7907
+type(
+  buff
+)
+ident(
+  int_ref from_rope "doOut.ml" 291 7758 7776 "doOut.ml" 291 7758 7785
+)
+"doOut.ml" 294 7866 7883 "doOut.ml" 294 7866 7907
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 291 7758 7796 "doOut.ml" 294 7866 7907
+type(
+  unit
+)
+"doOut.ml" 296 7909 7915 "doOut.ml" 296 7909 7919
+type(
+  t -> t -> unit
+)
+ident(
+  def copy "doOut.ml" 300 8037 8039 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 296 7909 7920 "doOut.ml" 296 7909 7929
+type(
+  t
+)
+ident(
+  def from_buff "doOut.ml" 296 7909 7930 "doOut.ml" 298 7997 8035
+)
+"doOut.ml" 296 7909 7930 "doOut.ml" 296 7909 7937
+type(
+  t
+)
+ident(
+  def to_buff "doOut.ml" 296 7909 7940 "doOut.ml" 298 7997 8035
+)
+"doOut.ml" 296 7909 7946 "doOut.ml" 296 7909 7955
+type(
+  t
+)
+ident(
+  int_ref from_buff "doOut.ml" 296 7909 7920 "doOut.ml" 296 7909 7929
+)
+"doOut.ml" 297 7961 7970 "doOut.ml" 297 7961 7971
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 297 7961 7975 "doOut.ml" 297 7961 7996
+)
+"doOut.ml" 297 7961 7965 "doOut.ml" 297 7961 7971
+type(
+  t
+)
+"doOut.ml" 297 7961 7975 "doOut.ml" 297 7961 7986
+type(
+  buff -> t -> unit
+)
+ident(
+  int_ref hidden_copy "doOut.ml" 291 7758 7764 "doOut.ml" 291 7758 7775
+)
+"doOut.ml" 297 7961 7987 "doOut.ml" 297 7961 7988
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 297 7961 7970 "doOut.ml" 297 7961 7971
+)
+"doOut.ml" 297 7961 7989 "doOut.ml" 297 7961 7996
+type(
+  t
+)
+ident(
+  int_ref to_buff "doOut.ml" 296 7909 7930 "doOut.ml" 296 7909 7937
+)
+"doOut.ml" 297 7961 7975 "doOut.ml" 297 7961 7996
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 298 7997 8001 "doOut.ml" 298 7997 8002
+type(
+  t
+)
+"doOut.ml" 298 7997 8006 "doOut.ml" 298 7997 8011
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"doOut.ml" 298 7997 8013 "doOut.ml" 298 7997 8023
+type(
+  string -> exn
+)
+ident(
+  ext_ref Misc.fatal
+)
+"doOut.ml" 298 7997 8024 "doOut.ml" 298 7997 8034
+type(
+  string
+)
+"doOut.ml" 298 7997 8012 "doOut.ml" 298 7997 8035
+call(
+  stack
+)
+type(
+  exn
+)
+"doOut.ml" 298 7997 8006 "doOut.ml" 298 7997 8035
+type(
+  unit
+)
+"doOut.ml" 296 7909 7940 "doOut.ml" 298 7997 8035
+type(
+  unit
+)
+"doOut.ml" 300 8037 8043 "doOut.ml" 300 8037 8051
+type(
+  (string -> string) -> t -> t -> unit
+)
+ident(
+  def copy_fun "doOut.ml" 305 8195 8197 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 300 8037 8052 "doOut.ml" 300 8037 8053
+type(
+  string -> string
+)
+ident(
+  def f "doOut.ml" 300 8037 8054 "doOut.ml" 303 8151 8193
+)
+"doOut.ml" 300 8037 8054 "doOut.ml" 300 8037 8063
+type(
+  t
+)
+ident(
+  def from_buff "doOut.ml" 300 8037 8064 "doOut.ml" 303 8151 8193
+)
+"doOut.ml" 300 8037 8064 "doOut.ml" 300 8037 8071
+type(
+  t
+)
+ident(
+  def to_buff "doOut.ml" 300 8037 8075 "doOut.ml" 303 8151 8193
+)
+"doOut.ml" 300 8037 8081 "doOut.ml" 300 8037 8090
+type(
+  t
+)
+ident(
+  int_ref from_buff "doOut.ml" 300 8037 8054 "doOut.ml" 300 8037 8063
+)
+"doOut.ml" 301 8096 8105 "doOut.ml" 301 8096 8106
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 302 8110 8116 "doOut.ml" 302 8110 8150
+)
+"doOut.ml" 301 8096 8100 "doOut.ml" 301 8096 8106
+type(
+  t
+)
+"doOut.ml" 302 8110 8116 "doOut.ml" 302 8110 8119
+type(
+  t -> string -> unit
+)
+ident(
+  int_ref put "doOut.ml" 196 5317 5323 "doOut.ml" 196 5317 5326
+)
+"doOut.ml" 302 8110 8120 "doOut.ml" 302 8110 8127
+type(
+  t
+)
+ident(
+  int_ref to_buff "doOut.ml" 300 8037 8064 "doOut.ml" 300 8037 8071
+)
+"doOut.ml" 302 8110 8129 "doOut.ml" 302 8110 8130
+type(
+  string -> string
+)
+ident(
+  int_ref f "doOut.ml" 300 8037 8052 "doOut.ml" 300 8037 8053
+)
+"doOut.ml" 302 8110 8132 "doOut.ml" 302 8110 8146
+type(
+  buff -> string
+)
+ident(
+  int_ref to_string_buff "doOut.ml" 79 2309 2315 "doOut.ml" 79 2309 2329
+)
+"doOut.ml" 302 8110 8147 "doOut.ml" 302 8110 8148
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 301 8096 8105 "doOut.ml" 301 8096 8106
+)
+"doOut.ml" 302 8110 8131 "doOut.ml" 302 8110 8149
+call(
+  stack
+)
+type(
+  string
+)
+"doOut.ml" 302 8110 8128 "doOut.ml" 302 8110 8150
+call(
+  stack
+)
+type(
+  string
+)
+"doOut.ml" 302 8110 8116 "doOut.ml" 302 8110 8150
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 303 8151 8155 "doOut.ml" 303 8151 8156
+type(
+  t
+)
+"doOut.ml" 303 8151 8160 "doOut.ml" 303 8151 8165
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"doOut.ml" 303 8151 8167 "doOut.ml" 303 8151 8177
+type(
+  string -> exn
+)
+ident(
+  ext_ref Misc.fatal
+)
+"doOut.ml" 303 8151 8178 "doOut.ml" 303 8151 8192
+type(
+  string
+)
+"doOut.ml" 303 8151 8166 "doOut.ml" 303 8151 8193
+call(
+  stack
+)
+type(
+  exn
+)
+"doOut.ml" 303 8151 8160 "doOut.ml" 303 8151 8193
+type(
+  unit
+)
+"doOut.ml" 300 8037 8075 "doOut.ml" 303 8151 8193
+type(
+  unit
+)
+"doOut.ml" 305 8195 8201 "doOut.ml" 305 8195 8212
+type(
+  t -> t -> unit
+)
+ident(
+  def copy_no_tag "doOut.ml" 330 8967 8969 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 305 8195 8213 "doOut.ml" 305 8195 8222
+type(
+  t
+)
+ident(
+  def from_buff "doOut.ml" 305 8195 8223 "doOut.ml" 328 8918 8965
+)
+"doOut.ml" 305 8195 8223 "doOut.ml" 305 8195 8230
+type(
+  t
+)
+ident(
+  def to_buff "doOut.ml" 306 8233 8237 "doOut.ml" 328 8918 8965
+)
+"doOut.ml" 306 8233 8240 "doOut.ml" 306 8233 8241
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"doOut.ml" 306 8233 8241 "doOut.ml" 306 8233 8248
+type(
+  int ref
+)
+ident(
+  int_ref verbose "doOut.ml" 14 754 758 "doOut.ml" 14 754 765
+)
+"doOut.ml" 306 8233 8240 "doOut.ml" 306 8233 8248
+type(
+  int
+)
+"doOut.ml" 306 8233 8249 "doOut.ml" 306 8233 8250
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"doOut.ml" 306 8233 8251 "doOut.ml" 306 8233 8252
+type(
+  int
+)
+"doOut.ml" 306 8233 8240 "doOut.ml" 306 8233 8252
+type(
+  bool
+)
+"doOut.ml" 307 8264 8270 "doOut.ml" 307 8264 8282
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_string
+)
+"doOut.ml" 307 8264 8283 "doOut.ml" 307 8264 8306
+type(
+  string
+)
+"doOut.ml" 307 8264 8270 "doOut.ml" 307 8264 8306
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 308 8308 8314 "doOut.ml" 308 8308 8319
+type(
+  out_channel -> t -> unit
+)
+ident(
+  int_ref debug "doOut.ml" 158 4415 4421 "doOut.ml" 158 4415 4426
+)
+"doOut.ml" 308 8308 8320 "doOut.ml" 308 8308 8326
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"doOut.ml" 308 8308 8327 "doOut.ml" 308 8308 8336
+type(
+  t
+)
+ident(
+  int_ref from_buff "doOut.ml" 305 8195 8213 "doOut.ml" 305 8195 8222
+)
+"doOut.ml" 308 8308 8314 "doOut.ml" 308 8308 8336
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 309 8338 8344 "doOut.ml" 309 8338 8357
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_newline
+)
+"doOut.ml" 309 8338 8358 "doOut.ml" 309 8338 8360
+type(
+  unit
+)
+"doOut.ml" 309 8338 8344 "doOut.ml" 309 8338 8361
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 308 8308 8314 "doOut.ml" 309 8338 8361
+type(
+  unit
+)
+"doOut.ml" 306 8233 8258 "doOut.ml" 310 8362 8369
+type(
+  unit
+)
+"doOut.ml" 306 8233 8237 "doOut.ml" 310 8362 8369
+type(
+  unit
+)
+"doOut.ml" 311 8371 8381 "doOut.ml" 311 8371 8390
+type(
+  t
+)
+ident(
+  int_ref from_buff "doOut.ml" 305 8195 8213 "doOut.ml" 305 8195 8222
+)
+"doOut.ml" 312 8396 8407 "doOut.ml" 312 8396 8410
+type(
+  buff
+)
+ident(
+  def src "doOut.ml" 312 8396 8414 "doOut.ml" 327 8910 8917
+)
+"doOut.ml" 312 8396 8402 "doOut.ml" 312 8396 8410
+type(
+  t
+)
+"doOut.ml" 313 8420 8428 "doOut.ml" 313 8420 8438
+type(
+  buff -> unit
+)
+ident(
+  int_ref flush_buff "doOut.ml" 91 2649 2655 "doOut.ml" 91 2649 2665
+)
+"doOut.ml" 313 8420 8439 "doOut.ml" 313 8420 8442
+type(
+  buff
+)
+ident(
+  int_ref src "doOut.ml" 312 8396 8407 "doOut.ml" 312 8396 8410
+)
+"doOut.ml" 313 8420 8428 "doOut.ml" 313 8420 8442
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 315 8457 8471 "doOut.ml" 315 8457 8472
+type(
+  int
+)
+ident(
+  def i "doOut.ml" 316 8496 8506 "doOut.ml" 325 8821 8832
+)
+"doOut.ml" 315 8457 8475 "doOut.ml" 315 8457 8482
+type(
+  S.t -> char -> int
+)
+ident(
+  ext_ref S.index
+)
+"doOut.ml" 315 8457 8483 "doOut.ml" 315 8457 8486
+type(
+  buff
+)
+ident(
+  int_ref src "doOut.ml" 312 8396 8407 "doOut.ml" 312 8396 8410
+)
+"doOut.ml" 315 8457 8483 "doOut.ml" 315 8457 8488
+type(
+  S.t
+)
+"doOut.ml" 315 8457 8489 "doOut.ml" 315 8457 8492
+type(
+  char
+)
+"doOut.ml" 315 8457 8475 "doOut.ml" 315 8457 8492
+call(
+  stack
+)
+type(
+  int
+)
+"doOut.ml" 316 8496 8510 "doOut.ml" 316 8496 8511
+type(
+  int
+)
+ident(
+  def j "doOut.ml" 319 8598 8608 "doOut.ml" 325 8821 8832
+)
+"doOut.ml" 317 8514 8529 "doOut.ml" 317 8514 8537
+type(
+  t -> bool
+)
+ident(
+  int_ref is_empty "doOut.ml" 178 4887 4893 "doOut.ml" 178 4887 4901
+)
+"doOut.ml" 317 8514 8538 "doOut.ml" 317 8514 8547
+type(
+  t
+)
+ident(
+  int_ref from_buff "doOut.ml" 305 8195 8213 "doOut.ml" 305 8195 8222
+)
+"doOut.ml" 317 8514 8529 "doOut.ml" 317 8514 8547
+call(
+  stack
+)
+type(
+  bool
+)
+"doOut.ml" 317 8514 8553 "doOut.ml" 317 8514 8554
+type(
+  int
+)
+ident(
+  int_ref i "doOut.ml" 315 8457 8471 "doOut.ml" 315 8457 8472
+)
+"doOut.ml" 317 8514 8555 "doOut.ml" 317 8514 8556
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"doOut.ml" 317 8514 8557 "doOut.ml" 317 8514 8558
+type(
+  int
+)
+"doOut.ml" 317 8514 8553 "doOut.ml" 317 8514 8558
+type(
+  int
+)
+"doOut.ml" 318 8559 8576 "doOut.ml" 318 8559 8584
+type(
+  S.t -> char -> int
+)
+ident(
+  ext_ref S.rindex
+)
+"doOut.ml" 318 8559 8585 "doOut.ml" 318 8559 8588
+type(
+  buff
+)
+ident(
+  int_ref src "doOut.ml" 312 8396 8407 "doOut.ml" 312 8396 8410
+)
+"doOut.ml" 318 8559 8585 "doOut.ml" 318 8559 8590
+type(
+  S.t
+)
+"doOut.ml" 318 8559 8591 "doOut.ml" 318 8559 8594
+type(
+  char
+)
+"doOut.ml" 318 8559 8576 "doOut.ml" 318 8559 8594
+call(
+  stack
+)
+type(
+  int
+)
+"doOut.ml" 317 8514 8526 "doOut.ml" 318 8559 8594
+type(
+  int
+)
+"doOut.ml" 319 8598 8608 "doOut.ml" 319 8598 8611
+type(
+  buff
+)
+ident(
+  int_ref src "doOut.ml" 312 8396 8407 "doOut.ml" 312 8396 8410
+)
+"doOut.ml" 319 8598 8617 "doOut.ml" 319 8598 8622
+type(
+  S.t -> int -> int -> S.t
+)
+ident(
+  ext_ref S.sub
+)
+"doOut.ml" 319 8598 8623 "doOut.ml" 319 8598 8626
+type(
+  buff
+)
+ident(
+  int_ref src "doOut.ml" 312 8396 8407 "doOut.ml" 312 8396 8410
+)
+"doOut.ml" 319 8598 8623 "doOut.ml" 319 8598 8628
+type(
+  S.t
+)
+"doOut.ml" 319 8598 8630 "doOut.ml" 319 8598 8631
+type(
+  int
+)
+ident(
+  int_ref i "doOut.ml" 315 8457 8471 "doOut.ml" 315 8457 8472
+)
+"doOut.ml" 319 8598 8631 "doOut.ml" 319 8598 8632
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"doOut.ml" 319 8598 8632 "doOut.ml" 319 8598 8633
+type(
+  int
+)
+"doOut.ml" 319 8598 8629 "doOut.ml" 319 8598 8634
+type(
+  int
+)
+"doOut.ml" 319 8598 8636 "doOut.ml" 319 8598 8637
+type(
+  int
+)
+ident(
+  int_ref j "doOut.ml" 316 8496 8510 "doOut.ml" 316 8496 8511
+)
+"doOut.ml" 319 8598 8637 "doOut.ml" 319 8598 8638
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"doOut.ml" 319 8598 8638 "doOut.ml" 319 8598 8639
+type(
+  int
+)
+ident(
+  int_ref i "doOut.ml" 315 8457 8471 "doOut.ml" 315 8457 8472
+)
+"doOut.ml" 319 8598 8636 "doOut.ml" 319 8598 8639
+type(
+  int
+)
+"doOut.ml" 319 8598 8639 "doOut.ml" 319 8598 8640
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"doOut.ml" 319 8598 8640 "doOut.ml" 319 8598 8641
+type(
+  int
+)
+"doOut.ml" 319 8598 8635 "doOut.ml" 319 8598 8642
+type(
+  int
+)
+"doOut.ml" 319 8598 8617 "doOut.ml" 319 8598 8642
+call(
+  stack
+)
+type(
+  S.t
+)
+"doOut.ml" 319 8598 8608 "doOut.ml" 319 8598 8642
+type(
+  unit
+)
+"doOut.ml" 320 8645 8655 "doOut.ml" 320 8645 8666
+type(
+  buff -> t -> unit
+)
+ident(
+  int_ref hidden_copy "doOut.ml" 291 7758 7764 "doOut.ml" 291 7758 7775
+)
+"doOut.ml" 320 8645 8667 "doOut.ml" 320 8645 8670
+type(
+  buff
+)
+ident(
+  int_ref src "doOut.ml" 312 8396 8407 "doOut.ml" 312 8396 8410
+)
+"doOut.ml" 320 8645 8671 "doOut.ml" 320 8645 8678
+type(
+  t
+)
+ident(
+  int_ref to_buff "doOut.ml" 305 8195 8223 "doOut.ml" 305 8195 8230
+)
+"doOut.ml" 320 8645 8655 "doOut.ml" 320 8645 8678
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 321 8681 8692 "doOut.ml" 321 8681 8693
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"doOut.ml" 321 8681 8693 "doOut.ml" 321 8681 8700
+type(
+  int ref
+)
+ident(
+  int_ref verbose "doOut.ml" 14 754 758 "doOut.ml" 14 754 765
+)
+"doOut.ml" 321 8681 8692 "doOut.ml" 321 8681 8700
+type(
+  int
+)
+"doOut.ml" 321 8681 8701 "doOut.ml" 321 8681 8702
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"doOut.ml" 321 8681 8703 "doOut.ml" 321 8681 8704
+type(
+  int
+)
+"doOut.ml" 321 8681 8692 "doOut.ml" 321 8681 8704
+type(
+  bool
+)
+"doOut.ml" 322 8716 8726 "doOut.ml" 322 8716 8738
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_string
+)
+"doOut.ml" 322 8716 8739 "doOut.ml" 322 8716 8760
+type(
+  string
+)
+"doOut.ml" 322 8716 8726 "doOut.ml" 322 8716 8760
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 323 8762 8772 "doOut.ml" 323 8762 8777
+type(
+  out_channel -> t -> unit
+)
+ident(
+  int_ref debug "doOut.ml" 158 4415 4421 "doOut.ml" 158 4415 4426
+)
+"doOut.ml" 323 8762 8778 "doOut.ml" 323 8762 8784
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"doOut.ml" 323 8762 8785 "doOut.ml" 323 8762 8792
+type(
+  t
+)
+ident(
+  int_ref to_buff "doOut.ml" 305 8195 8223 "doOut.ml" 305 8195 8230
+)
+"doOut.ml" 323 8762 8772 "doOut.ml" 323 8762 8792
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 324 8794 8804 "doOut.ml" 324 8794 8817
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_newline
+)
+"doOut.ml" 324 8794 8818 "doOut.ml" 324 8794 8820
+type(
+  unit
+)
+"doOut.ml" 324 8794 8804 "doOut.ml" 324 8794 8820
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 323 8762 8772 "doOut.ml" 324 8794 8820
+type(
+  unit
+)
+"doOut.ml" 321 8681 8710 "doOut.ml" 325 8821 8832
+type(
+  unit
+)
+"doOut.ml" 321 8681 8689 "doOut.ml" 325 8821 8832
+type(
+  unit
+)
+"doOut.ml" 320 8645 8655 "doOut.ml" 325 8821 8832
+type(
+  unit
+)
+"doOut.ml" 319 8598 8608 "doOut.ml" 325 8821 8832
+type(
+  unit
+)
+"doOut.ml" 316 8496 8506 "doOut.ml" 325 8821 8832
+type(
+  unit
+)
+"doOut.ml" 315 8457 8467 "doOut.ml" 325 8821 8832
+type(
+  unit
+)
+"doOut.ml" 326 8833 8846 "doOut.ml" 326 8833 8855
+type(
+  exn
+)
+"doOut.ml" 326 8833 8859 "doOut.ml" 326 8833 8864
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"doOut.ml" 326 8833 8866 "doOut.ml" 326 8833 8876
+type(
+  string -> exn
+)
+ident(
+  ext_ref Misc.fatal
+)
+"doOut.ml" 326 8833 8877 "doOut.ml" 326 8833 8908
+type(
+  string
+)
+"doOut.ml" 326 8833 8865 "doOut.ml" 326 8833 8909
+call(
+  stack
+)
+type(
+  exn
+)
+"doOut.ml" 326 8833 8859 "doOut.ml" 326 8833 8909
+type(
+  unit
+)
+"doOut.ml" 314 8445 8453 "doOut.ml" 326 8833 8909
+type(
+  unit
+)
+"doOut.ml" 312 8396 8414 "doOut.ml" 327 8910 8917
+type(
+  unit
+)
+"doOut.ml" 328 8918 8924 "doOut.ml" 328 8918 8925
+type(
+  t
+)
+"doOut.ml" 328 8918 8929 "doOut.ml" 328 8918 8934
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"doOut.ml" 328 8918 8936 "doOut.ml" 328 8918 8946
+type(
+  string -> exn
+)
+ident(
+  ext_ref Misc.fatal
+)
+"doOut.ml" 328 8918 8947 "doOut.ml" 328 8918 8964
+type(
+  string
+)
+"doOut.ml" 328 8918 8935 "doOut.ml" 328 8918 8965
+call(
+  stack
+)
+type(
+  exn
+)
+"doOut.ml" 328 8918 8929 "doOut.ml" 328 8918 8965
+type(
+  unit
+)
+"doOut.ml" 311 8371 8375 "doOut.ml" 328 8918 8965
+type(
+  unit
+)
+"doOut.ml" 306 8233 8237 "doOut.ml" 328 8918 8965
+type(
+  unit
+)
+"doOut.ml" 330 8967 8973 "doOut.ml" 330 8967 8978
+type(
+  t -> unit
+)
+ident(
+  def close "doOut.ml" 334 9033 9035 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 331 8990 9001 "doOut.ml" 331 8990 9002
+type(
+  out_channel
+)
+ident(
+  def c "doOut.ml" 331 8990 9006 "doOut.ml" 331 8990 9017
+)
+"doOut.ml" 331 8990 8996 "doOut.ml" 331 8990 9002
+type(
+  t
+)
+"doOut.ml" 331 8990 9006 "doOut.ml" 331 8990 9015
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"doOut.ml" 331 8990 9016 "doOut.ml" 331 8990 9017
+type(
+  out_channel
+)
+ident(
+  int_ref c "doOut.ml" 331 8990 9001 "doOut.ml" 331 8990 9002
+)
+"doOut.ml" 331 8990 9006 "doOut.ml" 331 8990 9017
+call(
+  tail
+)
+type(
+  unit
+)
+"doOut.ml" 332 9018 9024 "doOut.ml" 332 9018 9025
+type(
+  t
+)
+"doOut.ml" 332 9018 9029 "doOut.ml" 332 9018 9031
+type(
+  unit
+)
+"doOut.ml" 330 8967 8981 "doOut.ml" 332 9018 9031
+type(
+  t -> unit
+)
+"doOut.ml" 334 9033 9039 "doOut.ml" 334 9033 9047
+type(
+  char -> bool
+)
+ident(
+  def is_space "doOut.ml" 338 9112 9114 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 334 9033 9048 "doOut.ml" 334 9033 9049
+type(
+  char
+)
+ident(
+  def c "doOut.ml" 334 9033 9053 "doOut.ml" 336 9096 9110
+)
+"doOut.ml" 334 9033 9059 "doOut.ml" 334 9033 9060
+type(
+  char
+)
+ident(
+  int_ref c "doOut.ml" 334 9033 9048 "doOut.ml" 334 9033 9049
+)
+"doOut.ml" 335 9066 9069 "doOut.ml" 335 9066 9072
+type(
+  char
+)
+"doOut.ml" 335 9066 9073 "doOut.ml" 335 9066 9077
+type(
+  char
+)
+"doOut.ml" 335 9066 9069 "doOut.ml" 335 9066 9077
+type(
+  char
+)
+"doOut.ml" 335 9066 9078 "doOut.ml" 335 9066 9082
+type(
+  char
+)
+"doOut.ml" 335 9066 9069 "doOut.ml" 335 9066 9082
+type(
+  char
+)
+"doOut.ml" 335 9066 9083 "doOut.ml" 335 9066 9087
+type(
+  char
+)
+"doOut.ml" 335 9066 9069 "doOut.ml" 335 9066 9087
+type(
+  char
+)
+"doOut.ml" 335 9066 9091 "doOut.ml" 335 9066 9095
+type(
+  bool
+)
+"doOut.ml" 336 9096 9100 "doOut.ml" 336 9096 9101
+type(
+  char
+)
+"doOut.ml" 336 9096 9105 "doOut.ml" 336 9096 9110
+type(
+  bool
+)
+"doOut.ml" 334 9033 9053 "doOut.ml" 336 9096 9110
+type(
+  bool
+)
+"doOut.ml" 338 9112 9118 "doOut.ml" 338 9112 9124
+type(
+  t -> unit
+)
+ident(
+  def unskip "doOut.ml" 342 9212 9225 "doOut.ml" 343 9226 9229
+)
+"doOut.ml" 339 9136 9147 "doOut.ml" 339 9136 9148
+type(
+  buff
+)
+ident(
+  def b "doOut.ml" 340 9153 9161 "doOut.ml" 341 9176 9211
+)
+"doOut.ml" 339 9136 9142 "doOut.ml" 339 9136 9148
+type(
+  t
+)
+"doOut.ml" 340 9153 9161 "doOut.ml" 340 9153 9171
+type(
+  buff -> unit
+)
+ident(
+  int_ref flush_buff "doOut.ml" 91 2649 2655 "doOut.ml" 91 2649 2665
+)
+"doOut.ml" 340 9153 9172 "doOut.ml" 340 9153 9173
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 339 9136 9147 "doOut.ml" 339 9136 9148
+)
+"doOut.ml" 340 9153 9161 "doOut.ml" 340 9153 9173
+call(
+  stack
+)
+type(
+  unit
+)
+"doOut.ml" 341 9176 9184 "doOut.ml" 341 9176 9185
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 339 9136 9147 "doOut.ml" 339 9136 9148
+)
+"doOut.ml" 341 9176 9191 "doOut.ml" 341 9176 9198
+type(
+  S.t -> (char -> bool) -> S.t
+)
+ident(
+  ext_ref S.erase
+)
+"doOut.ml" 341 9176 9199 "doOut.ml" 341 9176 9200
+type(
+  buff
+)
+ident(
+  int_ref b "doOut.ml" 339 9136 9147 "doOut.ml" 339 9136 9148
+)
+"doOut.ml" 341 9176 9199 "doOut.ml" 341 9176 9202
+type(
+  S.t
+)
+"doOut.ml" 341 9176 9203 "doOut.ml" 341 9176 9211
+type(
+  char -> bool
+)
+ident(
+  int_ref is_space "doOut.ml" 334 9033 9039 "doOut.ml" 334 9033 9047
+)
+"doOut.ml" 341 9176 9191 "doOut.ml" 341 9176 9211
+call(
+  stack
+)
+type(
+  S.t
+)
+"doOut.ml" 341 9176 9184 "doOut.ml" 341 9176 9211
+type(
+  unit
+)
+"doOut.ml" 340 9153 9161 "doOut.ml" 341 9176 9211
+type(
+  unit
+)
+"doOut.ml" 342 9212 9218 "doOut.ml" 342 9212 9219
+type(
+  t
+)
+"doOut.ml" 342 9212 9223 "doOut.ml" 342 9212 9225
+type(
+  unit
+)
+"doOut.ml" 338 9112 9127 "doOut.ml" 342 9212 9225
+type(
+  t -> unit
+)

@@ -1,0 +1,4259 @@
+"hevea.ml" 12 741 745 "hevea.ml" 12 741 751
+type(
+  string
+)
+ident(
+  def header "hevea.ml" 14 813 813 "hevea.ml" 1 0 -1
+)
+"hevea.ml" 12 741 754 "hevea.ml" 12 741 810
+type(
+  string
+)
+"hevea.ml" 20 846 850 "hevea.ml" 20 846 863
+type(
+  string -> string
+)
+ident(
+  def scan_get_prim "hevea.ml" 54 2300 2300 "hevea.ml" 1 0 -1
+)
+"hevea.ml" 21 865 869 "hevea.ml" 21 865 878
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def scan_main "hevea.ml" 54 2300 2300 "hevea.ml" 1 0 -1
+)
+"hevea.ml" 21 865 880 "hevea.ml" 21 865 890
+type(
+  unit -> unit
+)
+ident(
+  def no_prelude "hevea.ml" 54 2300 2300 "hevea.ml" 1 0 -1
+)
+"hevea.ml" 21 865 892 "hevea.ml" 21 865 910
+type(
+  unit -> unit
+)
+ident(
+  def scan_print_env_pos "hevea.ml" 54 2300 2300 "hevea.ml" 1 0 -1
+)
+"hevea.ml" 22 912 916 "hevea.ml" 22 912 929
+type(
+  bool -> unit
+)
+ident(
+  def dest_finalize "hevea.ml" 54 2300 2300 "hevea.ml" 1 0 -1
+)
+"hevea.ml" 22 912 930 "hevea.ml" 22 912 944
+type(
+  bool -> bool
+)
+ident(
+  def image_finalize "hevea.ml" 54 2300 2300 "hevea.ml" 1 0 -1
+)
+"hevea.ml" 20 846 850 "hevea.ml" 22 912 944
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 24 949 957 "hevea.ml" 24 949 958
+type(
+  Parse_opts.destination ref -> Parse_opts.destination
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 24 949 958 "hevea.ml" 24 949 980
+type(
+  Parse_opts.destination ref
+)
+ident(
+  ext_ref Parse_opts.destination
+)
+"hevea.ml" 24 949 957 "hevea.ml" 24 949 980
+type(
+  Parse_opts.destination
+)
+"hevea.ml" 25 986 992 "hevea.ml" 25 986 996
+type(
+  Parse_opts.destination
+)
+"hevea.ml" 25 986 1002 "hevea.ml" 25 986 1009
+type(
+  string
+)
+ident(
+  ext_ref Parse_opts.name_in
+)
+"hevea.ml" 25 986 1010 "hevea.ml" 25 986 1012
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"hevea.ml" 25 986 1013 "hevea.ml" 25 986 1015
+type(
+  string
+)
+"hevea.ml" 25 986 1002 "hevea.ml" 25 986 1015
+type(
+  bool
+)
+"hevea.ml" 26 1019 1038 "hevea.ml" 26 1019 1067
+call(
+  stack
+)
+"hevea.ml" 27 1071 1092 "hevea.ml" 27 1071 1123
+call(
+  stack
+)
+"hevea.ml" 28 1127 1146 "hevea.ml" 28 1127 1166
+call(
+  stack
+)
+"hevea.ml" 29 1170 1193 "hevea.ml" 29 1170 1214
+call(
+  stack
+)
+"hevea.ml" 30 1218 1240 "hevea.ml" 30 1218 1258
+call(
+  stack
+)
+"hevea.ml" 31 1262 1265 "hevea.ml" 31 1262 1278
+type(
+  string -> string
+)
+ident(
+  ext_ref Scan.get_prim
+)
+"hevea.ml" 31 1262 1280 "hevea.ml" 31 1262 1289
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"hevea.ml" 31 1262 1291 "hevea.ml" 31 1262 1306
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Scan.no_prelude
+)
+"hevea.ml" 31 1262 1308 "hevea.ml" 31 1262 1326
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Scan.print_env_pos
+)
+"hevea.ml" 32 1328 1331 "hevea.ml" 32 1328 1344
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Html.finalize
+)
+"hevea.ml" 32 1328 1346 "hevea.ml" 32 1328 1360
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Image.finalize
+)
+"hevea.ml" 31 1262 1265 "hevea.ml" 32 1328 1360
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 30 1218 1219 "hevea.ml" 32 1328 1360
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 29 1170 1171 "hevea.ml" 32 1328 1360
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 28 1127 1128 "hevea.ml" 32 1328 1360
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 27 1071 1072 "hevea.ml" 32 1328 1360
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 26 1019 1020 "hevea.ml" 32 1328 1360
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 33 1361 1367 "hevea.ml" 33 1361 1371
+type(
+  Parse_opts.destination
+)
+"hevea.ml" 34 1376 1395 "hevea.ml" 34 1376 1426
+call(
+  stack
+)
+"hevea.ml" 35 1430 1454 "hevea.ml" 35 1430 1489
+call(
+  stack
+)
+"hevea.ml" 36 1493 1516 "hevea.ml" 36 1493 1550
+call(
+  stack
+)
+"hevea.ml" 37 1554 1576 "hevea.ml" 37 1554 1611
+call(
+  stack
+)
+"hevea.ml" 38 1615 1618 "hevea.ml" 38 1615 1631
+type(
+  string -> string
+)
+ident(
+  ext_ref Scan.get_prim
+)
+"hevea.ml" 38 1615 1633 "hevea.ml" 38 1615 1642
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"hevea.ml" 38 1615 1644 "hevea.ml" 38 1615 1659
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Scan.no_prelude
+)
+"hevea.ml" 38 1615 1661 "hevea.ml" 38 1615 1679
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Scan.print_env_pos
+)
+"hevea.ml" 39 1681 1684 "hevea.ml" 39 1681 1697
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Html.finalize
+)
+"hevea.ml" 39 1681 1699 "hevea.ml" 39 1681 1715
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Noimage.finalize
+)
+"hevea.ml" 38 1615 1618 "hevea.ml" 39 1681 1715
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 37 1554 1555 "hevea.ml" 39 1681 1715
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 36 1493 1494 "hevea.ml" 39 1681 1715
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 35 1430 1431 "hevea.ml" 39 1681 1715
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 34 1376 1377 "hevea.ml" 39 1681 1715
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 40 1716 1722 "hevea.ml" 40 1716 1726
+type(
+  Parse_opts.destination
+)
+"hevea.ml" 41 1730 1749 "hevea.ml" 41 1730 1780
+call(
+  stack
+)
+"hevea.ml" 42 1784 1807 "hevea.ml" 42 1784 1841
+call(
+  stack
+)
+"hevea.ml" 43 1845 1867 "hevea.ml" 43 1845 1901
+call(
+  stack
+)
+"hevea.ml" 44 1906 1909 "hevea.ml" 44 1906 1922
+type(
+  string -> string
+)
+ident(
+  ext_ref Scan.get_prim
+)
+"hevea.ml" 44 1906 1924 "hevea.ml" 44 1906 1933
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"hevea.ml" 44 1906 1935 "hevea.ml" 44 1906 1950
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Scan.no_prelude
+)
+"hevea.ml" 44 1906 1952 "hevea.ml" 44 1906 1970
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Scan.print_env_pos
+)
+"hevea.ml" 45 1972 1975 "hevea.ml" 45 1972 1988
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Text.finalize
+)
+"hevea.ml" 45 1972 1989 "hevea.ml" 45 1972 2005
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Noimage.finalize
+)
+"hevea.ml" 44 1906 1909 "hevea.ml" 45 1972 2005
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 43 1845 1846 "hevea.ml" 45 1972 2005
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 42 1784 1785 "hevea.ml" 45 1972 2005
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 41 1730 1731 "hevea.ml" 45 1972 2005
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 46 2006 2012 "hevea.ml" 46 2006 2016
+type(
+  Parse_opts.destination
+)
+"hevea.ml" 47 2020 2039 "hevea.ml" 47 2020 2070
+call(
+  stack
+)
+"hevea.ml" 48 2074 2097 "hevea.ml" 48 2074 2131
+call(
+  stack
+)
+"hevea.ml" 49 2135 2157 "hevea.ml" 49 2135 2191
+call(
+  stack
+)
+"hevea.ml" 50 2195 2198 "hevea.ml" 50 2195 2211
+type(
+  string -> string
+)
+ident(
+  ext_ref Scan.get_prim
+)
+"hevea.ml" 50 2195 2213 "hevea.ml" 50 2195 2222
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"hevea.ml" 50 2195 2224 "hevea.ml" 50 2195 2239
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Scan.no_prelude
+)
+"hevea.ml" 50 2195 2241 "hevea.ml" 50 2195 2259
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Scan.print_env_pos
+)
+"hevea.ml" 51 2261 2264 "hevea.ml" 51 2261 2277
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Info.finalize
+)
+"hevea.ml" 51 2261 2279 "hevea.ml" 51 2261 2295
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Noimage.finalize
+)
+"hevea.ml" 50 2195 2198 "hevea.ml" 51 2261 2295
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 49 2135 2136 "hevea.ml" 51 2261 2295
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 48 2074 2075 "hevea.ml" 51 2261 2295
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 47 2020 2021 "hevea.ml" 51 2261 2295
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 24 949 951 "hevea.ml" 51 2261 2295
+type(
+  (string -> string) * (Lexing.lexbuf -> unit) * (unit -> unit) *
+  (unit -> unit) * (bool -> unit) * (bool -> bool)
+)
+"hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+type(
+  string -> unit
+)
+ident(
+  def prerr_error "hevea.ml" 59 2391 2391 "hevea.ml" 1 0 -1
+)
+"hevea.ml" 54 2300 2316 "hevea.ml" 54 2300 2319
+type(
+  string
+)
+ident(
+  def msg "hevea.ml" 55 2323 2325 "hevea.ml" 56 2349 2386
+)
+"hevea.ml" 55 2323 2325 "hevea.ml" 55 2323 2343
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Location.print_pos
+)
+"hevea.ml" 55 2323 2344 "hevea.ml" 55 2323 2346
+type(
+  unit
+)
+"hevea.ml" 55 2323 2325 "hevea.ml" 55 2323 2346
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 56 2349 2354 "hevea.ml" 56 2349 2357
+type(
+  string
+)
+ident(
+  int_ref msg "hevea.ml" 54 2300 2316 "hevea.ml" 54 2300 2319
+)
+"hevea.ml" 56 2349 2358 "hevea.ml" 56 2349 2360
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"hevea.ml" 56 2349 2361 "hevea.ml" 56 2349 2363
+type(
+  string
+)
+"hevea.ml" 56 2349 2354 "hevea.ml" 56 2349 2363
+type(
+  bool
+)
+"hevea.ml" 56 2349 2369 "hevea.ml" 56 2349 2382
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"hevea.ml" 56 2349 2383 "hevea.ml" 56 2349 2386
+type(
+  string
+)
+ident(
+  int_ref msg "hevea.ml" 54 2300 2316 "hevea.ml" 54 2300 2319
+)
+"hevea.ml" 56 2349 2369 "hevea.ml" 56 2349 2386
+call(
+  tail
+)
+type(
+  unit
+)
+"hevea.ml" 56 2349 2351 "hevea.ml" 56 2349 2386
+type(
+  unit
+)
+"hevea.ml" 55 2323 2325 "hevea.ml" 56 2349 2386
+type(
+  unit
+)
+"hevea.ml" 59 2391 2395 "hevea.ml" 59 2391 2404
+type(
+  string -> unit
+)
+ident(
+  def prerr_bug "hevea.ml" 70 2634 2634 "hevea.ml" 1 0 -1
+)
+"hevea.ml" 59 2391 2405 "hevea.ml" 59 2391 2408
+type(
+  string
+)
+ident(
+  def msg "hevea.ml" 60 2411 2413 "hevea.ml" 62 2447 2520
+)
+"hevea.ml" 60 2411 2413 "hevea.ml" 60 2411 2424
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_error "hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+)
+"hevea.ml" 60 2411 2425 "hevea.ml" 60 2411 2428
+type(
+  string
+)
+ident(
+  int_ref msg "hevea.ml" 59 2391 2405 "hevea.ml" 59 2391 2408
+)
+"hevea.ml" 60 2411 2413 "hevea.ml" 60 2411 2428
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 61 2431 2433 "hevea.ml" 61 2431 2446
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"hevea.ml" 62 2447 2449 "hevea.ml" 62 2447 2520
+type(
+  string
+)
+"hevea.ml" 61 2431 2433 "hevea.ml" 62 2447 2520
+call(
+  tail
+)
+type(
+  unit
+)
+"hevea.ml" 60 2411 2413 "hevea.ml" 62 2447 2520
+type(
+  unit
+)
+"hevea.ml" 64 2522 2526 "hevea.ml" 64 2522 2545
+type(
+  string -> unit
+)
+ident(
+  def prerr_not_supported "hevea.ml" 70 2634 2634 "hevea.ml" 1 0 -1
+)
+"hevea.ml" 64 2522 2546 "hevea.ml" 64 2522 2549
+type(
+  string
+)
+ident(
+  def msg "hevea.ml" 65 2552 2554 "hevea.ml" 66 2572 2628
+)
+"hevea.ml" 65 2552 2554 "hevea.ml" 65 2552 2565
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_error "hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+)
+"hevea.ml" 65 2552 2566 "hevea.ml" 65 2552 2569
+type(
+  string
+)
+ident(
+  int_ref msg "hevea.ml" 64 2522 2546 "hevea.ml" 64 2522 2549
+)
+"hevea.ml" 65 2552 2554 "hevea.ml" 65 2552 2569
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 66 2572 2574 "hevea.ml" 66 2572 2587
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"hevea.ml" 66 2572 2588 "hevea.ml" 66 2572 2628
+type(
+  string
+)
+"hevea.ml" 66 2572 2574 "hevea.ml" 66 2572 2628
+call(
+  tail
+)
+type(
+  unit
+)
+"hevea.ml" 65 2552 2554 "hevea.ml" 66 2572 2628
+type(
+  unit
+)
+"hevea.ml" 70 2634 2638 "hevea.ml" 70 2634 2646
+type(
+  bool -> bool * bool
+)
+ident(
+  def finalize "hevea.ml" 90 3181 3181 "hevea.ml" 1 0 -1
+)
+"hevea.ml" 70 2634 2647 "hevea.ml" 70 2634 2652
+type(
+  bool
+)
+ident(
+  def check "hevea.ml" 71 2655 2657 "hevea.ml" 86 3162 3169
+)
+"hevea.ml" 72 2661 2669 "hevea.ml" 72 2661 2676
+type(
+  bool
+)
+ident(
+  def changed "hevea.ml" 73 2702 2706 "hevea.ml" 79 2964 2989
+)
+"hevea.ml" 72 2661 2679 "hevea.ml" 72 2661 2692
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Auxx.finalize
+)
+"hevea.ml" 72 2661 2693 "hevea.ml" 72 2661 2698
+type(
+  bool
+)
+ident(
+  int_ref check "hevea.ml" 70 2634 2647 "hevea.ml" 70 2634 2652
+)
+"hevea.ml" 72 2661 2679 "hevea.ml" 72 2661 2698
+call(
+  stack
+)
+type(
+  bool
+)
+"hevea.ml" 73 2702 2710 "hevea.ml" 73 2702 2717
+type(
+  bool
+)
+ident(
+  def changed "hevea.ml" 74 2756 2760 "hevea.ml" 79 2964 2989
+)
+"hevea.ml" 73 2702 2720 "hevea.ml" 73 2702 2734
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Index.finalize
+)
+"hevea.ml" 73 2702 2735 "hevea.ml" 73 2702 2740
+type(
+  bool
+)
+ident(
+  int_ref check "hevea.ml" 70 2634 2647 "hevea.ml" 70 2634 2652
+)
+"hevea.ml" 73 2702 2720 "hevea.ml" 73 2702 2740
+call(
+  stack
+)
+type(
+  bool
+)
+"hevea.ml" 73 2702 2741 "hevea.ml" 73 2702 2743
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"hevea.ml" 73 2702 2744 "hevea.ml" 73 2702 2751
+type(
+  bool
+)
+ident(
+  int_ref changed "hevea.ml" 72 2661 2669 "hevea.ml" 72 2661 2676
+)
+"hevea.ml" 73 2702 2720 "hevea.ml" 73 2702 2751
+type(
+  bool
+)
+"hevea.ml" 74 2756 2764 "hevea.ml" 74 2756 2777
+type(
+  bool
+)
+ident(
+  def image_changed "hevea.ml" 75 2804 2808 "hevea.ml" 79 2964 2989
+)
+"hevea.ml" 74 2756 2780 "hevea.ml" 74 2756 2794
+type(
+  bool -> bool
+)
+ident(
+  int_ref image_finalize "hevea.ml" 22 912 930 "hevea.ml" 22 912 944
+)
+"hevea.ml" 74 2756 2795 "hevea.ml" 74 2756 2800
+type(
+  bool
+)
+ident(
+  int_ref check "hevea.ml" 70 2634 2647 "hevea.ml" 70 2634 2652
+)
+"hevea.ml" 74 2756 2780 "hevea.ml" 74 2756 2800
+call(
+  stack
+)
+type(
+  bool
+)
+"hevea.ml" 75 2804 2808 "hevea.ml" 75 2804 2821
+type(
+  bool -> unit
+)
+ident(
+  int_ref dest_finalize "hevea.ml" 22 912 916 "hevea.ml" 22 912 929
+)
+"hevea.ml" 75 2804 2822 "hevea.ml" 75 2804 2827
+type(
+  bool
+)
+ident(
+  int_ref check "hevea.ml" 70 2634 2647 "hevea.ml" 70 2634 2652
+)
+"hevea.ml" 75 2804 2808 "hevea.ml" 75 2804 2827
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 76 2830 2837 "hevea.ml" 76 2830 2838
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 76 2830 2838 "hevea.ml" 76 2830 2845
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"hevea.ml" 76 2830 2837 "hevea.ml" 76 2830 2845
+type(
+  int
+)
+"hevea.ml" 76 2830 2846 "hevea.ml" 76 2830 2847
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"hevea.ml" 76 2830 2848 "hevea.ml" 76 2830 2849
+type(
+  int
+)
+"hevea.ml" 76 2830 2837 "hevea.ml" 76 2830 2849
+type(
+  bool
+)
+"hevea.ml" 76 2830 2850 "hevea.ml" 76 2830 2852
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"hevea.ml" 76 2830 2853 "hevea.ml" 76 2830 2872
+type(
+  string
+)
+ident(
+  ext_ref Parse_opts.name_out
+)
+"hevea.ml" 76 2830 2873 "hevea.ml" 76 2830 2875
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"hevea.ml" 76 2830 2876 "hevea.ml" 76 2830 2878
+type(
+  string
+)
+"hevea.ml" 76 2830 2853 "hevea.ml" 76 2830 2878
+type(
+  bool
+)
+"hevea.ml" 76 2830 2837 "hevea.ml" 76 2830 2878
+type(
+  bool
+)
+"hevea.ml" 77 2890 2896 "hevea.ml" 77 2890 2909
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"hevea.ml" 77 2890 2911 "hevea.ml" 77 2890 2932
+type(
+  string
+)
+"hevea.ml" 77 2890 2932 "hevea.ml" 77 2890 2933
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 77 2890 2933 "hevea.ml" 77 2890 2952
+type(
+  string
+)
+ident(
+  ext_ref Parse_opts.name_out
+)
+"hevea.ml" 77 2890 2910 "hevea.ml" 77 2890 2953
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 76 2830 2884 "hevea.ml" 78 2954 2961
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 76 2830 2834 "hevea.ml" 78 2954 2961
+type(
+  unit
+)
+"hevea.ml" 79 2964 2968 "hevea.ml" 79 2964 2975
+type(
+  bool
+)
+ident(
+  int_ref changed "hevea.ml" 73 2702 2710 "hevea.ml" 73 2702 2717
+)
+"hevea.ml" 79 2964 2976 "hevea.ml" 79 2964 2989
+type(
+  bool
+)
+ident(
+  int_ref image_changed "hevea.ml" 74 2756 2764 "hevea.ml" 74 2756 2777
+)
+"hevea.ml" 79 2964 2968 "hevea.ml" 79 2964 2989
+type(
+  bool * bool
+)
+"hevea.ml" 76 2830 2834 "hevea.ml" 79 2964 2989
+type(
+  bool * bool
+)
+"hevea.ml" 75 2804 2808 "hevea.ml" 79 2964 2989
+type(
+  bool * bool
+)
+"hevea.ml" 74 2756 2760 "hevea.ml" 79 2964 2989
+type(
+  bool * bool
+)
+"hevea.ml" 73 2702 2706 "hevea.ml" 79 2964 2989
+type(
+  bool * bool
+)
+"hevea.ml" 72 2661 2665 "hevea.ml" 79 2964 2989
+type(
+  bool * bool
+)
+"hevea.ml" 80 2990 2997 "hevea.ml" 80 2990 2998
+type(
+  exn
+)
+ident(
+  def e "hevea.ml" 81 3002 3006 "hevea.ml" 86 3162 3169
+)
+"hevea.ml" 81 3002 3009 "hevea.ml" 81 3002 3014
+type(
+  bool
+)
+ident(
+  int_ref check "hevea.ml" 70 2634 2647 "hevea.ml" 70 2634 2652
+)
+"hevea.ml" 81 3002 3020 "hevea.ml" 81 3002 3025
+type(
+  exn -> bool * bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"hevea.ml" 81 3002 3026 "hevea.ml" 81 3002 3027
+type(
+  exn
+)
+ident(
+  int_ref e "hevea.ml" 80 2990 2997 "hevea.ml" 80 2990 2998
+)
+"hevea.ml" 81 3002 3020 "hevea.ml" 81 3002 3027
+type(
+  bool * bool
+)
+"hevea.ml" 83 3043 3049 "hevea.ml" 83 3043 3058
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_bug "hevea.ml" 59 2391 2395 "hevea.ml" 59 2391 2404
+)
+"hevea.ml" 83 3043 3060 "hevea.ml" 83 3043 3094
+type(
+  string
+)
+"hevea.ml" 83 3043 3094 "hevea.ml" 83 3043 3095
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 83 3043 3095 "hevea.ml" 83 3043 3113
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"hevea.ml" 83 3043 3114 "hevea.ml" 83 3043 3115
+type(
+  exn
+)
+ident(
+  int_ref e "hevea.ml" 80 2990 2997 "hevea.ml" 80 2990 2998
+)
+"hevea.ml" 83 3043 3095 "hevea.ml" 83 3043 3115
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 83 3043 3059 "hevea.ml" 83 3043 3116
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 83 3043 3049 "hevea.ml" 83 3043 3116
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 84 3119 3125 "hevea.ml" 84 3119 3138
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"hevea.ml" 84 3119 3139 "hevea.ml" 84 3119 3146
+type(
+  string
+)
+"hevea.ml" 84 3119 3125 "hevea.ml" 84 3119 3146
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 85 3149 3155 "hevea.ml" 85 3149 3159
+type(
+  int -> bool * bool
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"hevea.ml" 85 3149 3160 "hevea.ml" 85 3149 3161
+type(
+  int
+)
+"hevea.ml" 85 3149 3155 "hevea.ml" 85 3149 3161
+call(
+  tail
+)
+type(
+  bool * bool
+)
+"hevea.ml" 84 3119 3125 "hevea.ml" 85 3149 3161
+type(
+  bool * bool
+)
+"hevea.ml" 82 3028 3037 "hevea.ml" 86 3162 3169
+type(
+  bool * bool
+)
+"hevea.ml" 81 3002 3006 "hevea.ml" 86 3162 3169
+type(
+  bool * bool
+)
+"hevea.ml" 71 2655 2657 "hevea.ml" 86 3162 3169
+type(
+  bool * bool
+)
+"hevea.ml" 90 3181 3185 "hevea.ml" 90 3181 3195
+type(
+  string -> unit
+)
+ident(
+  def read_style "hevea.ml" 109 3653 3653 "hevea.ml" 1 0 -1
+)
+"hevea.ml" 90 3181 3196 "hevea.ml" 90 3181 3200
+type(
+  string
+)
+ident(
+  def name "hevea.ml" 91 3203 3205 "hevea.ml" 106 3628 3648
+)
+"hevea.ml" 91 3203 3209 "hevea.ml" 91 3203 3216
+type(
+  int
+)
+ident(
+  def oldverb "hevea.ml" 92 3231 3233 "hevea.ml" 106 3628 3648
+)
+"hevea.ml" 91 3203 3219 "hevea.ml" 91 3203 3220
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 91 3203 3220 "hevea.ml" 91 3203 3227
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"hevea.ml" 91 3203 3219 "hevea.ml" 91 3203 3227
+type(
+  int
+)
+"hevea.ml" 92 3231 3236 "hevea.ml" 92 3231 3237
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 92 3231 3237 "hevea.ml" 92 3231 3244
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"hevea.ml" 92 3231 3236 "hevea.ml" 92 3231 3244
+type(
+  int
+)
+"hevea.ml" 92 3231 3245 "hevea.ml" 92 3231 3246
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"hevea.ml" 92 3231 3247 "hevea.ml" 92 3231 3248
+type(
+  int
+)
+"hevea.ml" 92 3231 3236 "hevea.ml" 92 3231 3248
+type(
+  bool
+)
+"hevea.ml" 92 3231 3254 "hevea.ml" 92 3231 3261
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"hevea.ml" 92 3231 3262 "hevea.ml" 92 3231 3264
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"hevea.ml" 92 3231 3265 "hevea.ml" 92 3231 3272
+type(
+  int
+)
+ident(
+  int_ref oldverb "hevea.ml" 91 3203 3209 "hevea.ml" 91 3203 3216
+)
+"hevea.ml" 92 3231 3254 "hevea.ml" 92 3231 3272
+type(
+  unit
+)
+"hevea.ml" 92 3231 3233 "hevea.ml" 92 3231 3272
+type(
+  unit
+)
+"hevea.ml" 94 3287 3295 "hevea.ml" 94 3287 3299
+type(
+  string
+)
+ident(
+  def name "hevea.ml" 95 3333 3337 "hevea.ml" 102 3565 3588
+)
+"hevea.ml" 94 3287 3300 "hevea.ml" 94 3287 3304
+type(
+  in_channel
+)
+ident(
+  def chan "hevea.ml" 95 3333 3337 "hevea.ml" 102 3565 3588
+)
+"hevea.ml" 94 3287 3295 "hevea.ml" 94 3287 3304
+type(
+  string * in_channel
+)
+"hevea.ml" 94 3287 3308 "hevea.ml" 94 3287 3324
+type(
+  string -> string * in_channel
+)
+ident(
+  ext_ref Myfiles.open_tex
+)
+"hevea.ml" 94 3287 3325 "hevea.ml" 94 3287 3329
+type(
+  string
+)
+ident(
+  int_ref name "hevea.ml" 90 3181 3196 "hevea.ml" 90 3181 3200
+)
+"hevea.ml" 94 3287 3308 "hevea.ml" 94 3287 3329
+call(
+  stack
+)
+type(
+  string * in_channel
+)
+"hevea.ml" 95 3333 3340 "hevea.ml" 95 3333 3341
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 95 3333 3341 "hevea.ml" 95 3333 3348
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"hevea.ml" 95 3333 3340 "hevea.ml" 95 3333 3348
+type(
+  int
+)
+"hevea.ml" 95 3333 3349 "hevea.ml" 95 3333 3350
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"hevea.ml" 95 3333 3351 "hevea.ml" 95 3333 3352
+type(
+  int
+)
+"hevea.ml" 95 3333 3340 "hevea.ml" 95 3333 3352
+type(
+  bool
+)
+"hevea.ml" 96 3364 3371 "hevea.ml" 96 3364 3384
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"hevea.ml" 96 3364 3386 "hevea.ml" 96 3364 3400
+type(
+  string
+)
+"hevea.ml" 96 3364 3400 "hevea.ml" 96 3364 3401
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 96 3364 3401 "hevea.ml" 96 3364 3405
+type(
+  string
+)
+ident(
+  int_ref name "hevea.ml" 94 3287 3295 "hevea.ml" 94 3287 3299
+)
+"hevea.ml" 96 3364 3385 "hevea.ml" 96 3364 3406
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 95 3333 3358 "hevea.ml" 97 3407 3414
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 95 3333 3337 "hevea.ml" 97 3407 3414
+type(
+  unit
+)
+"hevea.ml" 98 3417 3425 "hevea.ml" 98 3417 3428
+type(
+  Lexing.lexbuf
+)
+ident(
+  def buf "hevea.ml" 99 3459 3463 "hevea.ml" 102 3565 3588
+)
+"hevea.ml" 98 3417 3431 "hevea.ml" 98 3417 3450
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"hevea.ml" 98 3417 3451 "hevea.ml" 98 3417 3455
+type(
+  in_channel
+)
+ident(
+  int_ref chan "hevea.ml" 94 3287 3300 "hevea.ml" 94 3287 3304
+)
+"hevea.ml" 98 3417 3431 "hevea.ml" 98 3417 3455
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"hevea.ml" 99 3459 3463 "hevea.ml" 99 3459 3475
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Location.set
+)
+"hevea.ml" 99 3459 3476 "hevea.ml" 99 3459 3480
+type(
+  string
+)
+ident(
+  int_ref name "hevea.ml" 94 3287 3295 "hevea.ml" 94 3287 3299
+)
+"hevea.ml" 99 3459 3481 "hevea.ml" 99 3459 3484
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref buf "hevea.ml" 98 3417 3425 "hevea.ml" 98 3417 3428
+)
+"hevea.ml" 99 3459 3463 "hevea.ml" 99 3459 3484
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 100 3486 3500 "hevea.ml" 100 3486 3509
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref scan_main "hevea.ml" 21 865 869 "hevea.ml" 21 865 878
+)
+"hevea.ml" 100 3486 3510 "hevea.ml" 100 3486 3513
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref buf "hevea.ml" 98 3417 3425 "hevea.ml" 98 3417 3428
+)
+"hevea.ml" 100 3486 3500 "hevea.ml" 100 3486 3513
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 100 3486 3519 "hevea.ml" 100 3486 3532
+type(
+  exn
+)
+"hevea.ml" 100 3486 3536 "hevea.ml" 100 3486 3538
+type(
+  unit
+)
+"hevea.ml" 100 3486 3490 "hevea.ml" 100 3486 3542
+type(
+  unit
+)
+"hevea.ml" 101 3545 3549 "hevea.ml" 101 3545 3557
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"hevea.ml" 101 3545 3558 "hevea.ml" 101 3545 3562
+type(
+  in_channel
+)
+ident(
+  int_ref chan "hevea.ml" 94 3287 3300 "hevea.ml" 94 3287 3304
+)
+"hevea.ml" 101 3545 3549 "hevea.ml" 101 3545 3562
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 102 3565 3569 "hevea.ml" 102 3565 3585
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Location.restore
+)
+"hevea.ml" 102 3565 3586 "hevea.ml" 102 3565 3588
+type(
+  unit
+)
+"hevea.ml" 102 3565 3569 "hevea.ml" 102 3565 3588
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 101 3545 3549 "hevea.ml" 102 3565 3588
+type(
+  unit
+)
+"hevea.ml" 100 3486 3490 "hevea.ml" 102 3565 3588
+type(
+  unit
+)
+"hevea.ml" 99 3459 3463 "hevea.ml" 102 3565 3588
+type(
+  unit
+)
+"hevea.ml" 98 3417 3421 "hevea.ml" 102 3565 3588
+type(
+  unit
+)
+"hevea.ml" 95 3333 3337 "hevea.ml" 102 3565 3588
+type(
+  unit
+)
+"hevea.ml" 94 3287 3291 "hevea.ml" 102 3565 3588
+type(
+  unit
+)
+"hevea.ml" 104 3596 3600 "hevea.ml" 104 3596 3614
+type(
+  exn
+)
+"hevea.ml" 104 3596 3617 "hevea.ml" 104 3596 3619
+type(
+  unit
+)
+"hevea.ml" 93 3275 3277 "hevea.ml" 105 3620 3625
+type(
+  unit
+)
+"hevea.ml" 106 3628 3630 "hevea.ml" 106 3628 3637
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"hevea.ml" 106 3628 3638 "hevea.ml" 106 3628 3640
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"hevea.ml" 106 3628 3641 "hevea.ml" 106 3628 3648
+type(
+  int
+)
+ident(
+  int_ref oldverb "hevea.ml" 91 3203 3209 "hevea.ml" 91 3203 3216
+)
+"hevea.ml" 106 3628 3630 "hevea.ml" 106 3628 3648
+type(
+  unit
+)
+"hevea.ml" 93 3275 3277 "hevea.ml" 106 3628 3648
+type(
+  unit
+)
+"hevea.ml" 92 3231 3233 "hevea.ml" 106 3628 3648
+type(
+  unit
+)
+"hevea.ml" 91 3203 3205 "hevea.ml" 106 3628 3648
+type(
+  unit
+)
+"hevea.ml" 109 3653 3657 "hevea.ml" 109 3653 3666
+type(
+  string -> unit
+)
+ident(
+  def read_prog "hevea.ml" 123 4041 4041 "hevea.ml" 1 0 -1
+)
+"hevea.ml" 109 3653 3667 "hevea.ml" 109 3653 3671
+type(
+  string
+)
+ident(
+  def prog "hevea.ml" 110 3674 3676 "hevea.ml" 121 3987 4039
+)
+"hevea.ml" 111 3680 3688 "hevea.ml" 111 3680 3697
+type(
+  string
+)
+ident(
+  def real_prog "hevea.ml" 113 3778 3782 "hevea.ml" 118 3941 3962
+)
+"hevea.ml" 111 3680 3700 "hevea.ml" 111 3680 3712
+type(
+  string -> string
+)
+ident(
+  ext_ref Myfiles.find
+)
+"hevea.ml" 111 3680 3713 "hevea.ml" 111 3680 3717
+type(
+  string
+)
+ident(
+  int_ref prog "hevea.ml" 109 3653 3667 "hevea.ml" 109 3653 3671
+)
+"hevea.ml" 111 3680 3700 "hevea.ml" 111 3680 3717
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 112 3726 3734 "hevea.ml" 112 3726 3738
+type(
+  string
+)
+ident(
+  def name "hevea.ml" 113 3778 3782 "hevea.ml" 118 3941 3962
+)
+"hevea.ml" 112 3726 3741 "hevea.ml" 112 3726 3759
+type(
+  ?temp_dir:string -> string -> string -> string
+)
+ident(
+  ext_ref Filename.temp_file
+)
+"hevea.ml" 112 3726 3760 "hevea.ml" 112 3726 3767
+type(
+  string
+)
+"hevea.ml" 112 3726 3768 "hevea.ml" 112 3726 3774
+type(
+  string
+)
+"hevea.ml" 112 3726 3741 "hevea.ml" 112 3726 3774
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 113 3778 3794 "hevea.ml" 113 3778 3805
+type(
+  string -> int
+)
+ident(
+  ext_ref Sys.command
+)
+"hevea.ml" 113 3778 3807 "hevea.ml" 113 3778 3816
+type(
+  string
+)
+ident(
+  int_ref real_prog "hevea.ml" 111 3680 3688 "hevea.ml" 111 3680 3697
+)
+"hevea.ml" 113 3778 3816 "hevea.ml" 113 3778 3817
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 113 3778 3817 "hevea.ml" 113 3778 3821
+type(
+  string
+)
+"hevea.ml" 113 3778 3821 "hevea.ml" 113 3778 3822
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 113 3778 3822 "hevea.ml" 113 3778 3826
+type(
+  string
+)
+ident(
+  int_ref name "hevea.ml" 112 3726 3734 "hevea.ml" 112 3726 3738
+)
+"hevea.ml" 113 3778 3817 "hevea.ml" 113 3778 3826
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 113 3778 3806 "hevea.ml" 113 3778 3827
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 113 3778 3794 "hevea.ml" 113 3778 3827
+type(
+  int
+)
+"hevea.ml" 114 3833 3839 "hevea.ml" 114 3833 3840
+type(
+  int
+)
+"hevea.ml" 114 3833 3844 "hevea.ml" 114 3833 3854
+type(
+  string -> unit
+)
+ident(
+  int_ref read_style "hevea.ml" 90 3181 3185 "hevea.ml" 90 3181 3195
+)
+"hevea.ml" 114 3833 3855 "hevea.ml" 114 3833 3859
+type(
+  string
+)
+ident(
+  int_ref name "hevea.ml" 112 3726 3734 "hevea.ml" 112 3726 3738
+)
+"hevea.ml" 114 3833 3844 "hevea.ml" 114 3833 3859
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 115 3860 3866 "hevea.ml" 115 3860 3867
+type(
+  int
+)
+"hevea.ml" 116 3871 3879 "hevea.ml" 116 3871 3886
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.warning
+)
+"hevea.ml" 116 3871 3888 "hevea.ml" 116 3871 3919
+type(
+  string
+)
+"hevea.ml" 116 3871 3919 "hevea.ml" 116 3871 3920
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 116 3871 3920 "hevea.ml" 116 3871 3929
+type(
+  string
+)
+ident(
+  int_ref real_prog "hevea.ml" 111 3680 3688 "hevea.ml" 111 3680 3697
+)
+"hevea.ml" 116 3871 3887 "hevea.ml" 116 3871 3930
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 116 3871 3879 "hevea.ml" 116 3871 3930
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 113 3778 3782 "hevea.ml" 117 3931 3938
+type(
+  unit
+)
+"hevea.ml" 118 3941 3945 "hevea.ml" 118 3941 3957
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mysys.remove
+)
+"hevea.ml" 118 3941 3958 "hevea.ml" 118 3941 3962
+type(
+  string
+)
+ident(
+  int_ref name "hevea.ml" 112 3726 3734 "hevea.ml" 112 3726 3738
+)
+"hevea.ml" 118 3941 3945 "hevea.ml" 118 3941 3962
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 113 3778 3782 "hevea.ml" 118 3941 3962
+type(
+  unit
+)
+"hevea.ml" 111 3680 3684 "hevea.ml" 118 3941 3962
+type(
+  unit
+)
+"hevea.ml" 120 3970 3974 "hevea.ml" 120 3970 3983
+type(
+  exn
+)
+"hevea.ml" 121 3987 3993 "hevea.ml" 121 3987 4000
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.warning
+)
+"hevea.ml" 121 3987 4002 "hevea.ml" 121 3987 4033
+type(
+  string
+)
+"hevea.ml" 121 3987 4033 "hevea.ml" 121 3987 4034
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 121 3987 4034 "hevea.ml" 121 3987 4038
+type(
+  string
+)
+ident(
+  int_ref prog "hevea.ml" 109 3653 3667 "hevea.ml" 109 3653 3671
+)
+"hevea.ml" 121 3987 4001 "hevea.ml" 121 3987 4039
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 121 3987 3993 "hevea.ml" 121 3987 4039
+call(
+  tail
+)
+type(
+  unit
+)
+"hevea.ml" 110 3674 3676 "hevea.ml" 121 3987 4039
+type(
+  unit
+)
+"hevea.ml" 123 4041 4045 "hevea.ml" 123 4041 4053
+type(
+  string -> unit
+)
+ident(
+  def read_tex "hevea.ml" 139 4498 4498 "hevea.ml" 1 0 -1
+)
+"hevea.ml" 123 4041 4054 "hevea.ml" 123 4041 4061
+type(
+  string
+)
+ident(
+  def name_in "hevea.ml" 124 4064 4066 "hevea.ml" 137 4491 4496
+)
+"hevea.ml" 124 4064 4066 "hevea.ml" 124 4064 4082
+type(
+  bool -> int -> unit
+)
+ident(
+  ext_ref Save.set_verbose
+)
+"hevea.ml" 124 4064 4083 "hevea.ml" 124 4064 4084
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 124 4064 4084 "hevea.ml" 124 4064 4090
+type(
+  bool ref
+)
+ident(
+  ext_ref Misc.silent
+)
+"hevea.ml" 124 4064 4083 "hevea.ml" 124 4064 4090
+type(
+  bool
+)
+"hevea.ml" 124 4064 4091 "hevea.ml" 124 4064 4092
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 124 4064 4092 "hevea.ml" 124 4064 4099
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"hevea.ml" 124 4064 4091 "hevea.ml" 124 4064 4099
+type(
+  int
+)
+"hevea.ml" 124 4064 4066 "hevea.ml" 124 4064 4099
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 126 4114 4124 "hevea.ml" 126 4114 4131
+type(
+  string
+)
+ident(
+  int_ref name_in "hevea.ml" 123 4041 4054 "hevea.ml" 123 4041 4061
+)
+"hevea.ml" 127 4137 4143 "hevea.ml" 127 4137 4145
+type(
+  string
+)
+"hevea.ml" 127 4137 4149 "hevea.ml" 127 4137 4173
+type(
+  int -> (Lexing.lexbuf -> unit) -> string -> in_channel -> unit
+)
+ident(
+  ext_ref Lexstate.real_input_file
+)
+"hevea.ml" 127 4137 4174 "hevea.ml" 127 4137 4175
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 127 4137 4175 "hevea.ml" 127 4137 4182
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"hevea.ml" 127 4137 4174 "hevea.ml" 127 4137 4182
+type(
+  int
+)
+"hevea.ml" 127 4137 4183 "hevea.ml" 127 4137 4192
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref scan_main "hevea.ml" 21 865 869 "hevea.ml" 21 865 878
+)
+"hevea.ml" 127 4137 4193 "hevea.ml" 127 4137 4195
+type(
+  string
+)
+"hevea.ml" 127 4137 4196 "hevea.ml" 127 4137 4201
+type(
+  in_channel
+)
+ident(
+  ext_ref Pervasives.stdin
+)
+"hevea.ml" 127 4137 4149 "hevea.ml" 127 4137 4201
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 128 4202 4208 "hevea.ml" 128 4202 4209
+type(
+  string
+)
+"hevea.ml" 129 4214 4222 "hevea.ml" 129 4214 4241
+type(
+  int -> (Lexing.lexbuf -> unit) -> string -> unit
+)
+ident(
+  ext_ref Lexstate.input_file
+)
+"hevea.ml" 129 4214 4242 "hevea.ml" 129 4214 4243
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 129 4214 4243 "hevea.ml" 129 4214 4250
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"hevea.ml" 129 4214 4242 "hevea.ml" 129 4214 4250
+type(
+  int
+)
+"hevea.ml" 129 4214 4251 "hevea.ml" 129 4214 4260
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref scan_main "hevea.ml" 21 865 869 "hevea.ml" 21 865 878
+)
+"hevea.ml" 129 4214 4261 "hevea.ml" 129 4214 4268
+type(
+  string
+)
+ident(
+  int_ref name_in "hevea.ml" 123 4041 4054 "hevea.ml" 123 4041 4061
+)
+"hevea.ml" 129 4214 4222 "hevea.ml" 129 4214 4268
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 130 4271 4283 "hevea.ml" 130 4271 4285
+type(
+  string
+)
+ident(
+  def ok "hevea.ml" 131 4328 4336 "hevea.ml" 134 4444 4455
+)
+"hevea.ml" 130 4271 4288 "hevea.ml" 130 4271 4301
+type(
+  string -> string
+)
+ident(
+  int_ref scan_get_prim "hevea.ml" 20 846 850 "hevea.ml" 20 846 863
+)
+"hevea.ml" 130 4271 4302 "hevea.ml" 130 4271 4324
+type(
+  string
+)
+"hevea.ml" 130 4271 4288 "hevea.ml" 130 4271 4324
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 131 4328 4348 "hevea.ml" 131 4328 4350
+type(
+  string
+)
+ident(
+  int_ref ok "hevea.ml" 130 4271 4283 "hevea.ml" 130 4271 4285
+)
+"hevea.ml" 132 4356 4366 "hevea.ml" 132 4356 4370
+type(
+  string
+)
+"hevea.ml" 132 4356 4374 "hevea.ml" 132 4356 4376
+type(
+  unit
+)
+"hevea.ml" 133 4377 4387 "hevea.ml" 133 4377 4388
+type(
+  string
+)
+"hevea.ml" 133 4377 4392 "hevea.ml" 133 4377 4405
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"hevea.ml" 133 4377 4406 "hevea.ml" 133 4377 4443
+type(
+  string
+)
+"hevea.ml" 133 4377 4392 "hevea.ml" 133 4377 4443
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 131 4328 4336 "hevea.ml" 134 4444 4455
+type(
+  unit
+)
+"hevea.ml" 130 4271 4279 "hevea.ml" 134 4444 4455
+type(
+  unit
+)
+"hevea.ml" 129 4214 4222 "hevea.ml" 134 4444 4455
+type(
+  unit
+)
+"hevea.ml" 126 4114 4118 "hevea.ml" 134 4444 4455
+type(
+  unit
+)
+"hevea.ml" 136 4463 4467 "hevea.ml" 136 4463 4483
+type(
+  exn
+)
+"hevea.ml" 136 4463 4487 "hevea.ml" 136 4463 4489
+type(
+  unit
+)
+"hevea.ml" 125 4102 4104 "hevea.ml" 137 4491 4496
+type(
+  unit
+)
+"hevea.ml" 124 4064 4066 "hevea.ml" 137 4491 4496
+type(
+  unit
+)
+"hevea.ml" 139 4498 4502 "hevea.ml" 139 4498 4506
+type(
+  unit -> unit
+)
+ident(
+  def main "hevea.ml" 210 6421 6421 "hevea.ml" 1 0 -1
+)
+"hevea.ml" 139 4498 4507 "hevea.ml" 139 4498 4509
+type(
+  unit
+)
+"hevea.ml" 141 4514 4518 "hevea.ml" 141 4514 4525
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"hevea.ml" 141 4514 4526 "hevea.ml" 141 4514 4528
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"hevea.ml" 141 4514 4529 "hevea.ml" 141 4514 4530
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 141 4514 4530 "hevea.ml" 141 4514 4538
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.readverb
+)
+"hevea.ml" 141 4514 4529 "hevea.ml" 141 4514 4538
+type(
+  int
+)
+"hevea.ml" 141 4514 4518 "hevea.ml" 141 4514 4538
+type(
+  unit
+)
+"hevea.ml" 142 4541 4545 "hevea.ml" 142 4541 4555
+type(
+  string -> unit
+)
+ident(
+  int_ref read_style "hevea.ml" 90 3181 3185 "hevea.ml" 90 3181 3195
+)
+"hevea.ml" 142 4541 4556 "hevea.ml" 142 4541 4567
+type(
+  string
+)
+"hevea.ml" 142 4541 4545 "hevea.ml" 142 4541 4567
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 144 4571 4583 "hevea.ml" 144 4571 4589
+type(
+  Parse_opts.input list -> unit
+)
+ident(
+  def do_rec "hevea.ml" 144 4571 4575 "hevea.ml" 207 6406 6413
+)
+"hevea.ml" 145 4601 4607 "hevea.ml" 145 4601 4609
+type(
+  Parse_opts.input list
+)
+"hevea.ml" 145 4601 4613 "hevea.ml" 145 4601 4615
+type(
+  unit
+)
+"hevea.ml" 146 4616 4627 "hevea.ml" 146 4616 4628
+type(
+  string
+)
+ident(
+  def x "hevea.ml" 147 4638 4645 "hevea.ml" 148 4659 4678
+)
+"hevea.ml" 146 4616 4622 "hevea.ml" 146 4616 4628
+type(
+  Parse_opts.input
+)
+"hevea.ml" 146 4616 4630 "hevea.ml" 146 4616 4634
+type(
+  Parse_opts.input list
+)
+ident(
+  def rest "hevea.ml" 147 4638 4645 "hevea.ml" 148 4659 4678
+)
+"hevea.ml" 146 4616 4622 "hevea.ml" 146 4616 4634
+type(
+  Parse_opts.input list
+)
+"hevea.ml" 147 4638 4645 "hevea.ml" 147 4638 4651
+type(
+  Parse_opts.input list -> unit
+)
+ident(
+  int_ref do_rec "hevea.ml" 144 4571 4583 "hevea.ml" 144 4571 4589
+)
+"hevea.ml" 147 4638 4652 "hevea.ml" 147 4638 4656
+type(
+  Parse_opts.input list
+)
+ident(
+  int_ref rest "hevea.ml" 146 4616 4630 "hevea.ml" 146 4616 4634
+)
+"hevea.ml" 147 4638 4645 "hevea.ml" 147 4638 4656
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 148 4659 4666 "hevea.ml" 148 4659 4676
+type(
+  string -> unit
+)
+ident(
+  int_ref read_style "hevea.ml" 90 3181 3185 "hevea.ml" 90 3181 3195
+)
+"hevea.ml" 148 4659 4677 "hevea.ml" 148 4659 4678
+type(
+  string
+)
+ident(
+  int_ref x "hevea.ml" 146 4616 4627 "hevea.ml" 146 4616 4628
+)
+"hevea.ml" 148 4659 4666 "hevea.ml" 148 4659 4678
+call(
+  tail
+)
+type(
+  unit
+)
+"hevea.ml" 147 4638 4645 "hevea.ml" 148 4659 4678
+type(
+  unit
+)
+"hevea.ml" 149 4679 4690 "hevea.ml" 149 4679 4691
+type(
+  string
+)
+ident(
+  def x "hevea.ml" 150 4701 4708 "hevea.ml" 151 4722 4740
+)
+"hevea.ml" 149 4679 4685 "hevea.ml" 149 4679 4691
+type(
+  Parse_opts.input
+)
+"hevea.ml" 149 4679 4693 "hevea.ml" 149 4679 4697
+type(
+  Parse_opts.input list
+)
+ident(
+  def rest "hevea.ml" 150 4701 4708 "hevea.ml" 151 4722 4740
+)
+"hevea.ml" 149 4679 4685 "hevea.ml" 149 4679 4697
+type(
+  Parse_opts.input list
+)
+"hevea.ml" 150 4701 4708 "hevea.ml" 150 4701 4714
+type(
+  Parse_opts.input list -> unit
+)
+ident(
+  int_ref do_rec "hevea.ml" 144 4571 4583 "hevea.ml" 144 4571 4589
+)
+"hevea.ml" 150 4701 4715 "hevea.ml" 150 4701 4719
+type(
+  Parse_opts.input list
+)
+ident(
+  int_ref rest "hevea.ml" 149 4679 4693 "hevea.ml" 149 4679 4697
+)
+"hevea.ml" 150 4701 4708 "hevea.ml" 150 4701 4719
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 151 4722 4729 "hevea.ml" 151 4722 4738
+type(
+  string -> unit
+)
+ident(
+  int_ref read_prog "hevea.ml" 109 3653 3657 "hevea.ml" 109 3653 3666
+)
+"hevea.ml" 151 4722 4739 "hevea.ml" 151 4722 4740
+type(
+  string
+)
+ident(
+  int_ref x "hevea.ml" 149 4679 4690 "hevea.ml" 149 4679 4691
+)
+"hevea.ml" 151 4722 4729 "hevea.ml" 151 4722 4740
+call(
+  tail
+)
+type(
+  unit
+)
+"hevea.ml" 150 4701 4708 "hevea.ml" 151 4722 4740
+type(
+  unit
+)
+"hevea.ml" 144 4571 4592 "hevea.ml" 151 4722 4740
+type(
+  Parse_opts.input list -> unit
+)
+"hevea.ml" 153 4745 4753 "hevea.ml" 153 4745 4759
+type(
+  Parse_opts.input list
+)
+ident(
+  def styles "hevea.ml" 155 4785 4789 "hevea.ml" 207 6406 6413
+)
+"hevea.ml" 153 4745 4763 "hevea.ml" 153 4745 4780
+type(
+  Parse_opts.input list
+)
+ident(
+  ext_ref Parse_opts.styles
+)
+"hevea.ml" 155 4785 4789 "hevea.ml" 155 4785 4795
+type(
+  Parse_opts.input list -> unit
+)
+ident(
+  int_ref do_rec "hevea.ml" 144 4571 4583 "hevea.ml" 144 4571 4589
+)
+"hevea.ml" 155 4785 4796 "hevea.ml" 155 4785 4802
+type(
+  Parse_opts.input list
+)
+ident(
+  int_ref styles "hevea.ml" 153 4745 4753 "hevea.ml" 153 4745 4759
+)
+"hevea.ml" 155 4785 4789 "hevea.ml" 155 4785 4802
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 157 4806 4813 "hevea.ml" 157 4806 4830
+type(
+  bool
+)
+ident(
+  ext_ref Parse_opts.filter
+)
+"hevea.ml" 157 4806 4837 "hevea.ml" 157 4806 4847
+type(
+  unit -> unit
+)
+ident(
+  int_ref no_prelude "hevea.ml" 21 865 880 "hevea.ml" 21 865 890
+)
+"hevea.ml" 157 4806 4848 "hevea.ml" 157 4806 4850
+type(
+  unit
+)
+"hevea.ml" 157 4806 4837 "hevea.ml" 157 4806 4850
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 157 4806 4810 "hevea.ml" 157 4806 4850
+type(
+  unit
+)
+"hevea.ml" 159 4854 4861 "hevea.ml" 159 4854 4862
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 159 4854 4862 "hevea.ml" 159 4854 4881
+type(
+  bool ref
+)
+ident(
+  ext_ref Parse_opts.fixpoint
+)
+"hevea.ml" 159 4854 4861 "hevea.ml" 159 4854 4881
+type(
+  bool
+)
+"hevea.ml" 160 4893 4903 "hevea.ml" 160 4893 4916
+type(
+  bool ref
+)
+ident(
+  def image_changed "hevea.ml" 161 4932 4938 "hevea.ml" 182 5711 5725
+)
+"hevea.ml" 160 4893 4919 "hevea.ml" 160 4893 4922
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"hevea.ml" 160 4893 4923 "hevea.ml" 160 4893 4928
+type(
+  bool
+)
+"hevea.ml" 160 4893 4919 "hevea.ml" 160 4893 4928
+type(
+  bool ref
+)
+"hevea.ml" 161 4932 4942 "hevea.ml" 161 4932 4947
+type(
+  Hot.saved
+)
+ident(
+  def saved "hevea.ml" 162 4971 4977 "hevea.ml" 182 5711 5725
+)
+"hevea.ml" 161 4932 4950 "hevea.ml" 161 4932 4964
+type(
+  unit -> Hot.saved
+)
+ident(
+  ext_ref Hot.checkpoint
+)
+"hevea.ml" 161 4932 4965 "hevea.ml" 161 4932 4967
+type(
+  unit
+)
+"hevea.ml" 161 4932 4950 "hevea.ml" 161 4932 4967
+call(
+  stack
+)
+type(
+  Hot.saved
+)
+"hevea.ml" 162 4971 4985 "hevea.ml" 162 4971 4991
+type(
+  int -> unit
+)
+ident(
+  def do_rec "hevea.ml" 162 4971 4977 "hevea.ml" 182 5711 5725
+)
+"hevea.ml" 162 4971 4992 "hevea.ml" 162 4971 4993
+type(
+  int
+)
+ident(
+  def i "hevea.ml" 163 4996 5004 "hevea.ml" 181 5696 5707
+)
+"hevea.ml" 163 4996 5004 "hevea.ml" 163 4996 5012
+type(
+  string -> unit
+)
+ident(
+  int_ref read_tex "hevea.ml" 123 4041 4045 "hevea.ml" 123 4041 4053
+)
+"hevea.ml" 163 4996 5013 "hevea.ml" 163 4996 5020
+type(
+  string
+)
+ident(
+  ext_ref Parse_opts.name_in
+)
+"hevea.ml" 163 4996 5004 "hevea.ml" 163 4996 5020
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 164 5023 5035 "hevea.ml" 164 5023 5042
+type(
+  bool
+)
+ident(
+  def changed "hevea.ml" 165 5080 5088 "hevea.ml" 181 5696 5707
+)
+"hevea.ml" 164 5023 5043 "hevea.ml" 164 5023 5060
+type(
+  bool
+)
+ident(
+  def image_changed_now "hevea.ml" 165 5080 5088 "hevea.ml" 181 5696 5707
+)
+"hevea.ml" 164 5023 5035 "hevea.ml" 164 5023 5060
+type(
+  bool * bool
+)
+"hevea.ml" 164 5023 5063 "hevea.ml" 164 5023 5071
+type(
+  bool -> bool * bool
+)
+ident(
+  int_ref finalize "hevea.ml" 70 2634 2638 "hevea.ml" 70 2634 2646
+)
+"hevea.ml" 164 5023 5072 "hevea.ml" 164 5023 5076
+type(
+  bool
+)
+"hevea.ml" 164 5023 5063 "hevea.ml" 164 5023 5076
+call(
+  stack
+)
+type(
+  bool * bool
+)
+"hevea.ml" 165 5080 5088 "hevea.ml" 165 5080 5101
+type(
+  bool ref
+)
+ident(
+  int_ref image_changed "hevea.ml" 160 4893 4903 "hevea.ml" 160 4893 4916
+)
+"hevea.ml" 165 5080 5102 "hevea.ml" 165 5080 5104
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"hevea.ml" 165 5080 5105 "hevea.ml" 165 5080 5106
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 165 5080 5106 "hevea.ml" 165 5080 5119
+type(
+  bool ref
+)
+ident(
+  int_ref image_changed "hevea.ml" 160 4893 4903 "hevea.ml" 160 4893 4916
+)
+"hevea.ml" 165 5080 5105 "hevea.ml" 165 5080 5119
+type(
+  bool
+)
+"hevea.ml" 165 5080 5120 "hevea.ml" 165 5080 5122
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"hevea.ml" 165 5080 5123 "hevea.ml" 165 5080 5140
+type(
+  bool
+)
+ident(
+  int_ref image_changed_now "hevea.ml" 164 5023 5043 "hevea.ml" 164 5023 5060
+)
+"hevea.ml" 165 5080 5105 "hevea.ml" 165 5080 5140
+type(
+  bool
+)
+"hevea.ml" 165 5080 5088 "hevea.ml" 165 5080 5140
+type(
+  unit
+)
+"hevea.ml" 166 5143 5154 "hevea.ml" 166 5143 5161
+type(
+  bool
+)
+ident(
+  int_ref changed "hevea.ml" 164 5023 5035 "hevea.ml" 164 5023 5042
+)
+"hevea.ml" 167 5173 5183 "hevea.ml" 167 5173 5192
+type(
+  Hot.saved -> unit
+)
+ident(
+  ext_ref Hot.start
+)
+"hevea.ml" 167 5173 5193 "hevea.ml" 167 5173 5198
+type(
+  Hot.saved
+)
+ident(
+  int_ref saved "hevea.ml" 161 4932 4942 "hevea.ml" 161 4932 4947
+)
+"hevea.ml" 167 5173 5183 "hevea.ml" 167 5173 5198
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 168 5201 5211 "hevea.ml" 168 5201 5225
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Auxx.hot_start
+)
+"hevea.ml" 168 5201 5226 "hevea.ml" 168 5201 5228
+type(
+  unit
+)
+"hevea.ml" 168 5201 5211 "hevea.ml" 168 5201 5228
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 169 5231 5241 "hevea.ml" 169 5231 5253
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.message
+)
+"hevea.ml" 169 5231 5254 "hevea.ml" 169 5231 5276
+type(
+  string
+)
+"hevea.ml" 169 5231 5241 "hevea.ml" 169 5231 5276
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 170 5279 5289 "hevea.ml" 170 5279 5295
+type(
+  int -> unit
+)
+ident(
+  int_ref do_rec "hevea.ml" 162 4971 4985 "hevea.ml" 162 4971 4991
+)
+"hevea.ml" 170 5279 5297 "hevea.ml" 170 5279 5298
+type(
+  int
+)
+ident(
+  int_ref i "hevea.ml" 162 4971 4992 "hevea.ml" 162 4971 4993
+)
+"hevea.ml" 170 5279 5298 "hevea.ml" 170 5279 5299
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"hevea.ml" 170 5279 5299 "hevea.ml" 170 5279 5300
+type(
+  int
+)
+"hevea.ml" 170 5279 5296 "hevea.ml" 170 5279 5301
+type(
+  int
+)
+"hevea.ml" 170 5279 5289 "hevea.ml" 170 5279 5301
+call(
+  tail
+)
+type(
+  unit
+)
+"hevea.ml" 169 5231 5241 "hevea.ml" 170 5279 5301
+type(
+  unit
+)
+"hevea.ml" 168 5201 5211 "hevea.ml" 170 5279 5301
+type(
+  unit
+)
+"hevea.ml" 166 5143 5167 "hevea.ml" 171 5302 5313
+type(
+  unit
+)
+"hevea.ml" 172 5325 5335 "hevea.ml" 172 5325 5347
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.message
+)
+"hevea.ml" 173 5348 5361 "hevea.ml" 173 5348 5383
+type(
+  string
+)
+"hevea.ml" 173 5348 5383 "hevea.ml" 173 5348 5384
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 173 5348 5384 "hevea.ml" 173 5348 5397
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"hevea.ml" 173 5348 5398 "hevea.ml" 173 5348 5399
+type(
+  int
+)
+ident(
+  int_ref i "hevea.ml" 162 4971 4992 "hevea.ml" 162 4971 4993
+)
+"hevea.ml" 173 5348 5384 "hevea.ml" 173 5348 5399
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 173 5348 5399 "hevea.ml" 173 5348 5400
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 173 5348 5400 "hevea.ml" 173 5348 5410
+type(
+  string
+)
+"hevea.ml" 173 5348 5384 "hevea.ml" 173 5348 5410
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 173 5348 5360 "hevea.ml" 173 5348 5411
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 172 5325 5335 "hevea.ml" 173 5348 5411
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 174 5414 5427 "hevea.ml" 174 5414 5428
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 174 5414 5428 "hevea.ml" 174 5414 5441
+type(
+  bool ref
+)
+ident(
+  int_ref image_changed "hevea.ml" 160 4893 4903 "hevea.ml" 160 4893 4916
+)
+"hevea.ml" 174 5414 5427 "hevea.ml" 174 5414 5441
+type(
+  bool
+)
+"hevea.ml" 175 5453 5465 "hevea.ml" 175 5453 5477
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.message
+)
+"hevea.ml" 176 5478 5492 "hevea.ml" 176 5478 5528
+type(
+  string
+)
+"hevea.ml" 175 5453 5465 "hevea.ml" 176 5478 5528
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 177 5531 5547 "hevea.ml" 177 5531 5548
+type(
+  int
+)
+"hevea.ml" 177 5531 5551 "hevea.ml" 177 5531 5562
+type(
+  string -> int
+)
+ident(
+  ext_ref Sys.command
+)
+"hevea.ml" 178 5563 5580 "hevea.ml" 178 5563 5595
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"hevea.ml" 178 5563 5596 "hevea.ml" 178 5563 5608
+type(
+  string
+)
+ident(
+  ext_ref Mylib.libdir
+)
+"hevea.ml" 178 5563 5609 "hevea.ml" 178 5563 5617
+type(
+  string
+)
+"hevea.ml" 178 5563 5580 "hevea.ml" 178 5563 5617
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 178 5563 5617 "hevea.ml" 178 5563 5618
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 179 5619 5636 "hevea.ml" 179 5619 5639
+type(
+  string
+)
+"hevea.ml" 179 5619 5639 "hevea.ml" 179 5619 5640
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 179 5619 5640 "hevea.ml" 179 5619 5658
+type(
+  unit -> string
+)
+ident(
+  ext_ref Misc.get_image_opt
+)
+"hevea.ml" 179 5619 5659 "hevea.ml" 179 5619 5661
+type(
+  unit
+)
+"hevea.ml" 179 5619 5640 "hevea.ml" 179 5619 5661
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 179 5619 5661 "hevea.ml" 179 5619 5662
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 179 5619 5662 "hevea.ml" 179 5619 5665
+type(
+  string
+)
+"hevea.ml" 179 5619 5665 "hevea.ml" 179 5619 5666
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 179 5619 5666 "hevea.ml" 179 5619 5674
+type(
+  string
+)
+ident(
+  ext_ref Parse_opts.base_out
+)
+"hevea.ml" 179 5619 5662 "hevea.ml" 179 5619 5674
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 179 5619 5640 "hevea.ml" 179 5619 5674
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 179 5619 5636 "hevea.ml" 179 5619 5674
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 178 5563 5579 "hevea.ml" 179 5619 5675
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 177 5531 5551 "hevea.ml" 179 5619 5675
+type(
+  int
+)
+"hevea.ml" 179 5619 5679 "hevea.ml" 179 5619 5681
+type(
+  unit
+)
+"hevea.ml" 177 5531 5543 "hevea.ml" 179 5619 5681
+type(
+  unit
+)
+"hevea.ml" 174 5414 5447 "hevea.ml" 180 5682 5695
+type(
+  unit
+)
+"hevea.ml" 174 5414 5424 "hevea.ml" 180 5682 5695
+type(
+  unit
+)
+"hevea.ml" 171 5302 5319 "hevea.ml" 181 5696 5707
+type(
+  unit
+)
+"hevea.ml" 166 5143 5151 "hevea.ml" 181 5696 5707
+type(
+  unit
+)
+"hevea.ml" 165 5080 5088 "hevea.ml" 181 5696 5707
+type(
+  unit
+)
+"hevea.ml" 164 5023 5031 "hevea.ml" 181 5696 5707
+type(
+  unit
+)
+"hevea.ml" 163 4996 5004 "hevea.ml" 181 5696 5707
+type(
+  unit
+)
+"hevea.ml" 182 5711 5717 "hevea.ml" 182 5711 5723
+type(
+  int -> unit
+)
+ident(
+  int_ref do_rec "hevea.ml" 162 4971 4985 "hevea.ml" 162 4971 4991
+)
+"hevea.ml" 182 5711 5724 "hevea.ml" 182 5711 5725
+type(
+  int
+)
+"hevea.ml" 182 5711 5717 "hevea.ml" 182 5711 5725
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 162 4971 4977 "hevea.ml" 182 5711 5725
+type(
+  unit
+)
+"hevea.ml" 161 4932 4938 "hevea.ml" 182 5711 5725
+type(
+  unit
+)
+"hevea.ml" 159 4854 4887 "hevea.ml" 183 5726 5733
+type(
+  unit
+)
+"hevea.ml" 184 5745 5751 "hevea.ml" 184 5745 5759
+type(
+  string -> unit
+)
+ident(
+  int_ref read_tex "hevea.ml" 123 4041 4045 "hevea.ml" 123 4041 4053
+)
+"hevea.ml" 184 5745 5760 "hevea.ml" 184 5745 5767
+type(
+  string
+)
+ident(
+  ext_ref Parse_opts.name_in
+)
+"hevea.ml" 184 5745 5751 "hevea.ml" 184 5745 5767
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 185 5770 5780 "hevea.ml" 185 5770 5781
+type(
+  bool * bool
+)
+"hevea.ml" 185 5770 5784 "hevea.ml" 185 5770 5792
+type(
+  bool -> bool * bool
+)
+ident(
+  int_ref finalize "hevea.ml" 70 2634 2638 "hevea.ml" 70 2634 2646
+)
+"hevea.ml" 185 5770 5793 "hevea.ml" 185 5770 5797
+type(
+  bool
+)
+"hevea.ml" 185 5770 5784 "hevea.ml" 185 5770 5797
+call(
+  stack
+)
+type(
+  bool * bool
+)
+"hevea.ml" 185 5770 5801 "hevea.ml" 185 5770 5803
+type(
+  unit
+)
+"hevea.ml" 185 5770 5776 "hevea.ml" 185 5770 5803
+type(
+  unit
+)
+"hevea.ml" 183 5726 5739 "hevea.ml" 186 5810 5817
+type(
+  unit
+)
+"hevea.ml" 159 4854 4858 "hevea.ml" 186 5810 5817
+type(
+  unit
+)
+"hevea.ml" 189 5840 5847 "hevea.ml" 189 5840 5848
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 189 5840 5848 "hevea.ml" 189 5840 5856
+type(
+  bool ref
+)
+ident(
+  ext_ref Parse_opts.optimize
+)
+"hevea.ml" 189 5840 5847 "hevea.ml" 189 5840 5856
+type(
+  bool
+)
+"hevea.ml" 190 5868 5880 "hevea.ml" 190 5868 5881
+type(
+  Parse_opts.destination ref -> Parse_opts.destination
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 190 5868 5881 "hevea.ml" 190 5868 5892
+type(
+  Parse_opts.destination ref
+)
+ident(
+  ext_ref Parse_opts.destination
+)
+"hevea.ml" 190 5868 5880 "hevea.ml" 190 5868 5892
+type(
+  Parse_opts.destination
+)
+"hevea.ml" 191 5898 5906 "hevea.ml" 191 5898 5910
+type(
+  Parse_opts.destination
+)
+"hevea.ml" 192 5914 5927 "hevea.ml" 192 5914 5934
+type(
+  string
+)
+ident(
+  ext_ref Parse_opts.name_in
+)
+"hevea.ml" 192 5914 5935 "hevea.ml" 192 5914 5937
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"hevea.ml" 192 5914 5938 "hevea.ml" 192 5914 5940
+type(
+  string
+)
+"hevea.ml" 192 5914 5927 "hevea.ml" 192 5914 5940
+type(
+  bool
+)
+"hevea.ml" 193 5952 5957 "hevea.ml" 193 5952 5970
+type(
+  int ref
+)
+ident(
+  ext_ref Emisc.verbose
+)
+"hevea.ml" 193 5952 5971 "hevea.ml" 193 5952 5973
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"hevea.ml" 193 5952 5974 "hevea.ml" 193 5952 5975
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 193 5952 5975 "hevea.ml" 193 5952 5987
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"hevea.ml" 193 5952 5974 "hevea.ml" 193 5952 5987
+type(
+  int
+)
+"hevea.ml" 193 5952 5957 "hevea.ml" 193 5952 5987
+type(
+  unit
+)
+"hevea.ml" 197 6064 6086 "hevea.ml" 197 6064 6090
+type(
+  bool
+)
+ident(
+  def pess "hevea.ml" 198 6099 6117 "hevea.ml" 200 6184 6203
+)
+"hevea.ml" 197 6064 6093 "hevea.ml" 197 6064 6098
+type(
+  bool
+)
+"hevea.ml" 198 6099 6121 "hevea.ml" 198 6099 6125
+type(
+  bool
+)
+ident(
+  def move "hevea.ml" 199 6133 6151 "hevea.ml" 200 6184 6203
+)
+"hevea.ml" 198 6099 6128 "hevea.ml" 198 6099 6132
+type(
+  bool
+)
+"hevea.ml" 199 6133 6155 "hevea.ml" 199 6133 6167
+type(
+  int
+)
+ident(
+  def small_length "hevea.ml" 199 6133 6183 "hevea.ml" 200 6184 6203
+)
+"hevea.ml" 199 6133 6170 "hevea.ml" 199 6133 6171
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 199 6133 6171 "hevea.ml" 199 6133 6183
+type(
+  int ref
+)
+ident(
+  ext_ref Parse_opts.small_length
+)
+"hevea.ml" 199 6133 6170 "hevea.ml" 199 6133 6183
+type(
+  int
+)
+"hevea.ml" 195 6017 6031 "hevea.ml" 200 6184 6204
+call(
+  stack
+)
+"hevea.ml" 201 6208 6230 "hevea.ml" 201 6208 6236
+type(
+  string -> unit
+)
+ident(
+  ext_ref E.file
+)
+"hevea.ml" 201 6208 6237 "hevea.ml" 201 6208 6245
+type(
+  string
+)
+ident(
+  ext_ref Parse_opts.name_out
+)
+"hevea.ml" 201 6208 6230 "hevea.ml" 201 6208 6245
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 202 6246 6263 "hevea.ml" 202 6246 6273
+type(
+  exn
+)
+"hevea.ml" 203 6277 6291 "hevea.ml" 203 6277 6298
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.warning
+)
+"hevea.ml" 203 6277 6299 "hevea.ml" 203 6277 6343
+type(
+  string
+)
+"hevea.ml" 203 6277 6291 "hevea.ml" 203 6277 6343
+call(
+  tail
+)
+type(
+  unit
+)
+"hevea.ml" 201 6208 6220 "hevea.ml" 204 6344 6359
+type(
+  unit
+)
+"hevea.ml" 194 5990 6002 "hevea.ml" 204 6344 6359
+type(
+  unit
+)
+"hevea.ml" 192 5914 5946 "hevea.ml" 205 6360 6373
+type(
+  unit
+)
+"hevea.ml" 192 5914 5924 "hevea.ml" 205 6360 6373
+type(
+  unit
+)
+"hevea.ml" 206 6374 6382 "hevea.ml" 206 6374 6386
+type(
+  Parse_opts.destination
+)
+"hevea.ml" 206 6374 6387 "hevea.ml" 206 6374 6391
+type(
+  Parse_opts.destination
+)
+"hevea.ml" 206 6374 6382 "hevea.ml" 206 6374 6391
+type(
+  Parse_opts.destination
+)
+"hevea.ml" 206 6374 6395 "hevea.ml" 206 6374 6397
+type(
+  unit
+)
+"hevea.ml" 189 5840 5862 "hevea.ml" 207 6406 6413
+type(
+  unit
+)
+"hevea.ml" 189 5840 5844 "hevea.ml" 207 6406 6413
+type(
+  unit
+)
+"hevea.ml" 159 4854 4858 "hevea.ml" 207 6406 6413
+type(
+  unit
+)
+"hevea.ml" 157 4806 4810 "hevea.ml" 207 6406 6413
+type(
+  unit
+)
+"hevea.ml" 155 4785 4789 "hevea.ml" 207 6406 6413
+type(
+  unit
+)
+"hevea.ml" 153 4745 4749 "hevea.ml" 207 6406 6413
+type(
+  unit
+)
+"hevea.ml" 144 4571 4575 "hevea.ml" 207 6406 6413
+type(
+  unit
+)
+"hevea.ml" 142 4541 4545 "hevea.ml" 207 6406 6413
+type(
+  unit
+)
+"hevea.ml" 141 4514 4518 "hevea.ml" 207 6406 6413
+type(
+  unit
+)
+"hevea.ml" 212 6442 6446 "hevea.ml" 212 6442 6450
+type(
+  unit -> unit
+)
+ident(
+  int_ref main "hevea.ml" 139 4498 4502 "hevea.ml" 139 4498 4506
+)
+"hevea.ml" 212 6442 6451 "hevea.ml" 212 6442 6453
+type(
+  unit
+)
+"hevea.ml" 212 6442 6446 "hevea.ml" 212 6442 6453
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 213 6456 6460 "hevea.ml" 213 6456 6464
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"hevea.ml" 213 6456 6465 "hevea.ml" 213 6456 6466
+type(
+  int
+)
+"hevea.ml" 213 6456 6460 "hevea.ml" 213 6456 6466
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 212 6442 6446 "hevea.ml" 213 6456 6466
+type(
+  unit
+)
+"hevea.ml" 215 6474 6491 "hevea.ml" 215 6474 6492
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 216 6496 6504 "hevea.ml" 217 6552 6581
+)
+"hevea.ml" 215 6474 6480 "hevea.ml" 215 6474 6492
+type(
+  exn
+)
+"hevea.ml" 216 6496 6504 "hevea.ml" 216 6496 6515
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_error "hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+)
+"hevea.ml" 216 6496 6517 "hevea.ml" 216 6496 6546
+type(
+  string
+)
+"hevea.ml" 216 6496 6546 "hevea.ml" 216 6496 6547
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 216 6496 6547 "hevea.ml" 216 6496 6548
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 215 6474 6491 "hevea.ml" 215 6474 6492
+)
+"hevea.ml" 216 6496 6516 "hevea.ml" 216 6496 6549
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 216 6496 6504 "hevea.ml" 216 6496 6549
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 217 6552 6560 "hevea.ml" 217 6552 6578
+type(
+  unit -> unit
+)
+ident(
+  int_ref scan_print_env_pos "hevea.ml" 21 865 892 "hevea.ml" 21 865 910
+)
+"hevea.ml" 217 6552 6579 "hevea.ml" 217 6552 6581
+type(
+  unit
+)
+"hevea.ml" 217 6552 6560 "hevea.ml" 217 6552 6581
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 216 6496 6504 "hevea.ml" 217 6552 6581
+type(
+  unit
+)
+"hevea.ml" 218 6582 6599 "hevea.ml" 218 6582 6600
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 219 6604 6612 "hevea.ml" 219 6604 6659
+)
+"hevea.ml" 218 6582 6588 "hevea.ml" 218 6582 6600
+type(
+  exn
+)
+"hevea.ml" 219 6604 6612 "hevea.ml" 219 6604 6623
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_error "hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+)
+"hevea.ml" 219 6604 6625 "hevea.ml" 219 6604 6656
+type(
+  string
+)
+"hevea.ml" 219 6604 6656 "hevea.ml" 219 6604 6657
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 219 6604 6657 "hevea.ml" 219 6604 6658
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 218 6582 6599 "hevea.ml" 218 6582 6600
+)
+"hevea.ml" 219 6604 6624 "hevea.ml" 219 6604 6659
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 219 6604 6612 "hevea.ml" 219 6604 6659
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 220 6660 6677 "hevea.ml" 220 6660 6678
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 221 6682 6690 "hevea.ml" 221 6682 6737
+)
+"hevea.ml" 220 6660 6666 "hevea.ml" 220 6660 6678
+type(
+  exn
+)
+"hevea.ml" 221 6682 6690 "hevea.ml" 221 6682 6701
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_error "hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+)
+"hevea.ml" 221 6682 6703 "hevea.ml" 221 6682 6734
+type(
+  string
+)
+"hevea.ml" 221 6682 6734 "hevea.ml" 221 6682 6735
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 221 6682 6735 "hevea.ml" 221 6682 6736
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 220 6660 6677 "hevea.ml" 220 6660 6678
+)
+"hevea.ml" 221 6682 6702 "hevea.ml" 221 6682 6737
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 221 6682 6690 "hevea.ml" 221 6682 6737
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 222 6738 6755 "hevea.ml" 222 6738 6756
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 223 6760 6768 "hevea.ml" 223 6760 6815
+)
+"hevea.ml" 222 6738 6744 "hevea.ml" 222 6738 6756
+type(
+  exn
+)
+"hevea.ml" 223 6760 6768 "hevea.ml" 223 6760 6779
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_error "hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+)
+"hevea.ml" 223 6760 6781 "hevea.ml" 223 6760 6812
+type(
+  string
+)
+"hevea.ml" 223 6760 6812 "hevea.ml" 223 6760 6813
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 223 6760 6813 "hevea.ml" 223 6760 6814
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 222 6738 6755 "hevea.ml" 222 6738 6756
+)
+"hevea.ml" 223 6760 6780 "hevea.ml" 223 6760 6815
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 223 6760 6768 "hevea.ml" 223 6760 6815
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 224 6816 6836 "hevea.ml" 224 6816 6837
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 225 6841 6849 "hevea.ml" 225 6841 6896
+)
+"hevea.ml" 224 6816 6822 "hevea.ml" 224 6816 6837
+type(
+  exn
+)
+"hevea.ml" 225 6841 6849 "hevea.ml" 225 6841 6860
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_error "hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+)
+"hevea.ml" 225 6841 6862 "hevea.ml" 225 6841 6893
+type(
+  string
+)
+"hevea.ml" 225 6841 6893 "hevea.ml" 225 6841 6894
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 225 6841 6894 "hevea.ml" 225 6841 6895
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 224 6816 6836 "hevea.ml" 224 6816 6837
+)
+"hevea.ml" 225 6841 6861 "hevea.ml" 225 6841 6896
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 225 6841 6849 "hevea.ml" 225 6841 6896
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 226 6897 6918 "hevea.ml" 226 6897 6919
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 227 6923 6931 "hevea.ml" 227 6923 6979
+)
+"hevea.ml" 226 6897 6903 "hevea.ml" 226 6897 6919
+type(
+  exn
+)
+"hevea.ml" 227 6923 6931 "hevea.ml" 227 6923 6942
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_error "hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+)
+"hevea.ml" 227 6923 6944 "hevea.ml" 227 6923 6976
+type(
+  string
+)
+"hevea.ml" 227 6923 6976 "hevea.ml" 227 6923 6977
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 227 6923 6977 "hevea.ml" 227 6923 6978
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 226 6897 6918 "hevea.ml" 226 6897 6919
+)
+"hevea.ml" 227 6923 6943 "hevea.ml" 227 6923 6979
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 227 6923 6931 "hevea.ml" 227 6923 6979
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 228 6980 7001 "hevea.ml" 228 6980 7002
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 229 7006 7014 "hevea.ml" 229 7006 7062
+)
+"hevea.ml" 228 6980 6986 "hevea.ml" 228 6980 7002
+type(
+  exn
+)
+"hevea.ml" 229 7006 7014 "hevea.ml" 229 7006 7025
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_error "hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+)
+"hevea.ml" 229 7006 7027 "hevea.ml" 229 7006 7059
+type(
+  string
+)
+"hevea.ml" 229 7006 7059 "hevea.ml" 229 7006 7060
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 229 7006 7060 "hevea.ml" 229 7006 7061
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 228 6980 7001 "hevea.ml" 228 6980 7002
+)
+"hevea.ml" 229 7006 7026 "hevea.ml" 229 7006 7062
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 229 7006 7014 "hevea.ml" 229 7006 7062
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 230 7063 7081 "hevea.ml" 230 7063 7082
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 231 7086 7094 "hevea.ml" 231 7086 7151
+)
+"hevea.ml" 230 7063 7069 "hevea.ml" 230 7063 7082
+type(
+  exn
+)
+"hevea.ml" 231 7086 7094 "hevea.ml" 231 7086 7105
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_error "hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+)
+"hevea.ml" 231 7086 7107 "hevea.ml" 231 7086 7148
+type(
+  string
+)
+"hevea.ml" 231 7086 7148 "hevea.ml" 231 7086 7149
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 231 7086 7149 "hevea.ml" 231 7086 7150
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 230 7063 7081 "hevea.ml" 230 7063 7082
+)
+"hevea.ml" 231 7086 7106 "hevea.ml" 231 7086 7151
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 231 7086 7094 "hevea.ml" 231 7086 7151
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 232 7152 7172 "hevea.ml" 232 7152 7173
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 233 7177 7185 "hevea.ml" 233 7177 7246
+)
+"hevea.ml" 232 7152 7158 "hevea.ml" 232 7152 7173
+type(
+  exn
+)
+"hevea.ml" 233 7177 7185 "hevea.ml" 233 7177 7196
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_error "hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+)
+"hevea.ml" 233 7177 7198 "hevea.ml" 233 7177 7243
+type(
+  string
+)
+"hevea.ml" 233 7177 7243 "hevea.ml" 233 7177 7244
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 233 7177 7244 "hevea.ml" 233 7177 7245
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 232 7152 7172 "hevea.ml" 232 7152 7173
+)
+"hevea.ml" 233 7177 7197 "hevea.ml" 233 7177 7246
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 233 7177 7185 "hevea.ml" 233 7177 7246
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 234 7247 7264 "hevea.ml" 234 7247 7265
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 235 7269 7277 "hevea.ml" 235 7269 7342
+)
+"hevea.ml" 234 7247 7253 "hevea.ml" 234 7247 7265
+type(
+  exn
+)
+"hevea.ml" 235 7269 7277 "hevea.ml" 235 7269 7288
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_error "hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+)
+"hevea.ml" 235 7269 7290 "hevea.ml" 235 7269 7339
+type(
+  string
+)
+"hevea.ml" 235 7269 7339 "hevea.ml" 235 7269 7340
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 235 7269 7340 "hevea.ml" 235 7269 7341
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 234 7247 7264 "hevea.ml" 234 7247 7265
+)
+"hevea.ml" 235 7269 7289 "hevea.ml" 235 7269 7342
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 235 7269 7277 "hevea.ml" 235 7269 7342
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 236 7343 7363 "hevea.ml" 236 7343 7364
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 237 7368 7376 "hevea.ml" 237 7368 7431
+)
+"hevea.ml" 236 7343 7349 "hevea.ml" 236 7343 7364
+type(
+  exn
+)
+"hevea.ml" 237 7368 7376 "hevea.ml" 237 7368 7387
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_error "hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+)
+"hevea.ml" 237 7368 7389 "hevea.ml" 237 7368 7428
+type(
+  string
+)
+"hevea.ml" 237 7368 7428 "hevea.ml" 237 7368 7429
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 237 7368 7429 "hevea.ml" 237 7368 7430
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 236 7343 7363 "hevea.ml" 236 7343 7364
+)
+"hevea.ml" 237 7368 7388 "hevea.ml" 237 7368 7431
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 237 7368 7376 "hevea.ml" 237 7368 7431
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 238 7432 7448 "hevea.ml" 238 7432 7449
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 239 7453 7461 "hevea.ml" 239 7453 7511
+)
+"hevea.ml" 238 7432 7438 "hevea.ml" 238 7432 7449
+type(
+  exn
+)
+"hevea.ml" 239 7453 7461 "hevea.ml" 239 7453 7472
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_error "hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+)
+"hevea.ml" 239 7453 7474 "hevea.ml" 239 7453 7508
+type(
+  string
+)
+"hevea.ml" 239 7453 7508 "hevea.ml" 239 7453 7509
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 239 7453 7509 "hevea.ml" 239 7453 7510
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 238 7432 7448 "hevea.ml" 238 7432 7449
+)
+"hevea.ml" 239 7453 7473 "hevea.ml" 239 7453 7511
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 239 7453 7461 "hevea.ml" 239 7453 7511
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 240 7512 7533 "hevea.ml" 240 7512 7534
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 241 7538 7546 "hevea.ml" 241 7538 7579
+)
+"hevea.ml" 240 7512 7518 "hevea.ml" 240 7512 7534
+type(
+  exn
+)
+"hevea.ml" 241 7538 7546 "hevea.ml" 241 7538 7557
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_error "hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+)
+"hevea.ml" 241 7538 7559 "hevea.ml" 241 7538 7576
+type(
+  string
+)
+"hevea.ml" 241 7538 7576 "hevea.ml" 241 7538 7577
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 241 7538 7577 "hevea.ml" 241 7538 7578
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 240 7512 7533 "hevea.ml" 240 7512 7534
+)
+"hevea.ml" 241 7538 7558 "hevea.ml" 241 7538 7579
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 241 7538 7546 "hevea.ml" 241 7538 7579
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 242 7580 7600 "hevea.ml" 242 7580 7601
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 243 7605 7613 "hevea.ml" 243 7605 7646
+)
+"hevea.ml" 242 7580 7586 "hevea.ml" 242 7580 7601
+type(
+  exn
+)
+"hevea.ml" 243 7605 7613 "hevea.ml" 243 7605 7624
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_error "hevea.ml" 54 2300 2304 "hevea.ml" 54 2300 2315
+)
+"hevea.ml" 243 7605 7626 "hevea.ml" 243 7605 7643
+type(
+  string
+)
+"hevea.ml" 243 7605 7643 "hevea.ml" 243 7605 7644
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 243 7605 7644 "hevea.ml" 243 7605 7645
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 242 7580 7600 "hevea.ml" 242 7580 7601
+)
+"hevea.ml" 243 7605 7625 "hevea.ml" 243 7605 7646
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 243 7605 7613 "hevea.ml" 243 7605 7646
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 244 7647 7669 "hevea.ml" 244 7647 7670
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 245 7674 7682 "hevea.ml" 245 7674 7703
+)
+"hevea.ml" 244 7647 7654 "hevea.ml" 244 7647 7670
+type(
+  exn
+)
+"hevea.ml" 245 7674 7682 "hevea.ml" 245 7674 7701
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_not_supported "hevea.ml" 64 2522 2526 "hevea.ml" 64 2522 2545
+)
+"hevea.ml" 245 7674 7702 "hevea.ml" 245 7674 7703
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 244 7647 7669 "hevea.ml" 244 7647 7670
+)
+"hevea.ml" 245 7674 7682 "hevea.ml" 245 7674 7703
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 246 7704 7722 "hevea.ml" 246 7704 7723
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 247 7727 7735 "hevea.ml" 247 7727 7764
+)
+"hevea.ml" 246 7704 7711 "hevea.ml" 246 7704 7723
+type(
+  exn
+)
+"hevea.ml" 247 7727 7735 "hevea.ml" 247 7727 7744
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_bug "hevea.ml" 59 2391 2395 "hevea.ml" 59 2391 2404
+)
+"hevea.ml" 247 7727 7746 "hevea.ml" 247 7727 7761
+type(
+  string
+)
+"hevea.ml" 247 7727 7761 "hevea.ml" 247 7727 7762
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 247 7727 7762 "hevea.ml" 247 7727 7763
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 246 7704 7722 "hevea.ml" 246 7704 7723
+)
+"hevea.ml" 247 7727 7745 "hevea.ml" 247 7727 7764
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 247 7727 7735 "hevea.ml" 247 7727 7764
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 248 7765 7786 "hevea.ml" 248 7765 7787
+type(
+  string
+)
+ident(
+  def s "hevea.ml" 249 7791 7799 "hevea.ml" 249 7791 7834
+)
+"hevea.ml" 248 7765 7772 "hevea.ml" 248 7765 7787
+type(
+  exn
+)
+"hevea.ml" 249 7791 7799 "hevea.ml" 249 7791 7808
+type(
+  string -> unit
+)
+ident(
+  int_ref prerr_bug "hevea.ml" 59 2391 2395 "hevea.ml" 59 2391 2404
+)
+"hevea.ml" 249 7791 7810 "hevea.ml" 249 7791 7831
+type(
+  string
+)
+"hevea.ml" 249 7791 7831 "hevea.ml" 249 7791 7832
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hevea.ml" 249 7791 7832 "hevea.ml" 249 7791 7833
+type(
+  string
+)
+ident(
+  int_ref s "hevea.ml" 248 7765 7786 "hevea.ml" 248 7765 7787
+)
+"hevea.ml" 249 7791 7809 "hevea.ml" 249 7791 7834
+call(
+  stack
+)
+type(
+  string
+)
+"hevea.ml" 249 7791 7799 "hevea.ml" 249 7791 7834
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 211 6430 6432 "hevea.ml" 255 7943 7948
+type(
+  unit
+)
+"hevea.ml" 256 7951 7957 "hevea.ml" 256 7951 7958
+type(
+  bool * bool
+)
+"hevea.ml" 256 7951 7961 "hevea.ml" 256 7951 7969
+type(
+  bool -> bool * bool
+)
+ident(
+  int_ref finalize "hevea.ml" 70 2634 2638 "hevea.ml" 70 2634 2646
+)
+"hevea.ml" 256 7951 7970 "hevea.ml" 256 7951 7975
+type(
+  bool
+)
+"hevea.ml" 256 7951 7961 "hevea.ml" 256 7951 7975
+call(
+  stack
+)
+type(
+  bool * bool
+)
+"hevea.ml" 257 7979 7984 "hevea.ml" 257 7979 7985
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hevea.ml" 257 7979 7985 "hevea.ml" 257 7979 7992
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"hevea.ml" 257 7979 7984 "hevea.ml" 257 7979 7992
+type(
+  int
+)
+"hevea.ml" 257 7979 7993 "hevea.ml" 257 7979 7994
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"hevea.ml" 257 7979 7995 "hevea.ml" 257 7979 7996
+type(
+  int
+)
+"hevea.ml" 257 7979 7984 "hevea.ml" 257 7979 7996
+type(
+  bool
+)
+"hevea.ml" 257 7979 8002 "hevea.ml" 257 7979 8014
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mysys.remove
+)
+"hevea.ml" 257 7979 8015 "hevea.ml" 257 7979 8034
+type(
+  string
+)
+ident(
+  ext_ref Parse_opts.name_out
+)
+"hevea.ml" 257 7979 8002 "hevea.ml" 257 7979 8034
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 257 7979 7981 "hevea.ml" 257 7979 8034
+type(
+  unit
+)
+"hevea.ml" 258 8037 8039 "hevea.ml" 258 8037 8052
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"hevea.ml" 258 8037 8053 "hevea.ml" 258 8037 8060
+type(
+  string
+)
+"hevea.ml" 258 8037 8039 "hevea.ml" 258 8037 8060
+call(
+  stack
+)
+type(
+  unit
+)
+"hevea.ml" 259 8063 8065 "hevea.ml" 259 8063 8069
+type(
+  int -> 'a
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"hevea.ml" 259 8063 8070 "hevea.ml" 259 8063 8071
+type(
+  int
+)
+"hevea.ml" 259 8063 8065 "hevea.ml" 259 8063 8071
+call(
+  stack
+)
+type(
+  'a
+)
+"hevea.ml" 258 8037 8039 "hevea.ml" 259 8063 8071
+type(
+  'a
+)
+"hevea.ml" 257 7979 7981 "hevea.ml" 259 8063 8071
+type(
+  'a
+)
+"hevea.ml" 256 7951 7953 "hevea.ml" 259 8063 8071
+type(
+  'a
+)
+"hevea.ml" 211 6430 6432 "hevea.ml" 259 8063 8071
+type(
+  'a
+)

@@ -1,0 +1,48 @@
+"/tmp/ocamlppf8d49a" 12 741 745 "/tmp/ocamlppf8d49a" 12 741 758
+type(
+  string
+)
+ident(
+  def static_libdir "/tmp/ocamlppf8d49a" 15 789 789 "mylib.ml" 1 0 -1
+)
+"/tmp/ocamlppf8d49a" 12 741 762 "/tmp/ocamlppf8d49a" 12 741 784
+type(
+  string
+)
+"/tmp/ocamlppf8d49a" 15 789 793 "/tmp/ocamlppf8d49a" 15 789 799
+type(
+  string
+)
+ident(
+  def libdir "/tmp/ocamlppf8d49a" 15 789 859 "mylib.ml" 1 0 -1
+)
+"/tmp/ocamlppf8d49a" 15 789 806 "/tmp/ocamlppf8d49a" 15 789 816
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"/tmp/ocamlppf8d49a" 15 789 817 "/tmp/ocamlppf8d49a" 15 789 827
+type(
+  string
+)
+"/tmp/ocamlppf8d49a" 15 789 806 "/tmp/ocamlppf8d49a" 15 789 827
+type(
+  string
+)
+"/tmp/ocamlppf8d49a" 15 789 833 "/tmp/ocamlppf8d49a" 15 789 842
+type(
+  exn
+)
+"/tmp/ocamlppf8d49a" 15 789 846 "/tmp/ocamlppf8d49a" 15 789 859
+type(
+  string
+)
+ident(
+  int_ref static_libdir "/tmp/ocamlppf8d49a" 12 741 745 "/tmp/ocamlppf8d49a" 12 741 758
+)
+"/tmp/ocamlppf8d49a" 15 789 802 "/tmp/ocamlppf8d49a" 15 789 859
+type(
+  string
+)

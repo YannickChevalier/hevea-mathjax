@@ -1,0 +1,2112 @@
+"bibhva.ml" 14 808 812 "bibhva.ml" 14 808 822
+type(
+  unit -> string list * string
+)
+ident(
+  def parse_args "bibhva.ml" 27 1078 1078 "bibhva.ml" 1 0 -1
+)
+"bibhva.ml" 14 808 823 "bibhva.ml" 14 808 825
+type(
+  unit
+)
+"bibhva.ml" 15 828 834 "bibhva.ml" 15 828 841
+type(
+  string list ref
+)
+ident(
+  def options "bibhva.ml" 17 874 876 "bibhva.ml" 24 1058 1075
+)
+"bibhva.ml" 15 828 844 "bibhva.ml" 15 828 847
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"bibhva.ml" 15 828 848 "bibhva.ml" 15 828 850
+type(
+  string list
+)
+"bibhva.ml" 15 828 844 "bibhva.ml" 15 828 850
+type(
+  string list ref
+)
+"bibhva.ml" 16 851 857 "bibhva.ml" 16 851 861
+type(
+  string ref
+)
+ident(
+  def name "bibhva.ml" 17 874 876 "bibhva.ml" 24 1058 1075
+)
+"bibhva.ml" 16 851 864 "bibhva.ml" 16 851 867
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"bibhva.ml" 16 851 868 "bibhva.ml" 16 851 870
+type(
+  string
+)
+"bibhva.ml" 16 851 864 "bibhva.ml" 16 851 870
+type(
+  string ref
+)
+"bibhva.ml" 17 874 884 "bibhva.ml" 17 874 885
+type(
+  int
+)
+"bibhva.ml" 17 874 889 "bibhva.ml" 17 874 901
+type(
+  string array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"bibhva.ml" 17 874 902 "bibhva.ml" 17 874 910
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"bibhva.ml" 17 874 889 "bibhva.ml" 17 874 910
+type(
+  int
+)
+"bibhva.ml" 17 874 910 "bibhva.ml" 17 874 911
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"bibhva.ml" 17 874 911 "bibhva.ml" 17 874 912
+type(
+  int
+)
+"bibhva.ml" 17 874 889 "bibhva.ml" 17 874 912
+type(
+  int
+)
+"bibhva.ml" 18 916 924 "bibhva.ml" 18 916 925
+type(
+  string
+)
+ident(
+  def a "bibhva.ml" 19 944 948 "bibhva.ml" 22 1033 1048
+)
+"bibhva.ml" 18 916 928 "bibhva.ml" 18 916 936
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"bibhva.ml" 18 916 938 "bibhva.ml" 18 916 939
+type(
+  int
+)
+ident(
+  int_ref k "bibhva.ml" 17 874 876 "bibhva.ml" 23 1049 1055
+)
+"bibhva.ml" 18 916 928 "bibhva.ml" 18 916 940
+type(
+  string
+)
+"bibhva.ml" 19 944 951 "bibhva.ml" 19 944 964
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"bibhva.ml" 19 944 965 "bibhva.ml" 19 944 966
+type(
+  string
+)
+ident(
+  int_ref a "bibhva.ml" 18 916 924 "bibhva.ml" 18 916 925
+)
+"bibhva.ml" 19 944 951 "bibhva.ml" 19 944 966
+type(
+  int
+)
+"bibhva.ml" 19 944 967 "bibhva.ml" 19 944 968
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"bibhva.ml" 19 944 969 "bibhva.ml" 19 944 970
+type(
+  int
+)
+"bibhva.ml" 19 944 951 "bibhva.ml" 19 944 970
+type(
+  bool
+)
+"bibhva.ml" 19 944 971 "bibhva.ml" 19 944 973
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"bibhva.ml" 19 944 974 "bibhva.ml" 19 944 975
+type(
+  string
+)
+ident(
+  int_ref a "bibhva.ml" 18 916 924 "bibhva.ml" 18 916 925
+)
+"bibhva.ml" 19 944 977 "bibhva.ml" 19 944 978
+type(
+  int
+)
+"bibhva.ml" 19 944 974 "bibhva.ml" 19 944 979
+type(
+  char
+)
+"bibhva.ml" 19 944 980 "bibhva.ml" 19 944 982
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"bibhva.ml" 19 944 983 "bibhva.ml" 19 944 986
+type(
+  char
+)
+"bibhva.ml" 19 944 974 "bibhva.ml" 19 944 986
+type(
+  bool
+)
+"bibhva.ml" 19 944 951 "bibhva.ml" 19 944 986
+type(
+  bool
+)
+"bibhva.ml" 20 992 998 "bibhva.ml" 20 992 1005
+type(
+  string list ref
+)
+ident(
+  int_ref options "bibhva.ml" 15 828 834 "bibhva.ml" 15 828 841
+)
+"bibhva.ml" 20 992 1006 "bibhva.ml" 20 992 1008
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"bibhva.ml" 20 992 1009 "bibhva.ml" 20 992 1010
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"bibhva.ml" 20 992 1010 "bibhva.ml" 20 992 1017
+type(
+  string list ref
+)
+ident(
+  int_ref options "bibhva.ml" 15 828 834 "bibhva.ml" 15 828 841
+)
+"bibhva.ml" 20 992 1009 "bibhva.ml" 20 992 1017
+type(
+  string list
+)
+"bibhva.ml" 20 992 1018 "bibhva.ml" 20 992 1019
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"bibhva.ml" 20 992 1021 "bibhva.ml" 20 992 1022
+type(
+  string
+)
+ident(
+  int_ref a "bibhva.ml" 18 916 924 "bibhva.ml" 18 916 925
+)
+"bibhva.ml" 20 992 1020 "bibhva.ml" 20 992 1023
+type(
+  string list
+)
+"bibhva.ml" 20 992 1009 "bibhva.ml" 20 992 1023
+call(
+  stack
+)
+type(
+  string list
+)
+"bibhva.ml" 20 992 998 "bibhva.ml" 20 992 1023
+type(
+  unit
+)
+"bibhva.ml" 22 1033 1039 "bibhva.ml" 22 1033 1043
+type(
+  string ref
+)
+ident(
+  int_ref name "bibhva.ml" 16 851 857 "bibhva.ml" 16 851 861
+)
+"bibhva.ml" 22 1033 1044 "bibhva.ml" 22 1033 1046
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"bibhva.ml" 22 1033 1047 "bibhva.ml" 22 1033 1048
+type(
+  string
+)
+ident(
+  int_ref a "bibhva.ml" 18 916 924 "bibhva.ml" 18 916 925
+)
+"bibhva.ml" 22 1033 1039 "bibhva.ml" 22 1033 1048
+type(
+  unit
+)
+"bibhva.ml" 19 944 948 "bibhva.ml" 22 1033 1048
+type(
+  unit
+)
+"bibhva.ml" 18 916 920 "bibhva.ml" 22 1033 1048
+type(
+  unit
+)
+"bibhva.ml" 17 874 876 "bibhva.ml" 23 1049 1055
+type(
+  unit
+)
+"bibhva.ml" 24 1058 1060 "bibhva.ml" 24 1058 1061
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"bibhva.ml" 24 1058 1061 "bibhva.ml" 24 1058 1068
+type(
+  string list ref
+)
+ident(
+  int_ref options "bibhva.ml" 15 828 834 "bibhva.ml" 15 828 841
+)
+"bibhva.ml" 24 1058 1060 "bibhva.ml" 24 1058 1068
+type(
+  string list
+)
+"bibhva.ml" 24 1058 1070 "bibhva.ml" 24 1058 1071
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"bibhva.ml" 24 1058 1071 "bibhva.ml" 24 1058 1075
+type(
+  string ref
+)
+ident(
+  int_ref name "bibhva.ml" 16 851 857 "bibhva.ml" 16 851 861
+)
+"bibhva.ml" 24 1058 1070 "bibhva.ml" 24 1058 1075
+type(
+  string
+)
+"bibhva.ml" 24 1058 1060 "bibhva.ml" 24 1058 1075
+type(
+  string list * string
+)
+"bibhva.ml" 17 874 876 "bibhva.ml" 24 1058 1075
+type(
+  string list * string
+)
+"bibhva.ml" 15 828 830 "bibhva.ml" 24 1058 1075
+type(
+  string list * string
+)
+"bibhva.ml" 29 1105 1109 "bibhva.ml" 29 1105 1115
+type(
+  string -> string -> unit
+)
+ident(
+  def rename "bibhva.ml" 34 1254 1254 "bibhva.ml" 1 0 -1
+)
+"bibhva.ml" 29 1105 1116 "bibhva.ml" 29 1105 1121
+type(
+  string
+)
+ident(
+  def name1 "bibhva.ml" 29 1105 1122 "bibhva.ml" 32 1183 1252
+)
+"bibhva.ml" 29 1105 1122 "bibhva.ml" 29 1105 1127
+type(
+  string
+)
+ident(
+  def name2 "bibhva.ml" 30 1130 1132 "bibhva.ml" 32 1183 1252
+)
+"bibhva.ml" 30 1130 1136 "bibhva.ml" 30 1130 1146
+type(
+  string -> string -> unit
+)
+ident(
+  ext_ref Sys.rename
+)
+"bibhva.ml" 30 1130 1147 "bibhva.ml" 30 1130 1152
+type(
+  string
+)
+ident(
+  int_ref name1 "bibhva.ml" 29 1105 1116 "bibhva.ml" 29 1105 1121
+)
+"bibhva.ml" 30 1130 1153 "bibhva.ml" 30 1130 1158
+type(
+  string
+)
+ident(
+  int_ref name2 "bibhva.ml" 29 1105 1122 "bibhva.ml" 29 1105 1127
+)
+"bibhva.ml" 30 1130 1136 "bibhva.ml" 30 1130 1158
+type(
+  unit
+)
+"bibhva.ml" 31 1159 1176 "bibhva.ml" 31 1159 1179
+type(
+  string
+)
+ident(
+  def msg "bibhva.ml" 32 1183 1187 "bibhva.ml" 32 1183 1252
+)
+"bibhva.ml" 31 1159 1166 "bibhva.ml" 31 1159 1179
+type(
+  exn
+)
+"bibhva.ml" 32 1183 1187 "bibhva.ml" 32 1183 1192
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"bibhva.ml" 32 1183 1201 "bibhva.ml" 32 1183 1215
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"bibhva.ml" 32 1183 1216 "bibhva.ml" 32 1183 1234
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"bibhva.ml" 32 1183 1235 "bibhva.ml" 32 1183 1240
+type(
+  string
+)
+ident(
+  int_ref name1 "bibhva.ml" 29 1105 1116 "bibhva.ml" 29 1105 1121
+)
+"bibhva.ml" 32 1183 1241 "bibhva.ml" 32 1183 1246
+type(
+  string
+)
+ident(
+  int_ref name2 "bibhva.ml" 29 1105 1122 "bibhva.ml" 29 1105 1127
+)
+"bibhva.ml" 32 1183 1247 "bibhva.ml" 32 1183 1250
+type(
+  string
+)
+ident(
+  int_ref msg "bibhva.ml" 31 1159 1176 "bibhva.ml" 31 1159 1179
+)
+"bibhva.ml" 32 1183 1200 "bibhva.ml" 32 1183 1251
+call(
+  stack
+)
+type(
+  string
+)
+"bibhva.ml" 32 1183 1193 "bibhva.ml" 32 1183 1252
+type(
+  exn
+)
+"bibhva.ml" 32 1183 1187 "bibhva.ml" 32 1183 1252
+type(
+  unit
+)
+"bibhva.ml" 30 1130 1132 "bibhva.ml" 32 1183 1252
+type(
+  unit
+)
+"bibhva.ml" 34 1254 1258 "bibhva.ml" 34 1254 1264
+type(
+  string -> unit
+)
+ident(
+  def remove "bibhva.ml" 39 1379 1379 "bibhva.ml" 1 0 -1
+)
+"bibhva.ml" 34 1254 1265 "bibhva.ml" 34 1254 1269
+type(
+  string
+)
+ident(
+  def name "bibhva.ml" 35 1272 1274 "bibhva.ml" 37 1318 1377
+)
+"bibhva.ml" 35 1272 1278 "bibhva.ml" 35 1272 1288
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"bibhva.ml" 35 1272 1289 "bibhva.ml" 35 1272 1293
+type(
+  string
+)
+ident(
+  int_ref name "bibhva.ml" 34 1254 1265 "bibhva.ml" 34 1254 1269
+)
+"bibhva.ml" 35 1272 1278 "bibhva.ml" 35 1272 1293
+type(
+  unit
+)
+"bibhva.ml" 36 1294 1311 "bibhva.ml" 36 1294 1314
+type(
+  string
+)
+ident(
+  def msg "bibhva.ml" 37 1318 1322 "bibhva.ml" 37 1318 1377
+)
+"bibhva.ml" 36 1294 1301 "bibhva.ml" 36 1294 1314
+type(
+  exn
+)
+"bibhva.ml" 37 1318 1322 "bibhva.ml" 37 1318 1327
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"bibhva.ml" 37 1318 1336 "bibhva.ml" 37 1318 1350
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"bibhva.ml" 37 1318 1351 "bibhva.ml" 37 1318 1366
+type(
+  (string -> string -> string, unit, string) format
+)
+"bibhva.ml" 37 1318 1367 "bibhva.ml" 37 1318 1371
+type(
+  string
+)
+ident(
+  int_ref name "bibhva.ml" 34 1254 1265 "bibhva.ml" 34 1254 1269
+)
+"bibhva.ml" 37 1318 1372 "bibhva.ml" 37 1318 1375
+type(
+  string
+)
+ident(
+  int_ref msg "bibhva.ml" 36 1294 1311 "bibhva.ml" 36 1294 1314
+)
+"bibhva.ml" 37 1318 1335 "bibhva.ml" 37 1318 1376
+call(
+  stack
+)
+type(
+  string
+)
+"bibhva.ml" 37 1318 1328 "bibhva.ml" 37 1318 1377
+type(
+  exn
+)
+"bibhva.ml" 37 1318 1322 "bibhva.ml" 37 1318 1377
+type(
+  unit
+)
+"bibhva.ml" 35 1272 1274 "bibhva.ml" 37 1318 1377
+type(
+  unit
+)
+"bibhva.ml" 39 1379 1383 "bibhva.ml" 39 1379 1394
+type(
+  string -> bool
+)
+ident(
+  def file_exists "bibhva.ml" 44 1521 1521 "bibhva.ml" 1 0 -1
+)
+"bibhva.ml" 39 1379 1395 "bibhva.ml" 39 1379 1399
+type(
+  string
+)
+ident(
+  def name "bibhva.ml" 40 1402 1404 "bibhva.ml" 42 1453 1517
+)
+"bibhva.ml" 40 1402 1408 "bibhva.ml" 40 1402 1423
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"bibhva.ml" 40 1402 1424 "bibhva.ml" 40 1402 1428
+type(
+  string
+)
+ident(
+  int_ref name "bibhva.ml" 39 1379 1395 "bibhva.ml" 39 1379 1399
+)
+"bibhva.ml" 40 1402 1408 "bibhva.ml" 40 1402 1428
+type(
+  bool
+)
+"bibhva.ml" 41 1429 1446 "bibhva.ml" 41 1429 1449
+type(
+  string
+)
+ident(
+  def msg "bibhva.ml" 42 1453 1457 "bibhva.ml" 42 1453 1517
+)
+"bibhva.ml" 41 1429 1436 "bibhva.ml" 41 1429 1449
+type(
+  exn
+)
+"bibhva.ml" 42 1453 1457 "bibhva.ml" 42 1453 1462
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"bibhva.ml" 42 1453 1471 "bibhva.ml" 42 1453 1485
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"bibhva.ml" 42 1453 1486 "bibhva.ml" 42 1453 1506
+type(
+  (string -> string -> string, unit, string) format
+)
+"bibhva.ml" 42 1453 1507 "bibhva.ml" 42 1453 1511
+type(
+  string
+)
+ident(
+  int_ref name "bibhva.ml" 39 1379 1395 "bibhva.ml" 39 1379 1399
+)
+"bibhva.ml" 42 1453 1512 "bibhva.ml" 42 1453 1515
+type(
+  string
+)
+ident(
+  int_ref msg "bibhva.ml" 41 1429 1446 "bibhva.ml" 41 1429 1449
+)
+"bibhva.ml" 42 1453 1470 "bibhva.ml" 42 1453 1516
+call(
+  stack
+)
+type(
+  string
+)
+"bibhva.ml" 42 1453 1463 "bibhva.ml" 42 1453 1517
+type(
+  exn
+)
+"bibhva.ml" 42 1453 1457 "bibhva.ml" 42 1453 1517
+type(
+  bool
+)
+"bibhva.ml" 40 1402 1404 "bibhva.ml" 42 1453 1517
+type(
+  bool
+)
+"bibhva.ml" 44 1521 1525 "bibhva.ml" 44 1521 1534
+type(
+  (string * string option) list ref
+)
+ident(
+  def preserved "bibhva.ml" 46 1545 1545 "bibhva.ml" 1 0 -1
+)
+"bibhva.ml" 44 1521 1537 "bibhva.ml" 44 1521 1540
+type(
+  (string * string option) list -> (string * string option) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"bibhva.ml" 44 1521 1541 "bibhva.ml" 44 1521 1543
+type(
+  (string * string option) list
+)
+"bibhva.ml" 44 1521 1537 "bibhva.ml" 44 1521 1543
+type(
+  (string * string option) list ref
+)
+"bibhva.ml" 46 1545 1549 "bibhva.ml" 46 1545 1557
+type(
+  string * string option -> unit
+)
+ident(
+  def preserve "bibhva.ml" 49 1646 1646 "bibhva.ml" 1 0 -1
+)
+"bibhva.ml" 46 1545 1558 "bibhva.ml" 46 1545 1559
+type(
+  string * string option
+)
+ident(
+  def x "bibhva.ml" 46 1545 1562 "bibhva.ml" 46 1545 1590
+)
+"bibhva.ml" 46 1545 1562 "bibhva.ml" 46 1545 1571
+type(
+  (string * string option) list ref
+)
+ident(
+  int_ref preserved "bibhva.ml" 44 1521 1525 "bibhva.ml" 44 1521 1534
+)
+"bibhva.ml" 46 1545 1572 "bibhva.ml" 46 1545 1574
+type(
+  (string * string option) list ref -> (string * string option) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"bibhva.ml" 46 1545 1575 "bibhva.ml" 46 1545 1576
+type(
+  string * string option
+)
+ident(
+  int_ref x "bibhva.ml" 46 1545 1558 "bibhva.ml" 46 1545 1559
+)
+"bibhva.ml" 46 1545 1580 "bibhva.ml" 46 1545 1581
+type(
+  (string * string option) list ref -> (string * string option) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"bibhva.ml" 46 1545 1581 "bibhva.ml" 46 1545 1590
+type(
+  (string * string option) list ref
+)
+ident(
+  int_ref preserved "bibhva.ml" 44 1521 1525 "bibhva.ml" 44 1521 1534
+)
+"bibhva.ml" 46 1545 1580 "bibhva.ml" 46 1545 1590
+type(
+  (string * string option) list
+)
+"bibhva.ml" 46 1545 1575 "bibhva.ml" 46 1545 1590
+type(
+  (string * string option) list
+)
+"bibhva.ml" 46 1545 1562 "bibhva.ml" 46 1545 1590
+type(
+  unit
+)
+"bibhva.ml" 49 1646 1654 "bibhva.ml" 49 1646 1663
+type(
+  string -> string -> string
+)
+ident(
+  def temp_file "bibhva.ml" 49 1646 1646 "bibhva.ml" 1 0 -1
+)
+"bibhva.ml" 49 1646 1664 "bibhva.ml" 49 1646 1668
+type(
+  string
+)
+ident(
+  def name "bibhva.ml" 49 1646 1669 "bibhva.ml" 54 1777 1790
+)
+"bibhva.ml" 49 1646 1669 "bibhva.ml" 49 1646 1673
+type(
+  string
+)
+ident(
+  def suff "bibhva.ml" 50 1676 1678 "bibhva.ml" 54 1777 1790
+)
+"bibhva.ml" 50 1676 1682 "bibhva.ml" 50 1676 1691
+type(
+  string
+)
+ident(
+  def temp_name "bibhva.ml" 51 1709 1711 "bibhva.ml" 54 1777 1790
+)
+"bibhva.ml" 50 1676 1694 "bibhva.ml" 50 1676 1698
+type(
+  string
+)
+ident(
+  int_ref name "bibhva.ml" 49 1646 1664 "bibhva.ml" 49 1646 1668
+)
+"bibhva.ml" 50 1676 1699 "bibhva.ml" 50 1676 1700
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"bibhva.ml" 50 1676 1701 "bibhva.ml" 50 1676 1705
+type(
+  string
+)
+ident(
+  int_ref suff "bibhva.ml" 49 1646 1669 "bibhva.ml" 49 1646 1673
+)
+"bibhva.ml" 50 1676 1694 "bibhva.ml" 50 1676 1705
+call(
+  stack
+)
+type(
+  string
+)
+"bibhva.ml" 51 1709 1714 "bibhva.ml" 51 1709 1725
+type(
+  string -> bool
+)
+ident(
+  int_ref file_exists "bibhva.ml" 39 1379 1383 "bibhva.ml" 39 1379 1394
+)
+"bibhva.ml" 51 1709 1726 "bibhva.ml" 51 1709 1735
+type(
+  string
+)
+ident(
+  int_ref temp_name "bibhva.ml" 50 1676 1682 "bibhva.ml" 50 1676 1691
+)
+"bibhva.ml" 51 1709 1714 "bibhva.ml" 51 1709 1735
+call(
+  stack
+)
+type(
+  bool
+)
+"bibhva.ml" 52 1741 1745 "bibhva.ml" 52 1741 1754
+type(
+  string -> string -> string
+)
+ident(
+  int_ref temp_file "bibhva.ml" 49 1646 1654 "bibhva.ml" 49 1646 1663
+)
+"bibhva.ml" 52 1741 1755 "bibhva.ml" 52 1741 1764
+type(
+  string
+)
+ident(
+  int_ref temp_name "bibhva.ml" 50 1676 1682 "bibhva.ml" 50 1676 1691
+)
+"bibhva.ml" 52 1741 1765 "bibhva.ml" 52 1741 1769
+type(
+  string
+)
+ident(
+  int_ref suff "bibhva.ml" 49 1646 1669 "bibhva.ml" 49 1646 1673
+)
+"bibhva.ml" 52 1741 1745 "bibhva.ml" 52 1741 1769
+call(
+  tail
+)
+type(
+  string
+)
+"bibhva.ml" 54 1777 1781 "bibhva.ml" 54 1777 1790
+type(
+  string
+)
+ident(
+  int_ref temp_name "bibhva.ml" 50 1676 1682 "bibhva.ml" 50 1676 1691
+)
+"bibhva.ml" 51 1709 1711 "bibhva.ml" 54 1777 1790
+type(
+  string
+)
+"bibhva.ml" 50 1676 1678 "bibhva.ml" 54 1777 1790
+type(
+  string
+)
+"bibhva.ml" 56 1792 1796 "bibhva.ml" 56 1792 1808
+type(
+  string -> unit
+)
+ident(
+  def save_to_temp "bibhva.ml" 78 2403 2403 "bibhva.ml" 1 0 -1
+)
+"bibhva.ml" 56 1792 1809 "bibhva.ml" 56 1792 1818
+type(
+  string
+)
+ident(
+  def file_name "bibhva.ml" 57 1821 1823 "bibhva.ml" 63 2026 2031
+)
+"bibhva.ml" 57 1821 1826 "bibhva.ml" 57 1821 1837
+type(
+  string -> bool
+)
+ident(
+  int_ref file_exists "bibhva.ml" 39 1379 1383 "bibhva.ml" 39 1379 1394
+)
+"bibhva.ml" 57 1821 1838 "bibhva.ml" 57 1821 1847
+type(
+  string
+)
+ident(
+  int_ref file_name "bibhva.ml" 56 1792 1809 "bibhva.ml" 56 1792 1818
+)
+"bibhva.ml" 57 1821 1826 "bibhva.ml" 57 1821 1847
+call(
+  stack
+)
+type(
+  bool
+)
+"bibhva.ml" 58 1859 1867 "bibhva.ml" 58 1859 1875
+type(
+  string
+)
+ident(
+  def tmp_name "bibhva.ml" 59 1905 1909 "bibhva.ml" 60 1937 1976
+)
+"bibhva.ml" 58 1859 1878 "bibhva.ml" 58 1859 1887
+type(
+  string -> string -> string
+)
+ident(
+  int_ref temp_file "bibhva.ml" 49 1646 1654 "bibhva.ml" 49 1646 1663
+)
+"bibhva.ml" 58 1859 1888 "bibhva.ml" 58 1859 1897
+type(
+  string
+)
+ident(
+  int_ref file_name "bibhva.ml" 56 1792 1809 "bibhva.ml" 56 1792 1818
+)
+"bibhva.ml" 58 1859 1898 "bibhva.ml" 58 1859 1901
+type(
+  string
+)
+"bibhva.ml" 58 1859 1878 "bibhva.ml" 58 1859 1901
+call(
+  stack
+)
+type(
+  string
+)
+"bibhva.ml" 59 1905 1909 "bibhva.ml" 59 1905 1915
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref rename "bibhva.ml" 29 1105 1109 "bibhva.ml" 29 1105 1115
+)
+"bibhva.ml" 59 1905 1916 "bibhva.ml" 59 1905 1925
+type(
+  string
+)
+ident(
+  int_ref file_name "bibhva.ml" 56 1792 1809 "bibhva.ml" 56 1792 1818
+)
+"bibhva.ml" 59 1905 1926 "bibhva.ml" 59 1905 1934
+type(
+  string
+)
+ident(
+  int_ref tmp_name "bibhva.ml" 58 1859 1867 "bibhva.ml" 58 1859 1875
+)
+"bibhva.ml" 59 1905 1909 "bibhva.ml" 59 1905 1934
+call(
+  stack
+)
+type(
+  unit
+)
+"bibhva.ml" 60 1937 1941 "bibhva.ml" 60 1937 1949
+type(
+  string * string option -> unit
+)
+ident(
+  int_ref preserve "bibhva.ml" 46 1545 1549 "bibhva.ml" 46 1545 1557
+)
+"bibhva.ml" 60 1937 1951 "bibhva.ml" 60 1937 1960
+type(
+  string
+)
+ident(
+  int_ref file_name "bibhva.ml" 56 1792 1809 "bibhva.ml" 56 1792 1818
+)
+"bibhva.ml" 60 1937 1967 "bibhva.ml" 60 1937 1975
+type(
+  string
+)
+ident(
+  int_ref tmp_name "bibhva.ml" 58 1859 1867 "bibhva.ml" 58 1859 1875
+)
+"bibhva.ml" 60 1937 1962 "bibhva.ml" 60 1937 1975
+type(
+  string option
+)
+"bibhva.ml" 60 1937 1950 "bibhva.ml" 60 1937 1976
+type(
+  string * string option
+)
+"bibhva.ml" 60 1937 1941 "bibhva.ml" 60 1937 1976
+call(
+  tail
+)
+type(
+  unit
+)
+"bibhva.ml" 59 1905 1909 "bibhva.ml" 60 1937 1976
+type(
+  unit
+)
+"bibhva.ml" 57 1821 1853 "bibhva.ml" 61 1977 1982
+type(
+  unit
+)
+"bibhva.ml" 62 1994 1998 "bibhva.ml" 62 1994 2006
+type(
+  string * string option -> unit
+)
+ident(
+  int_ref preserve "bibhva.ml" 46 1545 1549 "bibhva.ml" 46 1545 1557
+)
+"bibhva.ml" 62 1994 2009 "bibhva.ml" 62 1994 2018
+type(
+  string
+)
+ident(
+  int_ref file_name "bibhva.ml" 56 1792 1809 "bibhva.ml" 56 1792 1818
+)
+"bibhva.ml" 62 1994 2020 "bibhva.ml" 62 1994 2024
+type(
+  string option
+)
+"bibhva.ml" 62 1994 2008 "bibhva.ml" 62 1994 2025
+type(
+  string * string option
+)
+"bibhva.ml" 61 1977 1988 "bibhva.ml" 63 2026 2031
+call(
+  tail
+)
+type(
+  unit
+)
+"bibhva.ml" 57 1821 1823 "bibhva.ml" 63 2026 2031
+type(
+  unit
+)
+"bibhva.ml" 65 2033 2037 "bibhva.ml" 65 2033 2044
+type(
+  unit -> unit
+)
+ident(
+  def restore "bibhva.ml" 78 2403 2403 "bibhva.ml" 1 0 -1
+)
+"bibhva.ml" 65 2033 2045 "bibhva.ml" 65 2033 2047
+type(
+  unit
+)
+"bibhva.ml" 66 2050 2056 "bibhva.ml" 66 2050 2067
+type(
+  string * string option -> unit
+)
+ident(
+  def restore_one "bibhva.ml" 75 2337 2339 "bibhva.ml" 76 2374 2391
+)
+"bibhva.ml" 66 2050 2068 "bibhva.ml" 66 2050 2069
+type(
+  string * string option
+)
+ident(
+  def x "bibhva.ml" 67 2072 2076 "bibhva.ml" 74 2280 2333
+)
+"bibhva.ml" 67 2072 2092 "bibhva.ml" 67 2072 2093
+type(
+  string * string option
+)
+ident(
+  int_ref x "bibhva.ml" 66 2050 2068 "bibhva.ml" 66 2050 2069
+)
+"bibhva.ml" 68 2099 2105 "bibhva.ml" 68 2099 2109
+type(
+  string
+)
+ident(
+  def name "bibhva.ml" 69 2118 2126 "bibhva.ml" 69 2118 2162
+)
+"bibhva.ml" 68 2099 2110 "bibhva.ml" 68 2099 2114
+type(
+  string option
+)
+"bibhva.ml" 68 2099 2105 "bibhva.ml" 68 2099 2114
+type(
+  string * string option
+)
+"bibhva.ml" 69 2118 2129 "bibhva.ml" 69 2118 2140
+type(
+  string -> bool
+)
+ident(
+  int_ref file_exists "bibhva.ml" 39 1379 1383 "bibhva.ml" 39 1379 1394
+)
+"bibhva.ml" 69 2118 2141 "bibhva.ml" 69 2118 2145
+type(
+  string
+)
+ident(
+  int_ref name "bibhva.ml" 68 2099 2105 "bibhva.ml" 68 2099 2109
+)
+"bibhva.ml" 69 2118 2129 "bibhva.ml" 69 2118 2145
+call(
+  stack
+)
+type(
+  bool
+)
+"bibhva.ml" 69 2118 2151 "bibhva.ml" 69 2118 2157
+type(
+  string -> unit
+)
+ident(
+  int_ref remove "bibhva.ml" 34 1254 1258 "bibhva.ml" 34 1254 1264
+)
+"bibhva.ml" 69 2118 2158 "bibhva.ml" 69 2118 2162
+type(
+  string
+)
+ident(
+  int_ref name "bibhva.ml" 68 2099 2105 "bibhva.ml" 68 2099 2109
+)
+"bibhva.ml" 69 2118 2151 "bibhva.ml" 69 2118 2162
+call(
+  stack
+)
+type(
+  unit
+)
+"bibhva.ml" 69 2118 2126 "bibhva.ml" 69 2118 2162
+type(
+  unit
+)
+"bibhva.ml" 70 2163 2169 "bibhva.ml" 70 2163 2173
+type(
+  string
+)
+ident(
+  def name "bibhva.ml" 71 2191 2199 "bibhva.ml" 72 2238 2266
+)
+"bibhva.ml" 70 2163 2179 "bibhva.ml" 70 2163 2187
+type(
+  string
+)
+ident(
+  def tmp_name "bibhva.ml" 71 2191 2199 "bibhva.ml" 72 2238 2266
+)
+"bibhva.ml" 70 2163 2174 "bibhva.ml" 70 2163 2187
+type(
+  string option
+)
+"bibhva.ml" 70 2163 2169 "bibhva.ml" 70 2163 2187
+type(
+  string * string option
+)
+"bibhva.ml" 71 2191 2202 "bibhva.ml" 71 2191 2213
+type(
+  string -> bool
+)
+ident(
+  int_ref file_exists "bibhva.ml" 39 1379 1383 "bibhva.ml" 39 1379 1394
+)
+"bibhva.ml" 71 2191 2214 "bibhva.ml" 71 2191 2218
+type(
+  string
+)
+ident(
+  int_ref name "bibhva.ml" 70 2163 2169 "bibhva.ml" 70 2163 2173
+)
+"bibhva.ml" 71 2191 2202 "bibhva.ml" 71 2191 2218
+call(
+  stack
+)
+type(
+  bool
+)
+"bibhva.ml" 71 2191 2224 "bibhva.ml" 71 2191 2230
+type(
+  string -> unit
+)
+ident(
+  int_ref remove "bibhva.ml" 34 1254 1258 "bibhva.ml" 34 1254 1264
+)
+"bibhva.ml" 71 2191 2231 "bibhva.ml" 71 2191 2235
+type(
+  string
+)
+ident(
+  int_ref name "bibhva.ml" 70 2163 2169 "bibhva.ml" 70 2163 2173
+)
+"bibhva.ml" 71 2191 2224 "bibhva.ml" 71 2191 2235
+call(
+  stack
+)
+type(
+  unit
+)
+"bibhva.ml" 71 2191 2199 "bibhva.ml" 71 2191 2235
+type(
+  unit
+)
+"bibhva.ml" 72 2238 2246 "bibhva.ml" 72 2238 2252
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref rename "bibhva.ml" 29 1105 1109 "bibhva.ml" 29 1105 1115
+)
+"bibhva.ml" 72 2238 2253 "bibhva.ml" 72 2238 2261
+type(
+  string
+)
+ident(
+  int_ref tmp_name "bibhva.ml" 70 2163 2179 "bibhva.ml" 70 2163 2187
+)
+"bibhva.ml" 72 2238 2262 "bibhva.ml" 72 2238 2266
+type(
+  string
+)
+ident(
+  int_ref name "bibhva.ml" 70 2163 2169 "bibhva.ml" 70 2163 2173
+)
+"bibhva.ml" 72 2238 2246 "bibhva.ml" 72 2238 2266
+call(
+  stack
+)
+type(
+  unit
+)
+"bibhva.ml" 71 2191 2199 "bibhva.ml" 72 2238 2266
+type(
+  unit
+)
+"bibhva.ml" 67 2072 2080 "bibhva.ml" 73 2267 2274
+type(
+  unit
+)
+"bibhva.ml" 74 2280 2292 "bibhva.ml" 74 2280 2295
+type(
+  string
+)
+ident(
+  def msg "bibhva.ml" 74 2280 2299 "bibhva.ml" 74 2280 2333
+)
+"bibhva.ml" 74 2280 2286 "bibhva.ml" 74 2280 2295
+type(
+  exn
+)
+"bibhva.ml" 74 2280 2299 "bibhva.ml" 74 2280 2313
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"bibhva.ml" 74 2280 2314 "bibhva.ml" 74 2280 2329
+type(
+  (string -> unit, out_channel, unit) format
+)
+"bibhva.ml" 74 2280 2330 "bibhva.ml" 74 2280 2333
+type(
+  string
+)
+ident(
+  int_ref msg "bibhva.ml" 74 2280 2292 "bibhva.ml" 74 2280 2295
+)
+"bibhva.ml" 74 2280 2299 "bibhva.ml" 74 2280 2333
+call(
+  tail
+)
+type(
+  unit
+)
+"bibhva.ml" 67 2072 2076 "bibhva.ml" 74 2280 2333
+type(
+  unit
+)
+"bibhva.ml" 75 2337 2339 "bibhva.ml" 75 2337 2348
+type(
+  (string * string option -> unit) -> (string * string option) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"bibhva.ml" 75 2337 2349 "bibhva.ml" 75 2337 2360
+type(
+  string * string option -> unit
+)
+ident(
+  int_ref restore_one "bibhva.ml" 66 2050 2056 "bibhva.ml" 66 2050 2067
+)
+"bibhva.ml" 75 2337 2361 "bibhva.ml" 75 2337 2362
+type(
+  (string * string option) list ref -> (string * string option) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"bibhva.ml" 75 2337 2362 "bibhva.ml" 75 2337 2371
+type(
+  (string * string option) list ref
+)
+ident(
+  int_ref preserved "bibhva.ml" 44 1521 1525 "bibhva.ml" 44 1521 1534
+)
+"bibhva.ml" 75 2337 2361 "bibhva.ml" 75 2337 2371
+type(
+  (string * string option) list
+)
+"bibhva.ml" 75 2337 2339 "bibhva.ml" 75 2337 2371
+call(
+  stack
+)
+type(
+  unit
+)
+"bibhva.ml" 76 2374 2376 "bibhva.ml" 76 2374 2385
+type(
+  (string * string option) list ref
+)
+ident(
+  int_ref preserved "bibhva.ml" 44 1521 1525 "bibhva.ml" 44 1521 1534
+)
+"bibhva.ml" 76 2374 2386 "bibhva.ml" 76 2374 2388
+type(
+  (string * string option) list ref -> (string * string option) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"bibhva.ml" 76 2374 2389 "bibhva.ml" 76 2374 2391
+type(
+  (string * string option) list
+)
+"bibhva.ml" 76 2374 2376 "bibhva.ml" 76 2374 2391
+type(
+  unit
+)
+"bibhva.ml" 75 2337 2339 "bibhva.ml" 76 2374 2391
+type(
+  unit
+)
+"bibhva.ml" 66 2050 2052 "bibhva.ml" 76 2374 2391
+type(
+  unit
+)
+"bibhva.ml" 78 2403 2407 "bibhva.ml" 78 2403 2417
+type(
+  string list -> string -> unit
+)
+ident(
+  def run_bibtex "bibhva.ml" 107 3224 3224 "bibhva.ml" 1 0 -1
+)
+"bibhva.ml" 78 2403 2418 "bibhva.ml" 78 2403 2425
+type(
+  string list
+)
+ident(
+  def options "bibhva.ml" 78 2403 2426 "bibhva.ml" 105 3209 3222
+)
+"bibhva.ml" 78 2403 2426 "bibhva.ml" 78 2403 2430
+type(
+  string
+)
+ident(
+  def name "bibhva.ml" 79 2433 2435 "bibhva.ml" 105 3209 3222
+)
+"bibhva.ml" 80 2439 2445 "bibhva.ml" 80 2439 2449
+type(
+  string
+)
+ident(
+  def base "bibhva.ml" 85 2562 2564 "bibhva.ml" 97 3059 3071
+)
+"bibhva.ml" 81 2452 2459 "bibhva.ml" 81 2452 2480
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Filename.check_suffix
+)
+"bibhva.ml" 81 2452 2481 "bibhva.ml" 81 2452 2485
+type(
+  string
+)
+ident(
+  int_ref name "bibhva.ml" 78 2403 2426 "bibhva.ml" 78 2403 2430
+)
+"bibhva.ml" 81 2452 2486 "bibhva.ml" 81 2452 2493
+type(
+  string
+)
+"bibhva.ml" 81 2452 2459 "bibhva.ml" 81 2452 2493
+call(
+  stack
+)
+type(
+  bool
+)
+"bibhva.ml" 82 2499 2505 "bibhva.ml" 82 2499 2525
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.chop_suffix
+)
+"bibhva.ml" 82 2499 2526 "bibhva.ml" 82 2499 2530
+type(
+  string
+)
+ident(
+  int_ref name "bibhva.ml" 78 2403 2426 "bibhva.ml" 78 2403 2430
+)
+"bibhva.ml" 82 2499 2531 "bibhva.ml" 82 2499 2538
+type(
+  string
+)
+"bibhva.ml" 82 2499 2505 "bibhva.ml" 82 2499 2538
+call(
+  stack
+)
+type(
+  string
+)
+"bibhva.ml" 84 2548 2554 "bibhva.ml" 84 2548 2558
+type(
+  string
+)
+ident(
+  int_ref name "bibhva.ml" 78 2403 2426 "bibhva.ml" 78 2403 2430
+)
+"bibhva.ml" 81 2452 2456 "bibhva.ml" 84 2548 2558
+type(
+  string
+)
+"bibhva.ml" 85 2562 2568 "bibhva.ml" 85 2562 2576
+type(
+  string
+)
+ident(
+  def name_aux "bibhva.ml" 87 2629 2631 "bibhva.ml" 97 3059 3071
+)
+"bibhva.ml" 85 2562 2579 "bibhva.ml" 85 2562 2583
+type(
+  string
+)
+ident(
+  int_ref base "bibhva.ml" 80 2439 2445 "bibhva.ml" 80 2439 2449
+)
+"bibhva.ml" 85 2562 2584 "bibhva.ml" 85 2562 2585
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"bibhva.ml" 85 2562 2586 "bibhva.ml" 85 2562 2592
+type(
+  string
+)
+"bibhva.ml" 85 2562 2579 "bibhva.ml" 85 2562 2592
+call(
+  stack
+)
+type(
+  string
+)
+"bibhva.ml" 86 2593 2599 "bibhva.ml" 86 2593 2608
+type(
+  string
+)
+ident(
+  def name_haux "bibhva.ml" 87 2629 2631 "bibhva.ml" 97 3059 3071
+)
+"bibhva.ml" 86 2593 2611 "bibhva.ml" 86 2593 2615
+type(
+  string
+)
+ident(
+  int_ref base "bibhva.ml" 80 2439 2445 "bibhva.ml" 80 2439 2449
+)
+"bibhva.ml" 86 2593 2616 "bibhva.ml" 86 2593 2617
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"bibhva.ml" 86 2593 2618 "bibhva.ml" 86 2593 2625
+type(
+  string
+)
+"bibhva.ml" 86 2593 2611 "bibhva.ml" 86 2593 2625
+call(
+  stack
+)
+type(
+  string
+)
+"bibhva.ml" 87 2629 2631 "bibhva.ml" 87 2629 2643
+type(
+  string -> unit
+)
+ident(
+  int_ref save_to_temp "bibhva.ml" 56 1792 1796 "bibhva.ml" 56 1792 1808
+)
+"bibhva.ml" 87 2629 2644 "bibhva.ml" 87 2629 2652
+type(
+  string
+)
+ident(
+  int_ref name_aux "bibhva.ml" 85 2562 2568 "bibhva.ml" 85 2562 2576
+)
+"bibhva.ml" 87 2629 2631 "bibhva.ml" 87 2629 2652
+call(
+  stack
+)
+type(
+  unit
+)
+"bibhva.ml" 88 2655 2657 "bibhva.ml" 88 2655 2663
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref rename "bibhva.ml" 29 1105 1109 "bibhva.ml" 29 1105 1115
+)
+"bibhva.ml" 88 2655 2664 "bibhva.ml" 88 2655 2673
+type(
+  string
+)
+ident(
+  int_ref name_haux "bibhva.ml" 86 2593 2599 "bibhva.ml" 86 2593 2608
+)
+"bibhva.ml" 88 2655 2674 "bibhva.ml" 88 2655 2682
+type(
+  string
+)
+ident(
+  int_ref name_aux "bibhva.ml" 85 2562 2568 "bibhva.ml" 85 2562 2576
+)
+"bibhva.ml" 88 2655 2657 "bibhva.ml" 88 2655 2682
+call(
+  stack
+)
+type(
+  unit
+)
+"bibhva.ml" 88 2655 2685 "bibhva.ml" 88 2655 2693
+type(
+  string * string option -> unit
+)
+ident(
+  int_ref preserve "bibhva.ml" 46 1545 1549 "bibhva.ml" 46 1545 1557
+)
+"bibhva.ml" 88 2655 2695 "bibhva.ml" 88 2655 2704
+type(
+  string
+)
+ident(
+  int_ref name_haux "bibhva.ml" 86 2593 2599 "bibhva.ml" 86 2593 2608
+)
+"bibhva.ml" 88 2655 2711 "bibhva.ml" 88 2655 2719
+type(
+  string
+)
+ident(
+  int_ref name_aux "bibhva.ml" 85 2562 2568 "bibhva.ml" 85 2562 2576
+)
+"bibhva.ml" 88 2655 2706 "bibhva.ml" 88 2655 2719
+type(
+  string option
+)
+"bibhva.ml" 88 2655 2694 "bibhva.ml" 88 2655 2720
+type(
+  string * string option
+)
+"bibhva.ml" 88 2655 2685 "bibhva.ml" 88 2655 2720
+call(
+  stack
+)
+type(
+  unit
+)
+"bibhva.ml" 89 2723 2729 "bibhva.ml" 89 2723 2732
+type(
+  string
+)
+ident(
+  def cmd "bibhva.ml" 90 2789 2791 "bibhva.ml" 97 3059 3071
+)
+"bibhva.ml" 89 2723 2735 "bibhva.ml" 89 2723 2744
+type(
+  string
+)
+"bibhva.ml" 89 2723 2744 "bibhva.ml" 89 2723 2745
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"bibhva.ml" 89 2723 2745 "bibhva.ml" 89 2723 2758
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"bibhva.ml" 89 2723 2759 "bibhva.ml" 89 2723 2762
+type(
+  string
+)
+"bibhva.ml" 89 2723 2764 "bibhva.ml" 89 2723 2771
+type(
+  string list
+)
+ident(
+  int_ref options "bibhva.ml" 78 2403 2418 "bibhva.ml" 78 2403 2425
+)
+"bibhva.ml" 89 2723 2772 "bibhva.ml" 89 2723 2773
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"bibhva.ml" 89 2723 2775 "bibhva.ml" 89 2723 2783
+type(
+  string
+)
+ident(
+  int_ref name_aux "bibhva.ml" 85 2562 2568 "bibhva.ml" 85 2562 2576
+)
+"bibhva.ml" 89 2723 2774 "bibhva.ml" 89 2723 2784
+type(
+  string list
+)
+"bibhva.ml" 89 2723 2763 "bibhva.ml" 89 2723 2785
+call(
+  stack
+)
+type(
+  string list
+)
+"bibhva.ml" 89 2723 2745 "bibhva.ml" 89 2723 2785
+call(
+  stack
+)
+type(
+  string
+)
+"bibhva.ml" 89 2723 2735 "bibhva.ml" 89 2723 2785
+call(
+  stack
+)
+type(
+  string
+)
+"bibhva.ml" 90 2789 2795 "bibhva.ml" 90 2789 2803
+type(
+  string
+)
+ident(
+  def name_bbl "bibhva.ml" 91 2824 2826 "bibhva.ml" 97 3059 3071
+)
+"bibhva.ml" 90 2789 2807 "bibhva.ml" 90 2789 2811
+type(
+  string
+)
+ident(
+  int_ref base "bibhva.ml" 80 2439 2445 "bibhva.ml" 80 2439 2449
+)
+"bibhva.ml" 90 2789 2812 "bibhva.ml" 90 2789 2813
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"bibhva.ml" 90 2789 2814 "bibhva.ml" 90 2789 2820
+type(
+  string
+)
+"bibhva.ml" 90 2789 2807 "bibhva.ml" 90 2789 2820
+call(
+  stack
+)
+type(
+  string
+)
+"bibhva.ml" 91 2824 2826 "bibhva.ml" 91 2824 2838
+type(
+  string -> unit
+)
+ident(
+  int_ref save_to_temp "bibhva.ml" 56 1792 1796 "bibhva.ml" 56 1792 1808
+)
+"bibhva.ml" 91 2824 2839 "bibhva.ml" 91 2824 2847
+type(
+  string
+)
+ident(
+  int_ref name_bbl "bibhva.ml" 90 2789 2795 "bibhva.ml" 90 2789 2803
+)
+"bibhva.ml" 91 2824 2826 "bibhva.ml" 91 2824 2847
+call(
+  stack
+)
+type(
+  unit
+)
+"bibhva.ml" 93 2913 2915 "bibhva.ml" 93 2913 2921
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"bibhva.ml" 93 2913 2923 "bibhva.ml" 93 2913 2934
+type(
+  string -> int
+)
+ident(
+  ext_ref Sys.command
+)
+"bibhva.ml" 93 2913 2935 "bibhva.ml" 93 2913 2938
+type(
+  string
+)
+ident(
+  int_ref cmd "bibhva.ml" 89 2723 2729 "bibhva.ml" 89 2723 2732
+)
+"bibhva.ml" 93 2913 2922 "bibhva.ml" 93 2913 2939
+type(
+  int
+)
+"bibhva.ml" 93 2913 2915 "bibhva.ml" 93 2913 2939
+type(
+  unit
+)
+"bibhva.ml" 94 2942 2948 "bibhva.ml" 94 2942 2957
+type(
+  string
+)
+ident(
+  def name_hbbl "bibhva.ml" 95 2978 2980 "bibhva.ml" 97 3059 3071
+)
+"bibhva.ml" 94 2942 2960 "bibhva.ml" 94 2942 2964
+type(
+  string
+)
+ident(
+  int_ref base "bibhva.ml" 80 2439 2445 "bibhva.ml" 80 2439 2449
+)
+"bibhva.ml" 94 2942 2965 "bibhva.ml" 94 2942 2966
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"bibhva.ml" 94 2942 2967 "bibhva.ml" 94 2942 2974
+type(
+  string
+)
+"bibhva.ml" 94 2942 2960 "bibhva.ml" 94 2942 2974
+call(
+  stack
+)
+type(
+  string
+)
+"bibhva.ml" 95 2978 2983 "bibhva.ml" 95 2978 2994
+type(
+  string -> bool
+)
+ident(
+  int_ref file_exists "bibhva.ml" 39 1379 1383 "bibhva.ml" 39 1379 1394
+)
+"bibhva.ml" 95 2978 2995 "bibhva.ml" 95 2978 3004
+type(
+  string
+)
+ident(
+  int_ref name_hbbl "bibhva.ml" 94 2942 2948 "bibhva.ml" 94 2942 2957
+)
+"bibhva.ml" 95 2978 2983 "bibhva.ml" 95 2978 3004
+call(
+  stack
+)
+type(
+  bool
+)
+"bibhva.ml" 95 2978 3010 "bibhva.ml" 95 2978 3016
+type(
+  string -> unit
+)
+ident(
+  int_ref remove "bibhva.ml" 34 1254 1258 "bibhva.ml" 34 1254 1264
+)
+"bibhva.ml" 95 2978 3017 "bibhva.ml" 95 2978 3026
+type(
+  string
+)
+ident(
+  int_ref name_hbbl "bibhva.ml" 94 2942 2948 "bibhva.ml" 94 2942 2957
+)
+"bibhva.ml" 95 2978 3010 "bibhva.ml" 95 2978 3026
+call(
+  stack
+)
+type(
+  unit
+)
+"bibhva.ml" 95 2978 2980 "bibhva.ml" 95 2978 3026
+type(
+  unit
+)
+"bibhva.ml" 96 3029 3031 "bibhva.ml" 96 3029 3037
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref rename "bibhva.ml" 29 1105 1109 "bibhva.ml" 29 1105 1115
+)
+"bibhva.ml" 96 3029 3038 "bibhva.ml" 96 3029 3046
+type(
+  string
+)
+ident(
+  int_ref name_bbl "bibhva.ml" 90 2789 2795 "bibhva.ml" 90 2789 2803
+)
+"bibhva.ml" 96 3029 3047 "bibhva.ml" 96 3029 3056
+type(
+  string
+)
+ident(
+  int_ref name_hbbl "bibhva.ml" 94 2942 2948 "bibhva.ml" 94 2942 2957
+)
+"bibhva.ml" 96 3029 3031 "bibhva.ml" 96 3029 3056
+call(
+  stack
+)
+type(
+  unit
+)
+"bibhva.ml" 97 3059 3061 "bibhva.ml" 97 3059 3068
+type(
+  unit -> unit
+)
+ident(
+  int_ref restore "bibhva.ml" 65 2033 2037 "bibhva.ml" 65 2033 2044
+)
+"bibhva.ml" 97 3059 3069 "bibhva.ml" 97 3059 3071
+type(
+  unit
+)
+"bibhva.ml" 97 3059 3061 "bibhva.ml" 97 3059 3071
+call(
+  stack
+)
+type(
+  unit
+)
+"bibhva.ml" 96 3029 3031 "bibhva.ml" 97 3059 3071
+type(
+  unit
+)
+"bibhva.ml" 95 2978 2980 "bibhva.ml" 97 3059 3071
+type(
+  unit
+)
+"bibhva.ml" 94 2942 2944 "bibhva.ml" 97 3059 3071
+type(
+  unit
+)
+"bibhva.ml" 93 2913 2915 "bibhva.ml" 97 3059 3071
+type(
+  unit
+)
+"bibhva.ml" 91 2824 2826 "bibhva.ml" 97 3059 3071
+type(
+  unit
+)
+"bibhva.ml" 90 2789 2791 "bibhva.ml" 97 3059 3071
+type(
+  unit
+)
+"bibhva.ml" 89 2723 2725 "bibhva.ml" 97 3059 3071
+type(
+  unit
+)
+"bibhva.ml" 88 2655 2685 "bibhva.ml" 97 3059 3071
+type(
+  unit
+)
+"bibhva.ml" 88 2655 2657 "bibhva.ml" 97 3059 3071
+type(
+  unit
+)
+"bibhva.ml" 87 2629 2631 "bibhva.ml" 97 3059 3071
+type(
+  unit
+)
+"bibhva.ml" 85 2562 2564 "bibhva.ml" 97 3059 3071
+type(
+  unit
+)
+"bibhva.ml" 80 2439 2441 "bibhva.ml" 97 3059 3071
+type(
+  unit
+)
+"bibhva.ml" 99 3079 3089 "bibhva.ml" 99 3079 3092
+type(
+  string
+)
+ident(
+  def msg "bibhva.ml" 100 3096 3102 "bibhva.ml" 102 3168 3180
+)
+"bibhva.ml" 99 3079 3083 "bibhva.ml" 99 3079 3092
+type(
+  exn
+)
+"bibhva.ml" 100 3096 3102 "bibhva.ml" 100 3096 3116
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"bibhva.ml" 100 3096 3117 "bibhva.ml" 100 3096 3142
+type(
+  (string -> unit, out_channel, unit) format
+)
+"bibhva.ml" 100 3096 3143 "bibhva.ml" 100 3096 3146
+type(
+  string
+)
+ident(
+  int_ref msg "bibhva.ml" 99 3079 3089 "bibhva.ml" 99 3079 3092
+)
+"bibhva.ml" 100 3096 3102 "bibhva.ml" 100 3096 3146
+call(
+  stack
+)
+type(
+  unit
+)
+"bibhva.ml" 101 3149 3155 "bibhva.ml" 101 3149 3162
+type(
+  unit -> unit
+)
+ident(
+  int_ref restore "bibhva.ml" 65 2033 2037 "bibhva.ml" 65 2033 2044
+)
+"bibhva.ml" 101 3149 3163 "bibhva.ml" 101 3149 3165
+type(
+  unit
+)
+"bibhva.ml" 101 3149 3155 "bibhva.ml" 101 3149 3165
+call(
+  stack
+)
+type(
+  unit
+)
+"bibhva.ml" 102 3168 3174 "bibhva.ml" 102 3168 3178
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"bibhva.ml" 102 3168 3179 "bibhva.ml" 102 3168 3180
+type(
+  int
+)
+"bibhva.ml" 102 3168 3174 "bibhva.ml" 102 3168 3180
+call(
+  tail
+)
+type(
+  unit
+)
+"bibhva.ml" 101 3149 3155 "bibhva.ml" 102 3168 3180
+type(
+  unit
+)
+"bibhva.ml" 100 3096 3102 "bibhva.ml" 102 3168 3180
+type(
+  unit
+)
+"bibhva.ml" 103 3181 3185 "bibhva.ml" 103 3181 3186
+type(
+  exn
+)
+ident(
+  def e "bibhva.ml" 104 3190 3196 "bibhva.ml" 105 3209 3222
+)
+"bibhva.ml" 104 3190 3196 "bibhva.ml" 104 3190 3203
+type(
+  unit -> unit
+)
+ident(
+  int_ref restore "bibhva.ml" 65 2033 2037 "bibhva.ml" 65 2033 2044
+)
+"bibhva.ml" 104 3190 3204 "bibhva.ml" 104 3190 3206
+type(
+  unit
+)
+"bibhva.ml" 104 3190 3196 "bibhva.ml" 104 3190 3206
+call(
+  stack
+)
+type(
+  unit
+)
+"bibhva.ml" 105 3209 3215 "bibhva.ml" 105 3209 3220
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"bibhva.ml" 105 3209 3221 "bibhva.ml" 105 3209 3222
+type(
+  exn
+)
+ident(
+  int_ref e "bibhva.ml" 103 3181 3185 "bibhva.ml" 103 3181 3186
+)
+"bibhva.ml" 105 3209 3215 "bibhva.ml" 105 3209 3222
+type(
+  unit
+)
+"bibhva.ml" 104 3190 3196 "bibhva.ml" 105 3209 3222
+type(
+  unit
+)
+"bibhva.ml" 79 2433 2435 "bibhva.ml" 105 3209 3222
+type(
+  unit
+)
+"bibhva.ml" 108 3232 3238 "bibhva.ml" 108 3232 3245
+type(
+  string list
+)
+ident(
+  def options "bibhva.ml" 109 3271 3273 "bibhva.ml" 110 3299 3307
+)
+"bibhva.ml" 108 3232 3247 "bibhva.ml" 108 3232 3251
+type(
+  string
+)
+ident(
+  def name "bibhva.ml" 109 3271 3273 "bibhva.ml" 110 3299 3307
+)
+"bibhva.ml" 108 3232 3238 "bibhva.ml" 108 3232 3251
+type(
+  string list * string
+)
+"bibhva.ml" 108 3232 3254 "bibhva.ml" 108 3232 3264
+type(
+  unit -> string list * string
+)
+ident(
+  int_ref parse_args "bibhva.ml" 14 808 812 "bibhva.ml" 14 808 822
+)
+"bibhva.ml" 108 3232 3265 "bibhva.ml" 108 3232 3267
+type(
+  unit
+)
+"bibhva.ml" 108 3232 3254 "bibhva.ml" 108 3232 3267
+call(
+  stack
+)
+type(
+  string list * string
+)
+"bibhva.ml" 109 3271 3273 "bibhva.ml" 109 3271 3283
+type(
+  string list -> string -> unit
+)
+ident(
+  int_ref run_bibtex "bibhva.ml" 78 2403 2407 "bibhva.ml" 78 2403 2417
+)
+"bibhva.ml" 109 3271 3284 "bibhva.ml" 109 3271 3291
+type(
+  string list
+)
+ident(
+  int_ref options "bibhva.ml" 108 3232 3238 "bibhva.ml" 108 3232 3245
+)
+"bibhva.ml" 109 3271 3292 "bibhva.ml" 109 3271 3296
+type(
+  string
+)
+ident(
+  int_ref name "bibhva.ml" 108 3232 3247 "bibhva.ml" 108 3232 3251
+)
+"bibhva.ml" 109 3271 3273 "bibhva.ml" 109 3271 3296
+call(
+  stack
+)
+type(
+  unit
+)
+"bibhva.ml" 110 3299 3301 "bibhva.ml" 110 3299 3305
+type(
+  int -> 'a
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"bibhva.ml" 110 3299 3306 "bibhva.ml" 110 3299 3307
+type(
+  int
+)
+"bibhva.ml" 110 3299 3301 "bibhva.ml" 110 3299 3307
+call(
+  stack
+)
+type(
+  'a
+)
+"bibhva.ml" 109 3271 3273 "bibhva.ml" 110 3299 3307
+type(
+  'a
+)
+"bibhva.ml" 108 3232 3234 "bibhva.ml" 110 3299 3307
+type(
+  'a
+)

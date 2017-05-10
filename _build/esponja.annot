@@ -1,0 +1,748 @@
+"esponja.ml" 14 754 758 "esponja.ml" 14 754 761
+type(
+  string list ref
+)
+ident(
+  def arg "esponja.ml" 15 771 771 "esponja.ml" 1 0 -1
+)
+"esponja.ml" 14 754 764 "esponja.ml" 14 754 767
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"esponja.ml" 14 754 768 "esponja.ml" 14 754 770
+type(
+  string list
+)
+"esponja.ml" 14 754 764 "esponja.ml" 14 754 770
+type(
+  string list ref
+)
+"esponja.ml" 15 771 775 "esponja.ml" 15 771 779
+type(
+  bool ref
+)
+ident(
+  def pess "esponja.ml" 16 792 792 "esponja.ml" 1 0 -1
+)
+"esponja.ml" 15 771 782 "esponja.ml" 15 771 785
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"esponja.ml" 15 771 786 "esponja.ml" 15 771 791
+type(
+  bool
+)
+"esponja.ml" 15 771 782 "esponja.ml" 15 771 791
+type(
+  bool ref
+)
+"esponja.ml" 16 792 796 "esponja.ml" 16 792 800
+type(
+  bool ref
+)
+ident(
+  def move "esponja.ml" 17 812 812 "esponja.ml" 1 0 -1
+)
+"esponja.ml" 16 792 803 "esponja.ml" 16 792 806
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"esponja.ml" 16 792 807 "esponja.ml" 16 792 811
+type(
+  bool
+)
+"esponja.ml" 16 792 803 "esponja.ml" 16 792 811
+type(
+  bool ref
+)
+"esponja.ml" 17 812 816 "esponja.ml" 17 812 828
+type(
+  int ref
+)
+ident(
+  def small_length "esponja.ml" 19 841 841 "esponja.ml" 1 0 -1
+)
+"esponja.ml" 17 812 831 "esponja.ml" 17 812 834
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"esponja.ml" 17 812 835 "esponja.ml" 17 812 839
+type(
+  int
+)
+"esponja.ml" 17 812 831 "esponja.ml" 17 812 839
+type(
+  int ref
+)
+"esponja.ml" 19 841 845 "esponja.ml" 19 841 847
+type(
+  unit
+)
+"esponja.ml" 20 850 852 "esponja.ml" 20 850 861
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"esponja.ml" 22 868 874 "esponja.ml" 22 868 884
+type(
+  Arg.key
+)
+"esponja.ml" 23 895 905 "esponja.ml" 23 895 907
+type(
+  unit
+)
+"esponja.ml" 24 911 918 "esponja.ml" 24 911 931
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"esponja.ml" 24 911 933 "esponja.ml" 24 911 943
+type(
+  string
+)
+"esponja.ml" 24 911 943 "esponja.ml" 24 911 944
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"esponja.ml" 24 911 944 "esponja.ml" 24 911 959
+type(
+  string
+)
+ident(
+  ext_ref Version.version
+)
+"esponja.ml" 24 911 932 "esponja.ml" 24 911 960
+call(
+  stack
+)
+type(
+  string
+)
+"esponja.ml" 24 911 918 "esponja.ml" 24 911 960
+call(
+  stack
+)
+type(
+  unit
+)
+"esponja.ml" 25 963 970 "esponja.ml" 25 963 983
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"esponja.ml" 25 963 985 "esponja.ml" 25 963 1006
+type(
+  string
+)
+"esponja.ml" 25 963 1006 "esponja.ml" 25 963 1007
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"esponja.ml" 25 963 1007 "esponja.ml" 25 963 1026
+type(
+  string
+)
+ident(
+  ext_ref Mylib.static_libdir
+)
+"esponja.ml" 25 963 984 "esponja.ml" 25 963 1027
+call(
+  stack
+)
+type(
+  string
+)
+"esponja.ml" 25 963 970 "esponja.ml" 25 963 1027
+call(
+  stack
+)
+type(
+  unit
+)
+"esponja.ml" 26 1030 1037 "esponja.ml" 26 1030 1041
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"esponja.ml" 26 1030 1042 "esponja.ml" 26 1030 1043
+type(
+  int
+)
+"esponja.ml" 26 1030 1037 "esponja.ml" 26 1030 1043
+call(
+  tail
+)
+type(
+  unit
+)
+"esponja.ml" 25 963 970 "esponja.ml" 26 1030 1043
+type(
+  unit
+)
+"esponja.ml" 24 911 918 "esponja.ml" 26 1030 1043
+type(
+  unit
+)
+"esponja.ml" 23 895 900 "esponja.ml" 26 1030 1044
+type(
+  unit -> unit
+)
+"esponja.ml" 22 868 886 "esponja.ml" 26 1030 1044
+type(
+  Arg.spec
+)
+"esponja.ml" 27 1046 1051 "esponja.ml" 27 1046 1074
+type(
+  Arg.doc
+)
+"esponja.ml" 22 868 873 "esponja.ml" 27 1046 1075
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"esponja.ml" 28 1078 1084 "esponja.ml" 28 1078 1090
+type(
+  Arg.key
+)
+"esponja.ml" 28 1078 1105 "esponja.ml" 28 1078 1106
+type(
+  int
+)
+ident(
+  def i "esponja.ml" 28 1078 1110 "esponja.ml" 28 1078 1127
+)
+"esponja.ml" 28 1078 1110 "esponja.ml" 28 1078 1122
+type(
+  int ref
+)
+ident(
+  int_ref small_length "esponja.ml" 17 812 816 "esponja.ml" 17 812 828
+)
+"esponja.ml" 28 1078 1123 "esponja.ml" 28 1078 1125
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"esponja.ml" 28 1078 1126 "esponja.ml" 28 1078 1127
+type(
+  int
+)
+ident(
+  int_ref i "esponja.ml" 28 1078 1105 "esponja.ml" 28 1078 1106
+)
+"esponja.ml" 28 1078 1110 "esponja.ml" 28 1078 1127
+type(
+  unit
+)
+"esponja.ml" 28 1078 1100 "esponja.ml" 28 1078 1128
+type(
+  int -> unit
+)
+"esponja.ml" 28 1078 1092 "esponja.ml" 28 1078 1128
+type(
+  Arg.spec
+)
+"esponja.ml" 29 1130 1137 "esponja.ml" 29 1130 1144
+type(
+  (int -> Arg.doc, unit, Arg.doc) format -> int -> Arg.doc
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"esponja.ml" 30 1145 1154 "esponja.ml" 30 1145 1206
+type(
+  (int -> Arg.doc, unit, Arg.doc) format
+)
+"esponja.ml" 31 1207 1216 "esponja.ml" 31 1207 1217
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"esponja.ml" 31 1207 1217 "esponja.ml" 31 1207 1229
+type(
+  int ref
+)
+ident(
+  int_ref small_length "esponja.ml" 17 812 816 "esponja.ml" 17 812 828
+)
+"esponja.ml" 31 1207 1216 "esponja.ml" 31 1207 1229
+type(
+  int
+)
+"esponja.ml" 29 1130 1136 "esponja.ml" 31 1207 1230
+call(
+  stack
+)
+type(
+  Arg.doc
+)
+"esponja.ml" 28 1078 1083 "esponja.ml" 31 1207 1231
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"esponja.ml" 32 1234 1239 "esponja.ml" 32 1234 1243
+type(
+  Arg.key
+)
+"esponja.ml" 32 1234 1253 "esponja.ml" 32 1234 1257
+type(
+  bool ref
+)
+ident(
+  int_ref pess "esponja.ml" 15 771 775 "esponja.ml" 15 771 779
+)
+"esponja.ml" 32 1234 1245 "esponja.ml" 32 1234 1257
+type(
+  Arg.spec
+)
+"esponja.ml" 32 1234 1259 "esponja.ml" 32 1234 1270
+type(
+  Arg.doc
+)
+"esponja.ml" 32 1234 1239 "esponja.ml" 32 1234 1270
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"esponja.ml" 33 1273 1278 "esponja.ml" 33 1273 1282
+type(
+  Arg.key
+)
+"esponja.ml" 33 1273 1298 "esponja.ml" 33 1273 1300
+type(
+  unit
+)
+"esponja.ml" 33 1273 1304 "esponja.ml" 33 1273 1308
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"esponja.ml" 33 1273 1309 "esponja.ml" 33 1273 1322
+type(
+  int ref
+)
+ident(
+  ext_ref Emisc.verbose
+)
+"esponja.ml" 33 1273 1304 "esponja.ml" 33 1273 1322
+type(
+  unit
+)
+"esponja.ml" 33 1273 1293 "esponja.ml" 33 1273 1323
+type(
+  unit -> unit
+)
+"esponja.ml" 33 1273 1284 "esponja.ml" 33 1273 1323
+type(
+  Arg.spec
+)
+"esponja.ml" 33 1273 1324 "esponja.ml" 33 1273 1336
+type(
+  Arg.doc
+)
+"esponja.ml" 33 1273 1278 "esponja.ml" 33 1273 1336
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"esponja.ml" 34 1339 1344 "esponja.ml" 34 1339 1348
+type(
+  Arg.key
+)
+"esponja.ml" 34 1339 1364 "esponja.ml" 34 1339 1366
+type(
+  unit
+)
+"esponja.ml" 34 1339 1370 "esponja.ml" 34 1339 1374
+type(
+  bool ref
+)
+ident(
+  int_ref move "esponja.ml" 16 792 796 "esponja.ml" 16 792 800
+)
+"esponja.ml" 34 1339 1375 "esponja.ml" 34 1339 1377
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"esponja.ml" 34 1339 1378 "esponja.ml" 34 1339 1383
+type(
+  bool
+)
+"esponja.ml" 34 1339 1370 "esponja.ml" 34 1339 1383
+type(
+  unit
+)
+"esponja.ml" 34 1339 1386 "esponja.ml" 34 1339 1390
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"esponja.ml" 34 1339 1391 "esponja.ml" 34 1339 1404
+type(
+  int ref
+)
+ident(
+  ext_ref Emisc.verbose
+)
+"esponja.ml" 34 1339 1386 "esponja.ml" 34 1339 1404
+type(
+  unit
+)
+"esponja.ml" 34 1339 1370 "esponja.ml" 34 1339 1404
+type(
+  unit
+)
+"esponja.ml" 34 1339 1359 "esponja.ml" 34 1339 1405
+type(
+  unit -> unit
+)
+"esponja.ml" 34 1339 1350 "esponja.ml" 34 1339 1405
+type(
+  Arg.spec
+)
+"esponja.ml" 35 1407 1412 "esponja.ml" 35 1407 1433
+type(
+  Arg.doc
+)
+"esponja.ml" 34 1339 1344 "esponja.ml" 35 1407 1433
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"esponja.ml" 21 862 866 "esponja.ml" 35 1407 1436
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"esponja.ml" 36 1437 1446 "esponja.ml" 36 1437 1447
+type(
+  string
+)
+ident(
+  def s "esponja.ml" 36 1437 1451 "esponja.ml" 36 1437 1468
+)
+"esponja.ml" 36 1437 1451 "esponja.ml" 36 1437 1454
+type(
+  string list ref
+)
+ident(
+  int_ref arg "esponja.ml" 14 754 758 "esponja.ml" 14 754 761
+)
+"esponja.ml" 36 1437 1455 "esponja.ml" 36 1437 1457
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"esponja.ml" 36 1437 1459 "esponja.ml" 36 1437 1460
+type(
+  string
+)
+ident(
+  int_ref s "esponja.ml" 36 1437 1446 "esponja.ml" 36 1437 1447
+)
+"esponja.ml" 36 1437 1464 "esponja.ml" 36 1437 1465
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"esponja.ml" 36 1437 1465 "esponja.ml" 36 1437 1468
+type(
+  string list ref
+)
+ident(
+  int_ref arg "esponja.ml" 14 754 758 "esponja.ml" 14 754 761
+)
+"esponja.ml" 36 1437 1464 "esponja.ml" 36 1437 1468
+type(
+  string list
+)
+"esponja.ml" 36 1437 1459 "esponja.ml" 36 1437 1468
+type(
+  string list
+)
+"esponja.ml" 36 1437 1451 "esponja.ml" 36 1437 1468
+type(
+  unit
+)
+"esponja.ml" 36 1437 1441 "esponja.ml" 36 1437 1469
+type(
+  Arg.anon_fun
+)
+"esponja.ml" 37 1470 1472 "esponja.ml" 37 1470 1520
+type(
+  Arg.usage_msg
+)
+"esponja.ml" 20 850 852 "esponja.ml" 37 1470 1520
+call(
+  stack
+)
+type(
+  unit
+)
+"esponja.ml" 43 1559 1569 "esponja.ml" 43 1559 1573
+type(
+  bool
+)
+ident(
+  def pess "esponja.ml" 44 1582 1588 "esponja.ml" 46 1644 1651
+)
+"esponja.ml" 43 1559 1576 "esponja.ml" 43 1559 1577
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"esponja.ml" 43 1559 1577 "esponja.ml" 43 1559 1581
+type(
+  bool ref
+)
+ident(
+  int_ref pess "esponja.ml" 15 771 775 "esponja.ml" 15 771 779
+)
+"esponja.ml" 43 1559 1576 "esponja.ml" 43 1559 1581
+type(
+  bool
+)
+"esponja.ml" 44 1582 1592 "esponja.ml" 44 1582 1596
+type(
+  bool
+)
+ident(
+  def move "esponja.ml" 45 1605 1611 "esponja.ml" 46 1644 1651
+)
+"esponja.ml" 44 1582 1599 "esponja.ml" 44 1582 1600
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"esponja.ml" 44 1582 1600 "esponja.ml" 44 1582 1604
+type(
+  bool ref
+)
+ident(
+  int_ref move "esponja.ml" 16 792 796 "esponja.ml" 16 792 800
+)
+"esponja.ml" 44 1582 1599 "esponja.ml" 44 1582 1604
+type(
+  bool
+)
+"esponja.ml" 45 1605 1615 "esponja.ml" 45 1605 1627
+type(
+  int
+)
+ident(
+  def small_length "esponja.ml" 45 1605 1643 "esponja.ml" 46 1644 1651
+)
+"esponja.ml" 45 1605 1630 "esponja.ml" 45 1605 1631
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"esponja.ml" 45 1605 1631 "esponja.ml" 45 1605 1643
+type(
+  int ref
+)
+ident(
+  int_ref small_length "esponja.ml" 17 812 816 "esponja.ml" 17 812 828
+)
+"esponja.ml" 45 1605 1630 "esponja.ml" 45 1605 1643
+type(
+  int
+)
+"esponja.ml" 41 1536 1538 "esponja.ml" 46 1644 1652
+call(
+  stack
+)
+"esponja.ml" 48 1654 1658 "esponja.ml" 48 1654 1665
+type(
+  string -> unit
+)
+ident(
+  def process "esponja.ml" 50 1712 1712 "esponja.ml" 1 0 -1
+)
+"esponja.ml" 48 1654 1666 "esponja.ml" 48 1654 1670
+type(
+  string
+)
+ident(
+  def name "esponja.ml" 48 1654 1673 "esponja.ml" 48 1654 1710
+)
+"esponja.ml" 48 1654 1677 "esponja.ml" 48 1654 1683
+type(
+  string -> unit
+)
+ident(
+  ext_ref E.file
+)
+"esponja.ml" 48 1654 1684 "esponja.ml" 48 1654 1688
+type(
+  string
+)
+ident(
+  int_ref name "esponja.ml" 48 1654 1666 "esponja.ml" 48 1654 1670
+)
+"esponja.ml" 48 1654 1677 "esponja.ml" 48 1654 1688
+call(
+  stack
+)
+type(
+  unit
+)
+"esponja.ml" 48 1654 1694 "esponja.ml" 48 1654 1704
+type(
+  exn
+)
+"esponja.ml" 48 1654 1708 "esponja.ml" 48 1654 1710
+type(
+  unit
+)
+"esponja.ml" 48 1654 1673 "esponja.ml" 48 1654 1710
+type(
+  unit
+)
+"esponja.ml" 50 1712 1716 "esponja.ml" 50 1712 1720
+type(
+  unit -> 'a
+)
+ident(
+  def main "esponja.ml" 62 1916 1916 "esponja.ml" 1 0 -1
+)
+"esponja.ml" 50 1712 1721 "esponja.ml" 50 1712 1723
+type(
+  unit
+)
+"esponja.ml" 52 1737 1741 "esponja.ml" 52 1737 1750
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"esponja.ml" 52 1737 1751 "esponja.ml" 52 1737 1758
+type(
+  string -> unit
+)
+ident(
+  int_ref process "esponja.ml" 48 1654 1658 "esponja.ml" 48 1654 1665
+)
+"esponja.ml" 52 1737 1760 "esponja.ml" 52 1737 1768
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"esponja.ml" 52 1737 1769 "esponja.ml" 52 1737 1770
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"esponja.ml" 52 1737 1770 "esponja.ml" 52 1737 1773
+type(
+  string list ref
+)
+ident(
+  int_ref arg "esponja.ml" 14 754 758 "esponja.ml" 14 754 761
+)
+"esponja.ml" 52 1737 1769 "esponja.ml" 52 1737 1773
+type(
+  string list
+)
+"esponja.ml" 52 1737 1759 "esponja.ml" 52 1737 1774
+call(
+  stack
+)
+type(
+  string list
+)
+"esponja.ml" 52 1737 1741 "esponja.ml" 52 1737 1774
+call(
+  stack
+)
+type(
+  unit
+)
+"esponja.ml" 53 1777 1781 "esponja.ml" 53 1777 1785
+type(
+  int -> 'a
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"esponja.ml" 53 1777 1786 "esponja.ml" 53 1777 1787
+type(
+  int
+)
+"esponja.ml" 53 1777 1781 "esponja.ml" 53 1777 1787
+call(
+  tail
+)
+type(
+  'a
+)
+"esponja.ml" 52 1737 1741 "esponja.ml" 53 1777 1787
+type(
+  'a
+)
+"esponja.ml" 62 1916 1916 "esponja.ml" 62 1916 1920
+type(
+  unit -> 'a
+)
+ident(
+  int_ref main "esponja.ml" 50 1712 1716 "esponja.ml" 50 1712 1720
+)
+"esponja.ml" 62 1916 1921 "esponja.ml" 62 1916 1923
+type(
+  unit
+)
+"esponja.ml" 62 1916 1916 "esponja.ml" 62 1916 1923
+call(
+  stack
+)
+type(
+  'a
+)

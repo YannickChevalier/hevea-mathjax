@@ -1,0 +1,1523 @@
+"image.ml" 14 752 756 "image.ml" 14 752 760
+type(
+  string
+)
+ident(
+  def base "image.ml" 17 787 787 "image.ml" 1 0 -1
+)
+"image.ml" 14 752 763 "image.ml" 14 752 782
+type(
+  string
+)
+ident(
+  ext_ref Parse_opts.base_out
+)
+"image.ml" 17 787 791 "image.ml" 17 787 796
+type(
+  int ref
+)
+ident(
+  def count "image.ml" 20 809 809 "image.ml" 1 0 -1
+)
+"image.ml" 17 787 799 "image.ml" 17 787 802
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"image.ml" 17 787 803 "image.ml" 17 787 804
+type(
+  int
+)
+"image.ml" 17 787 799 "image.ml" 17 787 804
+type(
+  int ref
+)
+"image.ml" 20 809 813 "image.ml" 20 809 817
+type(
+  Out.t ref
+)
+ident(
+  def buff "image.ml" 23 849 849 "image.ml" 1 0 -1
+)
+"image.ml" 20 809 820 "image.ml" 20 809 823
+type(
+  Out.t -> Out.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"image.ml" 20 809 825 "image.ml" 20 809 840
+type(
+  unit -> Out.t
+)
+ident(
+  ext_ref Out.create_null
+)
+"image.ml" 20 809 841 "image.ml" 20 809 843
+type(
+  unit
+)
+"image.ml" 20 809 824 "image.ml" 20 809 844
+call(
+  stack
+)
+type(
+  Out.t
+)
+"image.ml" 20 809 820 "image.ml" 20 809 844
+type(
+  Out.t ref
+)
+"image.ml" 23 849 853 "image.ml" 23 849 859
+type(
+  bool ref
+)
+ident(
+  def active "image.ml" 26 876 876 "image.ml" 1 0 -1
+)
+"image.ml" 23 849 862 "image.ml" 23 849 865
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"image.ml" 23 849 866 "image.ml" 23 849 871
+type(
+  bool
+)
+"image.ml" 23 849 862 "image.ml" 23 849 871
+type(
+  bool ref
+)
+"image.ml" 26 876 880 "image.ml" 26 876 885
+type(
+  unit -> unit
+)
+ident(
+  def start "image.ml" 32 958 958 "image.ml" 1 0 -1
+)
+"image.ml" 26 876 886 "image.ml" 26 876 888
+type(
+  unit
+)
+"image.ml" 27 891 893 "image.ml" 27 891 899
+type(
+  bool ref
+)
+ident(
+  int_ref active "image.ml" 23 849 853 "image.ml" 23 849 859
+)
+"image.ml" 27 891 900 "image.ml" 27 891 902
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"image.ml" 27 891 903 "image.ml" 27 891 907
+type(
+  bool
+)
+"image.ml" 27 891 893 "image.ml" 27 891 907
+type(
+  unit
+)
+"image.ml" 28 910 912 "image.ml" 28 910 917
+type(
+  int ref
+)
+ident(
+  int_ref count "image.ml" 17 787 791 "image.ml" 17 787 796
+)
+"image.ml" 28 910 918 "image.ml" 28 910 920
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"image.ml" 28 910 921 "image.ml" 28 910 922
+type(
+  int
+)
+"image.ml" 28 910 912 "image.ml" 28 910 922
+type(
+  unit
+)
+"image.ml" 29 925 927 "image.ml" 29 925 931
+type(
+  Out.t ref
+)
+ident(
+  int_ref buff "image.ml" 20 809 813 "image.ml" 20 809 817
+)
+"image.ml" 29 925 932 "image.ml" 29 925 934
+type(
+  Out.t ref -> Out.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"image.ml" 29 925 935 "image.ml" 29 925 950
+type(
+  unit -> Out.t
+)
+ident(
+  ext_ref Out.create_buff
+)
+"image.ml" 29 925 951 "image.ml" 29 925 953
+type(
+  unit
+)
+"image.ml" 29 925 935 "image.ml" 29 925 953
+call(
+  stack
+)
+type(
+  Out.t
+)
+"image.ml" 29 925 927 "image.ml" 29 925 953
+type(
+  unit
+)
+"image.ml" 28 910 912 "image.ml" 29 925 953
+type(
+  unit
+)
+"image.ml" 27 891 893 "image.ml" 29 925 953
+type(
+  unit
+)
+"image.ml" 32 958 962 "image.ml" 32 958 974
+type(
+  bool MyStack.t
+)
+ident(
+  def active_stack "image.ml" 34 1009 1009 "image.ml" 1 0 -1
+)
+"image.ml" 32 958 977 "image.ml" 32 958 991
+type(
+  string -> bool MyStack.t
+)
+ident(
+  ext_ref MyStack.create
+)
+"image.ml" 32 958 992 "image.ml" 32 958 1006
+type(
+  string
+)
+"image.ml" 32 958 977 "image.ml" 32 958 1006
+call(
+  stack
+)
+type(
+  bool MyStack.t
+)
+"image.ml" 34 1009 1013 "image.ml" 34 1009 1017
+type(
+  unit -> unit
+)
+ident(
+  def stop "image.ml" 44 1200 1200 "image.ml" 1 0 -1
+)
+"image.ml" 34 1009 1018 "image.ml" 34 1009 1020
+type(
+  unit
+)
+"image.ml" 35 1023 1025 "image.ml" 35 1023 1037
+type(
+  bool MyStack.t -> bool -> unit
+)
+ident(
+  ext_ref MyStack.push
+)
+"image.ml" 35 1023 1038 "image.ml" 35 1023 1050
+type(
+  bool MyStack.t
+)
+ident(
+  int_ref active_stack "image.ml" 32 958 962 "image.ml" 32 958 974
+)
+"image.ml" 35 1023 1051 "image.ml" 35 1023 1052
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"image.ml" 35 1023 1052 "image.ml" 35 1023 1058
+type(
+  bool ref
+)
+ident(
+  int_ref active "image.ml" 23 849 853 "image.ml" 23 849 859
+)
+"image.ml" 35 1023 1051 "image.ml" 35 1023 1058
+type(
+  bool
+)
+"image.ml" 35 1023 1025 "image.ml" 35 1023 1058
+call(
+  stack
+)
+type(
+  unit
+)
+"image.ml" 36 1061 1063 "image.ml" 36 1061 1069
+type(
+  bool ref
+)
+ident(
+  int_ref active "image.ml" 23 849 853 "image.ml" 23 849 859
+)
+"image.ml" 36 1061 1070 "image.ml" 36 1061 1072
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"image.ml" 36 1061 1073 "image.ml" 36 1061 1078
+type(
+  bool
+)
+"image.ml" 36 1061 1063 "image.ml" 36 1061 1078
+type(
+  unit
+)
+"image.ml" 35 1023 1025 "image.ml" 36 1061 1078
+type(
+  unit
+)
+"image.ml" 38 1080 1084 "image.ml" 38 1080 1091
+type(
+  unit -> unit
+)
+ident(
+  def restart "image.ml" 44 1200 1200 "image.ml" 1 0 -1
+)
+"image.ml" 38 1080 1092 "image.ml" 38 1080 1094
+type(
+  unit
+)
+"image.ml" 39 1097 1102 "image.ml" 39 1097 1115
+type(
+  bool MyStack.t -> bool
+)
+ident(
+  ext_ref MyStack.empty
+)
+"image.ml" 39 1097 1116 "image.ml" 39 1097 1128
+type(
+  bool MyStack.t
+)
+ident(
+  int_ref active_stack "image.ml" 32 958 962 "image.ml" 32 958 974
+)
+"image.ml" 39 1097 1102 "image.ml" 39 1097 1128
+call(
+  stack
+)
+type(
+  bool
+)
+"image.ml" 40 1134 1138 "image.ml" 40 1134 1144
+type(
+  bool ref
+)
+ident(
+  int_ref active "image.ml" 23 849 853 "image.ml" 23 849 859
+)
+"image.ml" 40 1134 1145 "image.ml" 40 1134 1147
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"image.ml" 40 1134 1148 "image.ml" 40 1134 1152
+type(
+  bool
+)
+"image.ml" 40 1134 1138 "image.ml" 40 1134 1152
+type(
+  unit
+)
+"image.ml" 42 1160 1164 "image.ml" 42 1160 1170
+type(
+  bool ref
+)
+ident(
+  int_ref active "image.ml" 23 849 853 "image.ml" 23 849 859
+)
+"image.ml" 42 1160 1171 "image.ml" 42 1160 1173
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"image.ml" 42 1160 1174 "image.ml" 42 1160 1185
+type(
+  bool MyStack.t -> bool
+)
+ident(
+  ext_ref MyStack.pop
+)
+"image.ml" 42 1160 1186 "image.ml" 42 1160 1198
+type(
+  bool MyStack.t
+)
+ident(
+  int_ref active_stack "image.ml" 32 958 962 "image.ml" 32 958 974
+)
+"image.ml" 42 1160 1174 "image.ml" 42 1160 1198
+call(
+  stack
+)
+type(
+  bool
+)
+"image.ml" 42 1160 1164 "image.ml" 42 1160 1198
+type(
+  unit
+)
+"image.ml" 39 1097 1099 "image.ml" 42 1160 1198
+type(
+  unit
+)
+"image.ml" 44 1200 1204 "image.ml" 44 1200 1207
+type(
+  string -> unit
+)
+ident(
+  def put "image.ml" 49 1301 1301 "image.ml" 1 0 -1
+)
+"image.ml" 44 1200 1208 "image.ml" 44 1200 1209
+type(
+  string
+)
+ident(
+  def s "image.ml" 44 1200 1212 "image.ml" 44 1200 1243
+)
+"image.ml" 44 1200 1215 "image.ml" 44 1200 1216
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"image.ml" 44 1200 1216 "image.ml" 44 1200 1222
+type(
+  bool ref
+)
+ident(
+  int_ref active "image.ml" 23 849 853 "image.ml" 23 849 859
+)
+"image.ml" 44 1200 1215 "image.ml" 44 1200 1222
+type(
+  bool
+)
+"image.ml" 44 1200 1228 "image.ml" 44 1200 1235
+type(
+  Out.t -> string -> unit
+)
+ident(
+  ext_ref Out.put
+)
+"image.ml" 44 1200 1236 "image.ml" 44 1200 1237
+type(
+  Out.t ref -> Out.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"image.ml" 44 1200 1237 "image.ml" 44 1200 1241
+type(
+  Out.t ref
+)
+ident(
+  int_ref buff "image.ml" 20 809 813 "image.ml" 20 809 817
+)
+"image.ml" 44 1200 1236 "image.ml" 44 1200 1241
+type(
+  Out.t
+)
+"image.ml" 44 1200 1242 "image.ml" 44 1200 1243
+type(
+  string
+)
+ident(
+  int_ref s "image.ml" 44 1200 1208 "image.ml" 44 1200 1209
+)
+"image.ml" 44 1200 1228 "image.ml" 44 1200 1243
+call(
+  tail
+)
+type(
+  unit
+)
+"image.ml" 44 1200 1212 "image.ml" 44 1200 1243
+type(
+  unit
+)
+"image.ml" 46 1245 1249 "image.ml" 46 1245 1257
+type(
+  char -> unit
+)
+ident(
+  def put_char "image.ml" 49 1301 1301 "image.ml" 1 0 -1
+)
+"image.ml" 46 1245 1258 "image.ml" 46 1245 1259
+type(
+  char
+)
+ident(
+  def c "image.ml" 46 1245 1262 "image.ml" 46 1245 1298
+)
+"image.ml" 46 1245 1265 "image.ml" 46 1245 1266
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"image.ml" 46 1245 1266 "image.ml" 46 1245 1272
+type(
+  bool ref
+)
+ident(
+  int_ref active "image.ml" 23 849 853 "image.ml" 23 849 859
+)
+"image.ml" 46 1245 1265 "image.ml" 46 1245 1272
+type(
+  bool
+)
+"image.ml" 46 1245 1278 "image.ml" 46 1245 1290
+type(
+  Out.t -> char -> unit
+)
+ident(
+  ext_ref Out.put_char
+)
+"image.ml" 46 1245 1291 "image.ml" 46 1245 1292
+type(
+  Out.t ref -> Out.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"image.ml" 46 1245 1292 "image.ml" 46 1245 1296
+type(
+  Out.t ref
+)
+ident(
+  int_ref buff "image.ml" 20 809 813 "image.ml" 20 809 817
+)
+"image.ml" 46 1245 1291 "image.ml" 46 1245 1296
+type(
+  Out.t
+)
+"image.ml" 46 1245 1297 "image.ml" 46 1245 1298
+type(
+  char
+)
+ident(
+  int_ref c "image.ml" 46 1245 1258 "image.ml" 46 1245 1259
+)
+"image.ml" 46 1245 1278 "image.ml" 46 1245 1298
+call(
+  tail
+)
+type(
+  unit
+)
+"image.ml" 46 1245 1262 "image.ml" 46 1245 1298
+type(
+  unit
+)
+"image.ml" 49 1301 1305 "image.ml" 49 1301 1313
+type(
+  string
+)
+ident(
+  def tmp_name "image.ml" 52 1377 1377 "image.ml" 1 0 -1
+)
+"image.ml" 50 1316 1321 "image.ml" 50 1316 1338
+type(
+  bool
+)
+ident(
+  ext_ref Parse_opts.filter
+)
+"image.ml" 50 1316 1344 "image.ml" 50 1316 1346
+type(
+  string
+)
+"image.ml" 50 1316 1352 "image.ml" 50 1316 1356
+type(
+  string
+)
+ident(
+  int_ref base "image.ml" 14 752 756 "image.ml" 14 752 760
+)
+"image.ml" 50 1316 1357 "image.ml" 50 1316 1358
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"image.ml" 50 1316 1359 "image.ml" 50 1316 1375
+type(
+  string
+)
+"image.ml" 50 1316 1352 "image.ml" 50 1316 1375
+call(
+  stack
+)
+type(
+  string
+)
+"image.ml" 50 1316 1318 "image.ml" 50 1316 1375
+type(
+  string
+)
+"image.ml" 52 1377 1381 "image.ml" 52 1377 1390
+type(
+  unit -> unit
+)
+ident(
+  def open_chan "image.ml" 59 1526 1526 "image.ml" 1 0 -1
+)
+"image.ml" 52 1377 1391 "image.ml" 52 1377 1393
+type(
+  unit
+)
+"image.ml" 53 1396 1402 "image.ml" 53 1396 1406
+type(
+  out_channel
+)
+ident(
+  def chan "image.ml" 54 1430 1432 "image.ml" 55 1457 1487
+)
+"image.ml" 53 1396 1409 "image.ml" 53 1396 1417
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"image.ml" 53 1396 1418 "image.ml" 53 1396 1426
+type(
+  string
+)
+ident(
+  int_ref tmp_name "image.ml" 49 1301 1305 "image.ml" 49 1301 1313
+)
+"image.ml" 53 1396 1409 "image.ml" 53 1396 1426
+call(
+  stack
+)
+type(
+  out_channel
+)
+"image.ml" 54 1430 1432 "image.ml" 54 1430 1443
+type(
+  out_channel -> Out.t -> unit
+)
+ident(
+  ext_ref Out.to_chan
+)
+"image.ml" 54 1430 1444 "image.ml" 54 1430 1448
+type(
+  out_channel
+)
+ident(
+  int_ref chan "image.ml" 53 1396 1402 "image.ml" 53 1396 1406
+)
+"image.ml" 54 1430 1449 "image.ml" 54 1430 1450
+type(
+  Out.t ref -> Out.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"image.ml" 54 1430 1450 "image.ml" 54 1430 1454
+type(
+  Out.t ref
+)
+ident(
+  int_ref buff "image.ml" 20 809 813 "image.ml" 20 809 817
+)
+"image.ml" 54 1430 1449 "image.ml" 54 1430 1454
+type(
+  Out.t
+)
+"image.ml" 54 1430 1432 "image.ml" 54 1430 1454
+call(
+  stack
+)
+type(
+  unit
+)
+"image.ml" 55 1457 1459 "image.ml" 55 1457 1463
+type(
+  Out.t ref
+)
+ident(
+  int_ref buff "image.ml" 20 809 813 "image.ml" 20 809 817
+)
+"image.ml" 55 1457 1464 "image.ml" 55 1457 1466
+type(
+  Out.t ref -> Out.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"image.ml" 55 1457 1467 "image.ml" 55 1457 1482
+type(
+  out_channel -> Out.t
+)
+ident(
+  ext_ref Out.create_chan
+)
+"image.ml" 55 1457 1483 "image.ml" 55 1457 1487
+type(
+  out_channel
+)
+ident(
+  int_ref chan "image.ml" 53 1396 1402 "image.ml" 53 1396 1406
+)
+"image.ml" 55 1457 1467 "image.ml" 55 1457 1487
+call(
+  stack
+)
+type(
+  Out.t
+)
+"image.ml" 55 1457 1459 "image.ml" 55 1457 1487
+type(
+  unit
+)
+"image.ml" 54 1430 1432 "image.ml" 55 1457 1487
+type(
+  unit
+)
+"image.ml" 53 1396 1398 "image.ml" 55 1457 1487
+type(
+  unit
+)
+"image.ml" 57 1489 1493 "image.ml" 57 1489 1503
+type(
+  unit -> unit
+)
+ident(
+  def close_chan "image.ml" 59 1526 1526 "image.ml" 1 0 -1
+)
+"image.ml" 57 1489 1504 "image.ml" 57 1489 1506
+type(
+  unit
+)
+"image.ml" 57 1489 1509 "image.ml" 57 1489 1518
+type(
+  Out.t -> unit
+)
+ident(
+  ext_ref Out.close
+)
+"image.ml" 57 1489 1519 "image.ml" 57 1489 1520
+type(
+  Out.t ref -> Out.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"image.ml" 57 1489 1520 "image.ml" 57 1489 1524
+type(
+  Out.t ref
+)
+ident(
+  int_ref buff "image.ml" 20 809 813 "image.ml" 20 809 817
+)
+"image.ml" 57 1489 1519 "image.ml" 57 1489 1524
+type(
+  Out.t
+)
+"image.ml" 57 1489 1509 "image.ml" 57 1489 1524
+call(
+  tail
+)
+type(
+  unit
+)
+"image.ml" 59 1526 1530 "image.ml" 59 1526 1534
+type(
+  unit -> unit
+)
+ident(
+  def page "image.ml" 71 1805 1805 "image.ml" 1 0 -1
+)
+"image.ml" 59 1526 1535 "image.ml" 59 1526 1537
+type(
+  unit
+)
+"image.ml" 60 1540 1546 "image.ml" 60 1540 1547
+type(
+  int
+)
+ident(
+  def n "image.ml" 61 1560 1562 "image.ml" 68 1748 1800
+)
+"image.ml" 60 1540 1550 "image.ml" 60 1540 1551
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"image.ml" 60 1540 1551 "image.ml" 60 1540 1556
+type(
+  int ref
+)
+ident(
+  int_ref count "image.ml" 17 787 791 "image.ml" 17 787 796
+)
+"image.ml" 60 1540 1550 "image.ml" 60 1540 1556
+type(
+  int
+)
+"image.ml" 61 1560 1565 "image.ml" 61 1560 1566
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"image.ml" 61 1560 1566 "image.ml" 61 1560 1573
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"image.ml" 61 1560 1565 "image.ml" 61 1560 1573
+type(
+  int
+)
+"image.ml" 61 1560 1574 "image.ml" 61 1560 1575
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"image.ml" 61 1560 1576 "image.ml" 61 1560 1577
+type(
+  int
+)
+"image.ml" 61 1560 1565 "image.ml" 61 1560 1577
+type(
+  bool
+)
+"image.ml" 62 1589 1593 "image.ml" 62 1589 1611
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Location.print_pos
+)
+"image.ml" 62 1589 1612 "image.ml" 62 1589 1614
+type(
+  unit
+)
+"image.ml" 62 1589 1593 "image.ml" 62 1589 1614
+call(
+  stack
+)
+type(
+  unit
+)
+"image.ml" 63 1616 1620 "image.ml" 63 1616 1634
+type(
+  out_channel -> (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"image.ml" 63 1616 1635 "image.ml" 63 1616 1641
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"image.ml" 63 1616 1642 "image.ml" 63 1616 1664
+type(
+  (int -> unit, out_channel, unit) format
+)
+"image.ml" 63 1616 1666 "image.ml" 63 1616 1667
+type(
+  int
+)
+ident(
+  int_ref n "image.ml" 60 1540 1546 "image.ml" 60 1540 1547
+)
+"image.ml" 63 1616 1667 "image.ml" 63 1616 1668
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"image.ml" 63 1616 1668 "image.ml" 63 1616 1669
+type(
+  int
+)
+"image.ml" 63 1616 1665 "image.ml" 63 1616 1670
+type(
+  int
+)
+"image.ml" 63 1616 1620 "image.ml" 63 1616 1670
+call(
+  stack
+)
+type(
+  unit
+)
+"image.ml" 64 1673 1677 "image.ml" 64 1673 1690
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"image.ml" 64 1673 1691 "image.ml" 64 1673 1693
+type(
+  string
+)
+"image.ml" 64 1673 1677 "image.ml" 64 1673 1693
+call(
+  stack
+)
+type(
+  unit
+)
+"image.ml" 63 1616 1620 "image.ml" 64 1673 1693
+type(
+  unit
+)
+"image.ml" 61 1560 1583 "image.ml" 65 1694 1699
+type(
+  unit
+)
+"image.ml" 61 1560 1562 "image.ml" 65 1694 1699
+type(
+  unit
+)
+"image.ml" 66 1702 1707 "image.ml" 66 1702 1708
+type(
+  int
+)
+ident(
+  int_ref n "image.ml" 60 1540 1546 "image.ml" 60 1540 1547
+)
+"image.ml" 66 1702 1709 "image.ml" 66 1702 1710
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"image.ml" 66 1702 1711 "image.ml" 66 1702 1712
+type(
+  int
+)
+"image.ml" 66 1702 1707 "image.ml" 66 1702 1712
+type(
+  bool
+)
+"image.ml" 66 1702 1718 "image.ml" 66 1702 1727
+type(
+  unit -> unit
+)
+ident(
+  int_ref open_chan "image.ml" 52 1377 1381 "image.ml" 52 1377 1390
+)
+"image.ml" 66 1702 1728 "image.ml" 66 1702 1730
+type(
+  unit
+)
+"image.ml" 66 1702 1718 "image.ml" 66 1702 1730
+call(
+  stack
+)
+type(
+  unit
+)
+"image.ml" 66 1702 1704 "image.ml" 66 1702 1730
+type(
+  unit
+)
+"image.ml" 67 1733 1735 "image.ml" 67 1733 1739
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"image.ml" 67 1733 1740 "image.ml" 67 1733 1745
+type(
+  int ref
+)
+ident(
+  int_ref count "image.ml" 17 787 791 "image.ml" 17 787 796
+)
+"image.ml" 67 1733 1735 "image.ml" 67 1733 1745
+type(
+  unit
+)
+"image.ml" 68 1748 1750 "image.ml" 68 1748 1753
+type(
+  string -> unit
+)
+ident(
+  int_ref put "image.ml" 44 1200 1204 "image.ml" 44 1200 1207
+)
+"image.ml" 68 1748 1755 "image.ml" 68 1748 1778
+type(
+  string
+)
+"image.ml" 68 1748 1778 "image.ml" 68 1748 1779
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"image.ml" 68 1748 1779 "image.ml" 68 1748 1792
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"image.ml" 68 1748 1793 "image.ml" 68 1748 1794
+type(
+  int
+)
+ident(
+  int_ref n "image.ml" 60 1540 1546 "image.ml" 60 1540 1547
+)
+"image.ml" 68 1748 1779 "image.ml" 68 1748 1794
+call(
+  stack
+)
+type(
+  string
+)
+"image.ml" 68 1748 1794 "image.ml" 68 1748 1795
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"image.ml" 68 1748 1795 "image.ml" 68 1748 1799
+type(
+  string
+)
+"image.ml" 68 1748 1779 "image.ml" 68 1748 1799
+call(
+  stack
+)
+type(
+  string
+)
+"image.ml" 68 1748 1754 "image.ml" 68 1748 1800
+call(
+  stack
+)
+type(
+  string
+)
+"image.ml" 68 1748 1750 "image.ml" 68 1748 1800
+call(
+  tail
+)
+type(
+  unit
+)
+"image.ml" 67 1733 1735 "image.ml" 68 1748 1800
+type(
+  unit
+)
+"image.ml" 66 1702 1704 "image.ml" 68 1748 1800
+type(
+  unit
+)
+"image.ml" 61 1560 1562 "image.ml" 68 1748 1800
+type(
+  unit
+)
+"image.ml" 60 1540 1542 "image.ml" 68 1748 1800
+type(
+  unit
+)
+"image.ml" 71 1805 1809 "image.ml" 71 1805 1813
+type(
+  string -> ('a -> 'b) -> 'a -> 'b
+)
+ident(
+  def dump "image.ml" 76 1881 1881 "image.ml" 1 0 -1
+)
+"image.ml" 71 1805 1814 "image.ml" 71 1805 1820
+type(
+  string
+)
+ident(
+  def s_open "image.ml" 71 1805 1821 "image.ml" 73 1862 1876
+)
+"image.ml" 71 1805 1821 "image.ml" 71 1805 1826
+type(
+  'a -> 'b
+)
+ident(
+  def image "image.ml" 71 1805 1828 "image.ml" 73 1862 1876
+)
+"image.ml" 71 1805 1828 "image.ml" 71 1805 1834
+type(
+  'a
+)
+ident(
+  def lexbuf "image.ml" 72 1837 1839 "image.ml" 73 1862 1876
+)
+"image.ml" 72 1837 1839 "image.ml" 72 1837 1846
+type(
+  Out.t -> string -> unit
+)
+ident(
+  ext_ref Out.put
+)
+"image.ml" 72 1837 1847 "image.ml" 72 1837 1848
+type(
+  Out.t ref -> Out.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"image.ml" 72 1837 1848 "image.ml" 72 1837 1852
+type(
+  Out.t ref
+)
+ident(
+  int_ref buff "image.ml" 20 809 813 "image.ml" 20 809 817
+)
+"image.ml" 72 1837 1847 "image.ml" 72 1837 1852
+type(
+  Out.t
+)
+"image.ml" 72 1837 1853 "image.ml" 72 1837 1859
+type(
+  string
+)
+ident(
+  int_ref s_open "image.ml" 71 1805 1814 "image.ml" 71 1805 1820
+)
+"image.ml" 72 1837 1839 "image.ml" 72 1837 1859
+call(
+  stack
+)
+type(
+  unit
+)
+"image.ml" 73 1862 1864 "image.ml" 73 1862 1869
+type(
+  'a -> 'b
+)
+ident(
+  int_ref image "image.ml" 71 1805 1821 "image.ml" 71 1805 1826
+)
+"image.ml" 73 1862 1870 "image.ml" 73 1862 1876
+type(
+  'a
+)
+ident(
+  int_ref lexbuf "image.ml" 71 1805 1828 "image.ml" 71 1805 1834
+)
+"image.ml" 73 1862 1864 "image.ml" 73 1862 1876
+call(
+  tail
+)
+type(
+  'b
+)
+"image.ml" 72 1837 1839 "image.ml" 73 1862 1876
+type(
+  'b
+)
+"image.ml" 76 1881 1885 "image.ml" 76 1881 1893
+type(
+  bool -> bool
+)
+ident(
+  def finalize "image.ml" 95 2422 2431 "image.ml" 1 0 -1
+)
+"image.ml" 76 1881 1894 "image.ml" 76 1881 1899
+type(
+  bool
+)
+ident(
+  def check "image.ml" 77 1903 1905 "image.ml" 95 2422 2431
+)
+"image.ml" 77 1903 1905 "image.ml" 77 1903 1911
+type(
+  bool ref
+)
+ident(
+  int_ref active "image.ml" 23 849 853 "image.ml" 23 849 859
+)
+"image.ml" 77 1903 1912 "image.ml" 77 1903 1914
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"image.ml" 77 1903 1915 "image.ml" 77 1903 1920
+type(
+  bool
+)
+"image.ml" 77 1903 1905 "image.ml" 77 1903 1920
+type(
+  unit
+)
+"image.ml" 78 1923 1928 "image.ml" 78 1923 1929
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"image.ml" 78 1923 1929 "image.ml" 78 1923 1934
+type(
+  int ref
+)
+ident(
+  int_ref count "image.ml" 17 787 791 "image.ml" 17 787 796
+)
+"image.ml" 78 1923 1928 "image.ml" 78 1923 1934
+type(
+  int
+)
+"image.ml" 78 1923 1935 "image.ml" 78 1923 1936
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"image.ml" 78 1923 1937 "image.ml" 78 1923 1938
+type(
+  int
+)
+"image.ml" 78 1923 1928 "image.ml" 78 1923 1938
+type(
+  bool
+)
+"image.ml" 79 1950 1954 "image.ml" 79 1950 1964
+type(
+  unit -> unit
+)
+ident(
+  int_ref close_chan "image.ml" 57 1489 1493 "image.ml" 57 1489 1503
+)
+"image.ml" 79 1950 1964 "image.ml" 79 1950 1966
+type(
+  unit
+)
+"image.ml" 79 1950 1954 "image.ml" 79 1950 1966
+call(
+  stack
+)
+type(
+  unit
+)
+"image.ml" 80 1969 1976 "image.ml" 80 1969 1981
+type(
+  bool
+)
+ident(
+  int_ref check "image.ml" 76 1881 1894 "image.ml" 76 1881 1899
+)
+"image.ml" 81 1993 2003 "image.ml" 81 1993 2012
+type(
+  string
+)
+ident(
+  def true_name "image.ml" 82 2055 2061 "image.ml" 91 2368 2377
+)
+"image.ml" 81 1993 2015 "image.ml" 81 1993 2035
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.chop_suffix
+)
+"image.ml" 81 1993 2036 "image.ml" 81 1993 2044
+type(
+  string
+)
+ident(
+  int_ref tmp_name "image.ml" 49 1301 1305 "image.ml" 49 1301 1313
+)
+"image.ml" 81 1993 2045 "image.ml" 81 1993 2051
+type(
+  string
+)
+"image.ml" 81 1993 2015 "image.ml" 81 1993 2051
+call(
+  stack
+)
+type(
+  string
+)
+"image.ml" 82 2055 2064 "image.ml" 82 2055 2079
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Myfiles.changed
+)
+"image.ml" 82 2055 2080 "image.ml" 82 2055 2088
+type(
+  string
+)
+ident(
+  int_ref tmp_name "image.ml" 49 1301 1305 "image.ml" 49 1301 1313
+)
+"image.ml" 82 2055 2089 "image.ml" 82 2055 2098
+type(
+  string
+)
+ident(
+  int_ref true_name "image.ml" 81 1993 2003 "image.ml" 81 1993 2012
+)
+"image.ml" 82 2055 2064 "image.ml" 82 2055 2098
+call(
+  stack
+)
+type(
+  bool
+)
+"image.ml" 83 2110 2118 "image.ml" 83 2110 2130
+type(
+  string -> string -> unit
+)
+ident(
+  ext_ref Mysys.rename
+)
+"image.ml" 83 2110 2131 "image.ml" 83 2110 2139
+type(
+  string
+)
+ident(
+  int_ref tmp_name "image.ml" 49 1301 1305 "image.ml" 49 1301 1313
+)
+"image.ml" 83 2110 2140 "image.ml" 83 2110 2149
+type(
+  string
+)
+ident(
+  int_ref true_name "image.ml" 81 1993 2003 "image.ml" 81 1993 2012
+)
+"image.ml" 83 2110 2118 "image.ml" 83 2110 2149
+call(
+  stack
+)
+type(
+  unit
+)
+"image.ml" 84 2152 2160 "image.ml" 84 2152 2172
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.message
+)
+"image.ml" 85 2173 2184 "image.ml" 85 2173 2238
+type(
+  string
+)
+"image.ml" 85 2173 2238 "image.ml" 85 2173 2239
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"image.ml" 86 2240 2251 "image.ml" 86 2240 2269
+type(
+  unit -> string
+)
+ident(
+  ext_ref Misc.get_image_opt
+)
+"image.ml" 86 2240 2270 "image.ml" 86 2240 2272
+type(
+  unit
+)
+"image.ml" 86 2240 2251 "image.ml" 86 2240 2272
+call(
+  stack
+)
+type(
+  string
+)
+"image.ml" 86 2240 2272 "image.ml" 86 2240 2273
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"image.ml" 86 2240 2273 "image.ml" 86 2240 2276
+type(
+  string
+)
+"image.ml" 86 2240 2276 "image.ml" 86 2240 2277
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"image.ml" 86 2240 2277 "image.ml" 86 2240 2281
+type(
+  string
+)
+ident(
+  int_ref base "image.ml" 14 752 756 "image.ml" 14 752 760
+)
+"image.ml" 86 2240 2281 "image.ml" 86 2240 2282
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"image.ml" 86 2240 2282 "image.ml" 86 2240 2285
+type(
+  string
+)
+"image.ml" 86 2240 2277 "image.ml" 86 2240 2285
+call(
+  stack
+)
+type(
+  string
+)
+"image.ml" 86 2240 2273 "image.ml" 86 2240 2285
+call(
+  stack
+)
+type(
+  string
+)
+"image.ml" 86 2240 2251 "image.ml" 86 2240 2285
+call(
+  stack
+)
+type(
+  string
+)
+"image.ml" 85 2173 2183 "image.ml" 86 2240 2286
+call(
+  stack
+)
+type(
+  string
+)
+"image.ml" 84 2152 2160 "image.ml" 86 2240 2286
+call(
+  stack
+)
+type(
+  unit
+)
+"image.ml" 87 2288 2296 "image.ml" 87 2288 2300
+type(
+  bool
+)
+"image.ml" 84 2152 2160 "image.ml" 87 2288 2300
+type(
+  bool
+)
+"image.ml" 82 2055 2104 "image.ml" 88 2301 2310
+type(
+  bool
+)
+"image.ml" 89 2322 2330 "image.ml" 89 2322 2342
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mysys.remove
+)
+"image.ml" 89 2322 2343 "image.ml" 89 2322 2351
+type(
+  string
+)
+ident(
+  int_ref tmp_name "image.ml" 49 1301 1305 "image.ml" 49 1301 1313
+)
+"image.ml" 89 2322 2330 "image.ml" 89 2322 2351
+call(
+  stack
+)
+type(
+  unit
+)
+"image.ml" 90 2354 2362 "image.ml" 90 2354 2367
+type(
+  bool
+)
+"image.ml" 88 2301 2316 "image.ml" 91 2368 2377
+type(
+  bool
+)
+"image.ml" 82 2055 2061 "image.ml" 91 2368 2377
+type(
+  bool
+)
+"image.ml" 80 1969 1987 "image.ml" 92 2378 2385
+type(
+  bool
+)
+"image.ml" 93 2391 2397 "image.ml" 93 2391 2402
+type(
+  bool
+)
+"image.ml" 80 1969 1973 "image.ml" 93 2391 2402
+type(
+  bool
+)
+"image.ml" 78 1923 1944 "image.ml" 94 2411 2416
+type(
+  bool
+)
+"image.ml" 95 2422 2426 "image.ml" 95 2422 2431
+type(
+  bool
+)
+"image.ml" 78 1923 1925 "image.ml" 95 2422 2431
+type(
+  bool
+)
+"image.ml" 77 1903 1905 "image.ml" 95 2422 2431
+type(
+  bool
+)

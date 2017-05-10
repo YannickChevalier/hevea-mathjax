@@ -1,0 +1,2032 @@
+"hacha.ml" 17 784 788 "hacha.ml" 17 784 796
+type(
+  string option ref
+)
+ident(
+  def filename "hacha.ml" 18 808 808 "hacha.ml" 1 0 -1
+)
+"hacha.ml" 17 784 799 "hacha.ml" 17 784 802
+type(
+  string option -> string option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"hacha.ml" 17 784 803 "hacha.ml" 17 784 807
+type(
+  string option
+)
+"hacha.ml" 17 784 799 "hacha.ml" 17 784 807
+type(
+  string option ref
+)
+"hacha.ml" 18 808 812 "hacha.ml" 18 808 819
+type(
+  string ref
+)
+ident(
+  def outname "hacha.ml" 19 839 839 "hacha.ml" 1 0 -1
+)
+"hacha.ml" 18 808 822 "hacha.ml" 18 808 825
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"hacha.ml" 18 808 826 "hacha.ml" 18 808 838
+type(
+  string
+)
+"hacha.ml" 18 808 822 "hacha.ml" 18 808 838
+type(
+  string ref
+)
+"hacha.ml" 19 839 843 "hacha.ml" 19 839 846
+type(
+  bool ref
+)
+ident(
+  def log "hacha.ml" 20 859 859 "hacha.ml" 1 0 -1
+)
+"hacha.ml" 19 839 849 "hacha.ml" 19 839 852
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"hacha.ml" 19 839 853 "hacha.ml" 19 839 858
+type(
+  bool
+)
+"hacha.ml" 19 839 849 "hacha.ml" 19 839 858
+type(
+  bool ref
+)
+"hacha.ml" 20 859 863 "hacha.ml" 20 859 872
+type(
+  Cut.toc_style ref
+)
+ident(
+  def toc_style "hacha.ml" 21 890 890 "hacha.ml" 1 0 -1
+)
+"hacha.ml" 20 859 875 "hacha.ml" 20 859 878
+type(
+  Cut.toc_style -> Cut.toc_style ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"hacha.ml" 20 859 879 "hacha.ml" 20 859 889
+type(
+  Cut.toc_style
+)
+"hacha.ml" 20 859 875 "hacha.ml" 20 859 889
+type(
+  Cut.toc_style ref
+)
+"hacha.ml" 21 890 894 "hacha.ml" 21 890 905
+type(
+  bool ref
+)
+ident(
+  def cross_links "hacha.ml" 22 917 917 "hacha.ml" 1 0 -1
+)
+"hacha.ml" 21 890 908 "hacha.ml" 21 890 911
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"hacha.ml" 21 890 912 "hacha.ml" 21 890 916
+type(
+  bool
+)
+"hacha.ml" 21 890 908 "hacha.ml" 21 890 916
+type(
+  bool ref
+)
+"hacha.ml" 22 917 921 "hacha.ml" 22 917 928
+type(
+  int ref
+)
+ident(
+  def verbose "hacha.ml" 23 937 937 "hacha.ml" 1 0 -1
+)
+"hacha.ml" 22 917 931 "hacha.ml" 22 917 934
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"hacha.ml" 22 917 935 "hacha.ml" 22 917 936
+type(
+  int
+)
+"hacha.ml" 22 917 931 "hacha.ml" 22 917 936
+type(
+  int ref
+)
+"hacha.ml" 23 937 941 "hacha.ml" 23 937 953
+type(
+  int ref
+)
+ident(
+  def small_length "hacha.ml" 26 969 969 "hacha.ml" 1 0 -1
+)
+"hacha.ml" 23 937 956 "hacha.ml" 23 937 959
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"hacha.ml" 23 937 960 "hacha.ml" 23 937 964
+type(
+  int
+)
+"hacha.ml" 23 937 956 "hacha.ml" 23 937 964
+type(
+  int ref
+)
+"hacha.ml" 26 969 973 "hacha.ml" 26 969 977
+type(
+  unit -> unit
+)
+ident(
+  def main "hacha.ml" 93 3408 3408 "hacha.ml" 1 0 -1
+)
+"hacha.ml" 26 969 978 "hacha.ml" 26 969 980
+type(
+  unit
+)
+"hacha.ml" 27 983 989 "hacha.ml" 27 983 993
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def spec "hacha.ml" 53 2154 2156 "hacha.ml" 89 3397 3402
+)
+"hacha.ml" 28 996 1003 "hacha.ml" 28 996 1007
+type(
+  string
+)
+"hacha.ml" 28 996 1025 "hacha.ml" 28 996 1026
+type(
+  string
+)
+ident(
+  def s "hacha.ml" 28 996 1030 "hacha.ml" 28 996 1042
+)
+"hacha.ml" 28 996 1030 "hacha.ml" 28 996 1037
+type(
+  string ref
+)
+ident(
+  int_ref outname "hacha.ml" 18 808 812 "hacha.ml" 18 808 819
+)
+"hacha.ml" 28 996 1038 "hacha.ml" 28 996 1040
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"hacha.ml" 28 996 1041 "hacha.ml" 28 996 1042
+type(
+  string
+)
+ident(
+  int_ref s "hacha.ml" 28 996 1025 "hacha.ml" 28 996 1026
+)
+"hacha.ml" 28 996 1030 "hacha.ml" 28 996 1042
+type(
+  unit
+)
+"hacha.ml" 28 996 1020 "hacha.ml" 28 996 1043
+type(
+  string -> unit
+)
+"hacha.ml" 28 996 1009 "hacha.ml" 28 996 1043
+type(
+  Arg.spec
+)
+"hacha.ml" 29 1045 1052 "hacha.ml" 29 1045 1130
+type(
+  string
+)
+"hacha.ml" 28 996 1002 "hacha.ml" 29 1045 1131
+type(
+  string * Arg.spec * string
+)
+"hacha.ml" 30 1133 1139 "hacha.ml" 30 1133 1148
+type(
+  string
+)
+"hacha.ml" 30 1133 1164 "hacha.ml" 30 1133 1166
+type(
+  unit
+)
+"hacha.ml" 30 1133 1170 "hacha.ml" 30 1133 1179
+type(
+  Cut.toc_style ref
+)
+ident(
+  int_ref toc_style "hacha.ml" 20 859 863 "hacha.ml" 20 859 872
+)
+"hacha.ml" 30 1133 1180 "hacha.ml" 30 1133 1182
+type(
+  Cut.toc_style ref -> Cut.toc_style -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"hacha.ml" 30 1133 1183 "hacha.ml" 30 1133 1191
+type(
+  Cut.toc_style
+)
+"hacha.ml" 30 1133 1170 "hacha.ml" 30 1133 1191
+type(
+  unit
+)
+"hacha.ml" 30 1133 1159 "hacha.ml" 30 1133 1192
+type(
+  unit -> unit
+)
+"hacha.ml" 30 1133 1150 "hacha.ml" 30 1133 1192
+type(
+  Arg.spec
+)
+"hacha.ml" 31 1194 1201 "hacha.ml" 31 1194 1257
+type(
+  string
+)
+"hacha.ml" 30 1133 1138 "hacha.ml" 31 1194 1258
+type(
+  string * Arg.spec * string
+)
+"hacha.ml" 32 1266 1272 "hacha.ml" 32 1266 1281
+type(
+  string
+)
+"hacha.ml" 32 1266 1297 "hacha.ml" 32 1266 1299
+type(
+  unit
+)
+"hacha.ml" 32 1266 1303 "hacha.ml" 32 1266 1312
+type(
+  Cut.toc_style ref
+)
+ident(
+  int_ref toc_style "hacha.ml" 20 859 863 "hacha.ml" 20 859 872
+)
+"hacha.ml" 32 1266 1313 "hacha.ml" 32 1266 1315
+type(
+  Cut.toc_style ref -> Cut.toc_style -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"hacha.ml" 32 1266 1316 "hacha.ml" 32 1266 1327
+type(
+  Cut.toc_style
+)
+"hacha.ml" 32 1266 1303 "hacha.ml" 32 1266 1327
+type(
+  unit
+)
+"hacha.ml" 32 1266 1292 "hacha.ml" 32 1266 1328
+type(
+  unit -> unit
+)
+"hacha.ml" 32 1266 1283 "hacha.ml" 32 1266 1328
+type(
+  Arg.spec
+)
+"hacha.ml" 33 1330 1337 "hacha.ml" 33 1330 1399
+type(
+  string
+)
+"hacha.ml" 32 1266 1271 "hacha.ml" 33 1330 1400
+type(
+  string * Arg.spec * string
+)
+"hacha.ml" 34 1402 1408 "hacha.ml" 34 1402 1418
+type(
+  string
+)
+"hacha.ml" 34 1402 1434 "hacha.ml" 34 1402 1436
+type(
+  unit
+)
+"hacha.ml" 34 1402 1440 "hacha.ml" 34 1402 1451
+type(
+  bool ref
+)
+ident(
+  int_ref cross_links "hacha.ml" 21 890 894 "hacha.ml" 21 890 905
+)
+"hacha.ml" 34 1402 1452 "hacha.ml" 34 1402 1454
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"hacha.ml" 34 1402 1455 "hacha.ml" 34 1402 1460
+type(
+  bool
+)
+"hacha.ml" 34 1402 1440 "hacha.ml" 34 1402 1460
+type(
+  unit
+)
+"hacha.ml" 34 1402 1429 "hacha.ml" 34 1402 1461
+type(
+  unit -> unit
+)
+"hacha.ml" 34 1402 1420 "hacha.ml" 34 1402 1461
+type(
+  Arg.spec
+)
+"hacha.ml" 35 1463 1470 "hacha.ml" 35 1463 1527
+type(
+  string
+)
+"hacha.ml" 34 1402 1407 "hacha.ml" 35 1463 1528
+type(
+  string * Arg.spec * string
+)
+"hacha.ml" 36 1530 1536 "hacha.ml" 36 1530 1542
+type(
+  string
+)
+"hacha.ml" 36 1530 1558 "hacha.ml" 36 1530 1560
+type(
+  unit
+)
+"hacha.ml" 36 1530 1564 "hacha.ml" 36 1530 1567
+type(
+  bool ref
+)
+ident(
+  int_ref log "hacha.ml" 19 839 843 "hacha.ml" 19 839 846
+)
+"hacha.ml" 36 1530 1568 "hacha.ml" 36 1530 1570
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"hacha.ml" 36 1530 1571 "hacha.ml" 36 1530 1575
+type(
+  bool
+)
+"hacha.ml" 36 1530 1564 "hacha.ml" 36 1530 1575
+type(
+  unit
+)
+"hacha.ml" 36 1530 1553 "hacha.ml" 36 1530 1576
+type(
+  unit -> unit
+)
+"hacha.ml" 36 1530 1544 "hacha.ml" 36 1530 1576
+type(
+  Arg.spec
+)
+"hacha.ml" 37 1578 1586 "hacha.ml" 37 1578 1659
+type(
+  string
+)
+"hacha.ml" 36 1530 1535 "hacha.ml" 37 1578 1660
+type(
+  string * Arg.spec * string
+)
+"hacha.ml" 38 1662 1665 "hacha.ml" 38 1662 1671
+type(
+  string
+)
+"hacha.ml" 38 1662 1686 "hacha.ml" 38 1662 1687
+type(
+  int
+)
+ident(
+  def i "hacha.ml" 38 1662 1691 "hacha.ml" 38 1662 1708
+)
+"hacha.ml" 38 1662 1691 "hacha.ml" 38 1662 1703
+type(
+  int ref
+)
+ident(
+  int_ref small_length "hacha.ml" 23 937 941 "hacha.ml" 23 937 953
+)
+"hacha.ml" 38 1662 1704 "hacha.ml" 38 1662 1706
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"hacha.ml" 38 1662 1707 "hacha.ml" 38 1662 1708
+type(
+  int
+)
+ident(
+  int_ref i "hacha.ml" 38 1662 1686 "hacha.ml" 38 1662 1687
+)
+"hacha.ml" 38 1662 1691 "hacha.ml" 38 1662 1708
+type(
+  unit
+)
+"hacha.ml" 38 1662 1681 "hacha.ml" 38 1662 1709
+type(
+  int -> unit
+)
+"hacha.ml" 38 1662 1673 "hacha.ml" 38 1662 1709
+type(
+  Arg.spec
+)
+"hacha.ml" 39 1711 1715 "hacha.ml" 39 1711 1722
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"hacha.ml" 40 1723 1728 "hacha.ml" 40 1723 1780
+type(
+  (int -> string, unit, string) format
+)
+"hacha.ml" 41 1781 1787 "hacha.ml" 41 1781 1788
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hacha.ml" 41 1781 1788 "hacha.ml" 41 1781 1800
+type(
+  int ref
+)
+ident(
+  int_ref small_length "hacha.ml" 23 937 941 "hacha.ml" 23 937 953
+)
+"hacha.ml" 41 1781 1787 "hacha.ml" 41 1781 1800
+type(
+  int
+)
+"hacha.ml" 39 1711 1714 "hacha.ml" 41 1781 1801
+call(
+  stack
+)
+type(
+  string
+)
+"hacha.ml" 38 1662 1664 "hacha.ml" 41 1781 1802
+type(
+  string * Arg.spec * string
+)
+"hacha.ml" 42 1804 1807 "hacha.ml" 42 1804 1817
+type(
+  string
+)
+"hacha.ml" 43 1828 1838 "hacha.ml" 43 1828 1840
+type(
+  unit
+)
+"hacha.ml" 44 1844 1851 "hacha.ml" 44 1844 1864
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"hacha.ml" 44 1844 1866 "hacha.ml" 44 1844 1874
+type(
+  string
+)
+"hacha.ml" 44 1844 1874 "hacha.ml" 44 1844 1875
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hacha.ml" 44 1844 1875 "hacha.ml" 44 1844 1890
+type(
+  string
+)
+ident(
+  ext_ref Version.version
+)
+"hacha.ml" 44 1844 1865 "hacha.ml" 44 1844 1891
+call(
+  stack
+)
+type(
+  string
+)
+"hacha.ml" 44 1844 1851 "hacha.ml" 44 1844 1891
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 45 1894 1901 "hacha.ml" 45 1894 1914
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"hacha.ml" 45 1894 1916 "hacha.ml" 45 1894 1937
+type(
+  string
+)
+"hacha.ml" 45 1894 1937 "hacha.ml" 45 1894 1938
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hacha.ml" 45 1894 1938 "hacha.ml" 45 1894 1957
+type(
+  string
+)
+ident(
+  ext_ref Mylib.static_libdir
+)
+"hacha.ml" 45 1894 1915 "hacha.ml" 45 1894 1958
+call(
+  stack
+)
+type(
+  string
+)
+"hacha.ml" 45 1894 1901 "hacha.ml" 45 1894 1958
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 46 1961 1968 "hacha.ml" 46 1961 1972
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"hacha.ml" 46 1961 1973 "hacha.ml" 46 1961 1974
+type(
+  int
+)
+"hacha.ml" 46 1961 1968 "hacha.ml" 46 1961 1974
+call(
+  tail
+)
+type(
+  unit
+)
+"hacha.ml" 45 1894 1901 "hacha.ml" 46 1961 1974
+type(
+  unit
+)
+"hacha.ml" 44 1844 1851 "hacha.ml" 46 1961 1974
+type(
+  unit
+)
+"hacha.ml" 43 1828 1833 "hacha.ml" 46 1961 1975
+type(
+  unit -> unit
+)
+"hacha.ml" 42 1804 1819 "hacha.ml" 46 1961 1975
+type(
+  Arg.spec
+)
+"hacha.ml" 47 1977 1980 "hacha.ml" 47 1977 2022
+type(
+  string
+)
+"hacha.ml" 42 1804 1806 "hacha.ml" 47 1977 2023
+type(
+  string * Arg.spec * string
+)
+"hacha.ml" 48 2026 2032 "hacha.ml" 48 2026 2036
+type(
+  string
+)
+"hacha.ml" 48 2026 2052 "hacha.ml" 48 2026 2054
+type(
+  unit
+)
+"hacha.ml" 48 2026 2058 "hacha.ml" 48 2026 2062
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"hacha.ml" 48 2026 2063 "hacha.ml" 48 2026 2070
+type(
+  int ref
+)
+ident(
+  int_ref verbose "hacha.ml" 22 917 921 "hacha.ml" 22 917 928
+)
+"hacha.ml" 48 2026 2058 "hacha.ml" 48 2026 2070
+type(
+  unit
+)
+"hacha.ml" 48 2026 2047 "hacha.ml" 48 2026 2071
+type(
+  unit -> unit
+)
+"hacha.ml" 48 2026 2038 "hacha.ml" 48 2026 2071
+type(
+  Arg.spec
+)
+"hacha.ml" 49 2073 2081 "hacha.ml" 49 2073 2097
+type(
+  string
+)
+"hacha.ml" 48 2026 2031 "hacha.ml" 49 2073 2098
+type(
+  string * Arg.spec * string
+)
+"hacha.ml" 28 996 1001 "hacha.ml" 49 2073 2100
+type(
+  (string * Arg.spec * string) list
+)
+"hacha.ml" 51 2102 2108 "hacha.ml" 51 2102 2113
+type(
+  string
+)
+ident(
+  def usage "hacha.ml" 53 2154 2156 "hacha.ml" 89 3397 3402
+)
+"hacha.ml" 51 2102 2116 "hacha.ml" 51 2102 2149
+type(
+  string
+)
+"hacha.ml" 53 2154 2156 "hacha.ml" 53 2154 2165
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"hacha.ml" 53 2154 2166 "hacha.ml" 53 2154 2170
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref spec "hacha.ml" 27 983 989 "hacha.ml" 27 983 993
+)
+"hacha.ml" 53 2154 2176 "hacha.ml" 53 2154 2177
+type(
+  string
+)
+ident(
+  def s "hacha.ml" 53 2154 2181 "hacha.ml" 53 2154 2199
+)
+"hacha.ml" 53 2154 2181 "hacha.ml" 53 2154 2189
+type(
+  string option ref
+)
+ident(
+  int_ref filename "hacha.ml" 17 784 788 "hacha.ml" 17 784 796
+)
+"hacha.ml" 53 2154 2190 "hacha.ml" 53 2154 2192
+type(
+  string option ref -> string option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"hacha.ml" 53 2154 2198 "hacha.ml" 53 2154 2199
+type(
+  string
+)
+ident(
+  int_ref s "hacha.ml" 53 2154 2176 "hacha.ml" 53 2154 2177
+)
+"hacha.ml" 53 2154 2193 "hacha.ml" 53 2154 2199
+type(
+  string option
+)
+"hacha.ml" 53 2154 2181 "hacha.ml" 53 2154 2199
+type(
+  unit
+)
+"hacha.ml" 53 2154 2171 "hacha.ml" 53 2154 2200
+type(
+  Arg.anon_fun
+)
+"hacha.ml" 53 2154 2201 "hacha.ml" 53 2154 2206
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage "hacha.ml" 51 2102 2108 "hacha.ml" 51 2102 2113
+)
+"hacha.ml" 53 2154 2156 "hacha.ml" 53 2154 2206
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 54 2209 2215 "hacha.ml" 54 2209 2223
+type(
+  string
+)
+ident(
+  def filename "hacha.ml" 59 2322 2324 "hacha.ml" 89 3397 3402
+)
+"hacha.ml" 55 2226 2236 "hacha.ml" 55 2226 2237
+type(
+  string option ref -> string option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hacha.ml" 55 2226 2237 "hacha.ml" 55 2226 2245
+type(
+  string option ref
+)
+ident(
+  int_ref filename "hacha.ml" 17 784 788 "hacha.ml" 17 784 796
+)
+"hacha.ml" 55 2226 2236 "hacha.ml" 55 2226 2245
+type(
+  string option
+)
+"hacha.ml" 56 2251 2257 "hacha.ml" 56 2251 2261
+type(
+  string option
+)
+"hacha.ml" 56 2251 2265 "hacha.ml" 56 2251 2270
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"hacha.ml" 56 2251 2278 "hacha.ml" 56 2251 2297
+type(
+  string
+)
+"hacha.ml" 56 2251 2271 "hacha.ml" 56 2251 2298
+type(
+  exn
+)
+"hacha.ml" 56 2251 2265 "hacha.ml" 56 2251 2298
+type(
+  string
+)
+"hacha.ml" 57 2299 2310 "hacha.ml" 57 2299 2311
+type(
+  string
+)
+ident(
+  def f "hacha.ml" 57 2299 2315 "hacha.ml" 57 2299 2316
+)
+"hacha.ml" 57 2299 2305 "hacha.ml" 57 2299 2311
+type(
+  string option
+)
+"hacha.ml" 57 2299 2315 "hacha.ml" 57 2299 2316
+type(
+  string
+)
+ident(
+  int_ref f "hacha.ml" 57 2299 2310 "hacha.ml" 57 2299 2311
+)
+"hacha.ml" 55 2226 2230 "hacha.ml" 57 2299 2316
+type(
+  string
+)
+"hacha.ml" 59 2322 2328 "hacha.ml" 59 2322 2332
+type(
+  in_channel
+)
+ident(
+  def chan "hacha.ml" 63 2421 2423 "hacha.ml" 89 3397 3402
+)
+"hacha.ml" 60 2335 2343 "hacha.ml" 60 2335 2350
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"hacha.ml" 60 2335 2351 "hacha.ml" 60 2335 2359
+type(
+  string
+)
+ident(
+  int_ref filename "hacha.ml" 54 2209 2215 "hacha.ml" 54 2209 2223
+)
+"hacha.ml" 60 2335 2343 "hacha.ml" 60 2335 2359
+call(
+  stack
+)
+type(
+  in_channel
+)
+"hacha.ml" 61 2360 2379 "hacha.ml" 61 2360 2380
+type(
+  string
+)
+ident(
+  def s "hacha.ml" 61 2360 2384 "hacha.ml" 61 2360 2416
+)
+"hacha.ml" 61 2360 2369 "hacha.ml" 61 2360 2380
+type(
+  exn
+)
+"hacha.ml" 61 2360 2384 "hacha.ml" 61 2360 2389
+type(
+  exn -> in_channel
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"hacha.ml" 61 2360 2398 "hacha.ml" 61 2360 2412
+type(
+  string
+)
+"hacha.ml" 61 2360 2412 "hacha.ml" 61 2360 2413
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hacha.ml" 61 2360 2413 "hacha.ml" 61 2360 2414
+type(
+  string
+)
+ident(
+  int_ref s "hacha.ml" 61 2360 2379 "hacha.ml" 61 2360 2380
+)
+"hacha.ml" 61 2360 2397 "hacha.ml" 61 2360 2415
+call(
+  stack
+)
+type(
+  string
+)
+"hacha.ml" 61 2360 2390 "hacha.ml" 61 2360 2416
+type(
+  exn
+)
+"hacha.ml" 61 2360 2384 "hacha.ml" 61 2360 2416
+type(
+  in_channel
+)
+"hacha.ml" 60 2335 2339 "hacha.ml" 61 2360 2416
+type(
+  in_channel
+)
+"hacha.ml" 64 2450 2458 "hacha.ml" 64 2450 2465
+type(
+  int
+)
+ident(
+  def verbose "hacha.ml" 65 2477 2481 "hacha.ml" 70 2636 2641
+)
+"hacha.ml" 64 2450 2468 "hacha.ml" 64 2450 2469
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hacha.ml" 64 2450 2469 "hacha.ml" 64 2450 2476
+type(
+  int ref
+)
+ident(
+  int_ref verbose "hacha.ml" 22 917 921 "hacha.ml" 22 917 928
+)
+"hacha.ml" 64 2450 2468 "hacha.ml" 64 2450 2476
+type(
+  int
+)
+"hacha.ml" 65 2477 2485 "hacha.ml" 65 2477 2492
+type(
+  string
+)
+ident(
+  def name_in "hacha.ml" 66 2504 2508 "hacha.ml" 70 2636 2641
+)
+"hacha.ml" 65 2477 2495 "hacha.ml" 65 2477 2503
+type(
+  string
+)
+ident(
+  int_ref filename "hacha.ml" 54 2209 2215 "hacha.ml" 54 2209 2223
+)
+"hacha.ml" 66 2504 2512 "hacha.ml" 66 2504 2520
+type(
+  string
+)
+ident(
+  def name_out "hacha.ml" 67 2532 2536 "hacha.ml" 70 2636 2641
+)
+"hacha.ml" 66 2504 2523 "hacha.ml" 66 2504 2524
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hacha.ml" 66 2504 2524 "hacha.ml" 66 2504 2531
+type(
+  string ref
+)
+ident(
+  int_ref outname "hacha.ml" 18 808 812 "hacha.ml" 18 808 819
+)
+"hacha.ml" 66 2504 2523 "hacha.ml" 66 2504 2531
+type(
+  string
+)
+"hacha.ml" 67 2532 2540 "hacha.ml" 67 2532 2549
+type(
+  Cut.toc_style
+)
+ident(
+  def toc_style "hacha.ml" 68 2563 2567 "hacha.ml" 70 2636 2641
+)
+"hacha.ml" 67 2532 2552 "hacha.ml" 67 2532 2553
+type(
+  Cut.toc_style ref -> Cut.toc_style
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hacha.ml" 67 2532 2553 "hacha.ml" 67 2532 2562
+type(
+  Cut.toc_style ref
+)
+ident(
+  int_ref toc_style "hacha.ml" 20 859 863 "hacha.ml" 20 859 872
+)
+"hacha.ml" 67 2532 2552 "hacha.ml" 67 2532 2562
+type(
+  Cut.toc_style
+)
+"hacha.ml" 68 2563 2571 "hacha.ml" 68 2563 2582
+type(
+  bool
+)
+ident(
+  def cross_links "hacha.ml" 69 2599 2603 "hacha.ml" 70 2636 2641
+)
+"hacha.ml" 68 2563 2585 "hacha.ml" 68 2563 2586
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hacha.ml" 68 2563 2586 "hacha.ml" 68 2563 2597
+type(
+  bool ref
+)
+ident(
+  int_ref cross_links "hacha.ml" 21 890 894 "hacha.ml" 21 890 905
+)
+"hacha.ml" 68 2563 2585 "hacha.ml" 68 2563 2597
+type(
+  bool
+)
+"hacha.ml" 69 2599 2607 "hacha.ml" 69 2599 2619
+type(
+  int
+)
+ident(
+  def small_length "hacha.ml" 69 2599 2635 "hacha.ml" 70 2636 2641
+)
+"hacha.ml" 69 2599 2622 "hacha.ml" 69 2599 2623
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hacha.ml" 69 2599 2623 "hacha.ml" 69 2599 2635
+type(
+  int ref
+)
+ident(
+  int_ref small_length "hacha.ml" 23 937 941 "hacha.ml" 23 937 953
+)
+"hacha.ml" 69 2599 2622 "hacha.ml" 69 2599 2635
+type(
+  int
+)
+"hacha.ml" 71 2645 2662 "hacha.ml" 71 2645 2678
+call(
+  stack
+)
+"hacha.ml" 72 2682 2688 "hacha.ml" 72 2682 2691
+type(
+  Lexing.lexbuf
+)
+ident(
+  def buf "hacha.ml" 73 2722 2724 "hacha.ml" 89 3397 3402
+)
+"hacha.ml" 72 2682 2694 "hacha.ml" 72 2682 2713
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"hacha.ml" 72 2682 2714 "hacha.ml" 72 2682 2718
+type(
+  in_channel
+)
+ident(
+  int_ref chan "hacha.ml" 59 2322 2328 "hacha.ml" 59 2322 2332
+)
+"hacha.ml" 72 2682 2694 "hacha.ml" 72 2682 2718
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"hacha.ml" 73 2722 2724 "hacha.ml" 73 2722 2736
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Location.set
+)
+"hacha.ml" 73 2722 2737 "hacha.ml" 73 2722 2745
+type(
+  string
+)
+ident(
+  int_ref filename "hacha.ml" 54 2209 2215 "hacha.ml" 54 2209 2223
+)
+"hacha.ml" 73 2722 2746 "hacha.ml" 73 2722 2749
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref buf "hacha.ml" 72 2682 2688 "hacha.ml" 72 2682 2691
+)
+"hacha.ml" 73 2722 2724 "hacha.ml" 73 2722 2749
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 74 2752 2754 "hacha.ml" 74 2752 2767
+type(
+  unit -> unit
+)
+ident(
+  ext_ref C.start_phase
+)
+"hacha.ml" 74 2752 2768 "hacha.ml" 74 2752 2770
+type(
+  unit
+)
+"hacha.ml" 74 2752 2754 "hacha.ml" 74 2752 2770
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 75 2773 2775 "hacha.ml" 75 2773 2781
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"hacha.ml" 75 2773 2783 "hacha.ml" 75 2773 2791
+type(
+  Lexing.lexbuf -> bool
+)
+ident(
+  ext_ref C.do_lex
+)
+"hacha.ml" 75 2773 2792 "hacha.ml" 75 2773 2795
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref buf "hacha.ml" 72 2682 2688 "hacha.ml" 72 2682 2691
+)
+"hacha.ml" 75 2773 2782 "hacha.ml" 75 2773 2796
+call(
+  stack
+)
+type(
+  bool
+)
+"hacha.ml" 75 2773 2775 "hacha.ml" 75 2773 2796
+type(
+  unit
+)
+"hacha.ml" 76 2801 2803 "hacha.ml" 76 2801 2811
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"hacha.ml" 76 2801 2812 "hacha.ml" 76 2801 2816
+type(
+  in_channel
+)
+ident(
+  int_ref chan "hacha.ml" 59 2322 2328 "hacha.ml" 59 2322 2332
+)
+"hacha.ml" 76 2801 2803 "hacha.ml" 76 2801 2816
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 77 2819 2821 "hacha.ml" 77 2819 2837
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Location.restore
+)
+"hacha.ml" 77 2819 2838 "hacha.ml" 77 2819 2840
+type(
+  unit
+)
+"hacha.ml" 77 2819 2821 "hacha.ml" 77 2819 2840
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 78 2845 2851 "hacha.ml" 78 2845 2855
+type(
+  in_channel
+)
+ident(
+  def chan "hacha.ml" 79 2935 2937 "hacha.ml" 89 3397 3402
+)
+"hacha.ml" 78 2845 2862 "hacha.ml" 78 2845 2869
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"hacha.ml" 78 2845 2870 "hacha.ml" 78 2845 2878
+type(
+  string
+)
+ident(
+  int_ref filename "hacha.ml" 54 2209 2215 "hacha.ml" 54 2209 2223
+)
+"hacha.ml" 78 2845 2862 "hacha.ml" 78 2845 2878
+call(
+  stack
+)
+type(
+  in_channel
+)
+"hacha.ml" 78 2845 2894 "hacha.ml" 78 2845 2895
+type(
+  string
+)
+ident(
+  def s "hacha.ml" 78 2845 2899 "hacha.ml" 78 2845 2931
+)
+"hacha.ml" 78 2845 2884 "hacha.ml" 78 2845 2895
+type(
+  exn
+)
+"hacha.ml" 78 2845 2899 "hacha.ml" 78 2845 2904
+type(
+  exn -> in_channel
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"hacha.ml" 78 2845 2913 "hacha.ml" 78 2845 2927
+type(
+  string
+)
+"hacha.ml" 78 2845 2927 "hacha.ml" 78 2845 2928
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hacha.ml" 78 2845 2928 "hacha.ml" 78 2845 2929
+type(
+  string
+)
+ident(
+  int_ref s "hacha.ml" 78 2845 2894 "hacha.ml" 78 2845 2895
+)
+"hacha.ml" 78 2845 2912 "hacha.ml" 78 2845 2930
+call(
+  stack
+)
+type(
+  string
+)
+"hacha.ml" 78 2845 2905 "hacha.ml" 78 2845 2931
+type(
+  exn
+)
+"hacha.ml" 78 2845 2899 "hacha.ml" 78 2845 2931
+type(
+  in_channel
+)
+"hacha.ml" 78 2845 2858 "hacha.ml" 78 2845 2931
+type(
+  in_channel
+)
+"hacha.ml" 79 2935 2941 "hacha.ml" 79 2935 2944
+type(
+  Lexing.lexbuf
+)
+ident(
+  def buf "hacha.ml" 80 2975 2977 "hacha.ml" 89 3397 3402
+)
+"hacha.ml" 79 2935 2947 "hacha.ml" 79 2935 2966
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"hacha.ml" 79 2935 2967 "hacha.ml" 79 2935 2971
+type(
+  in_channel
+)
+ident(
+  int_ref chan "hacha.ml" 78 2845 2851 "hacha.ml" 78 2845 2855
+)
+"hacha.ml" 79 2935 2947 "hacha.ml" 79 2935 2971
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"hacha.ml" 80 2975 2977 "hacha.ml" 80 2975 2989
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Location.set
+)
+"hacha.ml" 80 2975 2990 "hacha.ml" 80 2975 2998
+type(
+  string
+)
+ident(
+  int_ref filename "hacha.ml" 54 2209 2215 "hacha.ml" 54 2209 2223
+)
+"hacha.ml" 80 2975 2999 "hacha.ml" 80 2975 3002
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref buf "hacha.ml" 79 2935 2941 "hacha.ml" 79 2935 2944
+)
+"hacha.ml" 80 2975 2977 "hacha.ml" 80 2975 3002
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 81 3005 3007 "hacha.ml" 81 3005 3020
+type(
+  unit -> unit
+)
+ident(
+  ext_ref C.start_phase
+)
+"hacha.ml" 81 3005 3021 "hacha.ml" 81 3005 3023
+type(
+  unit
+)
+"hacha.ml" 81 3005 3007 "hacha.ml" 81 3005 3023
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 82 3026 3032 "hacha.ml" 82 3026 3042
+type(
+  bool
+)
+ident(
+  def some_links "hacha.ml" 83 3061 3063 "hacha.ml" 89 3397 3402
+)
+"hacha.ml" 82 3026 3045 "hacha.ml" 82 3026 3053
+type(
+  Lexing.lexbuf -> bool
+)
+ident(
+  ext_ref C.do_lex
+)
+"hacha.ml" 82 3026 3054 "hacha.ml" 82 3026 3057
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref buf "hacha.ml" 79 2935 2941 "hacha.ml" 79 2935 2944
+)
+"hacha.ml" 82 3026 3045 "hacha.ml" 82 3026 3057
+call(
+  stack
+)
+type(
+  bool
+)
+"hacha.ml" 83 3061 3063 "hacha.ml" 83 3061 3071
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"hacha.ml" 83 3061 3072 "hacha.ml" 83 3061 3076
+type(
+  in_channel
+)
+ident(
+  int_ref chan "hacha.ml" 78 2845 2851 "hacha.ml" 78 2845 2855
+)
+"hacha.ml" 83 3061 3063 "hacha.ml" 83 3061 3076
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 84 3079 3084 "hacha.ml" 84 3079 3085
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"hacha.ml" 84 3079 3085 "hacha.ml" 84 3079 3088
+type(
+  bool ref
+)
+ident(
+  int_ref log "hacha.ml" 19 839 843 "hacha.ml" 19 839 846
+)
+"hacha.ml" 84 3079 3084 "hacha.ml" 84 3079 3088
+type(
+  bool
+)
+"hacha.ml" 84 3079 3094 "hacha.ml" 84 3079 3104
+type(
+  string -> (string -> string) -> unit
+)
+ident(
+  ext_ref Cross.dump
+)
+"hacha.ml" 84 3079 3106 "hacha.ml" 84 3079 3117
+type(
+  string -> string
+)
+ident(
+  ext_ref C.real_name
+)
+"hacha.ml" 84 3079 3119 "hacha.ml" 84 3079 3125
+type(
+  string
+)
+ident(
+  ext_ref C.base
+)
+"hacha.ml" 84 3079 3125 "hacha.ml" 84 3079 3126
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hacha.ml" 84 3079 3126 "hacha.ml" 84 3079 3132
+type(
+  string
+)
+"hacha.ml" 84 3079 3118 "hacha.ml" 84 3079 3133
+call(
+  stack
+)
+type(
+  string
+)
+"hacha.ml" 84 3079 3105 "hacha.ml" 84 3079 3134
+call(
+  stack
+)
+type(
+  string
+)
+"hacha.ml" 84 3079 3135 "hacha.ml" 84 3079 3150
+type(
+  string -> string
+)
+ident(
+  ext_ref C.check_changed
+)
+"hacha.ml" 84 3079 3094 "hacha.ml" 84 3079 3150
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 84 3079 3081 "hacha.ml" 84 3079 3150
+type(
+  unit
+)
+"hacha.ml" 85 3153 3158 "hacha.ml" 85 3153 3168
+type(
+  bool
+)
+ident(
+  int_ref some_links "hacha.ml" 82 3026 3032 "hacha.ml" 82 3026 3042
+)
+"hacha.ml" 86 3180 3184 "hacha.ml" 86 3180 3210
+type(
+  string -> string option -> string -> unit
+)
+ident(
+  ext_ref Mysys.copy_from_lib_to_dir
+)
+"hacha.ml" 86 3180 3211 "hacha.ml" 86 3180 3223
+type(
+  string
+)
+ident(
+  ext_ref Mylib.libdir
+)
+"hacha.ml" 86 3180 3224 "hacha.ml" 86 3180 3229
+type(
+  string option
+)
+ident(
+  ext_ref C.dir
+)
+"hacha.ml" 86 3180 3230 "hacha.ml" 86 3180 3250
+type(
+  string
+)
+"hacha.ml" 86 3180 3184 "hacha.ml" 86 3180 3250
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 87 3255 3259 "hacha.ml" 87 3255 3285
+type(
+  string -> string option -> string -> unit
+)
+ident(
+  ext_ref Mysys.copy_from_lib_to_dir
+)
+"hacha.ml" 87 3255 3286 "hacha.ml" 87 3255 3298
+type(
+  string
+)
+ident(
+  ext_ref Mylib.libdir
+)
+"hacha.ml" 87 3255 3299 "hacha.ml" 87 3255 3304
+type(
+  string option
+)
+ident(
+  ext_ref C.dir
+)
+"hacha.ml" 87 3255 3305 "hacha.ml" 87 3255 3321
+type(
+  string
+)
+"hacha.ml" 87 3255 3259 "hacha.ml" 87 3255 3321
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 88 3326 3330 "hacha.ml" 88 3326 3356
+type(
+  string -> string option -> string -> unit
+)
+ident(
+  ext_ref Mysys.copy_from_lib_to_dir
+)
+"hacha.ml" 88 3326 3357 "hacha.ml" 88 3326 3369
+type(
+  string
+)
+ident(
+  ext_ref Mylib.libdir
+)
+"hacha.ml" 88 3326 3370 "hacha.ml" 88 3326 3375
+type(
+  string option
+)
+ident(
+  ext_ref C.dir
+)
+"hacha.ml" 88 3326 3376 "hacha.ml" 88 3326 3396
+type(
+  string
+)
+"hacha.ml" 88 3326 3330 "hacha.ml" 88 3326 3396
+call(
+  tail
+)
+type(
+  unit
+)
+"hacha.ml" 87 3255 3259 "hacha.ml" 88 3326 3396
+type(
+  unit
+)
+"hacha.ml" 85 3153 3174 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 85 3153 3155 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 84 3079 3081 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 83 3061 3063 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 82 3026 3028 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 81 3005 3007 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 80 2975 2977 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 79 2935 2937 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 78 2845 2847 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 77 2819 2821 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 76 2801 2803 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 75 2773 2775 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 74 2752 2754 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 73 2722 2724 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 72 2682 2684 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 71 2645 2647 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 63 2421 2423 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 59 2322 2324 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 54 2209 2211 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 53 2154 2156 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 27 983 985 "hacha.ml" 89 3397 3402
+type(
+  unit
+)
+"hacha.ml" 94 3420 3422 "hacha.ml" 94 3420 3426
+type(
+  unit -> unit
+)
+ident(
+  int_ref main "hacha.ml" 26 969 973 "hacha.ml" 26 969 977
+)
+"hacha.ml" 94 3420 3427 "hacha.ml" 94 3420 3429
+type(
+  unit
+)
+"hacha.ml" 94 3420 3422 "hacha.ml" 94 3420 3431
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 96 3437 3445 "hacha.ml" 96 3437 3446
+type(
+  string
+)
+ident(
+  def s "hacha.ml" 97 3451 3455 "hacha.ml" 99 3501 3511
+)
+"hacha.ml" 96 3437 3439 "hacha.ml" 96 3437 3446
+type(
+  exn
+)
+"hacha.ml" 97 3451 3455 "hacha.ml" 97 3451 3468
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"hacha.ml" 97 3451 3469 "hacha.ml" 97 3451 3470
+type(
+  string
+)
+ident(
+  int_ref s "hacha.ml" 96 3437 3445 "hacha.ml" 96 3437 3446
+)
+"hacha.ml" 97 3451 3455 "hacha.ml" 97 3451 3470
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 98 3473 3477 "hacha.ml" 98 3473 3490
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"hacha.ml" 98 3473 3491 "hacha.ml" 98 3473 3498
+type(
+  string
+)
+"hacha.ml" 98 3473 3477 "hacha.ml" 98 3473 3498
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 99 3501 3505 "hacha.ml" 99 3501 3509
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"hacha.ml" 99 3501 3510 "hacha.ml" 99 3501 3511
+type(
+  int
+)
+"hacha.ml" 99 3501 3505 "hacha.ml" 99 3501 3511
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 98 3473 3477 "hacha.ml" 99 3501 3511
+type(
+  unit
+)
+"hacha.ml" 97 3451 3455 "hacha.ml" 99 3501 3511
+type(
+  unit
+)
+"hacha.ml" 100 3512 3524 "hacha.ml" 100 3512 3525
+type(
+  string
+)
+ident(
+  def s "hacha.ml" 101 3529 3533 "hacha.ml" 104 3638 3648
+)
+"hacha.ml" 100 3512 3514 "hacha.ml" 100 3512 3525
+type(
+  exn
+)
+"hacha.ml" 101 3529 3533 "hacha.ml" 101 3529 3551
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Location.print_pos
+)
+"hacha.ml" 101 3529 3552 "hacha.ml" 101 3529 3554
+type(
+  unit
+)
+"hacha.ml" 101 3529 3533 "hacha.ml" 101 3529 3554
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 102 3557 3561 "hacha.ml" 102 3557 3574
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"hacha.ml" 102 3557 3576 "hacha.ml" 102 3557 3604
+type(
+  string
+)
+"hacha.ml" 102 3557 3604 "hacha.ml" 102 3557 3605
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hacha.ml" 102 3557 3605 "hacha.ml" 102 3557 3606
+type(
+  string
+)
+ident(
+  int_ref s "hacha.ml" 100 3512 3524 "hacha.ml" 100 3512 3525
+)
+"hacha.ml" 102 3557 3575 "hacha.ml" 102 3557 3607
+call(
+  stack
+)
+type(
+  string
+)
+"hacha.ml" 102 3557 3561 "hacha.ml" 102 3557 3607
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 103 3610 3614 "hacha.ml" 103 3610 3627
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"hacha.ml" 103 3610 3628 "hacha.ml" 103 3610 3635
+type(
+  string
+)
+"hacha.ml" 103 3610 3614 "hacha.ml" 103 3610 3635
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 104 3638 3642 "hacha.ml" 104 3638 3646
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"hacha.ml" 104 3638 3647 "hacha.ml" 104 3638 3648
+type(
+  int
+)
+"hacha.ml" 104 3638 3642 "hacha.ml" 104 3638 3648
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 103 3610 3614 "hacha.ml" 104 3638 3648
+type(
+  unit
+)
+"hacha.ml" 102 3557 3561 "hacha.ml" 104 3638 3648
+type(
+  unit
+)
+"hacha.ml" 101 3529 3533 "hacha.ml" 104 3638 3648
+type(
+  unit
+)
+"hacha.ml" 105 3649 3662 "hacha.ml" 105 3649 3663
+type(
+  string
+)
+ident(
+  def s "hacha.ml" 106 3667 3671 "hacha.ml" 110 3813 3823
+)
+"hacha.ml" 105 3649 3651 "hacha.ml" 105 3649 3663
+type(
+  exn
+)
+"hacha.ml" 106 3667 3671 "hacha.ml" 106 3667 3689
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Location.print_pos
+)
+"hacha.ml" 106 3667 3690 "hacha.ml" 106 3667 3692
+type(
+  unit
+)
+"hacha.ml" 106 3667 3671 "hacha.ml" 106 3667 3692
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 107 3695 3699 "hacha.ml" 107 3695 3712
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"hacha.ml" 108 3713 3720 "hacha.ml" 108 3713 3735
+type(
+  string
+)
+"hacha.ml" 108 3713 3735 "hacha.ml" 108 3713 3736
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hacha.ml" 108 3713 3736 "hacha.ml" 108 3713 3737
+type(
+  string
+)
+ident(
+  int_ref s "hacha.ml" 105 3649 3662 "hacha.ml" 105 3649 3663
+)
+"hacha.ml" 108 3713 3737 "hacha.ml" 108 3713 3738
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"hacha.ml" 108 3713 3738 "hacha.ml" 108 3713 3781
+type(
+  string
+)
+"hacha.ml" 108 3713 3736 "hacha.ml" 108 3713 3781
+call(
+  stack
+)
+type(
+  string
+)
+"hacha.ml" 108 3713 3719 "hacha.ml" 108 3713 3782
+call(
+  stack
+)
+type(
+  string
+)
+"hacha.ml" 107 3695 3699 "hacha.ml" 108 3713 3782
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 109 3785 3789 "hacha.ml" 109 3785 3802
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"hacha.ml" 109 3785 3803 "hacha.ml" 109 3785 3810
+type(
+  string
+)
+"hacha.ml" 109 3785 3789 "hacha.ml" 109 3785 3810
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 110 3813 3817 "hacha.ml" 110 3813 3821
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"hacha.ml" 110 3813 3822 "hacha.ml" 110 3813 3823
+type(
+  int
+)
+"hacha.ml" 110 3813 3817 "hacha.ml" 110 3813 3823
+call(
+  stack
+)
+type(
+  unit
+)
+"hacha.ml" 109 3785 3789 "hacha.ml" 110 3813 3823
+type(
+  unit
+)
+"hacha.ml" 107 3695 3699 "hacha.ml" 110 3813 3823
+type(
+  unit
+)
+"hacha.ml" 106 3667 3671 "hacha.ml" 110 3813 3823
+type(
+  unit
+)
+"hacha.ml" 93 3408 3416 "hacha.ml" 110 3813 3823
+type(
+  unit
+)
+"hacha.ml" 122 4044 4044 "hacha.ml" 122 4044 4048
+type(
+  int -> 'a
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"hacha.ml" 122 4044 4049 "hacha.ml" 122 4044 4050
+type(
+  int
+)
+"hacha.ml" 122 4044 4044 "hacha.ml" 122 4044 4050
+call(
+  stack
+)
+type(
+  'a
+)

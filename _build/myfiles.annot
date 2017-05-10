@@ -1,0 +1,2733 @@
+"myfiles.ml" 19 802 806 "myfiles.ml" 19 802 812
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  def etable "myfiles.ml" 23 838 838 "myfiles.ml" 1 0 -1
+)
+"myfiles.ml" 19 802 815 "myfiles.ml" 19 802 829
+type(
+  ?random:bool -> int -> (string, unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"myfiles.ml" 19 802 830 "myfiles.ml" 19 802 832
+type(
+  int
+)
+"myfiles.ml" 19 802 815 "myfiles.ml" 19 802 832
+call(
+  stack
+)
+type(
+  (string, unit) Hashtbl.t
+)
+"myfiles.ml" 23 838 838 "myfiles.ml" 23 838 847
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"myfiles.ml" 23 838 853 "myfiles.ml" 23 838 857
+type(
+  string
+)
+ident(
+  def name "myfiles.ml" 23 838 861 "myfiles.ml" 23 838 887
+)
+"myfiles.ml" 23 838 861 "myfiles.ml" 23 838 872
+type(
+  (string, unit) Hashtbl.t -> string -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"myfiles.ml" 23 838 873 "myfiles.ml" 23 838 879
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  int_ref etable "myfiles.ml" 19 802 806 "myfiles.ml" 19 802 812
+)
+"myfiles.ml" 23 838 880 "myfiles.ml" 23 838 884
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 23 838 853 "myfiles.ml" 23 838 857
+)
+"myfiles.ml" 23 838 885 "myfiles.ml" 23 838 887
+type(
+  unit
+)
+"myfiles.ml" 23 838 861 "myfiles.ml" 23 838 887
+call(
+  tail
+)
+type(
+  unit
+)
+"myfiles.ml" 23 838 848 "myfiles.ml" 23 838 888
+type(
+  string -> unit
+)
+"myfiles.ml" 23 838 889 "myfiles.ml" 23 838 890
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"myfiles.ml" 23 838 890 "myfiles.ml" 23 838 907
+type(
+  string list ref
+)
+ident(
+  ext_ref Parse_opts.except
+)
+"myfiles.ml" 23 838 889 "myfiles.ml" 23 838 907
+type(
+  string list
+)
+"myfiles.ml" 23 838 838 "myfiles.ml" 23 838 907
+call(
+  stack
+)
+type(
+  unit
+)
+"myfiles.ml" 26 912 916 "myfiles.ml" 26 912 925
+type(
+  string -> bool
+)
+ident(
+  def is_except "myfiles.ml" 30 999 999 "myfiles.ml" 1 0 -1
+)
+"myfiles.ml" 26 912 926 "myfiles.ml" 26 912 930
+type(
+  string
+)
+ident(
+  def name "myfiles.ml" 27 933 935 "myfiles.ml" 27 933 994
+)
+"myfiles.ml" 27 933 939 "myfiles.ml" 27 933 951
+type(
+  (string, unit) Hashtbl.t -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"myfiles.ml" 27 933 952 "myfiles.ml" 27 933 958
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  int_ref etable "myfiles.ml" 19 802 806 "myfiles.ml" 19 802 812
+)
+"myfiles.ml" 27 933 959 "myfiles.ml" 27 933 963
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 26 912 926 "myfiles.ml" 26 912 930
+)
+"myfiles.ml" 27 933 939 "myfiles.ml" 27 933 963
+call(
+  stack
+)
+type(
+  unit
+)
+"myfiles.ml" 27 933 966 "myfiles.ml" 27 933 970
+type(
+  bool
+)
+"myfiles.ml" 27 933 939 "myfiles.ml" 27 933 970
+type(
+  bool
+)
+"myfiles.ml" 27 933 976 "myfiles.ml" 27 933 985
+type(
+  exn
+)
+"myfiles.ml" 27 933 989 "myfiles.ml" 27 933 994
+type(
+  bool
+)
+"myfiles.ml" 27 933 935 "myfiles.ml" 27 933 994
+type(
+  bool
+)
+"myfiles.ml" 30 999 1003 "myfiles.ml" 30 999 1011
+type(
+  string list
+)
+ident(
+  def tex_path "myfiles.ml" 40 1283 1283 "myfiles.ml" 1 0 -1
+)
+"myfiles.ml" 30 999 1014 "myfiles.ml" 30 999 1017
+type(
+  string
+)
+"myfiles.ml" 30 999 1021 "myfiles.ml" 30 999 1022
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"myfiles.ml" 30 999 1022 "myfiles.ml" 30 999 1037
+type(
+  string list ref
+)
+ident(
+  ext_ref Parse_opts.path
+)
+"myfiles.ml" 30 999 1021 "myfiles.ml" 30 999 1037
+type(
+  string list
+)
+"myfiles.ml" 30 999 1014 "myfiles.ml" 30 999 1037
+type(
+  string list
+)
+"myfiles.ml" 30 999 1038 "myfiles.ml" 30 999 1039
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"myfiles.ml" 31 1040 1042 "myfiles.ml" 31 1040 1054
+type(
+  string
+)
+ident(
+  ext_ref Mylib.libdir
+)
+"myfiles.ml" 32 1057 1059 "myfiles.ml" 32 1057 1067
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"myfiles.ml" 33 1068 1077 "myfiles.ml" 33 1068 1080
+type(
+  string
+)
+ident(
+  def dir "myfiles.ml" 33 1068 1084 "myfiles.ml" 33 1068 1117
+)
+"myfiles.ml" 33 1068 1084 "myfiles.ml" 33 1068 1099
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"myfiles.ml" 33 1068 1100 "myfiles.ml" 33 1068 1112
+type(
+  string
+)
+ident(
+  ext_ref Mylib.libdir
+)
+"myfiles.ml" 33 1068 1114 "myfiles.ml" 33 1068 1117
+type(
+  string
+)
+ident(
+  int_ref dir "myfiles.ml" 33 1068 1077 "myfiles.ml" 33 1068 1080
+)
+"myfiles.ml" 33 1068 1084 "myfiles.ml" 33 1068 1117
+call(
+  tail
+)
+type(
+  string
+)
+"myfiles.ml" 33 1068 1072 "myfiles.ml" 33 1068 1118
+type(
+  string -> string
+)
+"myfiles.ml" 34 1123 1135 "myfiles.ml" 34 1123 1136
+type(
+  Parse_opts.destination ref -> Parse_opts.destination
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"myfiles.ml" 34 1123 1136 "myfiles.ml" 34 1123 1158
+type(
+  Parse_opts.destination ref
+)
+ident(
+  ext_ref Parse_opts.destination
+)
+"myfiles.ml" 34 1123 1135 "myfiles.ml" 34 1123 1158
+type(
+  Parse_opts.destination
+)
+"myfiles.ml" 35 1164 1171 "myfiles.ml" 35 1164 1186
+type(
+  Parse_opts.destination
+)
+"myfiles.ml" 35 1164 1191 "myfiles.ml" 35 1164 1197
+type(
+  string
+)
+"myfiles.ml" 35 1164 1190 "myfiles.ml" 35 1164 1198
+type(
+  string list
+)
+"myfiles.ml" 36 1199 1206 "myfiles.ml" 36 1199 1221
+type(
+  Parse_opts.destination
+)
+"myfiles.ml" 36 1199 1226 "myfiles.ml" 36 1199 1232
+type(
+  string
+)
+"myfiles.ml" 36 1199 1225 "myfiles.ml" 36 1199 1233
+type(
+  string list
+)
+"myfiles.ml" 37 1234 1241 "myfiles.ml" 37 1234 1256
+type(
+  Parse_opts.destination
+)
+"myfiles.ml" 37 1234 1261 "myfiles.ml" 37 1234 1267
+type(
+  string
+)
+"myfiles.ml" 37 1234 1270 "myfiles.ml" 37 1234 1276
+type(
+  string
+)
+"myfiles.ml" 37 1234 1260 "myfiles.ml" 37 1234 1277
+type(
+  string list
+)
+"myfiles.ml" 34 1123 1128 "myfiles.ml" 37 1234 1278
+type(
+  string list
+)
+"myfiles.ml" 32 1057 1059 "myfiles.ml" 37 1234 1278
+call(
+  stack
+)
+type(
+  string list
+)
+"myfiles.ml" 31 1040 1042 "myfiles.ml" 37 1234 1278
+type(
+  string list
+)
+"myfiles.ml" 30 999 1014 "myfiles.ml" 37 1234 1278
+call(
+  stack
+)
+type(
+  string list
+)
+"myfiles.ml" 40 1283 1287 "myfiles.ml" 40 1283 1293
+type(
+  string ref
+)
+ident(
+  def import "myfiles.ml" 43 1307 1307 "myfiles.ml" 1 0 -1
+)
+"myfiles.ml" 40 1283 1296 "myfiles.ml" 40 1283 1299
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"myfiles.ml" 40 1283 1300 "myfiles.ml" 40 1283 1302
+type(
+  string
+)
+"myfiles.ml" 40 1283 1296 "myfiles.ml" 40 1283 1302
+type(
+  string ref
+)
+"myfiles.ml" 43 1307 1311 "myfiles.ml" 43 1307 1321
+type(
+  string -> unit
+)
+ident(
+  def set_import "myfiles.ml" 45 1343 1343 "myfiles.ml" 1 0 -1
+)
+"myfiles.ml" 43 1307 1322 "myfiles.ml" 43 1307 1325
+type(
+  string
+)
+ident(
+  def dir "myfiles.ml" 43 1307 1328 "myfiles.ml" 43 1307 1341
+)
+"myfiles.ml" 43 1307 1328 "myfiles.ml" 43 1307 1334
+type(
+  string ref
+)
+ident(
+  int_ref import "myfiles.ml" 40 1283 1287 "myfiles.ml" 40 1283 1293
+)
+"myfiles.ml" 43 1307 1335 "myfiles.ml" 43 1307 1337
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"myfiles.ml" 43 1307 1338 "myfiles.ml" 43 1307 1341
+type(
+  string
+)
+ident(
+  int_ref dir "myfiles.ml" 43 1307 1322 "myfiles.ml" 43 1307 1325
+)
+"myfiles.ml" 43 1307 1328 "myfiles.ml" 43 1307 1341
+type(
+  unit
+)
+"myfiles.ml" 45 1343 1347 "myfiles.ml" 45 1343 1357
+type(
+  (string -> unit) -> unit
+)
+ident(
+  def try_import "myfiles.ml" 47 1406 1406 "myfiles.ml" 1 0 -1
+)
+"myfiles.ml" 45 1343 1358 "myfiles.ml" 45 1343 1359
+type(
+  string -> unit
+)
+ident(
+  def f "myfiles.ml" 45 1343 1362 "myfiles.ml" 45 1343 1404
+)
+"myfiles.ml" 45 1343 1368 "myfiles.ml" 45 1343 1369
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"myfiles.ml" 45 1343 1369 "myfiles.ml" 45 1343 1375
+type(
+  string ref
+)
+ident(
+  int_ref import "myfiles.ml" 40 1283 1287 "myfiles.ml" 40 1283 1293
+)
+"myfiles.ml" 45 1343 1368 "myfiles.ml" 45 1343 1375
+type(
+  string
+)
+"myfiles.ml" 45 1343 1381 "myfiles.ml" 45 1343 1383
+type(
+  string
+)
+"myfiles.ml" 45 1343 1387 "myfiles.ml" 45 1343 1389
+type(
+  unit
+)
+"myfiles.ml" 45 1343 1392 "myfiles.ml" 45 1343 1395
+type(
+  string
+)
+ident(
+  def dir "myfiles.ml" 45 1343 1399 "myfiles.ml" 45 1343 1404
+)
+"myfiles.ml" 45 1343 1399 "myfiles.ml" 45 1343 1400
+type(
+  string -> unit
+)
+ident(
+  int_ref f "myfiles.ml" 45 1343 1358 "myfiles.ml" 45 1343 1359
+)
+"myfiles.ml" 45 1343 1401 "myfiles.ml" 45 1343 1404
+type(
+  string
+)
+ident(
+  int_ref dir "myfiles.ml" 45 1343 1392 "myfiles.ml" 45 1343 1395
+)
+"myfiles.ml" 45 1343 1399 "myfiles.ml" 45 1343 1404
+call(
+  tail
+)
+type(
+  unit
+)
+"myfiles.ml" 45 1343 1362 "myfiles.ml" 45 1343 1404
+type(
+  unit
+)
+"myfiles.ml" 50 1451 1455 "myfiles.ml" 50 1451 1466
+type(
+  string -> string * in_channel
+)
+ident(
+  def do_open_tex "myfiles.ml" 69 1988 1988 "myfiles.ml" 1 0 -1
+)
+"myfiles.ml" 50 1451 1467 "myfiles.ml" 50 1451 1475
+type(
+  string
+)
+ident(
+  def filename "myfiles.ml" 51 1478 1480 "myfiles.ml" 64 1962 1981
+)
+"myfiles.ml" 51 1478 1484 "myfiles.ml" 51 1478 1492
+type(
+  string -> unit
+)
+ident(
+  def try_open "myfiles.ml" 60 1846 1848 "myfiles.ml" 64 1962 1981
+)
+"myfiles.ml" 51 1478 1493 "myfiles.ml" 51 1478 1496
+type(
+  string
+)
+ident(
+  def dir "myfiles.ml" 52 1499 1503 "myfiles.ml" 59 1787 1842
+)
+"myfiles.ml" 53 1507 1517 "myfiles.ml" 53 1507 1526
+type(
+  string
+)
+ident(
+  def full_name "myfiles.ml" 54 1561 1567 "myfiles.ml" 57 1729 1762
+)
+"myfiles.ml" 53 1507 1529 "myfiles.ml" 53 1507 1544
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"myfiles.ml" 53 1507 1545 "myfiles.ml" 53 1507 1548
+type(
+  string
+)
+ident(
+  int_ref dir "myfiles.ml" 51 1478 1493 "myfiles.ml" 51 1478 1496
+)
+"myfiles.ml" 53 1507 1549 "myfiles.ml" 53 1507 1557
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 50 1451 1467 "myfiles.ml" 50 1451 1475
+)
+"myfiles.ml" 53 1507 1529 "myfiles.ml" 53 1507 1557
+call(
+  stack
+)
+type(
+  string
+)
+"myfiles.ml" 54 1561 1570 "myfiles.ml" 54 1561 1571
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"myfiles.ml" 54 1561 1571 "myfiles.ml" 54 1561 1578
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"myfiles.ml" 54 1561 1570 "myfiles.ml" 54 1561 1578
+type(
+  int
+)
+"myfiles.ml" 54 1561 1579 "myfiles.ml" 54 1561 1580
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"myfiles.ml" 54 1561 1581 "myfiles.ml" 54 1561 1582
+type(
+  int
+)
+"myfiles.ml" 54 1561 1570 "myfiles.ml" 54 1561 1582
+type(
+  bool
+)
+"myfiles.ml" 54 1561 1588 "myfiles.ml" 54 1561 1601
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"myfiles.ml" 54 1561 1603 "myfiles.ml" 54 1561 1613
+type(
+  string
+)
+"myfiles.ml" 54 1561 1613 "myfiles.ml" 54 1561 1614
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myfiles.ml" 54 1561 1614 "myfiles.ml" 54 1561 1623
+type(
+  string
+)
+ident(
+  int_ref full_name "myfiles.ml" 53 1507 1517 "myfiles.ml" 53 1507 1526
+)
+"myfiles.ml" 54 1561 1602 "myfiles.ml" 54 1561 1624
+call(
+  stack
+)
+type(
+  string
+)
+"myfiles.ml" 54 1561 1588 "myfiles.ml" 54 1561 1624
+call(
+  stack
+)
+type(
+  unit
+)
+"myfiles.ml" 54 1561 1567 "myfiles.ml" 54 1561 1624
+type(
+  unit
+)
+"myfiles.ml" 55 1627 1637 "myfiles.ml" 55 1627 1638
+type(
+  in_channel
+)
+ident(
+  def r "myfiles.ml" 56 1662 1668 "myfiles.ml" 57 1729 1762
+)
+"myfiles.ml" 55 1627 1641 "myfiles.ml" 55 1627 1648
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"myfiles.ml" 55 1627 1649 "myfiles.ml" 55 1627 1658
+type(
+  string
+)
+ident(
+  int_ref full_name "myfiles.ml" 53 1507 1517 "myfiles.ml" 53 1507 1526
+)
+"myfiles.ml" 55 1627 1641 "myfiles.ml" 55 1627 1658
+call(
+  stack
+)
+type(
+  in_channel
+)
+"myfiles.ml" 56 1662 1671 "myfiles.ml" 56 1662 1672
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"myfiles.ml" 56 1662 1672 "myfiles.ml" 56 1662 1679
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"myfiles.ml" 56 1662 1671 "myfiles.ml" 56 1662 1679
+type(
+  int
+)
+"myfiles.ml" 56 1662 1680 "myfiles.ml" 56 1662 1681
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"myfiles.ml" 56 1662 1682 "myfiles.ml" 56 1662 1683
+type(
+  int
+)
+"myfiles.ml" 56 1662 1671 "myfiles.ml" 56 1662 1683
+type(
+  bool
+)
+"myfiles.ml" 56 1662 1689 "myfiles.ml" 56 1662 1702
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"myfiles.ml" 56 1662 1704 "myfiles.ml" 56 1662 1715
+type(
+  string
+)
+"myfiles.ml" 56 1662 1715 "myfiles.ml" 56 1662 1716
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myfiles.ml" 56 1662 1716 "myfiles.ml" 56 1662 1725
+type(
+  string
+)
+ident(
+  int_ref full_name "myfiles.ml" 53 1507 1517 "myfiles.ml" 53 1507 1526
+)
+"myfiles.ml" 56 1662 1703 "myfiles.ml" 56 1662 1726
+call(
+  stack
+)
+type(
+  string
+)
+"myfiles.ml" 56 1662 1689 "myfiles.ml" 56 1662 1726
+call(
+  stack
+)
+type(
+  unit
+)
+"myfiles.ml" 56 1662 1668 "myfiles.ml" 56 1662 1726
+type(
+  unit
+)
+"myfiles.ml" 57 1729 1735 "myfiles.ml" 57 1729 1740
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"myfiles.ml" 57 1729 1749 "myfiles.ml" 57 1729 1758
+type(
+  string
+)
+ident(
+  int_ref full_name "myfiles.ml" 53 1507 1517 "myfiles.ml" 53 1507 1526
+)
+"myfiles.ml" 57 1729 1759 "myfiles.ml" 57 1729 1760
+type(
+  in_channel
+)
+ident(
+  int_ref r "myfiles.ml" 55 1627 1637 "myfiles.ml" 55 1627 1638
+)
+"myfiles.ml" 57 1729 1748 "myfiles.ml" 57 1729 1761
+type(
+  string * in_channel
+)
+"myfiles.ml" 57 1729 1741 "myfiles.ml" 57 1729 1762
+type(
+  exn
+)
+"myfiles.ml" 57 1729 1735 "myfiles.ml" 57 1729 1762
+type(
+  unit
+)
+"myfiles.ml" 56 1662 1668 "myfiles.ml" 57 1729 1762
+type(
+  unit
+)
+"myfiles.ml" 55 1627 1633 "myfiles.ml" 57 1729 1762
+type(
+  unit
+)
+"myfiles.ml" 54 1561 1567 "myfiles.ml" 57 1729 1762
+type(
+  unit
+)
+"myfiles.ml" 53 1507 1513 "myfiles.ml" 57 1729 1762
+type(
+  unit
+)
+"myfiles.ml" 58 1763 1782 "myfiles.ml" 58 1763 1783
+type(
+  string
+)
+ident(
+  def s "myfiles.ml" 59 1787 1793 "myfiles.ml" 59 1787 1842
+)
+"myfiles.ml" 58 1763 1772 "myfiles.ml" 58 1763 1783
+type(
+  exn
+)
+"myfiles.ml" 59 1787 1796 "myfiles.ml" 59 1787 1797
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"myfiles.ml" 59 1787 1797 "myfiles.ml" 59 1787 1804
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"myfiles.ml" 59 1787 1796 "myfiles.ml" 59 1787 1804
+type(
+  int
+)
+"myfiles.ml" 59 1787 1805 "myfiles.ml" 59 1787 1806
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"myfiles.ml" 59 1787 1807 "myfiles.ml" 59 1787 1808
+type(
+  int
+)
+"myfiles.ml" 59 1787 1796 "myfiles.ml" 59 1787 1808
+type(
+  bool
+)
+"myfiles.ml" 59 1787 1814 "myfiles.ml" 59 1787 1827
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"myfiles.ml" 59 1787 1829 "myfiles.ml" 59 1787 1839
+type(
+  string
+)
+"myfiles.ml" 59 1787 1839 "myfiles.ml" 59 1787 1840
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myfiles.ml" 59 1787 1840 "myfiles.ml" 59 1787 1841
+type(
+  string
+)
+ident(
+  int_ref s "myfiles.ml" 58 1763 1782 "myfiles.ml" 58 1763 1783
+)
+"myfiles.ml" 59 1787 1828 "myfiles.ml" 59 1787 1842
+call(
+  stack
+)
+type(
+  string
+)
+"myfiles.ml" 59 1787 1814 "myfiles.ml" 59 1787 1842
+call(
+  tail
+)
+type(
+  unit
+)
+"myfiles.ml" 59 1787 1793 "myfiles.ml" 59 1787 1842
+type(
+  unit
+)
+"myfiles.ml" 52 1499 1503 "myfiles.ml" 59 1787 1842
+type(
+  unit
+)
+"myfiles.ml" 61 1852 1856 "myfiles.ml" 61 1852 1865
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"myfiles.ml" 61 1852 1866 "myfiles.ml" 61 1852 1874
+type(
+  string -> unit
+)
+ident(
+  int_ref try_open "myfiles.ml" 51 1478 1484 "myfiles.ml" 51 1478 1492
+)
+"myfiles.ml" 61 1852 1875 "myfiles.ml" 61 1852 1883
+type(
+  string list
+)
+ident(
+  int_ref tex_path "myfiles.ml" 30 999 1003 "myfiles.ml" 30 999 1011
+)
+"myfiles.ml" 61 1852 1856 "myfiles.ml" 61 1852 1883
+call(
+  stack
+)
+type(
+  unit
+)
+"myfiles.ml" 62 1886 1890 "myfiles.ml" 62 1886 1900
+type(
+  (string -> unit) -> unit
+)
+ident(
+  int_ref try_import "myfiles.ml" 45 1343 1347 "myfiles.ml" 45 1343 1357
+)
+"myfiles.ml" 62 1886 1901 "myfiles.ml" 62 1886 1909
+type(
+  string -> unit
+)
+ident(
+  int_ref try_open "myfiles.ml" 51 1478 1484 "myfiles.ml" 51 1478 1492
+)
+"myfiles.ml" 62 1886 1890 "myfiles.ml" 62 1886 1909
+call(
+  stack
+)
+type(
+  unit
+)
+"myfiles.ml" 63 1912 1916 "myfiles.ml" 63 1912 1921
+type(
+  exn -> string * in_channel
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"myfiles.ml" 63 1912 1930 "myfiles.ml" 63 1912 1950
+type(
+  string
+)
+"myfiles.ml" 63 1912 1950 "myfiles.ml" 63 1912 1951
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myfiles.ml" 63 1912 1951 "myfiles.ml" 63 1912 1959
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 50 1451 1467 "myfiles.ml" 50 1451 1475
+)
+"myfiles.ml" 63 1912 1929 "myfiles.ml" 63 1912 1960
+call(
+  stack
+)
+type(
+  string
+)
+"myfiles.ml" 63 1912 1922 "myfiles.ml" 63 1912 1961
+type(
+  exn
+)
+"myfiles.ml" 63 1912 1916 "myfiles.ml" 63 1912 1961
+type(
+  string * in_channel
+)
+"myfiles.ml" 62 1886 1890 "myfiles.ml" 63 1912 1961
+type(
+  string * in_channel
+)
+"myfiles.ml" 61 1852 1856 "myfiles.ml" 63 1912 1961
+type(
+  string * in_channel
+)
+"myfiles.ml" 64 1962 1975 "myfiles.ml" 64 1962 1976
+type(
+  string * in_channel
+)
+ident(
+  def r "myfiles.ml" 64 1962 1980 "myfiles.ml" 64 1962 1981
+)
+"myfiles.ml" 64 1962 1969 "myfiles.ml" 64 1962 1976
+type(
+  exn
+)
+"myfiles.ml" 64 1962 1980 "myfiles.ml" 64 1962 1981
+type(
+  string * in_channel
+)
+ident(
+  int_ref r "myfiles.ml" 64 1962 1975 "myfiles.ml" 64 1962 1976
+)
+"myfiles.ml" 60 1846 1848 "myfiles.ml" 64 1962 1981
+type(
+  string * in_channel
+)
+"myfiles.ml" 51 1478 1480 "myfiles.ml" 64 1962 1981
+type(
+  string * in_channel
+)
+"myfiles.ml" 69 1988 1992 "myfiles.ml" 69 1988 2000
+type(
+  string -> string * in_channel
+)
+ident(
+  def open_tex "myfiles.ml" 93 2768 2768 "myfiles.ml" 1 0 -1
+)
+"myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+type(
+  string
+)
+ident(
+  def filename "myfiles.ml" 70 2012 2014 "myfiles.ml" 90 2701 2765
+)
+"myfiles.ml" 70 2012 2017 "myfiles.ml" 70 2012 2018
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"myfiles.ml" 70 2012 2018 "myfiles.ml" 70 2012 2025
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"myfiles.ml" 70 2012 2017 "myfiles.ml" 70 2012 2025
+type(
+  int
+)
+"myfiles.ml" 70 2012 2026 "myfiles.ml" 70 2012 2027
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"myfiles.ml" 70 2012 2028 "myfiles.ml" 70 2012 2029
+type(
+  int
+)
+"myfiles.ml" 70 2012 2017 "myfiles.ml" 70 2012 2029
+type(
+  bool
+)
+"myfiles.ml" 71 2035 2039 "myfiles.ml" 71 2035 2052
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"myfiles.ml" 71 2035 2054 "myfiles.ml" 71 2035 2072
+type(
+  string
+)
+"myfiles.ml" 71 2035 2072 "myfiles.ml" 71 2035 2073
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myfiles.ml" 71 2035 2073 "myfiles.ml" 71 2035 2081
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+)
+"myfiles.ml" 71 2035 2053 "myfiles.ml" 71 2035 2082
+call(
+  stack
+)
+type(
+  string
+)
+"myfiles.ml" 71 2035 2039 "myfiles.ml" 71 2035 2082
+call(
+  stack
+)
+type(
+  unit
+)
+"myfiles.ml" 70 2012 2014 "myfiles.ml" 71 2035 2082
+type(
+  unit
+)
+"myfiles.ml" 72 2085 2090 "myfiles.ml" 72 2085 2099
+type(
+  string -> bool
+)
+ident(
+  int_ref is_except "myfiles.ml" 26 912 916 "myfiles.ml" 26 912 925
+)
+"myfiles.ml" 72 2085 2100 "myfiles.ml" 72 2085 2108
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+)
+"myfiles.ml" 72 2085 2090 "myfiles.ml" 72 2085 2108
+call(
+  stack
+)
+type(
+  bool
+)
+"myfiles.ml" 72 2085 2114 "myfiles.ml" 72 2085 2119
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"myfiles.ml" 72 2085 2120 "myfiles.ml" 72 2085 2126
+type(
+  exn
+)
+"myfiles.ml" 72 2085 2114 "myfiles.ml" 72 2085 2126
+type(
+  unit
+)
+"myfiles.ml" 72 2085 2087 "myfiles.ml" 72 2085 2126
+type(
+  unit
+)
+"myfiles.ml" 73 2129 2134 "myfiles.ml" 73 2129 2154
+type(
+  string -> bool
+)
+ident(
+  ext_ref Filename.is_implicit
+)
+"myfiles.ml" 73 2129 2155 "myfiles.ml" 73 2129 2163
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+)
+"myfiles.ml" 73 2129 2134 "myfiles.ml" 73 2129 2163
+call(
+  stack
+)
+type(
+  bool
+)
+"myfiles.ml" 75 2176 2182 "myfiles.ml" 75 2176 2203
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Filename.check_suffix
+)
+"myfiles.ml" 75 2176 2204 "myfiles.ml" 75 2176 2212
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+)
+"myfiles.ml" 75 2176 2213 "myfiles.ml" 75 2176 2219
+type(
+  string
+)
+"myfiles.ml" 75 2176 2182 "myfiles.ml" 75 2176 2219
+call(
+  stack
+)
+type(
+  bool
+)
+"myfiles.ml" 75 2176 2220 "myfiles.ml" 75 2176 2222
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"myfiles.ml" 76 2223 2229 "myfiles.ml" 76 2223 2250
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Filename.check_suffix
+)
+"myfiles.ml" 76 2223 2251 "myfiles.ml" 76 2223 2259
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+)
+"myfiles.ml" 76 2223 2260 "myfiles.ml" 76 2223 2266
+type(
+  string
+)
+"myfiles.ml" 76 2223 2229 "myfiles.ml" 76 2223 2266
+call(
+  stack
+)
+type(
+  bool
+)
+"myfiles.ml" 75 2176 2182 "myfiles.ml" 76 2223 2266
+type(
+  bool
+)
+"myfiles.ml" 77 2267 2276 "myfiles.ml" 77 2267 2287
+type(
+  string -> string * in_channel
+)
+ident(
+  int_ref do_open_tex "myfiles.ml" 50 1451 1455 "myfiles.ml" 50 1451 1466
+)
+"myfiles.ml" 77 2267 2288 "myfiles.ml" 77 2267 2296
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+)
+"myfiles.ml" 77 2267 2276 "myfiles.ml" 77 2267 2296
+call(
+  tail
+)
+type(
+  string * in_channel
+)
+"myfiles.ml" 80 2320 2336 "myfiles.ml" 80 2320 2340
+type(
+  string
+)
+ident(
+  def name "myfiles.ml" 81 2362 2374 "myfiles.ml" 82 2412 2440
+)
+"myfiles.ml" 80 2320 2343 "myfiles.ml" 80 2320 2351
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+)
+"myfiles.ml" 80 2320 2351 "myfiles.ml" 80 2320 2352
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myfiles.ml" 80 2320 2352 "myfiles.ml" 80 2320 2358
+type(
+  string
+)
+"myfiles.ml" 80 2320 2343 "myfiles.ml" 80 2320 2358
+call(
+  stack
+)
+type(
+  string
+)
+"myfiles.ml" 81 2362 2377 "myfiles.ml" 81 2362 2386
+type(
+  string -> bool
+)
+ident(
+  int_ref is_except "myfiles.ml" 26 912 916 "myfiles.ml" 26 912 925
+)
+"myfiles.ml" 81 2362 2387 "myfiles.ml" 81 2362 2391
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 80 2320 2336 "myfiles.ml" 80 2320 2340
+)
+"myfiles.ml" 81 2362 2377 "myfiles.ml" 81 2362 2391
+call(
+  stack
+)
+type(
+  bool
+)
+"myfiles.ml" 81 2362 2397 "myfiles.ml" 81 2362 2402
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"myfiles.ml" 81 2362 2403 "myfiles.ml" 81 2362 2409
+type(
+  exn
+)
+"myfiles.ml" 81 2362 2397 "myfiles.ml" 81 2362 2409
+type(
+  unit
+)
+"myfiles.ml" 81 2362 2374 "myfiles.ml" 81 2362 2409
+type(
+  unit
+)
+"myfiles.ml" 82 2412 2424 "myfiles.ml" 82 2412 2435
+type(
+  string -> string * in_channel
+)
+ident(
+  int_ref do_open_tex "myfiles.ml" 50 1451 1455 "myfiles.ml" 50 1451 1466
+)
+"myfiles.ml" 82 2412 2436 "myfiles.ml" 82 2412 2440
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 80 2320 2336 "myfiles.ml" 80 2320 2340
+)
+"myfiles.ml" 82 2412 2424 "myfiles.ml" 82 2412 2440
+call(
+  stack
+)
+type(
+  string * in_channel
+)
+"myfiles.ml" 81 2362 2374 "myfiles.ml" 82 2412 2440
+type(
+  string * in_channel
+)
+"myfiles.ml" 80 2320 2332 "myfiles.ml" 82 2412 2440
+type(
+  string * in_channel
+)
+"myfiles.ml" 83 2441 2460 "myfiles.ml" 83 2441 2461
+type(
+  string
+)
+"myfiles.ml" 83 2441 2454 "myfiles.ml" 83 2441 2461
+type(
+  exn
+)
+"myfiles.ml" 83 2441 2465 "myfiles.ml" 83 2441 2476
+type(
+  string -> string * in_channel
+)
+ident(
+  int_ref do_open_tex "myfiles.ml" 50 1451 1455 "myfiles.ml" 50 1451 1466
+)
+"myfiles.ml" 83 2441 2477 "myfiles.ml" 83 2441 2485
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+)
+"myfiles.ml" 83 2441 2465 "myfiles.ml" 83 2441 2485
+call(
+  tail
+)
+type(
+  string * in_channel
+)
+"myfiles.ml" 79 2308 2316 "myfiles.ml" 83 2441 2485
+type(
+  string * in_channel
+)
+"myfiles.ml" 74 2169 2173 "myfiles.ml" 83 2441 2485
+type(
+  string * in_channel
+)
+"myfiles.ml" 86 2502 2511 "myfiles.ml" 86 2502 2532
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Filename.check_suffix
+)
+"myfiles.ml" 86 2502 2533 "myfiles.ml" 86 2502 2541
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+)
+"myfiles.ml" 86 2502 2542 "myfiles.ml" 86 2502 2548
+type(
+  string
+)
+"myfiles.ml" 86 2502 2511 "myfiles.ml" 86 2502 2548
+call(
+  stack
+)
+type(
+  bool
+)
+"myfiles.ml" 86 2502 2554 "myfiles.ml" 86 2502 2562
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+)
+"myfiles.ml" 86 2502 2563 "myfiles.ml" 86 2502 2570
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"myfiles.ml" 86 2502 2571 "myfiles.ml" 86 2502 2579
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+)
+"myfiles.ml" 86 2502 2563 "myfiles.ml" 86 2502 2579
+call(
+  stack
+)
+type(
+  in_channel
+)
+"myfiles.ml" 86 2502 2554 "myfiles.ml" 86 2502 2579
+type(
+  string * in_channel
+)
+"myfiles.ml" 88 2591 2604 "myfiles.ml" 88 2591 2612
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+)
+"myfiles.ml" 88 2591 2612 "myfiles.ml" 88 2591 2613
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myfiles.ml" 88 2591 2613 "myfiles.ml" 88 2591 2619
+type(
+  string
+)
+"myfiles.ml" 88 2591 2603 "myfiles.ml" 88 2591 2620
+call(
+  stack
+)
+type(
+  string
+)
+"myfiles.ml" 88 2591 2621 "myfiles.ml" 88 2591 2628
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"myfiles.ml" 88 2591 2630 "myfiles.ml" 88 2591 2638
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+)
+"myfiles.ml" 88 2591 2638 "myfiles.ml" 88 2591 2639
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myfiles.ml" 88 2591 2639 "myfiles.ml" 88 2591 2645
+type(
+  string
+)
+"myfiles.ml" 88 2591 2629 "myfiles.ml" 88 2591 2646
+call(
+  stack
+)
+type(
+  string
+)
+"myfiles.ml" 88 2591 2621 "myfiles.ml" 88 2591 2646
+call(
+  stack
+)
+type(
+  in_channel
+)
+"myfiles.ml" 88 2591 2603 "myfiles.ml" 88 2591 2646
+type(
+  string * in_channel
+)
+"myfiles.ml" 89 2652 2670 "myfiles.ml" 89 2652 2671
+type(
+  string
+)
+"myfiles.ml" 89 2652 2660 "myfiles.ml" 89 2652 2671
+type(
+  exn
+)
+"myfiles.ml" 89 2652 2675 "myfiles.ml" 89 2652 2683
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+)
+"myfiles.ml" 89 2652 2684 "myfiles.ml" 89 2652 2691
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"myfiles.ml" 89 2652 2692 "myfiles.ml" 89 2652 2700
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+)
+"myfiles.ml" 89 2652 2684 "myfiles.ml" 89 2652 2700
+call(
+  stack
+)
+type(
+  in_channel
+)
+"myfiles.ml" 89 2652 2675 "myfiles.ml" 89 2652 2700
+type(
+  string * in_channel
+)
+"myfiles.ml" 88 2591 2599 "myfiles.ml" 89 2652 2700
+type(
+  string * in_channel
+)
+"myfiles.ml" 86 2502 2508 "myfiles.ml" 89 2652 2700
+type(
+  string * in_channel
+)
+"myfiles.ml" 90 2701 2720 "myfiles.ml" 90 2701 2721
+type(
+  string
+)
+"myfiles.ml" 90 2701 2710 "myfiles.ml" 90 2701 2721
+type(
+  exn
+)
+"myfiles.ml" 90 2701 2725 "myfiles.ml" 90 2701 2730
+type(
+  exn -> string * in_channel
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"myfiles.ml" 90 2701 2739 "myfiles.ml" 90 2701 2754
+type(
+  string
+)
+"myfiles.ml" 90 2701 2754 "myfiles.ml" 90 2701 2755
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myfiles.ml" 90 2701 2755 "myfiles.ml" 90 2701 2763
+type(
+  string
+)
+ident(
+  int_ref filename "myfiles.ml" 69 1988 2001 "myfiles.ml" 69 1988 2009
+)
+"myfiles.ml" 90 2701 2738 "myfiles.ml" 90 2701 2764
+call(
+  stack
+)
+type(
+  string
+)
+"myfiles.ml" 90 2701 2731 "myfiles.ml" 90 2701 2765
+type(
+  exn
+)
+"myfiles.ml" 90 2701 2725 "myfiles.ml" 90 2701 2765
+type(
+  string * in_channel
+)
+"myfiles.ml" 85 2494 2498 "myfiles.ml" 90 2701 2765
+type(
+  string * in_channel
+)
+"myfiles.ml" 73 2129 2131 "myfiles.ml" 90 2701 2765
+type(
+  string * in_channel
+)
+"myfiles.ml" 72 2085 2087 "myfiles.ml" 90 2701 2765
+type(
+  string * in_channel
+)
+"myfiles.ml" 70 2012 2014 "myfiles.ml" 90 2701 2765
+type(
+  string * in_channel
+)
+"myfiles.ml" 95 2798 2802 "myfiles.ml" 95 2798 2809
+type(
+  string -> string
+)
+ident(
+  def do_find "myfiles.ml" 107 3073 3073 "myfiles.ml" 1 0 -1
+)
+"myfiles.ml" 95 2798 2810 "myfiles.ml" 95 2798 2814
+type(
+  string
+)
+ident(
+  def name "myfiles.ml" 96 2817 2819 "myfiles.ml" 104 3046 3068
+)
+"myfiles.ml" 96 2817 2823 "myfiles.ml" 96 2817 2831
+type(
+  string -> unit
+)
+ident(
+  def try_find "myfiles.ml" 100 2960 2962 "myfiles.ml" 104 3046 3068
+)
+"myfiles.ml" 96 2817 2832 "myfiles.ml" 96 2817 2835
+type(
+  string
+)
+ident(
+  def dir "myfiles.ml" 97 2838 2842 "myfiles.ml" 99 2924 2956
+)
+"myfiles.ml" 97 2838 2846 "myfiles.ml" 97 2838 2855
+type(
+  string
+)
+ident(
+  def full_name "myfiles.ml" 98 2886 2890 "myfiles.ml" 99 2924 2956
+)
+"myfiles.ml" 97 2838 2858 "myfiles.ml" 97 2838 2873
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"myfiles.ml" 97 2838 2874 "myfiles.ml" 97 2838 2877
+type(
+  string
+)
+ident(
+  int_ref dir "myfiles.ml" 96 2817 2832 "myfiles.ml" 96 2817 2835
+)
+"myfiles.ml" 97 2838 2878 "myfiles.ml" 97 2838 2882
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 95 2798 2810 "myfiles.ml" 95 2798 2814
+)
+"myfiles.ml" 97 2838 2858 "myfiles.ml" 97 2838 2882
+call(
+  stack
+)
+type(
+  string
+)
+"myfiles.ml" 98 2886 2893 "myfiles.ml" 98 2886 2908
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"myfiles.ml" 98 2886 2909 "myfiles.ml" 98 2886 2918
+type(
+  string
+)
+ident(
+  int_ref full_name "myfiles.ml" 97 2838 2846 "myfiles.ml" 97 2838 2855
+)
+"myfiles.ml" 98 2886 2893 "myfiles.ml" 98 2886 2918
+type(
+  bool
+)
+"myfiles.ml" 99 2924 2930 "myfiles.ml" 99 2924 2935
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"myfiles.ml" 99 2924 2946 "myfiles.ml" 99 2924 2955
+type(
+  string
+)
+ident(
+  int_ref full_name "myfiles.ml" 97 2838 2846 "myfiles.ml" 97 2838 2855
+)
+"myfiles.ml" 99 2924 2936 "myfiles.ml" 99 2924 2956
+type(
+  exn
+)
+"myfiles.ml" 99 2924 2930 "myfiles.ml" 99 2924 2956
+type(
+  unit
+)
+"myfiles.ml" 98 2886 2890 "myfiles.ml" 99 2924 2956
+type(
+  unit
+)
+"myfiles.ml" 97 2838 2842 "myfiles.ml" 99 2924 2956
+type(
+  unit
+)
+"myfiles.ml" 101 2966 2970 "myfiles.ml" 101 2966 2979
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"myfiles.ml" 101 2966 2980 "myfiles.ml" 101 2966 2988
+type(
+  string -> unit
+)
+ident(
+  int_ref try_find "myfiles.ml" 96 2817 2823 "myfiles.ml" 96 2817 2831
+)
+"myfiles.ml" 101 2966 2989 "myfiles.ml" 101 2966 2997
+type(
+  string list
+)
+ident(
+  int_ref tex_path "myfiles.ml" 30 999 1003 "myfiles.ml" 30 999 1011
+)
+"myfiles.ml" 101 2966 2970 "myfiles.ml" 101 2966 2997
+call(
+  stack
+)
+type(
+  unit
+)
+"myfiles.ml" 102 3000 3004 "myfiles.ml" 102 3000 3014
+type(
+  (string -> unit) -> unit
+)
+ident(
+  int_ref try_import "myfiles.ml" 45 1343 1347 "myfiles.ml" 45 1343 1357
+)
+"myfiles.ml" 102 3000 3015 "myfiles.ml" 102 3000 3023
+type(
+  string -> unit
+)
+ident(
+  int_ref try_find "myfiles.ml" 96 2817 2823 "myfiles.ml" 96 2817 2831
+)
+"myfiles.ml" 102 3000 3004 "myfiles.ml" 102 3000 3023
+call(
+  stack
+)
+type(
+  unit
+)
+"myfiles.ml" 103 3026 3030 "myfiles.ml" 103 3026 3035
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"myfiles.ml" 103 3026 3036 "myfiles.ml" 103 3026 3045
+type(
+  exn
+)
+"myfiles.ml" 103 3026 3030 "myfiles.ml" 103 3026 3045
+type(
+  string
+)
+"myfiles.ml" 102 3000 3004 "myfiles.ml" 103 3026 3045
+type(
+  string
+)
+"myfiles.ml" 101 2966 2970 "myfiles.ml" 103 3026 3045
+type(
+  string
+)
+"myfiles.ml" 104 3046 3062 "myfiles.ml" 104 3046 3063
+type(
+  string
+)
+ident(
+  def r "myfiles.ml" 104 3046 3067 "myfiles.ml" 104 3046 3068
+)
+"myfiles.ml" 104 3046 3053 "myfiles.ml" 104 3046 3063
+type(
+  exn
+)
+"myfiles.ml" 104 3046 3067 "myfiles.ml" 104 3046 3068
+type(
+  string
+)
+ident(
+  int_ref r "myfiles.ml" 104 3046 3062 "myfiles.ml" 104 3046 3063
+)
+"myfiles.ml" 100 2960 2962 "myfiles.ml" 104 3046 3068
+type(
+  string
+)
+"myfiles.ml" 96 2817 2819 "myfiles.ml" 104 3046 3068
+type(
+  string
+)
+"myfiles.ml" 107 3073 3077 "myfiles.ml" 107 3073 3085
+type(
+  string -> string
+)
+ident(
+  def find_one "myfiles.ml" 113 3161 3161 "myfiles.ml" 1 0 -1
+)
+"myfiles.ml" 107 3073 3086 "myfiles.ml" 107 3073 3090
+type(
+  string
+)
+ident(
+  def name "myfiles.ml" 108 3093 3095 "myfiles.ml" 111 3140 3159
+)
+"myfiles.ml" 108 3093 3098 "myfiles.ml" 108 3093 3113
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"myfiles.ml" 108 3093 3114 "myfiles.ml" 108 3093 3118
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 107 3073 3086 "myfiles.ml" 107 3073 3090
+)
+"myfiles.ml" 108 3093 3098 "myfiles.ml" 108 3093 3118
+type(
+  bool
+)
+"myfiles.ml" 109 3124 3128 "myfiles.ml" 109 3124 3132
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 107 3073 3086 "myfiles.ml" 107 3073 3090
+)
+"myfiles.ml" 111 3140 3144 "myfiles.ml" 111 3140 3149
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"myfiles.ml" 111 3140 3150 "myfiles.ml" 111 3140 3159
+type(
+  exn
+)
+"myfiles.ml" 111 3140 3144 "myfiles.ml" 111 3140 3159
+type(
+  string
+)
+"myfiles.ml" 108 3093 3095 "myfiles.ml" 111 3140 3159
+type(
+  string
+)
+"myfiles.ml" 113 3161 3165 "myfiles.ml" 113 3161 3169
+type(
+  string -> string
+)
+ident(
+  def find "myfiles.ml" 133 3624 3624 "myfiles.ml" 1 0 -1
+)
+"myfiles.ml" 113 3161 3170 "myfiles.ml" 113 3161 3174
+type(
+  string
+)
+ident(
+  def name "myfiles.ml" 114 3177 3179 "myfiles.ml" 130 3577 3611
+)
+"myfiles.ml" 114 3177 3182 "myfiles.ml" 114 3177 3202
+type(
+  string -> bool
+)
+ident(
+  ext_ref Filename.is_implicit
+)
+"myfiles.ml" 114 3177 3203 "myfiles.ml" 114 3177 3207
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 113 3161 3170 "myfiles.ml" 113 3161 3174
+)
+"myfiles.ml" 114 3177 3182 "myfiles.ml" 114 3177 3207
+call(
+  stack
+)
+type(
+  bool
+)
+"myfiles.ml" 116 3220 3226 "myfiles.ml" 116 3220 3247
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Filename.check_suffix
+)
+"myfiles.ml" 116 3220 3248 "myfiles.ml" 116 3220 3252
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 113 3161 3170 "myfiles.ml" 113 3161 3174
+)
+"myfiles.ml" 116 3220 3253 "myfiles.ml" 116 3220 3259
+type(
+  string
+)
+"myfiles.ml" 116 3220 3226 "myfiles.ml" 116 3220 3259
+call(
+  stack
+)
+type(
+  bool
+)
+"myfiles.ml" 116 3220 3260 "myfiles.ml" 116 3220 3262
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"myfiles.ml" 117 3263 3269 "myfiles.ml" 117 3263 3290
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Filename.check_suffix
+)
+"myfiles.ml" 117 3263 3291 "myfiles.ml" 117 3263 3295
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 113 3161 3170 "myfiles.ml" 113 3161 3174
+)
+"myfiles.ml" 117 3263 3296 "myfiles.ml" 117 3263 3302
+type(
+  string
+)
+"myfiles.ml" 117 3263 3269 "myfiles.ml" 117 3263 3302
+call(
+  stack
+)
+type(
+  bool
+)
+"myfiles.ml" 116 3220 3226 "myfiles.ml" 117 3263 3302
+type(
+  bool
+)
+"myfiles.ml" 118 3303 3312 "myfiles.ml" 118 3303 3319
+type(
+  string -> string
+)
+ident(
+  int_ref do_find "myfiles.ml" 95 2798 2802 "myfiles.ml" 95 2798 2809
+)
+"myfiles.ml" 118 3303 3320 "myfiles.ml" 118 3303 3324
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 113 3161 3170 "myfiles.ml" 113 3161 3174
+)
+"myfiles.ml" 118 3303 3312 "myfiles.ml" 118 3303 3324
+call(
+  tail
+)
+type(
+  string
+)
+"myfiles.ml" 121 3348 3364 "myfiles.ml" 121 3348 3368
+type(
+  string
+)
+ident(
+  def name "myfiles.ml" 122 3386 3398 "myfiles.ml" 122 3386 3410
+)
+"myfiles.ml" 121 3348 3371 "myfiles.ml" 121 3348 3375
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 113 3161 3170 "myfiles.ml" 113 3161 3174
+)
+"myfiles.ml" 121 3348 3375 "myfiles.ml" 121 3348 3376
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myfiles.ml" 121 3348 3376 "myfiles.ml" 121 3348 3382
+type(
+  string
+)
+"myfiles.ml" 121 3348 3371 "myfiles.ml" 121 3348 3382
+call(
+  stack
+)
+type(
+  string
+)
+"myfiles.ml" 122 3386 3398 "myfiles.ml" 122 3386 3405
+type(
+  string -> string
+)
+ident(
+  int_ref do_find "myfiles.ml" 95 2798 2802 "myfiles.ml" 95 2798 2809
+)
+"myfiles.ml" 122 3386 3406 "myfiles.ml" 122 3386 3410
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 121 3348 3364 "myfiles.ml" 121 3348 3368
+)
+"myfiles.ml" 122 3386 3398 "myfiles.ml" 122 3386 3410
+call(
+  stack
+)
+type(
+  string
+)
+"myfiles.ml" 121 3348 3360 "myfiles.ml" 122 3386 3410
+type(
+  string
+)
+"myfiles.ml" 123 3411 3424 "myfiles.ml" 123 3411 3433
+type(
+  exn
+)
+"myfiles.ml" 123 3411 3437 "myfiles.ml" 123 3411 3444
+type(
+  string -> string
+)
+ident(
+  int_ref do_find "myfiles.ml" 95 2798 2802 "myfiles.ml" 95 2798 2809
+)
+"myfiles.ml" 123 3411 3445 "myfiles.ml" 123 3411 3449
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 113 3161 3170 "myfiles.ml" 113 3161 3174
+)
+"myfiles.ml" 123 3411 3437 "myfiles.ml" 123 3411 3449
+call(
+  tail
+)
+type(
+  string
+)
+"myfiles.ml" 120 3336 3344 "myfiles.ml" 123 3411 3449
+type(
+  string
+)
+"myfiles.ml" 115 3213 3217 "myfiles.ml" 123 3411 3449
+type(
+  string
+)
+"myfiles.ml" 125 3458 3465 "myfiles.ml" 125 3458 3486
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Filename.check_suffix
+)
+"myfiles.ml" 125 3458 3487 "myfiles.ml" 125 3458 3491
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 113 3161 3170 "myfiles.ml" 113 3161 3174
+)
+"myfiles.ml" 125 3458 3492 "myfiles.ml" 125 3458 3498
+type(
+  string
+)
+"myfiles.ml" 125 3458 3465 "myfiles.ml" 125 3458 3498
+call(
+  stack
+)
+type(
+  bool
+)
+"myfiles.ml" 126 3504 3510 "myfiles.ml" 126 3504 3518
+type(
+  string -> string
+)
+ident(
+  int_ref find_one "myfiles.ml" 107 3073 3077 "myfiles.ml" 107 3073 3085
+)
+"myfiles.ml" 126 3504 3519 "myfiles.ml" 126 3504 3523
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 113 3161 3170 "myfiles.ml" 113 3161 3174
+)
+"myfiles.ml" 126 3504 3510 "myfiles.ml" 126 3504 3523
+call(
+  tail
+)
+type(
+  string
+)
+"myfiles.ml" 128 3533 3543 "myfiles.ml" 128 3533 3551
+type(
+  string -> string
+)
+ident(
+  int_ref find_one "myfiles.ml" 107 3073 3077 "myfiles.ml" 107 3073 3085
+)
+"myfiles.ml" 128 3533 3553 "myfiles.ml" 128 3533 3557
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 113 3161 3170 "myfiles.ml" 113 3161 3174
+)
+"myfiles.ml" 128 3533 3557 "myfiles.ml" 128 3533 3558
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myfiles.ml" 128 3533 3558 "myfiles.ml" 128 3533 3564
+type(
+  string
+)
+"myfiles.ml" 128 3533 3552 "myfiles.ml" 128 3533 3565
+call(
+  stack
+)
+type(
+  string
+)
+"myfiles.ml" 128 3533 3543 "myfiles.ml" 128 3533 3565
+call(
+  stack
+)
+type(
+  string
+)
+"myfiles.ml" 130 3577 3585 "myfiles.ml" 130 3577 3594
+type(
+  exn
+)
+"myfiles.ml" 130 3577 3598 "myfiles.ml" 130 3577 3606
+type(
+  string -> string
+)
+ident(
+  int_ref find_one "myfiles.ml" 107 3073 3077 "myfiles.ml" 107 3073 3085
+)
+"myfiles.ml" 130 3577 3607 "myfiles.ml" 130 3577 3611
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 113 3161 3170 "myfiles.ml" 113 3161 3174
+)
+"myfiles.ml" 130 3577 3598 "myfiles.ml" 130 3577 3611
+call(
+  tail
+)
+type(
+  string
+)
+"myfiles.ml" 128 3533 3539 "myfiles.ml" 130 3577 3611
+type(
+  string
+)
+"myfiles.ml" 125 3458 3462 "myfiles.ml" 130 3577 3611
+type(
+  string
+)
+"myfiles.ml" 114 3177 3179 "myfiles.ml" 130 3577 3611
+type(
+  string
+)
+"myfiles.ml" 135 3650 3654 "myfiles.ml" 135 3650 3663
+type(
+  in_channel -> in_channel -> bool
+)
+ident(
+  def diff_chan "myfiles.ml" 153 4112 4112 "myfiles.ml" 1 0 -1
+)
+"myfiles.ml" 135 3650 3664 "myfiles.ml" 135 3650 3669
+type(
+  in_channel
+)
+ident(
+  def chan1 "myfiles.ml" 135 3650 3670 "myfiles.ml" 151 4090 4110
+)
+"myfiles.ml" 135 3650 3670 "myfiles.ml" 135 3650 3675
+type(
+  in_channel
+)
+ident(
+  def chan2 "myfiles.ml" 136 3678 3680 "myfiles.ml" 151 4090 4110
+)
+"myfiles.ml" 137 3684 3694 "myfiles.ml" 137 3684 3698
+type(
+  bool
+)
+"myfiles.ml" 138 3702 3712 "myfiles.ml" 138 3702 3714
+type(
+  char
+)
+ident(
+  def c1 "myfiles.ml" 145 3924 3930 "myfiles.ml" 148 4034 4061
+)
+"myfiles.ml" 139 3717 3729 "myfiles.ml" 139 3717 3739
+type(
+  in_channel -> char
+)
+ident(
+  ext_ref Pervasives.input_char
+)
+"myfiles.ml" 139 3717 3740 "myfiles.ml" 139 3717 3745
+type(
+  in_channel
+)
+ident(
+  int_ref chan1 "myfiles.ml" 135 3650 3664 "myfiles.ml" 135 3650 3669
+)
+"myfiles.ml" 139 3717 3729 "myfiles.ml" 139 3717 3745
+call(
+  stack
+)
+type(
+  char
+)
+"myfiles.ml" 139 3717 3751 "myfiles.ml" 139 3717 3762
+type(
+  exn
+)
+"myfiles.ml" 141 3786 3802 "myfiles.ml" 141 3786 3803
+type(
+  char
+)
+"myfiles.ml" 141 3786 3806 "myfiles.ml" 141 3786 3816
+type(
+  in_channel -> char
+)
+ident(
+  ext_ref Pervasives.input_char
+)
+"myfiles.ml" 141 3786 3817 "myfiles.ml" 141 3786 3822
+type(
+  in_channel
+)
+ident(
+  int_ref chan2 "myfiles.ml" 135 3650 3670 "myfiles.ml" 135 3650 3675
+)
+"myfiles.ml" 141 3786 3806 "myfiles.ml" 141 3786 3822
+call(
+  stack
+)
+type(
+  char
+)
+"myfiles.ml" 142 3826 3838 "myfiles.ml" 142 3826 3843
+type(
+  exn -> char
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"myfiles.ml" 142 3826 3852 "myfiles.ml" 142 3826 3856
+type(
+  bool
+)
+"myfiles.ml" 142 3826 3844 "myfiles.ml" 142 3826 3857
+type(
+  exn
+)
+"myfiles.ml" 142 3826 3838 "myfiles.ml" 142 3826 3857
+type(
+  char
+)
+"myfiles.ml" 141 3786 3798 "myfiles.ml" 142 3826 3857
+type(
+  char
+)
+"myfiles.ml" 143 3858 3873 "myfiles.ml" 143 3858 3884
+type(
+  exn
+)
+"myfiles.ml" 143 3858 3888 "myfiles.ml" 143 3858 3893
+type(
+  exn -> char
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"myfiles.ml" 143 3858 3902 "myfiles.ml" 143 3858 3907
+type(
+  bool
+)
+"myfiles.ml" 143 3858 3894 "myfiles.ml" 143 3858 3908
+type(
+  exn
+)
+"myfiles.ml" 143 3858 3888 "myfiles.ml" 143 3858 3908
+type(
+  char
+)
+"myfiles.ml" 139 3717 3766 "myfiles.ml" 144 3909 3920
+type(
+  char
+)
+"myfiles.ml" 139 3717 3725 "myfiles.ml" 144 3909 3920
+type(
+  char
+)
+"myfiles.ml" 145 3924 3934 "myfiles.ml" 145 3924 3936
+type(
+  char
+)
+ident(
+  def c2 "myfiles.ml" 147 4011 4017 "myfiles.ml" 148 4034 4061
+)
+"myfiles.ml" 146 3939 3951 "myfiles.ml" 146 3939 3961
+type(
+  in_channel -> char
+)
+ident(
+  ext_ref Pervasives.input_char
+)
+"myfiles.ml" 146 3939 3962 "myfiles.ml" 146 3939 3967
+type(
+  in_channel
+)
+ident(
+  int_ref chan2 "myfiles.ml" 135 3650 3670 "myfiles.ml" 135 3650 3675
+)
+"myfiles.ml" 146 3939 3951 "myfiles.ml" 146 3939 3967
+call(
+  stack
+)
+type(
+  char
+)
+"myfiles.ml" 146 3939 3973 "myfiles.ml" 146 3939 3984
+type(
+  exn
+)
+"myfiles.ml" 146 3939 3988 "myfiles.ml" 146 3939 3993
+type(
+  exn -> char
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"myfiles.ml" 146 3939 4002 "myfiles.ml" 146 3939 4006
+type(
+  bool
+)
+"myfiles.ml" 146 3939 3994 "myfiles.ml" 146 3939 4007
+type(
+  exn
+)
+"myfiles.ml" 146 3939 3988 "myfiles.ml" 146 3939 4007
+type(
+  char
+)
+"myfiles.ml" 146 3939 3947 "myfiles.ml" 146 3939 4007
+type(
+  char
+)
+"myfiles.ml" 147 4011 4020 "myfiles.ml" 147 4011 4022
+type(
+  char
+)
+ident(
+  int_ref c1 "myfiles.ml" 138 3702 3712 "myfiles.ml" 138 3702 3714
+)
+"myfiles.ml" 147 4011 4023 "myfiles.ml" 147 4011 4025
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"myfiles.ml" 147 4011 4026 "myfiles.ml" 147 4011 4028
+type(
+  char
+)
+ident(
+  int_ref c2 "myfiles.ml" 145 3924 3934 "myfiles.ml" 145 3924 3936
+)
+"myfiles.ml" 147 4011 4020 "myfiles.ml" 147 4011 4028
+type(
+  bool
+)
+"myfiles.ml" 148 4034 4042 "myfiles.ml" 148 4034 4047
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"myfiles.ml" 148 4034 4056 "myfiles.ml" 148 4034 4060
+type(
+  bool
+)
+"myfiles.ml" 148 4034 4048 "myfiles.ml" 148 4034 4061
+type(
+  exn
+)
+"myfiles.ml" 148 4034 4042 "myfiles.ml" 148 4034 4061
+type(
+  unit
+)
+"myfiles.ml" 147 4011 4017 "myfiles.ml" 148 4034 4061
+type(
+  unit
+)
+"myfiles.ml" 145 3924 3930 "myfiles.ml" 148 4034 4061
+type(
+  unit
+)
+"myfiles.ml" 138 3702 3708 "myfiles.ml" 148 4034 4061
+type(
+  unit
+)
+"myfiles.ml" 137 3684 3688 "myfiles.ml" 149 4062 4070
+type(
+  unit
+)
+"myfiles.ml" 150 4073 4077 "myfiles.ml" 150 4073 4089
+type(
+  bool
+)
+"myfiles.ml" 137 3684 3688 "myfiles.ml" 150 4073 4089
+type(
+  bool
+)
+"myfiles.ml" 151 4090 4104 "myfiles.ml" 151 4090 4105
+type(
+  bool
+)
+ident(
+  def r "myfiles.ml" 151 4090 4109 "myfiles.ml" 151 4090 4110
+)
+"myfiles.ml" 151 4090 4097 "myfiles.ml" 151 4090 4105
+type(
+  exn
+)
+"myfiles.ml" 151 4090 4109 "myfiles.ml" 151 4090 4110
+type(
+  bool
+)
+ident(
+  int_ref r "myfiles.ml" 151 4090 4104 "myfiles.ml" 151 4090 4105
+)
+"myfiles.ml" 136 3678 3680 "myfiles.ml" 151 4090 4110
+type(
+  bool
+)
+"myfiles.ml" 153 4112 4116 "myfiles.ml" 153 4112 4123
+type(
+  string -> string -> bool
+)
+ident(
+  def changed "myfiles.ml" 168 4501 4527 "myfiles.ml" 1 0 -1
+)
+"myfiles.ml" 153 4112 4124 "myfiles.ml" 153 4112 4132
+type(
+  string
+)
+ident(
+  def tmp_name "myfiles.ml" 153 4112 4133 "myfiles.ml" 168 4501 4527
+)
+"myfiles.ml" 153 4112 4133 "myfiles.ml" 153 4112 4137
+type(
+  string
+)
+ident(
+  def name "myfiles.ml" 154 4140 4142 "myfiles.ml" 168 4501 4527
+)
+"myfiles.ml" 155 4146 4154 "myfiles.ml" 155 4146 4163
+type(
+  in_channel
+)
+ident(
+  def true_chan "myfiles.ml" 156 4182 4186 "myfiles.ml" 167 4495 4500
+)
+"myfiles.ml" 155 4146 4166 "myfiles.ml" 155 4146 4173
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"myfiles.ml" 155 4146 4174 "myfiles.ml" 155 4146 4178
+type(
+  string
+)
+ident(
+  int_ref name "myfiles.ml" 153 4112 4133 "myfiles.ml" 153 4112 4137
+)
+"myfiles.ml" 155 4146 4166 "myfiles.ml" 155 4146 4178
+call(
+  stack
+)
+type(
+  in_channel
+)
+"myfiles.ml" 156 4182 4190 "myfiles.ml" 156 4182 4198
+type(
+  in_channel
+)
+ident(
+  def tmp_chan "myfiles.ml" 164 4402 4406 "myfiles.ml" 167 4495 4500
+)
+"myfiles.ml" 157 4201 4211 "myfiles.ml" 157 4201 4218
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"myfiles.ml" 157 4201 4219 "myfiles.ml" 157 4201 4227
+type(
+  string
+)
+ident(
+  int_ref tmp_name "myfiles.ml" 153 4112 4124 "myfiles.ml" 153 4112 4132
+)
+"myfiles.ml" 157 4201 4211 "myfiles.ml" 157 4201 4227
+call(
+  stack
+)
+type(
+  in_channel
+)
+"myfiles.ml" 158 4228 4249 "myfiles.ml" 158 4228 4250
+type(
+  string
+)
+"myfiles.ml" 158 4228 4239 "myfiles.ml" 158 4228 4250
+type(
+  exn
+)
+"myfiles.ml" 159 4260 4268 "myfiles.ml" 159 4260 4276
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"myfiles.ml" 159 4260 4277 "myfiles.ml" 159 4260 4286
+type(
+  in_channel
+)
+ident(
+  int_ref true_chan "myfiles.ml" 155 4146 4154 "myfiles.ml" 155 4146 4163
+)
+"myfiles.ml" 159 4260 4268 "myfiles.ml" 159 4260 4286
+call(
+  stack
+)
+type(
+  unit
+)
+"myfiles.ml" 160 4289 4297 "myfiles.ml" 160 4289 4302
+type(
+  exn -> in_channel
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"myfiles.ml" 162 4325 4339 "myfiles.ml" 162 4325 4377
+type(
+  string
+)
+"myfiles.ml" 162 4325 4377 "myfiles.ml" 162 4325 4378
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myfiles.ml" 162 4325 4378 "myfiles.ml" 162 4325 4386
+type(
+  string
+)
+ident(
+  int_ref tmp_name "myfiles.ml" 153 4112 4124 "myfiles.ml" 153 4112 4132
+)
+"myfiles.ml" 162 4325 4338 "myfiles.ml" 162 4325 4387
+call(
+  stack
+)
+type(
+  string
+)
+"myfiles.ml" 161 4303 4313 "myfiles.ml" 162 4325 4388
+type(
+  exn
+)
+"myfiles.ml" 160 4289 4297 "myfiles.ml" 162 4325 4388
+type(
+  in_channel
+)
+"myfiles.ml" 158 4228 4254 "myfiles.ml" 163 4389 4398
+type(
+  in_channel
+)
+"myfiles.ml" 157 4201 4207 "myfiles.ml" 163 4389 4398
+type(
+  in_channel
+)
+"myfiles.ml" 164 4402 4410 "myfiles.ml" 164 4402 4411
+type(
+  bool
+)
+ident(
+  def r "myfiles.ml" 165 4446 4450 "myfiles.ml" 167 4495 4500
+)
+"myfiles.ml" 164 4402 4414 "myfiles.ml" 164 4402 4423
+type(
+  in_channel -> in_channel -> bool
+)
+ident(
+  int_ref diff_chan "myfiles.ml" 135 3650 3654 "myfiles.ml" 135 3650 3663
+)
+"myfiles.ml" 164 4402 4424 "myfiles.ml" 164 4402 4433
+type(
+  in_channel
+)
+ident(
+  int_ref true_chan "myfiles.ml" 155 4146 4154 "myfiles.ml" 155 4146 4163
+)
+"myfiles.ml" 164 4402 4434 "myfiles.ml" 164 4402 4442
+type(
+  in_channel
+)
+ident(
+  int_ref tmp_chan "myfiles.ml" 156 4182 4190 "myfiles.ml" 156 4182 4198
+)
+"myfiles.ml" 164 4402 4414 "myfiles.ml" 164 4402 4442
+call(
+  stack
+)
+type(
+  bool
+)
+"myfiles.ml" 165 4446 4450 "myfiles.ml" 165 4446 4458
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"myfiles.ml" 165 4446 4459 "myfiles.ml" 165 4446 4468
+type(
+  in_channel
+)
+ident(
+  int_ref true_chan "myfiles.ml" 155 4146 4154 "myfiles.ml" 155 4146 4163
+)
+"myfiles.ml" 165 4446 4450 "myfiles.ml" 165 4446 4468
+call(
+  stack
+)
+type(
+  unit
+)
+"myfiles.ml" 166 4471 4475 "myfiles.ml" 166 4471 4483
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"myfiles.ml" 166 4471 4484 "myfiles.ml" 166 4471 4492
+type(
+  in_channel
+)
+ident(
+  int_ref tmp_chan "myfiles.ml" 156 4182 4190 "myfiles.ml" 156 4182 4198
+)
+"myfiles.ml" 166 4471 4475 "myfiles.ml" 166 4471 4492
+call(
+  stack
+)
+type(
+  unit
+)
+"myfiles.ml" 167 4495 4499 "myfiles.ml" 167 4495 4500
+type(
+  bool
+)
+ident(
+  int_ref r "myfiles.ml" 164 4402 4410 "myfiles.ml" 164 4402 4411
+)
+"myfiles.ml" 166 4471 4475 "myfiles.ml" 167 4495 4500
+type(
+  bool
+)
+"myfiles.ml" 165 4446 4450 "myfiles.ml" 167 4495 4500
+type(
+  bool
+)
+"myfiles.ml" 164 4402 4406 "myfiles.ml" 167 4495 4500
+type(
+  bool
+)
+"myfiles.ml" 156 4182 4186 "myfiles.ml" 167 4495 4500
+type(
+  bool
+)
+"myfiles.ml" 155 4146 4150 "myfiles.ml" 167 4495 4500
+type(
+  bool
+)
+"myfiles.ml" 168 4501 4518 "myfiles.ml" 168 4501 4519
+type(
+  string
+)
+"myfiles.ml" 168 4501 4508 "myfiles.ml" 168 4501 4519
+type(
+  exn
+)
+"myfiles.ml" 168 4501 4523 "myfiles.ml" 168 4501 4527
+type(
+  bool
+)
+"myfiles.ml" 154 4140 4142 "myfiles.ml" 168 4501 4527
+type(
+  bool
+)

@@ -1,0 +1,3905 @@
+"subst.mll" 17 56 60 "subst.mll" 17 56 70
+type(
+  Out.t
+)
+ident(
+  def subst_buff "subst.ml" 11 112 112 "subst.ml" 1 0 -1
+)
+"subst.mll" 17 56 73 "subst.mll" 17 56 88
+type(
+  unit -> Out.t
+)
+ident(
+  ext_ref Out.create_buff
+)
+"subst.mll" 17 56 89 "subst.mll" 17 56 91
+type(
+  unit
+)
+"subst.mll" 17 56 73 "subst.mll" 17 56 91
+call(
+  stack
+)
+type(
+  Out.t
+)
+"subst.ml" 11 112 116 "subst.ml" 11 112 134
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "subst.ml" 415 27197 27197 "subst.ml" 1 0 -1
+)
+"subst.ml" 13 160 163 "subst.ml" 16 370 423
+type(
+  string
+)
+"subst.ml" 18 449 452 "subst.ml" 21 659 712
+type(
+  string
+)
+"subst.ml" 23 738 741 "subst.ml" 26 948 1001
+type(
+  string
+)
+"subst.ml" 28 1025 1028 "subst.ml" 213 13975 13996
+type(
+  string
+)
+"subst.ml" 215 14020 14023 "subst.ml" 400 26970 26991
+type(
+  string
+)
+"subst.ml" 402 27019 27022 "subst.ml" 402 27019 27024
+type(
+  string
+)
+"subst.ml" 404 27055 27058 "subst.ml" 404 27055 27060
+type(
+  string
+)
+"subst.ml" 406 27091 27094 "subst.ml" 406 27091 27096
+type(
+  string
+)
+"subst.ml" 408 27125 27128 "subst.ml" 408 27125 27130
+type(
+  string
+)
+"subst.ml" 410 27159 27162 "subst.ml" 410 27159 27164
+type(
+  string
+)
+"subst.ml" 412 27187 27190 "subst.ml" 412 27187 27192
+type(
+  string
+)
+"subst.ml" 11 112 137 "subst.ml" 413 27194 27195
+type(
+  Lexing.lex_tables
+)
+"subst.ml" 415 27197 27205 "subst.ml" 415 27197 27210
+type(
+  bool -> Lexing.lexbuf -> unit
+)
+ident(
+  def subst "subst.ml" 415 27197 27197 "subst.ml" 1 0 -1
+)
+"subst.ml" 415 27197 27211 "subst.ml" 415 27197 27215
+type(
+  bool
+)
+ident(
+  def expn "subst.ml" 415 27197 27216 "subst.ml" 416 27225 27264
+)
+"subst.ml" 415 27197 27216 "subst.ml" 415 27197 27222
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "subst.ml" 416 27225 27229 "subst.ml" 416 27225 27264
+)
+"subst.ml" 416 27225 27229 "subst.ml" 416 27225 27250
+type(
+  bool -> Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_subst_rec "subst.ml" 417 27265 27269 "subst.ml" 417 27265 27290
+)
+"subst.ml" 416 27225 27251 "subst.ml" 416 27225 27255
+type(
+  bool
+)
+ident(
+  int_ref expn "subst.ml" 415 27197 27211 "subst.ml" 415 27197 27215
+)
+"subst.ml" 416 27225 27256 "subst.ml" 416 27225 27262
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 415 27197 27216 "subst.ml" 415 27197 27222
+)
+"subst.ml" 416 27225 27263 "subst.ml" 416 27225 27264
+type(
+  int
+)
+"subst.ml" 416 27225 27229 "subst.ml" 416 27225 27264
+call(
+  tail
+)
+type(
+  unit
+)
+"subst.ml" 417 27265 27269 "subst.ml" 417 27265 27290
+type(
+  bool -> Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_subst_rec "subst.ml" 415 27197 27197 "subst.ml" 1 0 -1
+)
+"subst.ml" 417 27265 27291 "subst.ml" 417 27265 27295
+type(
+  bool
+)
+ident(
+  def expn "subst.ml" 417 27265 27296 "subst.ml" 505 29560 29670
+)
+"subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "subst.ml" 417 27265 27303 "subst.ml" 505 29560 29670
+)
+"subst.ml" 417 27265 27303 "subst.ml" 417 27265 27320
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "subst.ml" 418 27323 27325 "subst.ml" 505 29560 29670
+)
+"subst.ml" 418 27323 27331 "subst.ml" 418 27323 27344
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"subst.ml" 418 27323 27345 "subst.ml" 418 27323 27363
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "subst.ml" 11 112 116 "subst.ml" 11 112 134
+)
+"subst.ml" 418 27323 27364 "subst.ml" 418 27323 27381
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "subst.ml" 417 27265 27303 "subst.ml" 417 27265 27320
+)
+"subst.ml" 418 27323 27382 "subst.ml" 418 27323 27388
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.ml" 418 27323 27331 "subst.ml" 418 27323 27388
+call(
+  stack
+)
+type(
+  int
+)
+"subst.ml" 419 27394 27402 "subst.ml" 419 27394 27403
+type(
+  int
+)
+"subst.mll" 26 27428 27447 "subst.mll" 26 27428 27450
+type(
+  string
+)
+ident(
+  def lxm "subst.mll" 27 27577 27581 "subst.mll" 33 27780 27802
+)
+"subst.ml" 424 27468 27470 "subst.ml" 424 27468 27487
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"subst.ml" 424 27468 27488 "subst.ml" 424 27468 27494
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.ml" 424 27468 27495 "subst.ml" 424 27468 27501
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.ml" 424 27468 27495 "subst.ml" 424 27468 27522
+type(
+  int
+)
+"subst.ml" 424 27468 27524 "subst.ml" 424 27468 27530
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.ml" 424 27468 27524 "subst.ml" 424 27468 27551
+type(
+  int
+)
+"subst.ml" 424 27468 27552 "subst.ml" 424 27468 27553
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"subst.ml" 424 27468 27554 "subst.ml" 424 27468 27555
+type(
+  int
+)
+"subst.ml" 424 27468 27523 "subst.ml" 424 27468 27556
+type(
+  int
+)
+"subst.ml" 424 27468 27470 "subst.ml" 424 27468 27556
+call(
+  stack
+)
+type(
+  string
+)
+"subst.mll" 27 27577 27585 "subst.mll" 27 27577 27593
+type(
+  char -> bool
+)
+ident(
+  ext_ref Lexstate.is_plain
+)
+"subst.mll" 27 27577 27594 "subst.mll" 27 27577 27597
+type(
+  char
+)
+"subst.mll" 27 27577 27585 "subst.mll" 27 27577 27597
+call(
+  stack
+)
+type(
+  bool
+)
+"subst.mll" 28 27609 27619 "subst.mll" 28 27609 27620
+type(
+  int
+)
+ident(
+  def i "subst.mll" 29 27662 27668 "subst.mll" 30 27677 27735
+)
+"subst.mll" 28 27609 27623 "subst.mll" 28 27609 27632
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"subst.mll" 28 27609 27634 "subst.mll" 28 27609 27637
+type(
+  string
+)
+ident(
+  int_ref lxm "subst.mll" 26 27428 27447 "subst.mll" 26 27428 27450
+)
+"subst.mll" 28 27609 27639 "subst.mll" 28 27609 27640
+type(
+  int
+)
+"subst.mll" 28 27609 27633 "subst.mll" 28 27609 27642
+type(
+  char
+)
+"subst.mll" 28 27609 27623 "subst.mll" 28 27609 27642
+type(
+  int
+)
+"subst.mll" 28 27609 27643 "subst.mll" 28 27609 27644
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"subst.mll" 28 27609 27645 "subst.mll" 28 27609 27654
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"subst.mll" 28 27609 27655 "subst.mll" 28 27609 27658
+type(
+  char
+)
+"subst.mll" 28 27609 27645 "subst.mll" 28 27609 27658
+type(
+  int
+)
+"subst.mll" 28 27609 27623 "subst.mll" 28 27609 27658
+type(
+  int
+)
+"subst.mll" 29 27662 27668 "subst.mll" 29 27662 27676
+type(
+  (string list Lexstate.arg -> unit) -> int -> unit
+)
+ident(
+  ext_ref Lexstate.scan_arg
+)
+"subst.mll" 30 27677 27690 "subst.mll" 30 27677 27693
+type(
+  string list Lexstate.arg
+)
+ident(
+  def arg "subst.mll" 30 27677 27697 "subst.mll" 30 27677 27732
+)
+"subst.mll" 30 27677 27697 "subst.mll" 30 27677 27715
+type(
+  (Lexing.lexbuf -> unit) -> string list Lexstate.arg -> unit
+)
+ident(
+  ext_ref Lexstate.scan_this_arg_list
+)
+"subst.mll" 30 27677 27717 "subst.mll" 30 27677 27722
+type(
+  bool -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref subst "subst.ml" 415 27197 27205 "subst.ml" 415 27197 27210
+)
+"subst.mll" 30 27677 27723 "subst.mll" 30 27677 27727
+type(
+  bool
+)
+ident(
+  int_ref expn "subst.ml" 417 27265 27291 "subst.ml" 417 27265 27295
+)
+"subst.mll" 30 27677 27716 "subst.mll" 30 27677 27728
+call(
+  stack
+)
+type(
+  Lexing.lexbuf -> unit
+)
+"subst.mll" 30 27677 27729 "subst.mll" 30 27677 27732
+type(
+  string list Lexstate.arg
+)
+ident(
+  int_ref arg "subst.mll" 30 27677 27690 "subst.mll" 30 27677 27693
+)
+"subst.mll" 30 27677 27697 "subst.mll" 30 27677 27732
+call(
+  tail
+)
+type(
+  unit
+)
+"subst.mll" 30 27677 27685 "subst.mll" 30 27677 27733
+type(
+  string list Lexstate.arg -> unit
+)
+"subst.mll" 30 27677 27734 "subst.mll" 30 27677 27735
+type(
+  int
+)
+ident(
+  int_ref i "subst.mll" 28 27609 27619 "subst.mll" 28 27609 27620
+)
+"subst.mll" 29 27662 27668 "subst.mll" 30 27677 27735
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 27 27577 27603 "subst.mll" 31 27736 27743
+type(
+  unit
+)
+"subst.mll" 32 27749 27755 "subst.mll" 32 27749 27762
+type(
+  Out.t -> string -> unit
+)
+ident(
+  ext_ref Out.put
+)
+"subst.mll" 32 27749 27763 "subst.mll" 32 27749 27773
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 32 27749 27774 "subst.mll" 32 27749 27777
+type(
+  string
+)
+ident(
+  int_ref lxm "subst.mll" 26 27428 27447 "subst.mll" 26 27428 27450
+)
+"subst.mll" 32 27749 27755 "subst.mll" 32 27749 27777
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 27 27577 27582 "subst.mll" 32 27749 27777
+type(
+  unit
+)
+"subst.mll" 33 27780 27784 "subst.mll" 33 27780 27789
+type(
+  bool -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref subst "subst.ml" 415 27197 27205 "subst.ml" 415 27197 27210
+)
+"subst.mll" 33 27780 27790 "subst.mll" 33 27780 27794
+type(
+  bool
+)
+ident(
+  int_ref expn "subst.ml" 417 27265 27291 "subst.ml" 417 27265 27295
+)
+"subst.mll" 33 27780 27795 "subst.mll" 33 27780 27801
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.mll" 33 27780 27784 "subst.mll" 33 27780 27801
+call(
+  tail
+)
+type(
+  unit
+)
+"subst.mll" 27 27577 27581 "subst.mll" 33 27780 27802
+type(
+  unit
+)
+"subst.ml" 420 27407 27407 "subst.mll" 33 27780 27802
+type(
+  unit
+)
+"subst.ml" 435 27821 27825 "subst.ml" 435 27821 27826
+type(
+  int
+)
+"subst.mll" 35 27847 27855 "subst.mll" 35 27847 27863
+type(
+  char -> bool
+)
+ident(
+  ext_ref Lexstate.is_plain
+)
+"subst.mll" 35 27847 27864 "subst.mll" 35 27847 27867
+type(
+  char
+)
+"subst.mll" 35 27847 27855 "subst.mll" 35 27847 27867
+call(
+  stack
+)
+type(
+  bool
+)
+"subst.mll" 36 27873 27879 "subst.mll" 36 27873 27891
+type(
+  Out.t -> char -> unit
+)
+ident(
+  ext_ref Out.put_char
+)
+"subst.mll" 36 27873 27892 "subst.mll" 36 27873 27902
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 36 27873 27903 "subst.mll" 36 27873 27906
+type(
+  char
+)
+"subst.mll" 36 27873 27879 "subst.mll" 36 27873 27906
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 38 27916 27922 "subst.mll" 38 27916 27929
+type(
+  Out.t -> string -> unit
+)
+ident(
+  ext_ref Out.put
+)
+"subst.mll" 38 27916 27930 "subst.mll" 38 27916 27940
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 38 27916 27941 "subst.mll" 38 27916 27945
+type(
+  string
+)
+"subst.mll" 38 27916 27922 "subst.mll" 38 27916 27945
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 35 27847 27852 "subst.mll" 38 27916 27945
+type(
+  unit
+)
+"subst.mll" 39 27948 27952 "subst.mll" 39 27948 27957
+type(
+  bool -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref subst "subst.ml" 415 27197 27205 "subst.ml" 415 27197 27210
+)
+"subst.mll" 39 27948 27958 "subst.mll" 39 27948 27962
+type(
+  bool
+)
+ident(
+  int_ref expn "subst.ml" 417 27265 27291 "subst.ml" 417 27265 27295
+)
+"subst.mll" 39 27948 27963 "subst.mll" 39 27948 27969
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.mll" 39 27948 27952 "subst.mll" 39 27948 27969
+call(
+  tail
+)
+type(
+  unit
+)
+"subst.mll" 35 27847 27851 "subst.mll" 39 27948 27970
+type(
+  unit
+)
+"subst.ml" 444 27989 27993 "subst.ml" 444 27989 27994
+type(
+  int
+)
+"subst.mll" 41 28015 28020 "subst.mll" 41 28015 28028
+type(
+  Out.t -> Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Out.blit
+)
+"subst.mll" 41 28015 28029 "subst.mll" 41 28015 28039
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 41 28015 28040 "subst.mll" 41 28015 28046
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.mll" 41 28015 28020 "subst.mll" 41 28015 28046
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 41 28015 28049 "subst.mll" 41 28015 28054
+type(
+  bool -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref subst "subst.ml" 415 27197 27205 "subst.ml" 415 27197 27210
+)
+"subst.mll" 41 28015 28055 "subst.mll" 41 28015 28059
+type(
+  bool
+)
+ident(
+  int_ref expn "subst.ml" 417 27265 27291 "subst.ml" 417 27265 27295
+)
+"subst.mll" 41 28015 28060 "subst.mll" 41 28015 28066
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.mll" 41 28015 28049 "subst.mll" 41 28015 28066
+call(
+  tail
+)
+type(
+  unit
+)
+"subst.mll" 41 28015 28019 "subst.mll" 41 28015 28067
+type(
+  unit
+)
+"subst.ml" 449 28086 28090 "subst.ml" 449 28086 28091
+type(
+  int
+)
+"subst.mll" 42 28116 28132 "subst.mll" 42 28116 28135
+type(
+  string
+)
+ident(
+  def lxm "subst.mll" 43 28262 28266 "subst.mll" 48 28421 28443
+)
+"subst.ml" 454 28153 28155 "subst.ml" 454 28153 28172
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"subst.ml" 454 28153 28173 "subst.ml" 454 28153 28179
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.ml" 454 28153 28180 "subst.ml" 454 28153 28186
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.ml" 454 28153 28180 "subst.ml" 454 28153 28207
+type(
+  int
+)
+"subst.ml" 454 28153 28209 "subst.ml" 454 28153 28215
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.ml" 454 28153 28209 "subst.ml" 454 28153 28236
+type(
+  int
+)
+"subst.ml" 454 28153 28237 "subst.ml" 454 28153 28238
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"subst.ml" 454 28153 28239 "subst.ml" 454 28153 28240
+type(
+  int
+)
+"subst.ml" 454 28153 28208 "subst.ml" 454 28153 28241
+type(
+  int
+)
+"subst.ml" 454 28153 28155 "subst.ml" 454 28153 28241
+call(
+  stack
+)
+type(
+  string
+)
+"subst.mll" 43 28262 28267 "subst.mll" 43 28262 28282
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Save.start_echo
+)
+"subst.mll" 43 28262 28283 "subst.mll" 43 28262 28285
+type(
+  unit
+)
+"subst.mll" 43 28262 28267 "subst.mll" 43 28262 28285
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 44 28288 28296 "subst.mll" 44 28288 28297
+type(
+  string
+)
+"subst.mll" 44 28288 28300 "subst.mll" 44 28288 28308
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Save.arg
+)
+"subst.mll" 44 28288 28309 "subst.mll" 44 28288 28315
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.mll" 44 28288 28300 "subst.mll" 44 28288 28315
+call(
+  stack
+)
+type(
+  string
+)
+"subst.mll" 45 28319 28327 "subst.mll" 45 28319 28335
+type(
+  string
+)
+ident(
+  def real_arg "subst.mll" 46 28358 28362 "subst.mll" 48 28421 28442
+)
+"subst.mll" 45 28319 28338 "subst.mll" 45 28319 28351
+type(
+  unit -> string
+)
+ident(
+  ext_ref Save.get_echo
+)
+"subst.mll" 45 28319 28352 "subst.mll" 45 28319 28354
+type(
+  unit
+)
+"subst.mll" 45 28319 28338 "subst.mll" 45 28319 28354
+call(
+  stack
+)
+type(
+  string
+)
+"subst.mll" 46 28358 28362 "subst.mll" 46 28358 28369
+type(
+  Out.t -> string -> unit
+)
+ident(
+  ext_ref Out.put
+)
+"subst.mll" 46 28358 28370 "subst.mll" 46 28358 28380
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 46 28358 28381 "subst.mll" 46 28358 28384
+type(
+  string
+)
+ident(
+  int_ref lxm "subst.mll" 42 28116 28132 "subst.mll" 42 28116 28135
+)
+"subst.mll" 46 28358 28362 "subst.mll" 46 28358 28384
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 47 28387 28391 "subst.mll" 47 28387 28398
+type(
+  Out.t -> string -> unit
+)
+ident(
+  ext_ref Out.put
+)
+"subst.mll" 47 28387 28399 "subst.mll" 47 28387 28409
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 47 28387 28410 "subst.mll" 47 28387 28418
+type(
+  string
+)
+ident(
+  int_ref real_arg "subst.mll" 45 28319 28327 "subst.mll" 45 28319 28335
+)
+"subst.mll" 47 28387 28391 "subst.mll" 47 28387 28418
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 48 28421 28425 "subst.mll" 48 28421 28430
+type(
+  bool -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref subst "subst.ml" 415 27197 27205 "subst.ml" 415 27197 27210
+)
+"subst.mll" 48 28421 28431 "subst.mll" 48 28421 28435
+type(
+  bool
+)
+ident(
+  int_ref expn "subst.ml" 417 27265 27291 "subst.ml" 417 27265 27295
+)
+"subst.mll" 48 28421 28436 "subst.mll" 48 28421 28442
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.mll" 48 28421 28425 "subst.mll" 48 28421 28442
+call(
+  tail
+)
+type(
+  unit
+)
+"subst.mll" 47 28387 28391 "subst.mll" 48 28421 28442
+type(
+  unit
+)
+"subst.mll" 46 28358 28362 "subst.mll" 48 28421 28442
+type(
+  unit
+)
+"subst.mll" 45 28319 28323 "subst.mll" 48 28421 28442
+type(
+  unit
+)
+"subst.mll" 44 28288 28292 "subst.mll" 48 28421 28442
+type(
+  unit
+)
+"subst.mll" 43 28262 28266 "subst.mll" 48 28421 28443
+type(
+  unit
+)
+"subst.ml" 450 28095 28095 "subst.mll" 48 28421 28443
+type(
+  unit
+)
+"subst.ml" 464 28462 28466 "subst.ml" 464 28462 28467
+type(
+  int
+)
+"subst.mll" 49 28492 28511 "subst.mll" 49 28492 28514
+type(
+  string
+)
+ident(
+  def cmd "subst.mll" 50 28634 28638 "subst.mll" 71 29374 29396
+)
+"subst.ml" 469 28532 28534 "subst.ml" 469 28532 28551
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"subst.ml" 469 28532 28552 "subst.ml" 469 28532 28558
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.ml" 469 28532 28559 "subst.ml" 469 28532 28565
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.ml" 469 28532 28559 "subst.ml" 469 28532 28586
+type(
+  int
+)
+"subst.ml" 469 28532 28587 "subst.ml" 469 28532 28593
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.ml" 469 28532 28587 "subst.ml" 469 28532 28613
+type(
+  int
+)
+"subst.ml" 469 28532 28534 "subst.ml" 469 28532 28613
+call(
+  stack
+)
+type(
+  string
+)
+"subst.mll" 51 28640 28648 "subst.mll" 51 28640 28652
+type(
+  bool
+)
+ident(
+  int_ref expn "subst.ml" 417 27265 27291 "subst.ml" 417 27265 27295
+)
+"subst.mll" 53 28675 28688 "subst.mll" 53 28675 28691
+type(
+  Lexstate.pat
+)
+ident(
+  def pat "subst.mll" 54 28728 28737 "subst.mll" 66 29243 29255
+)
+"subst.mll" 53 28675 28692 "subst.mll" 53 28675 28696
+type(
+  Lexstate.action
+)
+ident(
+  def body "subst.mll" 54 28728 28737 "subst.mll" 66 29243 29255
+)
+"subst.mll" 53 28675 28688 "subst.mll" 53 28675 28696
+type(
+  Lexstate.pat * Lexstate.action
+)
+"subst.mll" 53 28675 28699 "subst.mll" 53 28675 28720
+type(
+  string -> Lexstate.pat * Lexstate.action
+)
+ident(
+  ext_ref Latexmacros.find_fail
+)
+"subst.mll" 53 28675 28721 "subst.mll" 53 28675 28724
+type(
+  string
+)
+ident(
+  int_ref cmd "subst.mll" 49 28492 28511 "subst.mll" 49 28492 28514
+)
+"subst.mll" 53 28675 28699 "subst.mll" 53 28675 28724
+call(
+  stack
+)
+type(
+  Lexstate.pat * Lexstate.action
+)
+"subst.mll" 54 28728 28749 "subst.mll" 54 28728 28753
+type(
+  Lexstate.action
+)
+ident(
+  int_ref body "subst.mll" 53 28675 28692 "subst.mll" 53 28675 28696
+)
+"subst.mll" 55 28759 28776 "subst.mll" 55 28759 28777
+type(
+  string list
+)
+"subst.mll" 55 28759 28770 "subst.mll" 55 28759 28777
+type(
+  Lexstate.action
+)
+"subst.mll" 55 28759 28783 "subst.mll" 55 28759 28786
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"subst.mll" 55 28759 28788 "subst.mll" 55 28759 28815
+type(
+  string -> bool
+)
+ident(
+  ext_ref Latexmacros.get_saved_macro
+)
+"subst.mll" 55 28759 28816 "subst.mll" 55 28759 28819
+type(
+  string
+)
+ident(
+  int_ref cmd "subst.mll" 49 28492 28511 "subst.mll" 49 28492 28514
+)
+"subst.mll" 55 28759 28787 "subst.mll" 55 28759 28820
+call(
+  stack
+)
+type(
+  bool
+)
+"subst.mll" 55 28759 28783 "subst.mll" 55 28759 28820
+type(
+  bool
+)
+"subst.mll" 56 28824 28840 "subst.mll" 56 28824 28841
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"subst.mll" 56 28824 28841 "subst.mll" 56 28824 28848
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"subst.mll" 56 28824 28840 "subst.mll" 56 28824 28848
+type(
+  int
+)
+"subst.mll" 56 28824 28849 "subst.mll" 56 28824 28850
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"subst.mll" 56 28824 28851 "subst.mll" 56 28824 28852
+type(
+  int
+)
+"subst.mll" 56 28824 28840 "subst.mll" 56 28824 28852
+type(
+  bool
+)
+"subst.mll" 56 28824 28858 "subst.mll" 56 28824 28865
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"subst.mll" 56 28824 28866 "subst.mll" 56 28824 28880
+type(
+  (string -> unit, out_channel, unit) format
+)
+"subst.mll" 56 28824 28881 "subst.mll" 56 28824 28884
+type(
+  string
+)
+ident(
+  int_ref cmd "subst.mll" 49 28492 28511 "subst.mll" 49 28492 28514
+)
+"subst.mll" 56 28824 28858 "subst.mll" 56 28824 28884
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 56 28824 28837 "subst.mll" 56 28824 28884
+type(
+  unit
+)
+"subst.mll" 57 28887 28904 "subst.mll" 57 28887 28908
+type(
+  Lexstate.subst
+)
+ident(
+  def args "subst.mll" 58 28940 28953 "subst.mll" 64 29162 29203
+)
+"subst.mll" 57 28887 28911 "subst.mll" 57 28887 28921
+type(
+  string -> Lexstate.pat -> Lexing.lexbuf -> Lexstate.subst
+)
+ident(
+  ext_ref Lexstate.make_stack
+)
+"subst.mll" 57 28887 28922 "subst.mll" 57 28887 28925
+type(
+  string
+)
+ident(
+  int_ref cmd "subst.mll" 49 28492 28511 "subst.mll" 49 28492 28514
+)
+"subst.mll" 57 28887 28926 "subst.mll" 57 28887 28929
+type(
+  Lexstate.pat
+)
+ident(
+  int_ref pat "subst.mll" 53 28675 28688 "subst.mll" 53 28675 28691
+)
+"subst.mll" 57 28887 28930 "subst.mll" 57 28887 28936
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.mll" 57 28887 28911 "subst.mll" 57 28887 28936
+call(
+  stack
+)
+type(
+  Lexstate.subst
+)
+"subst.mll" 58 28940 28953 "subst.mll" 58 28940 28965
+type(
+  Out.t -> char -> unit
+)
+ident(
+  ext_ref Out.put_char
+)
+"subst.mll" 58 28940 28966 "subst.mll" 58 28940 28976
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 58 28940 28977 "subst.mll" 58 28940 28980
+type(
+  char
+)
+"subst.mll" 58 28940 28953 "subst.mll" 58 28940 28980
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 59 28983 28996 "subst.mll" 59 28983 29005
+type(
+  (Lexstate.action -> unit) -> Lexstate.action -> Lexstate.subst -> unit
+)
+ident(
+  ext_ref Lexstate.scan_body
+)
+"subst.mll" 61 29031 29056 "subst.mll" 61 29031 29060
+type(
+  string list
+)
+ident(
+  def body "subst.mll" 61 29031 29064 "subst.mll" 61 29031 29096
+)
+"subst.mll" 61 29031 29050 "subst.mll" 61 29031 29060
+type(
+  Lexstate.action
+)
+"subst.mll" 61 29031 29064 "subst.mll" 61 29031 29078
+type(
+  (Lexing.lexbuf -> unit) -> string list -> unit
+)
+ident(
+  ext_ref Lexstate.scan_this_list
+)
+"subst.mll" 61 29031 29080 "subst.mll" 61 29031 29085
+type(
+  bool -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref subst "subst.ml" 415 27197 27205 "subst.ml" 415 27197 27210
+)
+"subst.mll" 61 29031 29086 "subst.mll" 61 29031 29090
+type(
+  bool
+)
+ident(
+  int_ref expn "subst.ml" 417 27265 27291 "subst.ml" 417 27265 27295
+)
+"subst.mll" 61 29031 29079 "subst.mll" 61 29031 29091
+call(
+  stack
+)
+type(
+  Lexing.lexbuf -> unit
+)
+"subst.mll" 61 29031 29092 "subst.mll" 61 29031 29096
+type(
+  string list
+)
+ident(
+  int_ref body "subst.mll" 61 29031 29056 "subst.mll" 61 29031 29060
+)
+"subst.mll" 61 29031 29064 "subst.mll" 61 29031 29096
+call(
+  tail
+)
+type(
+  unit
+)
+"subst.mll" 62 29097 29116 "subst.mll" 62 29097 29117
+type(
+  Lexstate.action
+)
+"subst.mll" 62 29097 29121 "subst.mll" 62 29097 29133
+type(
+  unit
+)
+"subst.mll" 60 29006 29021 "subst.mll" 62 29097 29134
+type(
+  Lexstate.action -> unit
+)
+"subst.mll" 63 29135 29150 "subst.mll" 63 29135 29154
+type(
+  Lexstate.action
+)
+ident(
+  int_ref body "subst.mll" 53 28675 28692 "subst.mll" 53 28675 28696
+)
+"subst.mll" 63 29135 29155 "subst.mll" 63 29135 29159
+type(
+  Lexstate.subst
+)
+ident(
+  int_ref args "subst.mll" 57 28887 28904 "subst.mll" 57 28887 28908
+)
+"subst.mll" 59 28983 28996 "subst.mll" 63 29135 29159
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 64 29162 29176 "subst.mll" 64 29162 29188
+type(
+  Out.t -> char -> unit
+)
+ident(
+  ext_ref Out.put_char
+)
+"subst.mll" 64 29162 29189 "subst.mll" 64 29162 29199
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 64 29162 29200 "subst.mll" 64 29162 29203
+type(
+  char
+)
+"subst.mll" 64 29162 29176 "subst.mll" 64 29162 29203
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 59 28983 28996 "subst.mll" 64 29162 29203
+type(
+  unit
+)
+"subst.mll" 58 28940 28953 "subst.mll" 64 29162 29203
+type(
+  unit
+)
+"subst.mll" 57 28887 28900 "subst.mll" 64 29162 29203
+type(
+  unit
+)
+"subst.mll" 56 28824 28837 "subst.mll" 64 29162 29203
+type(
+  unit
+)
+"subst.mll" 65 29204 29215 "subst.mll" 65 29204 29216
+type(
+  Lexstate.action
+)
+"subst.mll" 65 29204 29220 "subst.mll" 65 29204 29227
+type(
+  Out.t -> string -> unit
+)
+ident(
+  ext_ref Out.put
+)
+"subst.mll" 65 29204 29228 "subst.mll" 65 29204 29238
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 65 29204 29239 "subst.mll" 65 29204 29242
+type(
+  string
+)
+ident(
+  int_ref cmd "subst.mll" 49 28492 28511 "subst.mll" 49 28492 28514
+)
+"subst.mll" 65 29204 29220 "subst.mll" 65 29204 29242
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 54 28728 28737 "subst.mll" 66 29243 29255
+type(
+  unit
+)
+"subst.mll" 53 28675 28684 "subst.mll" 66 29243 29255
+type(
+  unit
+)
+"subst.mll" 67 29256 29268 "subst.mll" 67 29256 29286
+type(
+  exn
+)
+"subst.mll" 67 29256 29290 "subst.mll" 67 29256 29297
+type(
+  Out.t -> string -> unit
+)
+ident(
+  ext_ref Out.put
+)
+"subst.mll" 67 29256 29298 "subst.mll" 67 29256 29308
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 67 29256 29309 "subst.mll" 67 29256 29312
+type(
+  string
+)
+ident(
+  int_ref cmd "subst.mll" 49 28492 28511 "subst.mll" 49 28492 28514
+)
+"subst.mll" 67 29256 29290 "subst.mll" 67 29256 29312
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 51 28640 28658 "subst.mll" 68 29313 29321
+type(
+  unit
+)
+"subst.mll" 69 29333 29340 "subst.mll" 69 29333 29347
+type(
+  Out.t -> string -> unit
+)
+ident(
+  ext_ref Out.put
+)
+"subst.mll" 69 29333 29348 "subst.mll" 69 29333 29358
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 69 29333 29359 "subst.mll" 69 29333 29362
+type(
+  string
+)
+ident(
+  int_ref cmd "subst.mll" 49 28492 28511 "subst.mll" 49 28492 28514
+)
+"subst.mll" 68 29313 29327 "subst.mll" 70 29363 29371
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 51 28640 28645 "subst.mll" 70 29363 29371
+type(
+  unit
+)
+"subst.mll" 71 29374 29378 "subst.mll" 71 29374 29383
+type(
+  bool -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref subst "subst.ml" 415 27197 27205 "subst.ml" 415 27197 27210
+)
+"subst.mll" 71 29374 29384 "subst.mll" 71 29374 29388
+type(
+  bool
+)
+ident(
+  int_ref expn "subst.ml" 417 27265 27291 "subst.ml" 417 27265 27295
+)
+"subst.mll" 71 29374 29389 "subst.mll" 71 29374 29395
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.mll" 71 29374 29378 "subst.mll" 71 29374 29395
+call(
+  tail
+)
+type(
+  unit
+)
+"subst.mll" 50 28634 28638 "subst.mll" 71 29374 29396
+type(
+  unit
+)
+"subst.ml" 465 28471 28471 "subst.mll" 71 29374 29396
+type(
+  unit
+)
+"subst.ml" 495 29415 29419 "subst.ml" 495 29415 29420
+type(
+  int
+)
+"subst.mll" 72 29441 29448 "subst.mll" 72 29441 29452
+type(
+  unit
+)
+"subst.ml" 500 29471 29475 "subst.ml" 500 29471 29476
+type(
+  int
+)
+"subst.mll" 73 29497 29503 "subst.mll" 73 29497 29508
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"subst.mll" 73 29497 29516 "subst.mll" 73 29497 29539
+type(
+  string
+)
+"subst.mll" 73 29497 29509 "subst.mll" 73 29497 29540
+type(
+  exn
+)
+"subst.mll" 73 29497 29502 "subst.mll" 73 29497 29541
+type(
+  unit
+)
+"subst.ml" 505 29560 29564 "subst.ml" 505 29560 29581
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "subst.ml" 505 29560 29585 "subst.ml" 505 29560 29670
+)
+"subst.ml" 505 29560 29585 "subst.ml" 505 29560 29591
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.ml" 505 29560 29585 "subst.ml" 505 29560 29610
+type(
+  Lexing.lexbuf -> unit
+)
+"subst.ml" 505 29560 29611 "subst.ml" 505 29560 29617
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.ml" 505 29560 29585 "subst.ml" 505 29560 29617
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.ml" 505 29560 29619 "subst.ml" 505 29560 29640
+type(
+  bool -> Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_subst_rec "subst.ml" 417 27265 27269 "subst.ml" 417 27265 27290
+)
+"subst.ml" 505 29560 29641 "subst.ml" 505 29560 29645
+type(
+  bool
+)
+ident(
+  int_ref expn "subst.ml" 417 27265 27291 "subst.ml" 417 27265 27295
+)
+"subst.ml" 505 29560 29646 "subst.ml" 505 29560 29652
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 417 27265 27296 "subst.ml" 417 27265 27302
+)
+"subst.ml" 505 29560 29653 "subst.ml" 505 29560 29670
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "subst.ml" 505 29560 29564 "subst.ml" 505 29560 29581
+)
+"subst.ml" 505 29560 29619 "subst.ml" 505 29560 29670
+call(
+  tail
+)
+type(
+  unit
+)
+"subst.ml" 505 29560 29585 "subst.ml" 505 29560 29670
+type(
+  unit
+)
+"subst.ml" 418 27323 27325 "subst.ml" 505 29560 29670
+type(
+  unit
+)
+"subst.ml" 507 29672 29676 "subst.ml" 507 29672 29688
+type(
+  Lexing.lexbuf -> (char -> char) -> string
+)
+ident(
+  def do_translate "subst.ml" 415 27197 27197 "subst.ml" 1 0 -1
+)
+"subst.ml" 507 29672 29689 "subst.ml" 507 29672 29695
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "subst.ml" 508 29698 29702 "subst.ml" 508 29698 29740
+)
+"subst.ml" 508 29698 29702 "subst.ml" 508 29698 29730
+type(
+  Lexing.lexbuf -> int -> (char -> char) -> string
+)
+ident(
+  int_ref __ocaml_lex_do_translate_rec "subst.ml" 509 29741 29745 "subst.ml" 509 29741 29773
+)
+"subst.ml" 508 29698 29731 "subst.ml" 508 29698 29737
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 507 29672 29689 "subst.ml" 507 29672 29695
+)
+"subst.ml" 508 29698 29738 "subst.ml" 508 29698 29740
+type(
+  int
+)
+"subst.ml" 508 29698 29702 "subst.ml" 508 29698 29740
+call(
+  tail
+)
+type(
+  (char -> char) -> string
+)
+"subst.ml" 509 29741 29745 "subst.ml" 509 29741 29773
+type(
+  Lexing.lexbuf -> int -> (char -> char) -> string
+)
+ident(
+  def __ocaml_lex_do_translate_rec "subst.ml" 415 27197 27197 "subst.ml" 1 0 -1
+)
+"subst.ml" 509 29741 29774 "subst.ml" 509 29741 29780
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "subst.ml" 509 29741 29781 "subst.ml" 551 30728 30840
+)
+"subst.ml" 509 29741 29781 "subst.ml" 509 29741 29798
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "subst.ml" 510 29801 29803 "subst.ml" 551 30728 30840
+)
+"subst.ml" 510 29801 29809 "subst.ml" 510 29801 29822
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"subst.ml" 510 29801 29823 "subst.ml" 510 29801 29841
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "subst.ml" 11 112 116 "subst.ml" 11 112 134
+)
+"subst.ml" 510 29801 29842 "subst.ml" 510 29801 29859
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "subst.ml" 509 29741 29781 "subst.ml" 509 29741 29798
+)
+"subst.ml" 510 29801 29860 "subst.ml" 510 29801 29866
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 509 29741 29774 "subst.ml" 509 29741 29780
+)
+"subst.ml" 510 29801 29809 "subst.ml" 510 29801 29866
+call(
+  stack
+)
+type(
+  int
+)
+"subst.ml" 511 29872 29880 "subst.ml" 511 29872 29881
+type(
+  int
+)
+"subst.mll" 76 29906 29922 "subst.mll" 76 29906 29925
+type(
+  string
+)
+ident(
+  def lxm "subst.mll" 77 30052 30056 "subst.mll" 83 30234 30262
+)
+"subst.ml" 516 29943 29945 "subst.ml" 516 29943 29962
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"subst.ml" 516 29943 29963 "subst.ml" 516 29943 29969
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 509 29741 29774 "subst.ml" 509 29741 29780
+)
+"subst.ml" 516 29943 29970 "subst.ml" 516 29943 29976
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 509 29741 29774 "subst.ml" 509 29741 29780
+)
+"subst.ml" 516 29943 29970 "subst.ml" 516 29943 29997
+type(
+  int
+)
+"subst.ml" 516 29943 29999 "subst.ml" 516 29943 30005
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 509 29741 29774 "subst.ml" 509 29741 29780
+)
+"subst.ml" 516 29943 29999 "subst.ml" 516 29943 30026
+type(
+  int
+)
+"subst.ml" 516 29943 30027 "subst.ml" 516 29943 30028
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"subst.ml" 516 29943 30029 "subst.ml" 516 29943 30030
+type(
+  int
+)
+"subst.ml" 516 29943 29998 "subst.ml" 516 29943 30031
+type(
+  int
+)
+"subst.ml" 516 29943 29945 "subst.ml" 516 29943 30031
+call(
+  stack
+)
+type(
+  string
+)
+"subst.mll" 77 30052 30061 "subst.mll" 77 30052 30062
+type(
+  char -> char
+)
+ident(
+  def f "subst.mll" 78 30066 30072 "subst.mll" 83 30234 30261
+)
+"subst.mll" 78 30066 30072 "subst.mll" 78 30066 30087
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Save.start_echo
+)
+"subst.mll" 78 30066 30088 "subst.mll" 78 30066 30090
+type(
+  unit
+)
+"subst.mll" 78 30066 30072 "subst.mll" 78 30066 30090
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 79 30093 30103 "subst.mll" 79 30093 30104
+type(
+  string
+)
+"subst.mll" 79 30093 30107 "subst.mll" 79 30093 30115
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Save.arg
+)
+"subst.mll" 79 30093 30116 "subst.mll" 79 30093 30122
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 509 29741 29774 "subst.ml" 509 29741 29780
+)
+"subst.mll" 79 30093 30107 "subst.mll" 79 30093 30122
+call(
+  stack
+)
+type(
+  string
+)
+"subst.mll" 80 30126 30136 "subst.mll" 80 30126 30144
+type(
+  string
+)
+ident(
+  def real_arg "subst.mll" 81 30167 30173 "subst.mll" 83 30234 30261
+)
+"subst.mll" 80 30126 30147 "subst.mll" 80 30126 30160
+type(
+  unit -> string
+)
+ident(
+  ext_ref Save.get_echo
+)
+"subst.mll" 80 30126 30161 "subst.mll" 80 30126 30163
+type(
+  unit
+)
+"subst.mll" 80 30126 30147 "subst.mll" 80 30126 30163
+call(
+  stack
+)
+type(
+  string
+)
+"subst.mll" 81 30167 30173 "subst.mll" 81 30167 30180
+type(
+  Out.t -> string -> unit
+)
+ident(
+  ext_ref Out.put
+)
+"subst.mll" 81 30167 30181 "subst.mll" 81 30167 30191
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 81 30167 30192 "subst.mll" 81 30167 30195
+type(
+  string
+)
+ident(
+  int_ref lxm "subst.mll" 76 29906 29922 "subst.mll" 76 29906 29925
+)
+"subst.mll" 81 30167 30173 "subst.mll" 81 30167 30195
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 82 30198 30204 "subst.mll" 82 30198 30211
+type(
+  Out.t -> string -> unit
+)
+ident(
+  ext_ref Out.put
+)
+"subst.mll" 82 30198 30212 "subst.mll" 82 30198 30222
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 82 30198 30223 "subst.mll" 82 30198 30231
+type(
+  string
+)
+ident(
+  int_ref real_arg "subst.mll" 80 30126 30136 "subst.mll" 80 30126 30144
+)
+"subst.mll" 82 30198 30204 "subst.mll" 82 30198 30231
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 83 30234 30240 "subst.mll" 83 30234 30252
+type(
+  Lexing.lexbuf -> (char -> char) -> string
+)
+ident(
+  int_ref do_translate "subst.ml" 507 29672 29676 "subst.ml" 507 29672 29688
+)
+"subst.mll" 83 30234 30253 "subst.mll" 83 30234 30259
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 509 29741 29774 "subst.ml" 509 29741 29780
+)
+"subst.mll" 83 30234 30260 "subst.mll" 83 30234 30261
+type(
+  char -> char
+)
+ident(
+  int_ref f "subst.mll" 77 30052 30061 "subst.mll" 77 30052 30062
+)
+"subst.mll" 83 30234 30240 "subst.mll" 83 30234 30261
+call(
+  tail
+)
+type(
+  string
+)
+"subst.mll" 82 30198 30204 "subst.mll" 83 30234 30261
+type(
+  string
+)
+"subst.mll" 81 30167 30173 "subst.mll" 83 30234 30261
+type(
+  string
+)
+"subst.mll" 80 30126 30132 "subst.mll" 83 30234 30261
+type(
+  string
+)
+"subst.mll" 79 30093 30099 "subst.mll" 83 30234 30261
+type(
+  string
+)
+"subst.mll" 78 30066 30072 "subst.mll" 83 30234 30261
+type(
+  string
+)
+"subst.mll" 77 30052 30056 "subst.mll" 83 30234 30262
+type(
+  (char -> char) -> string
+)
+"subst.ml" 512 29885 29885 "subst.mll" 83 30234 30262
+type(
+  (char -> char) -> string
+)
+"subst.ml" 527 30281 30285 "subst.ml" 527 30281 30286
+type(
+  int
+)
+"subst.mll" 85 30307 30316 "subst.mll" 85 30307 30317
+type(
+  char -> char
+)
+ident(
+  def f "subst.mll" 86 30321 30327 "subst.mll" 87 30356 30383
+)
+"subst.mll" 86 30321 30327 "subst.mll" 86 30321 30335
+type(
+  Out.t -> Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Out.blit
+)
+"subst.mll" 86 30321 30336 "subst.mll" 86 30321 30346
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 86 30321 30347 "subst.mll" 86 30321 30353
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 509 29741 29774 "subst.ml" 509 29741 29780
+)
+"subst.mll" 86 30321 30327 "subst.mll" 86 30321 30353
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 87 30356 30362 "subst.mll" 87 30356 30374
+type(
+  Lexing.lexbuf -> (char -> char) -> string
+)
+ident(
+  int_ref do_translate "subst.ml" 507 29672 29676 "subst.ml" 507 29672 29688
+)
+"subst.mll" 87 30356 30375 "subst.mll" 87 30356 30381
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 509 29741 29774 "subst.ml" 509 29741 29780
+)
+"subst.mll" 87 30356 30382 "subst.mll" 87 30356 30383
+type(
+  char -> char
+)
+ident(
+  int_ref f "subst.mll" 85 30307 30316 "subst.mll" 85 30307 30317
+)
+"subst.mll" 87 30356 30362 "subst.mll" 87 30356 30383
+call(
+  tail
+)
+type(
+  string
+)
+"subst.mll" 86 30321 30327 "subst.mll" 87 30356 30383
+type(
+  string
+)
+"subst.mll" 85 30307 30311 "subst.mll" 87 30356 30384
+type(
+  (char -> char) -> string
+)
+"subst.ml" 534 30403 30407 "subst.ml" 534 30403 30408
+type(
+  int
+)
+"subst.mll" 88 30433 30440 "subst.mll" 88 30433 30443
+type(
+  char
+)
+ident(
+  def lxm "subst.mll" 89 30541 30545 "subst.mll" 91 30595 30623
+)
+"subst.ml" 539 30461 30463 "subst.ml" 539 30461 30485
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"subst.ml" 539 30461 30486 "subst.ml" 539 30461 30492
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 509 29741 29774 "subst.ml" 509 29741 29780
+)
+"subst.ml" 539 30461 30493 "subst.ml" 539 30461 30499
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 509 29741 29774 "subst.ml" 509 29741 29780
+)
+"subst.ml" 539 30461 30493 "subst.ml" 539 30461 30520
+type(
+  int
+)
+"subst.ml" 539 30461 30463 "subst.ml" 539 30461 30520
+call(
+  stack
+)
+type(
+  char
+)
+"subst.mll" 89 30541 30550 "subst.mll" 89 30541 30551
+type(
+  char -> char
+)
+ident(
+  def f "subst.mll" 90 30555 30561 "subst.mll" 91 30595 30622
+)
+"subst.mll" 90 30555 30561 "subst.mll" 90 30555 30573
+type(
+  Out.t -> char -> unit
+)
+ident(
+  ext_ref Out.put_char
+)
+"subst.mll" 90 30555 30574 "subst.mll" 90 30555 30584
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 90 30555 30586 "subst.mll" 90 30555 30587
+type(
+  char -> char
+)
+ident(
+  int_ref f "subst.mll" 89 30541 30550 "subst.mll" 89 30541 30551
+)
+"subst.mll" 90 30555 30588 "subst.mll" 90 30555 30591
+type(
+  char
+)
+ident(
+  int_ref lxm "subst.mll" 88 30433 30440 "subst.mll" 88 30433 30443
+)
+"subst.mll" 90 30555 30585 "subst.mll" 90 30555 30592
+call(
+  stack
+)
+type(
+  char
+)
+"subst.mll" 90 30555 30561 "subst.mll" 90 30555 30592
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 91 30595 30601 "subst.mll" 91 30595 30613
+type(
+  Lexing.lexbuf -> (char -> char) -> string
+)
+ident(
+  int_ref do_translate "subst.ml" 507 29672 29676 "subst.ml" 507 29672 29688
+)
+"subst.mll" 91 30595 30614 "subst.mll" 91 30595 30620
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 509 29741 29774 "subst.ml" 509 29741 29780
+)
+"subst.mll" 91 30595 30621 "subst.mll" 91 30595 30622
+type(
+  char -> char
+)
+ident(
+  int_ref f "subst.mll" 89 30541 30550 "subst.mll" 89 30541 30551
+)
+"subst.mll" 91 30595 30601 "subst.mll" 91 30595 30622
+call(
+  tail
+)
+type(
+  string
+)
+"subst.mll" 90 30555 30561 "subst.mll" 91 30595 30622
+type(
+  string
+)
+"subst.mll" 89 30541 30545 "subst.mll" 91 30595 30623
+type(
+  (char -> char) -> string
+)
+"subst.ml" 535 30412 30412 "subst.mll" 91 30595 30623
+type(
+  (char -> char) -> string
+)
+"subst.ml" 546 30642 30646 "subst.ml" 546 30642 30647
+type(
+  int
+)
+"subst.mll" 92 30668 30679 "subst.mll" 92 30668 30680
+type(
+  char -> char
+)
+"subst.mll" 92 30668 30684 "subst.mll" 92 30668 30697
+type(
+  Out.t -> string
+)
+ident(
+  ext_ref Out.to_string
+)
+"subst.mll" 92 30668 30698 "subst.mll" 92 30668 30708
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 92 30668 30684 "subst.mll" 92 30668 30708
+call(
+  tail
+)
+type(
+  string
+)
+"subst.mll" 92 30668 30674 "subst.mll" 92 30668 30709
+type(
+  (char -> char) -> string
+)
+"subst.ml" 551 30728 30732 "subst.ml" 551 30728 30749
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "subst.ml" 551 30728 30753 "subst.ml" 551 30728 30840
+)
+"subst.ml" 551 30728 30753 "subst.ml" 551 30728 30759
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 509 29741 29774 "subst.ml" 509 29741 29780
+)
+"subst.ml" 551 30728 30753 "subst.ml" 551 30728 30778
+type(
+  Lexing.lexbuf -> unit
+)
+"subst.ml" 551 30728 30779 "subst.ml" 551 30728 30785
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 509 29741 29774 "subst.ml" 509 29741 29780
+)
+"subst.ml" 551 30728 30753 "subst.ml" 551 30728 30785
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.ml" 551 30728 30787 "subst.ml" 551 30728 30815
+type(
+  Lexing.lexbuf -> int -> (char -> char) -> string
+)
+ident(
+  int_ref __ocaml_lex_do_translate_rec "subst.ml" 509 29741 29745 "subst.ml" 509 29741 29773
+)
+"subst.ml" 551 30728 30816 "subst.ml" 551 30728 30822
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.ml" 509 29741 29774 "subst.ml" 509 29741 29780
+)
+"subst.ml" 551 30728 30823 "subst.ml" 551 30728 30840
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "subst.ml" 551 30728 30732 "subst.ml" 551 30728 30749
+)
+"subst.ml" 551 30728 30787 "subst.ml" 551 30728 30840
+call(
+  tail
+)
+type(
+  (char -> char) -> string
+)
+"subst.ml" 551 30728 30753 "subst.ml" 551 30728 30840
+type(
+  (char -> char) -> string
+)
+"subst.ml" 510 29801 29803 "subst.ml" 551 30728 30840
+type(
+  (char -> char) -> string
+)
+"subst.mll" 96 30866 30870 "subst.mll" 96 30866 30882
+type(
+  string -> bool
+)
+ident(
+  def sharp_inside "subst.mll" 99 30953 30953 "subst.ml" 1 0 -1
+)
+"subst.mll" 96 30866 30883 "subst.mll" 96 30866 30884
+type(
+  string
+)
+ident(
+  def s "subst.mll" 97 30887 30889 "subst.mll" 97 30887 30951
+)
+"subst.mll" 97 30887 30893 "subst.mll" 97 30887 30899
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"subst.mll" 97 30887 30901 "subst.mll" 97 30887 30913
+type(
+  string -> char -> int
+)
+ident(
+  ext_ref String.index
+)
+"subst.mll" 97 30887 30914 "subst.mll" 97 30887 30915
+type(
+  string
+)
+ident(
+  int_ref s "subst.mll" 96 30866 30883 "subst.mll" 96 30866 30884
+)
+"subst.mll" 97 30887 30916 "subst.mll" 97 30887 30919
+type(
+  char
+)
+"subst.mll" 97 30887 30900 "subst.mll" 97 30887 30920
+call(
+  stack
+)
+type(
+  int
+)
+"subst.mll" 97 30887 30893 "subst.mll" 97 30887 30920
+type(
+  unit
+)
+"subst.mll" 97 30887 30923 "subst.mll" 97 30887 30927
+type(
+  bool
+)
+"subst.mll" 97 30887 30893 "subst.mll" 97 30887 30927
+type(
+  bool
+)
+"subst.mll" 97 30887 30933 "subst.mll" 97 30887 30942
+type(
+  exn
+)
+"subst.mll" 97 30887 30946 "subst.mll" 97 30887 30951
+type(
+  bool
+)
+"subst.mll" 97 30887 30889 "subst.mll" 97 30887 30951
+type(
+  bool
+)
+"subst.mll" 99 30953 30957 "subst.mll" 99 30953 30973
+type(
+  bool -> string Lexstate.arg -> string
+)
+ident(
+  def do_do_subst_this "subst.mll" 113 31366 31366 "subst.ml" 1 0 -1
+)
+"subst.mll" 99 30953 30974 "subst.mll" 99 30953 30978
+type(
+  bool
+)
+ident(
+  def expn "subst.mll" 99 30953 30979 "subst.mll" 111 31357 31364
+)
+"subst.mll" 99 30953 30985 "subst.mll" 99 30953 30988
+type(
+  string
+)
+ident(
+  def arg "subst.mll" 100 31010 31012 "subst.mll" 111 31357 31364
+)
+"subst.mll" 99 30953 30997 "subst.mll" 99 30953 31000
+type(
+  Lexstate.subst
+)
+ident(
+  def env "subst.mll" 100 31010 31012 "subst.mll" 111 31357 31364
+)
+"subst.mll" 99 30953 30980 "subst.mll" 99 30953 31001
+type(
+  string Lexstate.arg
+)
+"subst.mll" 99 30953 31005 "subst.mll" 99 30953 31006
+ident(
+  def x "subst.mll" 100 31010 31012 "subst.mll" 111 31357 31364
+)
+"subst.mll" 99 30953 30979 "subst.mll" 99 30953 31007
+type(
+  string Lexstate.arg
+)
+"subst.mll" 100 31010 31015 "subst.mll" 100 31010 31018
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"subst.mll" 100 31010 31020 "subst.mll" 100 31010 31026
+type(
+  Lexstate.subst -> bool
+)
+ident(
+  ext_ref Lexstate.is_top
+)
+"subst.mll" 100 31010 31027 "subst.mll" 100 31010 31030
+type(
+  Lexstate.subst
+)
+ident(
+  int_ref env "subst.mll" 99 30953 30997 "subst.mll" 99 30953 31000
+)
+"subst.mll" 100 31010 31019 "subst.mll" 100 31010 31031
+call(
+  stack
+)
+type(
+  bool
+)
+"subst.mll" 100 31010 31015 "subst.mll" 100 31010 31031
+type(
+  bool
+)
+"subst.mll" 100 31010 31032 "subst.mll" 100 31010 31034
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"subst.mll" 100 31010 31035 "subst.mll" 100 31010 31047
+type(
+  string -> bool
+)
+ident(
+  int_ref sharp_inside "subst.mll" 96 30866 30870 "subst.mll" 96 30866 30882
+)
+"subst.mll" 100 31010 31048 "subst.mll" 100 31010 31051
+type(
+  string
+)
+ident(
+  int_ref arg "subst.mll" 99 30953 30985 "subst.mll" 99 30953 30988
+)
+"subst.mll" 100 31010 31035 "subst.mll" 100 31010 31051
+call(
+  stack
+)
+type(
+  bool
+)
+"subst.mll" 100 31010 31015 "subst.mll" 100 31010 31051
+type(
+  bool
+)
+"subst.mll" 101 31063 31070 "subst.mll" 101 31063 31071
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"subst.mll" 101 31063 31071 "subst.mll" 101 31063 31078
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"subst.mll" 101 31063 31070 "subst.mll" 101 31063 31078
+type(
+  int
+)
+"subst.mll" 101 31063 31079 "subst.mll" 101 31063 31080
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"subst.mll" 101 31063 31081 "subst.mll" 101 31063 31082
+type(
+  int
+)
+"subst.mll" 101 31063 31070 "subst.mll" 101 31063 31082
+type(
+  bool
+)
+"subst.mll" 102 31094 31100 "subst.mll" 102 31094 31114
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"subst.mll" 102 31094 31115 "subst.mll" 102 31094 31121
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"subst.mll" 102 31094 31122 "subst.mll" 102 31094 31143
+type(
+  (string -> unit, out_channel, unit) format
+)
+"subst.mll" 102 31094 31144 "subst.mll" 102 31094 31147
+type(
+  string
+)
+ident(
+  int_ref arg "subst.mll" 99 30953 30985 "subst.mll" 99 30953 30988
+)
+"subst.mll" 102 31094 31100 "subst.mll" 102 31094 31147
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 103 31150 31156 "subst.mll" 103 31150 31166
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Lexstate.prerr_args
+)
+"subst.mll" 103 31150 31167 "subst.mll" 103 31150 31169
+type(
+  unit
+)
+"subst.mll" 103 31150 31156 "subst.mll" 103 31150 31169
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 101 31063 31088 "subst.mll" 104 31170 31177
+type(
+  unit
+)
+"subst.mll" 101 31063 31067 "subst.mll" 104 31170 31177
+type(
+  unit
+)
+"subst.mll" 105 31180 31188 "subst.mll" 105 31180 31189
+type(
+  unit
+)
+"subst.mll" 105 31180 31192 "subst.mll" 105 31180 31205
+type(
+  (Lexing.lexbuf -> unit) -> string Lexstate.arg -> unit
+)
+ident(
+  ext_ref Lexstate.scan_this_arg
+)
+"subst.mll" 105 31180 31207 "subst.mll" 105 31180 31212
+type(
+  bool -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref subst "subst.ml" 415 27197 27205 "subst.ml" 415 27197 27210
+)
+"subst.mll" 105 31180 31213 "subst.mll" 105 31180 31217
+type(
+  bool
+)
+ident(
+  int_ref expn "subst.mll" 99 30953 30974 "subst.mll" 99 30953 30978
+)
+"subst.mll" 105 31180 31206 "subst.mll" 105 31180 31218
+call(
+  stack
+)
+type(
+  Lexing.lexbuf -> unit
+)
+"subst.mll" 105 31180 31219 "subst.mll" 105 31180 31220
+type(
+  string Lexstate.arg
+)
+ident(
+  int_ref x "subst.mll" 99 30953 30979 "subst.mll" 99 30953 31007
+)
+"subst.mll" 105 31180 31192 "subst.mll" 105 31180 31220
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 106 31224 31232 "subst.mll" 106 31224 31233
+type(
+  string
+)
+ident(
+  def r "subst.mll" 107 31264 31268 "subst.mll" 109 31340 31345
+)
+"subst.mll" 106 31224 31236 "subst.mll" 106 31224 31249
+type(
+  Out.t -> string
+)
+ident(
+  ext_ref Out.to_string
+)
+"subst.mll" 106 31224 31250 "subst.mll" 106 31224 31260
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 106 31224 31236 "subst.mll" 106 31224 31260
+call(
+  stack
+)
+type(
+  string
+)
+"subst.mll" 107 31264 31271 "subst.mll" 107 31264 31272
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"subst.mll" 107 31264 31272 "subst.mll" 107 31264 31279
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"subst.mll" 107 31264 31271 "subst.mll" 107 31264 31279
+type(
+  int
+)
+"subst.mll" 107 31264 31280 "subst.mll" 107 31264 31281
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"subst.mll" 107 31264 31282 "subst.mll" 107 31264 31283
+type(
+  int
+)
+"subst.mll" 107 31264 31271 "subst.mll" 107 31264 31283
+type(
+  bool
+)
+"subst.mll" 108 31289 31295 "subst.mll" 108 31289 31308
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"subst.mll" 108 31289 31310 "subst.mll" 108 31289 31324
+type(
+  string
+)
+"subst.mll" 108 31289 31324 "subst.mll" 108 31289 31325
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"subst.mll" 108 31289 31325 "subst.mll" 108 31289 31328
+type(
+  string
+)
+ident(
+  int_ref arg "subst.mll" 99 30953 30985 "subst.mll" 99 30953 30988
+)
+"subst.mll" 108 31289 31328 "subst.mll" 108 31289 31329
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"subst.mll" 108 31289 31329 "subst.mll" 108 31289 31335
+type(
+  string
+)
+"subst.mll" 108 31289 31335 "subst.mll" 108 31289 31336
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"subst.mll" 108 31289 31336 "subst.mll" 108 31289 31337
+type(
+  string
+)
+ident(
+  int_ref r "subst.mll" 106 31224 31232 "subst.mll" 106 31224 31233
+)
+"subst.mll" 108 31289 31329 "subst.mll" 108 31289 31337
+call(
+  stack
+)
+type(
+  string
+)
+"subst.mll" 108 31289 31325 "subst.mll" 108 31289 31337
+call(
+  stack
+)
+type(
+  string
+)
+"subst.mll" 108 31289 31309 "subst.mll" 108 31289 31338
+call(
+  stack
+)
+type(
+  string
+)
+"subst.mll" 108 31289 31295 "subst.mll" 108 31289 31338
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 107 31264 31268 "subst.mll" 108 31289 31338
+type(
+  unit
+)
+"subst.mll" 109 31340 31344 "subst.mll" 109 31340 31345
+type(
+  string
+)
+ident(
+  int_ref r "subst.mll" 106 31224 31232 "subst.mll" 106 31224 31233
+)
+"subst.mll" 107 31264 31268 "subst.mll" 109 31340 31345
+type(
+  string
+)
+"subst.mll" 106 31224 31228 "subst.mll" 109 31340 31345
+type(
+  string
+)
+"subst.mll" 105 31180 31184 "subst.mll" 109 31340 31345
+type(
+  string
+)
+"subst.mll" 100 31010 31057 "subst.mll" 110 31346 31351
+type(
+  string
+)
+"subst.mll" 111 31357 31361 "subst.mll" 111 31357 31364
+type(
+  string
+)
+ident(
+  int_ref arg "subst.mll" 99 30953 30985 "subst.mll" 99 30953 30988
+)
+"subst.mll" 100 31010 31012 "subst.mll" 111 31357 31364
+type(
+  string
+)
+"subst.mll" 113 31366 31370 "subst.mll" 113 31366 31387
+type(
+  string list -> bool
+)
+ident(
+  def sharp_inside_list "subst.mll" 115 31422 31422 "subst.ml" 1 0 -1
+)
+"subst.mll" 113 31366 31388 "subst.mll" 113 31366 31390
+type(
+  string list
+)
+ident(
+  def xs "subst.mll" 113 31366 31393 "subst.mll" 113 31366 31420
+)
+"subst.mll" 113 31366 31393 "subst.mll" 113 31366 31404
+type(
+  (string -> bool) -> string list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"subst.mll" 113 31366 31405 "subst.mll" 113 31366 31417
+type(
+  string -> bool
+)
+ident(
+  int_ref sharp_inside "subst.mll" 96 30866 30870 "subst.mll" 96 30866 30882
+)
+"subst.mll" 113 31366 31418 "subst.mll" 113 31366 31420
+type(
+  string list
+)
+ident(
+  int_ref xs "subst.mll" 113 31366 31388 "subst.mll" 113 31366 31390
+)
+"subst.mll" 113 31366 31393 "subst.mll" 113 31366 31420
+call(
+  tail
+)
+type(
+  bool
+)
+"subst.mll" 115 31422 31426 "subst.mll" 115 31422 31447
+type(
+  bool -> string list Lexstate.arg -> string list
+)
+ident(
+  def do_do_subst_this_list "subst.mll" 131 31923 31923 "subst.ml" 1 0 -1
+)
+"subst.mll" 115 31422 31448 "subst.mll" 115 31422 31452
+type(
+  bool
+)
+ident(
+  def expn "subst.mll" 115 31422 31453 "subst.mll" 129 31915 31921
+)
+"subst.mll" 115 31422 31459 "subst.mll" 115 31422 31461
+type(
+  string list
+)
+ident(
+  def xs "subst.mll" 116 31483 31485 "subst.mll" 129 31915 31921
+)
+"subst.mll" 115 31422 31470 "subst.mll" 115 31422 31473
+type(
+  Lexstate.subst
+)
+ident(
+  def env "subst.mll" 116 31483 31485 "subst.mll" 129 31915 31921
+)
+"subst.mll" 115 31422 31454 "subst.mll" 115 31422 31474
+type(
+  string list Lexstate.arg
+)
+"subst.mll" 115 31422 31478 "subst.mll" 115 31422 31479
+ident(
+  def x "subst.mll" 116 31483 31485 "subst.mll" 129 31915 31921
+)
+"subst.mll" 115 31422 31453 "subst.mll" 115 31422 31480
+type(
+  string list Lexstate.arg
+)
+"subst.mll" 116 31483 31488 "subst.mll" 116 31483 31491
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"subst.mll" 116 31483 31493 "subst.mll" 116 31483 31499
+type(
+  Lexstate.subst -> bool
+)
+ident(
+  ext_ref Lexstate.is_top
+)
+"subst.mll" 116 31483 31500 "subst.mll" 116 31483 31503
+type(
+  Lexstate.subst
+)
+ident(
+  int_ref env "subst.mll" 115 31422 31470 "subst.mll" 115 31422 31473
+)
+"subst.mll" 116 31483 31492 "subst.mll" 116 31483 31504
+call(
+  stack
+)
+type(
+  bool
+)
+"subst.mll" 116 31483 31488 "subst.mll" 116 31483 31504
+type(
+  bool
+)
+"subst.mll" 116 31483 31505 "subst.mll" 116 31483 31507
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"subst.mll" 116 31483 31508 "subst.mll" 116 31483 31525
+type(
+  string list -> bool
+)
+ident(
+  int_ref sharp_inside_list "subst.mll" 113 31366 31370 "subst.mll" 113 31366 31387
+)
+"subst.mll" 116 31483 31526 "subst.mll" 116 31483 31528
+type(
+  string list
+)
+ident(
+  int_ref xs "subst.mll" 115 31422 31459 "subst.mll" 115 31422 31461
+)
+"subst.mll" 116 31483 31508 "subst.mll" 116 31483 31528
+call(
+  stack
+)
+type(
+  bool
+)
+"subst.mll" 116 31483 31488 "subst.mll" 116 31483 31528
+type(
+  bool
+)
+"subst.mll" 117 31540 31547 "subst.mll" 117 31540 31548
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"subst.mll" 117 31540 31548 "subst.mll" 117 31540 31555
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"subst.mll" 117 31540 31547 "subst.mll" 117 31540 31555
+type(
+  int
+)
+"subst.mll" 117 31540 31556 "subst.mll" 117 31540 31557
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"subst.mll" 117 31540 31558 "subst.mll" 117 31540 31559
+type(
+  int
+)
+"subst.mll" 117 31540 31547 "subst.mll" 117 31540 31559
+type(
+  bool
+)
+"subst.mll" 118 31571 31577 "subst.mll" 118 31571 31584
+type(
+  out_channel ->
+  ((out_channel -> string list -> unit) -> string list -> unit, out_channel,
+   unit)
+  format -> (out_channel -> string list -> unit) -> string list -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"subst.mll" 118 31571 31585 "subst.mll" 118 31571 31591
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"subst.mll" 118 31571 31592 "subst.mll" 118 31571 31618
+type(
+  ((out_channel -> string list -> unit) -> string list -> unit, out_channel,
+   unit)
+  format
+)
+"subst.mll" 118 31571 31619 "subst.mll" 118 31571 31639
+type(
+  out_channel -> string list -> unit
+)
+ident(
+  ext_ref Lexstate.pretty_body
+)
+"subst.mll" 118 31571 31640 "subst.mll" 118 31571 31642
+type(
+  string list
+)
+ident(
+  int_ref xs "subst.mll" 115 31422 31459 "subst.mll" 115 31422 31461
+)
+"subst.mll" 118 31571 31577 "subst.mll" 118 31571 31642
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 119 31645 31651 "subst.mll" 119 31645 31661
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Lexstate.prerr_args
+)
+"subst.mll" 119 31645 31662 "subst.mll" 119 31645 31664
+type(
+  unit
+)
+"subst.mll" 119 31645 31651 "subst.mll" 119 31645 31664
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 117 31540 31565 "subst.mll" 120 31665 31672
+type(
+  unit
+)
+"subst.mll" 117 31540 31544 "subst.mll" 120 31665 31672
+type(
+  unit
+)
+"subst.mll" 121 31675 31683 "subst.mll" 121 31675 31684
+type(
+  unit
+)
+"subst.mll" 121 31675 31687 "subst.mll" 121 31675 31705
+type(
+  (Lexing.lexbuf -> unit) -> string list Lexstate.arg -> unit
+)
+ident(
+  ext_ref Lexstate.scan_this_arg_list
+)
+"subst.mll" 121 31675 31707 "subst.mll" 121 31675 31712
+type(
+  bool -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref subst "subst.ml" 415 27197 27205 "subst.ml" 415 27197 27210
+)
+"subst.mll" 121 31675 31713 "subst.mll" 121 31675 31717
+type(
+  bool
+)
+ident(
+  int_ref expn "subst.mll" 115 31422 31448 "subst.mll" 115 31422 31452
+)
+"subst.mll" 121 31675 31706 "subst.mll" 121 31675 31718
+call(
+  stack
+)
+type(
+  Lexing.lexbuf -> unit
+)
+"subst.mll" 121 31675 31719 "subst.mll" 121 31675 31720
+type(
+  string list Lexstate.arg
+)
+ident(
+  int_ref x "subst.mll" 115 31422 31453 "subst.mll" 115 31422 31480
+)
+"subst.mll" 121 31675 31687 "subst.mll" 121 31675 31720
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 122 31724 31732 "subst.mll" 122 31724 31733
+type(
+  string list
+)
+ident(
+  def r "subst.mll" 123 31762 31766 "subst.mll" 127 31898 31903
+)
+"subst.mll" 122 31724 31736 "subst.mll" 122 31724 31747
+type(
+  Out.t -> string list
+)
+ident(
+  ext_ref Out.to_list
+)
+"subst.mll" 122 31724 31748 "subst.mll" 122 31724 31758
+type(
+  Out.t
+)
+ident(
+  int_ref subst_buff "subst.mll" 17 56 60 "subst.mll" 17 56 70
+)
+"subst.mll" 122 31724 31736 "subst.mll" 122 31724 31758
+call(
+  stack
+)
+type(
+  string list
+)
+"subst.mll" 123 31762 31769 "subst.mll" 123 31762 31770
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"subst.mll" 123 31762 31770 "subst.mll" 123 31762 31777
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"subst.mll" 123 31762 31769 "subst.mll" 123 31762 31777
+type(
+  int
+)
+"subst.mll" 123 31762 31778 "subst.mll" 123 31762 31779
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"subst.mll" 123 31762 31780 "subst.mll" 123 31762 31781
+type(
+  int
+)
+"subst.mll" 123 31762 31769 "subst.mll" 123 31762 31781
+type(
+  bool
+)
+"subst.mll" 124 31787 31793 "subst.mll" 124 31787 31800
+type(
+  ((out_channel -> string list -> unit) ->
+   string list -> (out_channel -> string list -> unit) -> string list -> unit,
+   out_channel, unit)
+  format ->
+  (out_channel -> string list -> unit) ->
+  string list -> (out_channel -> string list -> unit) -> string list -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"subst.mll" 124 31787 31801 "subst.mll" 124 31787 31832
+type(
+  ((out_channel -> string list -> unit) ->
+   string list -> (out_channel -> string list -> unit) -> string list -> unit,
+   out_channel, unit)
+  format
+)
+"subst.mll" 125 31833 31841 "subst.mll" 125 31833 31861
+type(
+  out_channel -> string list -> unit
+)
+ident(
+  ext_ref Lexstate.pretty_body
+)
+"subst.mll" 125 31833 31862 "subst.mll" 125 31833 31864
+type(
+  string list
+)
+ident(
+  int_ref xs "subst.mll" 115 31422 31459 "subst.mll" 115 31422 31461
+)
+"subst.mll" 126 31865 31873 "subst.mll" 126 31865 31893
+type(
+  out_channel -> string list -> unit
+)
+ident(
+  ext_ref Lexstate.pretty_body
+)
+"subst.mll" 126 31865 31894 "subst.mll" 126 31865 31895
+type(
+  string list
+)
+ident(
+  int_ref r "subst.mll" 122 31724 31732 "subst.mll" 122 31724 31733
+)
+"subst.mll" 124 31787 31793 "subst.mll" 126 31865 31895
+call(
+  stack
+)
+type(
+  unit
+)
+"subst.mll" 123 31762 31766 "subst.mll" 126 31865 31895
+type(
+  unit
+)
+"subst.mll" 127 31898 31902 "subst.mll" 127 31898 31903
+type(
+  string list
+)
+ident(
+  int_ref r "subst.mll" 122 31724 31732 "subst.mll" 122 31724 31733
+)
+"subst.mll" 123 31762 31766 "subst.mll" 127 31898 31903
+type(
+  string list
+)
+"subst.mll" 122 31724 31728 "subst.mll" 127 31898 31903
+type(
+  string list
+)
+"subst.mll" 121 31675 31679 "subst.mll" 127 31898 31903
+type(
+  string list
+)
+"subst.mll" 116 31483 31534 "subst.mll" 128 31904 31909
+type(
+  string list
+)
+"subst.mll" 129 31915 31919 "subst.mll" 129 31915 31921
+type(
+  string list
+)
+ident(
+  int_ref xs "subst.mll" 115 31422 31459 "subst.mll" 115 31422 31461
+)
+"subst.mll" 116 31483 31485 "subst.mll" 129 31915 31921
+type(
+  string list
+)
+"subst.mll" 131 31923 31927 "subst.mll" 131 31923 31945
+type(
+  string list Lexstate.arg -> string
+)
+ident(
+  def do_subst_this_list "subst.mll" 133 32001 32001 "subst.ml" 1 0 -1
+)
+"subst.mll" 131 31923 31946 "subst.mll" 131 31923 31947
+type(
+  string list Lexstate.arg
+)
+ident(
+  def x "subst.mll" 132 31950 31952 "subst.mll" 132 31950 32000
+)
+"subst.mll" 132 31950 31952 "subst.mll" 132 31950 31965
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"subst.mll" 132 31950 31966 "subst.mll" 132 31950 31968
+type(
+  string
+)
+"subst.mll" 132 31950 31970 "subst.mll" 132 31950 31991
+type(
+  bool -> string list Lexstate.arg -> string list
+)
+ident(
+  int_ref do_do_subst_this_list "subst.mll" 115 31422 31426 "subst.mll" 115 31422 31447
+)
+"subst.mll" 132 31950 31992 "subst.mll" 132 31950 31997
+type(
+  bool
+)
+"subst.mll" 132 31950 31998 "subst.mll" 132 31950 31999
+type(
+  string list Lexstate.arg
+)
+ident(
+  int_ref x "subst.mll" 131 31923 31946 "subst.mll" 131 31923 31947
+)
+"subst.mll" 132 31950 31969 "subst.mll" 132 31950 32000
+call(
+  stack
+)
+type(
+  string list
+)
+"subst.mll" 132 31950 31952 "subst.mll" 132 31950 32000
+call(
+  tail
+)
+type(
+  string
+)
+"subst.mll" 133 32001 32005 "subst.mll" 133 32001 32018
+type(
+  string Lexstate.arg -> string
+)
+ident(
+  def do_subst_this "subst.mll" 135 32049 32049 "subst.ml" 1 0 -1
+)
+"subst.mll" 133 32001 32019 "subst.mll" 133 32001 32020
+type(
+  string Lexstate.arg
+)
+ident(
+  def x "subst.mll" 133 32001 32023 "subst.mll" 133 32001 32047
+)
+"subst.mll" 133 32001 32023 "subst.mll" 133 32001 32039
+type(
+  bool -> string Lexstate.arg -> string
+)
+ident(
+  int_ref do_do_subst_this "subst.mll" 99 30953 30957 "subst.mll" 99 30953 30973
+)
+"subst.mll" 133 32001 32040 "subst.mll" 133 32001 32045
+type(
+  bool
+)
+"subst.mll" 133 32001 32046 "subst.mll" 133 32001 32047
+type(
+  string Lexstate.arg
+)
+ident(
+  int_ref x "subst.mll" 133 32001 32019 "subst.mll" 133 32001 32020
+)
+"subst.mll" 133 32001 32023 "subst.mll" 133 32001 32047
+call(
+  tail
+)
+type(
+  string
+)
+"subst.mll" 135 32049 32053 "subst.mll" 135 32049 32063
+type(
+  string list Lexstate.arg -> string list
+)
+ident(
+  def subst_list "subst.mll" 140 32162 32162 "subst.ml" 1 0 -1
+)
+"subst.mll" 135 32049 32069 "subst.mll" 135 32049 32073
+type(
+  string list
+)
+ident(
+  def args "subst.mll" 136 32089 32091 "subst.mll" 138 32152 32160
+)
+"subst.mll" 135 32049 32082 "subst.mll" 135 32049 32085
+type(
+  Lexstate.subst
+)
+ident(
+  def env "subst.mll" 136 32089 32091 "subst.mll" 138 32152 32160
+)
+"subst.mll" 135 32049 32064 "subst.mll" 135 32049 32086
+type(
+  string list Lexstate.arg
+)
+"subst.mll" 136 32089 32091 "subst.mll" 136 32089 32099
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"subst.mll" 137 32100 32109 "subst.mll" 137 32100 32112
+type(
+  string
+)
+ident(
+  def arg "subst.mll" 137 32100 32116 "subst.mll" 137 32100 32150
+)
+"subst.mll" 137 32100 32116 "subst.mll" 137 32100 32129
+type(
+  string Lexstate.arg -> string
+)
+ident(
+  int_ref do_subst_this "subst.mll" 133 32001 32005 "subst.mll" 133 32001 32018
+)
+"subst.mll" 137 32100 32135 "subst.mll" 137 32100 32138
+type(
+  string
+)
+ident(
+  int_ref arg "subst.mll" 137 32100 32109 "subst.mll" 137 32100 32112
+)
+"subst.mll" 137 32100 32146 "subst.mll" 137 32100 32149
+type(
+  Lexstate.subst
+)
+ident(
+  int_ref env "subst.mll" 135 32049 32082 "subst.mll" 135 32049 32085
+)
+"subst.mll" 137 32100 32130 "subst.mll" 137 32100 32150
+type(
+  string Lexstate.arg
+)
+"subst.mll" 137 32100 32116 "subst.mll" 137 32100 32150
+call(
+  tail
+)
+type(
+  string
+)
+"subst.mll" 137 32100 32104 "subst.mll" 137 32100 32151
+type(
+  string -> string
+)
+"subst.mll" 138 32152 32156 "subst.mll" 138 32152 32160
+type(
+  string list
+)
+ident(
+  int_ref args "subst.mll" 135 32049 32069 "subst.mll" 135 32049 32073
+)
+"subst.mll" 136 32089 32091 "subst.mll" 138 32152 32160
+call(
+  tail
+)
+type(
+  string list
+)
+"subst.mll" 140 32162 32166 "subst.mll" 140 32162 32176
+type(
+  string -> string
+)
+ident(
+  def subst_this "subst.mll" 141 32220 32220 "subst.ml" 1 0 -1
+)
+"subst.mll" 140 32162 32177 "subst.mll" 140 32162 32178
+type(
+  string
+)
+ident(
+  def s "subst.mll" 140 32162 32181 "subst.mll" 140 32162 32219
+)
+"subst.mll" 140 32162 32181 "subst.mll" 140 32162 32194
+type(
+  string Lexstate.arg -> string
+)
+ident(
+  int_ref do_subst_this "subst.mll" 133 32001 32005 "subst.mll" 133 32001 32018
+)
+"subst.mll" 140 32162 32196 "subst.mll" 140 32162 32201
+type(
+  string -> Lexstate.subst -> string Lexstate.arg
+)
+ident(
+  ext_ref Lexstate.mkarg
+)
+"subst.mll" 140 32162 32202 "subst.mll" 140 32162 32203
+type(
+  string
+)
+ident(
+  int_ref s "subst.mll" 140 32162 32177 "subst.mll" 140 32162 32178
+)
+"subst.mll" 140 32162 32205 "subst.mll" 140 32162 32214
+type(
+  unit -> Lexstate.subst
+)
+ident(
+  ext_ref Lexstate.get_subst
+)
+"subst.mll" 140 32162 32215 "subst.mll" 140 32162 32217
+type(
+  unit
+)
+"subst.mll" 140 32162 32204 "subst.mll" 140 32162 32218
+call(
+  stack
+)
+type(
+  Lexstate.subst
+)
+"subst.mll" 140 32162 32195 "subst.mll" 140 32162 32219
+call(
+  stack
+)
+type(
+  string Lexstate.arg
+)
+"subst.mll" 140 32162 32181 "subst.mll" 140 32162 32219
+call(
+  tail
+)
+type(
+  string
+)
+"subst.mll" 141 32220 32224 "subst.mll" 141 32220 32233
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  def subst_arg "subst.mll" 144 32358 32358 "subst.ml" 1 0 -1
+)
+"subst.mll" 141 32220 32234 "subst.mll" 141 32220 32240
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "subst.mll" 141 32220 32243 "subst.mll" 141 32220 32274
+)
+"subst.mll" 141 32220 32243 "subst.mll" 141 32220 32256
+type(
+  string Lexstate.arg -> string
+)
+ident(
+  int_ref do_subst_this "subst.mll" 133 32001 32005 "subst.mll" 133 32001 32018
+)
+"subst.mll" 141 32220 32258 "subst.mll" 141 32220 32266
+type(
+  Lexing.lexbuf -> string Lexstate.arg
+)
+ident(
+  ext_ref Lexstate.save_arg
+)
+"subst.mll" 141 32220 32267 "subst.mll" 141 32220 32273
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.mll" 141 32220 32234 "subst.mll" 141 32220 32240
+)
+"subst.mll" 141 32220 32257 "subst.mll" 141 32220 32274
+call(
+  stack
+)
+type(
+  string Lexstate.arg
+)
+"subst.mll" 141 32220 32243 "subst.mll" 141 32220 32274
+call(
+  tail
+)
+type(
+  string
+)
+"subst.mll" 142 32277 32281 "subst.mll" 142 32277 32290
+type(
+  string -> Lexing.lexbuf -> string list
+)
+ident(
+  def subst_opt "subst.mll" 144 32358 32358 "subst.ml" 1 0 -1
+)
+"subst.mll" 142 32277 32291 "subst.mll" 142 32277 32294
+type(
+  string
+)
+ident(
+  def def "subst.mll" 142 32277 32295 "subst.mll" 142 32277 32354
+)
+"subst.mll" 142 32277 32295 "subst.mll" 142 32277 32301
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "subst.mll" 142 32277 32304 "subst.mll" 142 32277 32354
+)
+"subst.mll" 142 32277 32304 "subst.mll" 142 32277 32325
+type(
+  bool -> string list Lexstate.arg -> string list
+)
+ident(
+  int_ref do_do_subst_this_list "subst.mll" 115 31422 31426 "subst.mll" 115 31422 31447
+)
+"subst.mll" 142 32277 32326 "subst.mll" 142 32277 32331
+type(
+  bool
+)
+"subst.mll" 142 32277 32334 "subst.mll" 142 32277 32342
+type(
+  string -> Lexing.lexbuf -> string list Lexstate.arg
+)
+ident(
+  ext_ref Lexstate.save_opt
+)
+"subst.mll" 142 32277 32343 "subst.mll" 142 32277 32346
+type(
+  string
+)
+ident(
+  int_ref def "subst.mll" 142 32277 32291 "subst.mll" 142 32277 32294
+)
+"subst.mll" 142 32277 32347 "subst.mll" 142 32277 32353
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.mll" 142 32277 32295 "subst.mll" 142 32277 32301
+)
+"subst.mll" 142 32277 32333 "subst.mll" 142 32277 32354
+call(
+  stack
+)
+type(
+  string list Lexstate.arg
+)
+"subst.mll" 142 32277 32304 "subst.mll" 142 32277 32354
+call(
+  tail
+)
+type(
+  string list
+)
+"subst.mll" 144 32358 32362 "subst.mll" 144 32358 32372
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  def subst_body "subst.mll" 145 32429 32429 "subst.ml" 1 0 -1
+)
+"subst.mll" 144 32358 32373 "subst.mll" 144 32358 32379
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "subst.mll" 144 32358 32382 "subst.mll" 144 32358 32428
+)
+"subst.mll" 144 32358 32382 "subst.mll" 144 32358 32403
+type(
+  bool -> string list Lexstate.arg -> string list
+)
+ident(
+  int_ref do_do_subst_this_list "subst.mll" 115 31422 31426 "subst.mll" 115 31422 31447
+)
+"subst.mll" 144 32358 32404 "subst.mll" 144 32358 32409
+type(
+  bool
+)
+"subst.mll" 144 32358 32411 "subst.mll" 144 32358 32420
+type(
+  Lexing.lexbuf -> string list Lexstate.arg
+)
+ident(
+  ext_ref Lexstate.save_body
+)
+"subst.mll" 144 32358 32421 "subst.mll" 144 32358 32427
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.mll" 144 32358 32373 "subst.mll" 144 32358 32379
+)
+"subst.mll" 144 32358 32410 "subst.mll" 144 32358 32428
+call(
+  stack
+)
+type(
+  string list Lexstate.arg
+)
+"subst.mll" 144 32358 32382 "subst.mll" 144 32358 32428
+call(
+  tail
+)
+type(
+  string list
+)
+"subst.mll" 145 32429 32433 "subst.mll" 145 32429 32447
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  def subst_arg_list "subst.mll" 147 32505 32505 "subst.ml" 1 0 -1
+)
+"subst.mll" 145 32429 32448 "subst.mll" 145 32429 32454
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "subst.mll" 145 32429 32457 "subst.mll" 145 32429 32503
+)
+"subst.mll" 145 32429 32457 "subst.mll" 145 32429 32478
+type(
+  bool -> string list Lexstate.arg -> string list
+)
+ident(
+  int_ref do_do_subst_this_list "subst.mll" 115 31422 31426 "subst.mll" 115 31422 31447
+)
+"subst.mll" 145 32429 32479 "subst.mll" 145 32429 32484
+type(
+  bool
+)
+"subst.mll" 145 32429 32486 "subst.mll" 145 32429 32495
+type(
+  Lexing.lexbuf -> string list Lexstate.arg
+)
+ident(
+  ext_ref Lexstate.save_body
+)
+"subst.mll" 145 32429 32496 "subst.mll" 145 32429 32502
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.mll" 145 32429 32448 "subst.mll" 145 32429 32454
+)
+"subst.mll" 145 32429 32485 "subst.mll" 145 32429 32503
+call(
+  stack
+)
+type(
+  string list Lexstate.arg
+)
+"subst.mll" 145 32429 32457 "subst.mll" 145 32429 32503
+call(
+  tail
+)
+type(
+  string list
+)
+"subst.mll" 147 32505 32509 "subst.mll" 147 32505 32523
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  def subst_expn_arg "subst.mll" 148 32575 32575 "subst.ml" 1 0 -1
+)
+"subst.mll" 147 32505 32524 "subst.mll" 147 32505 32530
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "subst.mll" 147 32505 32533 "subst.mll" 147 32505 32572
+)
+"subst.mll" 147 32505 32533 "subst.mll" 147 32505 32549
+type(
+  bool -> string Lexstate.arg -> string
+)
+ident(
+  int_ref do_do_subst_this "subst.mll" 99 30953 30957 "subst.mll" 99 30953 30973
+)
+"subst.mll" 147 32505 32550 "subst.mll" 147 32505 32554
+type(
+  bool
+)
+"subst.mll" 147 32505 32556 "subst.mll" 147 32505 32564
+type(
+  Lexing.lexbuf -> string Lexstate.arg
+)
+ident(
+  ext_ref Lexstate.save_arg
+)
+"subst.mll" 147 32505 32565 "subst.mll" 147 32505 32571
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.mll" 147 32505 32524 "subst.mll" 147 32505 32530
+)
+"subst.mll" 147 32505 32555 "subst.mll" 147 32505 32572
+call(
+  stack
+)
+type(
+  string Lexstate.arg
+)
+"subst.mll" 147 32505 32533 "subst.mll" 147 32505 32572
+call(
+  tail
+)
+type(
+  string
+)
+"subst.mll" 148 32575 32579 "subst.mll" 148 32575 32594
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  def subst_expn_body "subst.mll" 150 32651 32651 "subst.ml" 1 0 -1
+)
+"subst.mll" 148 32575 32595 "subst.mll" 148 32575 32601
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "subst.mll" 148 32575 32604 "subst.mll" 148 32575 32649
+)
+"subst.mll" 148 32575 32604 "subst.mll" 148 32575 32625
+type(
+  bool -> string list Lexstate.arg -> string list
+)
+ident(
+  int_ref do_do_subst_this_list "subst.mll" 115 31422 31426 "subst.mll" 115 31422 31447
+)
+"subst.mll" 148 32575 32626 "subst.mll" 148 32575 32630
+type(
+  bool
+)
+"subst.mll" 148 32575 32632 "subst.mll" 148 32575 32641
+type(
+  Lexing.lexbuf -> string list Lexstate.arg
+)
+ident(
+  ext_ref Lexstate.save_body
+)
+"subst.mll" 148 32575 32642 "subst.mll" 148 32575 32648
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.mll" 148 32575 32595 "subst.mll" 148 32575 32601
+)
+"subst.mll" 148 32575 32631 "subst.mll" 148 32575 32649
+call(
+  stack
+)
+type(
+  string list Lexstate.arg
+)
+"subst.mll" 148 32575 32604 "subst.mll" 148 32575 32649
+call(
+  tail
+)
+type(
+  string list
+)
+"subst.mll" 150 32651 32655 "subst.mll" 150 32651 32664
+type(
+  (char -> char) -> string -> string
+)
+ident(
+  def translate "subst.mll" 154 32737 32737 "subst.ml" 1 0 -1
+)
+"subst.mll" 150 32651 32665 "subst.mll" 150 32651 32666
+type(
+  char -> char
+)
+ident(
+  def f "subst.mll" 150 32651 32667 "subst.mll" 152 32712 32735
+)
+"subst.mll" 150 32651 32667 "subst.mll" 150 32651 32668
+type(
+  string
+)
+ident(
+  def s "subst.mll" 151 32671 32673 "subst.mll" 152 32712 32735
+)
+"subst.mll" 151 32671 32677 "subst.mll" 151 32671 32683
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "subst.mll" 152 32712 32714 "subst.mll" 152 32712 32735
+)
+"subst.mll" 151 32671 32686 "subst.mll" 151 32671 32706
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref MyLexing.from_string
+)
+"subst.mll" 151 32671 32707 "subst.mll" 151 32671 32708
+type(
+  string
+)
+ident(
+  int_ref s "subst.mll" 150 32651 32667 "subst.mll" 150 32651 32668
+)
+"subst.mll" 151 32671 32686 "subst.mll" 151 32671 32708
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"subst.mll" 152 32712 32714 "subst.mll" 152 32712 32726
+type(
+  Lexing.lexbuf -> (char -> char) -> string
+)
+ident(
+  int_ref do_translate "subst.ml" 507 29672 29676 "subst.ml" 507 29672 29688
+)
+"subst.mll" 152 32712 32727 "subst.mll" 152 32712 32733
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "subst.mll" 151 32671 32677 "subst.mll" 151 32671 32683
+)
+"subst.mll" 152 32712 32734 "subst.mll" 152 32712 32735
+type(
+  char -> char
+)
+ident(
+  int_ref f "subst.mll" 150 32651 32665 "subst.mll" 150 32651 32666
+)
+"subst.mll" 152 32712 32714 "subst.mll" 152 32712 32735
+call(
+  tail
+)
+type(
+  string
+)
+"subst.mll" 151 32671 32673 "subst.mll" 152 32712 32735
+type(
+  string
+)
+"subst.mll" 154 32737 32741 "subst.mll" 154 32737 32750
+type(
+  string -> string
+)
+ident(
+  def lowercase "subst.mll" 155 32782 32826 "subst.ml" 1 0 -1
+)
+"subst.mll" 154 32737 32751 "subst.mll" 154 32737 32752
+type(
+  string
+)
+ident(
+  def s "subst.mll" 154 32737 32755 "subst.mll" 154 32737 32781
+)
+"subst.mll" 154 32737 32755 "subst.mll" 154 32737 32764
+type(
+  (char -> char) -> string -> string
+)
+ident(
+  int_ref translate "subst.mll" 150 32651 32655 "subst.mll" 150 32651 32664
+)
+"subst.mll" 154 32737 32765 "subst.mll" 154 32737 32779
+type(
+  char -> char
+)
+ident(
+  ext_ref Char.lowercase
+)
+"subst.mll" 154 32737 32780 "subst.mll" 154 32737 32781
+type(
+  string
+)
+ident(
+  int_ref s "subst.mll" 154 32737 32751 "subst.mll" 154 32737 32752
+)
+"subst.mll" 154 32737 32755 "subst.mll" 154 32737 32781
+call(
+  tail
+)
+type(
+  string
+)
+"subst.mll" 155 32782 32786 "subst.mll" 155 32782 32795
+type(
+  string -> string
+)
+ident(
+  def uppercase "subst.mll" 155 32782 32826 "subst.ml" 1 0 -1
+)
+"subst.mll" 155 32782 32796 "subst.mll" 155 32782 32797
+type(
+  string
+)
+ident(
+  def s "subst.mll" 155 32782 32800 "subst.mll" 155 32782 32826
+)
+"subst.mll" 155 32782 32800 "subst.mll" 155 32782 32809
+type(
+  (char -> char) -> string -> string
+)
+ident(
+  int_ref translate "subst.mll" 150 32651 32655 "subst.mll" 150 32651 32664
+)
+"subst.mll" 155 32782 32810 "subst.mll" 155 32782 32824
+type(
+  char -> char
+)
+ident(
+  ext_ref Char.uppercase
+)
+"subst.mll" 155 32782 32825 "subst.mll" 155 32782 32826
+type(
+  string
+)
+ident(
+  int_ref s "subst.mll" 155 32782 32796 "subst.mll" 155 32782 32797
+)
+"subst.mll" 155 32782 32800 "subst.mll" 155 32782 32826
+call(
+  tail
+)
+type(
+  string
+)

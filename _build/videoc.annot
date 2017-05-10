@@ -1,0 +1,8765 @@
+"videoc.mll" 38 242 246 "videoc.mll" 38 242 253
+type(
+  string
+)
+ident(
+  def _header "videoc.mll" 41 373 373 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 39 257 259 "videoc.mll" 39 257 318
+type(
+  string
+)
+"videoc.mll" 41 373 377 "videoc.mll" 41 373 388
+type(
+  string
+)
+ident(
+  def _qnc_header "videoc.mll" 43 407 407 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 41 373 392 "videoc.mll" 41 373 405
+type(
+  string
+)
+"videoc.mll" 50 520 524 "videoc.mll" 50 520 537
+type(
+  bool ref
+)
+ident(
+  def withinSnippet "videoc.mll" 51 552 552 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 50 520 540 "videoc.mll" 50 520 543
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"videoc.mll" 50 520 544 "videoc.mll" 50 520 549
+type(
+  bool
+)
+"videoc.mll" 50 520 540 "videoc.mll" 50 520 549
+type(
+  bool ref
+)
+"videoc.mll" 51 552 556 "videoc.mll" 51 552 574
+type(
+  bool ref
+)
+ident(
+  def withinTeXInclusion "videoc.mll" 52 589 589 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 51 552 577 "videoc.mll" 51 552 580
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"videoc.mll" 51 552 581 "videoc.mll" 51 552 586
+type(
+  bool
+)
+"videoc.mll" 51 552 577 "videoc.mll" 51 552 586
+type(
+  bool ref
+)
+"videoc.mll" 52 589 593 "videoc.mll" 52 589 607
+type(
+  bool ref
+)
+ident(
+  def endSnippetRead "videoc.mll" 56 654 654 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 52 589 610 "videoc.mll" 52 589 613
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"videoc.mll" 52 589 614 "videoc.mll" 52 589 619
+type(
+  bool
+)
+"videoc.mll" 52 589 610 "videoc.mll" 52 589 619
+type(
+  bool ref
+)
+"videoc.mll" 56 654 658 "videoc.mll" 56 654 673
+type(
+  string ref
+)
+ident(
+  def snippetLanguage "videoc.mll" 57 685 685 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 56 654 676 "videoc.mll" 56 654 679
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"videoc.mll" 56 654 680 "videoc.mll" 56 654 682
+type(
+  string
+)
+"videoc.mll" 56 654 676 "videoc.mll" 56 654 682
+type(
+  string ref
+)
+"videoc.mll" 57 685 689 "videoc.mll" 57 685 706
+type(
+  bool ref
+)
+ident(
+  def enableLispComment "videoc.mll" 58 721 721 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 57 685 709 "videoc.mll" 57 685 712
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"videoc.mll" 57 685 713 "videoc.mll" 57 685 718
+type(
+  bool
+)
+"videoc.mll" 57 685 709 "videoc.mll" 57 685 718
+type(
+  bool ref
+)
+"videoc.mll" 58 721 725 "videoc.mll" 58 721 747
+type(
+  bool ref
+)
+ident(
+  def enableSchemeCharacters "videoc.mll" 63 852 852 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 58 721 750 "videoc.mll" 58 721 753
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"videoc.mll" 58 721 754 "videoc.mll" 58 721 759
+type(
+  bool
+)
+"videoc.mll" 58 721 750 "videoc.mll" 58 721 759
+type(
+  bool ref
+)
+"videoc.mll" 63 852 856 "videoc.mll" 63 852 863
+type(
+  string -> (Lexing.lexbuf -> 'a) -> string -> unit
+)
+ident(
+  def runHook "videoc.mll" 76 1332 1332 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 63 852 864 "videoc.mll" 63 852 870
+type(
+  string
+)
+ident(
+  def prefix "videoc.mll" 63 852 871 "videoc.mll" 74 1274 1328
+)
+"videoc.mll" 63 852 871 "videoc.mll" 63 852 878
+type(
+  Lexing.lexbuf -> 'a
+)
+ident(
+  def parsing "videoc.mll" 63 852 879 "videoc.mll" 74 1274 1328
+)
+"videoc.mll" 63 852 879 "videoc.mll" 63 852 883
+type(
+  string
+)
+ident(
+  def name "videoc.mll" 64 886 888 "videoc.mll" 74 1274 1328
+)
+"videoc.mll" 64 886 892 "videoc.mll" 64 886 895
+type(
+  string -> unit
+)
+ident(
+  def run "videoc.mll" 69 1076 1078 "videoc.mll" 74 1274 1328
+)
+"videoc.mll" 64 886 896 "videoc.mll" 64 886 900
+type(
+  string
+)
+ident(
+  def name "videoc.mll" 64 886 903 "videoc.mll" 68 1067 1072
+)
+"videoc.mll" 65 909 916 "videoc.mll" 65 909 917
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 65 909 917 "videoc.mll" 65 909 924
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"videoc.mll" 65 909 916 "videoc.mll" 65 909 924
+type(
+  int
+)
+"videoc.mll" 65 909 925 "videoc.mll" 65 909 926
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"videoc.mll" 65 909 927 "videoc.mll" 65 909 928
+type(
+  int
+)
+"videoc.mll" 65 909 916 "videoc.mll" 65 909 928
+type(
+  bool
+)
+"videoc.mll" 65 909 934 "videoc.mll" 65 909 947
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"videoc.mll" 65 909 949 "videoc.mll" 65 909 970
+type(
+  string
+)
+"videoc.mll" 65 909 971 "videoc.mll" 65 909 972
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 65 909 973 "videoc.mll" 65 909 977
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 64 886 896 "videoc.mll" 64 886 900
+)
+"videoc.mll" 65 909 948 "videoc.mll" 65 909 978
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 65 909 934 "videoc.mll" 65 909 978
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 65 909 913 "videoc.mll" 65 909 978
+type(
+  unit
+)
+"videoc.mll" 66 980 987 "videoc.mll" 66 980 1005
+type(
+  string -> bool
+)
+ident(
+  ext_ref Latexmacros.exists
+)
+"videoc.mll" 66 980 1006 "videoc.mll" 66 980 1010
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 64 886 896 "videoc.mll" 64 886 900
+)
+"videoc.mll" 66 980 987 "videoc.mll" 66 980 1010
+call(
+  stack
+)
+type(
+  bool
+)
+"videoc.mll" 67 1012 1027 "videoc.mll" 67 1012 1045
+type(
+  (Lexing.lexbuf -> 'a) -> string -> 'a
+)
+ident(
+  ext_ref Lexstate.scan_this
+)
+"videoc.mll" 67 1012 1046 "videoc.mll" 67 1012 1053
+type(
+  Lexing.lexbuf -> 'a
+)
+ident(
+  int_ref parsing "videoc.mll" 63 852 871 "videoc.mll" 63 852 878
+)
+"videoc.mll" 67 1012 1054 "videoc.mll" 67 1012 1058
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 64 886 896 "videoc.mll" 64 886 900
+)
+"videoc.mll" 67 1012 1027 "videoc.mll" 67 1012 1058
+call(
+  stack
+)
+type(
+  'a
+)
+"videoc.mll" 67 1012 1060 "videoc.mll" 67 1012 1062
+type(
+  unit
+)
+"videoc.mll" 67 1012 1021 "videoc.mll" 67 1012 1066
+type(
+  unit
+)
+"videoc.mll" 66 980 984 "videoc.mll" 67 1012 1066
+type(
+  unit
+)
+"videoc.mll" 64 886 903 "videoc.mll" 68 1067 1072
+type(
+  unit
+)
+"videoc.mll" 69 1076 1086 "videoc.mll" 69 1076 1093
+type(
+  string -> string -> unit
+)
+ident(
+  def iterate "videoc.mll" 69 1076 1078 "videoc.mll" 74 1274 1328
+)
+"videoc.mll" 69 1076 1094 "videoc.mll" 69 1076 1098
+type(
+  string
+)
+ident(
+  def name "videoc.mll" 69 1076 1099 "videoc.mll" 73 1206 1273
+)
+"videoc.mll" 69 1076 1099 "videoc.mll" 69 1076 1105
+type(
+  string
+)
+ident(
+  def suffix "videoc.mll" 70 1108 1112 "videoc.mll" 73 1206 1273
+)
+"videoc.mll" 70 1108 1112 "videoc.mll" 70 1108 1115
+type(
+  string -> unit
+)
+ident(
+  int_ref run "videoc.mll" 64 886 892 "videoc.mll" 64 886 895
+)
+"videoc.mll" 70 1108 1116 "videoc.mll" 70 1108 1120
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 69 1076 1094 "videoc.mll" 69 1076 1098
+)
+"videoc.mll" 70 1108 1112 "videoc.mll" 70 1108 1120
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 71 1122 1129 "videoc.mll" 71 1122 1135
+type(
+  string
+)
+ident(
+  int_ref suffix "videoc.mll" 69 1076 1099 "videoc.mll" 69 1076 1105
+)
+"videoc.mll" 71 1122 1136 "videoc.mll" 71 1122 1138
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"videoc.mll" 71 1122 1139 "videoc.mll" 71 1122 1141
+type(
+  string
+)
+"videoc.mll" 71 1122 1129 "videoc.mll" 71 1122 1141
+type(
+  bool
+)
+"videoc.mll" 72 1142 1151 "videoc.mll" 72 1142 1158
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref iterate "videoc.mll" 69 1076 1086 "videoc.mll" 69 1076 1093
+)
+"videoc.mll" 72 1142 1160 "videoc.mll" 72 1142 1164
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 69 1076 1094 "videoc.mll" 69 1076 1098
+)
+"videoc.mll" 72 1142 1165 "videoc.mll" 72 1142 1166
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 72 1142 1168 "videoc.mll" 72 1142 1179
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"videoc.mll" 72 1142 1180 "videoc.mll" 72 1142 1181
+type(
+  int
+)
+"videoc.mll" 72 1142 1183 "videoc.mll" 72 1142 1193
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"videoc.mll" 72 1142 1194 "videoc.mll" 72 1142 1200
+type(
+  string
+)
+ident(
+  int_ref suffix "videoc.mll" 69 1076 1099 "videoc.mll" 69 1076 1105
+)
+"videoc.mll" 72 1142 1201 "videoc.mll" 72 1142 1202
+type(
+  int
+)
+"videoc.mll" 72 1142 1182 "videoc.mll" 72 1142 1203
+type(
+  char
+)
+"videoc.mll" 72 1142 1167 "videoc.mll" 72 1142 1204
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 72 1142 1159 "videoc.mll" 72 1142 1205
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 73 1206 1224 "videoc.mll" 73 1206 1234
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"videoc.mll" 73 1206 1235 "videoc.mll" 73 1206 1241
+type(
+  string
+)
+ident(
+  int_ref suffix "videoc.mll" 69 1076 1099 "videoc.mll" 69 1076 1105
+)
+"videoc.mll" 73 1206 1242 "videoc.mll" 73 1206 1243
+type(
+  int
+)
+"videoc.mll" 73 1206 1246 "videoc.mll" 73 1206 1259
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"videoc.mll" 73 1206 1260 "videoc.mll" 73 1206 1266
+type(
+  string
+)
+ident(
+  int_ref suffix "videoc.mll" 69 1076 1099 "videoc.mll" 69 1076 1105
+)
+"videoc.mll" 73 1206 1245 "videoc.mll" 73 1206 1267
+type(
+  int
+)
+"videoc.mll" 73 1206 1268 "videoc.mll" 73 1206 1269
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"videoc.mll" 73 1206 1270 "videoc.mll" 73 1206 1271
+type(
+  int
+)
+"videoc.mll" 73 1206 1244 "videoc.mll" 73 1206 1272
+type(
+  int
+)
+"videoc.mll" 73 1206 1223 "videoc.mll" 73 1206 1273
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 72 1142 1151 "videoc.mll" 73 1206 1273
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 71 1122 1126 "videoc.mll" 73 1206 1273
+type(
+  unit
+)
+"videoc.mll" 70 1108 1112 "videoc.mll" 73 1206 1273
+type(
+  unit
+)
+"videoc.mll" 74 1274 1279 "videoc.mll" 74 1274 1286
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref iterate "videoc.mll" 69 1076 1086 "videoc.mll" 69 1076 1093
+)
+"videoc.mll" 74 1274 1288 "videoc.mll" 74 1274 1294
+type(
+  string
+)
+ident(
+  int_ref prefix "videoc.mll" 63 852 864 "videoc.mll" 63 852 870
+)
+"videoc.mll" 74 1274 1295 "videoc.mll" 74 1274 1296
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 74 1274 1297 "videoc.mll" 74 1274 1301
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 63 852 879 "videoc.mll" 63 852 883
+)
+"videoc.mll" 74 1274 1302 "videoc.mll" 74 1274 1303
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 74 1274 1304 "videoc.mll" 74 1274 1310
+type(
+  string
+)
+"videoc.mll" 74 1274 1297 "videoc.mll" 74 1274 1310
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 74 1274 1287 "videoc.mll" 74 1274 1311
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 74 1274 1312 "videoc.mll" 74 1274 1313
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 74 1274 1313 "videoc.mll" 74 1274 1328
+type(
+  string ref
+)
+ident(
+  int_ref snippetLanguage "videoc.mll" 56 654 658 "videoc.mll" 56 654 673
+)
+"videoc.mll" 74 1274 1312 "videoc.mll" 74 1274 1328
+type(
+  string
+)
+"videoc.mll" 74 1274 1279 "videoc.mll" 74 1274 1328
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 69 1076 1078 "videoc.mll" 74 1274 1328
+type(
+  unit
+)
+"videoc.mll" 64 886 888 "videoc.mll" 74 1274 1328
+type(
+  unit
+)
+"videoc.mll" 76 1332 1336 "videoc.mll" 76 1332 1350
+type(
+  (Lexing.lexbuf -> 'b) -> string -> unit
+)
+ident(
+  def snippetRunHook "videoc.mll" 79 1404 1404 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 76 1332 1351 "videoc.mll" 76 1332 1358
+type(
+  Lexing.lexbuf -> 'b
+)
+ident(
+  def parsing "videoc.mll" 76 1332 1359 "videoc.mll" 77 1366 1400
+)
+"videoc.mll" 76 1332 1359 "videoc.mll" 76 1332 1363
+type(
+  string
+)
+ident(
+  def name "videoc.mll" 77 1366 1368 "videoc.mll" 77 1366 1400
+)
+"videoc.mll" 77 1366 1368 "videoc.mll" 77 1366 1375
+type(
+  string -> (Lexing.lexbuf -> 'b) -> string -> unit
+)
+ident(
+  int_ref runHook "videoc.mll" 63 852 856 "videoc.mll" 63 852 863
+)
+"videoc.mll" 77 1366 1376 "videoc.mll" 77 1366 1387
+type(
+  string
+)
+"videoc.mll" 77 1366 1388 "videoc.mll" 77 1366 1395
+type(
+  Lexing.lexbuf -> 'b
+)
+ident(
+  int_ref parsing "videoc.mll" 76 1332 1351 "videoc.mll" 76 1332 1358
+)
+"videoc.mll" 77 1366 1396 "videoc.mll" 77 1366 1400
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 76 1332 1359 "videoc.mll" 76 1332 1363
+)
+"videoc.mll" 77 1366 1368 "videoc.mll" 77 1366 1400
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 79 1404 1408 "videoc.mll" 79 1404 1419
+type(
+  (Lexing.lexbuf -> 'c) -> string -> unit
+)
+ident(
+  def snipRunHook "videoc.mll" 87 1660 1660 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 79 1404 1420 "videoc.mll" 79 1404 1427
+type(
+  Lexing.lexbuf -> 'c
+)
+ident(
+  def parsing "videoc.mll" 79 1404 1428 "videoc.mll" 80 1435 1466
+)
+"videoc.mll" 79 1404 1428 "videoc.mll" 79 1404 1432
+type(
+  string
+)
+ident(
+  def name "videoc.mll" 80 1435 1437 "videoc.mll" 80 1435 1466
+)
+"videoc.mll" 80 1435 1437 "videoc.mll" 80 1435 1444
+type(
+  string -> (Lexing.lexbuf -> 'c) -> string -> unit
+)
+ident(
+  int_ref runHook "videoc.mll" 63 852 856 "videoc.mll" 63 852 863
+)
+"videoc.mll" 80 1435 1445 "videoc.mll" 80 1435 1453
+type(
+  string
+)
+"videoc.mll" 80 1435 1454 "videoc.mll" 80 1435 1461
+type(
+  Lexing.lexbuf -> 'c
+)
+ident(
+  int_ref parsing "videoc.mll" 79 1404 1420 "videoc.mll" 79 1404 1427
+)
+"videoc.mll" 80 1435 1462 "videoc.mll" 80 1435 1466
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 79 1404 1428 "videoc.mll" 79 1404 1432
+)
+"videoc.mll" 80 1435 1437 "videoc.mll" 80 1435 1466
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 87 1660 1664 "videoc.mll" 87 1660 1679
+type(
+  string -> string -> 'd -> string
+)
+ident(
+  def compute_hint_id "videoc.mll" 104 2113 2113 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 87 1660 1680 "videoc.mll" 87 1660 1686
+type(
+  string
+)
+ident(
+  def number "videoc.mll" 87 1660 1687 "videoc.mll" 102 2101 2109
+)
+"videoc.mll" 87 1660 1687 "videoc.mll" 87 1660 1695
+type(
+  string
+)
+ident(
+  def filename "videoc.mll" 87 1660 1696 "videoc.mll" 102 2101 2109
+)
+"videoc.mll" 87 1660 1696 "videoc.mll" 87 1660 1705
+type(
+  'd
+)
+ident(
+  def _notename "videoc.mll" 88 1708 1710 "videoc.mll" 102 2101 2109
+)
+"videoc.mll" 88 1708 1714 "videoc.mll" 88 1708 1720
+type(
+  string
+)
+ident(
+  def result "videoc.mll" 102 2101 2103 "videoc.mll" 102 2101 2109
+)
+"videoc.mll" 88 1708 1723 "videoc.mll" 88 1708 1729
+type(
+  string
+)
+ident(
+  int_ref number "videoc.mll" 87 1660 1680 "videoc.mll" 87 1660 1686
+)
+"videoc.mll" 88 1708 1730 "videoc.mll" 88 1708 1731
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 88 1708 1732 "videoc.mll" 88 1708 1735
+type(
+  string
+)
+"videoc.mll" 88 1708 1736 "videoc.mll" 88 1708 1737
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 88 1708 1738 "videoc.mll" 88 1708 1746
+type(
+  string
+)
+ident(
+  int_ref filename "videoc.mll" 87 1660 1687 "videoc.mll" 87 1660 1695
+)
+"videoc.mll" 88 1708 1732 "videoc.mll" 88 1708 1746
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 88 1708 1723 "videoc.mll" 88 1708 1746
+call(
+  tail
+)
+type(
+  string
+)
+"videoc.mll" 102 2101 2103 "videoc.mll" 102 2101 2109
+type(
+  string
+)
+ident(
+  int_ref result "videoc.mll" 88 1708 1714 "videoc.mll" 88 1708 1720
+)
+"videoc.mll" 88 1708 1710 "videoc.mll" 102 2101 2109
+type(
+  string
+)
+"videoc.mll" 104 2113 2117 "videoc.mll" 104 2113 2143
+type(
+  unit -> int
+)
+ident(
+  def increment_internal_counter "videoc.ml" 99 2275 2275 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 105 2146 2152 "videoc.mll" 105 2146 2159
+type(
+  int ref
+)
+ident(
+  def counter "videoc.mll" 106 2172 2174 "videoc.mll" 110 2246 2253
+)
+"videoc.mll" 105 2146 2162 "videoc.mll" 105 2146 2165
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"videoc.mll" 105 2146 2166 "videoc.mll" 105 2146 2168
+type(
+  int
+)
+"videoc.mll" 105 2146 2162 "videoc.mll" 105 2146 2168
+type(
+  int ref
+)
+"videoc.mll" 106 2172 2183 "videoc.mll" 106 2172 2185
+type(
+  unit
+)
+"videoc.mll" 108 2200 2206 "videoc.mll" 108 2200 2213
+type(
+  int ref
+)
+ident(
+  int_ref counter "videoc.mll" 105 2146 2152 "videoc.mll" 105 2146 2159
+)
+"videoc.mll" 108 2200 2214 "videoc.mll" 108 2200 2216
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"videoc.mll" 108 2200 2217 "videoc.mll" 108 2200 2218
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 108 2200 2218 "videoc.mll" 108 2200 2225
+type(
+  int ref
+)
+ident(
+  int_ref counter "videoc.mll" 105 2146 2152 "videoc.mll" 105 2146 2159
+)
+"videoc.mll" 108 2200 2217 "videoc.mll" 108 2200 2225
+type(
+  int
+)
+"videoc.mll" 108 2200 2226 "videoc.mll" 108 2200 2227
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"videoc.mll" 108 2200 2228 "videoc.mll" 108 2200 2229
+type(
+  int
+)
+"videoc.mll" 108 2200 2217 "videoc.mll" 108 2200 2229
+type(
+  int
+)
+"videoc.mll" 108 2200 2206 "videoc.mll" 108 2200 2229
+type(
+  unit
+)
+"videoc.mll" 109 2231 2237 "videoc.mll" 109 2231 2238
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 109 2231 2238 "videoc.mll" 109 2231 2245
+type(
+  int ref
+)
+ident(
+  int_ref counter "videoc.mll" 105 2146 2152 "videoc.mll" 105 2146 2159
+)
+"videoc.mll" 109 2231 2237 "videoc.mll" 109 2231 2245
+type(
+  int
+)
+"videoc.mll" 107 2190 2194 "videoc.mll" 110 2246 2253
+type(
+  int
+)
+"videoc.mll" 106 2172 2174 "videoc.mll" 110 2246 2253
+type(
+  unit -> int
+)
+"videoc.mll" 105 2146 2148 "videoc.mll" 110 2246 2253
+type(
+  unit -> int
+)
+"videoc.ml" 99 2275 2279 "videoc.ml" 99 2275 2297
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "videoc.ml" 257 12076 12076 "videoc.mll" 469 25698 25701
+)
+"videoc.ml" 101 2323 2326 "videoc.ml" 104 2533 2554
+type(
+  string
+)
+"videoc.ml" 106 2580 2583 "videoc.ml" 109 2790 2811
+type(
+  string
+)
+"videoc.ml" 111 2837 2840 "videoc.ml" 114 3047 3068
+type(
+  string
+)
+"videoc.ml" 116 3092 3095 "videoc.ml" 178 7432 7469
+type(
+  string
+)
+"videoc.ml" 180 7493 7496 "videoc.ml" 242 11833 11870
+type(
+  string
+)
+"videoc.ml" 244 11898 11901 "videoc.ml" 244 11898 11903
+type(
+  string
+)
+"videoc.ml" 246 11934 11937 "videoc.ml" 246 11934 11939
+type(
+  string
+)
+"videoc.ml" 248 11970 11973 "videoc.ml" 248 11970 11975
+type(
+  string
+)
+"videoc.ml" 250 12004 12007 "videoc.ml" 250 12004 12009
+type(
+  string
+)
+"videoc.ml" 252 12038 12041 "videoc.ml" 252 12038 12043
+type(
+  string
+)
+"videoc.ml" 254 12066 12069 "videoc.ml" 254 12066 12071
+type(
+  string
+)
+"videoc.ml" 99 2275 2300 "videoc.ml" 255 12073 12074
+type(
+  Lexing.lex_tables
+)
+"videoc.ml" 257 12076 12084 "videoc.ml" 257 12076 12094
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def snippetenv "videoc.ml" 257 12076 12076 "videoc.mll" 469 25698 25701
+)
+"videoc.ml" 257 12076 12095 "videoc.ml" 257 12076 12101
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.ml" 258 12104 12108 "videoc.ml" 258 12104 12143
+)
+"videoc.ml" 258 12104 12108 "videoc.ml" 258 12104 12134
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_snippetenv_rec "videoc.ml" 259 12144 12148 "videoc.ml" 259 12144 12174
+)
+"videoc.ml" 258 12104 12135 "videoc.ml" 258 12104 12141
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 257 12076 12095 "videoc.ml" 257 12076 12101
+)
+"videoc.ml" 258 12104 12142 "videoc.ml" 258 12104 12143
+type(
+  int
+)
+"videoc.ml" 258 12104 12108 "videoc.ml" 258 12104 12143
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.ml" 259 12144 12148 "videoc.ml" 259 12144 12174
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_snippetenv_rec "videoc.ml" 257 12076 12076 "videoc.mll" 469 25698 25701
+)
+"videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.ml" 259 12144 12182 "videoc.ml" 363 15259 15369
+)
+"videoc.ml" 259 12144 12182 "videoc.ml" 259 12144 12199
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "videoc.ml" 260 12202 12204 "videoc.ml" 363 15259 15369
+)
+"videoc.ml" 260 12202 12210 "videoc.ml" 260 12202 12223
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"videoc.ml" 260 12202 12224 "videoc.ml" 260 12202 12242
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "videoc.ml" 99 2275 2279 "videoc.ml" 99 2275 2297
+)
+"videoc.ml" 260 12202 12243 "videoc.ml" 260 12202 12260
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "videoc.ml" 259 12144 12182 "videoc.ml" 259 12144 12199
+)
+"videoc.ml" 260 12202 12261 "videoc.ml" 260 12202 12267
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.ml" 260 12202 12210 "videoc.ml" 260 12202 12267
+call(
+  stack
+)
+type(
+  int
+)
+"videoc.ml" 261 12273 12281 "videoc.ml" 261 12273 12282
+type(
+  int
+)
+"videoc.mll" 118 12305 12311 "videoc.mll" 118 12305 12317
+type(
+  unit
+)
+"videoc.ml" 266 12337 12341 "videoc.ml" 266 12337 12342
+type(
+  int
+)
+"videoc.mll" 120 12365 12373 "videoc.mll" 120 12365 12379
+type(
+  string
+)
+ident(
+  def csname "videoc.mll" 121 12399 12403 "videoc.mll" 141 13112 13133
+)
+"videoc.mll" 120 12365 12382 "videoc.mll" 120 12365 12388
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"videoc.mll" 120 12365 12389 "videoc.mll" 120 12365 12395
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.mll" 120 12365 12382 "videoc.mll" 120 12365 12395
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 121 12399 12407 "videoc.mll" 121 12399 12410
+type(
+  Lexstate.pat
+)
+ident(
+  def pat "videoc.mll" 122 12445 12449 "videoc.mll" 141 13112 13133
+)
+"videoc.mll" 121 12399 12411 "videoc.mll" 121 12399 12415
+type(
+  Lexstate.action
+)
+ident(
+  def body "videoc.mll" 122 12445 12449 "videoc.mll" 141 13112 13133
+)
+"videoc.mll" 121 12399 12407 "videoc.mll" 121 12399 12415
+type(
+  Lexstate.pat * Lexstate.action
+)
+"videoc.mll" 121 12399 12418 "videoc.mll" 121 12399 12434
+type(
+  string -> Lexstate.pat * Lexstate.action
+)
+ident(
+  ext_ref Latexmacros.find
+)
+"videoc.mll" 121 12399 12435 "videoc.mll" 121 12399 12441
+type(
+  string
+)
+ident(
+  int_ref csname "videoc.mll" 120 12365 12373 "videoc.mll" 120 12365 12379
+)
+"videoc.mll" 121 12399 12418 "videoc.mll" 121 12399 12441
+call(
+  stack
+)
+type(
+  Lexstate.pat * Lexstate.action
+)
+"videoc.mll" 122 12445 12461 "videoc.mll" 122 12445 12464
+type(
+  Lexstate.pat
+)
+ident(
+  int_ref pat "videoc.mll" 121 12399 12407 "videoc.mll" 121 12399 12410
+)
+"videoc.mll" 123 12470 12476 "videoc.mll" 123 12470 12478
+type(
+  string list
+)
+"videoc.mll" 123 12470 12479 "videoc.mll" 123 12470 12481
+type(
+  string list
+)
+"videoc.mll" 123 12470 12476 "videoc.mll" 123 12470 12481
+type(
+  Lexstate.pat
+)
+"videoc.mll" 124 12485 12495 "videoc.mll" 124 12485 12499
+type(
+  Lexstate.subst
+)
+ident(
+  def args "videoc.mll" 125 12535 12541 "videoc.mll" 137 12988 13018
+)
+"videoc.mll" 124 12485 12503 "videoc.mll" 124 12485 12513
+type(
+  string -> Lexstate.pat -> Lexing.lexbuf -> Lexstate.subst
+)
+ident(
+  ext_ref Lexstate.make_stack
+)
+"videoc.mll" 124 12485 12514 "videoc.mll" 124 12485 12520
+type(
+  string
+)
+ident(
+  int_ref csname "videoc.mll" 120 12365 12373 "videoc.mll" 120 12365 12379
+)
+"videoc.mll" 124 12485 12521 "videoc.mll" 124 12485 12524
+type(
+  Lexstate.pat
+)
+ident(
+  int_ref pat "videoc.mll" 121 12399 12407 "videoc.mll" 121 12399 12410
+)
+"videoc.mll" 124 12485 12525 "videoc.mll" 124 12485 12531
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.mll" 124 12485 12503 "videoc.mll" 124 12485 12531
+call(
+  stack
+)
+type(
+  Lexstate.subst
+)
+"videoc.mll" 125 12535 12545 "videoc.mll" 125 12535 12554
+type(
+  Lexstate.subst
+)
+ident(
+  def cur_subst "videoc.mll" 126 12573 12579 "videoc.mll" 137 12988 13018
+)
+"videoc.mll" 125 12535 12557 "videoc.mll" 125 12535 12566
+type(
+  unit -> Lexstate.subst
+)
+ident(
+  ext_ref Lexstate.get_subst
+)
+"videoc.mll" 125 12535 12567 "videoc.mll" 125 12535 12569
+type(
+  unit
+)
+"videoc.mll" 125 12535 12557 "videoc.mll" 125 12535 12569
+call(
+  stack
+)
+type(
+  Lexstate.subst
+)
+"videoc.mll" 126 12573 12583 "videoc.mll" 126 12573 12587
+type(
+  Lexstate.action -> unit
+)
+ident(
+  def exec "videoc.mll" 137 12988 12994 "videoc.mll" 137 12988 13018
+)
+"videoc.mll" 127 12599 12615 "videoc.mll" 127 12599 12619
+type(
+  string list
+)
+ident(
+  def body "videoc.mll" 128 12623 12635 "videoc.mll" 131 12784 12835
+)
+"videoc.mll" 127 12599 12609 "videoc.mll" 127 12599 12619
+type(
+  Lexstate.action
+)
+"videoc.mll" 128 12623 12638 "videoc.mll" 128 12623 12639
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 128 12623 12639 "videoc.mll" 128 12623 12646
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"videoc.mll" 128 12623 12638 "videoc.mll" 128 12623 12646
+type(
+  int
+)
+"videoc.mll" 128 12623 12647 "videoc.mll" 128 12623 12648
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"videoc.mll" 128 12623 12649 "videoc.mll" 128 12623 12650
+type(
+  int
+)
+"videoc.mll" 128 12623 12638 "videoc.mll" 128 12623 12650
+type(
+  bool
+)
+"videoc.mll" 129 12656 12670 "videoc.mll" 129 12656 12677
+type(
+  ((out_channel -> string list -> unit) -> string list -> unit, out_channel,
+   unit)
+  format -> (out_channel -> string list -> unit) -> string list -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"videoc.mll" 129 12656 12678 "videoc.mll" 129 12656 12709
+type(
+  ((out_channel -> string list -> unit) -> string list -> unit, out_channel,
+   unit)
+  format
+)
+"videoc.mll" 129 12656 12710 "videoc.mll" 129 12656 12721
+type(
+  out_channel -> string list -> unit
+)
+ident(
+  ext_ref Lexstate.pretty_body
+)
+"videoc.mll" 129 12656 12722 "videoc.mll" 129 12656 12726
+type(
+  string list
+)
+ident(
+  int_ref body "videoc.mll" 127 12599 12615 "videoc.mll" 127 12599 12619
+)
+"videoc.mll" 129 12656 12670 "videoc.mll" 129 12656 12726
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 128 12623 12635 "videoc.mll" 129 12656 12726
+type(
+  unit
+)
+"videoc.mll" 130 12729 12741 "videoc.mll" 130 12729 12773
+type(
+  (Lexing.lexbuf -> unit) ->
+  Lexing.lexbuf -> Lexstate.subst -> string list Lexstate.arg -> unit
+)
+ident(
+  ext_ref Lexstate.scan_this_list_may_cont
+)
+"videoc.mll" 130 12729 12774 "videoc.mll" 130 12729 12783
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"videoc.mll" 131 12784 12798 "videoc.mll" 131 12784 12804
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.mll" 131 12784 12805 "videoc.mll" 131 12784 12814
+type(
+  Lexstate.subst
+)
+ident(
+  int_ref cur_subst "videoc.mll" 125 12535 12545 "videoc.mll" 125 12535 12554
+)
+"videoc.mll" 131 12784 12816 "videoc.mll" 131 12784 12829
+type(
+  string list -> string list Lexstate.arg
+)
+ident(
+  ext_ref Lexstate.string_to_arg
+)
+"videoc.mll" 131 12784 12830 "videoc.mll" 131 12784 12834
+type(
+  string list
+)
+ident(
+  int_ref body "videoc.mll" 127 12599 12615 "videoc.mll" 127 12599 12619
+)
+"videoc.mll" 131 12784 12815 "videoc.mll" 131 12784 12835
+call(
+  stack
+)
+type(
+  string list Lexstate.arg
+)
+"videoc.mll" 130 12729 12741 "videoc.mll" 131 12784 12835
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 128 12623 12635 "videoc.mll" 131 12784 12835
+type(
+  unit
+)
+"videoc.mll" 132 12836 12851 "videoc.mll" 132 12836 12852
+type(
+  string list
+)
+ident(
+  def l "videoc.mll" 133 12856 12868 "videoc.mll" 135 12925 12951
+)
+"videoc.mll" 132 12836 12846 "videoc.mll" 132 12836 12852
+type(
+  Lexstate.action
+)
+"videoc.mll" 133 12856 12868 "videoc.mll" 133 12856 12877
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"videoc.mll" 134 12878 12897 "videoc.mll" 134 12878 12898
+type(
+  string
+)
+ident(
+  def s "videoc.mll" 134 12878 12902 "videoc.mll" 134 12878 12923
+)
+"videoc.mll" 134 12878 12902 "videoc.mll" 134 12878 12911
+type(
+  (Lexing.lexbuf -> unit) -> string -> unit
+)
+ident(
+  ext_ref Lexstate.scan_this
+)
+"videoc.mll" 134 12878 12912 "videoc.mll" 134 12878 12921
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"videoc.mll" 134 12878 12922 "videoc.mll" 134 12878 12923
+type(
+  string
+)
+ident(
+  int_ref s "videoc.mll" 134 12878 12897 "videoc.mll" 134 12878 12898
+)
+"videoc.mll" 134 12878 12902 "videoc.mll" 134 12878 12923
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 134 12878 12892 "videoc.mll" 134 12878 12924
+type(
+  string -> unit
+)
+"videoc.mll" 135 12925 12940 "videoc.mll" 135 12925 12948
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"videoc.mll" 135 12925 12949 "videoc.mll" 135 12925 12950
+type(
+  string list
+)
+ident(
+  int_ref l "videoc.mll" 132 12836 12851 "videoc.mll" 132 12836 12852
+)
+"videoc.mll" 135 12925 12939 "videoc.mll" 135 12925 12951
+call(
+  stack
+)
+type(
+  string list
+)
+"videoc.mll" 133 12856 12868 "videoc.mll" 135 12925 12951
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 136 12952 12971 "videoc.mll" 136 12952 12972
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def f "videoc.mll" 136 12952 12976 "videoc.mll" 136 12952 12984
+)
+"videoc.mll" 136 12952 12962 "videoc.mll" 136 12952 12972
+type(
+  Lexstate.action
+)
+"videoc.mll" 136 12952 12976 "videoc.mll" 136 12952 12977
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref f "videoc.mll" 136 12952 12971 "videoc.mll" 136 12952 12972
+)
+"videoc.mll" 136 12952 12978 "videoc.mll" 136 12952 12984
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.mll" 136 12952 12976 "videoc.mll" 136 12952 12984
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 126 12573 12590 "videoc.mll" 136 12952 12984
+type(
+  Lexstate.action -> unit
+)
+"videoc.mll" 137 12988 12994 "videoc.mll" 137 12988 13003
+type(
+  (Lexstate.action -> unit) -> Lexstate.action -> Lexstate.subst -> unit
+)
+ident(
+  ext_ref Lexstate.scan_body
+)
+"videoc.mll" 137 12988 13004 "videoc.mll" 137 12988 13008
+type(
+  Lexstate.action -> unit
+)
+ident(
+  int_ref exec "videoc.mll" 126 12573 12583 "videoc.mll" 126 12573 12587
+)
+"videoc.mll" 137 12988 13009 "videoc.mll" 137 12988 13013
+type(
+  Lexstate.action
+)
+ident(
+  int_ref body "videoc.mll" 121 12399 12411 "videoc.mll" 121 12399 12415
+)
+"videoc.mll" 137 12988 13014 "videoc.mll" 137 12988 13018
+type(
+  Lexstate.subst
+)
+ident(
+  int_ref args "videoc.mll" 124 12485 12495 "videoc.mll" 124 12485 12499
+)
+"videoc.mll" 137 12988 12994 "videoc.mll" 137 12988 13018
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 126 12573 12579 "videoc.mll" 137 12988 13018
+type(
+  unit
+)
+"videoc.mll" 125 12535 12541 "videoc.mll" 137 12988 13018
+type(
+  unit
+)
+"videoc.mll" 124 12485 12491 "videoc.mll" 137 12988 13018
+type(
+  unit
+)
+"videoc.mll" 138 13019 13026 "videoc.mll" 138 13019 13027
+type(
+  Lexstate.pat
+)
+"videoc.mll" 139 13031 13037 "videoc.mll" 139 13031 13042
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"videoc.mll" 139 13031 13059 "videoc.mll" 139 13031 13100
+type(
+  string
+)
+"videoc.mll" 139 13031 13043 "videoc.mll" 139 13031 13101
+type(
+  exn
+)
+"videoc.mll" 139 13031 13037 "videoc.mll" 139 13031 13101
+type(
+  unit
+)
+"videoc.mll" 122 12445 12449 "videoc.mll" 140 13102 13109
+type(
+  unit
+)
+"videoc.mll" 141 13112 13116 "videoc.mll" 141 13112 13126
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref snippetenv "videoc.ml" 257 12076 12084 "videoc.ml" 257 12076 12094
+)
+"videoc.mll" 141 13112 13127 "videoc.mll" 141 13112 13133
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.mll" 141 13112 13116 "videoc.mll" 141 13112 13133
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 122 12445 12449 "videoc.mll" 141 13112 13133
+type(
+  unit
+)
+"videoc.mll" 121 12399 12403 "videoc.mll" 141 13112 13133
+type(
+  unit
+)
+"videoc.mll" 120 12365 12368 "videoc.mll" 141 13112 13134
+type(
+  unit
+)
+"videoc.ml" 292 13154 13158 "videoc.ml" 292 13154 13159
+type(
+  int
+)
+"videoc.mll" 143 13182 13187 "videoc.mll" 143 13182 13199
+type(
+  string -> unit
+)
+ident(
+  ext_ref Dest.put_tag
+)
+"videoc.mll" 143 13182 13200 "videoc.mll" 143 13182 13206
+type(
+  string
+)
+"videoc.mll" 143 13182 13187 "videoc.mll" 143 13182 13206
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 144 13208 13213 "videoc.mll" 144 13208 13226
+type(
+  char -> unit
+)
+ident(
+  ext_ref Dest.put_char
+)
+"videoc.mll" 144 13208 13227 "videoc.mll" 144 13208 13231
+type(
+  char
+)
+"videoc.mll" 144 13208 13213 "videoc.mll" 144 13208 13231
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 145 13233 13238 "videoc.mll" 145 13233 13252
+type(
+  (Lexing.lexbuf -> unit) -> string -> unit
+)
+ident(
+  int_ref snippetRunHook "videoc.mll" 76 1332 1336 "videoc.mll" 76 1332 1350
+)
+"videoc.mll" 145 13233 13253 "videoc.mll" 145 13233 13262
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"videoc.mll" 145 13233 13263 "videoc.mll" 145 13233 13274
+type(
+  string
+)
+"videoc.mll" 145 13233 13238 "videoc.mll" 145 13233 13274
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 146 13276 13281 "videoc.mll" 146 13276 13295
+type(
+  (Lexing.lexbuf -> unit) -> string -> unit
+)
+ident(
+  int_ref snippetRunHook "videoc.mll" 76 1332 1336 "videoc.mll" 76 1332 1350
+)
+"videoc.mll" 146 13276 13296 "videoc.mll" 146 13276 13305
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"videoc.mll" 146 13276 13306 "videoc.mll" 146 13276 13318
+type(
+  string
+)
+"videoc.mll" 146 13276 13281 "videoc.mll" 146 13276 13318
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 147 13320 13325 "videoc.mll" 147 13320 13335
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref snippetenv "videoc.ml" 257 12076 12084 "videoc.ml" 257 12076 12094
+)
+"videoc.mll" 147 13320 13336 "videoc.mll" 147 13320 13342
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.mll" 147 13320 13325 "videoc.mll" 147 13320 13342
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 146 13276 13281 "videoc.mll" 147 13320 13342
+type(
+  unit
+)
+"videoc.mll" 145 13233 13238 "videoc.mll" 147 13320 13342
+type(
+  unit
+)
+"videoc.mll" 144 13208 13213 "videoc.mll" 147 13320 13342
+type(
+  unit
+)
+"videoc.mll" 143 13182 13186 "videoc.mll" 147 13320 13343
+type(
+  unit
+)
+"videoc.ml" 301 13363 13367 "videoc.ml" 301 13363 13368
+type(
+  int
+)
+"videoc.mll" 149 13391 13396 "videoc.mll" 149 13391 13409
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Dest.put_nbsp
+)
+"videoc.mll" 149 13391 13410 "videoc.mll" 149 13391 13412
+type(
+  unit
+)
+"videoc.mll" 149 13391 13396 "videoc.mll" 149 13391 13412
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 150 13414 13419 "videoc.mll" 150 13414 13429
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref snippetenv "videoc.ml" 257 12076 12084 "videoc.ml" 257 12076 12094
+)
+"videoc.mll" 150 13414 13430 "videoc.mll" 150 13414 13436
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.mll" 150 13414 13419 "videoc.mll" 150 13414 13436
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 149 13391 13395 "videoc.mll" 150 13414 13437
+type(
+  unit
+)
+"videoc.ml" 307 13457 13461 "videoc.ml" 307 13457 13462
+type(
+  int
+)
+"videoc.mll" 152 13485 13490 "videoc.mll" 152 13485 13498
+type(
+  string -> unit
+)
+ident(
+  ext_ref Dest.put
+)
+"videoc.mll" 152 13485 13500 "videoc.mll" 152 13485 13506
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"videoc.mll" 152 13485 13507 "videoc.mll" 152 13485 13513
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.mll" 152 13485 13499 "videoc.mll" 152 13485 13514
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 152 13485 13490 "videoc.mll" 152 13485 13514
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 153 13516 13521 "videoc.mll" 153 13516 13534
+type(
+  char -> unit
+)
+ident(
+  ext_ref Dest.put_char
+)
+"videoc.mll" 153 13516 13535 "videoc.mll" 153 13516 13538
+type(
+  char
+)
+"videoc.mll" 153 13516 13521 "videoc.mll" 153 13516 13538
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 154 13540 13548 "videoc.mll" 154 13540 13549
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 154 13540 13549 "videoc.mll" 154 13540 13566
+type(
+  bool ref
+)
+ident(
+  int_ref enableLispComment "videoc.mll" 57 685 689 "videoc.mll" 57 685 706
+)
+"videoc.mll" 154 13540 13548 "videoc.mll" 154 13540 13566
+type(
+  bool
+)
+"videoc.mll" 156 13583 13594 "videoc.mll" 156 13583 13595
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 156 13583 13595 "videoc.mll" 156 13583 13602
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"videoc.mll" 156 13583 13594 "videoc.mll" 156 13583 13602
+type(
+  int
+)
+"videoc.mll" 156 13583 13603 "videoc.mll" 156 13583 13604
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"videoc.mll" 156 13583 13605 "videoc.mll" 156 13583 13606
+type(
+  int
+)
+"videoc.mll" 156 13583 13594 "videoc.mll" 156 13583 13606
+type(
+  bool
+)
+"videoc.mll" 157 13613 13623 "videoc.mll" 157 13613 13636
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"videoc.mll" 157 13613 13637 "videoc.mll" 157 13613 13675
+type(
+  string
+)
+"videoc.mll" 157 13613 13623 "videoc.mll" 157 13613 13675
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 156 13583 13591 "videoc.mll" 157 13613 13675
+type(
+  unit
+)
+"videoc.mll" 158 13677 13685 "videoc.mll" 158 13677 13711
+type(
+  bool ref
+)
+ident(
+  ext_ref Lexstate.withinLispComment
+)
+"videoc.mll" 158 13677 13712 "videoc.mll" 158 13677 13714
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"videoc.mll" 158 13677 13715 "videoc.mll" 158 13677 13719
+type(
+  bool
+)
+"videoc.mll" 158 13677 13685 "videoc.mll" 158 13677 13719
+type(
+  unit
+)
+"videoc.mll" 159 13721 13729 "videoc.mll" 159 13721 13748
+type(
+  string -> string -> unit
+)
+ident(
+  ext_ref Scan.top_open_block
+)
+"videoc.mll" 159 13721 13749 "videoc.mll" 159 13721 13755
+type(
+  string
+)
+"videoc.mll" 160 13757 13768 "videoc.mll" 160 13757 13778
+type(
+  string
+)
+"videoc.mll" 160 13757 13779 "videoc.mll" 160 13757 13780
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 160 13757 13781 "videoc.mll" 160 13757 13782
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 160 13757 13782 "videoc.mll" 160 13757 13797
+type(
+  string ref
+)
+ident(
+  int_ref snippetLanguage "videoc.mll" 56 654 658 "videoc.mll" 56 654 673
+)
+"videoc.mll" 160 13757 13781 "videoc.mll" 160 13757 13797
+type(
+  string
+)
+"videoc.mll" 160 13757 13798 "videoc.mll" 160 13757 13799
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 160 13757 13800 "videoc.mll" 160 13757 13811
+type(
+  string
+)
+"videoc.mll" 160 13757 13781 "videoc.mll" 160 13757 13811
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 160 13757 13767 "videoc.mll" 160 13757 13812
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 159 13721 13729 "videoc.mll" 160 13757 13812
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 161 13814 13822 "videoc.mll" 161 13814 13836
+type(
+  (Lexing.lexbuf -> unit) -> string -> unit
+)
+ident(
+  int_ref snippetRunHook "videoc.mll" 76 1332 1336 "videoc.mll" 76 1332 1350
+)
+"videoc.mll" 161 13814 13837 "videoc.mll" 161 13814 13846
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"videoc.mll" 161 13814 13847 "videoc.mll" 161 13814 13862
+type(
+  string
+)
+"videoc.mll" 161 13814 13822 "videoc.mll" 161 13814 13862
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 162 13864 13876 "videoc.mll" 162 13864 13885
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"videoc.mll" 162 13864 13886 "videoc.mll" 162 13864 13892
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.mll" 162 13864 13876 "videoc.mll" 162 13864 13892
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 163 13923 13933 "videoc.mll" 163 13923 13936
+type(
+  exn
+)
+ident(
+  def exc "videoc.mll" 163 13923 13940 "videoc.mll" 178 14652 14664
+)
+"videoc.mll" 164 13946 13958 "videoc.mll" 164 13946 13972
+type(
+  (Lexing.lexbuf -> unit) -> string -> unit
+)
+ident(
+  int_ref snippetRunHook "videoc.mll" 76 1332 1336 "videoc.mll" 76 1332 1350
+)
+"videoc.mll" 164 13946 13973 "videoc.mll" 164 13946 13982
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"videoc.mll" 164 13946 13983 "videoc.mll" 164 13946 13997
+type(
+  string
+)
+"videoc.mll" 164 13946 13958 "videoc.mll" 164 13946 13997
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 165 13999 14011 "videoc.mll" 165 13999 14031
+type(
+  string -> unit
+)
+ident(
+  ext_ref Scan.top_close_block
+)
+"videoc.mll" 165 13999 14032 "videoc.mll" 165 13999 14038
+type(
+  string
+)
+"videoc.mll" 165 13999 14011 "videoc.mll" 165 13999 14038
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 166 14040 14052 "videoc.mll" 166 14040 14078
+type(
+  bool ref
+)
+ident(
+  ext_ref Lexstate.withinLispComment
+)
+"videoc.mll" 166 14040 14079 "videoc.mll" 166 14040 14081
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"videoc.mll" 166 14040 14082 "videoc.mll" 166 14040 14087
+type(
+  bool
+)
+"videoc.mll" 166 14040 14052 "videoc.mll" 166 14040 14087
+type(
+  unit
+)
+"videoc.mll" 168 14153 14169 "videoc.mll" 168 14153 14174
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"videoc.mll" 168 14153 14175 "videoc.mll" 168 14153 14178
+type(
+  exn
+)
+ident(
+  int_ref exc "videoc.mll" 163 13923 13933 "videoc.mll" 163 13923 13936
+)
+"videoc.mll" 168 14153 14169 "videoc.mll" 168 14153 14178
+type(
+  unit
+)
+"videoc.mll" 169 14184 14220 "videoc.mll" 169 14184 14225
+type(
+  int
+)
+ident(
+  def nlnum "videoc.mll" 169 14184 14229 "videoc.mll" 177 14635 14651
+)
+"videoc.mll" 169 14184 14198 "videoc.mll" 169 14184 14225
+type(
+  exn
+)
+"videoc.mll" 170 14235 14255 "videoc.mll" 170 14235 14260
+type(
+  string
+)
+ident(
+  def addon "videoc.mll" 171 14315 14331 "videoc.mll" 176 14616 14634
+)
+"videoc.mll" 170 14235 14267 "videoc.mll" 170 14235 14268
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 170 14235 14268 "videoc.mll" 170 14235 14282
+type(
+  bool ref
+)
+ident(
+  int_ref endSnippetRead "videoc.mll" 52 589 593 "videoc.mll" 52 589 607
+)
+"videoc.mll" 170 14235 14267 "videoc.mll" 170 14235 14282
+type(
+  bool
+)
+"videoc.mll" 170 14235 14288 "videoc.mll" 170 14235 14302
+type(
+  string
+)
+"videoc.mll" 170 14235 14308 "videoc.mll" 170 14235 14310
+type(
+  string
+)
+"videoc.mll" 170 14235 14263 "videoc.mll" 170 14235 14311
+type(
+  string
+)
+"videoc.mll" 171 14315 14334 "videoc.mll" 171 14315 14335
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 171 14315 14335 "videoc.mll" 171 14315 14342
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"videoc.mll" 171 14315 14334 "videoc.mll" 171 14315 14342
+type(
+  int
+)
+"videoc.mll" 171 14315 14343 "videoc.mll" 171 14315 14344
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"videoc.mll" 171 14315 14345 "videoc.mll" 171 14315 14346
+type(
+  int
+)
+"videoc.mll" 171 14315 14334 "videoc.mll" 171 14315 14346
+type(
+  bool
+)
+"videoc.mll" 172 14353 14371 "videoc.mll" 172 14353 14385
+type(
+  out_channel ->
+  (int -> string -> unit, out_channel, unit) format -> int -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"videoc.mll" 172 14353 14386 "videoc.mll" 172 14353 14392
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"videoc.mll" 172 14353 14393 "videoc.mll" 172 14353 14423
+type(
+  (int -> string -> unit, out_channel, unit) format
+)
+"videoc.mll" 173 14425 14445 "videoc.mll" 173 14425 14450
+type(
+  int
+)
+ident(
+  int_ref nlnum "videoc.mll" 169 14184 14220 "videoc.mll" 169 14184 14225
+)
+"videoc.mll" 173 14425 14456 "videoc.mll" 173 14425 14457
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 173 14425 14457 "videoc.mll" 173 14425 14471
+type(
+  bool ref
+)
+ident(
+  int_ref endSnippetRead "videoc.mll" 52 589 593 "videoc.mll" 52 589 607
+)
+"videoc.mll" 173 14425 14456 "videoc.mll" 173 14425 14471
+type(
+  bool
+)
+"videoc.mll" 173 14425 14477 "videoc.mll" 173 14425 14483
+type(
+  string
+)
+"videoc.mll" 173 14425 14489 "videoc.mll" 173 14425 14491
+type(
+  string
+)
+"videoc.mll" 173 14425 14452 "videoc.mll" 173 14425 14492
+type(
+  string
+)
+"videoc.mll" 173 14425 14492 "videoc.mll" 173 14425 14493
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 173 14425 14493 "videoc.mll" 173 14425 14498
+type(
+  string
+)
+ident(
+  int_ref addon "videoc.mll" 170 14235 14255 "videoc.mll" 170 14235 14260
+)
+"videoc.mll" 173 14425 14451 "videoc.mll" 173 14425 14499
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 172 14353 14371 "videoc.mll" 173 14425 14499
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 171 14315 14331 "videoc.mll" 173 14425 14499
+type(
+  unit
+)
+"videoc.mll" 174 14501 14521 "videoc.mll" 174 14501 14522
+type(
+  unit
+)
+"videoc.mll" 174 14501 14525 "videoc.mll" 174 14501 14543
+type(
+  (Lexing.lexbuf -> unit) -> string -> unit
+)
+ident(
+  ext_ref Lexstate.scan_this
+)
+"videoc.mll" 174 14501 14544 "videoc.mll" 174 14501 14554
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref snippetenv "videoc.ml" 257 12076 12084 "videoc.ml" 257 12076 12094
+)
+"videoc.mll" 175 14556 14578 "videoc.mll" 175 14556 14589
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"videoc.mll" 175 14556 14591 "videoc.mll" 175 14556 14592
+type(
+  int
+)
+"videoc.mll" 175 14556 14592 "videoc.mll" 175 14556 14593
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"videoc.mll" 175 14556 14593 "videoc.mll" 175 14556 14598
+type(
+  int
+)
+ident(
+  int_ref nlnum "videoc.mll" 169 14184 14220 "videoc.mll" 169 14184 14225
+)
+"videoc.mll" 175 14556 14590 "videoc.mll" 175 14556 14599
+type(
+  int
+)
+"videoc.mll" 175 14556 14600 "videoc.mll" 175 14556 14604
+type(
+  char
+)
+"videoc.mll" 175 14556 14577 "videoc.mll" 175 14556 14605
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 175 14556 14605 "videoc.mll" 175 14556 14606
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 175 14556 14606 "videoc.mll" 175 14556 14611
+type(
+  string
+)
+ident(
+  int_ref addon "videoc.mll" 170 14235 14255 "videoc.mll" 170 14235 14260
+)
+"videoc.mll" 175 14556 14576 "videoc.mll" 175 14556 14612
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 174 14501 14525 "videoc.mll" 175 14556 14612
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 176 14616 14632 "videoc.mll" 176 14616 14634
+type(
+  unit
+)
+"videoc.mll" 174 14501 14517 "videoc.mll" 176 14616 14634
+type(
+  unit
+)
+"videoc.mll" 171 14315 14331 "videoc.mll" 176 14616 14634
+type(
+  unit
+)
+"videoc.mll" 169 14184 14229 "videoc.mll" 177 14635 14651
+type(
+  unit
+)
+"videoc.mll" 168 14153 14165 "videoc.mll" 177 14635 14651
+type(
+  unit
+)
+"videoc.mll" 166 14040 14052 "videoc.mll" 177 14635 14651
+type(
+  unit
+)
+"videoc.mll" 165 13999 14011 "videoc.mll" 177 14635 14651
+type(
+  unit
+)
+"videoc.mll" 163 13923 13940 "videoc.mll" 178 14652 14664
+type(
+  unit
+)
+"videoc.mll" 162 13864 13872 "videoc.mll" 178 14652 14664
+type(
+  unit
+)
+"videoc.mll" 161 13814 13822 "videoc.mll" 178 14652 14664
+type(
+  unit
+)
+"videoc.mll" 159 13721 13729 "videoc.mll" 178 14652 14664
+type(
+  unit
+)
+"videoc.mll" 158 13677 13685 "videoc.mll" 178 14652 14664
+type(
+  unit
+)
+"videoc.mll" 155 13567 13577 "videoc.mll" 179 14665 14673
+type(
+  unit
+)
+"videoc.mll" 154 13540 13545 "videoc.mll" 179 14665 14673
+type(
+  unit
+)
+"videoc.mll" 180 14675 14680 "videoc.mll" 180 14675 14690
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref snippetenv "videoc.ml" 257 12076 12084 "videoc.ml" 257 12076 12094
+)
+"videoc.mll" 180 14675 14691 "videoc.mll" 180 14675 14697
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.mll" 180 14675 14680 "videoc.mll" 180 14675 14697
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 154 13540 13545 "videoc.mll" 180 14675 14697
+type(
+  unit
+)
+"videoc.mll" 153 13516 13521 "videoc.mll" 180 14675 14697
+type(
+  unit
+)
+"videoc.mll" 152 13485 13489 "videoc.mll" 180 14675 14698
+type(
+  unit
+)
+"videoc.ml" 340 14718 14722 "videoc.ml" 340 14718 14723
+type(
+  int
+)
+"videoc.mll" 182 14746 14751 "videoc.mll" 182 14746 14764
+type(
+  char -> unit
+)
+ident(
+  ext_ref Dest.put_char
+)
+"videoc.mll" 182 14746 14765 "videoc.mll" 182 14746 14768
+type(
+  char
+)
+"videoc.mll" 182 14746 14751 "videoc.mll" 182 14746 14768
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 183 14770 14778 "videoc.mll" 183 14770 14779
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 183 14770 14779 "videoc.mll" 183 14770 14801
+type(
+  bool ref
+)
+ident(
+  int_ref enableSchemeCharacters "videoc.mll" 58 721 725 "videoc.mll" 58 721 747
+)
+"videoc.mll" 183 14770 14778 "videoc.mll" 183 14770 14801
+type(
+  bool
+)
+"videoc.mll" 185 14818 14829 "videoc.mll" 185 14818 14830
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 185 14818 14830 "videoc.mll" 185 14818 14837
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"videoc.mll" 185 14818 14829 "videoc.mll" 185 14818 14837
+type(
+  int
+)
+"videoc.mll" 185 14818 14838 "videoc.mll" 185 14818 14839
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"videoc.mll" 185 14818 14840 "videoc.mll" 185 14818 14841
+type(
+  int
+)
+"videoc.mll" 185 14818 14829 "videoc.mll" 185 14818 14841
+type(
+  bool
+)
+"videoc.mll" 186 14848 14858 "videoc.mll" 186 14848 14871
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"videoc.mll" 186 14848 14872 "videoc.mll" 186 14848 14915
+type(
+  string
+)
+"videoc.mll" 186 14848 14858 "videoc.mll" 186 14848 14915
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 185 14818 14826 "videoc.mll" 186 14848 14915
+type(
+  unit
+)
+"videoc.mll" 187 14917 14925 "videoc.mll" 187 14917 14943
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref schemecharacterenv "videoc.ml" 386 15941 15945 "videoc.ml" 386 15941 15963
+)
+"videoc.mll" 187 14917 14944 "videoc.mll" 187 14917 14950
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.mll" 187 14917 14925 "videoc.mll" 187 14917 14950
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 184 14802 14812 "videoc.mll" 188 14951 14959
+type(
+  unit
+)
+"videoc.mll" 183 14770 14775 "videoc.mll" 188 14951 14959
+type(
+  unit
+)
+"videoc.mll" 189 14961 14966 "videoc.mll" 189 14961 14976
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref snippetenv "videoc.ml" 257 12076 12084 "videoc.ml" 257 12076 12094
+)
+"videoc.mll" 189 14961 14977 "videoc.mll" 189 14961 14983
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.mll" 189 14961 14966 "videoc.mll" 189 14961 14983
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 183 14770 14775 "videoc.mll" 189 14961 14983
+type(
+  unit
+)
+"videoc.mll" 182 14746 14750 "videoc.mll" 189 14961 14984
+type(
+  unit
+)
+"videoc.ml" 352 15004 15008 "videoc.ml" 352 15004 15009
+type(
+  int
+)
+"videoc.mll" 190 15036 15043 "videoc.mll" 190 15036 15046
+type(
+  char
+)
+ident(
+  def lxm "videoc.mll" 191 15147 15151 "videoc.mll" 192 15216 15239
+)
+"videoc.ml" 357 15065 15067 "videoc.ml" 357 15065 15089
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"videoc.ml" 357 15065 15090 "videoc.ml" 357 15065 15096
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.ml" 357 15065 15097 "videoc.ml" 357 15065 15103
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.ml" 357 15065 15097 "videoc.ml" 357 15065 15124
+type(
+  int
+)
+"videoc.ml" 357 15065 15067 "videoc.ml" 357 15065 15124
+call(
+  stack
+)
+type(
+  char
+)
+"videoc.mll" 191 15147 15152 "videoc.mll" 191 15147 15178
+type(
+  char -> (unit -> int) -> unit
+)
+ident(
+  ext_ref Scan.translate_put_unicode
+)
+"videoc.mll" 191 15147 15179 "videoc.mll" 191 15147 15182
+type(
+  char
+)
+ident(
+  int_ref lxm "videoc.mll" 190 15036 15043 "videoc.mll" 190 15036 15046
+)
+"videoc.mll" 191 15147 15188 "videoc.mll" 191 15147 15190
+type(
+  unit
+)
+"videoc.mll" 191 15147 15194 "videoc.mll" 191 15147 15205
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  int_ref read_lexbuf "videoc.ml" 365 15371 15375 "videoc.ml" 365 15371 15386
+)
+"videoc.mll" 191 15147 15206 "videoc.mll" 191 15147 15212
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.mll" 191 15147 15194 "videoc.mll" 191 15147 15212
+call(
+  tail
+)
+type(
+  int
+)
+"videoc.mll" 191 15147 15183 "videoc.mll" 191 15147 15213
+type(
+  unit -> int
+)
+"videoc.mll" 191 15147 15152 "videoc.mll" 191 15147 15213
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 192 15216 15221 "videoc.mll" 192 15216 15231
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref snippetenv "videoc.ml" 257 12076 12084 "videoc.ml" 257 12076 12094
+)
+"videoc.mll" 192 15216 15232 "videoc.mll" 192 15216 15238
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.mll" 192 15216 15221 "videoc.mll" 192 15216 15238
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 191 15147 15151 "videoc.mll" 192 15216 15239
+type(
+  unit
+)
+"videoc.ml" 353 15013 15013 "videoc.mll" 192 15216 15239
+type(
+  unit
+)
+"videoc.ml" 363 15259 15263 "videoc.ml" 363 15259 15280
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "videoc.ml" 363 15259 15284 "videoc.ml" 363 15259 15369
+)
+"videoc.ml" 363 15259 15284 "videoc.ml" 363 15259 15290
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.ml" 363 15259 15284 "videoc.ml" 363 15259 15309
+type(
+  Lexing.lexbuf -> unit
+)
+"videoc.ml" 363 15259 15310 "videoc.ml" 363 15259 15316
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.ml" 363 15259 15284 "videoc.ml" 363 15259 15316
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.ml" 363 15259 15318 "videoc.ml" 363 15259 15344
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_snippetenv_rec "videoc.ml" 259 12144 12148 "videoc.ml" 259 12144 12174
+)
+"videoc.ml" 363 15259 15345 "videoc.ml" 363 15259 15351
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 259 12144 12175 "videoc.ml" 259 12144 12181
+)
+"videoc.ml" 363 15259 15352 "videoc.ml" 363 15259 15369
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "videoc.ml" 363 15259 15263 "videoc.ml" 363 15259 15280
+)
+"videoc.ml" 363 15259 15318 "videoc.ml" 363 15259 15369
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.ml" 363 15259 15284 "videoc.ml" 363 15259 15369
+type(
+  unit
+)
+"videoc.ml" 260 12202 12204 "videoc.ml" 363 15259 15369
+type(
+  unit
+)
+"videoc.ml" 365 15371 15375 "videoc.ml" 365 15371 15386
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  def read_lexbuf "videoc.ml" 257 12076 12076 "videoc.mll" 469 25698 25701
+)
+"videoc.ml" 365 15371 15387 "videoc.ml" 365 15371 15393
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.ml" 366 15396 15400 "videoc.ml" 366 15396 15437
+)
+"videoc.ml" 366 15396 15400 "videoc.ml" 366 15396 15427
+type(
+  Lexing.lexbuf -> int -> int
+)
+ident(
+  int_ref __ocaml_lex_read_lexbuf_rec "videoc.ml" 367 15438 15442 "videoc.ml" 367 15438 15469
+)
+"videoc.ml" 366 15396 15428 "videoc.ml" 366 15396 15434
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 365 15371 15387 "videoc.ml" 365 15371 15393
+)
+"videoc.ml" 366 15396 15435 "videoc.ml" 366 15396 15437
+type(
+  int
+)
+"videoc.ml" 366 15396 15400 "videoc.ml" 366 15396 15437
+call(
+  tail
+)
+type(
+  int
+)
+"videoc.ml" 367 15438 15442 "videoc.ml" 367 15438 15469
+type(
+  Lexing.lexbuf -> int -> int
+)
+ident(
+  def __ocaml_lex_read_lexbuf_rec "videoc.ml" 257 12076 12076 "videoc.mll" 469 25698 25701
+)
+"videoc.ml" 367 15438 15470 "videoc.ml" 367 15438 15476
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.ml" 367 15438 15477 "videoc.ml" 384 15828 15939
+)
+"videoc.ml" 367 15438 15477 "videoc.ml" 367 15438 15494
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "videoc.ml" 368 15497 15499 "videoc.ml" 384 15828 15939
+)
+"videoc.ml" 368 15497 15505 "videoc.ml" 368 15497 15518
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"videoc.ml" 368 15497 15519 "videoc.ml" 368 15497 15537
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "videoc.ml" 99 2275 2279 "videoc.ml" 99 2275 2297
+)
+"videoc.ml" 368 15497 15538 "videoc.ml" 368 15497 15555
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "videoc.ml" 367 15438 15477 "videoc.ml" 367 15438 15494
+)
+"videoc.ml" 368 15497 15556 "videoc.ml" 368 15497 15562
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 367 15438 15470 "videoc.ml" 367 15438 15476
+)
+"videoc.ml" 368 15497 15505 "videoc.ml" 368 15497 15562
+call(
+  stack
+)
+type(
+  int
+)
+"videoc.ml" 369 15568 15576 "videoc.ml" 369 15568 15577
+type(
+  int
+)
+"videoc.mll" 195 15604 15611 "videoc.mll" 195 15604 15614
+type(
+  char
+)
+ident(
+  def lxm "videoc.mll" 195 15715 15726 "videoc.mll" 195 15715 15743
+)
+"videoc.ml" 374 15633 15635 "videoc.ml" 374 15633 15657
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"videoc.ml" 374 15633 15658 "videoc.ml" 374 15633 15664
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 367 15438 15470 "videoc.ml" 367 15438 15476
+)
+"videoc.ml" 374 15633 15665 "videoc.ml" 374 15633 15671
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 367 15438 15470 "videoc.ml" 367 15438 15476
+)
+"videoc.ml" 374 15633 15665 "videoc.ml" 374 15633 15692
+type(
+  int
+)
+"videoc.ml" 374 15633 15635 "videoc.ml" 374 15633 15692
+call(
+  stack
+)
+type(
+  char
+)
+"videoc.mll" 195 15715 15728 "videoc.mll" 195 15715 15737
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"videoc.mll" 195 15715 15738 "videoc.mll" 195 15715 15741
+type(
+  char
+)
+ident(
+  int_ref lxm "videoc.mll" 195 15604 15611 "videoc.mll" 195 15604 15614
+)
+"videoc.mll" 195 15715 15726 "videoc.mll" 195 15715 15743
+type(
+  int
+)
+"videoc.ml" 370 15581 15581 "videoc.mll" 195 15715 15743
+type(
+  int
+)
+"videoc.ml" 379 15763 15767 "videoc.ml" 379 15763 15768
+type(
+  int
+)
+"videoc.mll" 196 15791 15802 "videoc.mll" 196 15791 15808
+type(
+  int
+)
+"videoc.ml" 384 15828 15832 "videoc.ml" 384 15828 15849
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "videoc.ml" 384 15828 15853 "videoc.ml" 384 15828 15939
+)
+"videoc.ml" 384 15828 15853 "videoc.ml" 384 15828 15859
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 367 15438 15470 "videoc.ml" 367 15438 15476
+)
+"videoc.ml" 384 15828 15853 "videoc.ml" 384 15828 15878
+type(
+  Lexing.lexbuf -> unit
+)
+"videoc.ml" 384 15828 15879 "videoc.ml" 384 15828 15885
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 367 15438 15470 "videoc.ml" 367 15438 15476
+)
+"videoc.ml" 384 15828 15853 "videoc.ml" 384 15828 15885
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.ml" 384 15828 15887 "videoc.ml" 384 15828 15914
+type(
+  Lexing.lexbuf -> int -> int
+)
+ident(
+  int_ref __ocaml_lex_read_lexbuf_rec "videoc.ml" 367 15438 15442 "videoc.ml" 367 15438 15469
+)
+"videoc.ml" 384 15828 15915 "videoc.ml" 384 15828 15921
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 367 15438 15470 "videoc.ml" 367 15438 15476
+)
+"videoc.ml" 384 15828 15922 "videoc.ml" 384 15828 15939
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "videoc.ml" 384 15828 15832 "videoc.ml" 384 15828 15849
+)
+"videoc.ml" 384 15828 15887 "videoc.ml" 384 15828 15939
+call(
+  tail
+)
+type(
+  int
+)
+"videoc.ml" 384 15828 15853 "videoc.ml" 384 15828 15939
+type(
+  int
+)
+"videoc.ml" 368 15497 15499 "videoc.ml" 384 15828 15939
+type(
+  int
+)
+"videoc.ml" 386 15941 15945 "videoc.ml" 386 15941 15963
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def schemecharacterenv "videoc.ml" 257 12076 12076 "videoc.mll" 469 25698 25701
+)
+"videoc.ml" 386 15941 15964 "videoc.ml" 386 15941 15970
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.ml" 387 15973 15977 "videoc.ml" 387 15973 16021
+)
+"videoc.ml" 387 15973 15977 "videoc.ml" 387 15973 16011
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_schemecharacterenv_rec "videoc.ml" 388 16022 16026 "videoc.ml" 388 16022 16060
+)
+"videoc.ml" 387 15973 16012 "videoc.ml" 387 15973 16018
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 386 15941 15964 "videoc.ml" 386 15941 15970
+)
+"videoc.ml" 387 15973 16019 "videoc.ml" 387 15973 16021
+type(
+  int
+)
+"videoc.ml" 387 15973 15977 "videoc.ml" 387 15973 16021
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.ml" 388 16022 16026 "videoc.ml" 388 16022 16060
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_schemecharacterenv_rec "videoc.ml" 257 12076 12076 "videoc.mll" 469 25698 25701
+)
+"videoc.ml" 388 16022 16061 "videoc.ml" 388 16022 16067
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.ml" 388 16022 16068 "videoc.ml" 401 16325 16443
+)
+"videoc.ml" 388 16022 16068 "videoc.ml" 388 16022 16085
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "videoc.ml" 389 16088 16090 "videoc.ml" 401 16325 16443
+)
+"videoc.ml" 389 16088 16096 "videoc.ml" 389 16088 16109
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"videoc.ml" 389 16088 16110 "videoc.ml" 389 16088 16128
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "videoc.ml" 99 2275 2279 "videoc.ml" 99 2275 2297
+)
+"videoc.ml" 389 16088 16129 "videoc.ml" 389 16088 16146
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "videoc.ml" 388 16022 16068 "videoc.ml" 388 16022 16085
+)
+"videoc.ml" 389 16088 16147 "videoc.ml" 389 16088 16153
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 388 16022 16061 "videoc.ml" 388 16022 16067
+)
+"videoc.ml" 389 16088 16096 "videoc.ml" 389 16088 16153
+call(
+  stack
+)
+type(
+  int
+)
+"videoc.ml" 390 16159 16167 "videoc.ml" 390 16159 16168
+type(
+  int
+)
+"videoc.mll" 202 16191 16200 "videoc.mll" 202 16191 16206
+type(
+  string
+)
+ident(
+  def csname "videoc.mll" 203 16226 16231 "videoc.mll" 203 16226 16246
+)
+"videoc.mll" 202 16191 16209 "videoc.mll" 202 16191 16215
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"videoc.mll" 202 16191 16216 "videoc.mll" 202 16191 16222
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 388 16022 16061 "videoc.ml" 388 16022 16067
+)
+"videoc.mll" 202 16191 16209 "videoc.mll" 202 16191 16222
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 203 16226 16231 "videoc.mll" 203 16226 16239
+type(
+  string -> unit
+)
+ident(
+  ext_ref Dest.put
+)
+"videoc.mll" 203 16226 16240 "videoc.mll" 203 16226 16246
+type(
+  string
+)
+ident(
+  int_ref csname "videoc.mll" 202 16191 16200 "videoc.mll" 202 16191 16206
+)
+"videoc.mll" 203 16226 16231 "videoc.mll" 203 16226 16246
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 202 16191 16195 "videoc.mll" 203 16226 16247
+type(
+  unit
+)
+"videoc.ml" 396 16267 16271 "videoc.ml" 396 16267 16272
+type(
+  int
+)
+"videoc.mll" 205 16295 16299 "videoc.mll" 205 16295 16305
+type(
+  unit
+)
+"videoc.ml" 401 16325 16329 "videoc.ml" 401 16325 16346
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "videoc.ml" 401 16325 16350 "videoc.ml" 401 16325 16443
+)
+"videoc.ml" 401 16325 16350 "videoc.ml" 401 16325 16356
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 388 16022 16061 "videoc.ml" 388 16022 16067
+)
+"videoc.ml" 401 16325 16350 "videoc.ml" 401 16325 16375
+type(
+  Lexing.lexbuf -> unit
+)
+"videoc.ml" 401 16325 16376 "videoc.ml" 401 16325 16382
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 388 16022 16061 "videoc.ml" 388 16022 16067
+)
+"videoc.ml" 401 16325 16350 "videoc.ml" 401 16325 16382
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.ml" 401 16325 16384 "videoc.ml" 401 16325 16418
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_schemecharacterenv_rec "videoc.ml" 388 16022 16026 "videoc.ml" 388 16022 16060
+)
+"videoc.ml" 401 16325 16419 "videoc.ml" 401 16325 16425
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 388 16022 16061 "videoc.ml" 388 16022 16067
+)
+"videoc.ml" 401 16325 16426 "videoc.ml" 401 16325 16443
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "videoc.ml" 401 16325 16329 "videoc.ml" 401 16325 16346
+)
+"videoc.ml" 401 16325 16384 "videoc.ml" 401 16325 16443
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.ml" 401 16325 16350 "videoc.ml" 401 16325 16443
+type(
+  unit
+)
+"videoc.ml" 389 16088 16090 "videoc.ml" 401 16325 16443
+type(
+  unit
+)
+"videoc.ml" 403 16445 16449 "videoc.ml" 403 16445 16478
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def skip_blanks_till_eol_included "videoc.ml" 257 12076 12076 "videoc.mll" 469 25698 25701
+)
+"videoc.ml" 403 16445 16479 "videoc.ml" 403 16445 16485
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.ml" 404 16488 16492 "videoc.ml" 404 16488 16547
+)
+"videoc.ml" 404 16488 16492 "videoc.ml" 404 16488 16537
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_skip_blanks_till_eol_included_rec "videoc.ml" 405 16548 16552 "videoc.ml" 405 16548 16597
+)
+"videoc.ml" 404 16488 16538 "videoc.ml" 404 16488 16544
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 403 16445 16479 "videoc.ml" 403 16445 16485
+)
+"videoc.ml" 404 16488 16545 "videoc.ml" 404 16488 16547
+type(
+  int
+)
+"videoc.ml" 404 16488 16492 "videoc.ml" 404 16488 16547
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.ml" 405 16548 16552 "videoc.ml" 405 16548 16597
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_skip_blanks_till_eol_included_rec "videoc.ml" 257 12076 12076 "videoc.mll" 469 25698 25701
+)
+"videoc.ml" 405 16548 16598 "videoc.ml" 405 16548 16604
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.ml" 405 16548 16605 "videoc.ml" 422 16906 17035
+)
+"videoc.ml" 405 16548 16605 "videoc.ml" 405 16548 16622
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "videoc.ml" 406 16625 16627 "videoc.ml" 422 16906 17035
+)
+"videoc.ml" 406 16625 16633 "videoc.ml" 406 16625 16646
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"videoc.ml" 406 16625 16647 "videoc.ml" 406 16625 16665
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "videoc.ml" 99 2275 2279 "videoc.ml" 99 2275 2297
+)
+"videoc.ml" 406 16625 16666 "videoc.ml" 406 16625 16683
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "videoc.ml" 405 16548 16605 "videoc.ml" 405 16548 16622
+)
+"videoc.ml" 406 16625 16684 "videoc.ml" 406 16625 16690
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 405 16548 16598 "videoc.ml" 405 16548 16604
+)
+"videoc.ml" 406 16625 16633 "videoc.ml" 406 16625 16690
+call(
+  stack
+)
+type(
+  int
+)
+"videoc.ml" 407 16696 16704 "videoc.ml" 407 16696 16705
+type(
+  int
+)
+"videoc.mll" 211 16728 16733 "videoc.mll" 211 16728 16762
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref skip_blanks_till_eol_included "videoc.ml" 403 16445 16449 "videoc.ml" 403 16445 16478
+)
+"videoc.mll" 211 16728 16763 "videoc.mll" 211 16728 16769
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 405 16548 16598 "videoc.ml" 405 16548 16604
+)
+"videoc.mll" 211 16728 16732 "videoc.mll" 211 16728 16770
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.ml" 412 16790 16794 "videoc.ml" 412 16790 16795
+type(
+  int
+)
+"videoc.mll" 213 16818 16822 "videoc.mll" 213 16818 16828
+type(
+  unit
+)
+"videoc.ml" 417 16848 16852 "videoc.ml" 417 16848 16853
+type(
+  int
+)
+"videoc.mll" 215 16876 16880 "videoc.mll" 215 16876 16886
+type(
+  unit
+)
+"videoc.ml" 422 16906 16910 "videoc.ml" 422 16906 16927
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "videoc.ml" 422 16906 16931 "videoc.ml" 422 16906 17035
+)
+"videoc.ml" 422 16906 16931 "videoc.ml" 422 16906 16937
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 405 16548 16598 "videoc.ml" 405 16548 16604
+)
+"videoc.ml" 422 16906 16931 "videoc.ml" 422 16906 16956
+type(
+  Lexing.lexbuf -> unit
+)
+"videoc.ml" 422 16906 16957 "videoc.ml" 422 16906 16963
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 405 16548 16598 "videoc.ml" 405 16548 16604
+)
+"videoc.ml" 422 16906 16931 "videoc.ml" 422 16906 16963
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.ml" 422 16906 16965 "videoc.ml" 422 16906 17010
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_skip_blanks_till_eol_included_rec "videoc.ml" 405 16548 16552 "videoc.ml" 405 16548 16597
+)
+"videoc.ml" 422 16906 17011 "videoc.ml" 422 16906 17017
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 405 16548 16598 "videoc.ml" 405 16548 16604
+)
+"videoc.ml" 422 16906 17018 "videoc.ml" 422 16906 17035
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "videoc.ml" 422 16906 16910 "videoc.ml" 422 16906 16927
+)
+"videoc.ml" 422 16906 16965 "videoc.ml" 422 16906 17035
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.ml" 422 16906 16931 "videoc.ml" 422 16906 17035
+type(
+  unit
+)
+"videoc.ml" 406 16625 16627 "videoc.ml" 422 16906 17035
+type(
+  unit
+)
+"videoc.ml" 424 17037 17041 "videoc.ml" 424 17037 17063
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  def comma_separated_values "videoc.ml" 257 12076 12076 "videoc.mll" 469 25698 25701
+)
+"videoc.ml" 424 17037 17064 "videoc.ml" 424 17037 17070
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.ml" 425 17073 17077 "videoc.ml" 425 17073 17125
+)
+"videoc.ml" 425 17073 17077 "videoc.ml" 425 17073 17115
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_comma_separated_values_rec "videoc.ml" 426 17126 17130 "videoc.ml" 426 17126 17168
+)
+"videoc.ml" 425 17073 17116 "videoc.ml" 425 17073 17122
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 424 17037 17064 "videoc.ml" 424 17037 17070
+)
+"videoc.ml" 425 17073 17123 "videoc.ml" 425 17073 17125
+type(
+  int
+)
+"videoc.ml" 425 17073 17077 "videoc.ml" 425 17073 17125
+call(
+  tail
+)
+type(
+  string list
+)
+"videoc.ml" 426 17126 17130 "videoc.ml" 426 17126 17168
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  def __ocaml_lex_comma_separated_values_rec "videoc.ml" 257 12076 12076 "videoc.mll" 469 25698 25701
+)
+"videoc.ml" 426 17126 17169 "videoc.ml" 426 17126 17175
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.ml" 426 17126 17176 "videoc.ml" 441 17559 17681
+)
+"videoc.ml" 426 17126 17176 "videoc.ml" 426 17126 17193
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "videoc.ml" 427 17196 17198 "videoc.ml" 441 17559 17681
+)
+"videoc.ml" 427 17196 17204 "videoc.ml" 427 17196 17217
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"videoc.ml" 427 17196 17218 "videoc.ml" 427 17196 17236
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "videoc.ml" 99 2275 2279 "videoc.ml" 99 2275 2297
+)
+"videoc.ml" 427 17196 17237 "videoc.ml" 427 17196 17254
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "videoc.ml" 426 17126 17176 "videoc.ml" 426 17126 17193
+)
+"videoc.ml" 427 17196 17255 "videoc.ml" 427 17196 17261
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 426 17126 17169 "videoc.ml" 426 17126 17175
+)
+"videoc.ml" 427 17196 17204 "videoc.ml" 427 17196 17261
+call(
+  stack
+)
+type(
+  int
+)
+"videoc.ml" 428 17267 17275 "videoc.ml" 428 17267 17276
+type(
+  int
+)
+"videoc.mll" 221 17299 17308 "videoc.mll" 221 17299 17311
+type(
+  string
+)
+ident(
+  def lxm "videoc.mll" 222 17331 17336 "videoc.mll" 224 17441 17480
+)
+"videoc.mll" 221 17299 17314 "videoc.mll" 221 17299 17320
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"videoc.mll" 221 17299 17321 "videoc.mll" 221 17299 17327
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 426 17126 17169 "videoc.ml" 426 17126 17175
+)
+"videoc.mll" 221 17299 17314 "videoc.mll" 221 17299 17327
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 222 17331 17340 "videoc.mll" 222 17331 17341
+type(
+  string
+)
+ident(
+  def s "videoc.mll" 223 17388 17393 "videoc.mll" 224 17441 17480
+)
+"videoc.mll" 222 17331 17344 "videoc.mll" 222 17331 17354
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"videoc.mll" 222 17331 17355 "videoc.mll" 222 17331 17358
+type(
+  string
+)
+ident(
+  int_ref lxm "videoc.mll" 221 17299 17308 "videoc.mll" 221 17299 17311
+)
+"videoc.mll" 222 17331 17359 "videoc.mll" 222 17331 17360
+type(
+  int
+)
+"videoc.mll" 222 17331 17362 "videoc.mll" 222 17331 17375
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"videoc.mll" 222 17331 17376 "videoc.mll" 222 17331 17379
+type(
+  string
+)
+ident(
+  int_ref lxm "videoc.mll" 221 17299 17308 "videoc.mll" 221 17299 17311
+)
+"videoc.mll" 222 17331 17362 "videoc.mll" 222 17331 17379
+type(
+  int
+)
+"videoc.mll" 222 17331 17380 "videoc.mll" 222 17331 17381
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"videoc.mll" 222 17331 17382 "videoc.mll" 222 17331 17383
+type(
+  int
+)
+"videoc.mll" 222 17331 17361 "videoc.mll" 222 17331 17384
+type(
+  int
+)
+"videoc.mll" 222 17331 17344 "videoc.mll" 222 17331 17384
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 223 17388 17396 "videoc.mll" 223 17388 17397
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 223 17388 17397 "videoc.mll" 223 17388 17404
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"videoc.mll" 223 17388 17396 "videoc.mll" 223 17388 17404
+type(
+  int
+)
+"videoc.mll" 223 17388 17405 "videoc.mll" 223 17388 17406
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"videoc.mll" 223 17388 17407 "videoc.mll" 223 17388 17408
+type(
+  int
+)
+"videoc.mll" 223 17388 17396 "videoc.mll" 223 17388 17408
+type(
+  bool
+)
+"videoc.mll" 223 17388 17414 "videoc.mll" 223 17388 17427
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"videoc.mll" 223 17388 17429 "videoc.mll" 223 17388 17434
+type(
+  string
+)
+"videoc.mll" 223 17388 17435 "videoc.mll" 223 17388 17436
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 223 17388 17437 "videoc.mll" 223 17388 17438
+type(
+  string
+)
+ident(
+  int_ref s "videoc.mll" 222 17331 17340 "videoc.mll" 222 17331 17341
+)
+"videoc.mll" 223 17388 17428 "videoc.mll" 223 17388 17439
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 223 17388 17414 "videoc.mll" 223 17388 17439
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 223 17388 17393 "videoc.mll" 223 17388 17439
+type(
+  unit
+)
+"videoc.mll" 224 17441 17446 "videoc.mll" 224 17441 17447
+type(
+  string
+)
+ident(
+  int_ref s "videoc.mll" 222 17331 17340 "videoc.mll" 222 17331 17341
+)
+"videoc.mll" 224 17441 17451 "videoc.mll" 224 17441 17473
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  int_ref comma_separated_values "videoc.ml" 424 17037 17041 "videoc.ml" 424 17037 17063
+)
+"videoc.mll" 224 17441 17474 "videoc.mll" 224 17441 17480
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 426 17126 17169 "videoc.ml" 426 17126 17175
+)
+"videoc.mll" 224 17441 17451 "videoc.mll" 224 17441 17480
+call(
+  stack
+)
+type(
+  string list
+)
+"videoc.mll" 224 17441 17446 "videoc.mll" 224 17441 17480
+type(
+  string list
+)
+"videoc.mll" 223 17388 17393 "videoc.mll" 224 17441 17480
+type(
+  string list
+)
+"videoc.mll" 222 17331 17336 "videoc.mll" 224 17441 17480
+type(
+  string list
+)
+"videoc.mll" 221 17299 17303 "videoc.mll" 224 17441 17481
+type(
+  string list
+)
+"videoc.ml" 436 17501 17505 "videoc.ml" 436 17501 17506
+type(
+  int
+)
+"videoc.mll" 226 17529 17533 "videoc.mll" 226 17529 17539
+type(
+  string list
+)
+"videoc.ml" 441 17559 17563 "videoc.ml" 441 17559 17580
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "videoc.ml" 441 17559 17584 "videoc.ml" 441 17559 17681
+)
+"videoc.ml" 441 17559 17584 "videoc.ml" 441 17559 17590
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 426 17126 17169 "videoc.ml" 426 17126 17175
+)
+"videoc.ml" 441 17559 17584 "videoc.ml" 441 17559 17609
+type(
+  Lexing.lexbuf -> unit
+)
+"videoc.ml" 441 17559 17610 "videoc.ml" 441 17559 17616
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 426 17126 17169 "videoc.ml" 426 17126 17175
+)
+"videoc.ml" 441 17559 17584 "videoc.ml" 441 17559 17616
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.ml" 441 17559 17618 "videoc.ml" 441 17559 17656
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_comma_separated_values_rec "videoc.ml" 426 17126 17130 "videoc.ml" 426 17126 17168
+)
+"videoc.ml" 441 17559 17657 "videoc.ml" 441 17559 17663
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.ml" 426 17126 17169 "videoc.ml" 426 17126 17175
+)
+"videoc.ml" 441 17559 17664 "videoc.ml" 441 17559 17681
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "videoc.ml" 441 17559 17563 "videoc.ml" 441 17559 17580
+)
+"videoc.ml" 441 17559 17618 "videoc.ml" 441 17559 17681
+call(
+  tail
+)
+type(
+  string list
+)
+"videoc.ml" 441 17559 17584 "videoc.ml" 441 17559 17681
+type(
+  string list
+)
+"videoc.ml" 427 17196 17198 "videoc.ml" 441 17559 17681
+type(
+  string list
+)
+"videoc.mll" 231 17708 17712 "videoc.mll" 231 17708 17722
+type(
+  string -> Lexstate.action
+)
+ident(
+  def caml_print "videoc.mll" 232 17758 17758 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 231 17708 17723 "videoc.mll" 231 17708 17724
+type(
+  string
+)
+ident(
+  def s "videoc.mll" 231 17708 17727 "videoc.mll" 231 17708 17757
+)
+"videoc.mll" 231 17708 17741 "videoc.mll" 231 17708 17742
+type(
+  Lexing.lexbuf
+)
+"videoc.mll" 231 17708 17746 "videoc.mll" 231 17708 17754
+type(
+  string -> unit
+)
+ident(
+  ext_ref Dest.put
+)
+"videoc.mll" 231 17708 17755 "videoc.mll" 231 17708 17756
+type(
+  string
+)
+ident(
+  int_ref s "videoc.mll" 231 17708 17723 "videoc.mll" 231 17708 17724
+)
+"videoc.mll" 231 17708 17746 "videoc.mll" 231 17708 17756
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 231 17708 17736 "videoc.mll" 231 17708 17757
+type(
+  Lexing.lexbuf -> unit
+)
+"videoc.mll" 231 17708 17727 "videoc.mll" 231 17708 17757
+type(
+  Lexstate.action
+)
+"videoc.mll" 232 17758 17762 "videoc.mll" 232 17758 17773
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  def snippet_def "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 232 17758 17774 "videoc.mll" 232 17758 17778
+type(
+  string
+)
+ident(
+  def name "videoc.mll" 232 17758 17779 "videoc.mll" 232 17758 17825
+)
+"videoc.mll" 232 17758 17779 "videoc.mll" 232 17758 17780
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def d "videoc.mll" 232 17758 17783 "videoc.mll" 232 17758 17825
+)
+"videoc.mll" 232 17758 17783 "videoc.mll" 232 17758 17798
+type(
+  string -> Lexstate.pat -> Lexstate.action -> unit
+)
+ident(
+  ext_ref Latexmacros.def
+)
+"videoc.mll" 232 17758 17799 "videoc.mll" 232 17758 17803
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 232 17758 17774 "videoc.mll" 232 17758 17778
+)
+"videoc.mll" 232 17758 17804 "videoc.mll" 232 17758 17812
+type(
+  Lexstate.pat
+)
+ident(
+  ext_ref Lexstate.zero_pat
+)
+"videoc.mll" 232 17758 17823 "videoc.mll" 232 17758 17824
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref d "videoc.mll" 232 17758 17779 "videoc.mll" 232 17758 17780
+)
+"videoc.mll" 232 17758 17813 "videoc.mll" 232 17758 17825
+type(
+  Lexstate.action
+)
+"videoc.mll" 232 17758 17783 "videoc.mll" 232 17758 17825
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 234 17827 17835 "videoc.mll" 234 17827 17848
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def do_endsnippet "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 234 17827 17849 "videoc.mll" 234 17827 17850
+type(
+  Lexing.lexbuf
+)
+"videoc.mll" 235 17853 17858 "videoc.mll" 235 17853 17859
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 235 17853 17859 "videoc.mll" 235 17853 17885
+type(
+  bool ref
+)
+ident(
+  ext_ref Lexstate.withinLispComment
+)
+"videoc.mll" 235 17853 17858 "videoc.mll" 235 17853 17885
+type(
+  bool
+)
+"videoc.mll" 236 17897 17901 "videoc.mll" 236 17897 17915
+type(
+  bool ref
+)
+ident(
+  int_ref endSnippetRead "videoc.mll" 52 589 593 "videoc.mll" 52 589 607
+)
+"videoc.mll" 236 17897 17916 "videoc.mll" 236 17897 17918
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"videoc.mll" 236 17897 17919 "videoc.mll" 236 17897 17923
+type(
+  bool
+)
+"videoc.mll" 236 17897 17901 "videoc.mll" 236 17897 17923
+type(
+  unit
+)
+"videoc.mll" 237 17925 17929 "videoc.mll" 237 17925 17934
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"videoc.mll" 237 17925 17958 "videoc.mll" 237 17925 17959
+type(
+  int
+)
+"videoc.mll" 237 17925 17935 "videoc.mll" 237 17925 17960
+type(
+  exn
+)
+"videoc.mll" 237 17925 17929 "videoc.mll" 237 17925 17960
+type(
+  unit
+)
+"videoc.mll" 235 17853 17891 "videoc.mll" 238 17961 17966
+type(
+  unit
+)
+"videoc.mll" 235 17853 17855 "videoc.mll" 238 17961 17966
+type(
+  unit
+)
+"videoc.mll" 239 17968 17973 "videoc.mll" 239 17968 17974
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 239 17968 17974 "videoc.mll" 239 17968 17986
+type(
+  string ref
+)
+ident(
+  ext_ref Scan.cur_env
+)
+"videoc.mll" 239 17968 17973 "videoc.mll" 239 17968 17986
+type(
+  string
+)
+"videoc.mll" 239 17968 17987 "videoc.mll" 239 17968 17988
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"videoc.mll" 239 17968 17989 "videoc.mll" 239 17968 17998
+type(
+  string
+)
+"videoc.mll" 239 17968 17973 "videoc.mll" 239 17968 17998
+type(
+  bool
+)
+"videoc.mll" 240 18004 18008 "videoc.mll" 240 18004 18013
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"videoc.mll" 240 18004 18014 "videoc.mll" 240 18004 18024
+type(
+  exn
+)
+"videoc.mll" 240 18004 18008 "videoc.mll" 240 18004 18024
+type(
+  unit
+)
+"videoc.mll" 242 18033 18037 "videoc.mll" 242 18033 18042
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"videoc.mll" 242 18033 18059 "videoc.mll" 242 18033 18101
+type(
+  string
+)
+"videoc.mll" 242 18033 18043 "videoc.mll" 242 18033 18102
+type(
+  exn
+)
+"videoc.mll" 242 18033 18037 "videoc.mll" 242 18033 18102
+type(
+  unit
+)
+"videoc.mll" 239 17968 17970 "videoc.mll" 242 18033 18102
+type(
+  unit
+)
+"videoc.mll" 235 17853 17855 "videoc.mll" 242 18033 18102
+type(
+  unit
+)
+"videoc.mll" 244 18108 18112 "videoc.mll" 244 18108 18127
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def do_texinclusion "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 244 18108 18128 "videoc.mll" 244 18108 18134
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.mll" 245 18137 18139 "videoc.mll" 259 18622 18629
+)
+"videoc.mll" 245 18137 18139 "videoc.mll" 245 18137 18158
+type(
+  string -> string -> unit
+)
+ident(
+  ext_ref Scan.top_open_block
+)
+"videoc.mll" 245 18137 18159 "videoc.mll" 245 18137 18165
+type(
+  string
+)
+"videoc.mll" 246 18167 18172 "videoc.mll" 246 18167 18182
+type(
+  string
+)
+"videoc.mll" 246 18167 18183 "videoc.mll" 246 18167 18184
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 246 18167 18185 "videoc.mll" 246 18167 18186
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 246 18167 18186 "videoc.mll" 246 18167 18201
+type(
+  string ref
+)
+ident(
+  int_ref snippetLanguage "videoc.mll" 56 654 658 "videoc.mll" 56 654 673
+)
+"videoc.mll" 246 18167 18185 "videoc.mll" 246 18167 18201
+type(
+  string
+)
+"videoc.mll" 246 18167 18202 "videoc.mll" 246 18167 18203
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 246 18167 18204 "videoc.mll" 246 18167 18217
+type(
+  string
+)
+"videoc.mll" 246 18167 18185 "videoc.mll" 246 18167 18217
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 246 18167 18171 "videoc.mll" 246 18167 18218
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 245 18137 18139 "videoc.mll" 246 18167 18218
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 247 18220 18222 "videoc.mll" 247 18220 18236
+type(
+  (Lexing.lexbuf -> unit) -> string -> unit
+)
+ident(
+  int_ref snippetRunHook "videoc.mll" 76 1332 1336 "videoc.mll" 76 1332 1350
+)
+"videoc.mll" 247 18220 18237 "videoc.mll" 247 18220 18246
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"videoc.mll" 247 18220 18247 "videoc.mll" 247 18220 18258
+type(
+  string
+)
+"videoc.mll" 247 18220 18222 "videoc.mll" 247 18220 18258
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 248 18260 18262 "videoc.mll" 248 18260 18280
+type(
+  bool ref
+)
+ident(
+  int_ref withinTeXInclusion "videoc.mll" 51 552 556 "videoc.mll" 51 552 574
+)
+"videoc.mll" 248 18260 18281 "videoc.mll" 248 18260 18283
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"videoc.mll" 248 18260 18284 "videoc.mll" 248 18260 18288
+type(
+  bool
+)
+"videoc.mll" 248 18260 18262 "videoc.mll" 248 18260 18288
+type(
+  unit
+)
+"videoc.mll" 250 18323 18331 "videoc.mll" 250 18323 18340
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"videoc.mll" 250 18323 18341 "videoc.mll" 250 18323 18347
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.mll" 244 18108 18128 "videoc.mll" 244 18108 18134
+)
+"videoc.mll" 250 18323 18331 "videoc.mll" 250 18323 18347
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 251 18354 18360 "videoc.mll" 251 18354 18363
+type(
+  exn
+)
+ident(
+  def exc "videoc.mll" 251 18354 18367 "videoc.mll" 258 18613 18621
+)
+"videoc.mll" 252 18373 18381 "videoc.mll" 252 18373 18395
+type(
+  (Lexing.lexbuf -> unit) -> string -> unit
+)
+ident(
+  int_ref snippetRunHook "videoc.mll" 76 1332 1336 "videoc.mll" 76 1332 1350
+)
+"videoc.mll" 252 18373 18396 "videoc.mll" 252 18373 18405
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"videoc.mll" 252 18373 18406 "videoc.mll" 252 18373 18416
+type(
+  string
+)
+"videoc.mll" 252 18373 18381 "videoc.mll" 252 18373 18416
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 253 18418 18426 "videoc.mll" 253 18418 18446
+type(
+  string -> unit
+)
+ident(
+  ext_ref Scan.top_close_block
+)
+"videoc.mll" 253 18418 18447 "videoc.mll" 253 18418 18453
+type(
+  string
+)
+"videoc.mll" 253 18418 18426 "videoc.mll" 253 18418 18453
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 254 18455 18463 "videoc.mll" 254 18455 18477
+type(
+  (Lexing.lexbuf -> unit) -> string -> unit
+)
+ident(
+  int_ref snippetRunHook "videoc.mll" 76 1332 1336 "videoc.mll" 76 1332 1350
+)
+"videoc.mll" 254 18455 18478 "videoc.mll" 254 18455 18487
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"videoc.mll" 254 18455 18488 "videoc.mll" 254 18455 18497
+type(
+  string
+)
+"videoc.mll" 254 18455 18463 "videoc.mll" 254 18455 18497
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 256 18554 18566 "videoc.mll" 256 18554 18571
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"videoc.mll" 256 18554 18572 "videoc.mll" 256 18554 18575
+type(
+  exn
+)
+ident(
+  int_ref exc "videoc.mll" 251 18354 18360 "videoc.mll" 251 18354 18363
+)
+"videoc.mll" 256 18554 18566 "videoc.mll" 256 18554 18575
+type(
+  unit
+)
+"videoc.mll" 257 18581 18591 "videoc.mll" 257 18581 18606
+type(
+  exn
+)
+"videoc.mll" 257 18581 18610 "videoc.mll" 257 18581 18612
+type(
+  unit
+)
+"videoc.mll" 256 18554 18562 "videoc.mll" 257 18581 18612
+type(
+  unit
+)
+"videoc.mll" 254 18455 18463 "videoc.mll" 257 18581 18612
+type(
+  unit
+)
+"videoc.mll" 253 18418 18426 "videoc.mll" 257 18581 18612
+type(
+  unit
+)
+"videoc.mll" 251 18354 18367 "videoc.mll" 258 18613 18621
+type(
+  unit
+)
+"videoc.mll" 249 18290 18292 "videoc.mll" 259 18622 18629
+type(
+  unit
+)
+"videoc.mll" 248 18260 18262 "videoc.mll" 259 18622 18629
+type(
+  unit
+)
+"videoc.mll" 247 18220 18222 "videoc.mll" 259 18622 18629
+type(
+  unit
+)
+"videoc.mll" 245 18137 18139 "videoc.mll" 259 18622 18629
+type(
+  unit
+)
+"videoc.mll" 261 18633 18637 "videoc.mll" 261 18633 18652
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def do_texexclusion "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 261 18633 18653 "videoc.mll" 261 18633 18654
+type(
+  Lexing.lexbuf
+)
+"videoc.mll" 262 18657 18661 "videoc.mll" 262 18657 18662
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 262 18657 18662 "videoc.mll" 262 18657 18675
+type(
+  bool ref
+)
+ident(
+  int_ref withinSnippet "videoc.mll" 50 520 524 "videoc.mll" 50 520 537
+)
+"videoc.mll" 262 18657 18661 "videoc.mll" 262 18657 18675
+type(
+  bool
+)
+"videoc.mll" 263 18687 18693 "videoc.mll" 263 18687 18694
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 263 18687 18694 "videoc.mll" 263 18687 18701
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"videoc.mll" 263 18687 18693 "videoc.mll" 263 18687 18701
+type(
+  int
+)
+"videoc.mll" 263 18687 18702 "videoc.mll" 263 18687 18703
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"videoc.mll" 263 18687 18704 "videoc.mll" 263 18687 18705
+type(
+  int
+)
+"videoc.mll" 263 18687 18693 "videoc.mll" 263 18687 18705
+type(
+  bool
+)
+"videoc.mll" 263 18687 18711 "videoc.mll" 263 18687 18724
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"videoc.mll" 263 18687 18725 "videoc.mll" 263 18687 18755
+type(
+  string
+)
+"videoc.mll" 263 18687 18711 "videoc.mll" 263 18687 18755
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 263 18687 18690 "videoc.mll" 263 18687 18755
+type(
+  unit
+)
+"videoc.mll" 264 18758 18761 "videoc.mll" 264 18758 18779
+type(
+  bool ref
+)
+ident(
+  int_ref withinTeXInclusion "videoc.mll" 51 552 556 "videoc.mll" 51 552 574
+)
+"videoc.mll" 264 18758 18780 "videoc.mll" 264 18758 18782
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"videoc.mll" 264 18758 18783 "videoc.mll" 264 18758 18788
+type(
+  bool
+)
+"videoc.mll" 264 18758 18761 "videoc.mll" 264 18758 18788
+type(
+  unit
+)
+"videoc.mll" 265 18790 18793 "videoc.mll" 265 18790 18798
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"videoc.mll" 265 18790 18799 "videoc.mll" 265 18790 18814
+type(
+  exn
+)
+"videoc.mll" 265 18790 18793 "videoc.mll" 265 18790 18814
+type(
+  unit
+)
+"videoc.mll" 264 18758 18761 "videoc.mll" 265 18790 18814
+type(
+  unit
+)
+"videoc.mll" 262 18657 18681 "videoc.mll" 266 18815 18819
+type(
+  unit
+)
+"videoc.mll" 267 18825 18828 "videoc.mll" 267 18825 18833
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"videoc.mll" 267 18825 18850 "videoc.mll" 267 18825 18888
+type(
+  string
+)
+"videoc.mll" 267 18825 18834 "videoc.mll" 267 18825 18889
+type(
+  exn
+)
+"videoc.mll" 267 18825 18828 "videoc.mll" 267 18825 18889
+type(
+  unit
+)
+"videoc.mll" 262 18657 18658 "videoc.mll" 267 18825 18889
+type(
+  unit
+)
+"videoc.mll" 269 18891 18895 "videoc.mll" 269 18891 18915
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def do_backslash_newline "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 269 18891 18917 "videoc.mll" 269 18891 18918
+type(
+  Lexing.lexbuf
+)
+"videoc.mll" 270 18921 18923 "videoc.mll" 270 18921 18931
+type(
+  string -> unit
+)
+ident(
+  ext_ref Dest.put
+)
+"videoc.mll" 270 18921 18932 "videoc.mll" 270 18921 18938
+type(
+  string
+)
+"videoc.mll" 270 18921 18923 "videoc.mll" 270 18921 18938
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 271 18940 18942 "videoc.mll" 271 18940 18960
+type(
+  (Lexing.lexbuf -> unit) -> string -> unit
+)
+ident(
+  ext_ref Lexstate.scan_this
+)
+"videoc.mll" 271 18940 18961 "videoc.mll" 271 18940 18971
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref snippetenv "videoc.ml" 257 12076 12084 "videoc.ml" 257 12076 12094
+)
+"videoc.mll" 271 18940 18972 "videoc.mll" 271 18940 18976
+type(
+  string
+)
+"videoc.mll" 271 18940 18942 "videoc.mll" 271 18940 18976
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 270 18921 18923 "videoc.mll" 271 18940 18976
+type(
+  unit
+)
+"videoc.mll" 273 18978 18982 "videoc.mll" 273 18978 19001
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def do_four_backslashes "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 273 18978 19002 "videoc.mll" 273 18978 19003
+type(
+  Lexing.lexbuf
+)
+"videoc.mll" 273 18978 19006 "videoc.mll" 273 18978 19014
+type(
+  string -> unit
+)
+ident(
+  ext_ref Dest.put
+)
+"videoc.mll" 273 18978 19015 "videoc.mll" 273 18978 19019
+type(
+  string
+)
+"videoc.mll" 273 18978 19006 "videoc.mll" 273 18978 19019
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 279 19216 19220 "videoc.mll" 279 19216 19227
+type(
+  'e -> Lexing.lexbuf -> unit
+)
+ident(
+  def do_edef "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 279 19216 19228 "videoc.mll" 279 19216 19232
+type(
+  'e
+)
+ident(
+  def _lxm "videoc.mll" 279 19216 19233 "videoc.mll" 285 19443 19447
+)
+"videoc.mll" 279 19216 19233 "videoc.mll" 279 19216 19239
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.mll" 280 19242 19244 "videoc.mll" 285 19443 19447
+)
+"videoc.mll" 280 19242 19248 "videoc.mll" 280 19242 19252
+type(
+  string
+)
+ident(
+  def name "videoc.mll" 281 19281 19283 "videoc.mll" 285 19443 19447
+)
+"videoc.mll" 280 19242 19255 "videoc.mll" 280 19242 19270
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Scan.get_csname
+)
+"videoc.mll" 280 19242 19271 "videoc.mll" 280 19242 19277
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.mll" 279 19216 19233 "videoc.mll" 279 19216 19239
+)
+"videoc.mll" 280 19242 19255 "videoc.mll" 280 19242 19277
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 281 19281 19287 "videoc.mll" 281 19281 19291
+type(
+  string
+)
+ident(
+  def body "videoc.mll" 282 19314 19316 "videoc.mll" 285 19443 19447
+)
+"videoc.mll" 281 19281 19294 "videoc.mll" 281 19281 19303
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Subst.subst_arg
+)
+"videoc.mll" 281 19281 19304 "videoc.mll" 281 19281 19310
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.mll" 279 19216 19233 "videoc.mll" 279 19216 19239
+)
+"videoc.mll" 281 19281 19294 "videoc.mll" 281 19281 19310
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 282 19314 19319 "videoc.mll" 282 19314 19336
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Scan.echo_toimage
+)
+"videoc.mll" 282 19314 19337 "videoc.mll" 282 19314 19339
+type(
+  unit
+)
+"videoc.mll" 282 19314 19319 "videoc.mll" 282 19314 19339
+call(
+  stack
+)
+type(
+  bool
+)
+"videoc.mll" 283 19346 19350 "videoc.mll" 283 19346 19359
+type(
+  string -> unit
+)
+ident(
+  ext_ref Image.put
+)
+"videoc.mll" 283 19346 19361 "videoc.mll" 283 19346 19368
+type(
+  string
+)
+"videoc.mll" 283 19346 19368 "videoc.mll" 283 19346 19369
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 283 19346 19369 "videoc.mll" 283 19346 19373
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 280 19242 19248 "videoc.mll" 280 19242 19252
+)
+"videoc.mll" 283 19346 19373 "videoc.mll" 283 19346 19374
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 283 19346 19374 "videoc.mll" 283 19346 19377
+type(
+  string
+)
+"videoc.mll" 283 19346 19377 "videoc.mll" 283 19346 19378
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 283 19346 19378 "videoc.mll" 283 19346 19382
+type(
+  string
+)
+ident(
+  int_ref body "videoc.mll" 281 19281 19287 "videoc.mll" 281 19281 19291
+)
+"videoc.mll" 283 19346 19382 "videoc.mll" 283 19346 19383
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 283 19346 19383 "videoc.mll" 283 19346 19388
+type(
+  string
+)
+"videoc.mll" 283 19346 19378 "videoc.mll" 283 19346 19388
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 283 19346 19374 "videoc.mll" 283 19346 19388
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 283 19346 19369 "videoc.mll" 283 19346 19388
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 283 19346 19360 "videoc.mll" 283 19346 19389
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 283 19346 19350 "videoc.mll" 283 19346 19389
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 282 19314 19316 "videoc.mll" 283 19346 19389
+type(
+  unit
+)
+"videoc.mll" 284 19392 19394 "videoc.mll" 284 19392 19409
+type(
+  string -> Lexstate.pat -> Lexstate.action -> unit
+)
+ident(
+  ext_ref Latexmacros.def
+)
+"videoc.mll" 284 19392 19410 "videoc.mll" 284 19392 19414
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 280 19242 19248 "videoc.mll" 280 19242 19252
+)
+"videoc.mll" 284 19392 19415 "videoc.mll" 284 19392 19423
+type(
+  Lexstate.pat
+)
+ident(
+  ext_ref Lexstate.zero_pat
+)
+"videoc.mll" 284 19392 19425 "videoc.mll" 284 19392 19435
+type(
+  string -> Lexstate.action
+)
+ident(
+  int_ref caml_print "videoc.mll" 231 17708 17712 "videoc.mll" 231 17708 17722
+)
+"videoc.mll" 284 19392 19436 "videoc.mll" 284 19392 19440
+type(
+  string
+)
+ident(
+  int_ref body "videoc.mll" 281 19281 19287 "videoc.mll" 281 19281 19291
+)
+"videoc.mll" 284 19392 19424 "videoc.mll" 284 19392 19441
+call(
+  stack
+)
+type(
+  Lexstate.action
+)
+"videoc.mll" 284 19392 19394 "videoc.mll" 284 19392 19441
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 285 19443 19445 "videoc.mll" 285 19443 19447
+type(
+  unit
+)
+"videoc.mll" 284 19392 19394 "videoc.mll" 285 19443 19447
+type(
+  unit
+)
+"videoc.mll" 282 19314 19316 "videoc.mll" 285 19443 19447
+type(
+  unit
+)
+"videoc.mll" 281 19281 19283 "videoc.mll" 285 19443 19447
+type(
+  unit
+)
+"videoc.mll" 280 19242 19244 "videoc.mll" 285 19443 19447
+type(
+  unit
+)
+"videoc.mll" 293 19742 19746 "videoc.mll" 293 19742 19756
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  def do_muledef "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 293 19742 19757 "videoc.mll" 293 19742 19760
+type(
+  string
+)
+ident(
+  def lxm "videoc.mll" 293 19742 19761 "videoc.mll" 311 20596 20600
+)
+"videoc.mll" 293 19742 19761 "videoc.mll" 293 19742 19767
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.mll" 294 19770 19772 "videoc.mll" 311 20596 20600
+)
+"videoc.mll" 294 19770 19776 "videoc.mll" 294 19770 19781
+type(
+  string
+)
+ident(
+  def names "videoc.mll" 295 19804 19806 "videoc.mll" 311 20596 20600
+)
+"videoc.mll" 294 19770 19784 "videoc.mll" 294 19770 19793
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Subst.subst_arg
+)
+"videoc.mll" 294 19770 19794 "videoc.mll" 294 19770 19800
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.mll" 293 19742 19761 "videoc.mll" 293 19742 19767
+)
+"videoc.mll" 294 19770 19784 "videoc.mll" 294 19770 19800
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 295 19804 19810 "videoc.mll" 295 19804 19816
+type(
+  string
+)
+ident(
+  def bodies "videoc.mll" 296 19839 19841 "videoc.mll" 311 20596 20600
+)
+"videoc.mll" 295 19804 19819 "videoc.mll" 295 19804 19828
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Subst.subst_arg
+)
+"videoc.mll" 295 19804 19829 "videoc.mll" 295 19804 19835
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.mll" 293 19742 19761 "videoc.mll" 293 19742 19767
+)
+"videoc.mll" 295 19804 19819 "videoc.mll" 295 19804 19835
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 296 19839 19849 "videoc.mll" 296 19839 19853
+type(
+  int -> int -> unit
+)
+ident(
+  def bind "videoc.mll" 296 19839 19841 "videoc.mll" 311 20596 20600
+)
+"videoc.mll" 296 19839 19854 "videoc.mll" 296 19839 19859
+type(
+  int
+)
+ident(
+  def lasti "videoc.mll" 296 19839 19860 "videoc.mll" 309 20525 20580
+)
+"videoc.mll" 296 19839 19860 "videoc.mll" 296 19839 19865
+type(
+  int
+)
+ident(
+  def lastj "videoc.mll" 297 19868 19872 "videoc.mll" 309 20525 20580
+)
+"videoc.mll" 297 19868 19880 "videoc.mll" 297 19868 19881
+type(
+  int
+)
+ident(
+  def i "videoc.mll" 298 19921 19925 "videoc.mll" 304 20224 20286
+)
+"videoc.mll" 297 19868 19884 "videoc.mll" 297 19868 19901
+type(
+  string -> int -> char -> int
+)
+ident(
+  ext_ref String.index_from
+)
+"videoc.mll" 297 19868 19902 "videoc.mll" 297 19868 19907
+type(
+  string
+)
+ident(
+  int_ref names "videoc.mll" 294 19770 19776 "videoc.mll" 294 19770 19781
+)
+"videoc.mll" 297 19868 19908 "videoc.mll" 297 19868 19913
+type(
+  int
+)
+ident(
+  int_ref lasti "videoc.mll" 296 19839 19854 "videoc.mll" 296 19839 19859
+)
+"videoc.mll" 297 19868 19914 "videoc.mll" 297 19868 19917
+type(
+  char
+)
+"videoc.mll" 297 19868 19884 "videoc.mll" 297 19868 19917
+call(
+  stack
+)
+type(
+  int
+)
+"videoc.mll" 298 19921 19933 "videoc.mll" 298 19921 19934
+type(
+  int
+)
+ident(
+  def j "videoc.mll" 299 19975 19979 "videoc.mll" 303 20201 20223
+)
+"videoc.mll" 298 19921 19937 "videoc.mll" 298 19921 19954
+type(
+  string -> int -> char -> int
+)
+ident(
+  ext_ref String.index_from
+)
+"videoc.mll" 298 19921 19955 "videoc.mll" 298 19921 19961
+type(
+  string
+)
+ident(
+  int_ref bodies "videoc.mll" 295 19804 19810 "videoc.mll" 295 19804 19816
+)
+"videoc.mll" 298 19921 19962 "videoc.mll" 298 19921 19967
+type(
+  int
+)
+ident(
+  int_ref lastj "videoc.mll" 296 19839 19860 "videoc.mll" 296 19839 19865
+)
+"videoc.mll" 298 19921 19968 "videoc.mll" 298 19921 19971
+type(
+  char
+)
+"videoc.mll" 298 19921 19937 "videoc.mll" 298 19921 19971
+call(
+  stack
+)
+type(
+  int
+)
+"videoc.mll" 299 19975 19983 "videoc.mll" 299 19975 19987
+type(
+  string
+)
+ident(
+  def name "videoc.mll" 300 20028 20032 "videoc.mll" 303 20201 20223
+)
+"videoc.mll" 299 19975 19990 "videoc.mll" 299 19975 20000
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"videoc.mll" 299 19975 20001 "videoc.mll" 299 19975 20006
+type(
+  string
+)
+ident(
+  int_ref names "videoc.mll" 294 19770 19776 "videoc.mll" 294 19770 19781
+)
+"videoc.mll" 299 19975 20007 "videoc.mll" 299 19975 20012
+type(
+  int
+)
+ident(
+  int_ref lasti "videoc.mll" 296 19839 19854 "videoc.mll" 296 19839 19859
+)
+"videoc.mll" 299 19975 20014 "videoc.mll" 299 19975 20015
+type(
+  int
+)
+ident(
+  int_ref i "videoc.mll" 297 19868 19880 "videoc.mll" 297 19868 19881
+)
+"videoc.mll" 299 19975 20016 "videoc.mll" 299 19975 20017
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"videoc.mll" 299 19975 20018 "videoc.mll" 299 19975 20023
+type(
+  int
+)
+ident(
+  int_ref lasti "videoc.mll" 296 19839 19854 "videoc.mll" 296 19839 19859
+)
+"videoc.mll" 299 19975 20013 "videoc.mll" 299 19975 20024
+type(
+  int
+)
+"videoc.mll" 299 19975 19990 "videoc.mll" 299 19975 20024
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 300 20028 20036 "videoc.mll" 300 20028 20040
+type(
+  string
+)
+ident(
+  def body "videoc.mll" 301 20082 20086 "videoc.mll" 303 20201 20223
+)
+"videoc.mll" 300 20028 20043 "videoc.mll" 300 20028 20053
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"videoc.mll" 300 20028 20054 "videoc.mll" 300 20028 20060
+type(
+  string
+)
+ident(
+  int_ref bodies "videoc.mll" 295 19804 19810 "videoc.mll" 295 19804 19816
+)
+"videoc.mll" 300 20028 20061 "videoc.mll" 300 20028 20066
+type(
+  int
+)
+ident(
+  int_ref lastj "videoc.mll" 296 19839 19860 "videoc.mll" 296 19839 19865
+)
+"videoc.mll" 300 20028 20068 "videoc.mll" 300 20028 20069
+type(
+  int
+)
+ident(
+  int_ref j "videoc.mll" 298 19921 19933 "videoc.mll" 298 19921 19934
+)
+"videoc.mll" 300 20028 20070 "videoc.mll" 300 20028 20071
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"videoc.mll" 300 20028 20072 "videoc.mll" 300 20028 20077
+type(
+  int
+)
+ident(
+  int_ref lastj "videoc.mll" 296 19839 19860 "videoc.mll" 296 19839 19865
+)
+"videoc.mll" 300 20028 20067 "videoc.mll" 300 20028 20078
+type(
+  int
+)
+"videoc.mll" 300 20028 20043 "videoc.mll" 300 20028 20078
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 301 20082 20089 "videoc.mll" 301 20082 20090
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 301 20082 20090 "videoc.mll" 301 20082 20097
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"videoc.mll" 301 20082 20089 "videoc.mll" 301 20082 20097
+type(
+  int
+)
+"videoc.mll" 301 20082 20098 "videoc.mll" 301 20082 20099
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"videoc.mll" 301 20082 20100 "videoc.mll" 301 20082 20101
+type(
+  int
+)
+"videoc.mll" 301 20082 20089 "videoc.mll" 301 20082 20101
+type(
+  bool
+)
+"videoc.mll" 301 20082 20107 "videoc.mll" 301 20082 20120
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"videoc.mll" 301 20082 20122 "videoc.mll" 301 20082 20125
+type(
+  string
+)
+ident(
+  int_ref lxm "videoc.mll" 293 19742 19757 "videoc.mll" 293 19742 19760
+)
+"videoc.mll" 301 20082 20126 "videoc.mll" 301 20082 20127
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 301 20082 20128 "videoc.mll" 301 20082 20132
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 299 19975 19983 "videoc.mll" 299 19975 19987
+)
+"videoc.mll" 301 20082 20133 "videoc.mll" 301 20082 20134
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 301 20082 20135 "videoc.mll" 301 20082 20138
+type(
+  string
+)
+"videoc.mll" 301 20082 20139 "videoc.mll" 301 20082 20140
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 301 20082 20141 "videoc.mll" 301 20082 20145
+type(
+  string
+)
+ident(
+  int_ref body "videoc.mll" 300 20028 20036 "videoc.mll" 300 20028 20040
+)
+"videoc.mll" 301 20082 20135 "videoc.mll" 301 20082 20145
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 301 20082 20128 "videoc.mll" 301 20082 20145
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 301 20082 20121 "videoc.mll" 301 20082 20146
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 301 20082 20107 "videoc.mll" 301 20082 20146
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 301 20082 20086 "videoc.mll" 301 20082 20146
+type(
+  unit
+)
+"videoc.mll" 302 20148 20152 "videoc.mll" 302 20148 20167
+type(
+  string -> Lexstate.pat -> Lexstate.action -> unit
+)
+ident(
+  ext_ref Latexmacros.def
+)
+"videoc.mll" 302 20148 20168 "videoc.mll" 302 20148 20172
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 299 19975 19983 "videoc.mll" 299 19975 19987
+)
+"videoc.mll" 302 20148 20173 "videoc.mll" 302 20148 20181
+type(
+  Lexstate.pat
+)
+ident(
+  ext_ref Lexstate.zero_pat
+)
+"videoc.mll" 302 20148 20183 "videoc.mll" 302 20148 20193
+type(
+  string -> Lexstate.action
+)
+ident(
+  int_ref caml_print "videoc.mll" 231 17708 17712 "videoc.mll" 231 17708 17722
+)
+"videoc.mll" 302 20148 20194 "videoc.mll" 302 20148 20198
+type(
+  string
+)
+ident(
+  int_ref body "videoc.mll" 300 20028 20036 "videoc.mll" 300 20028 20040
+)
+"videoc.mll" 302 20148 20182 "videoc.mll" 302 20148 20199
+call(
+  stack
+)
+type(
+  Lexstate.action
+)
+"videoc.mll" 302 20148 20152 "videoc.mll" 302 20148 20199
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 303 20201 20207 "videoc.mll" 303 20201 20211
+type(
+  int -> int -> unit
+)
+ident(
+  int_ref bind "videoc.mll" 296 19839 19849 "videoc.mll" 296 19839 19853
+)
+"videoc.mll" 303 20201 20213 "videoc.mll" 303 20201 20214
+type(
+  int
+)
+ident(
+  int_ref i "videoc.mll" 297 19868 19880 "videoc.mll" 297 19868 19881
+)
+"videoc.mll" 303 20201 20214 "videoc.mll" 303 20201 20215
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"videoc.mll" 303 20201 20215 "videoc.mll" 303 20201 20216
+type(
+  int
+)
+"videoc.mll" 303 20201 20212 "videoc.mll" 303 20201 20217
+type(
+  int
+)
+"videoc.mll" 303 20201 20219 "videoc.mll" 303 20201 20220
+type(
+  int
+)
+ident(
+  int_ref j "videoc.mll" 298 19921 19933 "videoc.mll" 298 19921 19934
+)
+"videoc.mll" 303 20201 20220 "videoc.mll" 303 20201 20221
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"videoc.mll" 303 20201 20221 "videoc.mll" 303 20201 20222
+type(
+  int
+)
+"videoc.mll" 303 20201 20218 "videoc.mll" 303 20201 20223
+type(
+  int
+)
+"videoc.mll" 303 20201 20207 "videoc.mll" 303 20201 20223
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 302 20148 20152 "videoc.mll" 303 20201 20223
+type(
+  unit
+)
+"videoc.mll" 301 20082 20086 "videoc.mll" 303 20201 20223
+type(
+  unit
+)
+"videoc.mll" 300 20028 20032 "videoc.mll" 303 20201 20223
+type(
+  unit
+)
+"videoc.mll" 299 19975 19979 "videoc.mll" 303 20201 20223
+type(
+  unit
+)
+"videoc.mll" 298 19921 19929 "videoc.mll" 303 20201 20223
+type(
+  unit
+)
+"videoc.mll" 304 20224 20233 "videoc.mll" 304 20224 20242
+type(
+  exn
+)
+"videoc.mll" 304 20224 20246 "videoc.mll" 304 20224 20254
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"videoc.mll" 304 20224 20255 "videoc.mll" 304 20224 20286
+type(
+  string
+)
+"videoc.mll" 304 20224 20246 "videoc.mll" 304 20224 20286
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 298 19921 19925 "videoc.mll" 304 20224 20286
+type(
+  unit
+)
+"videoc.mll" 297 19868 19876 "videoc.mll" 304 20224 20286
+type(
+  unit
+)
+"videoc.mll" 305 20287 20296 "videoc.mll" 305 20287 20305
+type(
+  exn
+)
+"videoc.mll" 306 20309 20319 "videoc.mll" 306 20309 20323
+type(
+  string
+)
+ident(
+  def name "videoc.mll" 307 20382 20388 "videoc.mll" 309 20525 20580
+)
+"videoc.mll" 306 20309 20326 "videoc.mll" 306 20309 20336
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"videoc.mll" 306 20309 20337 "videoc.mll" 306 20309 20342
+type(
+  string
+)
+ident(
+  int_ref names "videoc.mll" 294 19770 19776 "videoc.mll" 294 19770 19781
+)
+"videoc.mll" 306 20309 20343 "videoc.mll" 306 20309 20348
+type(
+  int
+)
+ident(
+  int_ref lasti "videoc.mll" 296 19839 19854 "videoc.mll" 296 19839 19859
+)
+"videoc.mll" 306 20309 20350 "videoc.mll" 306 20309 20363
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"videoc.mll" 306 20309 20364 "videoc.mll" 306 20309 20369
+type(
+  string
+)
+ident(
+  int_ref names "videoc.mll" 294 19770 19776 "videoc.mll" 294 19770 19781
+)
+"videoc.mll" 306 20309 20350 "videoc.mll" 306 20309 20369
+type(
+  int
+)
+"videoc.mll" 306 20309 20370 "videoc.mll" 306 20309 20371
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"videoc.mll" 306 20309 20372 "videoc.mll" 306 20309 20377
+type(
+  int
+)
+ident(
+  int_ref lasti "videoc.mll" 296 19839 19854 "videoc.mll" 296 19839 19859
+)
+"videoc.mll" 306 20309 20349 "videoc.mll" 306 20309 20378
+type(
+  int
+)
+"videoc.mll" 306 20309 20326 "videoc.mll" 306 20309 20378
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 307 20382 20392 "videoc.mll" 307 20382 20396
+type(
+  string
+)
+ident(
+  def body "videoc.mll" 308 20457 20463 "videoc.mll" 309 20525 20580
+)
+"videoc.mll" 307 20382 20399 "videoc.mll" 307 20382 20409
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"videoc.mll" 307 20382 20410 "videoc.mll" 307 20382 20416
+type(
+  string
+)
+ident(
+  int_ref bodies "videoc.mll" 295 19804 19810 "videoc.mll" 295 19804 19816
+)
+"videoc.mll" 307 20382 20417 "videoc.mll" 307 20382 20422
+type(
+  int
+)
+ident(
+  int_ref lastj "videoc.mll" 296 19839 19860 "videoc.mll" 296 19839 19865
+)
+"videoc.mll" 307 20382 20424 "videoc.mll" 307 20382 20437
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"videoc.mll" 307 20382 20438 "videoc.mll" 307 20382 20444
+type(
+  string
+)
+ident(
+  int_ref bodies "videoc.mll" 295 19804 19810 "videoc.mll" 295 19804 19816
+)
+"videoc.mll" 307 20382 20424 "videoc.mll" 307 20382 20444
+type(
+  int
+)
+"videoc.mll" 307 20382 20445 "videoc.mll" 307 20382 20446
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"videoc.mll" 307 20382 20447 "videoc.mll" 307 20382 20452
+type(
+  int
+)
+ident(
+  int_ref lastj "videoc.mll" 296 19839 19860 "videoc.mll" 296 19839 19865
+)
+"videoc.mll" 307 20382 20423 "videoc.mll" 307 20382 20453
+type(
+  int
+)
+"videoc.mll" 307 20382 20399 "videoc.mll" 307 20382 20453
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 308 20457 20466 "videoc.mll" 308 20457 20467
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 308 20457 20467 "videoc.mll" 308 20457 20474
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"videoc.mll" 308 20457 20466 "videoc.mll" 308 20457 20474
+type(
+  int
+)
+"videoc.mll" 308 20457 20475 "videoc.mll" 308 20457 20476
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"videoc.mll" 308 20457 20477 "videoc.mll" 308 20457 20478
+type(
+  int
+)
+"videoc.mll" 308 20457 20466 "videoc.mll" 308 20457 20478
+type(
+  bool
+)
+"videoc.mll" 308 20457 20484 "videoc.mll" 308 20457 20497
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"videoc.mll" 308 20457 20499 "videoc.mll" 308 20457 20502
+type(
+  string
+)
+ident(
+  int_ref lxm "videoc.mll" 293 19742 19757 "videoc.mll" 293 19742 19760
+)
+"videoc.mll" 308 20457 20503 "videoc.mll" 308 20457 20504
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 308 20457 20505 "videoc.mll" 308 20457 20509
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 306 20309 20319 "videoc.mll" 306 20309 20323
+)
+"videoc.mll" 308 20457 20510 "videoc.mll" 308 20457 20511
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 308 20457 20512 "videoc.mll" 308 20457 20515
+type(
+  string
+)
+"videoc.mll" 308 20457 20516 "videoc.mll" 308 20457 20517
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 308 20457 20518 "videoc.mll" 308 20457 20522
+type(
+  string
+)
+ident(
+  int_ref body "videoc.mll" 307 20382 20392 "videoc.mll" 307 20382 20396
+)
+"videoc.mll" 308 20457 20512 "videoc.mll" 308 20457 20522
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 308 20457 20505 "videoc.mll" 308 20457 20522
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 308 20457 20498 "videoc.mll" 308 20457 20523
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 308 20457 20484 "videoc.mll" 308 20457 20523
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 308 20457 20463 "videoc.mll" 308 20457 20523
+type(
+  unit
+)
+"videoc.mll" 309 20525 20531 "videoc.mll" 309 20525 20546
+type(
+  string -> Lexstate.pat -> Lexstate.action -> unit
+)
+ident(
+  ext_ref Latexmacros.def
+)
+"videoc.mll" 309 20525 20547 "videoc.mll" 309 20525 20551
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 306 20309 20319 "videoc.mll" 306 20309 20323
+)
+"videoc.mll" 309 20525 20552 "videoc.mll" 309 20525 20560
+type(
+  Lexstate.pat
+)
+ident(
+  ext_ref Lexstate.zero_pat
+)
+"videoc.mll" 309 20525 20562 "videoc.mll" 309 20525 20572
+type(
+  string -> Lexstate.action
+)
+ident(
+  int_ref caml_print "videoc.mll" 231 17708 17712 "videoc.mll" 231 17708 17722
+)
+"videoc.mll" 309 20525 20573 "videoc.mll" 309 20525 20577
+type(
+  string
+)
+ident(
+  int_ref body "videoc.mll" 307 20382 20392 "videoc.mll" 307 20382 20396
+)
+"videoc.mll" 309 20525 20561 "videoc.mll" 309 20525 20578
+call(
+  stack
+)
+type(
+  Lexstate.action
+)
+"videoc.mll" 309 20525 20531 "videoc.mll" 309 20525 20580
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 308 20457 20463 "videoc.mll" 309 20525 20580
+type(
+  unit
+)
+"videoc.mll" 307 20382 20388 "videoc.mll" 309 20525 20580
+type(
+  unit
+)
+"videoc.mll" 306 20309 20315 "videoc.mll" 309 20525 20580
+type(
+  unit
+)
+"videoc.mll" 297 19868 19872 "videoc.mll" 309 20525 20580
+type(
+  unit
+)
+"videoc.mll" 310 20581 20586 "videoc.mll" 310 20581 20590
+type(
+  int -> int -> unit
+)
+ident(
+  int_ref bind "videoc.mll" 296 19839 19849 "videoc.mll" 296 19839 19853
+)
+"videoc.mll" 310 20581 20591 "videoc.mll" 310 20581 20592
+type(
+  int
+)
+"videoc.mll" 310 20581 20593 "videoc.mll" 310 20581 20594
+type(
+  int
+)
+"videoc.mll" 310 20581 20586 "videoc.mll" 310 20581 20594
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 311 20596 20598 "videoc.mll" 311 20596 20600
+type(
+  unit
+)
+"videoc.mll" 310 20581 20586 "videoc.mll" 311 20596 20600
+type(
+  unit
+)
+"videoc.mll" 296 19839 19841 "videoc.mll" 311 20596 20600
+type(
+  unit
+)
+"videoc.mll" 295 19804 19806 "videoc.mll" 311 20596 20600
+type(
+  unit
+)
+"videoc.mll" 294 19770 19772 "videoc.mll" 311 20596 20600
+type(
+  unit
+)
+"videoc.mll" 316 20666 20670 "videoc.mll" 316 20666 20680
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def do_snippet "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 316 20666 20681 "videoc.mll" 316 20666 20687
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.mll" 317 20690 20692 "videoc.mll" 353 22062 22067
+)
+"videoc.mll" 317 20690 20695 "videoc.mll" 317 20690 20696
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 317 20690 20696 "videoc.mll" 317 20690 20709
+type(
+  bool ref
+)
+ident(
+  int_ref withinSnippet "videoc.mll" 50 520 524 "videoc.mll" 50 520 537
+)
+"videoc.mll" 317 20690 20695 "videoc.mll" 317 20690 20709
+type(
+  bool
+)
+"videoc.mll" 318 20710 20717 "videoc.mll" 318 20710 20722
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"videoc.mll" 318 20710 20739 "videoc.mll" 318 20710 20767
+type(
+  string
+)
+"videoc.mll" 318 20710 20723 "videoc.mll" 318 20710 20768
+type(
+  exn
+)
+"videoc.mll" 318 20710 20717 "videoc.mll" 318 20710 20768
+type(
+  unit
+)
+"videoc.mll" 321 20848 20856 "videoc.mll" 321 20848 20878
+type(
+  string
+)
+ident(
+  def snippetDefaultLanguage "videoc.mll" 322 20913 20917 "videoc.mll" 352 22051 22061
+)
+"videoc.mll" 321 20848 20883 "videoc.mll" 321 20848 20909
+type(
+  string
+)
+"videoc.mll" 322 20913 20921 "videoc.mll" 322 20913 20929
+type(
+  string
+)
+ident(
+  def language "videoc.mll" 323 20978 20982 "videoc.mll" 352 22051 22061
+)
+"videoc.mll" 322 20913 20932 "videoc.mll" 322 20913 20944
+type(
+  string -> Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Scan.get_prim_opt
+)
+"videoc.mll" 322 20913 20945 "videoc.mll" 322 20913 20967
+type(
+  string
+)
+ident(
+  int_ref snippetDefaultLanguage "videoc.mll" 321 20848 20856 "videoc.mll" 321 20848 20878
+)
+"videoc.mll" 322 20913 20968 "videoc.mll" 322 20913 20974
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.mll" 316 20666 20681 "videoc.mll" 316 20666 20687
+)
+"videoc.mll" 322 20913 20932 "videoc.mll" 322 20913 20974
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 323 20978 20986 "videoc.mll" 323 20978 20994
+type(
+  string
+)
+ident(
+  def language "videoc.mll" 325 21095 21099 "videoc.mll" 352 22051 22061
+)
+"videoc.mll" 323 20978 21000 "videoc.mll" 323 20978 21008
+type(
+  string
+)
+ident(
+  int_ref language "videoc.mll" 322 20913 20921 "videoc.mll" 322 20913 20929
+)
+"videoc.mll" 323 20978 21009 "videoc.mll" 323 20978 21010
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"videoc.mll" 323 20978 21011 "videoc.mll" 323 20978 21013
+type(
+  string
+)
+"videoc.mll" 323 20978 21000 "videoc.mll" 323 20978 21013
+type(
+  bool
+)
+"videoc.mll" 323 20978 21019 "videoc.mll" 323 20978 21041
+type(
+  string
+)
+ident(
+  int_ref snippetDefaultLanguage "videoc.mll" 321 20848 20856 "videoc.mll" 321 20848 20878
+)
+"videoc.mll" 324 21042 21083 "videoc.mll" 324 21042 21091
+type(
+  string
+)
+ident(
+  int_ref language "videoc.mll" 322 20913 20921 "videoc.mll" 322 20913 20929
+)
+"videoc.mll" 323 20978 20997 "videoc.mll" 324 21042 21091
+type(
+  string
+)
+"videoc.mll" 325 21095 21099 "videoc.mll" 325 21095 21128
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref skip_blanks_till_eol_included "videoc.ml" 403 16445 16449 "videoc.ml" 403 16445 16478
+)
+"videoc.mll" 325 21095 21129 "videoc.mll" 325 21095 21135
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.mll" 316 20666 20681 "videoc.mll" 316 20666 20687
+)
+"videoc.mll" 325 21095 21099 "videoc.mll" 325 21095 21135
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 326 21137 21141 "videoc.mll" 326 21137 21149
+type(
+  string -> unit
+)
+ident(
+  ext_ref Dest.put
+)
+"videoc.mll" 326 21137 21150 "videoc.mll" 326 21137 21158
+type(
+  string
+)
+"videoc.mll" 326 21137 21141 "videoc.mll" 326 21137 21158
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 327 21160 21164 "videoc.mll" 327 21160 21183
+type(
+  string -> string -> unit
+)
+ident(
+  ext_ref Scan.top_open_block
+)
+"videoc.mll" 327 21160 21184 "videoc.mll" 327 21160 21189
+type(
+  string
+)
+"videoc.mll" 327 21160 21191 "videoc.mll" 327 21160 21204
+type(
+  string
+)
+"videoc.mll" 327 21160 21205 "videoc.mll" 327 21160 21206
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 327 21160 21207 "videoc.mll" 327 21160 21215
+type(
+  string
+)
+ident(
+  int_ref language "videoc.mll" 323 20978 20986 "videoc.mll" 323 20978 20994
+)
+"videoc.mll" 327 21160 21216 "videoc.mll" 327 21160 21217
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 327 21160 21218 "videoc.mll" 327 21160 21222
+type(
+  string
+)
+"videoc.mll" 327 21160 21207 "videoc.mll" 327 21160 21222
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 327 21160 21190 "videoc.mll" 327 21160 21223
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 327 21160 21164 "videoc.mll" 327 21160 21223
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 328 21225 21229 "videoc.mll" 328 21225 21237
+type(
+  string -> unit
+)
+ident(
+  ext_ref Dest.put
+)
+"videoc.mll" 328 21225 21238 "videoc.mll" 328 21225 21242
+type(
+  string
+)
+"videoc.mll" 328 21225 21229 "videoc.mll" 328 21225 21242
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 329 21244 21248 "videoc.mll" 329 21244 21260
+type(
+  string -> unit
+)
+ident(
+  ext_ref Scan.new_env
+)
+"videoc.mll" 329 21244 21261 "videoc.mll" 329 21244 21270
+type(
+  string
+)
+"videoc.mll" 329 21244 21248 "videoc.mll" 329 21244 21270
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 331 21316 21320 "videoc.mll" 331 21316 21331
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  int_ref snippet_def "videoc.mll" 232 17758 17762 "videoc.mll" 232 17758 17773
+)
+"videoc.mll" 331 21316 21332 "videoc.mll" 331 21316 21346
+type(
+  string
+)
+"videoc.mll" 331 21316 21348 "videoc.mll" 331 21316 21361
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_endsnippet "videoc.mll" 234 17827 17835 "videoc.mll" 234 17827 17848
+)
+"videoc.mll" 331 21316 21320 "videoc.mll" 331 21316 21361
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 332 21363 21367 "videoc.mll" 332 21363 21378
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  int_ref snippet_def "videoc.mll" 232 17758 17762 "videoc.mll" 232 17758 17773
+)
+"videoc.mll" 332 21363 21379 "videoc.mll" 332 21363 21384
+type(
+  string
+)
+"videoc.mll" 332 21363 21385 "videoc.mll" 332 21363 21400
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_texinclusion "videoc.mll" 244 18108 18112 "videoc.mll" 244 18108 18127
+)
+"videoc.mll" 332 21363 21367 "videoc.mll" 332 21363 21400
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 333 21403 21407 "videoc.mll" 333 21403 21418
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  int_ref snippet_def "videoc.mll" 232 17758 17762 "videoc.mll" 232 17758 17773
+)
+"videoc.mll" 333 21403 21419 "videoc.mll" 333 21403 21424
+type(
+  string
+)
+"videoc.mll" 333 21403 21425 "videoc.mll" 333 21403 21440
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_texexclusion "videoc.mll" 261 18633 18637 "videoc.mll" 261 18633 18652
+)
+"videoc.mll" 333 21403 21407 "videoc.mll" 333 21403 21440
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 334 21443 21447 "videoc.mll" 334 21443 21458
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  int_ref snippet_def "videoc.mll" 232 17758 17762 "videoc.mll" 232 17758 17773
+)
+"videoc.mll" 334 21443 21459 "videoc.mll" 334 21443 21465
+type(
+  string
+)
+"videoc.mll" 334 21443 21466 "videoc.mll" 334 21443 21485
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_four_backslashes "videoc.mll" 273 18978 18982 "videoc.mll" 273 18978 19001
+)
+"videoc.mll" 334 21443 21447 "videoc.mll" 334 21443 21485
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 335 21488 21492 "videoc.mll" 335 21488 21503
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  int_ref snippet_def "videoc.mll" 232 17758 17762 "videoc.mll" 232 17758 17773
+)
+"videoc.mll" 335 21488 21504 "videoc.mll" 335 21488 21510
+type(
+  string
+)
+"videoc.mll" 335 21488 21511 "videoc.mll" 335 21488 21531
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_backslash_newline "videoc.mll" 269 18891 18895 "videoc.mll" 269 18891 18915
+)
+"videoc.mll" 335 21488 21492 "videoc.mll" 335 21488 21531
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 337 21535 21539 "videoc.mll" 337 21535 21554
+type(
+  string ref
+)
+ident(
+  int_ref snippetLanguage "videoc.mll" 56 654 658 "videoc.mll" 56 654 673
+)
+"videoc.mll" 337 21535 21555 "videoc.mll" 337 21535 21557
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"videoc.mll" 337 21535 21558 "videoc.mll" 337 21535 21566
+type(
+  string
+)
+ident(
+  int_ref language "videoc.mll" 323 20978 20986 "videoc.mll" 323 20978 20994
+)
+"videoc.mll" 337 21535 21539 "videoc.mll" 337 21535 21566
+type(
+  unit
+)
+"videoc.mll" 338 21568 21572 "videoc.mll" 338 21568 21589
+type(
+  bool ref
+)
+ident(
+  int_ref enableLispComment "videoc.mll" 57 685 689 "videoc.mll" 57 685 706
+)
+"videoc.mll" 338 21568 21590 "videoc.mll" 338 21568 21592
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"videoc.mll" 338 21568 21593 "videoc.mll" 338 21568 21598
+type(
+  bool
+)
+"videoc.mll" 338 21568 21572 "videoc.mll" 338 21568 21598
+type(
+  unit
+)
+"videoc.mll" 339 21600 21604 "videoc.mll" 339 21600 21626
+type(
+  bool ref
+)
+ident(
+  int_ref enableSchemeCharacters "videoc.mll" 58 721 725 "videoc.mll" 58 721 747
+)
+"videoc.mll" 339 21600 21627 "videoc.mll" 339 21600 21629
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"videoc.mll" 339 21600 21630 "videoc.mll" 339 21600 21635
+type(
+  bool
+)
+"videoc.mll" 339 21600 21604 "videoc.mll" 339 21600 21635
+type(
+  unit
+)
+"videoc.mll" 340 21637 21641 "videoc.mll" 340 21637 21654
+type(
+  bool ref
+)
+ident(
+  int_ref withinSnippet "videoc.mll" 50 520 524 "videoc.mll" 50 520 537
+)
+"videoc.mll" 340 21637 21655 "videoc.mll" 340 21637 21657
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"videoc.mll" 340 21637 21658 "videoc.mll" 340 21637 21662
+type(
+  bool
+)
+"videoc.mll" 340 21637 21641 "videoc.mll" 340 21637 21662
+type(
+  unit
+)
+"videoc.mll" 341 21664 21668 "videoc.mll" 341 21664 21682
+type(
+  (Lexing.lexbuf -> unit) -> string -> unit
+)
+ident(
+  int_ref snippetRunHook "videoc.mll" 76 1332 1336 "videoc.mll" 76 1332 1350
+)
+"videoc.mll" 341 21664 21683 "videoc.mll" 341 21664 21692
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"videoc.mll" 341 21664 21693 "videoc.mll" 341 21664 21701
+type(
+  string
+)
+"videoc.mll" 341 21664 21668 "videoc.mll" 341 21664 21701
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 342 21703 21711 "videoc.mll" 342 21703 21721
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref snippetenv "videoc.ml" 257 12076 12084 "videoc.ml" 257 12076 12094
+)
+"videoc.mll" 342 21703 21722 "videoc.mll" 342 21703 21728
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.mll" 316 20666 20681 "videoc.mll" 316 20666 20687
+)
+"videoc.mll" 342 21703 21711 "videoc.mll" 342 21703 21728
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 343 21735 21741 "videoc.mll" 343 21735 21744
+type(
+  exn
+)
+ident(
+  def exc "videoc.mll" 343 21735 21748 "videoc.mll" 352 22051 22061
+)
+"videoc.mll" 344 21754 21762 "videoc.mll" 344 21754 21776
+type(
+  (Lexing.lexbuf -> unit) -> string -> unit
+)
+ident(
+  int_ref snippetRunHook "videoc.mll" 76 1332 1336 "videoc.mll" 76 1332 1350
+)
+"videoc.mll" 344 21754 21777 "videoc.mll" 344 21754 21786
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"videoc.mll" 344 21754 21787 "videoc.mll" 344 21754 21798
+type(
+  string
+)
+"videoc.mll" 344 21754 21762 "videoc.mll" 344 21754 21798
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 345 21800 21808 "videoc.mll" 345 21800 21822
+type(
+  (Lexing.lexbuf -> unit) -> string -> unit
+)
+ident(
+  int_ref snippetRunHook "videoc.mll" 76 1332 1336 "videoc.mll" 76 1332 1350
+)
+"videoc.mll" 345 21800 21823 "videoc.mll" 345 21800 21832
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"videoc.mll" 345 21800 21833 "videoc.mll" 345 21800 21840
+type(
+  string
+)
+"videoc.mll" 345 21800 21808 "videoc.mll" 345 21800 21840
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 346 21842 21850 "videoc.mll" 346 21842 21863
+type(
+  bool ref
+)
+ident(
+  int_ref withinSnippet "videoc.mll" 50 520 524 "videoc.mll" 50 520 537
+)
+"videoc.mll" 346 21842 21864 "videoc.mll" 346 21842 21866
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"videoc.mll" 346 21842 21867 "videoc.mll" 346 21842 21872
+type(
+  bool
+)
+"videoc.mll" 346 21842 21850 "videoc.mll" 346 21842 21872
+type(
+  unit
+)
+"videoc.mll" 347 21874 21882 "videoc.mll" 347 21874 21896
+type(
+  string -> unit
+)
+ident(
+  ext_ref Scan.close_env
+)
+"videoc.mll" 347 21874 21897 "videoc.mll" 347 21874 21906
+type(
+  string
+)
+"videoc.mll" 347 21874 21882 "videoc.mll" 347 21874 21906
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 348 21908 21916 "videoc.mll" 348 21908 21936
+type(
+  string -> unit
+)
+ident(
+  ext_ref Scan.top_close_block
+)
+"videoc.mll" 348 21908 21937 "videoc.mll" 348 21908 21942
+type(
+  string
+)
+"videoc.mll" 348 21908 21916 "videoc.mll" 348 21908 21942
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 350 21997 22009 "videoc.mll" 350 21997 22014
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"videoc.mll" 350 21997 22015 "videoc.mll" 350 21997 22018
+type(
+  exn
+)
+ident(
+  int_ref exc "videoc.mll" 343 21735 21741 "videoc.mll" 343 21735 21744
+)
+"videoc.mll" 350 21997 22009 "videoc.mll" 350 21997 22018
+type(
+  unit
+)
+"videoc.mll" 351 22024 22034 "videoc.mll" 351 22024 22044
+type(
+  exn
+)
+"videoc.mll" 351 22024 22048 "videoc.mll" 351 22024 22050
+type(
+  unit
+)
+"videoc.mll" 350 21997 22005 "videoc.mll" 351 22024 22050
+type(
+  unit
+)
+"videoc.mll" 348 21908 21916 "videoc.mll" 351 22024 22050
+type(
+  unit
+)
+"videoc.mll" 347 21874 21882 "videoc.mll" 351 22024 22050
+type(
+  unit
+)
+"videoc.mll" 346 21842 21850 "videoc.mll" 351 22024 22050
+type(
+  unit
+)
+"videoc.mll" 345 21800 21808 "videoc.mll" 351 22024 22050
+type(
+  unit
+)
+"videoc.mll" 343 21735 21748 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 342 21703 21707 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 341 21664 21668 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 340 21637 21641 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 339 21600 21604 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 338 21568 21572 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 337 21535 21539 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 335 21488 21492 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 334 21443 21447 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 333 21403 21407 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 332 21363 21367 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 331 21316 21320 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 329 21244 21248 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 328 21225 21229 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 327 21160 21164 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 326 21137 21141 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 325 21095 21099 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 323 20978 20982 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 322 20913 20917 "videoc.mll" 352 22051 22061
+type(
+  unit
+)
+"videoc.mll" 319 20769 20776 "videoc.mll" 353 22062 22067
+type(
+  unit
+)
+"videoc.mll" 317 20690 20692 "videoc.mll" 353 22062 22067
+type(
+  unit
+)
+"videoc.mll" 355 22069 22073 "videoc.mll" 355 22069 22100
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def do_enable_backslashed_chars "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 355 22069 22101 "videoc.mll" 355 22069 22107
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.mll" 356 22110 22112 "videoc.mll" 364 22429 22433
+)
+"videoc.mll" 356 22110 22116 "videoc.mll" 356 22110 22124
+type(
+  string -> unit
+)
+ident(
+  def def_echo "videoc.mll" 357 22168 22170 "videoc.mll" 364 22429 22433
+)
+"videoc.mll" 356 22110 22125 "videoc.mll" 356 22110 22126
+type(
+  string
+)
+ident(
+  def s "videoc.mll" 356 22110 22129 "videoc.mll" 356 22110 22164
+)
+"videoc.mll" 356 22110 22129 "videoc.mll" 356 22110 22140
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  int_ref snippet_def "videoc.mll" 232 17758 17762 "videoc.mll" 232 17758 17773
+)
+"videoc.mll" 356 22110 22141 "videoc.mll" 356 22110 22142
+type(
+  string
+)
+ident(
+  int_ref s "videoc.mll" 356 22110 22125 "videoc.mll" 356 22110 22126
+)
+"videoc.mll" 356 22110 22148 "videoc.mll" 356 22110 22149
+type(
+  Lexing.lexbuf
+)
+"videoc.mll" 356 22110 22153 "videoc.mll" 356 22110 22161
+type(
+  string -> unit
+)
+ident(
+  ext_ref Dest.put
+)
+"videoc.mll" 356 22110 22162 "videoc.mll" 356 22110 22163
+type(
+  string
+)
+ident(
+  int_ref s "videoc.mll" 356 22110 22125 "videoc.mll" 356 22110 22126
+)
+"videoc.mll" 356 22110 22153 "videoc.mll" 356 22110 22163
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 356 22110 22143 "videoc.mll" 356 22110 22164
+type(
+  Lexing.lexbuf -> unit
+)
+"videoc.mll" 356 22110 22129 "videoc.mll" 356 22110 22164
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 357 22168 22174 "videoc.mll" 357 22168 22179
+type(
+  string
+)
+ident(
+  def chars "videoc.mll" 357 22168 22202 "videoc.mll" 364 22429 22433
+)
+"videoc.mll" 357 22168 22182 "videoc.mll" 357 22168 22191
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Subst.subst_arg
+)
+"videoc.mll" 357 22168 22192 "videoc.mll" 357 22168 22198
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.mll" 355 22069 22101 "videoc.mll" 355 22069 22107
+)
+"videoc.mll" 357 22168 22182 "videoc.mll" 357 22168 22198
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 358 22208 22213 "videoc.mll" 358 22208 22214
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 358 22208 22214 "videoc.mll" 358 22208 22221
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"videoc.mll" 358 22208 22213 "videoc.mll" 358 22208 22221
+type(
+  int
+)
+"videoc.mll" 358 22208 22222 "videoc.mll" 358 22208 22223
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"videoc.mll" 358 22208 22224 "videoc.mll" 358 22208 22225
+type(
+  int
+)
+"videoc.mll" 358 22208 22213 "videoc.mll" 358 22208 22225
+type(
+  bool
+)
+"videoc.mll" 358 22208 22231 "videoc.mll" 358 22208 22244
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"videoc.mll" 358 22208 22246 "videoc.mll" 358 22208 22272
+type(
+  string
+)
+"videoc.mll" 358 22208 22272 "videoc.mll" 358 22208 22273
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 358 22208 22273 "videoc.mll" 358 22208 22278
+type(
+  string
+)
+ident(
+  int_ref chars "videoc.mll" 357 22168 22174 "videoc.mll" 357 22168 22179
+)
+"videoc.mll" 358 22208 22245 "videoc.mll" 358 22208 22279
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 358 22208 22231 "videoc.mll" 358 22208 22279
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 358 22208 22210 "videoc.mll" 358 22208 22279
+type(
+  unit
+)
+"videoc.mll" 359 22281 22289 "videoc.mll" 359 22281 22290
+type(
+  int
+)
+"videoc.mll" 359 22281 22295 "videoc.mll" 359 22281 22308
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"videoc.mll" 359 22281 22309 "videoc.mll" 359 22281 22314
+type(
+  string
+)
+ident(
+  int_ref chars "videoc.mll" 357 22168 22174 "videoc.mll" 357 22168 22179
+)
+"videoc.mll" 359 22281 22295 "videoc.mll" 359 22281 22314
+type(
+  int
+)
+"videoc.mll" 359 22281 22315 "videoc.mll" 359 22281 22316
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"videoc.mll" 359 22281 22317 "videoc.mll" 359 22281 22318
+type(
+  int
+)
+"videoc.mll" 359 22281 22294 "videoc.mll" 359 22281 22319
+type(
+  int
+)
+"videoc.mll" 360 22323 22331 "videoc.mll" 360 22323 22346
+type(
+  string
+)
+ident(
+  def charcommandname "videoc.mll" 361 22383 22387 "videoc.mll" 361 22383 22412
+)
+"videoc.mll" 360 22323 22349 "videoc.mll" 360 22323 22353
+type(
+  string
+)
+"videoc.mll" 360 22323 22354 "videoc.mll" 360 22323 22355
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 360 22323 22357 "videoc.mll" 360 22323 22367
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"videoc.mll" 360 22323 22368 "videoc.mll" 360 22323 22373
+type(
+  string
+)
+ident(
+  int_ref chars "videoc.mll" 357 22168 22174 "videoc.mll" 357 22168 22179
+)
+"videoc.mll" 360 22323 22374 "videoc.mll" 360 22323 22375
+type(
+  int
+)
+ident(
+  int_ref i "videoc.mll" 359 22281 22283 "videoc.mll" 362 22413 22420
+)
+"videoc.mll" 360 22323 22376 "videoc.mll" 360 22323 22377
+type(
+  int
+)
+"videoc.mll" 360 22323 22356 "videoc.mll" 360 22323 22378
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 360 22323 22349 "videoc.mll" 360 22323 22378
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 361 22383 22387 "videoc.mll" 361 22383 22395
+type(
+  string -> unit
+)
+ident(
+  int_ref def_echo "videoc.mll" 356 22110 22116 "videoc.mll" 356 22110 22124
+)
+"videoc.mll" 361 22383 22396 "videoc.mll" 361 22383 22411
+type(
+  string
+)
+ident(
+  int_ref charcommandname "videoc.mll" 360 22323 22331 "videoc.mll" 360 22323 22346
+)
+"videoc.mll" 361 22383 22387 "videoc.mll" 361 22383 22412
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 360 22323 22327 "videoc.mll" 361 22383 22412
+type(
+  unit
+)
+"videoc.mll" 359 22281 22283 "videoc.mll" 362 22413 22420
+type(
+  unit
+)
+"videoc.mll" 357 22168 22202 "videoc.mll" 363 22422 22427
+type(
+  unit
+)
+"videoc.mll" 364 22429 22431 "videoc.mll" 364 22429 22433
+type(
+  unit
+)
+"videoc.mll" 357 22168 22202 "videoc.mll" 364 22429 22433
+type(
+  unit
+)
+"videoc.mll" 357 22168 22170 "videoc.mll" 364 22429 22433
+type(
+  unit
+)
+"videoc.mll" 356 22110 22112 "videoc.mll" 364 22429 22433
+type(
+  unit
+)
+"videoc.mll" 366 22435 22439 "videoc.mll" 366 22435 22459
+type(
+  'f -> unit
+)
+ident(
+  def do_enableLispComment "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 366 22435 22460 "videoc.mll" 366 22435 22467
+type(
+  'f
+)
+ident(
+  def _lexbuf "videoc.mll" 367 22470 22472 "videoc.mll" 368 22499 22503
+)
+"videoc.mll" 367 22470 22472 "videoc.mll" 367 22470 22489
+type(
+  bool ref
+)
+ident(
+  int_ref enableLispComment "videoc.mll" 57 685 689 "videoc.mll" 57 685 706
+)
+"videoc.mll" 367 22470 22490 "videoc.mll" 367 22470 22492
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"videoc.mll" 367 22470 22493 "videoc.mll" 367 22470 22497
+type(
+  bool
+)
+"videoc.mll" 367 22470 22472 "videoc.mll" 367 22470 22497
+type(
+  unit
+)
+"videoc.mll" 368 22499 22501 "videoc.mll" 368 22499 22503
+type(
+  unit
+)
+"videoc.mll" 367 22470 22472 "videoc.mll" 368 22499 22503
+type(
+  unit
+)
+"videoc.mll" 370 22505 22509 "videoc.mll" 370 22505 22530
+type(
+  'g -> unit
+)
+ident(
+  def do_disableLispComment "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 370 22505 22531 "videoc.mll" 370 22505 22538
+type(
+  'g
+)
+ident(
+  def _lexbuf "videoc.mll" 371 22541 22543 "videoc.mll" 372 22571 22575
+)
+"videoc.mll" 371 22541 22543 "videoc.mll" 371 22541 22560
+type(
+  bool ref
+)
+ident(
+  int_ref enableLispComment "videoc.mll" 57 685 689 "videoc.mll" 57 685 706
+)
+"videoc.mll" 371 22541 22561 "videoc.mll" 371 22541 22563
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"videoc.mll" 371 22541 22564 "videoc.mll" 371 22541 22569
+type(
+  bool
+)
+"videoc.mll" 371 22541 22543 "videoc.mll" 371 22541 22569
+type(
+  unit
+)
+"videoc.mll" 372 22571 22573 "videoc.mll" 372 22571 22575
+type(
+  unit
+)
+"videoc.mll" 371 22541 22543 "videoc.mll" 372 22571 22575
+type(
+  unit
+)
+"videoc.mll" 374 22577 22581 "videoc.mll" 374 22577 22606
+type(
+  'h -> unit
+)
+ident(
+  def do_enableSchemeCharacters "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 374 22577 22607 "videoc.mll" 374 22577 22614
+type(
+  'h
+)
+ident(
+  def _lexbuf "videoc.mll" 375 22617 22619 "videoc.mll" 376 22651 22655
+)
+"videoc.mll" 375 22617 22619 "videoc.mll" 375 22617 22641
+type(
+  bool ref
+)
+ident(
+  int_ref enableSchemeCharacters "videoc.mll" 58 721 725 "videoc.mll" 58 721 747
+)
+"videoc.mll" 375 22617 22642 "videoc.mll" 375 22617 22644
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"videoc.mll" 375 22617 22645 "videoc.mll" 375 22617 22649
+type(
+  bool
+)
+"videoc.mll" 375 22617 22619 "videoc.mll" 375 22617 22649
+type(
+  unit
+)
+"videoc.mll" 376 22651 22653 "videoc.mll" 376 22651 22655
+type(
+  unit
+)
+"videoc.mll" 375 22617 22619 "videoc.mll" 376 22651 22655
+type(
+  unit
+)
+"videoc.mll" 378 22657 22661 "videoc.mll" 378 22657 22687
+type(
+  'i -> unit
+)
+ident(
+  def do_disableSchemeCharacters "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 378 22657 22688 "videoc.mll" 378 22657 22695
+type(
+  'i
+)
+ident(
+  def _lexbuf "videoc.mll" 379 22698 22700 "videoc.mll" 380 22733 22737
+)
+"videoc.mll" 379 22698 22700 "videoc.mll" 379 22698 22722
+type(
+  bool ref
+)
+ident(
+  int_ref enableSchemeCharacters "videoc.mll" 58 721 725 "videoc.mll" 58 721 747
+)
+"videoc.mll" 379 22698 22723 "videoc.mll" 379 22698 22725
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"videoc.mll" 379 22698 22726 "videoc.mll" 379 22698 22731
+type(
+  bool
+)
+"videoc.mll" 379 22698 22700 "videoc.mll" 379 22698 22731
+type(
+  unit
+)
+"videoc.mll" 380 22733 22735 "videoc.mll" 380 22733 22737
+type(
+  unit
+)
+"videoc.mll" 379 22698 22700 "videoc.mll" 380 22733 22737
+type(
+  unit
+)
+"videoc.mll" 382 22739 22743 "videoc.mll" 382 22739 22762
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def do_snippet_run_hook "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 382 22739 22763 "videoc.mll" 382 22739 22769
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.mll" 383 22772 22774 "videoc.mll" 386 22853 22858
+)
+"videoc.mll" 383 22772 22778 "videoc.mll" 383 22772 22782
+type(
+  string
+)
+ident(
+  def name "videoc.mll" 383 22772 22805 "videoc.mll" 386 22853 22858
+)
+"videoc.mll" 383 22772 22785 "videoc.mll" 383 22772 22794
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Subst.subst_arg
+)
+"videoc.mll" 383 22772 22795 "videoc.mll" 383 22772 22801
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.mll" 382 22739 22763 "videoc.mll" 382 22739 22769
+)
+"videoc.mll" 383 22772 22785 "videoc.mll" 383 22772 22801
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 384 22811 22815 "videoc.mll" 384 22811 22829
+type(
+  (Lexing.lexbuf -> unit) -> string -> unit
+)
+ident(
+  int_ref snippetRunHook "videoc.mll" 76 1332 1336 "videoc.mll" 76 1332 1350
+)
+"videoc.mll" 384 22811 22830 "videoc.mll" 384 22811 22839
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"videoc.mll" 384 22811 22840 "videoc.mll" 384 22811 22844
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 383 22772 22778 "videoc.mll" 383 22772 22782
+)
+"videoc.mll" 384 22811 22815 "videoc.mll" 384 22811 22844
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 385 22846 22850 "videoc.mll" 385 22846 22852
+type(
+  unit
+)
+"videoc.mll" 383 22772 22805 "videoc.mll" 386 22853 22858
+type(
+  unit
+)
+"videoc.mll" 383 22772 22774 "videoc.mll" 386 22853 22858
+type(
+  unit
+)
+"videoc.mll" 388 22860 22864 "videoc.mll" 388 22860 22880
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def do_snip_run_hook "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 388 22860 22881 "videoc.mll" 388 22860 22887
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.mll" 389 22890 22892 "videoc.mll" 392 22968 22973
+)
+"videoc.mll" 389 22890 22896 "videoc.mll" 389 22890 22900
+type(
+  string
+)
+ident(
+  def name "videoc.mll" 389 22890 22923 "videoc.mll" 392 22968 22973
+)
+"videoc.mll" 389 22890 22903 "videoc.mll" 389 22890 22912
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Subst.subst_arg
+)
+"videoc.mll" 389 22890 22913 "videoc.mll" 389 22890 22919
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.mll" 388 22860 22881 "videoc.mll" 388 22860 22887
+)
+"videoc.mll" 389 22890 22903 "videoc.mll" 389 22890 22919
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 390 22929 22933 "videoc.mll" 390 22929 22944
+type(
+  (Lexing.lexbuf -> unit) -> string -> unit
+)
+ident(
+  int_ref snipRunHook "videoc.mll" 79 1404 1408 "videoc.mll" 79 1404 1419
+)
+"videoc.mll" 390 22929 22945 "videoc.mll" 390 22929 22954
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Scan.main
+)
+"videoc.mll" 390 22929 22955 "videoc.mll" 390 22929 22959
+type(
+  string
+)
+ident(
+  int_ref name "videoc.mll" 389 22890 22896 "videoc.mll" 389 22890 22900
+)
+"videoc.mll" 390 22929 22933 "videoc.mll" 390 22929 22959
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 391 22961 22965 "videoc.mll" 391 22961 22967
+type(
+  unit
+)
+"videoc.mll" 389 22890 22923 "videoc.mll" 392 22968 22973
+type(
+  unit
+)
+"videoc.mll" 389 22890 22892 "videoc.mll" 392 22968 22973
+type(
+  unit
+)
+"videoc.mll" 398 23161 23165 "videoc.mll" 398 23161 23177
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def do_vicanchor "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 398 23161 23178 "videoc.mll" 398 23161 23184
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.mll" 398 23161 23187 "videoc.mll" 419 24110 24113
+)
+"videoc.mll" 399 23193 23204 "videoc.mll" 399 23193 23209
+type(
+  string list
+)
+ident(
+  def style "videoc.mll" 400 23244 23246 "videoc.mll" 418 24056 24109
+)
+"videoc.mll" 399 23193 23199 "videoc.mll" 399 23193 23210
+type(
+  string list Lexstate.arg
+)
+"videoc.mll" 399 23193 23213 "videoc.mll" 399 23193 23230
+type(
+  string -> Lexing.lexbuf -> string list Lexstate.arg
+)
+ident(
+  ext_ref Lexstate.save_opt
+)
+"videoc.mll" 399 23193 23231 "videoc.mll" 399 23193 23233
+type(
+  string
+)
+"videoc.mll" 399 23193 23234 "videoc.mll" 399 23193 23240
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.mll" 398 23161 23178 "videoc.mll" 398 23161 23184
+)
+"videoc.mll" 399 23193 23213 "videoc.mll" 399 23193 23240
+call(
+  stack
+)
+type(
+  string list Lexstate.arg
+)
+"videoc.mll" 400 23244 23255 "videoc.mll" 400 23244 23258
+type(
+  string list
+)
+ident(
+  def nfn "videoc.mll" 401 23314 23316 "videoc.mll" 418 24056 24109
+)
+"videoc.mll" 400 23244 23250 "videoc.mll" 400 23244 23259
+type(
+  string list Lexstate.arg
+)
+"videoc.mll" 400 23244 23264 "videoc.mll" 400 23244 23281
+type(
+  string -> Lexing.lexbuf -> string list Lexstate.arg
+)
+ident(
+  ext_ref Lexstate.save_opt
+)
+"videoc.mll" 400 23244 23282 "videoc.mll" 400 23244 23303
+type(
+  string
+)
+"videoc.mll" 400 23244 23304 "videoc.mll" 400 23244 23310
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.mll" 398 23161 23178 "videoc.mll" 398 23161 23184
+)
+"videoc.mll" 400 23244 23264 "videoc.mll" 400 23244 23310
+call(
+  stack
+)
+type(
+  string list Lexstate.arg
+)
+"videoc.mll" 401 23314 23320 "videoc.mll" 401 23314 23326
+type(
+  string list
+)
+ident(
+  def fields "videoc.mll" 403 23394 23396 "videoc.mll" 418 24056 24109
+)
+"videoc.mll" 402 23329 23333 "videoc.mll" 402 23329 23355
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  int_ref comma_separated_values "videoc.ml" 424 17037 17041 "videoc.ml" 424 17037 17063
+)
+"videoc.mll" 402 23329 23357 "videoc.mll" 402 23329 23375
+type(
+  string list -> Lexing.lexbuf
+)
+ident(
+  ext_ref MyLexing.from_list
+)
+"videoc.mll" 402 23329 23377 "videoc.mll" 402 23329 23380
+type(
+  string list
+)
+ident(
+  int_ref nfn "videoc.mll" 400 23244 23255 "videoc.mll" 400 23244 23258
+)
+"videoc.mll" 402 23329 23381 "videoc.mll" 402 23329 23382
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"videoc.mll" 402 23329 23384 "videoc.mll" 402 23329 23387
+type(
+  string
+)
+"videoc.mll" 402 23329 23383 "videoc.mll" 402 23329 23388
+type(
+  string list
+)
+"videoc.mll" 402 23329 23376 "videoc.mll" 402 23329 23389
+call(
+  stack
+)
+type(
+  string list
+)
+"videoc.mll" 402 23329 23356 "videoc.mll" 402 23329 23390
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"videoc.mll" 402 23329 23333 "videoc.mll" 402 23329 23390
+call(
+  stack
+)
+type(
+  string list
+)
+"videoc.mll" 403 23394 23402 "videoc.mll" 403 23394 23408
+type(
+  string list
+)
+ident(
+  int_ref fields "videoc.mll" 401 23314 23320 "videoc.mll" 401 23314 23326
+)
+"videoc.mll" 404 23414 23419 "videoc.mll" 404 23414 23425
+type(
+  string
+)
+ident(
+  def number "videoc.mll" 405 23449 23455 "videoc.mll" 417 24046 24055
+)
+"videoc.mll" 404 23414 23426 "videoc.mll" 404 23414 23434
+type(
+  string
+)
+ident(
+  def filename "videoc.mll" 405 23449 23455 "videoc.mll" 417 24046 24055
+)
+"videoc.mll" 404 23414 23435 "videoc.mll" 404 23414 23443
+type(
+  string
+)
+ident(
+  def notename "videoc.mll" 405 23449 23455 "videoc.mll" 417 24046 24055
+)
+"videoc.mll" 404 23414 23418 "videoc.mll" 404 23414 23444
+type(
+  string list
+)
+"videoc.mll" 406 23461 23473 "videoc.mll" 406 23461 23485
+type(
+  int
+)
+ident(
+  def uniqueNumber "videoc.mll" 409 23645 23653 "videoc.mll" 416 24035 24045
+)
+"videoc.mll" 407 23541 23551 "videoc.mll" 407 23541 23577
+type(
+  unit -> int
+)
+ident(
+  int_ref increment_internal_counter "videoc.mll" 104 2113 2117 "videoc.mll" 104 2113 2143
+)
+"videoc.mll" 407 23541 23577 "videoc.mll" 407 23541 23579
+type(
+  unit
+)
+"videoc.mll" 407 23541 23551 "videoc.mll" 407 23541 23579
+call(
+  stack
+)
+type(
+  int
+)
+"videoc.mll" 408 23580 23592 "videoc.mll" 408 23580 23598
+type(
+  string
+)
+ident(
+  def hintId "videoc.mll" 409 23645 23653 "videoc.mll" 416 24035 24045
+)
+"videoc.mll" 408 23580 23601 "videoc.mll" 408 23580 23616
+type(
+  string -> string -> string -> string
+)
+ident(
+  int_ref compute_hint_id "videoc.mll" 87 1660 1664 "videoc.mll" 87 1660 1679
+)
+"videoc.mll" 408 23580 23617 "videoc.mll" 408 23580 23623
+type(
+  string
+)
+ident(
+  int_ref number "videoc.mll" 404 23414 23419 "videoc.mll" 404 23414 23425
+)
+"videoc.mll" 408 23580 23624 "videoc.mll" 408 23580 23632
+type(
+  string
+)
+ident(
+  int_ref filename "videoc.mll" 404 23414 23426 "videoc.mll" 404 23414 23434
+)
+"videoc.mll" 408 23580 23633 "videoc.mll" 408 23580 23641
+type(
+  string
+)
+ident(
+  int_ref notename "videoc.mll" 404 23414 23435 "videoc.mll" 404 23414 23443
+)
+"videoc.mll" 408 23580 23601 "videoc.mll" 408 23580 23641
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 409 23645 23657 "videoc.mll" 409 23645 23662
+type(
+  string
+)
+ident(
+  def style "videoc.mll" 411 23730 23738 "videoc.mll" 416 24035 24045
+)
+"videoc.mll" 409 23645 23665 "videoc.mll" 409 23645 23678
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"videoc.mll" 409 23645 23679 "videoc.mll" 409 23645 23681
+type(
+  string
+)
+"videoc.mll" 409 23645 23682 "videoc.mll" 409 23645 23687
+type(
+  string list
+)
+ident(
+  int_ref style "videoc.mll" 399 23193 23204 "videoc.mll" 399 23193 23209
+)
+"videoc.mll" 409 23645 23665 "videoc.mll" 409 23645 23687
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 410 23688 23700 "videoc.mll" 410 23688 23703
+type(
+  string
+)
+ident(
+  def nfn "videoc.mll" 411 23730 23738 "videoc.mll" 416 24035 24045
+)
+"videoc.mll" 410 23688 23706 "videoc.mll" 410 23688 23719
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"videoc.mll" 410 23688 23720 "videoc.mll" 410 23688 23722
+type(
+  string
+)
+"videoc.mll" 410 23688 23723 "videoc.mll" 410 23688 23726
+type(
+  string list
+)
+ident(
+  int_ref nfn "videoc.mll" 400 23244 23255 "videoc.mll" 400 23244 23258
+)
+"videoc.mll" 410 23688 23706 "videoc.mll" 410 23688 23726
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 411 23730 23738 "videoc.mll" 411 23730 23750
+type(
+  string -> unit
+)
+ident(
+  ext_ref Dest.put_tag
+)
+"videoc.mll" 411 23730 23752 "videoc.mll" 411 23730 23763
+type(
+  string
+)
+"videoc.mll" 411 23730 23764 "videoc.mll" 411 23730 23765
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 411 23730 23766 "videoc.mll" 411 23730 23779
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"videoc.mll" 411 23730 23779 "videoc.mll" 411 23730 23793
+type(
+  int
+)
+ident(
+  int_ref uniqueNumber "videoc.mll" 406 23461 23473 "videoc.mll" 406 23461 23485
+)
+"videoc.mll" 411 23730 23766 "videoc.mll" 411 23730 23793
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 412 23794 23816 "videoc.mll" 412 23794 23817
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 412 23794 23818 "videoc.mll" 412 23794 23822
+type(
+  string
+)
+"videoc.mll" 412 23794 23823 "videoc.mll" 412 23794 23824
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 412 23794 23825 "videoc.mll" 412 23794 23831
+type(
+  string
+)
+ident(
+  int_ref hintId "videoc.mll" 408 23580 23592 "videoc.mll" 408 23580 23598
+)
+"videoc.mll" 413 23833 23855 "videoc.mll" 413 23833 23856
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 413 23833 23857 "videoc.mll" 413 23833 23899
+type(
+  string
+)
+"videoc.mll" 414 23900 23922 "videoc.mll" 414 23900 23923
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 414 23900 23924 "videoc.mll" 414 23900 23930
+type(
+  string
+)
+ident(
+  int_ref hintId "videoc.mll" 408 23580 23592 "videoc.mll" 408 23580 23598
+)
+"videoc.mll" 414 23900 23931 "videoc.mll" 414 23900 23932
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 414 23900 23933 "videoc.mll" 414 23900 23973
+type(
+  string
+)
+"videoc.mll" 415 23975 23997 "videoc.mll" 415 23975 23998
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 415 23975 23999 "videoc.mll" 415 23975 24004
+type(
+  string
+)
+ident(
+  int_ref style "videoc.mll" 409 23645 23657 "videoc.mll" 409 23645 23662
+)
+"videoc.mll" 415 23975 24005 "videoc.mll" 415 23975 24006
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 415 23975 24007 "videoc.mll" 415 23975 24017
+type(
+  string
+)
+"videoc.mll" 415 23975 24018 "videoc.mll" 415 23975 24019
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 415 23975 24020 "videoc.mll" 415 23975 24023
+type(
+  string
+)
+ident(
+  int_ref nfn "videoc.mll" 410 23688 23700 "videoc.mll" 410 23688 23703
+)
+"videoc.mll" 415 23975 24024 "videoc.mll" 415 23975 24025
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 415 23975 24026 "videoc.mll" 415 23975 24032
+type(
+  string
+)
+"videoc.mll" 415 23975 24020 "videoc.mll" 415 23975 24032
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 415 23975 24007 "videoc.mll" 415 23975 24032
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 415 23975 23999 "videoc.mll" 415 23975 24032
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 414 23900 23933 "videoc.mll" 415 23975 24032
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 414 23900 23924 "videoc.mll" 415 23975 24032
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 413 23833 23857 "videoc.mll" 415 23975 24032
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 412 23794 23825 "videoc.mll" 415 23975 24032
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 412 23794 23818 "videoc.mll" 415 23975 24032
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 411 23730 23766 "videoc.mll" 415 23975 24032
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 411 23730 23751 "videoc.mll" 415 23975 24033
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 411 23730 23738 "videoc.mll" 415 23975 24033
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 416 24035 24043 "videoc.mll" 416 24035 24045
+type(
+  unit
+)
+"videoc.mll" 411 23730 23738 "videoc.mll" 416 24035 24045
+type(
+  unit
+)
+"videoc.mll" 409 23645 23653 "videoc.mll" 416 24035 24045
+type(
+  unit
+)
+"videoc.mll" 405 23449 23455 "videoc.mll" 417 24046 24055
+type(
+  unit
+)
+"videoc.mll" 418 24056 24060 "videoc.mll" 418 24056 24061
+type(
+  string list
+)
+"videoc.mll" 418 24056 24065 "videoc.mll" 418 24056 24073
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"videoc.mll" 418 24056 24074 "videoc.mll" 418 24056 24109
+type(
+  string
+)
+"videoc.mll" 418 24056 24065 "videoc.mll" 418 24056 24109
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 403 23394 23396 "videoc.mll" 418 24056 24109
+type(
+  unit
+)
+"videoc.mll" 401 23314 23316 "videoc.mll" 418 24056 24109
+type(
+  unit
+)
+"videoc.mll" 400 23244 23246 "videoc.mll" 418 24056 24109
+type(
+  unit
+)
+"videoc.mll" 398 23161 23187 "videoc.mll" 419 24110 24113
+type(
+  unit
+)
+"videoc.mll" 421 24115 24119 "videoc.mll" 421 24115 24134
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def do_vicendanchor "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 421 24115 24135 "videoc.mll" 421 24115 24141
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.mll" 421 24115 24144 "videoc.mll" 433 24564 24567
+)
+"videoc.mll" 422 24150 24161 "videoc.mll" 422 24150 24164
+type(
+  string list
+)
+ident(
+  def nfn "videoc.mll" 423 24218 24220 "videoc.mll" 432 24510 24563
+)
+"videoc.mll" 422 24150 24156 "videoc.mll" 422 24150 24165
+type(
+  string list Lexstate.arg
+)
+"videoc.mll" 422 24150 24168 "videoc.mll" 422 24150 24185
+type(
+  string -> Lexing.lexbuf -> string list Lexstate.arg
+)
+ident(
+  ext_ref Lexstate.save_opt
+)
+"videoc.mll" 422 24150 24186 "videoc.mll" 422 24150 24207
+type(
+  string
+)
+"videoc.mll" 422 24150 24208 "videoc.mll" 422 24150 24214
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.mll" 421 24115 24135 "videoc.mll" 421 24115 24141
+)
+"videoc.mll" 422 24150 24168 "videoc.mll" 422 24150 24214
+call(
+  stack
+)
+type(
+  string list Lexstate.arg
+)
+"videoc.mll" 423 24218 24224 "videoc.mll" 423 24218 24227
+type(
+  string
+)
+ident(
+  def nfn "videoc.mll" 424 24254 24256 "videoc.mll" 432 24510 24563
+)
+"videoc.mll" 423 24218 24230 "videoc.mll" 423 24218 24243
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"videoc.mll" 423 24218 24244 "videoc.mll" 423 24218 24246
+type(
+  string
+)
+"videoc.mll" 423 24218 24247 "videoc.mll" 423 24218 24250
+type(
+  string list
+)
+ident(
+  int_ref nfn "videoc.mll" 422 24150 24161 "videoc.mll" 422 24150 24164
+)
+"videoc.mll" 423 24218 24230 "videoc.mll" 423 24218 24250
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 424 24254 24259 "videoc.mll" 424 24254 24260
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"videoc.mll" 424 24254 24260 "videoc.mll" 424 24254 24267
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"videoc.mll" 424 24254 24259 "videoc.mll" 424 24254 24267
+type(
+  int
+)
+"videoc.mll" 424 24254 24268 "videoc.mll" 424 24254 24269
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"videoc.mll" 424 24254 24270 "videoc.mll" 424 24254 24271
+type(
+  int
+)
+"videoc.mll" 424 24254 24259 "videoc.mll" 424 24254 24271
+type(
+  bool
+)
+"videoc.mll" 424 24254 24277 "videoc.mll" 424 24254 24290
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"videoc.mll" 424 24254 24292 "videoc.mll" 424 24254 24308
+type(
+  string
+)
+"videoc.mll" 424 24254 24308 "videoc.mll" 424 24254 24309
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 424 24254 24309 "videoc.mll" 424 24254 24312
+type(
+  string
+)
+ident(
+  int_ref nfn "videoc.mll" 423 24218 24224 "videoc.mll" 423 24218 24227
+)
+"videoc.mll" 424 24254 24291 "videoc.mll" 424 24254 24313
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 424 24254 24277 "videoc.mll" 424 24254 24313
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 424 24254 24256 "videoc.mll" 424 24254 24313
+type(
+  unit
+)
+"videoc.mll" 425 24315 24321 "videoc.mll" 425 24315 24327
+type(
+  string list
+)
+ident(
+  def fields "videoc.mll" 427 24396 24398 "videoc.mll" 432 24510 24563
+)
+"videoc.mll" 426 24331 24335 "videoc.mll" 426 24331 24357
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  int_ref comma_separated_values "videoc.ml" 424 17037 17041 "videoc.ml" 424 17037 17063
+)
+"videoc.mll" 426 24331 24359 "videoc.mll" 426 24331 24379
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref MyLexing.from_string
+)
+"videoc.mll" 426 24331 24381 "videoc.mll" 426 24331 24384
+type(
+  string
+)
+ident(
+  int_ref nfn "videoc.mll" 423 24218 24224 "videoc.mll" 423 24218 24227
+)
+"videoc.mll" 426 24331 24385 "videoc.mll" 426 24331 24386
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"videoc.mll" 426 24331 24387 "videoc.mll" 426 24331 24390
+type(
+  string
+)
+"videoc.mll" 426 24331 24380 "videoc.mll" 426 24331 24391
+call(
+  stack
+)
+type(
+  string
+)
+"videoc.mll" 426 24331 24358 "videoc.mll" 426 24331 24392
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"videoc.mll" 426 24331 24335 "videoc.mll" 426 24331 24392
+call(
+  stack
+)
+type(
+  string list
+)
+"videoc.mll" 427 24396 24404 "videoc.mll" 427 24396 24410
+type(
+  string list
+)
+ident(
+  int_ref fields "videoc.mll" 425 24315 24321 "videoc.mll" 425 24315 24327
+)
+"videoc.mll" 428 24416 24421 "videoc.mll" 428 24416 24428
+type(
+  string
+)
+ident(
+  def _number "videoc.mll" 428 24416 24453 "videoc.mll" 431 24504 24509
+)
+"videoc.mll" 428 24416 24429 "videoc.mll" 428 24416 24438
+type(
+  string
+)
+ident(
+  def _filename "videoc.mll" 428 24416 24453 "videoc.mll" 431 24504 24509
+)
+"videoc.mll" 428 24416 24439 "videoc.mll" 428 24416 24448
+type(
+  string
+)
+ident(
+  def _notename "videoc.mll" 428 24416 24453 "videoc.mll" 431 24504 24509
+)
+"videoc.mll" 428 24416 24420 "videoc.mll" 428 24416 24449
+type(
+  string list
+)
+"videoc.mll" 429 24459 24465 "videoc.mll" 429 24459 24477
+type(
+  string -> unit
+)
+ident(
+  ext_ref Dest.put_tag
+)
+"videoc.mll" 429 24459 24478 "videoc.mll" 429 24459 24493
+type(
+  string
+)
+"videoc.mll" 429 24459 24465 "videoc.mll" 429 24459 24493
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 430 24495 24501 "videoc.mll" 430 24495 24503
+type(
+  unit
+)
+"videoc.mll" 428 24416 24453 "videoc.mll" 431 24504 24509
+type(
+  unit
+)
+"videoc.mll" 432 24510 24514 "videoc.mll" 432 24510 24515
+type(
+  string list
+)
+"videoc.mll" 432 24510 24519 "videoc.mll" 432 24510 24527
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"videoc.mll" 432 24510 24528 "videoc.mll" 432 24510 24563
+type(
+  string
+)
+"videoc.mll" 432 24510 24519 "videoc.mll" 432 24510 24563
+call(
+  tail
+)
+type(
+  unit
+)
+"videoc.mll" 427 24396 24398 "videoc.mll" 432 24510 24563
+type(
+  unit
+)
+"videoc.mll" 425 24315 24317 "videoc.mll" 432 24510 24563
+type(
+  unit
+)
+"videoc.mll" 424 24254 24256 "videoc.mll" 432 24510 24563
+type(
+  unit
+)
+"videoc.mll" 423 24218 24220 "videoc.mll" 432 24510 24563
+type(
+  unit
+)
+"videoc.mll" 421 24115 24144 "videoc.mll" 433 24564 24567
+type(
+  unit
+)
+"videoc.mll" 435 24569 24573 "videoc.mll" 435 24569 24584
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def do_vicindex "videoc.mll" 234 17827 17827 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 435 24569 24585 "videoc.mll" 435 24569 24591
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "videoc.mll" 435 24569 24594 "videoc.mll" 439 24689 24692
+)
+"videoc.mll" 436 24600 24606 "videoc.mll" 436 24600 24610
+type(
+  string list Lexstate.arg
+)
+ident(
+  def _nfn "videoc.mll" 437 24663 24665 "videoc.mll" 438 24684 24688
+)
+"videoc.mll" 436 24600 24613 "videoc.mll" 436 24600 24630
+type(
+  string -> Lexing.lexbuf -> string list Lexstate.arg
+)
+ident(
+  ext_ref Lexstate.save_opt
+)
+"videoc.mll" 436 24600 24631 "videoc.mll" 436 24600 24652
+type(
+  string
+)
+"videoc.mll" 436 24600 24653 "videoc.mll" 436 24600 24659
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "videoc.mll" 435 24569 24585 "videoc.mll" 435 24569 24591
+)
+"videoc.mll" 436 24600 24613 "videoc.mll" 436 24600 24659
+call(
+  stack
+)
+type(
+  string list Lexstate.arg
+)
+"videoc.mll" 437 24663 24665 "videoc.mll" 437 24663 24678
+type(
+  char -> unit
+)
+ident(
+  ext_ref Dest.put_char
+)
+"videoc.mll" 437 24663 24679 "videoc.mll" 437 24663 24682
+type(
+  char
+)
+"videoc.mll" 437 24663 24665 "videoc.mll" 437 24663 24682
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 438 24684 24686 "videoc.mll" 438 24684 24688
+type(
+  unit
+)
+"videoc.mll" 437 24663 24665 "videoc.mll" 438 24684 24688
+type(
+  unit
+)
+"videoc.mll" 435 24569 24594 "videoc.mll" 439 24689 24692
+type(
+  unit
+)
+"videoc.mll" 445 24758 24762 "videoc.mll" 445 24758 24766
+type(
+  unit -> unit
+)
+ident(
+  def init "videoc.mll" 466 25666 25666 "videoc.mll" 469 25698 25701
+)
+"videoc.mll" 445 24758 24778 "videoc.mll" 445 24758 24780
+type(
+  unit
+)
+"videoc.mll" 448 24831 24835 "videoc.mll" 448 24831 24843
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  ext_ref Scan.def_code
+)
+"videoc.mll" 448 24831 24844 "videoc.mll" 448 24831 24855
+type(
+  string
+)
+"videoc.mll" 448 24831 24875 "videoc.mll" 448 24831 24885
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_snippet "videoc.mll" 316 20666 20670 "videoc.mll" 316 20666 20680
+)
+"videoc.mll" 448 24831 24835 "videoc.mll" 448 24831 24885
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 449 24887 24891 "videoc.mll" 449 24887 24904
+type(
+  string -> (string -> Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  ext_ref Scan.def_name_code
+)
+"videoc.mll" 449 24887 24905 "videoc.mll" 449 24887 24914
+type(
+  string
+)
+"videoc.mll" 449 24887 24931 "videoc.mll" 449 24887 24938
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_edef "videoc.mll" 279 19216 19220 "videoc.mll" 279 19216 19227
+)
+"videoc.mll" 449 24887 24891 "videoc.mll" 449 24887 24938
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 450 24940 24944 "videoc.mll" 450 24940 24957
+type(
+  string -> (string -> Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  ext_ref Scan.def_name_code
+)
+"videoc.mll" 450 24940 24958 "videoc.mll" 450 24940 24970
+type(
+  string
+)
+"videoc.mll" 450 24940 24984 "videoc.mll" 450 24940 24994
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_muledef "videoc.mll" 293 19742 19746 "videoc.mll" 293 19742 19756
+)
+"videoc.mll" 450 24940 24944 "videoc.mll" 450 24940 24994
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 452 24997 25001 "videoc.mll" 452 24997 25009
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  ext_ref Scan.def_code
+)
+"videoc.mll" 452 24997 25010 "videoc.mll" 452 24997 25026
+type(
+  string
+)
+"videoc.mll" 452 24997 25041 "videoc.mll" 452 24997 25056
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_vicendanchor "videoc.mll" 421 24115 24119 "videoc.mll" 421 24115 24134
+)
+"videoc.mll" 452 24997 25001 "videoc.mll" 452 24997 25056
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 453 25058 25062 "videoc.mll" 453 25058 25070
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  ext_ref Scan.def_code
+)
+"videoc.mll" 453 25058 25071 "videoc.mll" 453 25058 25084
+type(
+  string
+)
+"videoc.mll" 453 25058 25102 "videoc.mll" 453 25058 25114
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_vicanchor "videoc.mll" 398 23161 23165 "videoc.mll" 398 23161 23177
+)
+"videoc.mll" 453 25058 25062 "videoc.mll" 453 25058 25114
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 454 25116 25120 "videoc.mll" 454 25116 25128
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  ext_ref Scan.def_code
+)
+"videoc.mll" 454 25116 25129 "videoc.mll" 454 25116 25141
+type(
+  string
+)
+"videoc.mll" 454 25116 25160 "videoc.mll" 454 25116 25171
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_vicindex "videoc.mll" 435 24569 24573 "videoc.mll" 435 24569 24584
+)
+"videoc.mll" 454 25116 25120 "videoc.mll" 454 25116 25171
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 456 25174 25178 "videoc.mll" 456 25174 25186
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  ext_ref Scan.def_code
+)
+"videoc.mll" 456 25174 25187 "videoc.mll" 456 25174 25208
+type(
+  string
+)
+"videoc.mll" 456 25174 25218 "videoc.mll" 456 25174 25238
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_enableLispComment "videoc.mll" 366 22435 22439 "videoc.mll" 366 22435 22459
+)
+"videoc.mll" 456 25174 25178 "videoc.mll" 456 25174 25238
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 457 25240 25244 "videoc.mll" 457 25240 25252
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  ext_ref Scan.def_code
+)
+"videoc.mll" 457 25240 25253 "videoc.mll" 457 25240 25275
+type(
+  string
+)
+"videoc.mll" 457 25240 25284 "videoc.mll" 457 25240 25305
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_disableLispComment "videoc.mll" 370 22505 22509 "videoc.mll" 370 22505 22530
+)
+"videoc.mll" 457 25240 25244 "videoc.mll" 457 25240 25305
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 458 25307 25311 "videoc.mll" 458 25307 25319
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  ext_ref Scan.def_code
+)
+"videoc.mll" 458 25307 25320 "videoc.mll" 458 25307 25346
+type(
+  string
+)
+"videoc.mll" 458 25307 25351 "videoc.mll" 458 25307 25376
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_enableSchemeCharacters "videoc.mll" 374 22577 22581 "videoc.mll" 374 22577 22606
+)
+"videoc.mll" 458 25307 25311 "videoc.mll" 458 25307 25376
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 459 25378 25382 "videoc.mll" 459 25378 25390
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  ext_ref Scan.def_code
+)
+"videoc.mll" 459 25378 25391 "videoc.mll" 459 25378 25418
+type(
+  string
+)
+"videoc.mll" 459 25378 25422 "videoc.mll" 459 25378 25448
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_disableSchemeCharacters "videoc.mll" 378 22657 22661 "videoc.mll" 378 22657 22687
+)
+"videoc.mll" 459 25378 25382 "videoc.mll" 459 25378 25448
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 460 25450 25454 "videoc.mll" 460 25450 25462
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  ext_ref Scan.def_code
+)
+"videoc.mll" 460 25450 25463 "videoc.mll" 460 25450 25489
+type(
+  string
+)
+"videoc.mll" 460 25450 25494 "videoc.mll" 460 25450 25521
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_enable_backslashed_chars "videoc.mll" 355 22069 22073 "videoc.mll" 355 22069 22100
+)
+"videoc.mll" 460 25450 25454 "videoc.mll" 460 25450 25521
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 461 25523 25527 "videoc.mll" 461 25523 25535
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  ext_ref Scan.def_code
+)
+"videoc.mll" 461 25523 25536 "videoc.mll" 461 25523 25554
+type(
+  string
+)
+"videoc.mll" 461 25523 25567 "videoc.mll" 461 25523 25586
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_snippet_run_hook "videoc.mll" 382 22739 22743 "videoc.mll" 382 22739 22762
+)
+"videoc.mll" 461 25523 25527 "videoc.mll" 461 25523 25586
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 462 25588 25592 "videoc.mll" 462 25588 25600
+type(
+  string -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  ext_ref Scan.def_code
+)
+"videoc.mll" 462 25588 25601 "videoc.mll" 462 25588 25616
+type(
+  string
+)
+"videoc.mll" 462 25588 25632 "videoc.mll" 462 25588 25648
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref do_snip_run_hook "videoc.mll" 388 22860 22864 "videoc.mll" 388 22860 22880
+)
+"videoc.mll" 462 25588 25592 "videoc.mll" 462 25588 25648
+call(
+  stack
+)
+type(
+  unit
+)
+"videoc.mll" 463 25650 25654 "videoc.mll" 463 25650 25656
+type(
+  unit
+)
+"videoc.mll" 462 25588 25592 "videoc.mll" 463 25650 25656
+type(
+  unit
+)
+"videoc.mll" 461 25523 25527 "videoc.mll" 463 25650 25656
+type(
+  unit
+)
+"videoc.mll" 460 25450 25454 "videoc.mll" 463 25650 25656
+type(
+  unit
+)
+"videoc.mll" 459 25378 25382 "videoc.mll" 463 25650 25656
+type(
+  unit
+)
+"videoc.mll" 458 25307 25311 "videoc.mll" 463 25650 25656
+type(
+  unit
+)
+"videoc.mll" 457 25240 25244 "videoc.mll" 463 25650 25656
+type(
+  unit
+)
+"videoc.mll" 456 25174 25178 "videoc.mll" 463 25650 25656
+type(
+  unit
+)
+"videoc.mll" 454 25116 25120 "videoc.mll" 463 25650 25656
+type(
+  unit
+)
+"videoc.mll" 453 25058 25062 "videoc.mll" 463 25650 25656
+type(
+  unit
+)
+"videoc.mll" 452 24997 25001 "videoc.mll" 463 25650 25656
+type(
+  unit
+)
+"videoc.mll" 450 24940 24944 "videoc.mll" 463 25650 25656
+type(
+  unit
+)
+"videoc.mll" 449 24887 24891 "videoc.mll" 463 25650 25656
+type(
+  unit
+)
+"videoc.mll" 446 24785 24787 "videoc.mll" 464 25657 25662
+type(
+  unit
+)
+"videoc.mll" 445 24758 24769 "videoc.mll" 464 25657 25662
+type(
+  unit -> unit
+)
+"videoc.mll" 466 25666 25666 "videoc.mll" 466 25666 25679
+type(
+  string -> (unit -> unit) -> unit
+)
+ident(
+  ext_ref Latexmacros.register_init
+)
+"videoc.mll" 466 25666 25680 "videoc.mll" 466 25666 25688
+type(
+  string
+)
+"videoc.mll" 466 25666 25689 "videoc.mll" 466 25666 25693
+type(
+  unit -> unit
+)
+ident(
+  int_ref init "videoc.mll" 445 24758 24762 "videoc.mll" 445 24758 24766
+)
+"videoc.mll" 466 25666 25666 "videoc.mll" 466 25666 25693
+call(
+  stack
+)
+type(
+  unit
+)

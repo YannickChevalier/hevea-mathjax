@@ -1,0 +1,834 @@
+"explode.ml" 16 840 844 "explode.ml" 16 840 853
+type(
+  'a list -> 'a list Tree.t -> 'a list Tree.t
+)
+ident(
+  def of_styles "explode.ml" 21 912 912 "explode.ml" 1 0 -1
+)
+"explode.ml" 16 840 854 "explode.ml" 16 840 857
+type(
+  'a list
+)
+ident(
+  def env "explode.ml" 16 840 858 "explode.ml" 18 887 909
+)
+"explode.ml" 16 840 858 "explode.ml" 16 840 859
+type(
+  'a list Tree.t
+)
+ident(
+  def r "explode.ml" 16 840 862 "explode.ml" 18 887 909
+)
+"explode.ml" 16 840 868 "explode.ml" 16 840 871
+type(
+  'a list
+)
+ident(
+  int_ref env "explode.ml" 16 840 854 "explode.ml" 16 840 857
+)
+"explode.ml" 17 877 879 "explode.ml" 17 877 881
+type(
+  'a list
+)
+"explode.ml" 17 877 885 "explode.ml" 17 877 886
+type(
+  'a list Tree.t
+)
+ident(
+  int_ref r "explode.ml" 16 840 858 "explode.ml" 16 840 859
+)
+"explode.ml" 18 887 889 "explode.ml" 18 887 890
+type(
+  'a list
+)
+"explode.ml" 18 887 901 "explode.ml" 18 887 904
+type(
+  'a list
+)
+ident(
+  int_ref env "explode.ml" 16 840 854 "explode.ml" 16 840 857
+)
+"explode.ml" 18 887 906 "explode.ml" 18 887 907
+type(
+  'a list Tree.t
+)
+ident(
+  int_ref r "explode.ml" 16 840 858 "explode.ml" 16 840 859
+)
+"explode.ml" 18 887 905 "explode.ml" 18 887 908
+type(
+  'a list Tree.t list
+)
+"explode.ml" 18 887 895 "explode.ml" 18 887 909
+type(
+  'a list Tree.t
+)
+"explode.ml" 16 840 862 "explode.ml" 18 887 909
+type(
+  'a list Tree.t
+)
+"explode.ml" 21 912 920 "explode.ml" 21 912 924
+type(
+  Htmltext.env ->
+  Lexeme.style Tree.t -> Htmltext.env Tree.t list -> Htmltext.env Tree.t list
+)
+ident(
+  def tree "explode.ml" 21 912 912 "explode.ml" 1 0 -1
+)
+"explode.ml" 21 912 925 "explode.ml" 21 912 928
+type(
+  Htmltext.env
+)
+ident(
+  def env "explode.ml" 21 912 929 "explode.ml" 49 1669 1722
+)
+"explode.ml" 21 912 929 "explode.ml" 21 912 930
+type(
+  Lexeme.style Tree.t
+)
+ident(
+  def t "explode.ml" 21 912 931 "explode.ml" 49 1669 1722
+)
+"explode.ml" 21 912 931 "explode.ml" 21 912 932
+type(
+  Htmltext.env Tree.t list
+)
+ident(
+  def k "explode.ml" 21 912 935 "explode.ml" 49 1669 1722
+)
+"explode.ml" 21 912 941 "explode.ml" 21 912 942
+type(
+  Lexeme.style Tree.t
+)
+ident(
+  int_ref t "explode.ml" 21 912 929 "explode.ml" 21 912 930
+)
+"explode.ml" 22 948 955 "explode.ml" 22 948 956
+type(
+  string
+)
+ident(
+  def s "explode.ml" 23 960 964 "explode.ml" 23 960 989
+)
+"explode.ml" 22 948 950 "explode.ml" 22 948 956
+type(
+  Lexeme.style Tree.t
+)
+"explode.ml" 23 960 964 "explode.ml" 23 960 973
+type(
+  Htmltext.env -> Htmltext.env Tree.t -> Htmltext.env Tree.t
+)
+ident(
+  int_ref of_styles "explode.ml" 16 840 844 "explode.ml" 16 840 853
+)
+"explode.ml" 23 960 974 "explode.ml" 23 960 977
+type(
+  Htmltext.env
+)
+ident(
+  int_ref env "explode.ml" 21 912 925 "explode.ml" 21 912 928
+)
+"explode.ml" 23 960 984 "explode.ml" 23 960 985
+type(
+  string
+)
+ident(
+  int_ref s "explode.ml" 22 948 955 "explode.ml" 22 948 956
+)
+"explode.ml" 23 960 978 "explode.ml" 23 960 986
+type(
+  Htmltext.env Tree.t
+)
+"explode.ml" 23 960 964 "explode.ml" 23 960 986
+call(
+  stack
+)
+type(
+  Htmltext.env Tree.t
+)
+"explode.ml" 23 960 988 "explode.ml" 23 960 989
+type(
+  Htmltext.env Tree.t list
+)
+ident(
+  int_ref k "explode.ml" 21 912 931 "explode.ml" 21 912 932
+)
+"explode.ml" 23 960 964 "explode.ml" 23 960 989
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 24 990 999 "explode.ml" 24 990 1000
+type(
+  string
+)
+ident(
+  def s "explode.ml" 25 1004 1008 "explode.ml" 28 1103 1110
+)
+"explode.ml" 24 990 992 "explode.ml" 24 990 1000
+type(
+  Lexeme.style Tree.t
+)
+"explode.ml" 25 1004 1008 "explode.ml" 25 1004 1017
+type(
+  Htmltext.env -> Htmltext.env Tree.t -> Htmltext.env Tree.t
+)
+ident(
+  int_ref of_styles "explode.ml" 16 840 844 "explode.ml" 16 840 853
+)
+"explode.ml" 26 1018 1025 "explode.ml" 26 1018 1036
+type(
+  (Htmltext.t_style -> bool) -> Htmltext.env -> Htmltext.env
+)
+ident(
+  ext_ref List.filter
+)
+"explode.ml" 26 1018 1042 "explode.ml" 26 1018 1043
+type(
+  Htmltext.t_style
+)
+ident(
+  def s "explode.ml" 26 1018 1047 "explode.ml" 26 1018 1077
+)
+"explode.ml" 26 1018 1047 "explode.ml" 26 1018 1050
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"explode.ml" 26 1018 1052 "explode.ml" 26 1018 1074
+type(
+  Htmltext.t_style -> bool
+)
+ident(
+  ext_ref Htmltext.blanksNeutral
+)
+"explode.ml" 26 1018 1075 "explode.ml" 26 1018 1076
+type(
+  Htmltext.t_style
+)
+ident(
+  int_ref s "explode.ml" 26 1018 1042 "explode.ml" 26 1018 1043
+)
+"explode.ml" 26 1018 1051 "explode.ml" 26 1018 1077
+call(
+  stack
+)
+type(
+  bool
+)
+"explode.ml" 26 1018 1047 "explode.ml" 26 1018 1077
+type(
+  bool
+)
+"explode.ml" 26 1018 1037 "explode.ml" 26 1018 1078
+type(
+  Htmltext.t_style -> bool
+)
+"explode.ml" 26 1018 1079 "explode.ml" 26 1018 1082
+type(
+  Htmltext.env
+)
+ident(
+  int_ref env "explode.ml" 21 912 925 "explode.ml" 21 912 928
+)
+"explode.ml" 26 1018 1024 "explode.ml" 26 1018 1083
+call(
+  stack
+)
+type(
+  Htmltext.env
+)
+"explode.ml" 27 1084 1098 "explode.ml" 27 1084 1099
+type(
+  string
+)
+ident(
+  int_ref s "explode.ml" 24 990 999 "explode.ml" 24 990 1000
+)
+"explode.ml" 27 1084 1090 "explode.ml" 27 1084 1100
+type(
+  Htmltext.env Tree.t
+)
+"explode.ml" 25 1004 1008 "explode.ml" 27 1084 1100
+call(
+  stack
+)
+type(
+  Htmltext.env Tree.t
+)
+"explode.ml" 28 1103 1109 "explode.ml" 28 1103 1110
+type(
+  Htmltext.env Tree.t list
+)
+ident(
+  int_ref k "explode.ml" 21 912 931 "explode.ml" 21 912 932
+)
+"explode.ml" 25 1004 1008 "explode.ml" 28 1103 1110
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 29 1111 1119 "explode.ml" 29 1111 1120
+type(
+  Lexeme.style
+)
+ident(
+  def s "explode.ml" 30 1128 1134 "explode.ml" 45 1606 1615
+)
+"explode.ml" 29 1111 1121 "explode.ml" 29 1111 1123
+type(
+  Lexeme.style Tree.t list
+)
+ident(
+  def ts "explode.ml" 30 1128 1134 "explode.ml" 45 1606 1615
+)
+"explode.ml" 29 1111 1113 "explode.ml" 29 1111 1124
+type(
+  Lexeme.style Tree.t
+)
+"explode.ml" 31 1144 1156 "explode.ml" 31 1144 1163
+type(
+  Htmltext.env
+)
+ident(
+  def new_env "explode.ml" 32 1194 1202 "explode.ml" 32 1194 1237
+)
+"explode.ml" 31 1144 1166 "explode.ml" 31 1144 1184
+type(
+  Lexeme.style -> Htmltext.env -> Htmltext.env
+)
+ident(
+  ext_ref Htmltext.add_style
+)
+"explode.ml" 31 1144 1185 "explode.ml" 31 1144 1186
+type(
+  Lexeme.style
+)
+ident(
+  int_ref s "explode.ml" 29 1111 1119 "explode.ml" 29 1111 1120
+)
+"explode.ml" 31 1144 1187 "explode.ml" 31 1144 1190
+type(
+  Htmltext.env
+)
+ident(
+  int_ref env "explode.ml" 21 912 925 "explode.ml" 21 912 928
+)
+"explode.ml" 31 1144 1166 "explode.ml" 31 1144 1190
+call(
+  stack
+)
+type(
+  Htmltext.env
+)
+"explode.ml" 32 1194 1202 "explode.ml" 32 1194 1217
+type(
+  (Lexeme.style Tree.t ->
+   Htmltext.env Tree.t list -> Htmltext.env Tree.t list) ->
+  Lexeme.style Tree.t list ->
+  Htmltext.env Tree.t list -> Htmltext.env Tree.t list
+)
+ident(
+  ext_ref List.fold_right
+)
+"explode.ml" 32 1194 1219 "explode.ml" 32 1194 1223
+type(
+  Htmltext.env ->
+  Lexeme.style Tree.t -> Htmltext.env Tree.t list -> Htmltext.env Tree.t list
+)
+ident(
+  int_ref tree "explode.ml" 21 912 920 "explode.ml" 21 912 924
+)
+"explode.ml" 32 1194 1224 "explode.ml" 32 1194 1231
+type(
+  Htmltext.env
+)
+ident(
+  int_ref new_env "explode.ml" 31 1144 1156 "explode.ml" 31 1144 1163
+)
+"explode.ml" 32 1194 1218 "explode.ml" 32 1194 1232
+call(
+  stack
+)
+type(
+  Lexeme.style Tree.t -> Htmltext.env Tree.t list -> Htmltext.env Tree.t list
+)
+"explode.ml" 32 1194 1233 "explode.ml" 32 1194 1235
+type(
+  Lexeme.style Tree.t list
+)
+ident(
+  int_ref ts "explode.ml" 29 1111 1121 "explode.ml" 29 1111 1123
+)
+"explode.ml" 32 1194 1236 "explode.ml" 32 1194 1237
+type(
+  Htmltext.env Tree.t list
+)
+ident(
+  int_ref k "explode.ml" 21 912 931 "explode.ml" 21 912 932
+)
+"explode.ml" 32 1194 1202 "explode.ml" 32 1194 1237
+call(
+  stack
+)
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 31 1144 1152 "explode.ml" 32 1194 1237
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 34 1249 1264 "explode.ml" 34 1249 1265
+type(
+  Htmltext.t_style
+)
+ident(
+  def s "explode.ml" 35 1274 1284 "explode.ml" 44 1559 1605
+)
+"explode.ml" 34 1249 1266 "explode.ml" 34 1249 1269
+type(
+  Htmltext.env
+)
+ident(
+  def env "explode.ml" 35 1274 1284 "explode.ml" 44 1559 1605
+)
+"explode.ml" 34 1249 1257 "explode.ml" 34 1249 1270
+type(
+  exn
+)
+"explode.ml" 35 1274 1288 "explode.ml" 35 1274 1290
+type(
+  Htmltext.env Tree.t list
+)
+ident(
+  def ts "explode.ml" 36 1328 1338 "explode.ml" 44 1559 1605
+)
+"explode.ml" 35 1274 1293 "explode.ml" 35 1274 1308
+type(
+  (Lexeme.style Tree.t ->
+   Htmltext.env Tree.t list -> Htmltext.env Tree.t list) ->
+  Lexeme.style Tree.t list ->
+  Htmltext.env Tree.t list -> Htmltext.env Tree.t list
+)
+ident(
+  ext_ref List.fold_right
+)
+"explode.ml" 35 1274 1310 "explode.ml" 35 1274 1314
+type(
+  Htmltext.env ->
+  Lexeme.style Tree.t -> Htmltext.env Tree.t list -> Htmltext.env Tree.t list
+)
+ident(
+  int_ref tree "explode.ml" 21 912 920 "explode.ml" 21 912 924
+)
+"explode.ml" 35 1274 1315 "explode.ml" 35 1274 1317
+type(
+  Htmltext.env
+)
+"explode.ml" 35 1274 1309 "explode.ml" 35 1274 1318
+call(
+  stack
+)
+type(
+  Lexeme.style Tree.t -> Htmltext.env Tree.t list -> Htmltext.env Tree.t list
+)
+"explode.ml" 35 1274 1319 "explode.ml" 35 1274 1321
+type(
+  Lexeme.style Tree.t list
+)
+ident(
+  int_ref ts "explode.ml" 29 1111 1121 "explode.ml" 29 1111 1123
+)
+"explode.ml" 35 1274 1322 "explode.ml" 35 1274 1324
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 35 1274 1293 "explode.ml" 35 1274 1324
+call(
+  stack
+)
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 36 1328 1342 "explode.ml" 36 1328 1345
+type(
+  Htmltext.env
+)
+ident(
+  def now "explode.ml" 41 1498 1508 "explode.ml" 44 1559 1605
+)
+"explode.ml" 37 1348 1363 "explode.ml" 37 1348 1377
+type(
+  Htmltext.env Tree.t list -> bool
+)
+ident(
+  ext_ref Util.is_blanks
+)
+"explode.ml" 37 1348 1378 "explode.ml" 37 1348 1380
+type(
+  Htmltext.env Tree.t list
+)
+ident(
+  int_ref ts "explode.ml" 35 1274 1288 "explode.ml" 35 1274 1290
+)
+"explode.ml" 37 1348 1363 "explode.ml" 37 1348 1380
+call(
+  stack
+)
+type(
+  bool
+)
+"explode.ml" 38 1386 1401 "explode.ml" 38 1386 1412
+type(
+  (Htmltext.t_style -> bool) -> Htmltext.env -> Htmltext.env
+)
+ident(
+  ext_ref List.filter
+)
+"explode.ml" 38 1386 1418 "explode.ml" 38 1386 1419
+type(
+  Htmltext.t_style
+)
+ident(
+  def s "explode.ml" 38 1386 1423 "explode.ml" 38 1386 1453
+)
+"explode.ml" 38 1386 1423 "explode.ml" 38 1386 1426
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"explode.ml" 38 1386 1428 "explode.ml" 38 1386 1450
+type(
+  Htmltext.t_style -> bool
+)
+ident(
+  ext_ref Htmltext.blanksNeutral
+)
+"explode.ml" 38 1386 1451 "explode.ml" 38 1386 1452
+type(
+  Htmltext.t_style
+)
+ident(
+  int_ref s "explode.ml" 38 1386 1418 "explode.ml" 38 1386 1419
+)
+"explode.ml" 38 1386 1427 "explode.ml" 38 1386 1453
+call(
+  stack
+)
+type(
+  bool
+)
+"explode.ml" 38 1386 1423 "explode.ml" 38 1386 1453
+type(
+  bool
+)
+"explode.ml" 38 1386 1413 "explode.ml" 38 1386 1454
+type(
+  Htmltext.t_style -> bool
+)
+"explode.ml" 38 1386 1455 "explode.ml" 38 1386 1458
+type(
+  Htmltext.env
+)
+ident(
+  int_ref env "explode.ml" 34 1249 1266 "explode.ml" 34 1249 1269
+)
+"explode.ml" 38 1386 1400 "explode.ml" 38 1386 1459
+call(
+  stack
+)
+type(
+  Htmltext.env
+)
+"explode.ml" 40 1477 1491 "explode.ml" 40 1477 1494
+type(
+  Htmltext.env
+)
+ident(
+  int_ref env "explode.ml" 34 1249 1266 "explode.ml" 34 1249 1269
+)
+"explode.ml" 37 1348 1360 "explode.ml" 40 1477 1494
+type(
+  Htmltext.env
+)
+"explode.ml" 41 1498 1514 "explode.ml" 41 1498 1516
+type(
+  Htmltext.env Tree.t list
+)
+ident(
+  int_ref ts "explode.ml" 35 1274 1288 "explode.ml" 35 1274 1290
+)
+"explode.ml" 42 1522 1534 "explode.ml" 42 1522 1536
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 42 1522 1540 "explode.ml" 42 1522 1541
+type(
+  Htmltext.env Tree.t list
+)
+ident(
+  int_ref k "explode.ml" 21 912 931 "explode.ml" 21 912 932
+)
+"explode.ml" 43 1542 1554 "explode.ml" 43 1542 1555
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 44 1559 1573 "explode.ml" 44 1559 1582
+type(
+  Htmltext.env -> Htmltext.env Tree.t -> Htmltext.env Tree.t
+)
+ident(
+  int_ref of_styles "explode.ml" 16 840 844 "explode.ml" 16 840 853
+)
+"explode.ml" 44 1559 1583 "explode.ml" 44 1559 1586
+type(
+  Htmltext.env
+)
+ident(
+  int_ref now "explode.ml" 36 1328 1342 "explode.ml" 36 1328 1345
+)
+"explode.ml" 44 1559 1595 "explode.ml" 44 1559 1596
+type(
+  Htmltext.t_style
+)
+ident(
+  int_ref s "explode.ml" 34 1249 1264 "explode.ml" 34 1249 1265
+)
+"explode.ml" 44 1559 1594 "explode.ml" 44 1559 1597
+type(
+  Htmltext.env
+)
+"explode.ml" 44 1559 1598 "explode.ml" 44 1559 1600
+type(
+  Htmltext.env Tree.t list
+)
+ident(
+  int_ref ts "explode.ml" 35 1274 1288 "explode.ml" 35 1274 1290
+)
+"explode.ml" 44 1559 1587 "explode.ml" 44 1559 1602
+type(
+  Htmltext.env Tree.t
+)
+"explode.ml" 44 1559 1573 "explode.ml" 44 1559 1602
+call(
+  stack
+)
+type(
+  Htmltext.env Tree.t
+)
+"explode.ml" 44 1559 1604 "explode.ml" 44 1559 1605
+type(
+  Htmltext.env Tree.t list
+)
+ident(
+  int_ref k "explode.ml" 21 912 931 "explode.ml" 21 912 932
+)
+"explode.ml" 44 1559 1573 "explode.ml" 44 1559 1605
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 41 1498 1508 "explode.ml" 44 1559 1605
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 36 1328 1338 "explode.ml" 44 1559 1605
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 35 1274 1284 "explode.ml" 44 1559 1605
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 30 1128 1134 "explode.ml" 45 1606 1615
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 46 1616 1625 "explode.ml" 46 1616 1627
+type(
+  string
+)
+ident(
+  def so "explode.ml" 47 1638 1642 "explode.ml" 49 1669 1722
+)
+"explode.ml" 46 1616 1628 "explode.ml" 46 1616 1630
+type(
+  string
+)
+ident(
+  def sc "explode.ml" 47 1638 1642 "explode.ml" 49 1669 1722
+)
+"explode.ml" 46 1616 1631 "explode.ml" 46 1616 1633
+type(
+  Lexeme.style Tree.t list
+)
+ident(
+  def ts "explode.ml" 47 1638 1642 "explode.ml" 49 1669 1722
+)
+"explode.ml" 46 1616 1618 "explode.ml" 46 1616 1634
+type(
+  Lexeme.style Tree.t
+)
+"explode.ml" 47 1638 1642 "explode.ml" 47 1638 1651
+type(
+  Htmltext.env -> Htmltext.env Tree.t -> Htmltext.env Tree.t
+)
+ident(
+  int_ref of_styles "explode.ml" 16 840 844 "explode.ml" 16 840 853
+)
+"explode.ml" 47 1638 1652 "explode.ml" 47 1638 1655
+type(
+  Htmltext.env
+)
+ident(
+  int_ref env "explode.ml" 21 912 925 "explode.ml" 21 912 928
+)
+"explode.ml" 49 1669 1679 "explode.ml" 49 1669 1681
+type(
+  string
+)
+ident(
+  int_ref so "explode.ml" 46 1616 1625 "explode.ml" 46 1616 1627
+)
+"explode.ml" 49 1669 1682 "explode.ml" 49 1669 1684
+type(
+  string
+)
+ident(
+  int_ref sc "explode.ml" 46 1616 1628 "explode.ml" 46 1616 1630
+)
+"explode.ml" 49 1669 1686 "explode.ml" 49 1669 1701
+type(
+  (Lexeme.style Tree.t ->
+   Htmltext.env Tree.t list -> Htmltext.env Tree.t list) ->
+  Lexeme.style Tree.t list ->
+  Htmltext.env Tree.t list -> Htmltext.env Tree.t list
+)
+ident(
+  ext_ref List.fold_right
+)
+"explode.ml" 49 1669 1703 "explode.ml" 49 1669 1707
+type(
+  Htmltext.env ->
+  Lexeme.style Tree.t -> Htmltext.env Tree.t list -> Htmltext.env Tree.t list
+)
+ident(
+  int_ref tree "explode.ml" 21 912 920 "explode.ml" 21 912 924
+)
+"explode.ml" 49 1669 1708 "explode.ml" 49 1669 1710
+type(
+  Htmltext.env
+)
+"explode.ml" 49 1669 1702 "explode.ml" 49 1669 1711
+call(
+  stack
+)
+type(
+  Lexeme.style Tree.t -> Htmltext.env Tree.t list -> Htmltext.env Tree.t list
+)
+"explode.ml" 49 1669 1712 "explode.ml" 49 1669 1714
+type(
+  Lexeme.style Tree.t list
+)
+ident(
+  int_ref ts "explode.ml" 46 1616 1631 "explode.ml" 46 1616 1633
+)
+"explode.ml" 49 1669 1715 "explode.ml" 49 1669 1717
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 49 1669 1686 "explode.ml" 49 1669 1717
+call(
+  stack
+)
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 48 1656 1662 "explode.ml" 49 1669 1719
+type(
+  Htmltext.env Tree.t
+)
+"explode.ml" 47 1638 1642 "explode.ml" 49 1669 1719
+call(
+  stack
+)
+type(
+  Htmltext.env Tree.t
+)
+"explode.ml" 49 1669 1721 "explode.ml" 49 1669 1722
+type(
+  Htmltext.env Tree.t list
+)
+ident(
+  int_ref k "explode.ml" 21 912 931 "explode.ml" 21 912 932
+)
+"explode.ml" 47 1638 1642 "explode.ml" 49 1669 1722
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 21 912 935 "explode.ml" 49 1669 1722
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 52 1725 1729 "explode.ml" 52 1725 1734
+type(
+  Lexeme.style Tree.t list -> Htmltext.env Tree.t list
+)
+ident(
+  def trees "explode.ml" 52 1725 1772 "explode.ml" 1 0 -1
+)
+"explode.ml" 52 1725 1735 "explode.ml" 52 1725 1737
+type(
+  Lexeme.style Tree.t list
+)
+ident(
+  def ts "explode.ml" 52 1725 1741 "explode.ml" 52 1725 1772
+)
+"explode.ml" 52 1725 1741 "explode.ml" 52 1725 1756
+type(
+  (Lexeme.style Tree.t ->
+   Htmltext.env Tree.t list -> Htmltext.env Tree.t list) ->
+  Lexeme.style Tree.t list ->
+  Htmltext.env Tree.t list -> Htmltext.env Tree.t list
+)
+ident(
+  ext_ref List.fold_right
+)
+"explode.ml" 52 1725 1758 "explode.ml" 52 1725 1762
+type(
+  Htmltext.env ->
+  Lexeme.style Tree.t -> Htmltext.env Tree.t list -> Htmltext.env Tree.t list
+)
+ident(
+  int_ref tree "explode.ml" 21 912 920 "explode.ml" 21 912 924
+)
+"explode.ml" 52 1725 1763 "explode.ml" 52 1725 1765
+type(
+  Htmltext.env
+)
+"explode.ml" 52 1725 1757 "explode.ml" 52 1725 1766
+call(
+  stack
+)
+type(
+  Lexeme.style Tree.t -> Htmltext.env Tree.t list -> Htmltext.env Tree.t list
+)
+"explode.ml" 52 1725 1767 "explode.ml" 52 1725 1769
+type(
+  Lexeme.style Tree.t list
+)
+ident(
+  int_ref ts "explode.ml" 52 1725 1735 "explode.ml" 52 1725 1737
+)
+"explode.ml" 52 1725 1770 "explode.ml" 52 1725 1772
+type(
+  Htmltext.env Tree.t list
+)
+"explode.ml" 52 1725 1741 "explode.ml" 52 1725 1772
+call(
+  tail
+)
+type(
+  Htmltext.env Tree.t list
+)

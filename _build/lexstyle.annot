@@ -1,0 +1,4728 @@
+"lexstyle.mll" 18 46 50 "lexstyle.mll" 18 46 55
+type(
+  string -> 'a -> 'b
+)
+ident(
+  def error "lexstyle.ml" 9 113 113 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.mll" 18 46 56 "lexstyle.mll" 18 46 59
+type(
+  string
+)
+ident(
+  def msg "lexstyle.mll" 18 46 60 "lexstyle.mll" 18 46 93
+)
+"lexstyle.mll" 18 46 60 "lexstyle.mll" 18 46 63
+type(
+  'a
+)
+ident(
+  def _lb "lexstyle.mll" 18 46 67 "lexstyle.mll" 18 46 93
+)
+"lexstyle.mll" 18 46 67 "lexstyle.mll" 18 46 72
+type(
+  exn -> 'b
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lexstyle.mll" 18 46 89 "lexstyle.mll" 18 46 92
+type(
+  string
+)
+ident(
+  int_ref msg "lexstyle.mll" 18 46 56 "lexstyle.mll" 18 46 59
+)
+"lexstyle.mll" 18 46 73 "lexstyle.mll" 18 46 93
+type(
+  exn
+)
+"lexstyle.mll" 18 46 67 "lexstyle.mll" 18 46 93
+type(
+  'b
+)
+"lexstyle.ml" 9 113 117 "lexstyle.ml" 9 113 135
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 11 161 164 "lexstyle.ml" 28 1351 1396
+type(
+  string
+)
+"lexstyle.ml" 30 1422 1425 "lexstyle.ml" 47 2612 2657
+type(
+  string
+)
+"lexstyle.ml" 49 2683 2686 "lexstyle.ml" 66 3873 3918
+type(
+  string
+)
+"lexstyle.ml" 68 3942 3945 "lexstyle.ml" 833 57492 57545
+type(
+  string
+)
+"lexstyle.ml" 835 57569 57572 "lexstyle.ml" 1600 111119 111172
+type(
+  string
+)
+"lexstyle.ml" 1602 111200 111203 "lexstyle.ml" 1619 112390 112435
+type(
+  string
+)
+"lexstyle.ml" 1621 112466 112469 "lexstyle.ml" 1638 113656 113701
+type(
+  string
+)
+"lexstyle.ml" 1640 113732 113735 "lexstyle.ml" 1657 114922 114967
+type(
+  string
+)
+"lexstyle.ml" 1659 114996 114999 "lexstyle.ml" 1780 123466 123471
+type(
+  string
+)
+"lexstyle.ml" 1782 123500 123503 "lexstyle.ml" 1903 131970 131975
+type(
+  string
+)
+"lexstyle.ml" 1905 131998 132001 "lexstyle.ml" 1907 132138 132147
+type(
+  string
+)
+"lexstyle.ml" 9 113 138 "lexstyle.ml" 1908 132149 132150
+type(
+  Lexing.lex_tables
+)
+"lexstyle.ml" 1910 132152 132160 "lexstyle.ml" 1910 132152 132167
+type(
+  Emisc.StringCount.count -> Lexing.lexbuf -> Emisc.StringCount.count
+)
+ident(
+  def extract "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 1910 132152 132168 "lexstyle.ml" 1910 132152 132174
+type(
+  Emisc.StringCount.count
+)
+ident(
+  def styles "lexstyle.ml" 1910 132152 132175 "lexstyle.ml" 1911 132184 132227
+)
+"lexstyle.ml" 1910 132152 132175 "lexstyle.ml" 1910 132152 132181
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.ml" 1911 132184 132188 "lexstyle.ml" 1911 132184 132227
+)
+"lexstyle.ml" 1911 132184 132188 "lexstyle.ml" 1911 132184 132211
+type(
+  Emisc.StringCount.count -> Lexing.lexbuf -> int -> Emisc.StringCount.count
+)
+ident(
+  int_ref __ocaml_lex_extract_rec "lexstyle.ml" 1912 132228 132232 "lexstyle.ml" 1912 132228 132255
+)
+"lexstyle.ml" 1911 132184 132212 "lexstyle.ml" 1911 132184 132218
+type(
+  Emisc.StringCount.count
+)
+ident(
+  int_ref styles "lexstyle.ml" 1910 132152 132168 "lexstyle.ml" 1910 132152 132174
+)
+"lexstyle.ml" 1911 132184 132219 "lexstyle.ml" 1911 132184 132225
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1910 132152 132175 "lexstyle.ml" 1910 132152 132181
+)
+"lexstyle.ml" 1911 132184 132226 "lexstyle.ml" 1911 132184 132227
+type(
+  int
+)
+"lexstyle.ml" 1911 132184 132188 "lexstyle.ml" 1911 132184 132227
+call(
+  tail
+)
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1912 132228 132232 "lexstyle.ml" 1912 132228 132255
+type(
+  Emisc.StringCount.count -> Lexing.lexbuf -> int -> Emisc.StringCount.count
+)
+ident(
+  def __ocaml_lex_extract_rec "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 1912 132228 132256 "lexstyle.ml" 1912 132228 132262
+type(
+  Emisc.StringCount.count
+)
+ident(
+  def styles "lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1952 133090 133204
+)
+"lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1912 132228 132269
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.ml" 1912 132228 132270 "lexstyle.ml" 1952 133090 133204
+)
+"lexstyle.ml" 1912 132228 132270 "lexstyle.ml" 1912 132228 132287
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexstyle.ml" 1913 132290 132292 "lexstyle.ml" 1952 133090 133204
+)
+"lexstyle.ml" 1913 132290 132298 "lexstyle.ml" 1913 132290 132311
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"lexstyle.ml" 1913 132290 132312 "lexstyle.ml" 1913 132290 132330
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "lexstyle.ml" 9 113 117 "lexstyle.ml" 9 113 135
+)
+"lexstyle.ml" 1913 132290 132331 "lexstyle.ml" 1913 132290 132348
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexstyle.ml" 1912 132228 132270 "lexstyle.ml" 1912 132228 132287
+)
+"lexstyle.ml" 1913 132290 132349 "lexstyle.ml" 1913 132290 132355
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1912 132228 132269
+)
+"lexstyle.ml" 1913 132290 132298 "lexstyle.ml" 1913 132290 132355
+call(
+  stack
+)
+type(
+  int
+)
+"lexstyle.ml" 1914 132361 132369 "lexstyle.ml" 1914 132361 132370
+type(
+  int
+)
+"lexstyle.mll" 29 132394 132399 "lexstyle.mll" 29 132394 132406
+type(
+  Emisc.StringCount.count -> Lexing.lexbuf -> Emisc.StringCount.count
+)
+ident(
+  int_ref extract "lexstyle.ml" 1910 132152 132160 "lexstyle.ml" 1910 132152 132167
+)
+"lexstyle.mll" 29 132394 132407 "lexstyle.mll" 29 132394 132413
+type(
+  Emisc.StringCount.count
+)
+ident(
+  int_ref styles "lexstyle.ml" 1912 132228 132256 "lexstyle.ml" 1912 132228 132262
+)
+"lexstyle.mll" 29 132394 132414 "lexstyle.mll" 29 132394 132420
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1912 132228 132269
+)
+"lexstyle.mll" 29 132394 132397 "lexstyle.mll" 29 132394 132422
+call(
+  tail
+)
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1919 132445 132449 "lexstyle.ml" 1919 132445 132450
+type(
+  int
+)
+"lexstyle.mll" 31 132474 132477 "lexstyle.mll" 31 132474 132489
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref skip_comment "lexstyle.ml" 2001 134582 134586 "lexstyle.ml" 2001 134582 134598
+)
+"lexstyle.mll" 31 132474 132490 "lexstyle.mll" 31 132474 132496
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1912 132228 132269
+)
+"lexstyle.mll" 31 132474 132477 "lexstyle.mll" 31 132474 132496
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.mll" 32 132499 132502 "lexstyle.mll" 32 132499 132509
+type(
+  Emisc.StringCount.count -> Lexing.lexbuf -> Emisc.StringCount.count
+)
+ident(
+  int_ref extract "lexstyle.ml" 1910 132152 132160 "lexstyle.ml" 1910 132152 132167
+)
+"lexstyle.mll" 32 132499 132510 "lexstyle.mll" 32 132499 132516
+type(
+  Emisc.StringCount.count
+)
+ident(
+  int_ref styles "lexstyle.ml" 1912 132228 132256 "lexstyle.ml" 1912 132228 132262
+)
+"lexstyle.mll" 32 132499 132517 "lexstyle.mll" 32 132499 132523
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1912 132228 132269
+)
+"lexstyle.mll" 32 132499 132502 "lexstyle.mll" 32 132499 132523
+call(
+  tail
+)
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.mll" 31 132474 132476 "lexstyle.mll" 32 132499 132525
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1925 132548 132552 "lexstyle.ml" 1925 132548 132553
+type(
+  int
+)
+"lexstyle.mll" 34 132577 132581 "lexstyle.mll" 34 132577 132589
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref skip_tag "lexstyle.ml" 1985 134124 134128 "lexstyle.ml" 1985 134124 134136
+)
+"lexstyle.mll" 34 132577 132590 "lexstyle.mll" 34 132577 132596
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1912 132228 132269
+)
+"lexstyle.mll" 34 132577 132581 "lexstyle.mll" 34 132577 132596
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.mll" 35 132599 132603 "lexstyle.mll" 35 132599 132610
+type(
+  Emisc.StringCount.count -> Lexing.lexbuf -> Emisc.StringCount.count
+)
+ident(
+  int_ref extract "lexstyle.ml" 1910 132152 132160 "lexstyle.ml" 1910 132152 132167
+)
+"lexstyle.mll" 35 132599 132611 "lexstyle.mll" 35 132599 132617
+type(
+  Emisc.StringCount.count
+)
+ident(
+  int_ref styles "lexstyle.ml" 1912 132228 132256 "lexstyle.ml" 1912 132228 132262
+)
+"lexstyle.mll" 35 132599 132618 "lexstyle.mll" 35 132599 132624
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1912 132228 132269
+)
+"lexstyle.mll" 35 132599 132603 "lexstyle.mll" 35 132599 132626
+call(
+  tail
+)
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.mll" 34 132577 132579 "lexstyle.mll" 35 132599 132628
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1931 132651 132655 "lexstyle.ml" 1931 132651 132656
+type(
+  int
+)
+"lexstyle.mll" 36 132684 132699 "lexstyle.mll" 36 132684 132702
+type(
+  string
+)
+ident(
+  def tag "lexstyle.mll" 37 132835 132837 "lexstyle.mll" 38 132885 132912
+)
+"lexstyle.ml" 1936 132724 132726 "lexstyle.ml" 1936 132724 132743
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"lexstyle.ml" 1936 132724 132744 "lexstyle.ml" 1936 132724 132750
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1912 132228 132269
+)
+"lexstyle.ml" 1936 132724 132752 "lexstyle.ml" 1936 132724 132758
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1912 132228 132269
+)
+"lexstyle.ml" 1936 132724 132752 "lexstyle.ml" 1936 132724 132779
+type(
+  int
+)
+"lexstyle.ml" 1936 132724 132780 "lexstyle.ml" 1936 132724 132781
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lexstyle.ml" 1936 132724 132782 "lexstyle.ml" 1936 132724 132783
+type(
+  int
+)
+"lexstyle.ml" 1936 132724 132751 "lexstyle.ml" 1936 132724 132784
+type(
+  int
+)
+"lexstyle.ml" 1936 132724 132785 "lexstyle.ml" 1936 132724 132791
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1912 132228 132269
+)
+"lexstyle.ml" 1936 132724 132785 "lexstyle.ml" 1936 132724 132811
+type(
+  int
+)
+"lexstyle.ml" 1936 132724 132726 "lexstyle.ml" 1936 132724 132811
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 37 132835 132843 "lexstyle.mll" 37 132835 132849
+type(
+  Emisc.StringCount.count
+)
+ident(
+  def styles "lexstyle.mll" 38 132885 132889 "lexstyle.mll" 38 132885 132910
+)
+"lexstyle.mll" 37 132835 132852 "lexstyle.mll" 37 132835 132863
+type(
+  string ->
+  Emisc.StringCount.count -> Lexing.lexbuf -> Emisc.StringCount.count
+)
+ident(
+  int_ref extract_tag "lexstyle.ml" 1954 133206 133210 "lexstyle.ml" 1954 133206 133221
+)
+"lexstyle.mll" 37 132835 132864 "lexstyle.mll" 37 132835 132867
+type(
+  string
+)
+ident(
+  int_ref tag "lexstyle.mll" 36 132684 132699 "lexstyle.mll" 36 132684 132702
+)
+"lexstyle.mll" 37 132835 132868 "lexstyle.mll" 37 132835 132874
+type(
+  Emisc.StringCount.count
+)
+ident(
+  int_ref styles "lexstyle.ml" 1912 132228 132256 "lexstyle.ml" 1912 132228 132262
+)
+"lexstyle.mll" 37 132835 132875 "lexstyle.mll" 37 132835 132881
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1912 132228 132269
+)
+"lexstyle.mll" 37 132835 132852 "lexstyle.mll" 37 132835 132881
+call(
+  stack
+)
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.mll" 38 132885 132889 "lexstyle.mll" 38 132885 132896
+type(
+  Emisc.StringCount.count -> Lexing.lexbuf -> Emisc.StringCount.count
+)
+ident(
+  int_ref extract "lexstyle.ml" 1910 132152 132160 "lexstyle.ml" 1910 132152 132167
+)
+"lexstyle.mll" 38 132885 132897 "lexstyle.mll" 38 132885 132903
+type(
+  Emisc.StringCount.count
+)
+ident(
+  int_ref styles "lexstyle.mll" 37 132835 132843 "lexstyle.mll" 37 132835 132849
+)
+"lexstyle.mll" 38 132885 132904 "lexstyle.mll" 38 132885 132910
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1912 132228 132269
+)
+"lexstyle.mll" 38 132885 132889 "lexstyle.mll" 38 132885 132910
+call(
+  tail
+)
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.mll" 37 132835 132837 "lexstyle.mll" 38 132885 132912
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1932 132660 132660 "lexstyle.mll" 38 132885 132912
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1942 132935 132939 "lexstyle.ml" 1942 132935 132940
+type(
+  int
+)
+"lexstyle.mll" 39 132964 132976 "lexstyle.mll" 39 132964 132983
+type(
+  Emisc.StringCount.count -> Lexing.lexbuf -> Emisc.StringCount.count
+)
+ident(
+  int_ref extract "lexstyle.ml" 1910 132152 132160 "lexstyle.ml" 1910 132152 132167
+)
+"lexstyle.mll" 39 132964 132984 "lexstyle.mll" 39 132964 132990
+type(
+  Emisc.StringCount.count
+)
+ident(
+  int_ref styles "lexstyle.ml" 1912 132228 132256 "lexstyle.ml" 1912 132228 132262
+)
+"lexstyle.mll" 39 132964 132991 "lexstyle.mll" 39 132964 132997
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1912 132228 132269
+)
+"lexstyle.mll" 39 132964 132974 "lexstyle.mll" 39 132964 132999
+call(
+  tail
+)
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1947 133022 133026 "lexstyle.ml" 1947 133022 133027
+type(
+  int
+)
+"lexstyle.mll" 40 133051 133057 "lexstyle.mll" 40 133051 133067
+type(
+  Emisc.StringCount.count
+)
+ident(
+  int_ref styles "lexstyle.ml" 1912 132228 132256 "lexstyle.ml" 1912 132228 132262
+)
+"lexstyle.ml" 1952 133090 133094 "lexstyle.ml" 1952 133090 133111
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexstyle.ml" 1952 133090 133115 "lexstyle.ml" 1952 133090 133204
+)
+"lexstyle.ml" 1952 133090 133115 "lexstyle.ml" 1952 133090 133121
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1912 132228 132269
+)
+"lexstyle.ml" 1952 133090 133115 "lexstyle.ml" 1952 133090 133140
+type(
+  Lexing.lexbuf -> unit
+)
+"lexstyle.ml" 1952 133090 133141 "lexstyle.ml" 1952 133090 133147
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1912 132228 132269
+)
+"lexstyle.ml" 1952 133090 133115 "lexstyle.ml" 1952 133090 133147
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.ml" 1952 133090 133149 "lexstyle.ml" 1952 133090 133172
+type(
+  Emisc.StringCount.count -> Lexing.lexbuf -> int -> Emisc.StringCount.count
+)
+ident(
+  int_ref __ocaml_lex_extract_rec "lexstyle.ml" 1912 132228 132232 "lexstyle.ml" 1912 132228 132255
+)
+"lexstyle.ml" 1952 133090 133173 "lexstyle.ml" 1952 133090 133179
+type(
+  Emisc.StringCount.count
+)
+ident(
+  int_ref styles "lexstyle.ml" 1912 132228 132256 "lexstyle.ml" 1912 132228 132262
+)
+"lexstyle.ml" 1952 133090 133180 "lexstyle.ml" 1952 133090 133186
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1912 132228 132263 "lexstyle.ml" 1912 132228 132269
+)
+"lexstyle.ml" 1952 133090 133187 "lexstyle.ml" 1952 133090 133204
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexstyle.ml" 1952 133090 133094 "lexstyle.ml" 1952 133090 133111
+)
+"lexstyle.ml" 1952 133090 133149 "lexstyle.ml" 1952 133090 133204
+call(
+  tail
+)
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1952 133090 133115 "lexstyle.ml" 1952 133090 133204
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1913 132290 132292 "lexstyle.ml" 1952 133090 133204
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1954 133206 133210 "lexstyle.ml" 1954 133206 133221
+type(
+  string ->
+  Emisc.StringCount.count -> Lexing.lexbuf -> Emisc.StringCount.count
+)
+ident(
+  def extract_tag "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 1954 133206 133222 "lexstyle.ml" 1954 133206 133225
+type(
+  string
+)
+ident(
+  def tag "lexstyle.ml" 1954 133206 133226 "lexstyle.ml" 1955 133242 133341
+)
+"lexstyle.ml" 1954 133206 133226 "lexstyle.ml" 1954 133206 133232
+type(
+  Emisc.StringCount.count
+)
+ident(
+  def styles "lexstyle.ml" 1954 133206 133233 "lexstyle.ml" 1955 133242 133341
+)
+"lexstyle.ml" 1954 133206 133233 "lexstyle.ml" 1954 133206 133239
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.ml" 1955 133242 133244 "lexstyle.ml" 1955 133242 133341
+)
+"lexstyle.ml" 1955 133242 133244 "lexstyle.ml" 1955 133242 133250
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1954 133206 133233 "lexstyle.ml" 1954 133206 133239
+)
+"lexstyle.ml" 1955 133242 133269 "lexstyle.ml" 1955 133242 133281
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.create
+)
+"lexstyle.ml" 1955 133242 133282 "lexstyle.ml" 1955 133242 133283
+type(
+  int
+)
+"lexstyle.ml" 1955 133242 133284 "lexstyle.ml" 1955 133242 133288
+type(
+  int
+)
+"lexstyle.ml" 1955 133242 133269 "lexstyle.ml" 1955 133242 133288
+type(
+  int array
+)
+"lexstyle.ml" 1955 133242 133244 "lexstyle.ml" 1955 133242 133288
+type(
+  unit
+)
+"lexstyle.ml" 1955 133242 133293 "lexstyle.ml" 1955 133242 133320
+type(
+  string ->
+  Emisc.StringCount.count -> Lexing.lexbuf -> int -> Emisc.StringCount.count
+)
+ident(
+  int_ref __ocaml_lex_extract_tag_rec "lexstyle.ml" 1956 133342 133346 "lexstyle.ml" 1956 133342 133373
+)
+"lexstyle.ml" 1955 133242 133321 "lexstyle.ml" 1955 133242 133324
+type(
+  string
+)
+ident(
+  int_ref tag "lexstyle.ml" 1954 133206 133222 "lexstyle.ml" 1954 133206 133225
+)
+"lexstyle.ml" 1955 133242 133325 "lexstyle.ml" 1955 133242 133331
+type(
+  Emisc.StringCount.count
+)
+ident(
+  int_ref styles "lexstyle.ml" 1954 133206 133226 "lexstyle.ml" 1954 133206 133232
+)
+"lexstyle.ml" 1955 133242 133332 "lexstyle.ml" 1955 133242 133338
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1954 133206 133233 "lexstyle.ml" 1954 133206 133239
+)
+"lexstyle.ml" 1955 133242 133339 "lexstyle.ml" 1955 133242 133341
+type(
+  int
+)
+"lexstyle.ml" 1955 133242 133293 "lexstyle.ml" 1955 133242 133341
+call(
+  tail
+)
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1955 133242 133244 "lexstyle.ml" 1955 133242 133341
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1956 133342 133346 "lexstyle.ml" 1956 133342 133373
+type(
+  string ->
+  Emisc.StringCount.count -> Lexing.lexbuf -> int -> Emisc.StringCount.count
+)
+ident(
+  def __ocaml_lex_extract_tag_rec "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 1956 133342 133374 "lexstyle.ml" 1956 133342 133377
+type(
+  string
+)
+ident(
+  def tag "lexstyle.ml" 1956 133342 133378 "lexstyle.ml" 1983 134000 134122
+)
+"lexstyle.ml" 1956 133342 133378 "lexstyle.ml" 1956 133342 133384
+type(
+  Emisc.StringCount.count
+)
+ident(
+  def styles "lexstyle.ml" 1956 133342 133385 "lexstyle.ml" 1983 134000 134122
+)
+"lexstyle.ml" 1956 133342 133385 "lexstyle.ml" 1956 133342 133391
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.ml" 1956 133342 133392 "lexstyle.ml" 1983 134000 134122
+)
+"lexstyle.ml" 1956 133342 133392 "lexstyle.ml" 1956 133342 133409
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexstyle.ml" 1957 133412 133414 "lexstyle.ml" 1983 134000 134122
+)
+"lexstyle.ml" 1957 133412 133420 "lexstyle.ml" 1957 133412 133437
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.new_engine
+)
+"lexstyle.ml" 1957 133412 133438 "lexstyle.ml" 1957 133412 133456
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "lexstyle.ml" 9 113 117 "lexstyle.ml" 9 113 135
+)
+"lexstyle.ml" 1957 133412 133457 "lexstyle.ml" 1957 133412 133474
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexstyle.ml" 1956 133342 133392 "lexstyle.ml" 1956 133342 133409
+)
+"lexstyle.ml" 1957 133412 133475 "lexstyle.ml" 1957 133412 133481
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1956 133342 133385 "lexstyle.ml" 1956 133342 133391
+)
+"lexstyle.ml" 1957 133412 133420 "lexstyle.ml" 1957 133412 133481
+call(
+  stack
+)
+type(
+  int
+)
+"lexstyle.ml" 1958 133487 133495 "lexstyle.ml" 1958 133487 133496
+type(
+  int
+)
+"lexstyle.mll" 43 133520 133526 "lexstyle.mll" 43 133520 133536
+type(
+  Emisc.StringCount.count
+)
+ident(
+  int_ref styles "lexstyle.ml" 1956 133342 133378 "lexstyle.ml" 1956 133342 133384
+)
+"lexstyle.ml" 1963 133559 133563 "lexstyle.ml" 1963 133559 133564
+type(
+  int
+)
+"lexstyle.mll" 44 133588 133599 "lexstyle.mll" 44 133588 133610
+type(
+  string ->
+  Emisc.StringCount.count -> Lexing.lexbuf -> Emisc.StringCount.count
+)
+ident(
+  int_ref extract_tag "lexstyle.ml" 1954 133206 133210 "lexstyle.ml" 1954 133206 133221
+)
+"lexstyle.mll" 44 133588 133611 "lexstyle.mll" 44 133588 133614
+type(
+  string
+)
+ident(
+  int_ref tag "lexstyle.ml" 1956 133342 133374 "lexstyle.ml" 1956 133342 133377
+)
+"lexstyle.mll" 44 133588 133615 "lexstyle.mll" 44 133588 133621
+type(
+  Emisc.StringCount.count
+)
+ident(
+  int_ref styles "lexstyle.ml" 1956 133342 133378 "lexstyle.ml" 1956 133342 133384
+)
+"lexstyle.mll" 44 133588 133622 "lexstyle.mll" 44 133588 133628
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1956 133342 133385 "lexstyle.ml" 1956 133342 133391
+)
+"lexstyle.mll" 44 133588 133597 "lexstyle.mll" 44 133588 133630
+call(
+  tail
+)
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1968 133653 133657 "lexstyle.ml" 1968 133653 133658
+type(
+  int
+)
+"lexstyle.mll" 46 133686 133708 "lexstyle.mll" 46 133686 133709
+type(
+  string
+)
+ident(
+  def v "lexstyle.mll" 50 133833 133835 "lexstyle.mll" 50 133833 133889
+)
+"lexstyle.ml" 1973 133731 133733 "lexstyle.ml" 1973 133731 133750
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"lexstyle.ml" 1973 133731 133751 "lexstyle.ml" 1973 133731 133757
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1956 133342 133385 "lexstyle.ml" 1956 133342 133391
+)
+"lexstyle.ml" 1973 133731 133758 "lexstyle.ml" 1973 133731 133764
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1956 133342 133385 "lexstyle.ml" 1956 133342 133391
+)
+"lexstyle.ml" 1973 133731 133758 "lexstyle.ml" 1973 133731 133779
+type(
+  int array
+)
+"lexstyle.ml" 1973 133731 133781 "lexstyle.ml" 1973 133731 133782
+type(
+  int
+)
+"lexstyle.ml" 1973 133731 133758 "lexstyle.ml" 1973 133731 133783
+type(
+  int
+)
+"lexstyle.ml" 1973 133731 133784 "lexstyle.ml" 1973 133731 133790
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1956 133342 133385 "lexstyle.ml" 1956 133342 133391
+)
+"lexstyle.ml" 1973 133731 133784 "lexstyle.ml" 1973 133731 133805
+type(
+  int array
+)
+"lexstyle.ml" 1973 133731 133807 "lexstyle.ml" 1973 133731 133808
+type(
+  int
+)
+"lexstyle.ml" 1973 133731 133784 "lexstyle.ml" 1973 133731 133809
+type(
+  int
+)
+"lexstyle.ml" 1973 133731 133733 "lexstyle.ml" 1973 133731 133809
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 50 133833 133837 "lexstyle.mll" 50 133833 133848
+type(
+  string ->
+  Emisc.StringCount.count -> Lexing.lexbuf -> Emisc.StringCount.count
+)
+ident(
+  int_ref extract_tag "lexstyle.ml" 1954 133206 133210 "lexstyle.ml" 1954 133206 133221
+)
+"lexstyle.mll" 50 133833 133849 "lexstyle.mll" 50 133833 133852
+type(
+  string
+)
+ident(
+  int_ref tag "lexstyle.ml" 1956 133342 133374 "lexstyle.ml" 1956 133342 133377
+)
+"lexstyle.mll" 50 133833 133854 "lexstyle.mll" 50 133833 133870
+type(
+  Emisc.StringCount.key -> Emisc.StringCount.count -> Emisc.StringCount.count
+)
+ident(
+  ext_ref Emisc.StringCount.incr
+)
+"lexstyle.mll" 50 133833 133871 "lexstyle.mll" 50 133833 133872
+type(
+  Emisc.StringCount.key
+)
+ident(
+  int_ref v "lexstyle.mll" 46 133686 133708 "lexstyle.mll" 46 133686 133709
+)
+"lexstyle.mll" 50 133833 133873 "lexstyle.mll" 50 133833 133879
+type(
+  Emisc.StringCount.count
+)
+ident(
+  int_ref styles "lexstyle.ml" 1956 133342 133378 "lexstyle.ml" 1956 133342 133384
+)
+"lexstyle.mll" 50 133833 133853 "lexstyle.mll" 50 133833 133880
+call(
+  stack
+)
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.mll" 50 133833 133881 "lexstyle.mll" 50 133833 133887
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1956 133342 133385 "lexstyle.ml" 1956 133342 133391
+)
+"lexstyle.mll" 50 133833 133835 "lexstyle.mll" 50 133833 133889
+call(
+  tail
+)
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1969 133662 133662 "lexstyle.mll" 50 133833 133889
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1978 133912 133916 "lexstyle.ml" 1978 133912 133917
+type(
+  int
+)
+"lexstyle.mll" 56 133941 133946 "lexstyle.mll" 56 133941 133957
+type(
+  string ->
+  Emisc.StringCount.count -> Lexing.lexbuf -> Emisc.StringCount.count
+)
+ident(
+  int_ref extract_tag "lexstyle.ml" 1954 133206 133210 "lexstyle.ml" 1954 133206 133221
+)
+"lexstyle.mll" 56 133941 133958 "lexstyle.mll" 56 133941 133961
+type(
+  string
+)
+ident(
+  int_ref tag "lexstyle.ml" 1956 133342 133374 "lexstyle.ml" 1956 133342 133377
+)
+"lexstyle.mll" 56 133941 133962 "lexstyle.mll" 56 133941 133968
+type(
+  Emisc.StringCount.count
+)
+ident(
+  int_ref styles "lexstyle.ml" 1956 133342 133378 "lexstyle.ml" 1956 133342 133384
+)
+"lexstyle.mll" 56 133941 133969 "lexstyle.mll" 56 133941 133975
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1956 133342 133385 "lexstyle.ml" 1956 133342 133391
+)
+"lexstyle.mll" 56 133941 133943 "lexstyle.mll" 56 133941 133977
+call(
+  tail
+)
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1983 134000 134004 "lexstyle.ml" 1983 134000 134021
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexstyle.ml" 1983 134000 134025 "lexstyle.ml" 1983 134000 134122
+)
+"lexstyle.ml" 1983 134000 134025 "lexstyle.ml" 1983 134000 134031
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1956 133342 133385 "lexstyle.ml" 1956 133342 133391
+)
+"lexstyle.ml" 1983 134000 134025 "lexstyle.ml" 1983 134000 134050
+type(
+  Lexing.lexbuf -> unit
+)
+"lexstyle.ml" 1983 134000 134051 "lexstyle.ml" 1983 134000 134057
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1956 133342 133385 "lexstyle.ml" 1956 133342 133391
+)
+"lexstyle.ml" 1983 134000 134025 "lexstyle.ml" 1983 134000 134057
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.ml" 1983 134000 134059 "lexstyle.ml" 1983 134000 134086
+type(
+  string ->
+  Emisc.StringCount.count -> Lexing.lexbuf -> int -> Emisc.StringCount.count
+)
+ident(
+  int_ref __ocaml_lex_extract_tag_rec "lexstyle.ml" 1956 133342 133346 "lexstyle.ml" 1956 133342 133373
+)
+"lexstyle.ml" 1983 134000 134087 "lexstyle.ml" 1983 134000 134090
+type(
+  string
+)
+ident(
+  int_ref tag "lexstyle.ml" 1956 133342 133374 "lexstyle.ml" 1956 133342 133377
+)
+"lexstyle.ml" 1983 134000 134091 "lexstyle.ml" 1983 134000 134097
+type(
+  Emisc.StringCount.count
+)
+ident(
+  int_ref styles "lexstyle.ml" 1956 133342 133378 "lexstyle.ml" 1956 133342 133384
+)
+"lexstyle.ml" 1983 134000 134098 "lexstyle.ml" 1983 134000 134104
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1956 133342 133385 "lexstyle.ml" 1956 133342 133391
+)
+"lexstyle.ml" 1983 134000 134105 "lexstyle.ml" 1983 134000 134122
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexstyle.ml" 1983 134000 134004 "lexstyle.ml" 1983 134000 134021
+)
+"lexstyle.ml" 1983 134000 134059 "lexstyle.ml" 1983 134000 134122
+call(
+  tail
+)
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1983 134000 134025 "lexstyle.ml" 1983 134000 134122
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1957 133412 133414 "lexstyle.ml" 1983 134000 134122
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.ml" 1985 134124 134128 "lexstyle.ml" 1985 134124 134136
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def skip_tag "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 1985 134124 134137 "lexstyle.ml" 1985 134124 134143
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.ml" 1986 134146 134150 "lexstyle.ml" 1986 134146 134184
+)
+"lexstyle.ml" 1986 134146 134150 "lexstyle.ml" 1986 134146 134174
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_skip_tag_rec "lexstyle.ml" 1987 134185 134189 "lexstyle.ml" 1987 134185 134213
+)
+"lexstyle.ml" 1986 134146 134175 "lexstyle.ml" 1986 134146 134181
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1985 134124 134137 "lexstyle.ml" 1985 134124 134143
+)
+"lexstyle.ml" 1986 134146 134182 "lexstyle.ml" 1986 134146 134184
+type(
+  int
+)
+"lexstyle.ml" 1986 134146 134150 "lexstyle.ml" 1986 134146 134184
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 1987 134185 134189 "lexstyle.ml" 1987 134185 134213
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_skip_tag_rec "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 1987 134185 134214 "lexstyle.ml" 1987 134185 134220
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.ml" 1987 134185 134221 "lexstyle.ml" 1999 134472 134580
+)
+"lexstyle.ml" 1987 134185 134221 "lexstyle.ml" 1987 134185 134238
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexstyle.ml" 1988 134241 134243 "lexstyle.ml" 1999 134472 134580
+)
+"lexstyle.ml" 1988 134241 134249 "lexstyle.ml" 1988 134241 134262
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"lexstyle.ml" 1988 134241 134263 "lexstyle.ml" 1988 134241 134281
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "lexstyle.ml" 9 113 117 "lexstyle.ml" 9 113 135
+)
+"lexstyle.ml" 1988 134241 134282 "lexstyle.ml" 1988 134241 134299
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexstyle.ml" 1987 134185 134221 "lexstyle.ml" 1987 134185 134238
+)
+"lexstyle.ml" 1988 134241 134300 "lexstyle.ml" 1988 134241 134306
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1987 134185 134214 "lexstyle.ml" 1987 134185 134220
+)
+"lexstyle.ml" 1988 134241 134249 "lexstyle.ml" 1988 134241 134306
+call(
+  stack
+)
+type(
+  int
+)
+"lexstyle.ml" 1989 134312 134320 "lexstyle.ml" 1989 134312 134321
+type(
+  int
+)
+"lexstyle.mll" 59 134345 134359 "lexstyle.mll" 59 134345 134365
+type(
+  unit
+)
+"lexstyle.ml" 1994 134388 134392 "lexstyle.ml" 1994 134388 134393
+type(
+  int
+)
+"lexstyle.mll" 60 134417 134424 "lexstyle.mll" 60 134417 134429
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref error "lexstyle.mll" 18 46 50 "lexstyle.mll" 18 46 55
+)
+"lexstyle.mll" 60 134417 134430 "lexstyle.mll" 60 134417 134440
+type(
+  string
+)
+"lexstyle.mll" 60 134417 134441 "lexstyle.mll" 60 134417 134447
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1987 134185 134214 "lexstyle.ml" 1987 134185 134220
+)
+"lexstyle.mll" 60 134417 134422 "lexstyle.mll" 60 134417 134449
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 1999 134472 134476 "lexstyle.ml" 1999 134472 134493
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexstyle.ml" 1999 134472 134497 "lexstyle.ml" 1999 134472 134580
+)
+"lexstyle.ml" 1999 134472 134497 "lexstyle.ml" 1999 134472 134503
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1987 134185 134214 "lexstyle.ml" 1987 134185 134220
+)
+"lexstyle.ml" 1999 134472 134497 "lexstyle.ml" 1999 134472 134522
+type(
+  Lexing.lexbuf -> unit
+)
+"lexstyle.ml" 1999 134472 134523 "lexstyle.ml" 1999 134472 134529
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1987 134185 134214 "lexstyle.ml" 1987 134185 134220
+)
+"lexstyle.ml" 1999 134472 134497 "lexstyle.ml" 1999 134472 134529
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.ml" 1999 134472 134531 "lexstyle.ml" 1999 134472 134555
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_skip_tag_rec "lexstyle.ml" 1987 134185 134189 "lexstyle.ml" 1987 134185 134213
+)
+"lexstyle.ml" 1999 134472 134556 "lexstyle.ml" 1999 134472 134562
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 1987 134185 134214 "lexstyle.ml" 1987 134185 134220
+)
+"lexstyle.ml" 1999 134472 134563 "lexstyle.ml" 1999 134472 134580
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexstyle.ml" 1999 134472 134476 "lexstyle.ml" 1999 134472 134493
+)
+"lexstyle.ml" 1999 134472 134531 "lexstyle.ml" 1999 134472 134580
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 1999 134472 134497 "lexstyle.ml" 1999 134472 134580
+type(
+  unit
+)
+"lexstyle.ml" 1988 134241 134243 "lexstyle.ml" 1999 134472 134580
+type(
+  unit
+)
+"lexstyle.ml" 2001 134582 134586 "lexstyle.ml" 2001 134582 134598
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def skip_comment "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 2001 134582 134599 "lexstyle.ml" 2001 134582 134605
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.ml" 2002 134608 134612 "lexstyle.ml" 2002 134608 134650
+)
+"lexstyle.ml" 2002 134608 134612 "lexstyle.ml" 2002 134608 134640
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_skip_comment_rec "lexstyle.ml" 2003 134651 134655 "lexstyle.ml" 2003 134651 134683
+)
+"lexstyle.ml" 2002 134608 134641 "lexstyle.ml" 2002 134608 134647
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2001 134582 134599 "lexstyle.ml" 2001 134582 134605
+)
+"lexstyle.ml" 2002 134608 134648 "lexstyle.ml" 2002 134608 134650
+type(
+  int
+)
+"lexstyle.ml" 2002 134608 134612 "lexstyle.ml" 2002 134608 134650
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2003 134651 134655 "lexstyle.ml" 2003 134651 134683
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_skip_comment_rec "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 2003 134651 134684 "lexstyle.ml" 2003 134651 134690
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.ml" 2003 134651 134691 "lexstyle.ml" 2020 135025 135137
+)
+"lexstyle.ml" 2003 134651 134691 "lexstyle.ml" 2003 134651 134708
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexstyle.ml" 2004 134711 134713 "lexstyle.ml" 2020 135025 135137
+)
+"lexstyle.ml" 2004 134711 134719 "lexstyle.ml" 2004 134711 134732
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"lexstyle.ml" 2004 134711 134733 "lexstyle.ml" 2004 134711 134751
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "lexstyle.ml" 9 113 117 "lexstyle.ml" 9 113 135
+)
+"lexstyle.ml" 2004 134711 134752 "lexstyle.ml" 2004 134711 134769
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexstyle.ml" 2003 134651 134691 "lexstyle.ml" 2003 134651 134708
+)
+"lexstyle.ml" 2004 134711 134770 "lexstyle.ml" 2004 134711 134776
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2003 134651 134684 "lexstyle.ml" 2003 134651 134690
+)
+"lexstyle.ml" 2004 134711 134719 "lexstyle.ml" 2004 134711 134776
+call(
+  stack
+)
+type(
+  int
+)
+"lexstyle.ml" 2005 134782 134790 "lexstyle.ml" 2005 134782 134791
+type(
+  int
+)
+"lexstyle.mll" 63 134815 134829 "lexstyle.mll" 63 134815 134832
+type(
+  unit
+)
+"lexstyle.ml" 2010 134855 134859 "lexstyle.ml" 2010 134855 134860
+type(
+  int
+)
+"lexstyle.mll" 65 134884 134888 "lexstyle.mll" 65 134884 134900
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref skip_comment "lexstyle.ml" 2001 134582 134586 "lexstyle.ml" 2001 134582 134598
+)
+"lexstyle.mll" 65 134884 134901 "lexstyle.mll" 65 134884 134907
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2003 134651 134684 "lexstyle.ml" 2003 134651 134690
+)
+"lexstyle.mll" 65 134884 134887 "lexstyle.mll" 65 134884 134908
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2015 134931 134935 "lexstyle.ml" 2015 134931 134936
+type(
+  int
+)
+"lexstyle.mll" 67 134960 134964 "lexstyle.mll" 67 134960 134969
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref error "lexstyle.mll" 18 46 50 "lexstyle.mll" 18 46 55
+)
+"lexstyle.mll" 67 134960 134970 "lexstyle.mll" 67 134960 134994
+type(
+  string
+)
+"lexstyle.mll" 67 134960 134995 "lexstyle.mll" 67 134960 135001
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2003 134651 134684 "lexstyle.ml" 2003 134651 134690
+)
+"lexstyle.mll" 67 134960 134963 "lexstyle.mll" 67 134960 135002
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2020 135025 135029 "lexstyle.ml" 2020 135025 135046
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexstyle.ml" 2020 135025 135050 "lexstyle.ml" 2020 135025 135137
+)
+"lexstyle.ml" 2020 135025 135050 "lexstyle.ml" 2020 135025 135056
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2003 134651 134684 "lexstyle.ml" 2003 134651 134690
+)
+"lexstyle.ml" 2020 135025 135050 "lexstyle.ml" 2020 135025 135075
+type(
+  Lexing.lexbuf -> unit
+)
+"lexstyle.ml" 2020 135025 135076 "lexstyle.ml" 2020 135025 135082
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2003 134651 134684 "lexstyle.ml" 2003 134651 134690
+)
+"lexstyle.ml" 2020 135025 135050 "lexstyle.ml" 2020 135025 135082
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.ml" 2020 135025 135084 "lexstyle.ml" 2020 135025 135112
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_skip_comment_rec "lexstyle.ml" 2003 134651 134655 "lexstyle.ml" 2003 134651 134683
+)
+"lexstyle.ml" 2020 135025 135113 "lexstyle.ml" 2020 135025 135119
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2003 134651 134684 "lexstyle.ml" 2003 134651 134690
+)
+"lexstyle.ml" 2020 135025 135120 "lexstyle.ml" 2020 135025 135137
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexstyle.ml" 2020 135025 135029 "lexstyle.ml" 2020 135025 135046
+)
+"lexstyle.ml" 2020 135025 135084 "lexstyle.ml" 2020 135025 135137
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2020 135025 135050 "lexstyle.ml" 2020 135025 135137
+type(
+  unit
+)
+"lexstyle.ml" 2004 134711 134713 "lexstyle.ml" 2020 135025 135137
+type(
+  unit
+)
+"lexstyle.ml" 2022 135139 135143 "lexstyle.ml" 2022 135139 135147
+type(
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> bool
+)
+ident(
+  def dump "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 2022 135139 135148 "lexstyle.ml" 2022 135139 135149
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  def m "lexstyle.ml" 2022 135139 135150 "lexstyle.ml" 2023 135163 135203
+)
+"lexstyle.ml" 2022 135139 135150 "lexstyle.ml" 2022 135139 135153
+type(
+  out_channel
+)
+ident(
+  def out "lexstyle.ml" 2022 135139 135154 "lexstyle.ml" 2023 135163 135203
+)
+"lexstyle.ml" 2022 135139 135154 "lexstyle.ml" 2022 135139 135160
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.ml" 2023 135163 135167 "lexstyle.ml" 2023 135163 135203
+)
+"lexstyle.ml" 2023 135163 135167 "lexstyle.ml" 2023 135163 135187
+type(
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> int -> bool
+)
+ident(
+  int_ref __ocaml_lex_dump_rec "lexstyle.ml" 2024 135204 135208 "lexstyle.ml" 2024 135204 135228
+)
+"lexstyle.ml" 2023 135163 135188 "lexstyle.ml" 2023 135163 135189
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2022 135139 135148 "lexstyle.ml" 2022 135139 135149
+)
+"lexstyle.ml" 2023 135163 135190 "lexstyle.ml" 2023 135163 135193
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2022 135139 135150 "lexstyle.ml" 2022 135139 135153
+)
+"lexstyle.ml" 2023 135163 135194 "lexstyle.ml" 2023 135163 135200
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2022 135139 135154 "lexstyle.ml" 2022 135139 135160
+)
+"lexstyle.ml" 2023 135163 135201 "lexstyle.ml" 2023 135163 135203
+type(
+  int
+)
+"lexstyle.ml" 2023 135163 135167 "lexstyle.ml" 2023 135163 135203
+call(
+  tail
+)
+type(
+  bool
+)
+"lexstyle.ml" 2024 135204 135208 "lexstyle.ml" 2024 135204 135228
+type(
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> int -> bool
+)
+ident(
+  def __ocaml_lex_dump_rec "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 2024 135204 135229 "lexstyle.ml" 2024 135204 135230
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  def m "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2102 137095 137205
+)
+"lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+type(
+  out_channel
+)
+ident(
+  def out "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2102 137095 137205
+)
+"lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.ml" 2024 135204 135242 "lexstyle.ml" 2102 137095 137205
+)
+"lexstyle.ml" 2024 135204 135242 "lexstyle.ml" 2024 135204 135259
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexstyle.ml" 2025 135262 135264 "lexstyle.ml" 2102 137095 137205
+)
+"lexstyle.ml" 2025 135262 135270 "lexstyle.ml" 2025 135262 135283
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"lexstyle.ml" 2025 135262 135284 "lexstyle.ml" 2025 135262 135302
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "lexstyle.ml" 9 113 117 "lexstyle.ml" 9 113 135
+)
+"lexstyle.ml" 2025 135262 135303 "lexstyle.ml" 2025 135262 135320
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexstyle.ml" 2024 135204 135242 "lexstyle.ml" 2024 135204 135259
+)
+"lexstyle.ml" 2025 135262 135321 "lexstyle.ml" 2025 135262 135327
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2025 135262 135270 "lexstyle.ml" 2025 135262 135327
+call(
+  stack
+)
+type(
+  int
+)
+"lexstyle.ml" 2026 135333 135341 "lexstyle.ml" 2026 135333 135342
+type(
+  int
+)
+"lexstyle.mll" 71 135370 135375 "lexstyle.mll" 71 135370 135378
+type(
+  string
+)
+ident(
+  def lxm "lexstyle.mll" 72 135505 135508 "lexstyle.mll" 76 135619 135643
+)
+"lexstyle.ml" 2031 135400 135402 "lexstyle.ml" 2031 135400 135419
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"lexstyle.ml" 2031 135400 135420 "lexstyle.ml" 2031 135400 135426
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2031 135400 135427 "lexstyle.ml" 2031 135400 135433
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2031 135400 135427 "lexstyle.ml" 2031 135400 135454
+type(
+  int
+)
+"lexstyle.ml" 2031 135400 135455 "lexstyle.ml" 2031 135400 135461
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2031 135400 135455 "lexstyle.ml" 2031 135400 135481
+type(
+  int
+)
+"lexstyle.ml" 2031 135400 135402 "lexstyle.ml" 2031 135400 135481
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 72 135505 135510 "lexstyle.mll" 72 135505 135517
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"lexstyle.mll" 72 135505 135518 "lexstyle.mll" 72 135505 135521
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.mll" 72 135505 135522 "lexstyle.mll" 72 135505 135526
+type(
+  (string -> unit, out_channel, unit) format
+)
+"lexstyle.mll" 72 135505 135527 "lexstyle.mll" 72 135505 135530
+type(
+  string
+)
+ident(
+  int_ref lxm "lexstyle.mll" 71 135370 135375 "lexstyle.mll" 71 135370 135378
+)
+"lexstyle.mll" 72 135505 135510 "lexstyle.mll" 72 135505 135530
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.mll" 73 135533 135538 "lexstyle.mll" 73 135533 135558
+type(
+  (Emisc.StringMap.key -> string -> unit) -> string Emisc.StringMap.t -> unit
+)
+ident(
+  ext_ref Emisc.StringMap.iter
+)
+"lexstyle.mll" 74 135559 135571 "lexstyle.mll" 74 135559 135573
+type(
+  Emisc.StringMap.key
+)
+ident(
+  def st "lexstyle.mll" 74 135559 135574 "lexstyle.mll" 74 135559 135606
+)
+"lexstyle.mll" 74 135559 135574 "lexstyle.mll" 74 135559 135576
+type(
+  string
+)
+ident(
+  def cl "lexstyle.mll" 74 135559 135580 "lexstyle.mll" 74 135559 135606
+)
+"lexstyle.mll" 74 135559 135580 "lexstyle.mll" 74 135559 135596
+type(
+  out_channel -> string -> Emisc.StringMap.key -> unit
+)
+ident(
+  ext_ref Emisc.dump_class
+)
+"lexstyle.mll" 74 135559 135597 "lexstyle.mll" 74 135559 135600
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.mll" 74 135559 135601 "lexstyle.mll" 74 135559 135603
+type(
+  string
+)
+ident(
+  int_ref cl "lexstyle.mll" 74 135559 135574 "lexstyle.mll" 74 135559 135576
+)
+"lexstyle.mll" 74 135559 135604 "lexstyle.mll" 74 135559 135606
+type(
+  Emisc.StringMap.key
+)
+ident(
+  int_ref st "lexstyle.mll" 74 135559 135571 "lexstyle.mll" 74 135559 135573
+)
+"lexstyle.mll" 74 135559 135580 "lexstyle.mll" 74 135559 135606
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.mll" 74 135559 135566 "lexstyle.mll" 74 135559 135607
+type(
+  Emisc.StringMap.key -> string -> unit
+)
+"lexstyle.mll" 75 135608 135615 "lexstyle.mll" 75 135608 135616
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2024 135204 135229 "lexstyle.ml" 2024 135204 135230
+)
+"lexstyle.mll" 73 135533 135538 "lexstyle.mll" 75 135608 135616
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.mll" 76 135619 135624 "lexstyle.mll" 76 135619 135628
+type(
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> bool
+)
+ident(
+  int_ref dump "lexstyle.ml" 2022 135139 135143 "lexstyle.ml" 2022 135139 135147
+)
+"lexstyle.mll" 76 135619 135629 "lexstyle.mll" 76 135619 135630
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2024 135204 135229 "lexstyle.ml" 2024 135204 135230
+)
+"lexstyle.mll" 76 135619 135631 "lexstyle.mll" 76 135619 135634
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.mll" 76 135619 135635 "lexstyle.mll" 76 135619 135641
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.mll" 76 135619 135624 "lexstyle.mll" 76 135619 135641
+call(
+  tail
+)
+type(
+  bool
+)
+"lexstyle.mll" 73 135533 135538 "lexstyle.mll" 76 135619 135641
+type(
+  bool
+)
+"lexstyle.mll" 72 135505 135508 "lexstyle.mll" 76 135619 135643
+type(
+  bool
+)
+"lexstyle.ml" 2027 135346 135346 "lexstyle.mll" 76 135619 135643
+type(
+  bool
+)
+"lexstyle.ml" 2040 135666 135670 "lexstyle.ml" 2040 135666 135671
+type(
+  int
+)
+"lexstyle.mll" 77 135699 135721 "lexstyle.mll" 77 135699 135724
+type(
+  string
+)
+ident(
+  def lxm "lexstyle.mll" 78 135851 135854 "lexstyle.mll" 79 135880 135904
+)
+"lexstyle.ml" 2045 135746 135748 "lexstyle.ml" 2045 135746 135765
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"lexstyle.ml" 2045 135746 135766 "lexstyle.ml" 2045 135746 135772
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2045 135746 135773 "lexstyle.ml" 2045 135746 135779
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2045 135746 135773 "lexstyle.ml" 2045 135746 135800
+type(
+  int
+)
+"lexstyle.ml" 2045 135746 135801 "lexstyle.ml" 2045 135746 135807
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2045 135746 135801 "lexstyle.ml" 2045 135746 135827
+type(
+  int
+)
+"lexstyle.ml" 2045 135746 135748 "lexstyle.ml" 2045 135746 135827
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 78 135851 135856 "lexstyle.mll" 78 135851 135869
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"lexstyle.mll" 78 135851 135870 "lexstyle.mll" 78 135851 135873
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.mll" 78 135851 135874 "lexstyle.mll" 78 135851 135877
+type(
+  string
+)
+ident(
+  int_ref lxm "lexstyle.mll" 77 135699 135721 "lexstyle.mll" 77 135699 135724
+)
+"lexstyle.mll" 78 135851 135856 "lexstyle.mll" 78 135851 135877
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.mll" 79 135880 135885 "lexstyle.mll" 79 135880 135889
+type(
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> bool
+)
+ident(
+  int_ref dump "lexstyle.ml" 2022 135139 135143 "lexstyle.ml" 2022 135139 135147
+)
+"lexstyle.mll" 79 135880 135890 "lexstyle.mll" 79 135880 135891
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2024 135204 135229 "lexstyle.ml" 2024 135204 135230
+)
+"lexstyle.mll" 79 135880 135892 "lexstyle.mll" 79 135880 135895
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.mll" 79 135880 135896 "lexstyle.mll" 79 135880 135902
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.mll" 79 135880 135885 "lexstyle.mll" 79 135880 135902
+call(
+  tail
+)
+type(
+  bool
+)
+"lexstyle.mll" 78 135851 135854 "lexstyle.mll" 79 135880 135904
+type(
+  bool
+)
+"lexstyle.ml" 2041 135675 135675 "lexstyle.mll" 79 135880 135904
+type(
+  bool
+)
+"lexstyle.ml" 2051 135927 135931 "lexstyle.ml" 2051 135927 135932
+type(
+  int
+)
+"lexstyle.mll" 80 135960 135972 "lexstyle.mll" 80 135960 135975
+type(
+  string
+)
+ident(
+  def lxm "lexstyle.mll" 81 136109 136111 "lexstyle.mll" 83 136164 136186
+)
+"lexstyle.ml" 2056 135997 135999 "lexstyle.ml" 2056 135997 136016
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"lexstyle.ml" 2056 135997 136017 "lexstyle.ml" 2056 135997 136023
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2056 135997 136024 "lexstyle.ml" 2056 135997 136030
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2056 135997 136024 "lexstyle.ml" 2056 135997 136051
+type(
+  int
+)
+"lexstyle.ml" 2056 135997 136053 "lexstyle.ml" 2056 135997 136059
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2056 135997 136053 "lexstyle.ml" 2056 135997 136080
+type(
+  int
+)
+"lexstyle.ml" 2056 135997 136081 "lexstyle.ml" 2056 135997 136082
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lexstyle.ml" 2056 135997 136083 "lexstyle.ml" 2056 135997 136084
+type(
+  int
+)
+"lexstyle.ml" 2056 135997 136052 "lexstyle.ml" 2056 135997 136085
+type(
+  int
+)
+"lexstyle.ml" 2056 135997 135999 "lexstyle.ml" 2056 135997 136085
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 81 136109 136112 "lexstyle.mll" 81 136109 136119
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"lexstyle.mll" 81 136109 136120 "lexstyle.mll" 81 136109 136123
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.mll" 81 136109 136124 "lexstyle.mll" 81 136109 136128
+type(
+  (string -> unit, out_channel, unit) format
+)
+"lexstyle.mll" 81 136109 136129 "lexstyle.mll" 81 136109 136132
+type(
+  string
+)
+ident(
+  int_ref lxm "lexstyle.mll" 80 135960 135972 "lexstyle.mll" 80 135960 135975
+)
+"lexstyle.mll" 81 136109 136112 "lexstyle.mll" 81 136109 136132
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.mll" 82 136135 136138 "lexstyle.mll" 82 136135 136150
+type(
+  out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref dump_comment "lexstyle.ml" 2104 137207 137211 "lexstyle.ml" 2104 137207 137223
+)
+"lexstyle.mll" 82 136135 136151 "lexstyle.mll" 82 136135 136154
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.mll" 82 136135 136155 "lexstyle.mll" 82 136135 136161
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.mll" 82 136135 136138 "lexstyle.mll" 82 136135 136161
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.mll" 83 136164 136167 "lexstyle.mll" 83 136164 136171
+type(
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> bool
+)
+ident(
+  int_ref dump "lexstyle.ml" 2022 135139 135143 "lexstyle.ml" 2022 135139 135147
+)
+"lexstyle.mll" 83 136164 136172 "lexstyle.mll" 83 136164 136173
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2024 135204 135229 "lexstyle.ml" 2024 135204 135230
+)
+"lexstyle.mll" 83 136164 136174 "lexstyle.mll" 83 136164 136177
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.mll" 83 136164 136178 "lexstyle.mll" 83 136164 136184
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.mll" 83 136164 136167 "lexstyle.mll" 83 136164 136184
+call(
+  tail
+)
+type(
+  bool
+)
+"lexstyle.mll" 82 136135 136138 "lexstyle.mll" 83 136164 136184
+type(
+  bool
+)
+"lexstyle.mll" 81 136109 136111 "lexstyle.mll" 83 136164 136186
+type(
+  bool
+)
+"lexstyle.ml" 2052 135936 135936 "lexstyle.mll" 83 136164 136186
+type(
+  bool
+)
+"lexstyle.ml" 2063 136209 136213 "lexstyle.ml" 2063 136209 136214
+type(
+  int
+)
+"lexstyle.mll" 84 136242 136264 "lexstyle.mll" 84 136242 136267
+type(
+  string
+)
+ident(
+  def lxm "lexstyle.mll" 85 136394 136396 "lexstyle.mll" 87 136447 136470
+)
+"lexstyle.ml" 2068 136289 136291 "lexstyle.ml" 2068 136289 136308
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"lexstyle.ml" 2068 136289 136309 "lexstyle.ml" 2068 136289 136315
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2068 136289 136316 "lexstyle.ml" 2068 136289 136322
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2068 136289 136316 "lexstyle.ml" 2068 136289 136343
+type(
+  int
+)
+"lexstyle.ml" 2068 136289 136344 "lexstyle.ml" 2068 136289 136350
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2068 136289 136344 "lexstyle.ml" 2068 136289 136370
+type(
+  int
+)
+"lexstyle.ml" 2068 136289 136291 "lexstyle.ml" 2068 136289 136370
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 85 136394 136398 "lexstyle.mll" 85 136394 136405
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"lexstyle.mll" 85 136394 136406 "lexstyle.mll" 85 136394 136409
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.mll" 85 136394 136410 "lexstyle.mll" 85 136394 136414
+type(
+  (string -> unit, out_channel, unit) format
+)
+"lexstyle.mll" 85 136394 136415 "lexstyle.mll" 85 136394 136418
+type(
+  string
+)
+ident(
+  int_ref lxm "lexstyle.mll" 84 136242 136264 "lexstyle.mll" 84 136242 136267
+)
+"lexstyle.mll" 85 136394 136398 "lexstyle.mll" 85 136394 136418
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.mll" 86 136421 136425 "lexstyle.mll" 86 136421 136433
+type(
+  out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref dump_tag "lexstyle.ml" 2135 138139 138143 "lexstyle.ml" 2135 138139 138151
+)
+"lexstyle.mll" 86 136421 136434 "lexstyle.mll" 86 136421 136437
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.mll" 86 136421 136438 "lexstyle.mll" 86 136421 136444
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.mll" 86 136421 136425 "lexstyle.mll" 86 136421 136444
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.mll" 87 136447 136451 "lexstyle.mll" 87 136447 136455
+type(
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> bool
+)
+ident(
+  int_ref dump "lexstyle.ml" 2022 135139 135143 "lexstyle.ml" 2022 135139 135147
+)
+"lexstyle.mll" 87 136447 136456 "lexstyle.mll" 87 136447 136457
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2024 135204 135229 "lexstyle.ml" 2024 135204 135230
+)
+"lexstyle.mll" 87 136447 136458 "lexstyle.mll" 87 136447 136461
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.mll" 87 136447 136462 "lexstyle.mll" 87 136447 136468
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.mll" 87 136447 136451 "lexstyle.mll" 87 136447 136468
+call(
+  tail
+)
+type(
+  bool
+)
+"lexstyle.mll" 86 136421 136425 "lexstyle.mll" 87 136447 136468
+type(
+  bool
+)
+"lexstyle.mll" 85 136394 136396 "lexstyle.mll" 87 136447 136470
+type(
+  bool
+)
+"lexstyle.ml" 2064 136218 136218 "lexstyle.mll" 87 136447 136470
+type(
+  bool
+)
+"lexstyle.ml" 2075 136493 136497 "lexstyle.ml" 2075 136493 136498
+type(
+  int
+)
+"lexstyle.mll" 88 136526 136540 "lexstyle.mll" 88 136526 136543
+type(
+  string
+)
+ident(
+  def lxm "lexstyle.mll" 89 136670 136672 "lexstyle.mll" 91 136736 136759
+)
+"lexstyle.ml" 2080 136565 136567 "lexstyle.ml" 2080 136565 136584
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"lexstyle.ml" 2080 136565 136585 "lexstyle.ml" 2080 136565 136591
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2080 136565 136592 "lexstyle.ml" 2080 136565 136598
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2080 136565 136592 "lexstyle.ml" 2080 136565 136619
+type(
+  int
+)
+"lexstyle.ml" 2080 136565 136620 "lexstyle.ml" 2080 136565 136626
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2080 136565 136620 "lexstyle.ml" 2080 136565 136646
+type(
+  int
+)
+"lexstyle.ml" 2080 136565 136567 "lexstyle.ml" 2080 136565 136646
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 89 136670 136674 "lexstyle.mll" 89 136670 136687
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"lexstyle.mll" 89 136670 136688 "lexstyle.mll" 89 136670 136691
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.mll" 89 136670 136692 "lexstyle.mll" 89 136670 136695
+type(
+  string
+)
+ident(
+  int_ref lxm "lexstyle.mll" 88 136526 136540 "lexstyle.mll" 88 136526 136543
+)
+"lexstyle.mll" 89 136670 136674 "lexstyle.mll" 89 136670 136695
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.mll" 90 136698 136702 "lexstyle.mll" 90 136698 136714
+type(
+  string list ->
+  string list ->
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref abstract_tag "lexstyle.ml" 2156 138809 138813 "lexstyle.ml" 2156 138809 138825
+)
+"lexstyle.mll" 90 136698 136715 "lexstyle.mll" 90 136698 136717
+type(
+  string list
+)
+"lexstyle.mll" 90 136698 136718 "lexstyle.mll" 90 136698 136720
+type(
+  string list
+)
+"lexstyle.mll" 90 136698 136721 "lexstyle.mll" 90 136698 136722
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2024 135204 135229 "lexstyle.ml" 2024 135204 135230
+)
+"lexstyle.mll" 90 136698 136723 "lexstyle.mll" 90 136698 136726
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.mll" 90 136698 136727 "lexstyle.mll" 90 136698 136733
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.mll" 90 136698 136702 "lexstyle.mll" 90 136698 136733
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.mll" 91 136736 136740 "lexstyle.mll" 91 136736 136744
+type(
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> bool
+)
+ident(
+  int_ref dump "lexstyle.ml" 2022 135139 135143 "lexstyle.ml" 2022 135139 135147
+)
+"lexstyle.mll" 91 136736 136745 "lexstyle.mll" 91 136736 136746
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2024 135204 135229 "lexstyle.ml" 2024 135204 135230
+)
+"lexstyle.mll" 91 136736 136747 "lexstyle.mll" 91 136736 136750
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.mll" 91 136736 136751 "lexstyle.mll" 91 136736 136757
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.mll" 91 136736 136740 "lexstyle.mll" 91 136736 136757
+call(
+  tail
+)
+type(
+  bool
+)
+"lexstyle.mll" 90 136698 136702 "lexstyle.mll" 91 136736 136757
+type(
+  bool
+)
+"lexstyle.mll" 89 136670 136672 "lexstyle.mll" 91 136736 136759
+type(
+  bool
+)
+"lexstyle.ml" 2076 136502 136502 "lexstyle.mll" 91 136736 136759
+type(
+  bool
+)
+"lexstyle.ml" 2087 136782 136786 "lexstyle.ml" 2087 136782 136787
+type(
+  int
+)
+"lexstyle.mll" 92 136815 136828 "lexstyle.mll" 92 136815 136831
+type(
+  string
+)
+ident(
+  def lxm "lexstyle.mll" 93 136958 136961 "lexstyle.mll" 93 136958 137006
+)
+"lexstyle.ml" 2092 136853 136855 "lexstyle.ml" 2092 136853 136872
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"lexstyle.ml" 2092 136853 136873 "lexstyle.ml" 2092 136853 136879
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2092 136853 136880 "lexstyle.ml" 2092 136853 136886
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2092 136853 136880 "lexstyle.ml" 2092 136853 136907
+type(
+  int
+)
+"lexstyle.ml" 2092 136853 136908 "lexstyle.ml" 2092 136853 136914
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2092 136853 136908 "lexstyle.ml" 2092 136853 136934
+type(
+  int
+)
+"lexstyle.ml" 2092 136853 136855 "lexstyle.ml" 2092 136853 136934
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 93 136958 136963 "lexstyle.mll" 93 136958 136976
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"lexstyle.mll" 93 136958 136977 "lexstyle.mll" 93 136958 136980
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.mll" 93 136958 136981 "lexstyle.mll" 93 136958 136984
+type(
+  string
+)
+ident(
+  int_ref lxm "lexstyle.mll" 92 136815 136828 "lexstyle.mll" 92 136815 136831
+)
+"lexstyle.mll" 93 136958 136963 "lexstyle.mll" 93 136958 136984
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.mll" 93 136958 136987 "lexstyle.mll" 93 136958 136991
+type(
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> bool
+)
+ident(
+  int_ref dump "lexstyle.ml" 2022 135139 135143 "lexstyle.ml" 2022 135139 135147
+)
+"lexstyle.mll" 93 136958 136992 "lexstyle.mll" 93 136958 136993
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2024 135204 135229 "lexstyle.ml" 2024 135204 135230
+)
+"lexstyle.mll" 93 136958 136994 "lexstyle.mll" 93 136958 136997
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.mll" 93 136958 136998 "lexstyle.mll" 93 136958 137004
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.mll" 93 136958 136987 "lexstyle.mll" 93 136958 137004
+call(
+  tail
+)
+type(
+  bool
+)
+"lexstyle.mll" 93 136958 136961 "lexstyle.mll" 93 136958 137006
+type(
+  bool
+)
+"lexstyle.ml" 2088 136791 136791 "lexstyle.mll" 93 136958 137006
+type(
+  bool
+)
+"lexstyle.ml" 2097 137029 137033 "lexstyle.ml" 2097 137029 137034
+type(
+  int
+)
+"lexstyle.mll" 94 137058 137064 "lexstyle.mll" 94 137058 137072
+type(
+  bool
+)
+"lexstyle.ml" 2102 137095 137099 "lexstyle.ml" 2102 137095 137116
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexstyle.ml" 2102 137095 137120 "lexstyle.ml" 2102 137095 137205
+)
+"lexstyle.ml" 2102 137095 137120 "lexstyle.ml" 2102 137095 137126
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2102 137095 137120 "lexstyle.ml" 2102 137095 137145
+type(
+  Lexing.lexbuf -> unit
+)
+"lexstyle.ml" 2102 137095 137146 "lexstyle.ml" 2102 137095 137152
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2102 137095 137120 "lexstyle.ml" 2102 137095 137152
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.ml" 2102 137095 137154 "lexstyle.ml" 2102 137095 137174
+type(
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> int -> bool
+)
+ident(
+  int_ref __ocaml_lex_dump_rec "lexstyle.ml" 2024 135204 135208 "lexstyle.ml" 2024 135204 135228
+)
+"lexstyle.ml" 2102 137095 137175 "lexstyle.ml" 2102 137095 137176
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2024 135204 135229 "lexstyle.ml" 2024 135204 135230
+)
+"lexstyle.ml" 2102 137095 137177 "lexstyle.ml" 2102 137095 137180
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2024 135204 135231 "lexstyle.ml" 2024 135204 135234
+)
+"lexstyle.ml" 2102 137095 137181 "lexstyle.ml" 2102 137095 137187
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2024 135204 135235 "lexstyle.ml" 2024 135204 135241
+)
+"lexstyle.ml" 2102 137095 137188 "lexstyle.ml" 2102 137095 137205
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexstyle.ml" 2102 137095 137099 "lexstyle.ml" 2102 137095 137116
+)
+"lexstyle.ml" 2102 137095 137154 "lexstyle.ml" 2102 137095 137205
+call(
+  tail
+)
+type(
+  bool
+)
+"lexstyle.ml" 2102 137095 137120 "lexstyle.ml" 2102 137095 137205
+type(
+  bool
+)
+"lexstyle.ml" 2025 135262 135264 "lexstyle.ml" 2102 137095 137205
+type(
+  bool
+)
+"lexstyle.ml" 2104 137207 137211 "lexstyle.ml" 2104 137207 137223
+type(
+  out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  def dump_comment "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 2104 137207 137224 "lexstyle.ml" 2104 137207 137227
+type(
+  out_channel
+)
+ident(
+  def out "lexstyle.ml" 2104 137207 137228 "lexstyle.ml" 2105 137237 137283
+)
+"lexstyle.ml" 2104 137207 137228 "lexstyle.ml" 2104 137207 137234
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.ml" 2105 137237 137241 "lexstyle.ml" 2105 137237 137283
+)
+"lexstyle.ml" 2105 137237 137241 "lexstyle.ml" 2105 137237 137269
+type(
+  out_channel -> Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_dump_comment_rec "lexstyle.ml" 2106 137284 137288 "lexstyle.ml" 2106 137284 137316
+)
+"lexstyle.ml" 2105 137237 137270 "lexstyle.ml" 2105 137237 137273
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2104 137207 137224 "lexstyle.ml" 2104 137207 137227
+)
+"lexstyle.ml" 2105 137237 137274 "lexstyle.ml" 2105 137237 137280
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2104 137207 137228 "lexstyle.ml" 2104 137207 137234
+)
+"lexstyle.ml" 2105 137237 137281 "lexstyle.ml" 2105 137237 137283
+type(
+  int
+)
+"lexstyle.ml" 2105 137237 137241 "lexstyle.ml" 2105 137237 137283
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2106 137284 137288 "lexstyle.ml" 2106 137284 137316
+type(
+  out_channel -> Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_dump_comment_rec "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 2106 137284 137317 "lexstyle.ml" 2106 137284 137320
+type(
+  out_channel
+)
+ident(
+  def out "lexstyle.ml" 2106 137284 137321 "lexstyle.ml" 2133 138021 138137
+)
+"lexstyle.ml" 2106 137284 137321 "lexstyle.ml" 2106 137284 137327
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.ml" 2106 137284 137328 "lexstyle.ml" 2133 138021 138137
+)
+"lexstyle.ml" 2106 137284 137328 "lexstyle.ml" 2106 137284 137345
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexstyle.ml" 2107 137348 137350 "lexstyle.ml" 2133 138021 138137
+)
+"lexstyle.ml" 2107 137348 137356 "lexstyle.ml" 2107 137348 137369
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"lexstyle.ml" 2107 137348 137370 "lexstyle.ml" 2107 137348 137388
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "lexstyle.ml" 9 113 117 "lexstyle.ml" 9 113 135
+)
+"lexstyle.ml" 2107 137348 137389 "lexstyle.ml" 2107 137348 137406
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexstyle.ml" 2106 137284 137328 "lexstyle.ml" 2106 137284 137345
+)
+"lexstyle.ml" 2107 137348 137407 "lexstyle.ml" 2107 137348 137413
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2106 137284 137321 "lexstyle.ml" 2106 137284 137327
+)
+"lexstyle.ml" 2107 137348 137356 "lexstyle.ml" 2107 137348 137413
+call(
+  stack
+)
+type(
+  int
+)
+"lexstyle.ml" 2108 137419 137427 "lexstyle.ml" 2108 137419 137428
+type(
+  int
+)
+"lexstyle.mll" 97 137456 137473 "lexstyle.mll" 97 137456 137476
+type(
+  string
+)
+ident(
+  def lxm "lexstyle.mll" 97 137603 137624 "lexstyle.mll" 97 137603 137649
+)
+"lexstyle.ml" 2113 137498 137500 "lexstyle.ml" 2113 137498 137517
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"lexstyle.ml" 2113 137498 137518 "lexstyle.ml" 2113 137498 137524
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2106 137284 137321 "lexstyle.ml" 2106 137284 137327
+)
+"lexstyle.ml" 2113 137498 137525 "lexstyle.ml" 2113 137498 137531
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2106 137284 137321 "lexstyle.ml" 2106 137284 137327
+)
+"lexstyle.ml" 2113 137498 137525 "lexstyle.ml" 2113 137498 137552
+type(
+  int
+)
+"lexstyle.ml" 2113 137498 137553 "lexstyle.ml" 2113 137498 137559
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2106 137284 137321 "lexstyle.ml" 2106 137284 137327
+)
+"lexstyle.ml" 2113 137498 137553 "lexstyle.ml" 2113 137498 137579
+type(
+  int
+)
+"lexstyle.ml" 2113 137498 137500 "lexstyle.ml" 2113 137498 137579
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 97 137603 137626 "lexstyle.mll" 97 137603 137639
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"lexstyle.mll" 97 137603 137640 "lexstyle.mll" 97 137603 137643
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2106 137284 137317 "lexstyle.ml" 2106 137284 137320
+)
+"lexstyle.mll" 97 137603 137644 "lexstyle.mll" 97 137603 137647
+type(
+  string
+)
+ident(
+  int_ref lxm "lexstyle.mll" 97 137456 137473 "lexstyle.mll" 97 137456 137476
+)
+"lexstyle.mll" 97 137603 137624 "lexstyle.mll" 97 137603 137649
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2109 137432 137432 "lexstyle.mll" 97 137603 137649
+type(
+  unit
+)
+"lexstyle.ml" 2118 137672 137676 "lexstyle.ml" 2118 137672 137677
+type(
+  int
+)
+"lexstyle.mll" 98 137705 137712 "lexstyle.mll" 98 137705 137713
+type(
+  char
+)
+ident(
+  def c "lexstyle.mll" 98 137818 137839 "lexstyle.mll" 98 137818 137886
+)
+"lexstyle.ml" 2123 137735 137737 "lexstyle.ml" 2123 137735 137759
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"lexstyle.ml" 2123 137735 137760 "lexstyle.ml" 2123 137735 137766
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2106 137284 137321 "lexstyle.ml" 2106 137284 137327
+)
+"lexstyle.ml" 2123 137735 137767 "lexstyle.ml" 2123 137735 137773
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2106 137284 137321 "lexstyle.ml" 2106 137284 137327
+)
+"lexstyle.ml" 2123 137735 137767 "lexstyle.ml" 2123 137735 137794
+type(
+  int
+)
+"lexstyle.ml" 2123 137735 137737 "lexstyle.ml" 2123 137735 137794
+call(
+  stack
+)
+type(
+  char
+)
+"lexstyle.mll" 98 137818 137841 "lexstyle.mll" 98 137818 137852
+type(
+  out_channel -> char -> unit
+)
+ident(
+  ext_ref Pervasives.output_char
+)
+"lexstyle.mll" 98 137818 137853 "lexstyle.mll" 98 137818 137856
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2106 137284 137317 "lexstyle.ml" 2106 137284 137320
+)
+"lexstyle.mll" 98 137818 137857 "lexstyle.mll" 98 137818 137858
+type(
+  char
+)
+ident(
+  int_ref c "lexstyle.mll" 98 137705 137712 "lexstyle.mll" 98 137705 137713
+)
+"lexstyle.mll" 98 137818 137841 "lexstyle.mll" 98 137818 137858
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.mll" 98 137818 137861 "lexstyle.mll" 98 137818 137873
+type(
+  out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref dump_comment "lexstyle.ml" 2104 137207 137211 "lexstyle.ml" 2104 137207 137223
+)
+"lexstyle.mll" 98 137818 137874 "lexstyle.mll" 98 137818 137877
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2106 137284 137317 "lexstyle.ml" 2106 137284 137320
+)
+"lexstyle.mll" 98 137818 137878 "lexstyle.mll" 98 137818 137884
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2106 137284 137321 "lexstyle.ml" 2106 137284 137327
+)
+"lexstyle.mll" 98 137818 137861 "lexstyle.mll" 98 137818 137884
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.mll" 98 137818 137839 "lexstyle.mll" 98 137818 137886
+type(
+  unit
+)
+"lexstyle.ml" 2119 137681 137681 "lexstyle.mll" 98 137818 137886
+type(
+  unit
+)
+"lexstyle.ml" 2128 137909 137913 "lexstyle.ml" 2128 137909 137914
+type(
+  int
+)
+"lexstyle.mll" 99 137938 137960 "lexstyle.mll" 99 137938 137965
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref error "lexstyle.mll" 18 46 50 "lexstyle.mll" 18 46 55
+)
+"lexstyle.mll" 99 137938 137966 "lexstyle.mll" 99 137938 137990
+type(
+  string
+)
+"lexstyle.mll" 99 137938 137991 "lexstyle.mll" 99 137938 137997
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2106 137284 137321 "lexstyle.ml" 2106 137284 137327
+)
+"lexstyle.mll" 99 137938 137959 "lexstyle.mll" 99 137938 137998
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2133 138021 138025 "lexstyle.ml" 2133 138021 138042
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexstyle.ml" 2133 138021 138046 "lexstyle.ml" 2133 138021 138137
+)
+"lexstyle.ml" 2133 138021 138046 "lexstyle.ml" 2133 138021 138052
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2106 137284 137321 "lexstyle.ml" 2106 137284 137327
+)
+"lexstyle.ml" 2133 138021 138046 "lexstyle.ml" 2133 138021 138071
+type(
+  Lexing.lexbuf -> unit
+)
+"lexstyle.ml" 2133 138021 138072 "lexstyle.ml" 2133 138021 138078
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2106 137284 137321 "lexstyle.ml" 2106 137284 137327
+)
+"lexstyle.ml" 2133 138021 138046 "lexstyle.ml" 2133 138021 138078
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.ml" 2133 138021 138080 "lexstyle.ml" 2133 138021 138108
+type(
+  out_channel -> Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_dump_comment_rec "lexstyle.ml" 2106 137284 137288 "lexstyle.ml" 2106 137284 137316
+)
+"lexstyle.ml" 2133 138021 138109 "lexstyle.ml" 2133 138021 138112
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2106 137284 137317 "lexstyle.ml" 2106 137284 137320
+)
+"lexstyle.ml" 2133 138021 138113 "lexstyle.ml" 2133 138021 138119
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2106 137284 137321 "lexstyle.ml" 2106 137284 137327
+)
+"lexstyle.ml" 2133 138021 138120 "lexstyle.ml" 2133 138021 138137
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexstyle.ml" 2133 138021 138025 "lexstyle.ml" 2133 138021 138042
+)
+"lexstyle.ml" 2133 138021 138080 "lexstyle.ml" 2133 138021 138137
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2133 138021 138046 "lexstyle.ml" 2133 138021 138137
+type(
+  unit
+)
+"lexstyle.ml" 2107 137348 137350 "lexstyle.ml" 2133 138021 138137
+type(
+  unit
+)
+"lexstyle.ml" 2135 138139 138143 "lexstyle.ml" 2135 138139 138151
+type(
+  out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  def dump_tag "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 2135 138139 138152 "lexstyle.ml" 2135 138139 138155
+type(
+  out_channel
+)
+ident(
+  def out "lexstyle.ml" 2135 138139 138156 "lexstyle.ml" 2136 138165 138207
+)
+"lexstyle.ml" 2135 138139 138156 "lexstyle.ml" 2135 138139 138162
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.ml" 2136 138165 138169 "lexstyle.ml" 2136 138165 138207
+)
+"lexstyle.ml" 2136 138165 138169 "lexstyle.ml" 2136 138165 138193
+type(
+  out_channel -> Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_dump_tag_rec "lexstyle.ml" 2137 138208 138212 "lexstyle.ml" 2137 138208 138236
+)
+"lexstyle.ml" 2136 138165 138194 "lexstyle.ml" 2136 138165 138197
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2135 138139 138152 "lexstyle.ml" 2135 138139 138155
+)
+"lexstyle.ml" 2136 138165 138198 "lexstyle.ml" 2136 138165 138204
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2135 138139 138156 "lexstyle.ml" 2135 138139 138162
+)
+"lexstyle.ml" 2136 138165 138205 "lexstyle.ml" 2136 138165 138207
+type(
+  int
+)
+"lexstyle.ml" 2136 138165 138169 "lexstyle.ml" 2136 138165 138207
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2137 138208 138212 "lexstyle.ml" 2137 138208 138236
+type(
+  out_channel -> Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_dump_tag_rec "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 2137 138208 138237 "lexstyle.ml" 2137 138208 138240
+type(
+  out_channel
+)
+ident(
+  def out "lexstyle.ml" 2137 138208 138241 "lexstyle.ml" 2154 138695 138807
+)
+"lexstyle.ml" 2137 138208 138241 "lexstyle.ml" 2137 138208 138247
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.ml" 2137 138208 138248 "lexstyle.ml" 2154 138695 138807
+)
+"lexstyle.ml" 2137 138208 138248 "lexstyle.ml" 2137 138208 138265
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexstyle.ml" 2138 138268 138270 "lexstyle.ml" 2154 138695 138807
+)
+"lexstyle.ml" 2138 138268 138276 "lexstyle.ml" 2138 138268 138289
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"lexstyle.ml" 2138 138268 138290 "lexstyle.ml" 2138 138268 138308
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "lexstyle.ml" 9 113 117 "lexstyle.ml" 9 113 135
+)
+"lexstyle.ml" 2138 138268 138309 "lexstyle.ml" 2138 138268 138326
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexstyle.ml" 2137 138208 138248 "lexstyle.ml" 2137 138208 138265
+)
+"lexstyle.ml" 2138 138268 138327 "lexstyle.ml" 2138 138268 138333
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2137 138208 138241 "lexstyle.ml" 2137 138208 138247
+)
+"lexstyle.ml" 2138 138268 138276 "lexstyle.ml" 2138 138268 138333
+call(
+  stack
+)
+type(
+  int
+)
+"lexstyle.ml" 2139 138339 138347 "lexstyle.ml" 2139 138339 138348
+type(
+  int
+)
+"lexstyle.mll" 102 138377 138394 "lexstyle.mll" 102 138377 138397
+type(
+  string
+)
+ident(
+  def lxm "lexstyle.mll" 102 138525 138546 "lexstyle.mll" 102 138525 138571
+)
+"lexstyle.ml" 2144 138419 138421 "lexstyle.ml" 2144 138419 138438
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"lexstyle.ml" 2144 138419 138439 "lexstyle.ml" 2144 138419 138445
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2137 138208 138241 "lexstyle.ml" 2137 138208 138247
+)
+"lexstyle.ml" 2144 138419 138446 "lexstyle.ml" 2144 138419 138452
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2137 138208 138241 "lexstyle.ml" 2137 138208 138247
+)
+"lexstyle.ml" 2144 138419 138446 "lexstyle.ml" 2144 138419 138473
+type(
+  int
+)
+"lexstyle.ml" 2144 138419 138474 "lexstyle.ml" 2144 138419 138480
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2137 138208 138241 "lexstyle.ml" 2137 138208 138247
+)
+"lexstyle.ml" 2144 138419 138474 "lexstyle.ml" 2144 138419 138500
+type(
+  int
+)
+"lexstyle.ml" 2144 138419 138421 "lexstyle.ml" 2144 138419 138500
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 102 138525 138548 "lexstyle.mll" 102 138525 138561
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"lexstyle.mll" 102 138525 138562 "lexstyle.mll" 102 138525 138565
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2137 138208 138237 "lexstyle.ml" 2137 138208 138240
+)
+"lexstyle.mll" 102 138525 138566 "lexstyle.mll" 102 138525 138569
+type(
+  string
+)
+ident(
+  int_ref lxm "lexstyle.mll" 102 138377 138394 "lexstyle.mll" 102 138377 138397
+)
+"lexstyle.mll" 102 138525 138546 "lexstyle.mll" 102 138525 138571
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2140 138352 138352 "lexstyle.mll" 102 138525 138571
+type(
+  unit
+)
+"lexstyle.ml" 2149 138594 138598 "lexstyle.ml" 2149 138594 138599
+type(
+  int
+)
+"lexstyle.mll" 103 138624 138647 "lexstyle.mll" 103 138624 138652
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref error "lexstyle.mll" 18 46 50 "lexstyle.mll" 18 46 55
+)
+"lexstyle.mll" 103 138624 138653 "lexstyle.mll" 103 138624 138663
+type(
+  string
+)
+"lexstyle.mll" 103 138624 138664 "lexstyle.mll" 103 138624 138670
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2137 138208 138241 "lexstyle.ml" 2137 138208 138247
+)
+"lexstyle.mll" 103 138624 138645 "lexstyle.mll" 103 138624 138672
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2154 138695 138699 "lexstyle.ml" 2154 138695 138716
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexstyle.ml" 2154 138695 138720 "lexstyle.ml" 2154 138695 138807
+)
+"lexstyle.ml" 2154 138695 138720 "lexstyle.ml" 2154 138695 138726
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2137 138208 138241 "lexstyle.ml" 2137 138208 138247
+)
+"lexstyle.ml" 2154 138695 138720 "lexstyle.ml" 2154 138695 138745
+type(
+  Lexing.lexbuf -> unit
+)
+"lexstyle.ml" 2154 138695 138746 "lexstyle.ml" 2154 138695 138752
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2137 138208 138241 "lexstyle.ml" 2137 138208 138247
+)
+"lexstyle.ml" 2154 138695 138720 "lexstyle.ml" 2154 138695 138752
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.ml" 2154 138695 138754 "lexstyle.ml" 2154 138695 138778
+type(
+  out_channel -> Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_dump_tag_rec "lexstyle.ml" 2137 138208 138212 "lexstyle.ml" 2137 138208 138236
+)
+"lexstyle.ml" 2154 138695 138779 "lexstyle.ml" 2154 138695 138782
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2137 138208 138237 "lexstyle.ml" 2137 138208 138240
+)
+"lexstyle.ml" 2154 138695 138783 "lexstyle.ml" 2154 138695 138789
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2137 138208 138241 "lexstyle.ml" 2137 138208 138247
+)
+"lexstyle.ml" 2154 138695 138790 "lexstyle.ml" 2154 138695 138807
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexstyle.ml" 2154 138695 138699 "lexstyle.ml" 2154 138695 138716
+)
+"lexstyle.ml" 2154 138695 138754 "lexstyle.ml" 2154 138695 138807
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2154 138695 138720 "lexstyle.ml" 2154 138695 138807
+type(
+  unit
+)
+"lexstyle.ml" 2138 138268 138270 "lexstyle.ml" 2154 138695 138807
+type(
+  unit
+)
+"lexstyle.ml" 2156 138809 138813 "lexstyle.ml" 2156 138809 138825
+type(
+  string list ->
+  string list ->
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  def abstract_tag "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 2156 138809 138826 "lexstyle.ml" 2156 138809 138828
+type(
+  string list
+)
+ident(
+  def cl "lexstyle.ml" 2156 138809 138829 "lexstyle.ml" 2157 138850 138954
+)
+"lexstyle.ml" 2156 138809 138829 "lexstyle.ml" 2156 138809 138834
+type(
+  string list
+)
+ident(
+  def attrs "lexstyle.ml" 2156 138809 138835 "lexstyle.ml" 2157 138850 138954
+)
+"lexstyle.ml" 2156 138809 138835 "lexstyle.ml" 2156 138809 138836
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  def m "lexstyle.ml" 2156 138809 138837 "lexstyle.ml" 2157 138850 138954
+)
+"lexstyle.ml" 2156 138809 138837 "lexstyle.ml" 2156 138809 138840
+type(
+  out_channel
+)
+ident(
+  def out "lexstyle.ml" 2156 138809 138841 "lexstyle.ml" 2157 138850 138954
+)
+"lexstyle.ml" 2156 138809 138841 "lexstyle.ml" 2156 138809 138847
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.ml" 2157 138850 138852 "lexstyle.ml" 2157 138850 138954
+)
+"lexstyle.ml" 2157 138850 138852 "lexstyle.ml" 2157 138850 138858
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2156 138809 138841 "lexstyle.ml" 2156 138809 138847
+)
+"lexstyle.ml" 2157 138850 138877 "lexstyle.ml" 2157 138850 138889
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.create
+)
+"lexstyle.ml" 2157 138850 138890 "lexstyle.ml" 2157 138850 138891
+type(
+  int
+)
+"lexstyle.ml" 2157 138850 138892 "lexstyle.ml" 2157 138850 138896
+type(
+  int
+)
+"lexstyle.ml" 2157 138850 138877 "lexstyle.ml" 2157 138850 138896
+type(
+  int array
+)
+"lexstyle.ml" 2157 138850 138852 "lexstyle.ml" 2157 138850 138896
+type(
+  unit
+)
+"lexstyle.ml" 2157 138850 138901 "lexstyle.ml" 2157 138850 138929
+type(
+  string list ->
+  string list ->
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_abstract_tag_rec "lexstyle.ml" 2158 138955 138959 "lexstyle.ml" 2158 138955 138987
+)
+"lexstyle.ml" 2157 138850 138930 "lexstyle.ml" 2157 138850 138932
+type(
+  string list
+)
+ident(
+  int_ref cl "lexstyle.ml" 2156 138809 138826 "lexstyle.ml" 2156 138809 138828
+)
+"lexstyle.ml" 2157 138850 138933 "lexstyle.ml" 2157 138850 138938
+type(
+  string list
+)
+ident(
+  int_ref attrs "lexstyle.ml" 2156 138809 138829 "lexstyle.ml" 2156 138809 138834
+)
+"lexstyle.ml" 2157 138850 138939 "lexstyle.ml" 2157 138850 138940
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2156 138809 138835 "lexstyle.ml" 2156 138809 138836
+)
+"lexstyle.ml" 2157 138850 138941 "lexstyle.ml" 2157 138850 138944
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2156 138809 138837 "lexstyle.ml" 2156 138809 138840
+)
+"lexstyle.ml" 2157 138850 138945 "lexstyle.ml" 2157 138850 138951
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2156 138809 138841 "lexstyle.ml" 2156 138809 138847
+)
+"lexstyle.ml" 2157 138850 138952 "lexstyle.ml" 2157 138850 138954
+type(
+  int
+)
+"lexstyle.ml" 2157 138850 138901 "lexstyle.ml" 2157 138850 138954
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2157 138850 138852 "lexstyle.ml" 2157 138850 138954
+type(
+  unit
+)
+"lexstyle.ml" 2158 138955 138959 "lexstyle.ml" 2158 138955 138987
+type(
+  string list ->
+  string list ->
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_abstract_tag_rec "lexstyle.ml" 1910 132152 132152 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.ml" 2158 138955 138988 "lexstyle.ml" 2158 138955 138990
+type(
+  string list
+)
+ident(
+  def cl "lexstyle.ml" 2158 138955 138991 "lexstyle.ml" 2225 140686 140813
+)
+"lexstyle.ml" 2158 138955 138991 "lexstyle.ml" 2158 138955 138996
+type(
+  string list
+)
+ident(
+  def attrs "lexstyle.ml" 2158 138955 138997 "lexstyle.ml" 2225 140686 140813
+)
+"lexstyle.ml" 2158 138955 138997 "lexstyle.ml" 2158 138955 138998
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  def m "lexstyle.ml" 2158 138955 138999 "lexstyle.ml" 2225 140686 140813
+)
+"lexstyle.ml" 2158 138955 138999 "lexstyle.ml" 2158 138955 139002
+type(
+  out_channel
+)
+ident(
+  def out "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2225 140686 140813
+)
+"lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.ml" 2158 138955 139010 "lexstyle.ml" 2225 140686 140813
+)
+"lexstyle.ml" 2158 138955 139010 "lexstyle.ml" 2158 138955 139027
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexstyle.ml" 2159 139030 139032 "lexstyle.ml" 2225 140686 140813
+)
+"lexstyle.ml" 2159 139030 139038 "lexstyle.ml" 2159 139030 139055
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.new_engine
+)
+"lexstyle.ml" 2159 139030 139056 "lexstyle.ml" 2159 139030 139074
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "lexstyle.ml" 9 113 117 "lexstyle.ml" 9 113 135
+)
+"lexstyle.ml" 2159 139030 139075 "lexstyle.ml" 2159 139030 139092
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexstyle.ml" 2158 138955 139010 "lexstyle.ml" 2158 138955 139027
+)
+"lexstyle.ml" 2159 139030 139093 "lexstyle.ml" 2159 139030 139099
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.ml" 2159 139030 139038 "lexstyle.ml" 2159 139030 139099
+call(
+  stack
+)
+type(
+  int
+)
+"lexstyle.ml" 2160 139105 139113 "lexstyle.ml" 2160 139105 139114
+type(
+  int
+)
+"lexstyle.mll" 108 139143 139150 "lexstyle.mll" 108 139143 139152
+type(
+  string list
+)
+ident(
+  def cl "lexstyle.mll" 111 139256 139259 "lexstyle.mll" 115 139339 139361
+)
+"lexstyle.mll" 108 139143 139161 "lexstyle.mll" 108 139143 139163
+type(
+  string list
+)
+ident(
+  int_ref cl "lexstyle.ml" 2158 138955 138988 "lexstyle.ml" 2158 138955 138990
+)
+"lexstyle.mll" 109 139169 139174 "lexstyle.mll" 109 139169 139176
+type(
+  string list
+)
+"lexstyle.mll" 109 139169 139180 "lexstyle.mll" 109 139169 139182
+type(
+  string list
+)
+"lexstyle.mll" 110 139183 139188 "lexstyle.mll" 110 139183 139189
+type(
+  string list
+)
+"lexstyle.mll" 110 139183 139195 "lexstyle.mll" 110 139183 139202
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"lexstyle.mll" 110 139183 139203 "lexstyle.mll" 110 139183 139217
+type(
+  (string -> string, unit, string) format
+)
+"lexstyle.mll" 110 139183 139219 "lexstyle.mll" 110 139183 139232
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"lexstyle.mll" 110 139183 139233 "lexstyle.mll" 110 139183 139236
+type(
+  string
+)
+"lexstyle.mll" 110 139183 139238 "lexstyle.mll" 110 139183 139246
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"lexstyle.mll" 110 139183 139247 "lexstyle.mll" 110 139183 139249
+type(
+  string list
+)
+ident(
+  int_ref cl "lexstyle.ml" 2158 138955 138988 "lexstyle.ml" 2158 138955 138990
+)
+"lexstyle.mll" 110 139183 139237 "lexstyle.mll" 110 139183 139250
+call(
+  stack
+)
+type(
+  string list
+)
+"lexstyle.mll" 110 139183 139218 "lexstyle.mll" 110 139183 139251
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 110 139183 139195 "lexstyle.mll" 110 139183 139251
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 110 139183 139194 "lexstyle.mll" 110 139183 139252
+type(
+  string list
+)
+"lexstyle.mll" 108 139143 139155 "lexstyle.mll" 110 139183 139252
+type(
+  string list
+)
+"lexstyle.mll" 111 139256 139263 "lexstyle.mll" 111 139256 139265
+type(
+  string list
+)
+ident(
+  def na "lexstyle.mll" 112 139291 139294 "lexstyle.mll" 115 139339 139361
+)
+"lexstyle.mll" 111 139256 139268 "lexstyle.mll" 111 139256 139270
+type(
+  string list
+)
+ident(
+  int_ref cl "lexstyle.mll" 108 139143 139150 "lexstyle.mll" 108 139143 139152
+)
+"lexstyle.mll" 111 139256 139271 "lexstyle.mll" 111 139256 139272
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lexstyle.mll" 111 139256 139273 "lexstyle.mll" 111 139256 139281
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"lexstyle.mll" 111 139256 139282 "lexstyle.mll" 111 139256 139287
+type(
+  string list
+)
+ident(
+  int_ref attrs "lexstyle.ml" 2158 138955 138991 "lexstyle.ml" 2158 138955 138996
+)
+"lexstyle.mll" 111 139256 139273 "lexstyle.mll" 111 139256 139287
+call(
+  stack
+)
+type(
+  string list
+)
+"lexstyle.mll" 111 139256 139268 "lexstyle.mll" 111 139256 139287
+call(
+  stack
+)
+type(
+  string list
+)
+"lexstyle.mll" 112 139291 139294 "lexstyle.mll" 112 139291 139303
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"lexstyle.mll" 113 139304 139310 "lexstyle.mll" 113 139304 139317
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"lexstyle.mll" 113 139304 139318 "lexstyle.mll" 113 139304 139321
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2158 138955 138999 "lexstyle.ml" 2158 138955 139002
+)
+"lexstyle.mll" 113 139304 139322 "lexstyle.mll" 113 139304 139327
+type(
+  (string -> unit, out_channel, unit) format
+)
+"lexstyle.mll" 113 139304 139309 "lexstyle.mll" 113 139304 139328
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"lexstyle.mll" 114 139329 139334 "lexstyle.mll" 114 139329 139336
+type(
+  string list
+)
+ident(
+  int_ref na "lexstyle.mll" 111 139256 139263 "lexstyle.mll" 111 139256 139265
+)
+"lexstyle.mll" 112 139291 139294 "lexstyle.mll" 114 139329 139336
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.mll" 115 139339 139342 "lexstyle.mll" 115 139339 139353
+type(
+  out_channel -> char -> unit
+)
+ident(
+  ext_ref Pervasives.output_char
+)
+"lexstyle.mll" 115 139339 139354 "lexstyle.mll" 115 139339 139357
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2158 138955 138999 "lexstyle.ml" 2158 138955 139002
+)
+"lexstyle.mll" 115 139339 139358 "lexstyle.mll" 115 139339 139361
+type(
+  char
+)
+"lexstyle.mll" 115 139339 139342 "lexstyle.mll" 115 139339 139361
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.mll" 112 139291 139294 "lexstyle.mll" 115 139339 139361
+type(
+  unit
+)
+"lexstyle.mll" 111 139256 139259 "lexstyle.mll" 115 139339 139361
+type(
+  unit
+)
+"lexstyle.mll" 107 139139 139141 "lexstyle.mll" 116 139362 139365
+type(
+  unit
+)
+"lexstyle.ml" 2174 139388 139392 "lexstyle.ml" 2174 139388 139393
+type(
+  int
+)
+"lexstyle.mll" 117 139418 139430 "lexstyle.mll" 117 139418 139442
+type(
+  string list ->
+  string list ->
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref abstract_tag "lexstyle.ml" 2156 138809 138813 "lexstyle.ml" 2156 138809 138825
+)
+"lexstyle.mll" 117 139418 139443 "lexstyle.mll" 117 139418 139445
+type(
+  string list
+)
+ident(
+  int_ref cl "lexstyle.ml" 2158 138955 138988 "lexstyle.ml" 2158 138955 138990
+)
+"lexstyle.mll" 117 139418 139446 "lexstyle.mll" 117 139418 139451
+type(
+  string list
+)
+ident(
+  int_ref attrs "lexstyle.ml" 2158 138955 138991 "lexstyle.ml" 2158 138955 138996
+)
+"lexstyle.mll" 117 139418 139452 "lexstyle.mll" 117 139418 139453
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2158 138955 138997 "lexstyle.ml" 2158 138955 138998
+)
+"lexstyle.mll" 117 139418 139454 "lexstyle.mll" 117 139418 139457
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2158 138955 138999 "lexstyle.ml" 2158 138955 139002
+)
+"lexstyle.mll" 117 139418 139458 "lexstyle.mll" 117 139418 139464
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.mll" 117 139418 139427 "lexstyle.mll" 117 139418 139466
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2179 139489 139493 "lexstyle.ml" 2179 139489 139494
+type(
+  int
+)
+"lexstyle.mll" 119 139523 139545 "lexstyle.mll" 119 139523 139546
+type(
+  string
+)
+ident(
+  def v "lexstyle.mll" 123 139861 139863 "lexstyle.mll" 129 140034 140038
+)
+"lexstyle.ml" 2184 139568 139570 "lexstyle.ml" 2184 139568 139587
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"lexstyle.ml" 2184 139568 139588 "lexstyle.ml" 2184 139568 139594
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.ml" 2184 139568 139595 "lexstyle.ml" 2184 139568 139601
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.ml" 2184 139568 139595 "lexstyle.ml" 2184 139568 139616
+type(
+  int array
+)
+"lexstyle.ml" 2184 139568 139618 "lexstyle.ml" 2184 139568 139619
+type(
+  int
+)
+"lexstyle.ml" 2184 139568 139595 "lexstyle.ml" 2184 139568 139620
+type(
+  int
+)
+"lexstyle.ml" 2184 139568 139621 "lexstyle.ml" 2184 139568 139627
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.ml" 2184 139568 139621 "lexstyle.ml" 2184 139568 139642
+type(
+  int array
+)
+"lexstyle.ml" 2184 139568 139644 "lexstyle.ml" 2184 139568 139645
+type(
+  int
+)
+"lexstyle.ml" 2184 139568 139621 "lexstyle.ml" 2184 139568 139646
+type(
+  int
+)
+"lexstyle.ml" 2184 139568 139570 "lexstyle.ml" 2184 139568 139646
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 121 139672 139732 "lexstyle.mll" 121 139672 139733
+type(
+  string
+)
+ident(
+  def a "lexstyle.mll" 123 139861 139863 "lexstyle.mll" 129 140034 140038
+)
+"lexstyle.ml" 2189 139755 139757 "lexstyle.ml" 2189 139755 139774
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"lexstyle.ml" 2189 139755 139775 "lexstyle.ml" 2189 139755 139781
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.ml" 2189 139755 139782 "lexstyle.ml" 2189 139755 139788
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.ml" 2189 139755 139782 "lexstyle.ml" 2189 139755 139809
+type(
+  int
+)
+"lexstyle.ml" 2189 139755 139810 "lexstyle.ml" 2189 139755 139816
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.ml" 2189 139755 139810 "lexstyle.ml" 2189 139755 139836
+type(
+  int
+)
+"lexstyle.ml" 2189 139755 139757 "lexstyle.ml" 2189 139755 139836
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 125 139873 139883 "lexstyle.mll" 125 139873 139886
+type(
+  string
+)
+ident(
+  def tcl "lexstyle.mll" 126 139918 139924 "lexstyle.mll" 126 139918 139965
+)
+"lexstyle.mll" 125 139873 139889 "lexstyle.mll" 125 139873 139909
+type(
+  Emisc.StringMap.key -> string Emisc.StringMap.t -> string
+)
+ident(
+  ext_ref Emisc.StringMap.find
+)
+"lexstyle.mll" 125 139873 139910 "lexstyle.mll" 125 139873 139911
+type(
+  Emisc.StringMap.key
+)
+ident(
+  int_ref v "lexstyle.mll" 119 139523 139545 "lexstyle.mll" 119 139523 139546
+)
+"lexstyle.mll" 125 139873 139912 "lexstyle.mll" 125 139873 139913
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2158 138955 138997 "lexstyle.ml" 2158 138955 138998
+)
+"lexstyle.mll" 125 139873 139889 "lexstyle.mll" 125 139873 139913
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 126 139918 139924 "lexstyle.mll" 126 139918 139936
+type(
+  string list ->
+  string list ->
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref abstract_tag "lexstyle.ml" 2156 138809 138813 "lexstyle.ml" 2156 138809 138825
+)
+"lexstyle.mll" 126 139918 139938 "lexstyle.mll" 126 139918 139941
+type(
+  string
+)
+ident(
+  int_ref tcl "lexstyle.mll" 125 139873 139883 "lexstyle.mll" 125 139873 139886
+)
+"lexstyle.mll" 126 139918 139943 "lexstyle.mll" 126 139918 139945
+type(
+  string list
+)
+ident(
+  int_ref cl "lexstyle.ml" 2158 138955 138988 "lexstyle.ml" 2158 138955 138990
+)
+"lexstyle.mll" 126 139918 139937 "lexstyle.mll" 126 139918 139946
+type(
+  string list
+)
+"lexstyle.mll" 126 139918 139947 "lexstyle.mll" 126 139918 139952
+type(
+  string list
+)
+ident(
+  int_ref attrs "lexstyle.ml" 2158 138955 138991 "lexstyle.ml" 2158 138955 138996
+)
+"lexstyle.mll" 126 139918 139953 "lexstyle.mll" 126 139918 139954
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2158 138955 138997 "lexstyle.ml" 2158 138955 138998
+)
+"lexstyle.mll" 126 139918 139955 "lexstyle.mll" 126 139918 139958
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2158 138955 138999 "lexstyle.ml" 2158 138955 139002
+)
+"lexstyle.mll" 126 139918 139959 "lexstyle.mll" 126 139918 139965
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.mll" 126 139918 139924 "lexstyle.mll" 126 139918 139965
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.mll" 125 139873 139879 "lexstyle.mll" 126 139918 139965
+type(
+  unit
+)
+"lexstyle.mll" 127 139966 139975 "lexstyle.mll" 127 139966 139984
+type(
+  exn
+)
+"lexstyle.mll" 128 139988 139994 "lexstyle.mll" 128 139988 140006
+type(
+  string list ->
+  string list ->
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref abstract_tag "lexstyle.ml" 2156 138809 138813 "lexstyle.ml" 2156 138809 138825
+)
+"lexstyle.mll" 128 139988 140007 "lexstyle.mll" 128 139988 140009
+type(
+  string list
+)
+ident(
+  int_ref cl "lexstyle.ml" 2158 138955 138988 "lexstyle.ml" 2158 138955 138990
+)
+"lexstyle.mll" 128 139988 140011 "lexstyle.mll" 128 139988 140012
+type(
+  string
+)
+ident(
+  int_ref a "lexstyle.mll" 121 139672 139732 "lexstyle.mll" 121 139672 139733
+)
+"lexstyle.mll" 128 139988 140014 "lexstyle.mll" 128 139988 140019
+type(
+  string list
+)
+ident(
+  int_ref attrs "lexstyle.ml" 2158 138955 138991 "lexstyle.ml" 2158 138955 138996
+)
+"lexstyle.mll" 128 139988 140010 "lexstyle.mll" 128 139988 140020
+type(
+  string list
+)
+"lexstyle.mll" 128 139988 140021 "lexstyle.mll" 128 139988 140022
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2158 138955 138997 "lexstyle.ml" 2158 138955 138998
+)
+"lexstyle.mll" 128 139988 140023 "lexstyle.mll" 128 139988 140026
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2158 138955 138999 "lexstyle.ml" 2158 138955 139002
+)
+"lexstyle.mll" 128 139988 140027 "lexstyle.mll" 128 139988 140033
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.mll" 128 139988 139994 "lexstyle.mll" 128 139988 140033
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.mll" 123 139861 139863 "lexstyle.mll" 129 140034 140038
+type(
+  unit
+)
+"lexstyle.ml" 2180 139498 139498 "lexstyle.mll" 129 140034 140038
+type(
+  unit
+)
+"lexstyle.ml" 2200 140061 140065 "lexstyle.ml" 2200 140061 140066
+type(
+  int
+)
+"lexstyle.mll" 131 140095 140117 "lexstyle.mll" 131 140095 140118
+type(
+  string
+)
+ident(
+  def v "lexstyle.mll" 135 140243 140245 "lexstyle.mll" 135 140243 140288
+)
+"lexstyle.ml" 2205 140140 140142 "lexstyle.ml" 2205 140140 140159
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"lexstyle.ml" 2205 140140 140160 "lexstyle.ml" 2205 140140 140166
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.ml" 2205 140140 140167 "lexstyle.ml" 2205 140140 140173
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.ml" 2205 140140 140167 "lexstyle.ml" 2205 140140 140188
+type(
+  int array
+)
+"lexstyle.ml" 2205 140140 140190 "lexstyle.ml" 2205 140140 140191
+type(
+  int
+)
+"lexstyle.ml" 2205 140140 140167 "lexstyle.ml" 2205 140140 140192
+type(
+  int
+)
+"lexstyle.ml" 2205 140140 140193 "lexstyle.ml" 2205 140140 140199
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.ml" 2205 140140 140193 "lexstyle.ml" 2205 140140 140214
+type(
+  int array
+)
+"lexstyle.ml" 2205 140140 140216 "lexstyle.ml" 2205 140140 140217
+type(
+  int
+)
+"lexstyle.ml" 2205 140140 140193 "lexstyle.ml" 2205 140140 140218
+type(
+  int
+)
+"lexstyle.ml" 2205 140140 140142 "lexstyle.ml" 2205 140140 140218
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 135 140243 140247 "lexstyle.mll" 135 140243 140259
+type(
+  string list ->
+  string list ->
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref abstract_tag "lexstyle.ml" 2156 138809 138813 "lexstyle.ml" 2156 138809 138825
+)
+"lexstyle.mll" 135 140243 140261 "lexstyle.mll" 135 140243 140262
+type(
+  string
+)
+ident(
+  int_ref v "lexstyle.mll" 131 140095 140117 "lexstyle.mll" 131 140095 140118
+)
+"lexstyle.mll" 135 140243 140264 "lexstyle.mll" 135 140243 140266
+type(
+  string list
+)
+ident(
+  int_ref cl "lexstyle.ml" 2158 138955 138988 "lexstyle.ml" 2158 138955 138990
+)
+"lexstyle.mll" 135 140243 140260 "lexstyle.mll" 135 140243 140267
+type(
+  string list
+)
+"lexstyle.mll" 135 140243 140268 "lexstyle.mll" 135 140243 140273
+type(
+  string list
+)
+ident(
+  int_ref attrs "lexstyle.ml" 2158 138955 138991 "lexstyle.ml" 2158 138955 138996
+)
+"lexstyle.mll" 135 140243 140274 "lexstyle.mll" 135 140243 140275
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2158 138955 138997 "lexstyle.ml" 2158 138955 138998
+)
+"lexstyle.mll" 135 140243 140276 "lexstyle.mll" 135 140243 140279
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2158 138955 138999 "lexstyle.ml" 2158 138955 139002
+)
+"lexstyle.mll" 135 140243 140280 "lexstyle.mll" 135 140243 140286
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.mll" 135 140243 140245 "lexstyle.mll" 135 140243 140288
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2201 140070 140070 "lexstyle.mll" 135 140243 140288
+type(
+  unit
+)
+"lexstyle.ml" 2210 140311 140315 "lexstyle.ml" 2210 140311 140316
+type(
+  int
+)
+"lexstyle.mll" 139 140345 140399 "lexstyle.mll" 139 140345 140400
+type(
+  string
+)
+ident(
+  def a "lexstyle.mll" 141 140528 140530 "lexstyle.mll" 141 140528 140574
+)
+"lexstyle.ml" 2215 140422 140424 "lexstyle.ml" 2215 140422 140441
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"lexstyle.ml" 2215 140422 140442 "lexstyle.ml" 2215 140422 140448
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.ml" 2215 140422 140449 "lexstyle.ml" 2215 140422 140455
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.ml" 2215 140422 140449 "lexstyle.ml" 2215 140422 140476
+type(
+  int
+)
+"lexstyle.ml" 2215 140422 140477 "lexstyle.ml" 2215 140422 140483
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.ml" 2215 140422 140477 "lexstyle.ml" 2215 140422 140503
+type(
+  int
+)
+"lexstyle.ml" 2215 140422 140424 "lexstyle.ml" 2215 140422 140503
+call(
+  stack
+)
+type(
+  string
+)
+"lexstyle.mll" 141 140528 140533 "lexstyle.mll" 141 140528 140545
+type(
+  string list ->
+  string list ->
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref abstract_tag "lexstyle.ml" 2156 138809 138813 "lexstyle.ml" 2156 138809 138825
+)
+"lexstyle.mll" 141 140528 140546 "lexstyle.mll" 141 140528 140548
+type(
+  string list
+)
+ident(
+  int_ref cl "lexstyle.ml" 2158 138955 138988 "lexstyle.ml" 2158 138955 138990
+)
+"lexstyle.mll" 141 140528 140550 "lexstyle.mll" 141 140528 140551
+type(
+  string
+)
+ident(
+  int_ref a "lexstyle.mll" 139 140345 140399 "lexstyle.mll" 139 140345 140400
+)
+"lexstyle.mll" 141 140528 140553 "lexstyle.mll" 141 140528 140558
+type(
+  string list
+)
+ident(
+  int_ref attrs "lexstyle.ml" 2158 138955 138991 "lexstyle.ml" 2158 138955 138996
+)
+"lexstyle.mll" 141 140528 140549 "lexstyle.mll" 141 140528 140559
+type(
+  string list
+)
+"lexstyle.mll" 141 140528 140560 "lexstyle.mll" 141 140528 140561
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2158 138955 138997 "lexstyle.ml" 2158 138955 138998
+)
+"lexstyle.mll" 141 140528 140562 "lexstyle.mll" 141 140528 140565
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2158 138955 138999 "lexstyle.ml" 2158 138955 139002
+)
+"lexstyle.mll" 141 140528 140566 "lexstyle.mll" 141 140528 140572
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.mll" 141 140528 140530 "lexstyle.mll" 141 140528 140574
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2211 140320 140320 "lexstyle.mll" 141 140528 140574
+type(
+  unit
+)
+"lexstyle.ml" 2220 140597 140601 "lexstyle.ml" 2220 140597 140602
+type(
+  int
+)
+"lexstyle.mll" 142 140627 140634 "lexstyle.mll" 142 140627 140639
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref error "lexstyle.mll" 18 46 50 "lexstyle.mll" 18 46 55
+)
+"lexstyle.mll" 142 140627 140640 "lexstyle.mll" 142 140627 140654
+type(
+  string
+)
+"lexstyle.mll" 142 140627 140655 "lexstyle.mll" 142 140627 140661
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.mll" 142 140627 140632 "lexstyle.mll" 142 140627 140663
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2225 140686 140690 "lexstyle.ml" 2225 140686 140707
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexstyle.ml" 2225 140686 140711 "lexstyle.ml" 2225 140686 140813
+)
+"lexstyle.ml" 2225 140686 140711 "lexstyle.ml" 2225 140686 140717
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.ml" 2225 140686 140711 "lexstyle.ml" 2225 140686 140736
+type(
+  Lexing.lexbuf -> unit
+)
+"lexstyle.ml" 2225 140686 140737 "lexstyle.ml" 2225 140686 140743
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.ml" 2225 140686 140711 "lexstyle.ml" 2225 140686 140743
+call(
+  stack
+)
+type(
+  unit
+)
+"lexstyle.ml" 2225 140686 140745 "lexstyle.ml" 2225 140686 140773
+type(
+  string list ->
+  string list ->
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_abstract_tag_rec "lexstyle.ml" 2158 138955 138959 "lexstyle.ml" 2158 138955 138987
+)
+"lexstyle.ml" 2225 140686 140774 "lexstyle.ml" 2225 140686 140776
+type(
+  string list
+)
+ident(
+  int_ref cl "lexstyle.ml" 2158 138955 138988 "lexstyle.ml" 2158 138955 138990
+)
+"lexstyle.ml" 2225 140686 140777 "lexstyle.ml" 2225 140686 140782
+type(
+  string list
+)
+ident(
+  int_ref attrs "lexstyle.ml" 2158 138955 138991 "lexstyle.ml" 2158 138955 138996
+)
+"lexstyle.ml" 2225 140686 140783 "lexstyle.ml" 2225 140686 140784
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.ml" 2158 138955 138997 "lexstyle.ml" 2158 138955 138998
+)
+"lexstyle.ml" 2225 140686 140785 "lexstyle.ml" 2225 140686 140788
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.ml" 2158 138955 138999 "lexstyle.ml" 2158 138955 139002
+)
+"lexstyle.ml" 2225 140686 140789 "lexstyle.ml" 2225 140686 140795
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.ml" 2158 138955 139003 "lexstyle.ml" 2158 138955 139009
+)
+"lexstyle.ml" 2225 140686 140796 "lexstyle.ml" 2225 140686 140813
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexstyle.ml" 2225 140686 140690 "lexstyle.ml" 2225 140686 140707
+)
+"lexstyle.ml" 2225 140686 140745 "lexstyle.ml" 2225 140686 140813
+call(
+  tail
+)
+type(
+  unit
+)
+"lexstyle.ml" 2225 140686 140711 "lexstyle.ml" 2225 140686 140813
+type(
+  unit
+)
+"lexstyle.ml" 2159 139030 139032 "lexstyle.ml" 2225 140686 140813
+type(
+  unit
+)
+"lexstyle.mll" 146 140842 140847 "lexstyle.mll" 146 140842 140850
+type(
+  Lexing.lexbuf -> Emisc.StringCount.count
+)
+ident(
+  def get "lexstyle.mll" 148 140894 140895 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.mll" 146 140842 140851 "lexstyle.mll" 146 140842 140857
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.mll" 146 140842 140860 "lexstyle.mll" 146 140842 140892
+)
+"lexstyle.mll" 146 140842 140860 "lexstyle.mll" 146 140842 140867
+type(
+  Emisc.StringCount.count -> Lexing.lexbuf -> Emisc.StringCount.count
+)
+ident(
+  int_ref extract "lexstyle.ml" 1910 132152 132160 "lexstyle.ml" 1910 132152 132167
+)
+"lexstyle.mll" 146 140842 140868 "lexstyle.mll" 146 140842 140885
+type(
+  Emisc.StringCount.count
+)
+ident(
+  ext_ref Emisc.StringCount.empty
+)
+"lexstyle.mll" 146 140842 140886 "lexstyle.mll" 146 140842 140892
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.mll" 146 140842 140851 "lexstyle.mll" 146 140842 140857
+)
+"lexstyle.mll" 146 140842 140860 "lexstyle.mll" 146 140842 140892
+call(
+  tail
+)
+type(
+  Emisc.StringCount.count
+)
+"lexstyle.mll" 148 140894 140899 "lexstyle.mll" 148 140894 140902
+type(
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> bool
+)
+ident(
+  def set "lexstyle.mll" 148 140894 140935 "lexstyle.ml" 1 0 -1
+)
+"lexstyle.mll" 148 140894 140903 "lexstyle.mll" 148 140894 140904
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  def m "lexstyle.mll" 148 140894 140905 "lexstyle.mll" 148 140894 140935
+)
+"lexstyle.mll" 148 140894 140905 "lexstyle.mll" 148 140894 140908
+type(
+  out_channel
+)
+ident(
+  def out "lexstyle.mll" 148 140894 140909 "lexstyle.mll" 148 140894 140935
+)
+"lexstyle.mll" 148 140894 140909 "lexstyle.mll" 148 140894 140915
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexstyle.mll" 148 140894 140918 "lexstyle.mll" 148 140894 140935
+)
+"lexstyle.mll" 148 140894 140918 "lexstyle.mll" 148 140894 140922
+type(
+  string Emisc.StringMap.t -> out_channel -> Lexing.lexbuf -> bool
+)
+ident(
+  int_ref dump "lexstyle.ml" 2022 135139 135143 "lexstyle.ml" 2022 135139 135147
+)
+"lexstyle.mll" 148 140894 140923 "lexstyle.mll" 148 140894 140924
+type(
+  string Emisc.StringMap.t
+)
+ident(
+  int_ref m "lexstyle.mll" 148 140894 140903 "lexstyle.mll" 148 140894 140904
+)
+"lexstyle.mll" 148 140894 140925 "lexstyle.mll" 148 140894 140928
+type(
+  out_channel
+)
+ident(
+  int_ref out "lexstyle.mll" 148 140894 140905 "lexstyle.mll" 148 140894 140908
+)
+"lexstyle.mll" 148 140894 140929 "lexstyle.mll" 148 140894 140935
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexstyle.mll" 148 140894 140909 "lexstyle.mll" 148 140894 140915
+)
+"lexstyle.mll" 148 140894 140918 "lexstyle.mll" 148 140894 140935
+call(
+  tail
+)
+type(
+  bool
+)

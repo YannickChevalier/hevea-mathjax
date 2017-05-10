@@ -1,0 +1,1729 @@
+"info.ml" 19 791 795 "info.ml" 19 791 802
+type(
+  Out.t -> unit
+)
+ident(
+  def set_out "info.ml" 20 818 818 "info.ml" 1 0 -1
+)
+"info.ml" 19 791 803 "info.ml" 19 791 815
+type(
+  Out.t -> unit
+)
+ident(
+  ext_ref Text.set_out
+)
+"info.ml" 20 818 822 "info.ml" 20 818 826
+type(
+  unit -> unit
+)
+ident(
+  def stop "info.ml" 21 841 841 "info.ml" 1 0 -1
+)
+"info.ml" 20 818 829 "info.ml" 20 818 838
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.stop
+)
+"info.ml" 21 841 845 "info.ml" 21 841 852
+type(
+  unit -> unit
+)
+ident(
+  def restart "info.ml" 22 870 870 "info.ml" 1 0 -1
+)
+"info.ml" 21 841 855 "info.ml" 21 841 867
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.restart
+)
+"info.ml" 22 870 874 "info.ml" 22 870 882
+type(
+  unit -> bool
+)
+ident(
+  def is_empty "info.ml" 24 900 900 "info.ml" 1 0 -1
+)
+"info.ml" 22 870 883 "info.ml" 22 870 896
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Text.is_empty
+)
+"info.ml" 24 900 904 "info.ml" 24 900 916
+type(
+  unit -> int
+)
+ident(
+  def get_fontsize "info.ml" 25 937 937 "info.ml" 1 0 -1
+)
+"info.ml" 24 900 917 "info.ml" 24 900 934
+type(
+  unit -> int
+)
+ident(
+  ext_ref Text.get_fontsize
+)
+"info.ml" 25 937 941 "info.ml" 25 937 948
+type(
+  unit -> unit
+)
+ident(
+  def nostyle "info.ml" 26 964 964 "info.ml" 1 0 -1
+)
+"info.ml" 25 937 949 "info.ml" 25 937 961
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.nostyle
+)
+"info.ml" 26 964 968 "info.ml" 26 964 978
+type(
+  unit -> unit
+)
+ident(
+  def clearstyle "info.ml" 27 997 997 "info.ml" 1 0 -1
+)
+"info.ml" 26 964 979 "info.ml" 26 964 994
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.clearstyle
+)
+"info.ml" 27 997 1001 "info.ml" 27 997 1009
+type(
+  Element.text -> unit
+)
+ident(
+  def open_mod "info.ml" 28 1021 1021 "info.ml" 1 0 -1
+)
+"info.ml" 27 997 1010 "info.ml" 27 997 1018
+type(
+  Element.text -> unit
+)
+ident(
+  ext_ref Text.open_mod
+)
+"info.ml" 28 1021 1025 "info.ml" 28 1021 1035
+type(
+  Element.text list -> unit
+)
+ident(
+  def erase_mods "info.ml" 29 1054 1054 "info.ml" 1 0 -1
+)
+"info.ml" 28 1021 1036 "info.ml" 28 1021 1051
+type(
+  Element.text list -> unit
+)
+ident(
+  ext_ref Text.erase_mods
+)
+"info.ml" 29 1054 1058 "info.ml" 29 1054 1065
+type(
+  Element.text -> bool
+)
+ident(
+  def has_mod "info.ml" 30 1083 1083 "info.ml" 1 0 -1
+)
+"info.ml" 29 1054 1068 "info.ml" 29 1054 1080
+type(
+  Element.text -> bool
+)
+ident(
+  ext_ref Text.has_mod
+)
+"info.ml" 30 1083 1087 "info.ml" 30 1083 1097
+type(
+  unit -> int option
+)
+ident(
+  def forget_par "info.ml" 31 1118 1118 "info.ml" 1 0 -1
+)
+"info.ml" 30 1083 1100 "info.ml" 30 1083 1115
+type(
+  unit -> int option
+)
+ident(
+  ext_ref Text.forget_par
+)
+"info.ml" 31 1118 1122 "info.ml" 31 1118 1130
+type(
+  unit -> unit
+)
+ident(
+  def open_par "info.ml" 32 1149 1149 "info.ml" 1 0 -1
+)
+"info.ml" 31 1118 1133 "info.ml" 31 1118 1146
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.open_par
+)
+"info.ml" 32 1149 1153 "info.ml" 32 1149 1162
+type(
+  unit -> bool
+)
+ident(
+  def close_par "info.ml" 33 1182 1182 "info.ml" 1 0 -1
+)
+"info.ml" 32 1149 1165 "info.ml" 32 1149 1179
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Text.close_par
+)
+"info.ml" 33 1182 1186 "info.ml" 33 1182 1189
+type(
+  int option -> unit
+)
+ident(
+  def par "info.ml" 36 1203 1203 "info.ml" 1 0 -1
+)
+"info.ml" 33 1182 1190 "info.ml" 33 1182 1198
+type(
+  int option -> unit
+)
+ident(
+  ext_ref Text.par
+)
+"info.ml" 36 1203 1207 "info.ml" 36 1203 1217
+type(
+  string -> string -> unit
+)
+ident(
+  def open_block "info.ml" 37 1237 1237 "info.ml" 1 0 -1
+)
+"info.ml" 36 1203 1219 "info.ml" 36 1203 1234
+type(
+  string -> string -> unit
+)
+ident(
+  ext_ref Text.open_block
+)
+"info.ml" 37 1237 1241 "info.ml" 37 1237 1252
+type(
+  string -> unit
+)
+ident(
+  def close_block "info.ml" 38 1273 1273 "info.ml" 1 0 -1
+)
+"info.ml" 37 1237 1254 "info.ml" 37 1237 1270
+type(
+  string -> unit
+)
+ident(
+  ext_ref Text.close_block
+)
+"info.ml" 38 1273 1277 "info.ml" 38 1273 1288
+type(
+  string -> string -> unit
+)
+ident(
+  def force_block "info.ml" 39 1309 1309 "info.ml" 1 0 -1
+)
+"info.ml" 38 1273 1290 "info.ml" 38 1273 1306
+type(
+  string -> string -> unit
+)
+ident(
+  ext_ref Text.force_block
+)
+"info.ml" 39 1309 1313 "info.ml" 39 1309 1323
+type(
+  string -> unit
+)
+ident(
+  def close_flow "info.ml" 40 1343 1343 "info.ml" 1 0 -1
+)
+"info.ml" 39 1309 1325 "info.ml" 39 1309 1340
+type(
+  string -> unit
+)
+ident(
+  ext_ref Text.close_flow
+)
+"info.ml" 40 1343 1347 "info.ml" 40 1343 1359
+type(
+  string -> string -> unit
+)
+ident(
+  def insert_block "info.ml" 41 1381 1381 "info.ml" 1 0 -1
+)
+"info.ml" 40 1343 1361 "info.ml" 40 1343 1378
+type(
+  string -> string -> unit
+)
+ident(
+  ext_ref Text.insert_block
+)
+"info.ml" 41 1381 1385 "info.ml" 41 1381 1396
+type(
+  string -> string -> unit
+)
+ident(
+  def insert_attr "info.ml" 43 1418 1418 "info.ml" 1 0 -1
+)
+"info.ml" 41 1381 1398 "info.ml" 41 1381 1414
+type(
+  string -> string -> unit
+)
+ident(
+  ext_ref Text.insert_attr
+)
+"info.ml" 43 1418 1422 "info.ml" 43 1418 1432
+type(
+  bool -> unit
+)
+ident(
+  def open_maths "info.ml" 45 1489 1489 "info.ml" 1 0 -1
+)
+"info.ml" 43 1418 1435 "info.ml" 43 1418 1450
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Text.open_maths
+)
+"info.ml" 44 1451 1455 "info.ml" 44 1451 1466
+type(
+  bool -> unit
+)
+ident(
+  def close_maths "info.ml" 45 1489 1489 "info.ml" 1 0 -1
+)
+"info.ml" 44 1451 1469 "info.ml" 44 1451 1485
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Text.close_maths
+)
+"info.ml" 45 1489 1493 "info.ml" 45 1489 1510
+type(
+  string -> unit
+)
+ident(
+  def open_display_varg "info.ml" 46 1537 1537 "info.ml" 1 0 -1
+)
+"info.ml" 45 1489 1512 "info.ml" 45 1489 1534
+type(
+  string -> unit
+)
+ident(
+  ext_ref Text.open_display_varg
+)
+"info.ml" 46 1537 1541 "info.ml" 46 1537 1553
+type(
+  unit -> unit
+)
+ident(
+  def open_display "info.ml" 47 1575 1575 "info.ml" 1 0 -1
+)
+"info.ml" 46 1537 1555 "info.ml" 46 1537 1572
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.open_display
+)
+"info.ml" 47 1575 1579 "info.ml" 47 1575 1592
+type(
+  unit -> unit
+)
+ident(
+  def close_display "info.ml" 48 1615 1615 "info.ml" 1 0 -1
+)
+"info.ml" 47 1575 1594 "info.ml" 47 1575 1612
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.close_display
+)
+"info.ml" 48 1615 1619 "info.ml" 48 1615 1631
+type(
+  unit -> unit
+)
+ident(
+  def item_display "info.ml" 49 1653 1653 "info.ml" 1 0 -1
+)
+"info.ml" 48 1615 1633 "info.ml" 48 1615 1650
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.item_display
+)
+"info.ml" 49 1653 1657 "info.ml" 49 1653 1675
+type(
+  unit -> unit
+)
+ident(
+  def force_item_display "info.ml" 50 1703 1703 "info.ml" 1 0 -1
+)
+"info.ml" 49 1653 1677 "info.ml" 49 1653 1700
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.force_item_display
+)
+"info.ml" 50 1703 1707 "info.ml" 50 1703 1720
+type(
+  unit -> unit
+)
+ident(
+  def erase_display "info.ml" 59 1957 1957 "info.ml" 1 0 -1
+)
+"info.ml" 50 1703 1722 "info.ml" 50 1703 1740
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.erase_display
+)
+"info.ml" 51 1741 1745 "info.ml" 51 1741 1761
+type(
+  (string Lexstate.arg -> unit) ->
+  (unit -> unit) ->
+  string Lexstate.arg -> string Lexstate.arg -> bool -> unit
+)
+ident(
+  def standard_sup_sub "info.ml" 59 1957 1957 "info.ml" 1 0 -1
+)
+"info.ml" 51 1741 1764 "info.ml" 51 1741 1785
+type(
+  (string Lexstate.arg -> unit) ->
+  (unit -> unit) ->
+  string Lexstate.arg -> string Lexstate.arg -> bool -> unit
+)
+ident(
+  ext_ref Text.standard_sup_sub
+)
+"info.ml" 52 1786 1790 "info.ml" 52 1786 1803
+type(
+  (string Lexstate.arg -> unit) ->
+  (unit -> unit) ->
+  string Lexstate.arg -> string Lexstate.arg -> bool -> unit
+)
+ident(
+  def limit_sup_sub "info.ml" 59 1957 1957 "info.ml" 1 0 -1
+)
+"info.ml" 52 1786 1806 "info.ml" 52 1786 1824
+type(
+  (string Lexstate.arg -> unit) ->
+  (unit -> unit) ->
+  string Lexstate.arg -> string Lexstate.arg -> bool -> unit
+)
+ident(
+  ext_ref Text.limit_sup_sub
+)
+"info.ml" 53 1825 1829 "info.ml" 53 1825 1840
+type(
+  bool ->
+  int ->
+  (string Lexstate.arg -> unit) ->
+  (unit -> unit) ->
+  string Lexstate.arg -> string Lexstate.arg -> bool -> unit
+)
+ident(
+  def int_sup_sub "info.ml" 59 1957 1957 "info.ml" 1 0 -1
+)
+"info.ml" 53 1825 1843 "info.ml" 53 1825 1859
+type(
+  bool ->
+  int ->
+  (string Lexstate.arg -> unit) ->
+  (unit -> unit) ->
+  string Lexstate.arg -> string Lexstate.arg -> bool -> unit
+)
+ident(
+  ext_ref Text.int_sup_sub
+)
+"info.ml" 54 1860 1864 "info.ml" 54 1860 1872
+type(
+  int -> unit
+)
+ident(
+  def addvsize "info.ml" 59 1957 1957 "info.ml" 1 0 -1
+)
+"info.ml" 54 1860 1875 "info.ml" 54 1860 1888
+type(
+  int -> unit
+)
+ident(
+  ext_ref Text.addvsize
+)
+"info.ml" 55 1889 1893 "info.ml" 55 1889 1897
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def over "info.ml" 59 1957 1957 "info.ml" 1 0 -1
+)
+"info.ml" 55 1889 1900 "info.ml" 55 1889 1909
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Text.over
+)
+"info.ml" 56 1910 1914 "info.ml" 56 1910 1918
+type(
+  string -> (int -> unit) -> (int -> unit) -> unit
+)
+ident(
+  def left "info.ml" 59 1957 1957 "info.ml" 1 0 -1
+)
+"info.ml" 56 1910 1921 "info.ml" 56 1910 1930
+type(
+  string -> (int -> unit) -> (int -> unit) -> unit
+)
+ident(
+  ext_ref Text.left
+)
+"info.ml" 57 1931 1935 "info.ml" 57 1931 1940
+type(
+  string -> (int -> unit) -> int
+)
+ident(
+  def right "info.ml" 59 1957 1957 "info.ml" 1 0 -1
+)
+"info.ml" 57 1931 1943 "info.ml" 57 1931 1953
+type(
+  string -> (int -> unit) -> int
+)
+ident(
+  ext_ref Text.right
+)
+"info.ml" 59 1957 1961 "info.ml" 59 1957 1971
+type(
+  string -> unit
+)
+ident(
+  def set_dcount "info.ml" 60 1991 1991 "info.ml" 1 0 -1
+)
+"info.ml" 59 1957 1973 "info.ml" 59 1957 1988
+type(
+  string -> unit
+)
+ident(
+  ext_ref Text.set_dcount
+)
+"info.ml" 60 1991 1995 "info.ml" 60 1991 1999
+type(
+  string -> unit
+)
+ident(
+  def item "info.ml" 61 2014 2014 "info.ml" 1 0 -1
+)
+"info.ml" 60 1991 2002 "info.ml" 60 1991 2011
+type(
+  string -> unit
+)
+ident(
+  ext_ref Text.item
+)
+"info.ml" 61 2014 2018 "info.ml" 61 2014 2023
+type(
+  string -> unit
+)
+ident(
+  def nitem "info.ml" 62 2039 2039 "info.ml" 1 0 -1
+)
+"info.ml" 61 2014 2026 "info.ml" 61 2014 2036
+type(
+  string -> unit
+)
+ident(
+  ext_ref Text.nitem
+)
+"info.ml" 62 2039 2043 "info.ml" 62 2039 2048
+type(
+  (string -> unit) -> string -> string -> string -> unit
+)
+ident(
+  def ditem "info.ml" 63 2064 2064 "info.ml" 1 0 -1
+)
+"info.ml" 62 2039 2051 "info.ml" 62 2039 2061
+type(
+  (string -> unit) -> string -> string -> string -> unit
+)
+ident(
+  ext_ref Text.ditem
+)
+"info.ml" 63 2064 2068 "info.ml" 63 2064 2079
+type(
+  string -> unit
+)
+ident(
+  def erase_block "info.ml" 64 2100 2100 "info.ml" 1 0 -1
+)
+"info.ml" 63 2064 2081 "info.ml" 63 2064 2097
+type(
+  string -> unit
+)
+ident(
+  ext_ref Text.erase_block
+)
+"info.ml" 64 2100 2104 "info.ml" 64 2100 2114
+type(
+  string -> unit
+)
+ident(
+  def open_group "info.ml" 65 2134 2134 "info.ml" 1 0 -1
+)
+"info.ml" 64 2100 2116 "info.ml" 64 2100 2131
+type(
+  string -> unit
+)
+ident(
+  ext_ref Text.open_group
+)
+"info.ml" 65 2134 2138 "info.ml" 65 2134 2153
+type(
+  (string -> string) -> unit
+)
+ident(
+  def open_aftergroup "info.ml" 66 2178 2178 "info.ml" 1 0 -1
+)
+"info.ml" 65 2134 2155 "info.ml" 65 2134 2175
+type(
+  (string -> string) -> unit
+)
+ident(
+  ext_ref Text.open_aftergroup
+)
+"info.ml" 66 2178 2182 "info.ml" 66 2178 2193
+type(
+  unit -> unit
+)
+ident(
+  def close_group "info.ml" 68 2215 2215 "info.ml" 1 0 -1
+)
+"info.ml" 66 2178 2195 "info.ml" 66 2178 2211
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.close_group
+)
+"info.ml" 68 2215 2219 "info.ml" 68 2215 2222
+type(
+  string -> unit
+)
+ident(
+  def put "info.ml" 73 2312 2312 "info.ml" 1 0 -1
+)
+"info.ml" 68 2215 2223 "info.ml" 68 2215 2224
+type(
+  string
+)
+ident(
+  def s "info.ml" 68 2215 2227 "info.ml" 68 2215 2237
+)
+"info.ml" 68 2215 2227 "info.ml" 68 2215 2235
+type(
+  string -> unit
+)
+ident(
+  ext_ref Text.put
+)
+"info.ml" 68 2215 2236 "info.ml" 68 2215 2237
+type(
+  string
+)
+ident(
+  int_ref s "info.ml" 68 2215 2223 "info.ml" 68 2215 2224
+)
+"info.ml" 68 2215 2227 "info.ml" 68 2215 2237
+call(
+  tail
+)
+type(
+  unit
+)
+"info.ml" 69 2238 2242 "info.ml" 69 2238 2250
+type(
+  char -> unit
+)
+ident(
+  def put_char "info.ml" 73 2312 2312 "info.ml" 1 0 -1
+)
+"info.ml" 69 2238 2251 "info.ml" 69 2238 2252
+type(
+  char
+)
+ident(
+  def c "info.ml" 69 2238 2255 "info.ml" 69 2238 2270
+)
+"info.ml" 69 2238 2255 "info.ml" 69 2238 2268
+type(
+  char -> unit
+)
+ident(
+  ext_ref Text.put_char
+)
+"info.ml" 69 2238 2269 "info.ml" 69 2238 2270
+type(
+  char
+)
+ident(
+  int_ref c "info.ml" 69 2238 2251 "info.ml" 69 2238 2252
+)
+"info.ml" 69 2238 2255 "info.ml" 69 2238 2270
+call(
+  tail
+)
+type(
+  unit
+)
+"info.ml" 70 2271 2275 "info.ml" 70 2271 2286
+type(
+  OutUnicode.unichar -> unit
+)
+ident(
+  def put_unicode "info.ml" 73 2312 2312 "info.ml" 1 0 -1
+)
+"info.ml" 70 2271 2287 "info.ml" 70 2271 2288
+type(
+  OutUnicode.unichar
+)
+ident(
+  def i "info.ml" 70 2271 2291 "info.ml" 70 2271 2309
+)
+"info.ml" 70 2271 2291 "info.ml" 70 2271 2307
+type(
+  OutUnicode.unichar -> unit
+)
+ident(
+  ext_ref Text.put_unicode
+)
+"info.ml" 70 2271 2308 "info.ml" 70 2271 2309
+type(
+  OutUnicode.unichar
+)
+ident(
+  int_ref i "info.ml" 70 2271 2287 "info.ml" 70 2271 2288
+)
+"info.ml" 70 2271 2291 "info.ml" 70 2271 2309
+call(
+  tail
+)
+type(
+  unit
+)
+"info.ml" 73 2312 2316 "info.ml" 73 2312 2325
+type(
+  unit -> unit
+)
+ident(
+  def flush_out "info.ml" 74 2344 2344 "info.ml" 1 0 -1
+)
+"info.ml" 73 2312 2327 "info.ml" 73 2312 2341
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.flush_out
+)
+"info.ml" 74 2344 2348 "info.ml" 74 2344 2357
+type(
+  unit -> unit
+)
+ident(
+  def skip_line "info.ml" 77 2406 2406 "info.ml" 1 0 -1
+)
+"info.ml" 74 2344 2359 "info.ml" 74 2344 2373
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.skip_line
+)
+"info.ml" 77 2406 2410 "info.ml" 77 2406 2418
+type(
+  string -> unit
+)
+ident(
+  def loc_name "info.ml" 81 2441 2441 "info.ml" 1 0 -1
+)
+"info.ml" 77 2406 2419 "info.ml" 77 2406 2435
+type(
+  string -> unit
+)
+ident(
+  ext_ref InfoRef.loc_name
+)
+"info.ml" 81 2441 2445 "info.ml" 81 2441 2454
+type(
+  out_channel -> unit
+)
+ident(
+  def open_chan "info.ml" 82 2472 2472 "info.ml" 1 0 -1
+)
+"info.ml" 81 2441 2455 "info.ml" 81 2441 2469
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Text.open_chan
+)
+"info.ml" 82 2472 2476 "info.ml" 82 2472 2486
+type(
+  unit -> unit
+)
+ident(
+  def close_chan "info.ml" 83 2505 2505 "info.ml" 1 0 -1
+)
+"info.ml" 82 2472 2487 "info.ml" 82 2472 2502
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.close_chan
+)
+"info.ml" 83 2505 2509 "info.ml" 83 2505 2518
+type(
+  (unit -> unit) -> string
+)
+ident(
+  def to_string "info.ml" 84 2536 2536 "info.ml" 1 0 -1
+)
+"info.ml" 83 2505 2519 "info.ml" 83 2505 2533
+type(
+  (unit -> unit) -> string
+)
+ident(
+  ext_ref Text.to_string
+)
+"info.ml" 84 2536 2540 "info.ml" 84 2536 2548
+type(
+  (unit -> unit) -> Element.text list
+)
+ident(
+  def to_style "info.ml" 85 2565 2565 "info.ml" 1 0 -1
+)
+"info.ml" 84 2536 2549 "info.ml" 84 2536 2562
+type(
+  (unit -> unit) -> Element.text list
+)
+ident(
+  ext_ref Text.to_style
+)
+"info.ml" 85 2565 2569 "info.ml" 85 2565 2587
+type(
+  unit -> string
+)
+ident(
+  def get_current_output "info.ml" 88 2651 2651 "info.ml" 1 0 -1
+)
+"info.ml" 85 2565 2589 "info.ml" 85 2565 2612
+type(
+  unit -> string
+)
+ident(
+  ext_ref Text.get_current_output
+)
+"info.ml" 88 2651 2655 "info.ml" 88 2651 2663
+type(
+  bool -> unit
+)
+ident(
+  def finalize "info.ml" 111 3350 3350 "info.ml" 1 0 -1
+)
+"info.ml" 88 2651 2664 "info.ml" 88 2651 2669
+type(
+  bool
+)
+ident(
+  def check "info.ml" 89 2672 2674 "info.ml" 108 3322 3345
+)
+"info.ml" 89 2672 2677 "info.ml" 89 2672 2682
+type(
+  bool
+)
+ident(
+  int_ref check "info.ml" 88 2651 2664 "info.ml" 88 2651 2669
+)
+"info.ml" 90 2694 2701 "info.ml" 90 2694 2702
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"info.ml" 90 2694 2702 "info.ml" 90 2694 2709
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"info.ml" 90 2694 2701 "info.ml" 90 2694 2709
+type(
+  int
+)
+"info.ml" 90 2694 2709 "info.ml" 90 2694 2710
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"info.ml" 90 2694 2710 "info.ml" 90 2694 2711
+type(
+  int
+)
+"info.ml" 90 2694 2701 "info.ml" 90 2694 2711
+type(
+  bool
+)
+"info.ml" 90 2694 2717 "info.ml" 90 2694 2730
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"info.ml" 90 2694 2731 "info.ml" 90 2694 2759
+type(
+  string
+)
+"info.ml" 90 2694 2717 "info.ml" 90 2694 2759
+call(
+  stack
+)
+type(
+  unit
+)
+"info.ml" 90 2694 2698 "info.ml" 90 2694 2759
+type(
+  unit
+)
+"info.ml" 91 2761 2765 "info.ml" 91 2761 2787
+type(
+  unit -> unit
+)
+ident(
+  ext_ref InfoRef.finalize_nodes
+)
+"info.ml" 91 2761 2788 "info.ml" 91 2761 2790
+type(
+  unit
+)
+"info.ml" 91 2761 2765 "info.ml" 91 2761 2790
+call(
+  stack
+)
+type(
+  unit
+)
+"info.ml" 92 2792 2796 "info.ml" 92 2792 2809
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Text.finalize
+)
+"info.ml" 92 2792 2810 "info.ml" 92 2792 2815
+type(
+  bool
+)
+ident(
+  int_ref check "info.ml" 88 2651 2664 "info.ml" 88 2651 2669
+)
+"info.ml" 92 2792 2796 "info.ml" 92 2792 2815
+call(
+  stack
+)
+type(
+  unit
+)
+"info.ml" 93 2818 2826 "info.ml" 93 2818 2830
+type(
+  string
+)
+ident(
+  def name "info.ml" 105 3219 3223 "info.ml" 106 3242 3310
+)
+"info.ml" 93 2818 2831 "info.ml" 93 2818 2834
+type(
+  Lexing.lexbuf
+)
+ident(
+  def buf "info.ml" 105 3219 3223 "info.ml" 106 3242 3310
+)
+"info.ml" 93 2818 2826 "info.ml" 93 2818 2834
+type(
+  string * Lexing.lexbuf
+)
+"info.ml" 94 2837 2846 "info.ml" 94 2837 2863
+type(
+  bool
+)
+ident(
+  ext_ref Parse_opts.filter
+)
+"info.ml" 95 2869 2881 "info.ml" 95 2869 2886
+type(
+  string
+)
+ident(
+  def texte "info.ml" 96 2915 2923 "info.ml" 96 2915 2952
+)
+"info.ml" 95 2869 2889 "info.ml" 95 2869 2907
+type(
+  unit -> string
+)
+ident(
+  int_ref get_current_output "info.ml" 85 2565 2569 "info.ml" 85 2565 2587
+)
+"info.ml" 95 2869 2908 "info.ml" 95 2869 2910
+type(
+  unit
+)
+"info.ml" 95 2869 2889 "info.ml" 95 2869 2910
+call(
+  stack
+)
+type(
+  string
+)
+"info.ml" 96 2915 2923 "info.ml" 96 2915 2925
+type(
+  string
+)
+"info.ml" 96 2915 2926 "info.ml" 96 2915 2946
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref MyLexing.from_string
+)
+"info.ml" 96 2915 2947 "info.ml" 96 2915 2952
+type(
+  string
+)
+ident(
+  int_ref texte "info.ml" 95 2869 2881 "info.ml" 95 2869 2886
+)
+"info.ml" 96 2915 2926 "info.ml" 96 2915 2952
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"info.ml" 96 2915 2923 "info.ml" 96 2915 2952
+type(
+  string * Lexing.lexbuf
+)
+"info.ml" 95 2869 2877 "info.ml" 96 2915 2952
+type(
+  string * Lexing.lexbuf
+)
+"info.ml" 100 3027 3041 "info.ml" 100 3027 3042
+type(
+  string
+)
+ident(
+  def f "info.ml" 101 3075 3085 "info.ml" 101 3075 3119
+)
+"info.ml" 100 3027 3045 "info.ml" 100 3027 3064
+type(
+  string
+)
+ident(
+  ext_ref Parse_opts.name_out
+)
+"info.ml" 100 3027 3064 "info.ml" 100 3027 3065
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"info.ml" 100 3027 3065 "info.ml" 100 3027 3071
+type(
+  string
+)
+"info.ml" 100 3027 3045 "info.ml" 100 3027 3071
+call(
+  stack
+)
+type(
+  string
+)
+"info.ml" 101 3075 3085 "info.ml" 101 3075 3086
+type(
+  string
+)
+ident(
+  int_ref f "info.ml" 100 3027 3041 "info.ml" 100 3027 3042
+)
+"info.ml" 101 3075 3087 "info.ml" 101 3075 3106
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"info.ml" 101 3075 3109 "info.ml" 101 3075 3116
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"info.ml" 101 3075 3117 "info.ml" 101 3075 3118
+type(
+  string
+)
+ident(
+  int_ref f "info.ml" 100 3027 3041 "info.ml" 100 3027 3042
+)
+"info.ml" 101 3075 3108 "info.ml" 101 3075 3119
+call(
+  stack
+)
+type(
+  in_channel
+)
+"info.ml" 101 3075 3087 "info.ml" 101 3075 3119
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"info.ml" 101 3075 3085 "info.ml" 101 3075 3119
+type(
+  string * Lexing.lexbuf
+)
+"info.ml" 100 3027 3037 "info.ml" 101 3075 3119
+type(
+  string * Lexing.lexbuf
+)
+"info.ml" 102 3120 3143 "info.ml" 102 3120 3146
+type(
+  string
+)
+ident(
+  def msg "info.ml" 103 3150 3160 "info.ml" 103 3150 3211
+)
+"info.ml" 102 3120 3133 "info.ml" 102 3120 3146
+type(
+  exn
+)
+"info.ml" 103 3150 3160 "info.ml" 103 3150 3170
+type(
+  string -> string * Lexing.lexbuf
+)
+ident(
+  ext_ref Misc.fatal
+)
+"info.ml" 103 3150 3172 "info.ml" 103 3150 3206
+type(
+  string
+)
+"info.ml" 103 3150 3206 "info.ml" 103 3150 3207
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"info.ml" 103 3150 3207 "info.ml" 103 3150 3210
+type(
+  string
+)
+ident(
+  int_ref msg "info.ml" 102 3120 3143 "info.ml" 102 3120 3146
+)
+"info.ml" 103 3150 3171 "info.ml" 103 3150 3211
+call(
+  stack
+)
+type(
+  string
+)
+"info.ml" 103 3150 3160 "info.ml" 103 3150 3211
+call(
+  stack
+)
+type(
+  string * Lexing.lexbuf
+)
+"info.ml" 99 3015 3023 "info.ml" 103 3150 3211
+type(
+  string * Lexing.lexbuf
+)
+"info.ml" 94 2837 2843 "info.ml" 103 3150 3211
+type(
+  string * Lexing.lexbuf
+)
+"info.ml" 105 3219 3223 "info.ml" 105 3219 3235
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref InfoRef.dump
+)
+"info.ml" 105 3219 3236 "info.ml" 105 3219 3239
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref buf "info.ml" 93 2818 2831 "info.ml" 93 2818 2834
+)
+"info.ml" 105 3219 3223 "info.ml" 105 3219 3239
+call(
+  stack
+)
+type(
+  unit
+)
+"info.ml" 106 3242 3249 "info.ml" 106 3242 3252
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"info.ml" 106 3242 3253 "info.ml" 106 3242 3270
+type(
+  bool
+)
+ident(
+  ext_ref Parse_opts.filter
+)
+"info.ml" 106 3242 3249 "info.ml" 106 3242 3270
+type(
+  bool
+)
+"info.ml" 106 3242 3271 "info.ml" 106 3242 3273
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"info.ml" 106 3242 3274 "info.ml" 106 3242 3275
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"info.ml" 106 3242 3275 "info.ml" 106 3242 3282
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"info.ml" 106 3242 3274 "info.ml" 106 3242 3282
+type(
+  int
+)
+"info.ml" 106 3242 3283 "info.ml" 106 3242 3285
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"info.ml" 106 3242 3286 "info.ml" 106 3242 3287
+type(
+  int
+)
+"info.ml" 106 3242 3274 "info.ml" 106 3242 3287
+type(
+  bool
+)
+"info.ml" 106 3242 3249 "info.ml" 106 3242 3287
+type(
+  bool
+)
+"info.ml" 106 3242 3293 "info.ml" 106 3242 3305
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mysys.remove
+)
+"info.ml" 106 3242 3306 "info.ml" 106 3242 3310
+type(
+  string
+)
+ident(
+  int_ref name "info.ml" 93 2818 2826 "info.ml" 93 2818 2830
+)
+"info.ml" 106 3242 3293 "info.ml" 106 3242 3310
+call(
+  tail
+)
+type(
+  unit
+)
+"info.ml" 106 3242 3246 "info.ml" 106 3242 3310
+type(
+  unit
+)
+"info.ml" 105 3219 3223 "info.ml" 106 3242 3310
+type(
+  unit
+)
+"info.ml" 93 2818 2822 "info.ml" 106 3242 3310
+type(
+  unit
+)
+"info.ml" 92 2792 2796 "info.ml" 106 3242 3310
+type(
+  unit
+)
+"info.ml" 91 2761 2765 "info.ml" 106 3242 3310
+type(
+  unit
+)
+"info.ml" 89 2672 2688 "info.ml" 107 3311 3316
+type(
+  unit
+)
+"info.ml" 108 3322 3326 "info.ml" 108 3322 3339
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Text.finalize
+)
+"info.ml" 108 3322 3340 "info.ml" 108 3322 3345
+type(
+  bool
+)
+"info.ml" 108 3322 3326 "info.ml" 108 3322 3345
+call(
+  tail
+)
+type(
+  unit
+)
+"info.ml" 89 2672 2674 "info.ml" 108 3322 3345
+type(
+  unit
+)
+"info.ml" 111 3350 3354 "info.ml" 111 3350 3369
+type(
+  string -> Length.t -> Length.t -> unit
+)
+ident(
+  def horizontal_line "info.ml" 112 3394 3394 "info.ml" 1 0 -1
+)
+"info.ml" 111 3350 3371 "info.ml" 111 3350 3391
+type(
+  string -> Length.t -> Length.t -> unit
+)
+ident(
+  ext_ref Text.horizontal_line
+)
+"info.ml" 112 3394 3398 "info.ml" 112 3394 3411
+type(
+  unit -> unit
+)
+ident(
+  def put_separator "info.ml" 113 3434 3434 "info.ml" 1 0 -1
+)
+"info.ml" 112 3394 3413 "info.ml" 112 3394 3431
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.put_separator
+)
+"info.ml" 113 3434 3438 "info.ml" 113 3434 3444
+type(
+  unit -> unit
+)
+ident(
+  def unskip "info.ml" 114 3461 3461 "info.ml" 1 0 -1
+)
+"info.ml" 113 3434 3447 "info.ml" 113 3434 3458
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.unskip
+)
+"info.ml" 114 3461 3465 "info.ml" 114 3461 3472
+type(
+  string -> unit
+)
+ident(
+  def put_tag "info.ml" 115 3489 3489 "info.ml" 1 0 -1
+)
+"info.ml" 114 3461 3474 "info.ml" 114 3461 3486
+type(
+  string -> unit
+)
+ident(
+  ext_ref Text.put_tag
+)
+"info.ml" 115 3489 3493 "info.ml" 115 3489 3501
+type(
+  unit -> unit
+)
+ident(
+  def put_nbsp "info.ml" 116 3519 3519 "info.ml" 1 0 -1
+)
+"info.ml" 115 3489 3503 "info.ml" 115 3489 3516
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.put_nbsp
+)
+"info.ml" 116 3519 3523 "info.ml" 116 3519 3537
+type(
+  unit -> unit
+)
+ident(
+  def put_open_group "info.ml" 117 3561 3561 "info.ml" 1 0 -1
+)
+"info.ml" 116 3519 3539 "info.ml" 116 3519 3558
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.put_open_group
+)
+"info.ml" 117 3561 3565 "info.ml" 117 3561 3580
+type(
+  unit -> unit
+)
+ident(
+  def put_close_group "info.ml" 118 3605 3605 "info.ml" 1 0 -1
+)
+"info.ml" 117 3561 3582 "info.ml" 117 3561 3602
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.put_close_group
+)
+"info.ml" 118 3605 3609 "info.ml" 118 3605 3620
+type(
+  string -> unit
+)
+ident(
+  def put_in_math "info.ml" 121 3643 3643 "info.ml" 1 0 -1
+)
+"info.ml" 118 3605 3622 "info.ml" 118 3605 3638
+type(
+  string -> unit
+)
+ident(
+  ext_ref Text.put_in_math
+)
+"info.ml" 121 3643 3647 "info.ml" 121 3643 3657
+type(
+  bool -> string -> unit
+)
+ident(
+  def open_table "info.ml" 122 3677 3677 "info.ml" 1 0 -1
+)
+"info.ml" 121 3643 3659 "info.ml" 121 3643 3674
+type(
+  bool -> string -> unit
+)
+ident(
+  ext_ref Text.open_table
+)
+"info.ml" 122 3677 3681 "info.ml" 122 3677 3688
+type(
+  unit -> unit
+)
+ident(
+  def new_row "info.ml" 123 3705 3705 "info.ml" 1 0 -1
+)
+"info.ml" 122 3677 3690 "info.ml" 122 3677 3702
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.new_row
+)
+"info.ml" 123 3705 3709 "info.ml" 123 3705 3718
+type(
+  Tabular.format -> int -> int -> bool -> unit
+)
+ident(
+  def open_cell "info.ml" 124 3737 3737 "info.ml" 1 0 -1
+)
+"info.ml" 123 3705 3720 "info.ml" 123 3705 3734
+type(
+  Tabular.format -> int -> int -> bool -> unit
+)
+ident(
+  ext_ref Text.open_cell
+)
+"info.ml" 124 3737 3741 "info.ml" 124 3737 3751
+type(
+  unit -> unit
+)
+ident(
+  def erase_cell "info.ml" 125 3771 3771 "info.ml" 1 0 -1
+)
+"info.ml" 124 3737 3753 "info.ml" 124 3737 3768
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.erase_cell
+)
+"info.ml" 125 3771 3775 "info.ml" 125 3771 3785
+type(
+  string -> unit
+)
+ident(
+  def close_cell "info.ml" 126 3805 3805 "info.ml" 1 0 -1
+)
+"info.ml" 125 3771 3787 "info.ml" 125 3771 3802
+type(
+  string -> unit
+)
+ident(
+  ext_ref Text.close_cell
+)
+"info.ml" 126 3805 3809 "info.ml" 126 3805 3822
+type(
+  unit -> unit
+)
+ident(
+  def do_close_cell "info.ml" 127 3846 3846 "info.ml" 1 0 -1
+)
+"info.ml" 126 3805 3825 "info.ml" 126 3805 3843
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.do_close_cell
+)
+"info.ml" 127 3846 3850 "info.ml" 127 3846 3865
+type(
+  unit -> unit
+)
+ident(
+  def open_cell_group "info.ml" 128 3891 3891 "info.ml" 1 0 -1
+)
+"info.ml" 127 3846 3868 "info.ml" 127 3846 3888
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.open_cell_group
+)
+"info.ml" 128 3891 3895 "info.ml" 128 3891 3911
+type(
+  unit -> unit
+)
+ident(
+  def close_cell_group "info.ml" 129 3938 3938 "info.ml" 1 0 -1
+)
+"info.ml" 128 3891 3914 "info.ml" 128 3891 3935
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.close_cell_group
+)
+"info.ml" 129 3938 3942 "info.ml" 129 3938 3958
+type(
+  unit -> unit
+)
+ident(
+  def erase_cell_group "info.ml" 130 3985 3985 "info.ml" 1 0 -1
+)
+"info.ml" 129 3938 3961 "info.ml" 129 3938 3982
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.erase_cell_group
+)
+"info.ml" 130 3985 3989 "info.ml" 130 3985 3998
+type(
+  unit -> unit
+)
+ident(
+  def close_row "info.ml" 131 4017 4017 "info.ml" 1 0 -1
+)
+"info.ml" 130 3985 4000 "info.ml" 130 3985 4014
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.close_row
+)
+"info.ml" 131 4017 4021 "info.ml" 131 4017 4030
+type(
+  unit -> unit
+)
+ident(
+  def erase_row "info.ml" 132 4049 4049 "info.ml" 1 0 -1
+)
+"info.ml" 131 4017 4032 "info.ml" 131 4017 4046
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.erase_row
+)
+"info.ml" 132 4049 4053 "info.ml" 132 4049 4064
+type(
+  unit -> unit
+)
+ident(
+  def close_table "info.ml" 133 4085 4085 "info.ml" 1 0 -1
+)
+"info.ml" 132 4049 4066 "info.ml" 132 4049 4082
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Text.close_table
+)
+"info.ml" 133 4085 4089 "info.ml" 133 4085 4100
+type(
+  string -> unit
+)
+ident(
+  def make_border "info.ml" 134 4122 4122 "info.ml" 1 0 -1
+)
+"info.ml" 133 4085 4103 "info.ml" 133 4085 4119
+type(
+  string -> unit
+)
+ident(
+  ext_ref Text.make_border
+)
+"info.ml" 134 4122 4126 "info.ml" 134 4122 4137
+type(
+  string -> bool -> unit
+)
+ident(
+  def make_inside "info.ml" 135 4159 4159 "info.ml" 1 0 -1
+)
+"info.ml" 134 4122 4140 "info.ml" 134 4122 4156
+type(
+  string -> bool -> unit
+)
+ident(
+  ext_ref Text.make_inside
+)
+"info.ml" 135 4159 4163 "info.ml" 135 4159 4173
+type(
+  int -> bool -> unit
+)
+ident(
+  def make_hline "info.ml" 137 4195 4195 "info.ml" 1 0 -1
+)
+"info.ml" 135 4159 4176 "info.ml" 135 4159 4191
+type(
+  int -> bool -> unit
+)
+ident(
+  ext_ref Text.make_hline
+)
+"info.ml" 137 4195 4199 "info.ml" 137 4195 4207
+type(
+  string -> string -> string -> unit
+)
+ident(
+  def infonode "info.ml" 138 4229 4229 "info.ml" 1 0 -1
+)
+"info.ml" 137 4195 4210 "info.ml" 137 4195 4226
+type(
+  string -> string -> string -> unit
+)
+ident(
+  ext_ref InfoRef.infonode
+)
+"info.ml" 138 4229 4233 "info.ml" 138 4229 4246
+type(
+  string -> string -> string -> unit
+)
+ident(
+  def infoextranode "info.ml" 139 4273 4273 "info.ml" 1 0 -1
+)
+"info.ml" 138 4229 4249 "info.ml" 138 4229 4270
+type(
+  string -> string -> string -> unit
+)
+ident(
+  ext_ref InfoRef.infoextranode
+)
+"info.ml" 139 4273 4277 "info.ml" 139 4273 4285
+type(
+  string -> unit
+)
+ident(
+  def infomenu "info.ml" 141 4308 4308 "info.ml" 1 0 -1
+)
+"info.ml" 139 4273 4288 "info.ml" 139 4273 4304
+type(
+  string -> unit
+)
+ident(
+  ext_ref InfoRef.infomenu
+)
+"info.ml" 141 4308 4312 "info.ml" 141 4308 4317
+type(
+  string -> string -> unit
+)
+ident(
+  def image "info.ml" 143 4334 4334 "info.ml" 1 0 -1
+)
+"info.ml" 141 4308 4320 "info.ml" 141 4308 4330
+type(
+  string -> string -> unit
+)
+ident(
+  ext_ref Text.image
+)
+"info.ml" 145 4359 4363 "info.ml" 145 4359 4368
+type(
+  unit -> Text.saved
+)
+ident(
+  def check "info.ml" 146 4382 4400 "info.ml" 1 0 -1
+)
+"info.ml" 145 4359 4371 "info.ml" 145 4359 4381
+type(
+  unit -> Text.saved
+)
+ident(
+  ext_ref Text.check
+)
+"info.ml" 146 4382 4386 "info.ml" 146 4382 4389
+type(
+  Text.saved -> unit
+)
+ident(
+  def hot "info.ml" 146 4382 4400 "info.ml" 1 0 -1
+)
+"info.ml" 146 4382 4392 "info.ml" 146 4382 4400
+type(
+  Text.saved -> unit
+)
+ident(
+  ext_ref Text.hot
+)

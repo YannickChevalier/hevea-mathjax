@@ -1,0 +1,1062 @@
+"saveUtils.ml" 14 770 774 "saveUtils.ml" 14 770 781
+type(
+  int ref
+)
+ident(
+  def verbose "saveUtils.ml" 17 817 817 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 14 770 784 "saveUtils.ml" 14 770 787
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"saveUtils.ml" 14 770 788 "saveUtils.ml" 14 770 789
+type(
+  int
+)
+"saveUtils.ml" 14 770 784 "saveUtils.ml" 14 770 789
+type(
+  int ref
+)
+"saveUtils.ml" 14 770 794 "saveUtils.ml" 14 770 800
+type(
+  bool ref
+)
+ident(
+  def silent "saveUtils.ml" 17 817 817 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 14 770 803 "saveUtils.ml" 14 770 806
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"saveUtils.ml" 14 770 807 "saveUtils.ml" 14 770 812
+type(
+  bool
+)
+"saveUtils.ml" 14 770 803 "saveUtils.ml" 14 770 812
+type(
+  bool ref
+)
+"saveUtils.ml" 17 817 821 "saveUtils.ml" 17 817 832
+type(
+  bool -> int -> unit
+)
+ident(
+  def set_verbose "saveUtils.ml" 21 872 872 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 17 817 833 "saveUtils.ml" 17 817 834
+type(
+  bool
+)
+ident(
+  def s "saveUtils.ml" 17 817 835 "saveUtils.ml" 18 839 867
+)
+"saveUtils.ml" 17 817 835 "saveUtils.ml" 17 817 836
+type(
+  int
+)
+ident(
+  def v "saveUtils.ml" 18 839 841 "saveUtils.ml" 18 839 867
+)
+"saveUtils.ml" 18 839 841 "saveUtils.ml" 18 839 847
+type(
+  bool ref
+)
+ident(
+  int_ref silent "saveUtils.ml" 14 770 794 "saveUtils.ml" 14 770 800
+)
+"saveUtils.ml" 18 839 848 "saveUtils.ml" 18 839 850
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"saveUtils.ml" 18 839 851 "saveUtils.ml" 18 839 852
+type(
+  bool
+)
+ident(
+  int_ref s "saveUtils.ml" 17 817 833 "saveUtils.ml" 17 817 834
+)
+"saveUtils.ml" 18 839 841 "saveUtils.ml" 18 839 852
+type(
+  unit
+)
+"saveUtils.ml" 18 839 855 "saveUtils.ml" 18 839 862
+type(
+  int ref
+)
+ident(
+  int_ref verbose "saveUtils.ml" 14 770 774 "saveUtils.ml" 14 770 781
+)
+"saveUtils.ml" 18 839 863 "saveUtils.ml" 18 839 865
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"saveUtils.ml" 18 839 866 "saveUtils.ml" 18 839 867
+type(
+  int
+)
+ident(
+  int_ref v "saveUtils.ml" 17 817 835 "saveUtils.ml" 17 817 836
+)
+"saveUtils.ml" 18 839 855 "saveUtils.ml" 18 839 867
+type(
+  unit
+)
+"saveUtils.ml" 18 839 841 "saveUtils.ml" 18 839 867
+type(
+  unit
+)
+"saveUtils.ml" 26 931 935 "saveUtils.ml" 26 931 943
+type(
+  bool ref
+)
+ident(
+  def seen_par "saveUtils.ml" 30 961 961 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 26 931 946 "saveUtils.ml" 26 931 949
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"saveUtils.ml" 26 931 950 "saveUtils.ml" 26 931 955
+type(
+  bool
+)
+"saveUtils.ml" 26 931 946 "saveUtils.ml" 26 931 955
+type(
+  bool ref
+)
+"saveUtils.ml" 30 961 965 "saveUtils.ml" 30 961 978
+type(
+  int ref
+)
+ident(
+  def brace_nesting "saveUtils.ml" 37 1097 1097 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 30 961 981 "saveUtils.ml" 30 961 984
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"saveUtils.ml" 30 961 985 "saveUtils.ml" 30 961 986
+type(
+  int
+)
+"saveUtils.ml" 30 961 981 "saveUtils.ml" 30 961 986
+type(
+  int ref
+)
+"saveUtils.ml" 31 987 991 "saveUtils.ml" 31 987 999
+type(
+  Out.t
+)
+ident(
+  def arg_buff "saveUtils.ml" 37 1097 1097 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 31 987 1002 "saveUtils.ml" 31 987 1017
+type(
+  unit -> Out.t
+)
+ident(
+  ext_ref Out.create_buff
+)
+"saveUtils.ml" 31 987 1018 "saveUtils.ml" 31 987 1020
+type(
+  unit
+)
+"saveUtils.ml" 31 987 1002 "saveUtils.ml" 31 987 1020
+call(
+  stack
+)
+type(
+  Out.t
+)
+"saveUtils.ml" 32 1021 1025 "saveUtils.ml" 32 1021 1034
+type(
+  Out.t
+)
+ident(
+  def echo_buff "saveUtils.ml" 37 1097 1097 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 32 1021 1037 "saveUtils.ml" 32 1021 1052
+type(
+  unit -> Out.t
+)
+ident(
+  ext_ref Out.create_buff
+)
+"saveUtils.ml" 32 1021 1053 "saveUtils.ml" 32 1021 1055
+type(
+  unit
+)
+"saveUtils.ml" 32 1021 1037 "saveUtils.ml" 32 1021 1055
+call(
+  stack
+)
+type(
+  Out.t
+)
+"saveUtils.ml" 33 1056 1060 "saveUtils.ml" 33 1056 1068
+type(
+  Out.t
+)
+ident(
+  def tag_buff "saveUtils.ml" 37 1097 1097 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 33 1056 1071 "saveUtils.ml" 33 1056 1086
+type(
+  unit -> Out.t
+)
+ident(
+  ext_ref Out.create_buff
+)
+"saveUtils.ml" 33 1056 1087 "saveUtils.ml" 33 1056 1089
+type(
+  unit
+)
+"saveUtils.ml" 33 1056 1071 "saveUtils.ml" 33 1056 1089
+call(
+  stack
+)
+type(
+  Out.t
+)
+"saveUtils.ml" 37 1097 1101 "saveUtils.ml" 37 1097 1105
+type(
+  bool ref
+)
+ident(
+  def echo "saveUtils.ml" 40 1122 1122 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 37 1097 1108 "saveUtils.ml" 37 1097 1111
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"saveUtils.ml" 37 1097 1112 "saveUtils.ml" 37 1097 1117
+type(
+  bool
+)
+"saveUtils.ml" 37 1097 1108 "saveUtils.ml" 37 1097 1117
+type(
+  bool ref
+)
+"saveUtils.ml" 40 1122 1126 "saveUtils.ml" 40 1122 1134
+type(
+  unit -> string
+)
+ident(
+  def get_echo "saveUtils.ml" 44 1239 1239 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 40 1122 1135 "saveUtils.ml" 40 1122 1137
+type(
+  unit
+)
+"saveUtils.ml" 40 1122 1140 "saveUtils.ml" 40 1122 1144
+type(
+  bool ref
+)
+ident(
+  int_ref echo "saveUtils.ml" 37 1097 1101 "saveUtils.ml" 37 1097 1105
+)
+"saveUtils.ml" 40 1122 1145 "saveUtils.ml" 40 1122 1147
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"saveUtils.ml" 40 1122 1148 "saveUtils.ml" 40 1122 1153
+type(
+  bool
+)
+"saveUtils.ml" 40 1122 1140 "saveUtils.ml" 40 1122 1153
+type(
+  unit
+)
+"saveUtils.ml" 40 1122 1156 "saveUtils.ml" 40 1122 1169
+type(
+  Out.t -> string
+)
+ident(
+  ext_ref Out.to_string
+)
+"saveUtils.ml" 40 1122 1170 "saveUtils.ml" 40 1122 1179
+type(
+  Out.t
+)
+ident(
+  int_ref echo_buff "saveUtils.ml" 32 1021 1025 "saveUtils.ml" 32 1021 1034
+)
+"saveUtils.ml" 40 1122 1156 "saveUtils.ml" 40 1122 1179
+call(
+  tail
+)
+type(
+  string
+)
+"saveUtils.ml" 40 1122 1140 "saveUtils.ml" 40 1122 1179
+type(
+  string
+)
+"saveUtils.ml" 41 1180 1184 "saveUtils.ml" 41 1180 1194
+type(
+  unit -> unit
+)
+ident(
+  def start_echo "saveUtils.ml" 44 1239 1239 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 41 1180 1195 "saveUtils.ml" 41 1180 1197
+type(
+  unit
+)
+"saveUtils.ml" 41 1180 1200 "saveUtils.ml" 41 1180 1204
+type(
+  bool ref
+)
+ident(
+  int_ref echo "saveUtils.ml" 37 1097 1101 "saveUtils.ml" 37 1097 1105
+)
+"saveUtils.ml" 41 1180 1205 "saveUtils.ml" 41 1180 1207
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"saveUtils.ml" 41 1180 1208 "saveUtils.ml" 41 1180 1212
+type(
+  bool
+)
+"saveUtils.ml" 41 1180 1200 "saveUtils.ml" 41 1180 1212
+type(
+  unit
+)
+"saveUtils.ml" 41 1180 1215 "saveUtils.ml" 41 1180 1224
+type(
+  Out.t -> unit
+)
+ident(
+  ext_ref Out.reset
+)
+"saveUtils.ml" 41 1180 1225 "saveUtils.ml" 41 1180 1234
+type(
+  Out.t
+)
+ident(
+  int_ref echo_buff "saveUtils.ml" 32 1021 1025 "saveUtils.ml" 32 1021 1034
+)
+"saveUtils.ml" 41 1180 1215 "saveUtils.ml" 41 1180 1234
+call(
+  tail
+)
+type(
+  unit
+)
+"saveUtils.ml" 41 1180 1200 "saveUtils.ml" 41 1180 1234
+type(
+  unit
+)
+"saveUtils.ml" 44 1239 1243 "saveUtils.ml" 44 1239 1254
+type(
+  unit -> unit
+)
+ident(
+  def empty_buffs "saveUtils.ml" 50 1370 1370 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 44 1239 1255 "saveUtils.ml" 44 1239 1257
+type(
+  unit
+)
+"saveUtils.ml" 45 1260 1262 "saveUtils.ml" 45 1260 1275
+type(
+  int ref
+)
+ident(
+  int_ref brace_nesting "saveUtils.ml" 30 961 965 "saveUtils.ml" 30 961 978
+)
+"saveUtils.ml" 45 1260 1276 "saveUtils.ml" 45 1260 1278
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"saveUtils.ml" 45 1260 1279 "saveUtils.ml" 45 1260 1280
+type(
+  int
+)
+"saveUtils.ml" 45 1260 1262 "saveUtils.ml" 45 1260 1280
+type(
+  unit
+)
+"saveUtils.ml" 45 1260 1283 "saveUtils.ml" 45 1260 1292
+type(
+  Out.t -> unit
+)
+ident(
+  ext_ref Out.reset
+)
+"saveUtils.ml" 45 1260 1293 "saveUtils.ml" 45 1260 1301
+type(
+  Out.t
+)
+ident(
+  int_ref arg_buff "saveUtils.ml" 31 987 991 "saveUtils.ml" 31 987 999
+)
+"saveUtils.ml" 45 1260 1283 "saveUtils.ml" 45 1260 1301
+call(
+  stack
+)
+type(
+  unit
+)
+"saveUtils.ml" 46 1304 1306 "saveUtils.ml" 46 1304 1310
+type(
+  bool ref
+)
+ident(
+  int_ref echo "saveUtils.ml" 37 1097 1101 "saveUtils.ml" 37 1097 1105
+)
+"saveUtils.ml" 46 1304 1311 "saveUtils.ml" 46 1304 1313
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"saveUtils.ml" 46 1304 1314 "saveUtils.ml" 46 1304 1319
+type(
+  bool
+)
+"saveUtils.ml" 46 1304 1306 "saveUtils.ml" 46 1304 1319
+type(
+  unit
+)
+"saveUtils.ml" 46 1304 1322 "saveUtils.ml" 46 1304 1331
+type(
+  Out.t -> unit
+)
+ident(
+  ext_ref Out.reset
+)
+"saveUtils.ml" 46 1304 1332 "saveUtils.ml" 46 1304 1341
+type(
+  Out.t
+)
+ident(
+  int_ref echo_buff "saveUtils.ml" 32 1021 1025 "saveUtils.ml" 32 1021 1034
+)
+"saveUtils.ml" 46 1304 1322 "saveUtils.ml" 46 1304 1341
+call(
+  stack
+)
+type(
+  unit
+)
+"saveUtils.ml" 47 1344 1346 "saveUtils.ml" 47 1344 1355
+type(
+  Out.t -> unit
+)
+ident(
+  ext_ref Out.reset
+)
+"saveUtils.ml" 47 1344 1356 "saveUtils.ml" 47 1344 1364
+type(
+  Out.t
+)
+ident(
+  int_ref tag_buff "saveUtils.ml" 33 1056 1060 "saveUtils.ml" 33 1056 1068
+)
+"saveUtils.ml" 47 1344 1346 "saveUtils.ml" 47 1344 1364
+call(
+  tail
+)
+type(
+  unit
+)
+"saveUtils.ml" 46 1304 1322 "saveUtils.ml" 47 1344 1364
+type(
+  unit
+)
+"saveUtils.ml" 46 1304 1306 "saveUtils.ml" 47 1344 1364
+type(
+  unit
+)
+"saveUtils.ml" 45 1260 1283 "saveUtils.ml" 47 1344 1364
+type(
+  unit
+)
+"saveUtils.ml" 45 1260 1262 "saveUtils.ml" 47 1344 1364
+type(
+  unit
+)
+"saveUtils.ml" 50 1370 1374 "saveUtils.ml" 50 1370 1379
+type(
+  string -> 'a
+)
+ident(
+  def error "saveUtils.ml" 55 1425 1425 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 50 1370 1380 "saveUtils.ml" 50 1370 1381
+type(
+  string
+)
+ident(
+  def s "saveUtils.ml" 51 1384 1386 "saveUtils.ml" 52 1403 1420
+)
+"saveUtils.ml" 51 1384 1386 "saveUtils.ml" 51 1384 1397
+type(
+  unit -> unit
+)
+ident(
+  int_ref empty_buffs "saveUtils.ml" 44 1239 1243 "saveUtils.ml" 44 1239 1254
+)
+"saveUtils.ml" 51 1384 1398 "saveUtils.ml" 51 1384 1400
+type(
+  unit
+)
+"saveUtils.ml" 51 1384 1386 "saveUtils.ml" 51 1384 1400
+call(
+  stack
+)
+type(
+  unit
+)
+"saveUtils.ml" 52 1403 1405 "saveUtils.ml" 52 1403 1410
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"saveUtils.ml" 52 1403 1418 "saveUtils.ml" 52 1403 1419
+type(
+  string
+)
+ident(
+  int_ref s "saveUtils.ml" 50 1370 1380 "saveUtils.ml" 50 1370 1381
+)
+"saveUtils.ml" 52 1403 1411 "saveUtils.ml" 52 1403 1420
+type(
+  exn
+)
+"saveUtils.ml" 52 1403 1405 "saveUtils.ml" 52 1403 1420
+type(
+  'a
+)
+"saveUtils.ml" 51 1384 1386 "saveUtils.ml" 52 1403 1420
+type(
+  'a
+)
+"saveUtils.ml" 55 1425 1429 "saveUtils.ml" 55 1425 1445
+type(
+  string -> int
+)
+ident(
+  def my_int_of_string "saveUtils.ml" 60 1558 1558 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 55 1425 1446 "saveUtils.ml" 55 1425 1447
+type(
+  string
+)
+ident(
+  def s "saveUtils.ml" 56 1450 1452 "saveUtils.ml" 58 1506 1556
+)
+"saveUtils.ml" 56 1450 1456 "saveUtils.ml" 56 1450 1469
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"saveUtils.ml" 56 1450 1470 "saveUtils.ml" 56 1450 1471
+type(
+  string
+)
+ident(
+  int_ref s "saveUtils.ml" 55 1425 1446 "saveUtils.ml" 55 1425 1447
+)
+"saveUtils.ml" 56 1450 1456 "saveUtils.ml" 56 1450 1471
+type(
+  int
+)
+"saveUtils.ml" 57 1472 1487 "saveUtils.ml" 57 1472 1502
+type(
+  string
+)
+"saveUtils.ml" 57 1472 1479 "saveUtils.ml" 57 1472 1502
+type(
+  exn
+)
+"saveUtils.ml" 58 1506 1510 "saveUtils.ml" 58 1506 1515
+type(
+  string -> int
+)
+ident(
+  int_ref error "saveUtils.ml" 50 1370 1374 "saveUtils.ml" 50 1370 1379
+)
+"saveUtils.ml" 58 1506 1517 "saveUtils.ml" 58 1506 1548
+type(
+  string
+)
+"saveUtils.ml" 58 1506 1548 "saveUtils.ml" 58 1506 1549
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"saveUtils.ml" 58 1506 1549 "saveUtils.ml" 58 1506 1550
+type(
+  string
+)
+ident(
+  int_ref s "saveUtils.ml" 55 1425 1446 "saveUtils.ml" 55 1425 1447
+)
+"saveUtils.ml" 58 1506 1550 "saveUtils.ml" 58 1506 1551
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"saveUtils.ml" 58 1506 1551 "saveUtils.ml" 58 1506 1555
+type(
+  string
+)
+"saveUtils.ml" 58 1506 1549 "saveUtils.ml" 58 1506 1555
+call(
+  stack
+)
+type(
+  string
+)
+"saveUtils.ml" 58 1506 1516 "saveUtils.ml" 58 1506 1556
+call(
+  stack
+)
+type(
+  string
+)
+"saveUtils.ml" 58 1506 1510 "saveUtils.ml" 58 1506 1556
+call(
+  tail
+)
+type(
+  int
+)
+"saveUtils.ml" 56 1450 1452 "saveUtils.ml" 58 1506 1556
+type(
+  int
+)
+"saveUtils.ml" 67 1639 1643 "saveUtils.ml" 67 1639 1651
+type(
+  string -> unit
+)
+ident(
+  def put_echo "saveUtils.ml" 75 1816 1816 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 67 1639 1652 "saveUtils.ml" 67 1639 1653
+type(
+  string
+)
+ident(
+  def s "saveUtils.ml" 68 1656 1658 "saveUtils.ml" 68 1656 1691
+)
+"saveUtils.ml" 68 1656 1661 "saveUtils.ml" 68 1656 1662
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"saveUtils.ml" 68 1656 1662 "saveUtils.ml" 68 1656 1666
+type(
+  bool ref
+)
+ident(
+  int_ref echo "saveUtils.ml" 37 1097 1101 "saveUtils.ml" 37 1097 1105
+)
+"saveUtils.ml" 68 1656 1661 "saveUtils.ml" 68 1656 1666
+type(
+  bool
+)
+"saveUtils.ml" 68 1656 1672 "saveUtils.ml" 68 1656 1679
+type(
+  Out.t -> string -> unit
+)
+ident(
+  ext_ref Out.put
+)
+"saveUtils.ml" 68 1656 1680 "saveUtils.ml" 68 1656 1689
+type(
+  Out.t
+)
+ident(
+  int_ref echo_buff "saveUtils.ml" 32 1021 1025 "saveUtils.ml" 32 1021 1034
+)
+"saveUtils.ml" 68 1656 1690 "saveUtils.ml" 68 1656 1691
+type(
+  string
+)
+ident(
+  int_ref s "saveUtils.ml" 67 1639 1652 "saveUtils.ml" 67 1639 1653
+)
+"saveUtils.ml" 68 1656 1672 "saveUtils.ml" 68 1656 1691
+call(
+  tail
+)
+type(
+  unit
+)
+"saveUtils.ml" 68 1656 1658 "saveUtils.ml" 68 1656 1691
+type(
+  unit
+)
+"saveUtils.ml" 69 1692 1696 "saveUtils.ml" 69 1692 1709
+type(
+  char -> unit
+)
+ident(
+  def put_echo_char "saveUtils.ml" 75 1816 1816 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 69 1692 1710 "saveUtils.ml" 69 1692 1711
+type(
+  char
+)
+ident(
+  def c "saveUtils.ml" 70 1714 1716 "saveUtils.ml" 70 1714 1754
+)
+"saveUtils.ml" 70 1714 1719 "saveUtils.ml" 70 1714 1720
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"saveUtils.ml" 70 1714 1720 "saveUtils.ml" 70 1714 1724
+type(
+  bool ref
+)
+ident(
+  int_ref echo "saveUtils.ml" 37 1097 1101 "saveUtils.ml" 37 1097 1105
+)
+"saveUtils.ml" 70 1714 1719 "saveUtils.ml" 70 1714 1724
+type(
+  bool
+)
+"saveUtils.ml" 70 1714 1730 "saveUtils.ml" 70 1714 1742
+type(
+  Out.t -> char -> unit
+)
+ident(
+  ext_ref Out.put_char
+)
+"saveUtils.ml" 70 1714 1743 "saveUtils.ml" 70 1714 1752
+type(
+  Out.t
+)
+ident(
+  int_ref echo_buff "saveUtils.ml" 32 1021 1025 "saveUtils.ml" 32 1021 1034
+)
+"saveUtils.ml" 70 1714 1753 "saveUtils.ml" 70 1714 1754
+type(
+  char
+)
+ident(
+  int_ref c "saveUtils.ml" 69 1692 1710 "saveUtils.ml" 69 1692 1711
+)
+"saveUtils.ml" 70 1714 1730 "saveUtils.ml" 70 1714 1754
+call(
+  tail
+)
+type(
+  unit
+)
+"saveUtils.ml" 70 1714 1716 "saveUtils.ml" 70 1714 1754
+type(
+  unit
+)
+"saveUtils.ml" 71 1755 1759 "saveUtils.ml" 71 1755 1768
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def blit_echo "saveUtils.ml" 75 1816 1816 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 71 1755 1769 "saveUtils.ml" 71 1755 1771
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "saveUtils.ml" 72 1774 1776 "saveUtils.ml" 72 1774 1811
+)
+"saveUtils.ml" 72 1774 1779 "saveUtils.ml" 72 1774 1780
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"saveUtils.ml" 72 1774 1780 "saveUtils.ml" 72 1774 1784
+type(
+  bool ref
+)
+ident(
+  int_ref echo "saveUtils.ml" 37 1097 1101 "saveUtils.ml" 37 1097 1105
+)
+"saveUtils.ml" 72 1774 1779 "saveUtils.ml" 72 1774 1784
+type(
+  bool
+)
+"saveUtils.ml" 72 1774 1790 "saveUtils.ml" 72 1774 1798
+type(
+  Out.t -> Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Out.blit
+)
+"saveUtils.ml" 72 1774 1799 "saveUtils.ml" 72 1774 1808
+type(
+  Out.t
+)
+ident(
+  int_ref echo_buff "saveUtils.ml" 32 1021 1025 "saveUtils.ml" 32 1021 1034
+)
+"saveUtils.ml" 72 1774 1809 "saveUtils.ml" 72 1774 1811
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "saveUtils.ml" 71 1755 1769 "saveUtils.ml" 71 1755 1771
+)
+"saveUtils.ml" 72 1774 1790 "saveUtils.ml" 72 1774 1811
+call(
+  tail
+)
+type(
+  unit
+)
+"saveUtils.ml" 72 1774 1776 "saveUtils.ml" 72 1774 1811
+type(
+  unit
+)
+"saveUtils.ml" 75 1816 1820 "saveUtils.ml" 75 1816 1828
+type(
+  string -> unit
+)
+ident(
+  def put_both "saveUtils.ml" 78 1870 1870 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 75 1816 1829 "saveUtils.ml" 75 1816 1830
+type(
+  string
+)
+ident(
+  def s "saveUtils.ml" 76 1833 1835 "saveUtils.ml" 76 1833 1866
+)
+"saveUtils.ml" 76 1833 1835 "saveUtils.ml" 76 1833 1843
+type(
+  string -> unit
+)
+ident(
+  int_ref put_echo "saveUtils.ml" 67 1639 1643 "saveUtils.ml" 67 1639 1651
+)
+"saveUtils.ml" 76 1833 1844 "saveUtils.ml" 76 1833 1845
+type(
+  string
+)
+ident(
+  int_ref s "saveUtils.ml" 75 1816 1829 "saveUtils.ml" 75 1816 1830
+)
+"saveUtils.ml" 76 1833 1835 "saveUtils.ml" 76 1833 1845
+call(
+  stack
+)
+type(
+  unit
+)
+"saveUtils.ml" 76 1833 1848 "saveUtils.ml" 76 1833 1855
+type(
+  Out.t -> string -> unit
+)
+ident(
+  ext_ref Out.put
+)
+"saveUtils.ml" 76 1833 1856 "saveUtils.ml" 76 1833 1864
+type(
+  Out.t
+)
+ident(
+  int_ref arg_buff "saveUtils.ml" 31 987 991 "saveUtils.ml" 31 987 999
+)
+"saveUtils.ml" 76 1833 1865 "saveUtils.ml" 76 1833 1866
+type(
+  string
+)
+ident(
+  int_ref s "saveUtils.ml" 75 1816 1829 "saveUtils.ml" 75 1816 1830
+)
+"saveUtils.ml" 76 1833 1848 "saveUtils.ml" 76 1833 1866
+call(
+  tail
+)
+type(
+  unit
+)
+"saveUtils.ml" 76 1833 1835 "saveUtils.ml" 76 1833 1866
+type(
+  unit
+)
+"saveUtils.ml" 78 1870 1874 "saveUtils.ml" 78 1870 1883
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def blit_both "saveUtils.ml" 81 1940 1940 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 78 1870 1884 "saveUtils.ml" 78 1870 1890
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "saveUtils.ml" 79 1893 1895 "saveUtils.ml" 79 1893 1938
+)
+"saveUtils.ml" 79 1893 1895 "saveUtils.ml" 79 1893 1904
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref blit_echo "saveUtils.ml" 71 1755 1759 "saveUtils.ml" 71 1755 1768
+)
+"saveUtils.ml" 79 1893 1905 "saveUtils.ml" 79 1893 1911
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "saveUtils.ml" 78 1870 1884 "saveUtils.ml" 78 1870 1890
+)
+"saveUtils.ml" 79 1893 1895 "saveUtils.ml" 79 1893 1911
+call(
+  stack
+)
+type(
+  unit
+)
+"saveUtils.ml" 79 1893 1914 "saveUtils.ml" 79 1893 1922
+type(
+  Out.t -> Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Out.blit
+)
+"saveUtils.ml" 79 1893 1923 "saveUtils.ml" 79 1893 1931
+type(
+  Out.t
+)
+ident(
+  int_ref arg_buff "saveUtils.ml" 31 987 991 "saveUtils.ml" 31 987 999
+)
+"saveUtils.ml" 79 1893 1932 "saveUtils.ml" 79 1893 1938
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "saveUtils.ml" 78 1870 1884 "saveUtils.ml" 78 1870 1890
+)
+"saveUtils.ml" 79 1893 1914 "saveUtils.ml" 79 1893 1938
+call(
+  tail
+)
+type(
+  unit
+)
+"saveUtils.ml" 79 1893 1895 "saveUtils.ml" 79 1893 1938
+type(
+  unit
+)
+"saveUtils.ml" 81 1940 1944 "saveUtils.ml" 81 1940 1957
+type(
+  char -> unit
+)
+ident(
+  def put_both_char "saveUtils.ml" 82 1962 2005 "saveUtils.ml" 1 0 -1
+)
+"saveUtils.ml" 81 1940 1958 "saveUtils.ml" 81 1940 1959
+type(
+  char
+)
+ident(
+  def c "saveUtils.ml" 82 1962 1964 "saveUtils.ml" 82 1962 2005
+)
+"saveUtils.ml" 82 1962 1964 "saveUtils.ml" 82 1962 1977
+type(
+  char -> unit
+)
+ident(
+  int_ref put_echo_char "saveUtils.ml" 69 1692 1696 "saveUtils.ml" 69 1692 1709
+)
+"saveUtils.ml" 82 1962 1978 "saveUtils.ml" 82 1962 1979
+type(
+  char
+)
+ident(
+  int_ref c "saveUtils.ml" 81 1940 1958 "saveUtils.ml" 81 1940 1959
+)
+"saveUtils.ml" 82 1962 1964 "saveUtils.ml" 82 1962 1979
+call(
+  stack
+)
+type(
+  unit
+)
+"saveUtils.ml" 82 1962 1982 "saveUtils.ml" 82 1962 1994
+type(
+  Out.t -> char -> unit
+)
+ident(
+  ext_ref Out.put_char
+)
+"saveUtils.ml" 82 1962 1995 "saveUtils.ml" 82 1962 2003
+type(
+  Out.t
+)
+ident(
+  int_ref arg_buff "saveUtils.ml" 31 987 991 "saveUtils.ml" 31 987 999
+)
+"saveUtils.ml" 82 1962 2004 "saveUtils.ml" 82 1962 2005
+type(
+  char
+)
+ident(
+  int_ref c "saveUtils.ml" 81 1940 1958 "saveUtils.ml" 81 1940 1959
+)
+"saveUtils.ml" 82 1962 1982 "saveUtils.ml" 82 1962 2005
+call(
+  tail
+)
+type(
+  unit
+)
+"saveUtils.ml" 82 1962 1964 "saveUtils.ml" 82 1962 2005
+type(
+  unit
+)

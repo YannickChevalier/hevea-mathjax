@@ -1,0 +1,4565 @@
+"auxx.ml" 14 752 756 "auxx.ml" 14 752 762
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  def rtable "auxx.ml" 17 787 787 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 14 752 765 "auxx.ml" 14 752 779
+type(
+  ?random:bool -> int -> (string, string) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"auxx.ml" 14 752 780 "auxx.ml" 14 752 782
+type(
+  int
+)
+"auxx.ml" 14 752 765 "auxx.ml" 14 752 782
+call(
+  stack
+)
+type(
+  (string, string) Hashtbl.t
+)
+"auxx.ml" 17 787 791 "auxx.ml" 17 787 795
+type(
+  string -> string -> unit
+)
+ident(
+  def rset "auxx.ml" 20 845 845 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 17 787 796 "auxx.ml" 17 787 800
+type(
+  string
+)
+ident(
+  def name "auxx.ml" 17 787 801 "auxx.ml" 17 787 838
+)
+"auxx.ml" 17 787 801 "auxx.ml" 17 787 806
+type(
+  string
+)
+ident(
+  def value "auxx.ml" 17 787 809 "auxx.ml" 17 787 838
+)
+"auxx.ml" 17 787 809 "auxx.ml" 17 787 820
+type(
+  (string, string) Hashtbl.t -> string -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"auxx.ml" 17 787 821 "auxx.ml" 17 787 827
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref rtable "auxx.ml" 14 752 756 "auxx.ml" 14 752 762
+)
+"auxx.ml" 17 787 828 "auxx.ml" 17 787 832
+type(
+  string
+)
+ident(
+  int_ref name "auxx.ml" 17 787 796 "auxx.ml" 17 787 800
+)
+"auxx.ml" 17 787 833 "auxx.ml" 17 787 838
+type(
+  string
+)
+ident(
+  int_ref value "auxx.ml" 17 787 801 "auxx.ml" 17 787 806
+)
+"auxx.ml" 17 787 809 "auxx.ml" 17 787 838
+call(
+  tail
+)
+type(
+  unit
+)
+"auxx.ml" 20 845 849 "auxx.ml" 20 845 853
+type(
+  string -> string
+)
+ident(
+  def rget "auxx.ml" 26 977 977 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 20 845 854 "auxx.ml" 20 845 858
+type(
+  string
+)
+ident(
+  def name "auxx.ml" 21 861 863 "auxx.ml" 23 967 972
+)
+"auxx.ml" 21 861 867 "auxx.ml" 21 861 879
+type(
+  (string, string) Hashtbl.t -> string -> string
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"auxx.ml" 21 861 880 "auxx.ml" 21 861 886
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref rtable "auxx.ml" 14 752 756 "auxx.ml" 14 752 762
+)
+"auxx.ml" 21 861 887 "auxx.ml" 21 861 891
+type(
+  string
+)
+ident(
+  int_ref name "auxx.ml" 20 845 854 "auxx.ml" 20 845 858
+)
+"auxx.ml" 21 861 867 "auxx.ml" 21 861 891
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 21 861 897 "auxx.ml" 21 861 906
+type(
+  exn
+)
+"auxx.ml" 22 916 920 "auxx.ml" 22 916 927
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.warning
+)
+"auxx.ml" 22 916 929 "auxx.ml" 22 916 949
+type(
+  string
+)
+"auxx.ml" 22 916 949 "auxx.ml" 22 916 950
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 22 916 950 "auxx.ml" 22 916 954
+type(
+  string
+)
+ident(
+  int_ref name "auxx.ml" 20 845 854 "auxx.ml" 20 845 858
+)
+"auxx.ml" 22 916 954 "auxx.ml" 22 916 955
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 22 916 955 "auxx.ml" 22 916 958
+type(
+  string
+)
+"auxx.ml" 22 916 950 "auxx.ml" 22 916 958
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 22 916 928 "auxx.ml" 22 916 959
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 22 916 920 "auxx.ml" 22 916 959
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 22 916 962 "auxx.ml" 22 916 966
+type(
+  string
+)
+"auxx.ml" 21 861 910 "auxx.ml" 23 967 972
+type(
+  string
+)
+"auxx.ml" 21 861 863 "auxx.ml" 23 967 972
+type(
+  string
+)
+"auxx.ml" 26 977 981 "auxx.ml" 26 977 987
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  def btable "auxx.ml" 29 1012 1012 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 26 977 990 "auxx.ml" 26 977 1004
+type(
+  ?random:bool -> int -> (string, string) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"auxx.ml" 26 977 1005 "auxx.ml" 26 977 1007
+type(
+  int
+)
+"auxx.ml" 26 977 990 "auxx.ml" 26 977 1007
+call(
+  stack
+)
+type(
+  (string, string) Hashtbl.t
+)
+"auxx.ml" 29 1012 1016 "auxx.ml" 29 1012 1020
+type(
+  string -> string -> unit
+)
+ident(
+  def bset "auxx.ml" 32 1069 1069 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 29 1012 1021 "auxx.ml" 29 1012 1025
+type(
+  string
+)
+ident(
+  def name "auxx.ml" 29 1012 1026 "auxx.ml" 29 1012 1064
+)
+"auxx.ml" 29 1012 1026 "auxx.ml" 29 1012 1031
+type(
+  string
+)
+ident(
+  def value "auxx.ml" 29 1012 1035 "auxx.ml" 29 1012 1064
+)
+"auxx.ml" 29 1012 1035 "auxx.ml" 29 1012 1046
+type(
+  (string, string) Hashtbl.t -> string -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"auxx.ml" 29 1012 1047 "auxx.ml" 29 1012 1053
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref btable "auxx.ml" 26 977 981 "auxx.ml" 26 977 987
+)
+"auxx.ml" 29 1012 1054 "auxx.ml" 29 1012 1058
+type(
+  string
+)
+ident(
+  int_ref name "auxx.ml" 29 1012 1021 "auxx.ml" 29 1012 1025
+)
+"auxx.ml" 29 1012 1059 "auxx.ml" 29 1012 1064
+type(
+  string
+)
+ident(
+  int_ref value "auxx.ml" 29 1012 1026 "auxx.ml" 29 1012 1031
+)
+"auxx.ml" 29 1012 1035 "auxx.ml" 29 1012 1064
+call(
+  tail
+)
+type(
+  unit
+)
+"auxx.ml" 32 1069 1073 "auxx.ml" 32 1069 1077
+type(
+  bool -> string -> string option
+)
+ident(
+  def bget "auxx.ml" 42 1270 1270 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 32 1069 1078 "auxx.ml" 32 1069 1082
+type(
+  bool
+)
+ident(
+  def warn "auxx.ml" 32 1069 1083 "auxx.ml" 39 1262 1265
+)
+"auxx.ml" 32 1069 1083 "auxx.ml" 32 1069 1087
+type(
+  string
+)
+ident(
+  def name "auxx.ml" 33 1090 1092 "auxx.ml" 39 1262 1265
+)
+"auxx.ml" 33 1090 1096 "auxx.ml" 33 1090 1097
+type(
+  string option
+)
+ident(
+  def r "auxx.ml" 39 1262 1264 "auxx.ml" 39 1262 1265
+)
+"auxx.ml" 34 1100 1114 "auxx.ml" 34 1100 1126
+type(
+  (string, string) Hashtbl.t -> string -> string
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"auxx.ml" 34 1100 1127 "auxx.ml" 34 1100 1133
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref btable "auxx.ml" 26 977 981 "auxx.ml" 26 977 987
+)
+"auxx.ml" 34 1100 1134 "auxx.ml" 34 1100 1138
+type(
+  string
+)
+ident(
+  int_ref name "auxx.ml" 32 1069 1083 "auxx.ml" 32 1069 1087
+)
+"auxx.ml" 34 1100 1113 "auxx.ml" 34 1100 1139
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 34 1100 1108 "auxx.ml" 34 1100 1139
+type(
+  string option
+)
+"auxx.ml" 34 1100 1145 "auxx.ml" 34 1100 1154
+type(
+  exn
+)
+"auxx.ml" 36 1170 1181 "auxx.ml" 36 1170 1185
+type(
+  bool
+)
+ident(
+  int_ref warn "auxx.ml" 32 1069 1078 "auxx.ml" 32 1069 1082
+)
+"auxx.ml" 36 1170 1191 "auxx.ml" 36 1170 1198
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.warning
+)
+"auxx.ml" 36 1170 1200 "auxx.ml" 36 1170 1223
+type(
+  string
+)
+"auxx.ml" 36 1170 1223 "auxx.ml" 36 1170 1224
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 36 1170 1224 "auxx.ml" 36 1170 1228
+type(
+  string
+)
+ident(
+  int_ref name "auxx.ml" 32 1069 1083 "auxx.ml" 32 1069 1087
+)
+"auxx.ml" 36 1170 1228 "auxx.ml" 36 1170 1229
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 36 1170 1229 "auxx.ml" 36 1170 1232
+type(
+  string
+)
+"auxx.ml" 36 1170 1224 "auxx.ml" 36 1170 1232
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 36 1170 1199 "auxx.ml" 36 1170 1233
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 36 1170 1191 "auxx.ml" 36 1170 1233
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 36 1170 1178 "auxx.ml" 36 1170 1233
+type(
+  unit
+)
+"auxx.ml" 37 1236 1244 "auxx.ml" 37 1236 1248
+type(
+  string option
+)
+"auxx.ml" 35 1158 1164 "auxx.ml" 38 1249 1258
+type(
+  string option
+)
+"auxx.ml" 34 1100 1104 "auxx.ml" 38 1249 1258
+type(
+  string option
+)
+"auxx.ml" 39 1262 1264 "auxx.ml" 39 1262 1265
+type(
+  string option
+)
+ident(
+  int_ref r "auxx.ml" 33 1090 1096 "auxx.ml" 33 1090 1097
+)
+"auxx.ml" 33 1090 1092 "auxx.ml" 39 1262 1265
+type(
+  string option
+)
+"auxx.ml" 42 1270 1274 "auxx.ml" 42 1270 1281
+type(
+  out_channel option ref
+)
+ident(
+  def auxfile "auxx.ml" 48 1366 1366 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 42 1270 1284 "auxx.ml" 42 1270 1287
+type(
+  out_channel option -> out_channel option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"auxx.ml" 42 1270 1288 "auxx.ml" 42 1270 1292
+type(
+  out_channel option
+)
+"auxx.ml" 42 1270 1284 "auxx.ml" 42 1270 1292
+type(
+  out_channel option ref
+)
+"auxx.ml" 43 1293 1297 "auxx.ml" 43 1293 1304
+type(
+  string ref
+)
+ident(
+  def auxname "auxx.ml" 48 1366 1366 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 43 1293 1307 "auxx.ml" 43 1293 1310
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"auxx.ml" 43 1293 1311 "auxx.ml" 43 1293 1313
+type(
+  string
+)
+"auxx.ml" 43 1293 1307 "auxx.ml" 43 1293 1313
+type(
+  string ref
+)
+"auxx.ml" 44 1314 1318 "auxx.ml" 44 1314 1327
+type(
+  bool ref
+)
+ident(
+  def something "auxx.ml" 48 1366 1366 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 44 1314 1330 "auxx.ml" 44 1314 1333
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"auxx.ml" 44 1314 1334 "auxx.ml" 44 1314 1339
+type(
+  bool
+)
+"auxx.ml" 44 1314 1330 "auxx.ml" 44 1314 1339
+type(
+  bool ref
+)
+"auxx.ml" 45 1340 1344 "auxx.ml" 45 1340 1350
+type(
+  Digest.t option ref
+)
+ident(
+  def digest "auxx.ml" 48 1366 1366 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 45 1340 1353 "auxx.ml" 45 1340 1356
+type(
+  Digest.t option -> Digest.t option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"auxx.ml" 45 1340 1357 "auxx.ml" 45 1340 1361
+type(
+  Digest.t option
+)
+"auxx.ml" 45 1340 1353 "auxx.ml" 45 1340 1361
+type(
+  Digest.t option ref
+)
+"auxx.ml" 48 1366 1370 "auxx.ml" 48 1366 1381
+type(
+  string -> Digest.t option
+)
+ident(
+  def read_digest "auxx.ml" 54 1455 1455 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 48 1366 1382 "auxx.ml" 48 1366 1386
+type(
+  string
+)
+ident(
+  def name "auxx.ml" 49 1389 1391 "auxx.ml" 52 1430 1453
+)
+"auxx.ml" 50 1395 1405 "auxx.ml" 50 1395 1416
+type(
+  string -> Digest.t
+)
+ident(
+  ext_ref Digest.file
+)
+"auxx.ml" 50 1395 1417 "auxx.ml" 50 1395 1421
+type(
+  string
+)
+ident(
+  int_ref name "auxx.ml" 48 1366 1382 "auxx.ml" 48 1366 1386
+)
+"auxx.ml" 50 1395 1404 "auxx.ml" 50 1395 1422
+call(
+  stack
+)
+type(
+  Digest.t
+)
+"auxx.ml" 50 1395 1399 "auxx.ml" 50 1395 1422
+type(
+  Digest.t option
+)
+"auxx.ml" 52 1430 1444 "auxx.ml" 52 1430 1445
+type(
+  string
+)
+"auxx.ml" 52 1430 1434 "auxx.ml" 52 1430 1445
+type(
+  exn
+)
+"auxx.ml" 52 1430 1449 "auxx.ml" 52 1430 1453
+type(
+  Digest.t option
+)
+"auxx.ml" 49 1389 1391 "auxx.ml" 52 1430 1453
+type(
+  Digest.t option
+)
+"auxx.ml" 54 1455 1459 "auxx.ml" 54 1455 1469
+type(
+  int ref
+)
+ident(
+  def labelcount "auxx.ml" 55 1478 1478 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 54 1455 1472 "auxx.ml" 54 1455 1475
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"auxx.ml" 54 1455 1476 "auxx.ml" 54 1455 1477
+type(
+  int
+)
+"auxx.ml" 54 1455 1472 "auxx.ml" 54 1455 1477
+type(
+  int ref
+)
+"auxx.ml" 55 1478 1482 "auxx.ml" 55 1478 1487
+type(
+  (string, int) Hashtbl.t
+)
+ident(
+  def rseen "auxx.ml" 61 1591 1591 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 55 1478 1490 "auxx.ml" 55 1478 1504
+type(
+  ?random:bool -> int -> (string, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"auxx.ml" 55 1478 1505 "auxx.ml" 55 1478 1507
+type(
+  int
+)
+"auxx.ml" 55 1478 1490 "auxx.ml" 55 1478 1507
+call(
+  stack
+)
+type(
+  (string, int) Hashtbl.t
+)
+"auxx.ml" 56 1508 1512 "auxx.ml" 56 1508 1517
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  def bseen "auxx.ml" 61 1591 1591 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 56 1508 1520 "auxx.ml" 56 1508 1534
+type(
+  ?random:bool -> int -> (string, unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"auxx.ml" 56 1508 1535 "auxx.ml" 56 1508 1537
+type(
+  int
+)
+"auxx.ml" 56 1508 1520 "auxx.ml" 56 1508 1537
+call(
+  stack
+)
+type(
+  (string, unit) Hashtbl.t
+)
+"auxx.ml" 61 1591 1595 "auxx.ml" 61 1591 1603
+type(
+  bool -> bool
+)
+ident(
+  def finalize "auxx.ml" 77 2031 2031 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 61 1591 1604 "auxx.ml" 61 1591 1609
+type(
+  bool
+)
+ident(
+  def check "auxx.ml" 62 1612 1614 "auxx.ml" 74 2013 2026
+)
+"auxx.ml" 62 1612 1620 "auxx.ml" 62 1612 1621
+type(
+  out_channel option ref -> out_channel option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"auxx.ml" 62 1612 1621 "auxx.ml" 62 1612 1628
+type(
+  out_channel option ref
+)
+ident(
+  int_ref auxfile "auxx.ml" 42 1270 1274 "auxx.ml" 42 1270 1281
+)
+"auxx.ml" 62 1612 1620 "auxx.ml" 62 1612 1628
+type(
+  out_channel option
+)
+"auxx.ml" 63 1634 1638 "auxx.ml" 63 1634 1642
+type(
+  out_channel option
+)
+"auxx.ml" 63 1634 1646 "auxx.ml" 63 1634 1651
+type(
+  bool
+)
+"auxx.ml" 64 1652 1661 "auxx.ml" 64 1652 1665
+type(
+  out_channel
+)
+ident(
+  def file "auxx.ml" 65 1669 1675 "auxx.ml" 74 2013 2026
+)
+"auxx.ml" 64 1652 1656 "auxx.ml" 64 1652 1665
+type(
+  out_channel option
+)
+"auxx.ml" 65 1669 1675 "auxx.ml" 65 1669 1684
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"auxx.ml" 65 1669 1685 "auxx.ml" 65 1669 1689
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 64 1652 1661 "auxx.ml" 64 1652 1665
+)
+"auxx.ml" 65 1669 1675 "auxx.ml" 65 1669 1689
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 66 1692 1701 "auxx.ml" 66 1692 1704
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"auxx.ml" 66 1692 1705 "auxx.ml" 66 1692 1706
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"auxx.ml" 66 1692 1706 "auxx.ml" 66 1692 1715
+type(
+  bool ref
+)
+ident(
+  int_ref something "auxx.ml" 44 1314 1318 "auxx.ml" 44 1314 1327
+)
+"auxx.ml" 66 1692 1705 "auxx.ml" 66 1692 1715
+type(
+  bool
+)
+"auxx.ml" 66 1692 1701 "auxx.ml" 66 1692 1715
+type(
+  bool
+)
+"auxx.ml" 66 1692 1721 "auxx.ml" 66 1692 1733
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mysys.remove
+)
+"auxx.ml" 66 1692 1734 "auxx.ml" 66 1692 1735
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"auxx.ml" 66 1692 1735 "auxx.ml" 66 1692 1742
+type(
+  string ref
+)
+ident(
+  int_ref auxname "auxx.ml" 43 1293 1297 "auxx.ml" 43 1293 1304
+)
+"auxx.ml" 66 1692 1734 "auxx.ml" 66 1692 1742
+type(
+  string
+)
+"auxx.ml" 66 1692 1721 "auxx.ml" 66 1692 1742
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 66 1692 1698 "auxx.ml" 66 1692 1742
+type(
+  unit
+)
+"auxx.ml" 67 1744 1753 "auxx.ml" 67 1744 1758
+type(
+  bool
+)
+ident(
+  int_ref check "auxx.ml" 61 1591 1604 "auxx.ml" 61 1591 1609
+)
+"auxx.ml" 68 1770 1782 "auxx.ml" 68 1770 1789
+type(
+  bool
+)
+ident(
+  def changed "auxx.ml" 69 1837 1845 "auxx.ml" 72 1982 1997
+)
+"auxx.ml" 68 1770 1792 "auxx.ml" 68 1770 1793
+type(
+  Digest.t option ref -> Digest.t option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"auxx.ml" 68 1770 1793 "auxx.ml" 68 1770 1799
+type(
+  Digest.t option ref
+)
+ident(
+  int_ref digest "auxx.ml" 45 1340 1344 "auxx.ml" 45 1340 1350
+)
+"auxx.ml" 68 1770 1792 "auxx.ml" 68 1770 1799
+type(
+  Digest.t option
+)
+"auxx.ml" 68 1770 1800 "auxx.ml" 68 1770 1802
+type(
+  Digest.t option -> Digest.t option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"auxx.ml" 68 1770 1803 "auxx.ml" 68 1770 1814
+type(
+  string -> Digest.t option
+)
+ident(
+  int_ref read_digest "auxx.ml" 48 1366 1370 "auxx.ml" 48 1366 1381
+)
+"auxx.ml" 68 1770 1815 "auxx.ml" 68 1770 1816
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"auxx.ml" 68 1770 1816 "auxx.ml" 68 1770 1823
+type(
+  string ref
+)
+ident(
+  int_ref auxname "auxx.ml" 43 1293 1297 "auxx.ml" 43 1293 1304
+)
+"auxx.ml" 68 1770 1815 "auxx.ml" 68 1770 1823
+type(
+  string
+)
+"auxx.ml" 68 1770 1803 "auxx.ml" 68 1770 1823
+call(
+  stack
+)
+type(
+  Digest.t option
+)
+"auxx.ml" 68 1770 1792 "auxx.ml" 68 1770 1823
+type(
+  bool
+)
+"auxx.ml" 69 1837 1848 "auxx.ml" 69 1837 1855
+type(
+  bool
+)
+ident(
+  int_ref changed "auxx.ml" 68 1770 1782 "auxx.ml" 68 1770 1789
+)
+"auxx.ml" 70 1861 1871 "auxx.ml" 70 1861 1883
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.message
+)
+"auxx.ml" 71 1884 1896 "auxx.ml" 71 1884 1979
+type(
+  string
+)
+"auxx.ml" 70 1861 1871 "auxx.ml" 71 1884 1979
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 69 1837 1845 "auxx.ml" 71 1884 1979
+type(
+  unit
+)
+"auxx.ml" 72 1982 1990 "auxx.ml" 72 1982 1997
+type(
+  bool
+)
+ident(
+  int_ref changed "auxx.ml" 68 1770 1782 "auxx.ml" 68 1770 1789
+)
+"auxx.ml" 69 1837 1845 "auxx.ml" 72 1982 1997
+type(
+  bool
+)
+"auxx.ml" 67 1744 1764 "auxx.ml" 73 1998 2007
+type(
+  bool
+)
+"auxx.ml" 74 2013 2021 "auxx.ml" 74 2013 2026
+type(
+  bool
+)
+"auxx.ml" 67 1744 1750 "auxx.ml" 74 2013 2026
+type(
+  bool
+)
+"auxx.ml" 66 1692 1698 "auxx.ml" 74 2013 2026
+type(
+  bool
+)
+"auxx.ml" 65 1669 1675 "auxx.ml" 74 2013 2026
+type(
+  bool
+)
+"auxx.ml" 62 1612 1614 "auxx.ml" 74 2013 2026
+type(
+  bool
+)
+"auxx.ml" 77 2031 2035 "auxx.ml" 77 2031 2040
+type(
+  (out_channel -> unit) -> unit
+)
+ident(
+  def write "auxx.ml" 85 2151 2151 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 77 2031 2041 "auxx.ml" 77 2031 2051
+type(
+  out_channel -> unit
+)
+ident(
+  def output_fun "auxx.ml" 77 2031 2054 "auxx.ml" 81 2126 2145
+)
+"auxx.ml" 77 2031 2060 "auxx.ml" 77 2031 2061
+type(
+  out_channel option ref -> out_channel option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"auxx.ml" 77 2031 2061 "auxx.ml" 77 2031 2068
+type(
+  out_channel option ref
+)
+ident(
+  int_ref auxfile "auxx.ml" 42 1270 1274 "auxx.ml" 42 1270 1281
+)
+"auxx.ml" 77 2031 2060 "auxx.ml" 77 2031 2068
+type(
+  out_channel option
+)
+"auxx.ml" 78 2074 2076 "auxx.ml" 78 2074 2080
+type(
+  out_channel option
+)
+"auxx.ml" 78 2074 2084 "auxx.ml" 78 2074 2086
+type(
+  unit
+)
+"auxx.ml" 79 2087 2094 "auxx.ml" 79 2087 2098
+type(
+  out_channel
+)
+ident(
+  def file "auxx.ml" 80 2102 2106 "auxx.ml" 81 2126 2145
+)
+"auxx.ml" 79 2087 2089 "auxx.ml" 79 2087 2098
+type(
+  out_channel option
+)
+"auxx.ml" 80 2102 2106 "auxx.ml" 80 2102 2115
+type(
+  bool ref
+)
+ident(
+  int_ref something "auxx.ml" 44 1314 1318 "auxx.ml" 44 1314 1327
+)
+"auxx.ml" 80 2102 2116 "auxx.ml" 80 2102 2118
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"auxx.ml" 80 2102 2119 "auxx.ml" 80 2102 2123
+type(
+  bool
+)
+"auxx.ml" 80 2102 2106 "auxx.ml" 80 2102 2123
+type(
+  unit
+)
+"auxx.ml" 81 2126 2130 "auxx.ml" 81 2126 2140
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref output_fun "auxx.ml" 77 2031 2041 "auxx.ml" 77 2031 2051
+)
+"auxx.ml" 81 2126 2141 "auxx.ml" 81 2126 2145
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 79 2087 2094 "auxx.ml" 79 2087 2098
+)
+"auxx.ml" 81 2126 2130 "auxx.ml" 81 2126 2145
+call(
+  tail
+)
+type(
+  unit
+)
+"auxx.ml" 80 2102 2106 "auxx.ml" 81 2126 2145
+type(
+  unit
+)
+"auxx.ml" 77 2031 2054 "auxx.ml" 81 2126 2145
+type(
+  unit
+)
+"auxx.ml" 85 2151 2155 "auxx.ml" 85 2151 2161
+type(
+  string -> bool
+)
+ident(
+  def bcheck "auxx.ml" 95 2349 2349 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 85 2151 2162 "auxx.ml" 85 2151 2165
+type(
+  string
+)
+ident(
+  def key "auxx.ml" 86 2168 2170 "auxx.ml" 93 2337 2347
+)
+"auxx.ml" 87 2174 2182 "auxx.ml" 87 2174 2183
+type(
+  unit
+)
+"auxx.ml" 87 2174 2186 "auxx.ml" 87 2174 2198
+type(
+  (string, unit) Hashtbl.t -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"auxx.ml" 87 2174 2199 "auxx.ml" 87 2174 2204
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  int_ref bseen "auxx.ml" 56 1508 1512 "auxx.ml" 56 1508 1517
+)
+"auxx.ml" 87 2174 2205 "auxx.ml" 87 2174 2208
+type(
+  string
+)
+ident(
+  int_ref key "auxx.ml" 85 2151 2162 "auxx.ml" 85 2151 2165
+)
+"auxx.ml" 87 2174 2186 "auxx.ml" 87 2174 2208
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 88 2212 2216 "auxx.ml" 88 2212 2223
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.warning
+)
+"auxx.ml" 88 2212 2225 "auxx.ml" 88 2212 2262
+type(
+  string
+)
+"auxx.ml" 88 2212 2262 "auxx.ml" 88 2212 2263
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 88 2212 2263 "auxx.ml" 88 2212 2266
+type(
+  string
+)
+ident(
+  int_ref key "auxx.ml" 85 2151 2162 "auxx.ml" 85 2151 2165
+)
+"auxx.ml" 88 2212 2224 "auxx.ml" 88 2212 2267
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 88 2212 2216 "auxx.ml" 88 2212 2267
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 89 2270 2274 "auxx.ml" 89 2270 2279
+type(
+  bool
+)
+"auxx.ml" 88 2212 2216 "auxx.ml" 89 2270 2279
+type(
+  bool
+)
+"auxx.ml" 87 2174 2178 "auxx.ml" 89 2270 2279
+type(
+  bool
+)
+"auxx.ml" 91 2287 2291 "auxx.ml" 91 2287 2300
+type(
+  exn
+)
+"auxx.ml" 92 2304 2310 "auxx.ml" 92 2304 2321
+type(
+  (string, unit) Hashtbl.t -> string -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"auxx.ml" 92 2304 2322 "auxx.ml" 92 2304 2327
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  int_ref bseen "auxx.ml" 56 1508 1512 "auxx.ml" 56 1508 1517
+)
+"auxx.ml" 92 2304 2328 "auxx.ml" 92 2304 2331
+type(
+  string
+)
+ident(
+  int_ref key "auxx.ml" 85 2151 2162 "auxx.ml" 85 2151 2165
+)
+"auxx.ml" 92 2304 2332 "auxx.ml" 92 2304 2334
+type(
+  unit
+)
+"auxx.ml" 92 2304 2310 "auxx.ml" 92 2304 2334
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 93 2337 2343 "auxx.ml" 93 2337 2347
+type(
+  bool
+)
+"auxx.ml" 92 2304 2310 "auxx.ml" 93 2337 2347
+type(
+  bool
+)
+"auxx.ml" 86 2168 2170 "auxx.ml" 93 2337 2347
+type(
+  bool
+)
+"auxx.ml" 95 2349 2353 "auxx.ml" 95 2349 2359
+type(
+  string -> int
+)
+ident(
+  def rcheck "auxx.ml" 107 2590 2590 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 95 2349 2360 "auxx.ml" 95 2349 2363
+type(
+  string
+)
+ident(
+  def key "auxx.ml" 96 2366 2368 "auxx.ml" 105 2581 2588
+)
+"auxx.ml" 97 2372 2380 "auxx.ml" 97 2372 2381
+type(
+  int
+)
+"auxx.ml" 97 2372 2384 "auxx.ml" 97 2372 2396
+type(
+  (string, int) Hashtbl.t -> string -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"auxx.ml" 97 2372 2397 "auxx.ml" 97 2372 2402
+type(
+  (string, int) Hashtbl.t
+)
+ident(
+  int_ref rseen "auxx.ml" 55 1478 1482 "auxx.ml" 55 1478 1487
+)
+"auxx.ml" 97 2372 2403 "auxx.ml" 97 2372 2406
+type(
+  string
+)
+ident(
+  int_ref key "auxx.ml" 95 2349 2360 "auxx.ml" 95 2349 2363
+)
+"auxx.ml" 97 2372 2384 "auxx.ml" 97 2372 2406
+call(
+  stack
+)
+type(
+  int
+)
+"auxx.ml" 98 2410 2414 "auxx.ml" 98 2410 2421
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.warning
+)
+"auxx.ml" 98 2410 2423 "auxx.ml" 98 2410 2457
+type(
+  string
+)
+"auxx.ml" 98 2410 2457 "auxx.ml" 98 2410 2458
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 98 2410 2458 "auxx.ml" 98 2410 2461
+type(
+  string
+)
+ident(
+  int_ref key "auxx.ml" 95 2349 2360 "auxx.ml" 95 2349 2363
+)
+"auxx.ml" 98 2410 2422 "auxx.ml" 98 2410 2462
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 98 2410 2414 "auxx.ml" 98 2410 2462
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 99 2465 2469 "auxx.ml" 99 2465 2471
+type(
+  int
+)
+"auxx.ml" 98 2410 2414 "auxx.ml" 99 2465 2471
+type(
+  int
+)
+"auxx.ml" 97 2372 2376 "auxx.ml" 99 2465 2471
+type(
+  int
+)
+"auxx.ml" 101 2479 2483 "auxx.ml" 101 2479 2492
+type(
+  exn
+)
+"auxx.ml" 102 2496 2506 "auxx.ml" 102 2496 2507
+type(
+  int
+)
+ident(
+  def x "auxx.ml" 103 2525 2531 "auxx.ml" 105 2581 2588
+)
+"auxx.ml" 102 2496 2510 "auxx.ml" 102 2496 2511
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"auxx.ml" 102 2496 2511 "auxx.ml" 102 2496 2521
+type(
+  int ref
+)
+ident(
+  int_ref labelcount "auxx.ml" 54 1455 1459 "auxx.ml" 54 1455 1469
+)
+"auxx.ml" 102 2496 2510 "auxx.ml" 102 2496 2521
+type(
+  int
+)
+"auxx.ml" 103 2525 2531 "auxx.ml" 103 2525 2535
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"auxx.ml" 103 2525 2536 "auxx.ml" 103 2525 2546
+type(
+  int ref
+)
+ident(
+  int_ref labelcount "auxx.ml" 54 1455 1459 "auxx.ml" 54 1455 1469
+)
+"auxx.ml" 103 2525 2531 "auxx.ml" 103 2525 2546
+type(
+  unit
+)
+"auxx.ml" 104 2549 2555 "auxx.ml" 104 2549 2566
+type(
+  (string, int) Hashtbl.t -> string -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"auxx.ml" 104 2549 2567 "auxx.ml" 104 2549 2572
+type(
+  (string, int) Hashtbl.t
+)
+ident(
+  int_ref rseen "auxx.ml" 55 1478 1482 "auxx.ml" 55 1478 1487
+)
+"auxx.ml" 104 2549 2573 "auxx.ml" 104 2549 2576
+type(
+  string
+)
+ident(
+  int_ref key "auxx.ml" 95 2349 2360 "auxx.ml" 95 2349 2363
+)
+"auxx.ml" 104 2549 2577 "auxx.ml" 104 2549 2578
+type(
+  int
+)
+ident(
+  int_ref x "auxx.ml" 102 2496 2506 "auxx.ml" 102 2496 2507
+)
+"auxx.ml" 104 2549 2555 "auxx.ml" 104 2549 2578
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 105 2581 2587 "auxx.ml" 105 2581 2588
+type(
+  int
+)
+ident(
+  int_ref x "auxx.ml" 102 2496 2506 "auxx.ml" 102 2496 2507
+)
+"auxx.ml" 104 2549 2555 "auxx.ml" 105 2581 2588
+type(
+  int
+)
+"auxx.ml" 103 2525 2531 "auxx.ml" 105 2581 2588
+type(
+  int
+)
+"auxx.ml" 102 2496 2502 "auxx.ml" 105 2581 2588
+type(
+  int
+)
+"auxx.ml" 96 2366 2368 "auxx.ml" 105 2581 2588
+type(
+  int
+)
+"auxx.ml" 107 2590 2594 "auxx.ml" 107 2590 2600
+type(
+  string -> unit
+)
+ident(
+  def swrite "auxx.ml" 113 2709 2709 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 107 2590 2601 "auxx.ml" 107 2590 2604
+type(
+  string
+)
+ident(
+  def msg "auxx.ml" 107 2590 2607 "auxx.ml" 111 2679 2705
+)
+"auxx.ml" 107 2590 2613 "auxx.ml" 107 2590 2614
+type(
+  out_channel option ref -> out_channel option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"auxx.ml" 107 2590 2614 "auxx.ml" 107 2590 2621
+type(
+  out_channel option ref
+)
+ident(
+  int_ref auxfile "auxx.ml" 42 1270 1274 "auxx.ml" 42 1270 1281
+)
+"auxx.ml" 107 2590 2613 "auxx.ml" 107 2590 2621
+type(
+  out_channel option
+)
+"auxx.ml" 108 2627 2629 "auxx.ml" 108 2627 2633
+type(
+  out_channel option
+)
+"auxx.ml" 108 2627 2637 "auxx.ml" 108 2627 2639
+type(
+  unit
+)
+"auxx.ml" 109 2640 2647 "auxx.ml" 109 2640 2651
+type(
+  out_channel
+)
+ident(
+  def file "auxx.ml" 110 2655 2659 "auxx.ml" 111 2679 2705
+)
+"auxx.ml" 109 2640 2642 "auxx.ml" 109 2640 2651
+type(
+  out_channel option
+)
+"auxx.ml" 110 2655 2659 "auxx.ml" 110 2655 2668
+type(
+  bool ref
+)
+ident(
+  int_ref something "auxx.ml" 44 1314 1318 "auxx.ml" 44 1314 1327
+)
+"auxx.ml" 110 2655 2669 "auxx.ml" 110 2655 2671
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"auxx.ml" 110 2655 2672 "auxx.ml" 110 2655 2676
+type(
+  bool
+)
+"auxx.ml" 110 2655 2659 "auxx.ml" 110 2655 2676
+type(
+  unit
+)
+"auxx.ml" 111 2679 2683 "auxx.ml" 111 2679 2696
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 111 2679 2697 "auxx.ml" 111 2679 2701
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 109 2640 2647 "auxx.ml" 109 2640 2651
+)
+"auxx.ml" 111 2679 2702 "auxx.ml" 111 2679 2705
+type(
+  string
+)
+ident(
+  int_ref msg "auxx.ml" 107 2590 2601 "auxx.ml" 107 2590 2604
+)
+"auxx.ml" 111 2679 2683 "auxx.ml" 111 2679 2705
+call(
+  tail
+)
+type(
+  unit
+)
+"auxx.ml" 110 2655 2659 "auxx.ml" 111 2679 2705
+type(
+  unit
+)
+"auxx.ml" 107 2590 2607 "auxx.ml" 111 2679 2705
+type(
+  unit
+)
+"auxx.ml" 113 2709 2713 "auxx.ml" 113 2709 2719
+type(
+  string -> string -> unit
+)
+ident(
+  def bwrite "auxx.ml" 147 3620 3620 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 113 2709 2720 "auxx.ml" 113 2709 2723
+type(
+  string
+)
+ident(
+  def key "auxx.ml" 113 2709 2724 "auxx.ml" 121 2928 2961
+)
+"auxx.ml" 113 2709 2724 "auxx.ml" 113 2709 2730
+type(
+  string
+)
+ident(
+  def pretty "auxx.ml" 114 2733 2735 "auxx.ml" 121 2928 2961
+)
+"auxx.ml" 114 2733 2738 "auxx.ml" 114 2733 2744
+type(
+  string -> bool
+)
+ident(
+  int_ref bcheck "auxx.ml" 85 2151 2155 "auxx.ml" 85 2151 2161
+)
+"auxx.ml" 114 2733 2745 "auxx.ml" 114 2733 2748
+type(
+  string
+)
+ident(
+  int_ref key "auxx.ml" 113 2709 2720 "auxx.ml" 113 2709 2723
+)
+"auxx.ml" 114 2733 2738 "auxx.ml" 114 2733 2748
+call(
+  stack
+)
+type(
+  bool
+)
+"auxx.ml" 115 2754 2758 "auxx.ml" 115 2754 2763
+type(
+  (out_channel -> unit) -> unit
+)
+ident(
+  int_ref write "auxx.ml" 77 2031 2035 "auxx.ml" 77 2031 2040
+)
+"auxx.ml" 116 2764 2775 "auxx.ml" 116 2764 2779
+type(
+  out_channel
+)
+ident(
+  def file "auxx.ml" 117 2783 2791 "auxx.ml" 121 2928 2960
+)
+"auxx.ml" 117 2783 2791 "auxx.ml" 117 2783 2804
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 117 2783 2805 "auxx.ml" 117 2783 2809
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 116 2764 2775 "auxx.ml" 116 2764 2779
+)
+"auxx.ml" 117 2783 2810 "auxx.ml" 117 2783 2822
+type(
+  string
+)
+"auxx.ml" 117 2783 2791 "auxx.ml" 117 2783 2822
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 118 2825 2833 "auxx.ml" 118 2825 2846
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 118 2825 2847 "auxx.ml" 118 2825 2851
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 116 2764 2775 "auxx.ml" 116 2764 2779
+)
+"auxx.ml" 118 2825 2852 "auxx.ml" 118 2825 2855
+type(
+  string
+)
+ident(
+  int_ref key "auxx.ml" 113 2709 2720 "auxx.ml" 113 2709 2723
+)
+"auxx.ml" 118 2825 2833 "auxx.ml" 118 2825 2855
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 119 2858 2866 "auxx.ml" 119 2858 2879
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 119 2858 2880 "auxx.ml" 119 2858 2884
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 116 2764 2775 "auxx.ml" 116 2764 2779
+)
+"auxx.ml" 119 2858 2885 "auxx.ml" 119 2858 2889
+type(
+  string
+)
+"auxx.ml" 119 2858 2866 "auxx.ml" 119 2858 2889
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 120 2892 2900 "auxx.ml" 120 2892 2913
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 120 2892 2914 "auxx.ml" 120 2892 2918
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 116 2764 2775 "auxx.ml" 116 2764 2779
+)
+"auxx.ml" 120 2892 2919 "auxx.ml" 120 2892 2925
+type(
+  string
+)
+ident(
+  int_ref pretty "auxx.ml" 113 2709 2724 "auxx.ml" 113 2709 2730
+)
+"auxx.ml" 120 2892 2900 "auxx.ml" 120 2892 2925
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 121 2928 2936 "auxx.ml" 121 2928 2949
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 121 2928 2950 "auxx.ml" 121 2928 2954
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 116 2764 2775 "auxx.ml" 116 2764 2779
+)
+"auxx.ml" 121 2928 2955 "auxx.ml" 121 2928 2960
+type(
+  string
+)
+"auxx.ml" 121 2928 2936 "auxx.ml" 121 2928 2960
+call(
+  tail
+)
+type(
+  unit
+)
+"auxx.ml" 120 2892 2900 "auxx.ml" 121 2928 2960
+type(
+  unit
+)
+"auxx.ml" 119 2858 2866 "auxx.ml" 121 2928 2960
+type(
+  unit
+)
+"auxx.ml" 118 2825 2833 "auxx.ml" 121 2928 2960
+type(
+  unit
+)
+"auxx.ml" 117 2783 2791 "auxx.ml" 121 2928 2960
+type(
+  unit
+)
+"auxx.ml" 116 2764 2770 "auxx.ml" 121 2928 2961
+type(
+  out_channel -> unit
+)
+"auxx.ml" 115 2754 2758 "auxx.ml" 121 2928 2961
+call(
+  tail
+)
+type(
+  unit
+)
+"auxx.ml" 114 2733 2735 "auxx.ml" 121 2928 2961
+type(
+  unit
+)
+"auxx.ml" 123 2963 2967 "auxx.ml" 123 2963 2973
+type(
+  string -> string -> unit
+)
+ident(
+  def rwrite "auxx.ml" 147 3620 3620 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 123 2963 2974 "auxx.ml" 123 2963 2977
+type(
+  string
+)
+ident(
+  def key "auxx.ml" 123 2963 2978 "auxx.ml" 132 3208 3245
+)
+"auxx.ml" 123 2963 2978 "auxx.ml" 123 2963 2984
+type(
+  string
+)
+ident(
+  def pretty "auxx.ml" 124 2987 2989 "auxx.ml" 132 3208 3245
+)
+"auxx.ml" 124 2987 2993 "auxx.ml" 124 2987 2996
+type(
+  int
+)
+ident(
+  def idx "auxx.ml" 125 3013 3015 "auxx.ml" 132 3208 3245
+)
+"auxx.ml" 124 2987 2999 "auxx.ml" 124 2987 3005
+type(
+  string -> int
+)
+ident(
+  int_ref rcheck "auxx.ml" 95 2349 2353 "auxx.ml" 95 2349 2359
+)
+"auxx.ml" 124 2987 3006 "auxx.ml" 124 2987 3009
+type(
+  string
+)
+ident(
+  int_ref key "auxx.ml" 123 2963 2974 "auxx.ml" 123 2963 2977
+)
+"auxx.ml" 124 2987 2999 "auxx.ml" 124 2987 3009
+call(
+  stack
+)
+type(
+  int
+)
+"auxx.ml" 125 3013 3018 "auxx.ml" 125 3013 3021
+type(
+  int
+)
+ident(
+  int_ref idx "auxx.ml" 124 2987 2993 "auxx.ml" 124 2987 2996
+)
+"auxx.ml" 125 3013 3022 "auxx.ml" 125 3013 3024
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"auxx.ml" 125 3013 3025 "auxx.ml" 125 3013 3026
+type(
+  int
+)
+"auxx.ml" 125 3013 3018 "auxx.ml" 125 3013 3026
+type(
+  bool
+)
+"auxx.ml" 126 3032 3036 "auxx.ml" 126 3032 3041
+type(
+  (out_channel -> unit) -> unit
+)
+ident(
+  int_ref write "auxx.ml" 77 2031 2035 "auxx.ml" 77 2031 2040
+)
+"auxx.ml" 127 3042 3053 "auxx.ml" 127 3042 3057
+type(
+  out_channel
+)
+ident(
+  def file "auxx.ml" 128 3061 3069 "auxx.ml" 132 3208 3244
+)
+"auxx.ml" 128 3061 3069 "auxx.ml" 128 3061 3082
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 128 3061 3083 "auxx.ml" 128 3061 3087
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 127 3042 3053 "auxx.ml" 127 3042 3057
+)
+"auxx.ml" 128 3061 3088 "auxx.ml" 128 3061 3101
+type(
+  string
+)
+"auxx.ml" 128 3061 3069 "auxx.ml" 128 3061 3101
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 129 3104 3112 "auxx.ml" 129 3104 3125
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 129 3104 3126 "auxx.ml" 129 3104 3130
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 127 3042 3053 "auxx.ml" 127 3042 3057
+)
+"auxx.ml" 129 3104 3131 "auxx.ml" 129 3104 3134
+type(
+  string
+)
+ident(
+  int_ref key "auxx.ml" 123 2963 2974 "auxx.ml" 123 2963 2977
+)
+"auxx.ml" 129 3104 3112 "auxx.ml" 129 3104 3134
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 130 3137 3145 "auxx.ml" 130 3137 3158
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 130 3137 3159 "auxx.ml" 130 3137 3163
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 127 3042 3053 "auxx.ml" 127 3042 3057
+)
+"auxx.ml" 130 3137 3164 "auxx.ml" 130 3137 3169
+type(
+  string
+)
+"auxx.ml" 130 3137 3145 "auxx.ml" 130 3137 3169
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 131 3172 3180 "auxx.ml" 131 3172 3193
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 131 3172 3194 "auxx.ml" 131 3172 3198
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 127 3042 3053 "auxx.ml" 127 3042 3057
+)
+"auxx.ml" 131 3172 3199 "auxx.ml" 131 3172 3205
+type(
+  string
+)
+ident(
+  int_ref pretty "auxx.ml" 123 2963 2978 "auxx.ml" 123 2963 2984
+)
+"auxx.ml" 131 3172 3180 "auxx.ml" 131 3172 3205
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 132 3208 3216 "auxx.ml" 132 3208 3229
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 132 3208 3230 "auxx.ml" 132 3208 3234
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 127 3042 3053 "auxx.ml" 127 3042 3057
+)
+"auxx.ml" 132 3208 3235 "auxx.ml" 132 3208 3244
+type(
+  string
+)
+"auxx.ml" 132 3208 3216 "auxx.ml" 132 3208 3244
+call(
+  tail
+)
+type(
+  unit
+)
+"auxx.ml" 131 3172 3180 "auxx.ml" 132 3208 3244
+type(
+  unit
+)
+"auxx.ml" 130 3137 3145 "auxx.ml" 132 3208 3244
+type(
+  unit
+)
+"auxx.ml" 129 3104 3112 "auxx.ml" 132 3208 3244
+type(
+  unit
+)
+"auxx.ml" 128 3061 3069 "auxx.ml" 132 3208 3244
+type(
+  unit
+)
+"auxx.ml" 127 3042 3048 "auxx.ml" 132 3208 3245
+type(
+  out_channel -> unit
+)
+"auxx.ml" 126 3032 3036 "auxx.ml" 132 3208 3245
+call(
+  tail
+)
+type(
+  unit
+)
+"auxx.ml" 125 3013 3015 "auxx.ml" 132 3208 3245
+type(
+  unit
+)
+"auxx.ml" 124 2987 2989 "auxx.ml" 132 3208 3245
+type(
+  unit
+)
+"auxx.ml" 133 3246 3250 "auxx.ml" 133 3246 3257
+type(
+  string -> string -> string -> unit
+)
+ident(
+  def rwrite2 "auxx.ml" 147 3620 3620 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 133 3246 3258 "auxx.ml" 133 3246 3264
+type(
+  string
+)
+ident(
+  def anchor "auxx.ml" 133 3246 3265 "auxx.ml" 144 3578 3615
+)
+"auxx.ml" 133 3246 3265 "auxx.ml" 133 3246 3268
+type(
+  string
+)
+ident(
+  def key "auxx.ml" 133 3246 3269 "auxx.ml" 144 3578 3615
+)
+"auxx.ml" 133 3246 3269 "auxx.ml" 133 3246 3275
+type(
+  string
+)
+ident(
+  def pretty "auxx.ml" 134 3278 3280 "auxx.ml" 144 3578 3615
+)
+"auxx.ml" 134 3278 3284 "auxx.ml" 134 3278 3287
+type(
+  int
+)
+ident(
+  def idx "auxx.ml" 135 3305 3307 "auxx.ml" 144 3578 3615
+)
+"auxx.ml" 134 3278 3291 "auxx.ml" 134 3278 3297
+type(
+  string -> int
+)
+ident(
+  int_ref rcheck "auxx.ml" 95 2349 2353 "auxx.ml" 95 2349 2359
+)
+"auxx.ml" 134 3278 3298 "auxx.ml" 134 3278 3301
+type(
+  string
+)
+ident(
+  int_ref key "auxx.ml" 133 3246 3265 "auxx.ml" 133 3246 3268
+)
+"auxx.ml" 134 3278 3291 "auxx.ml" 134 3278 3301
+call(
+  stack
+)
+type(
+  int
+)
+"auxx.ml" 135 3305 3310 "auxx.ml" 135 3305 3313
+type(
+  int
+)
+ident(
+  int_ref idx "auxx.ml" 134 3278 3284 "auxx.ml" 134 3278 3287
+)
+"auxx.ml" 135 3305 3314 "auxx.ml" 135 3305 3316
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"auxx.ml" 135 3305 3317 "auxx.ml" 135 3305 3318
+type(
+  int
+)
+"auxx.ml" 135 3305 3310 "auxx.ml" 135 3305 3318
+type(
+  bool
+)
+"auxx.ml" 136 3324 3328 "auxx.ml" 136 3324 3333
+type(
+  (out_channel -> unit) -> unit
+)
+ident(
+  int_ref write "auxx.ml" 77 2031 2035 "auxx.ml" 77 2031 2040
+)
+"auxx.ml" 137 3334 3345 "auxx.ml" 137 3334 3349
+type(
+  out_channel
+)
+ident(
+  def file "auxx.ml" 138 3353 3361 "auxx.ml" 144 3578 3614
+)
+"auxx.ml" 138 3353 3361 "auxx.ml" 138 3353 3374
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 138 3353 3375 "auxx.ml" 138 3353 3379
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 137 3334 3345 "auxx.ml" 137 3334 3349
+)
+"auxx.ml" 138 3353 3380 "auxx.ml" 138 3353 3401
+type(
+  string
+)
+"auxx.ml" 138 3353 3361 "auxx.ml" 138 3353 3401
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 139 3404 3412 "auxx.ml" 139 3404 3425
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 139 3404 3426 "auxx.ml" 139 3404 3430
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 137 3334 3345 "auxx.ml" 137 3334 3349
+)
+"auxx.ml" 139 3404 3431 "auxx.ml" 139 3404 3437
+type(
+  string
+)
+ident(
+  int_ref anchor "auxx.ml" 133 3246 3258 "auxx.ml" 133 3246 3264
+)
+"auxx.ml" 139 3404 3412 "auxx.ml" 139 3404 3437
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 140 3440 3448 "auxx.ml" 140 3440 3461
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 140 3440 3462 "auxx.ml" 140 3440 3466
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 137 3334 3345 "auxx.ml" 137 3334 3349
+)
+"auxx.ml" 140 3440 3467 "auxx.ml" 140 3440 3471
+type(
+  string
+)
+"auxx.ml" 140 3440 3448 "auxx.ml" 140 3440 3471
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 141 3474 3482 "auxx.ml" 141 3474 3495
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 141 3474 3496 "auxx.ml" 141 3474 3500
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 137 3334 3345 "auxx.ml" 137 3334 3349
+)
+"auxx.ml" 141 3474 3501 "auxx.ml" 141 3474 3504
+type(
+  string
+)
+ident(
+  int_ref key "auxx.ml" 133 3246 3265 "auxx.ml" 133 3246 3268
+)
+"auxx.ml" 141 3474 3482 "auxx.ml" 141 3474 3504
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 142 3507 3515 "auxx.ml" 142 3507 3528
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 142 3507 3529 "auxx.ml" 142 3507 3533
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 137 3334 3345 "auxx.ml" 137 3334 3349
+)
+"auxx.ml" 142 3507 3534 "auxx.ml" 142 3507 3539
+type(
+  string
+)
+"auxx.ml" 142 3507 3515 "auxx.ml" 142 3507 3539
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 143 3542 3550 "auxx.ml" 143 3542 3563
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 143 3542 3564 "auxx.ml" 143 3542 3568
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 137 3334 3345 "auxx.ml" 137 3334 3349
+)
+"auxx.ml" 143 3542 3569 "auxx.ml" 143 3542 3575
+type(
+  string
+)
+ident(
+  int_ref pretty "auxx.ml" 133 3246 3269 "auxx.ml" 133 3246 3275
+)
+"auxx.ml" 143 3542 3550 "auxx.ml" 143 3542 3575
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 144 3578 3586 "auxx.ml" 144 3578 3599
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 144 3578 3600 "auxx.ml" 144 3578 3604
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 137 3334 3345 "auxx.ml" 137 3334 3349
+)
+"auxx.ml" 144 3578 3605 "auxx.ml" 144 3578 3614
+type(
+  string
+)
+"auxx.ml" 144 3578 3586 "auxx.ml" 144 3578 3614
+call(
+  tail
+)
+type(
+  unit
+)
+"auxx.ml" 143 3542 3550 "auxx.ml" 144 3578 3614
+type(
+  unit
+)
+"auxx.ml" 142 3507 3515 "auxx.ml" 144 3578 3614
+type(
+  unit
+)
+"auxx.ml" 141 3474 3482 "auxx.ml" 144 3578 3614
+type(
+  unit
+)
+"auxx.ml" 140 3440 3448 "auxx.ml" 144 3578 3614
+type(
+  unit
+)
+"auxx.ml" 139 3404 3412 "auxx.ml" 144 3578 3614
+type(
+  unit
+)
+"auxx.ml" 138 3353 3361 "auxx.ml" 144 3578 3614
+type(
+  unit
+)
+"auxx.ml" 137 3334 3340 "auxx.ml" 144 3578 3615
+type(
+  out_channel -> unit
+)
+"auxx.ml" 136 3324 3328 "auxx.ml" 144 3578 3615
+call(
+  tail
+)
+type(
+  unit
+)
+"auxx.ml" 135 3305 3307 "auxx.ml" 144 3578 3615
+type(
+  unit
+)
+"auxx.ml" 134 3278 3280 "auxx.ml" 144 3578 3615
+type(
+  unit
+)
+"auxx.ml" 150 3704 3708 "auxx.ml" 150 3704 3716
+type(
+  (string, toc_t) Hashtbl.t
+)
+ident(
+  def toctable "auxx.ml" 153 3740 3740 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 150 3704 3719 "auxx.ml" 150 3704 3733
+type(
+  ?random:bool -> int -> (string, toc_t) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"auxx.ml" 150 3704 3734 "auxx.ml" 150 3704 3735
+type(
+  int
+)
+"auxx.ml" 150 3704 3719 "auxx.ml" 150 3704 3735
+call(
+  stack
+)
+type(
+  (string, toc_t) Hashtbl.t
+)
+"auxx.ml" 153 3740 3744 "auxx.ml" 153 3740 3755
+type(
+  string -> string
+)
+ident(
+  def tocfilename "auxx.ml" 155 3791 3791 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 153 3740 3756 "auxx.ml" 153 3740 3759
+type(
+  string
+)
+ident(
+  def suf "auxx.ml" 153 3740 3762 "auxx.ml" 153 3740 3789
+)
+"auxx.ml" 153 3740 3762 "auxx.ml" 153 3740 3781
+type(
+  string
+)
+ident(
+  ext_ref Parse_opts.base_out
+)
+"auxx.ml" 153 3740 3781 "auxx.ml" 153 3740 3782
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 153 3740 3782 "auxx.ml" 153 3740 3785
+type(
+  string
+)
+"auxx.ml" 153 3740 3785 "auxx.ml" 153 3740 3786
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 153 3740 3786 "auxx.ml" 153 3740 3789
+type(
+  string
+)
+ident(
+  int_ref suf "auxx.ml" 153 3740 3756 "auxx.ml" 153 3740 3759
+)
+"auxx.ml" 153 3740 3782 "auxx.ml" 153 3740 3789
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 153 3740 3762 "auxx.ml" 153 3740 3789
+call(
+  tail
+)
+type(
+  string
+)
+"auxx.ml" 155 3791 3795 "auxx.ml" 155 3791 3804
+type(
+  toc_t -> int -> string -> unit
+)
+ident(
+  def do_addtoc "auxx.ml" 179 4517 4517 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+type(
+  toc_t
+)
+ident(
+  def toc "auxx.ml" 155 3791 3809 "auxx.ml" 177 4468 4515
+)
+"auxx.ml" 155 3791 3809 "auxx.ml" 155 3791 3814
+type(
+  int
+)
+ident(
+  def level "auxx.ml" 155 3791 3815 "auxx.ml" 177 4468 4515
+)
+"auxx.ml" 155 3791 3815 "auxx.ml" 155 3791 3819
+type(
+  string
+)
+ident(
+  def what "auxx.ml" 157 3861 3863 "auxx.ml" 177 4468 4515
+)
+"auxx.ml" 157 3861 3866 "auxx.ml" 157 3861 3871
+type(
+  int
+)
+ident(
+  int_ref level "auxx.ml" 155 3791 3809 "auxx.ml" 155 3791 3814
+)
+"auxx.ml" 157 3861 3872 "auxx.ml" 157 3861 3873
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"auxx.ml" 157 3861 3874 "auxx.ml" 157 3861 3877
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 157 3861 3874 "auxx.ml" 157 3861 3883
+type(
+  int
+)
+"auxx.ml" 157 3861 3866 "auxx.ml" 157 3861 3883
+type(
+  bool
+)
+"auxx.ml" 158 3895 3908 "auxx.ml" 158 3895 3911
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 158 3895 3908 "auxx.ml" 158 3895 3917
+type(
+  int
+)
+"auxx.ml" 158 3895 3921 "auxx.ml" 158 3895 3926
+type(
+  int
+)
+ident(
+  int_ref level "auxx.ml" 155 3791 3809 "auxx.ml" 155 3791 3814
+)
+"auxx.ml" 158 3895 3926 "auxx.ml" 158 3895 3927
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"auxx.ml" 158 3895 3927 "auxx.ml" 158 3895 3928
+type(
+  int
+)
+"auxx.ml" 158 3895 3921 "auxx.ml" 158 3895 3928
+type(
+  int
+)
+"auxx.ml" 159 3932 3938 "auxx.ml" 159 3932 3951
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 159 3932 3952 "auxx.ml" 159 3932 3955
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 159 3932 3952 "auxx.ml" 159 3932 3960
+type(
+  out_channel
+)
+"auxx.ml" 159 3932 3961 "auxx.ml" 159 3932 3980
+type(
+  string
+)
+"auxx.ml" 159 3932 3938 "auxx.ml" 159 3932 3980
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 158 3895 3899 "auxx.ml" 160 3981 3989
+type(
+  unit
+)
+"auxx.ml" 161 3992 3996 "auxx.ml" 161 3992 3999
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 161 3992 4009 "auxx.ml" 161 3992 4012
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 161 3992 4009 "auxx.ml" 161 3992 4018
+type(
+  int
+)
+"auxx.ml" 161 3992 4019 "auxx.ml" 161 3992 4020
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"auxx.ml" 161 3992 4021 "auxx.ml" 161 3992 4026
+type(
+  int
+)
+ident(
+  int_ref level "auxx.ml" 155 3791 3809 "auxx.ml" 155 3791 3814
+)
+"auxx.ml" 161 3992 4009 "auxx.ml" 161 3992 4026
+type(
+  int
+)
+"auxx.ml" 161 3992 4027 "auxx.ml" 161 3992 4028
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"auxx.ml" 161 3992 4029 "auxx.ml" 161 3992 4032
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 161 3992 4029 "auxx.ml" 161 3992 4038
+type(
+  int
+)
+"auxx.ml" 161 3992 4009 "auxx.ml" 161 3992 4038
+type(
+  int
+)
+"auxx.ml" 161 3992 3996 "auxx.ml" 161 3992 4038
+type(
+  unit
+)
+"auxx.ml" 162 4041 4045 "auxx.ml" 162 4041 4048
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 162 4041 4058 "auxx.ml" 162 4041 4063
+type(
+  int
+)
+ident(
+  int_ref level "auxx.ml" 155 3791 3809 "auxx.ml" 155 3791 3814
+)
+"auxx.ml" 162 4041 4045 "auxx.ml" 162 4041 4063
+type(
+  unit
+)
+"auxx.ml" 161 3992 3996 "auxx.ml" 162 4041 4063
+type(
+  unit
+)
+"auxx.ml" 157 3861 3889 "auxx.ml" 163 4064 4069
+type(
+  unit
+)
+"auxx.ml" 163 4064 4078 "auxx.ml" 163 4064 4083
+type(
+  int
+)
+ident(
+  int_ref level "auxx.ml" 155 3791 3809 "auxx.ml" 155 3791 3814
+)
+"auxx.ml" 163 4064 4084 "auxx.ml" 163 4064 4085
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"auxx.ml" 163 4064 4086 "auxx.ml" 163 4064 4089
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 163 4064 4086 "auxx.ml" 163 4064 4095
+type(
+  int
+)
+"auxx.ml" 163 4064 4078 "auxx.ml" 163 4064 4095
+type(
+  bool
+)
+"auxx.ml" 164 4107 4115 "auxx.ml" 164 4107 4121
+type(
+  int
+)
+ident(
+  def nclose "auxx.ml" 165 4161 4165 "auxx.ml" 173 4409 4431
+)
+"auxx.ml" 164 4107 4124 "auxx.ml" 164 4107 4127
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"auxx.ml" 164 4107 4128 "auxx.ml" 164 4107 4131
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 164 4107 4128 "auxx.ml" 164 4107 4137
+type(
+  int
+)
+"auxx.ml" 164 4107 4139 "auxx.ml" 164 4107 4142
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 164 4107 4139 "auxx.ml" 164 4107 4148
+type(
+  int
+)
+"auxx.ml" 164 4107 4149 "auxx.ml" 164 4107 4150
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"auxx.ml" 164 4107 4151 "auxx.ml" 164 4107 4156
+type(
+  int
+)
+ident(
+  int_ref level "auxx.ml" 155 3791 3809 "auxx.ml" 155 3791 3814
+)
+"auxx.ml" 164 4107 4138 "auxx.ml" 164 4107 4157
+type(
+  int
+)
+"auxx.ml" 164 4107 4124 "auxx.ml" 164 4107 4157
+call(
+  stack
+)
+type(
+  int
+)
+"auxx.ml" 165 4161 4174 "auxx.ml" 165 4161 4175
+type(
+  int
+)
+"auxx.ml" 165 4161 4179 "auxx.ml" 165 4161 4185
+type(
+  int
+)
+ident(
+  int_ref nclose "auxx.ml" 164 4107 4115 "auxx.ml" 164 4107 4121
+)
+"auxx.ml" 166 4189 4195 "auxx.ml" 166 4189 4208
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 166 4189 4209 "auxx.ml" 166 4189 4212
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 166 4189 4209 "auxx.ml" 166 4189 4217
+type(
+  out_channel
+)
+"auxx.ml" 166 4189 4218 "auxx.ml" 166 4189 4235
+type(
+  string
+)
+"auxx.ml" 166 4189 4195 "auxx.ml" 166 4189 4235
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 165 4161 4165 "auxx.ml" 167 4236 4244
+type(
+  unit
+)
+"auxx.ml" 168 4247 4251 "auxx.ml" 168 4247 4254
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 168 4247 4264 "auxx.ml" 168 4247 4267
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 168 4247 4264 "auxx.ml" 168 4247 4273
+type(
+  int
+)
+"auxx.ml" 168 4247 4274 "auxx.ml" 168 4247 4275
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"auxx.ml" 168 4247 4276 "auxx.ml" 168 4247 4282
+type(
+  int
+)
+ident(
+  int_ref nclose "auxx.ml" 164 4107 4115 "auxx.ml" 164 4107 4121
+)
+"auxx.ml" 168 4247 4264 "auxx.ml" 168 4247 4282
+type(
+  int
+)
+"auxx.ml" 168 4247 4251 "auxx.ml" 168 4247 4282
+type(
+  unit
+)
+"auxx.ml" 169 4285 4292 "auxx.ml" 169 4285 4295
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 169 4285 4292 "auxx.ml" 169 4285 4301
+type(
+  int
+)
+"auxx.ml" 169 4285 4301 "auxx.ml" 169 4285 4302
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"auxx.ml" 169 4285 4302 "auxx.ml" 169 4285 4303
+type(
+  int
+)
+"auxx.ml" 169 4285 4292 "auxx.ml" 169 4285 4303
+type(
+  bool
+)
+"auxx.ml" 170 4315 4321 "auxx.ml" 170 4315 4334
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 170 4315 4335 "auxx.ml" 170 4315 4338
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 170 4315 4335 "auxx.ml" 170 4315 4343
+type(
+  out_channel
+)
+"auxx.ml" 170 4315 4344 "auxx.ml" 170 4315 4363
+type(
+  string
+)
+"auxx.ml" 170 4315 4321 "auxx.ml" 170 4315 4363
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 171 4366 4372 "auxx.ml" 171 4366 4375
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 171 4366 4385 "auxx.ml" 171 4366 4386
+type(
+  int
+)
+"auxx.ml" 171 4366 4372 "auxx.ml" 171 4366 4388
+type(
+  unit
+)
+"auxx.ml" 169 4285 4309 "auxx.ml" 172 4399 4406
+type(
+  unit
+)
+"auxx.ml" 169 4285 4289 "auxx.ml" 172 4399 4406
+type(
+  unit
+)
+"auxx.ml" 173 4409 4413 "auxx.ml" 173 4409 4416
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 173 4409 4426 "auxx.ml" 173 4409 4431
+type(
+  int
+)
+ident(
+  int_ref level "auxx.ml" 155 3791 3809 "auxx.ml" 155 3791 3814
+)
+"auxx.ml" 173 4409 4413 "auxx.ml" 173 4409 4431
+type(
+  unit
+)
+"auxx.ml" 169 4285 4289 "auxx.ml" 173 4409 4431
+type(
+  unit
+)
+"auxx.ml" 168 4247 4251 "auxx.ml" 173 4409 4431
+type(
+  unit
+)
+"auxx.ml" 165 4161 4165 "auxx.ml" 173 4409 4431
+type(
+  unit
+)
+"auxx.ml" 163 4064 4101 "auxx.ml" 174 4432 4437
+type(
+  unit
+)
+"auxx.ml" 163 4064 4075 "auxx.ml" 174 4432 4437
+type(
+  unit
+)
+"auxx.ml" 157 3861 3863 "auxx.ml" 174 4432 4437
+type(
+  unit
+)
+"auxx.ml" 177 4468 4470 "auxx.ml" 177 4468 4484
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"auxx.ml" 177 4468 4485 "auxx.ml" 177 4468 4488
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 155 3791 3805 "auxx.ml" 155 3791 3808
+)
+"auxx.ml" 177 4468 4485 "auxx.ml" 177 4468 4493
+type(
+  out_channel
+)
+"auxx.ml" 177 4468 4494 "auxx.ml" 177 4468 4510
+type(
+  (string -> unit, out_channel, unit) format
+)
+"auxx.ml" 177 4468 4511 "auxx.ml" 177 4468 4515
+type(
+  string
+)
+ident(
+  int_ref what "auxx.ml" 155 3791 3815 "auxx.ml" 155 3791 3819
+)
+"auxx.ml" 177 4468 4470 "auxx.ml" 177 4468 4515
+call(
+  tail
+)
+type(
+  unit
+)
+"auxx.ml" 157 3861 3863 "auxx.ml" 177 4468 4515
+type(
+  unit
+)
+"auxx.ml" 179 4517 4521 "auxx.ml" 179 4517 4527
+type(
+  string -> int -> string -> unit
+)
+ident(
+  def addtoc "auxx.ml" 199 5084 5084 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 179 4517 4528 "auxx.ml" 179 4517 4531
+type(
+  string
+)
+ident(
+  def suf "auxx.ml" 179 4517 4532 "auxx.ml" 195 4974 5033
+)
+"auxx.ml" 179 4517 4532 "auxx.ml" 179 4517 4537
+type(
+  int
+)
+ident(
+  def level "auxx.ml" 179 4517 4538 "auxx.ml" 195 4974 5033
+)
+"auxx.ml" 179 4517 4538 "auxx.ml" 179 4517 4542
+type(
+  string
+)
+ident(
+  def what "auxx.ml" 180 4546 4548 "auxx.ml" 195 4974 5033
+)
+"auxx.ml" 182 4560 4570 "auxx.ml" 182 4560 4573
+type(
+  toc_t
+)
+ident(
+  def toc "auxx.ml" 183 4605 4611 "auxx.ml" 183 4605 4635
+)
+"auxx.ml" 182 4560 4576 "auxx.ml" 182 4560 4588
+type(
+  (string, toc_t) Hashtbl.t -> string -> toc_t
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"auxx.ml" 182 4560 4589 "auxx.ml" 182 4560 4597
+type(
+  (string, toc_t) Hashtbl.t
+)
+ident(
+  int_ref toctable "auxx.ml" 150 3704 3708 "auxx.ml" 150 3704 3716
+)
+"auxx.ml" 182 4560 4598 "auxx.ml" 182 4560 4601
+type(
+  string
+)
+ident(
+  int_ref suf "auxx.ml" 179 4517 4528 "auxx.ml" 179 4517 4531
+)
+"auxx.ml" 182 4560 4576 "auxx.ml" 182 4560 4601
+call(
+  stack
+)
+type(
+  toc_t
+)
+"auxx.ml" 183 4605 4611 "auxx.ml" 183 4605 4620
+type(
+  toc_t -> int -> string -> unit
+)
+ident(
+  int_ref do_addtoc "auxx.ml" 155 3791 3795 "auxx.ml" 155 3791 3804
+)
+"auxx.ml" 183 4605 4621 "auxx.ml" 183 4605 4624
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 182 4560 4570 "auxx.ml" 182 4560 4573
+)
+"auxx.ml" 183 4605 4625 "auxx.ml" 183 4605 4630
+type(
+  int
+)
+ident(
+  int_ref level "auxx.ml" 179 4517 4532 "auxx.ml" 179 4517 4537
+)
+"auxx.ml" 183 4605 4631 "auxx.ml" 183 4605 4635
+type(
+  string
+)
+ident(
+  int_ref what "auxx.ml" 179 4517 4538 "auxx.ml" 179 4517 4542
+)
+"auxx.ml" 183 4605 4611 "auxx.ml" 183 4605 4635
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 182 4560 4566 "auxx.ml" 183 4605 4635
+type(
+  unit
+)
+"auxx.ml" 185 4643 4649 "auxx.ml" 185 4643 4658
+type(
+  exn
+)
+"auxx.ml" 186 4662 4674 "auxx.ml" 186 4662 4678
+type(
+  string
+)
+ident(
+  def name "auxx.ml" 187 4712 4720 "auxx.ml" 191 4894 4926
+)
+"auxx.ml" 186 4662 4681 "auxx.ml" 186 4662 4700
+type(
+  string
+)
+ident(
+  ext_ref Parse_opts.base_out
+)
+"auxx.ml" 186 4662 4700 "auxx.ml" 186 4662 4701
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 186 4662 4701 "auxx.ml" 186 4662 4704
+type(
+  string
+)
+"auxx.ml" 186 4662 4704 "auxx.ml" 186 4662 4705
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 186 4662 4705 "auxx.ml" 186 4662 4708
+type(
+  string
+)
+ident(
+  int_ref suf "auxx.ml" 179 4517 4528 "auxx.ml" 179 4517 4531
+)
+"auxx.ml" 186 4662 4701 "auxx.ml" 186 4662 4708
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 186 4662 4681 "auxx.ml" 186 4662 4708
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 187 4712 4724 "auxx.ml" 187 4712 4728
+type(
+  out_channel
+)
+ident(
+  def chan "auxx.ml" 188 4748 4756 "auxx.ml" 191 4894 4926
+)
+"auxx.ml" 187 4712 4731 "auxx.ml" 187 4712 4739
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"auxx.ml" 187 4712 4740 "auxx.ml" 187 4712 4744
+type(
+  string
+)
+ident(
+  int_ref name "auxx.ml" 186 4662 4674 "auxx.ml" 186 4662 4678
+)
+"auxx.ml" 187 4712 4731 "auxx.ml" 187 4712 4744
+call(
+  stack
+)
+type(
+  out_channel
+)
+"auxx.ml" 188 4748 4756 "auxx.ml" 188 4748 4769
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 188 4748 4770 "auxx.ml" 188 4748 4774
+type(
+  out_channel
+)
+ident(
+  int_ref chan "auxx.ml" 187 4712 4724 "auxx.ml" 187 4712 4728
+)
+"auxx.ml" 188 4748 4775 "auxx.ml" 188 4748 4794
+type(
+  string
+)
+"auxx.ml" 188 4748 4756 "auxx.ml" 188 4748 4794
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 189 4797 4809 "auxx.ml" 189 4797 4812
+type(
+  toc_t
+)
+ident(
+  def toc "auxx.ml" 190 4855 4863 "auxx.ml" 191 4894 4926
+)
+"auxx.ml" 189 4797 4822 "auxx.ml" 189 4797 4827
+type(
+  int
+)
+ident(
+  int_ref level "auxx.ml" 179 4517 4532 "auxx.ml" 179 4517 4537
+)
+"auxx.ml" 189 4797 4836 "auxx.ml" 189 4797 4837
+type(
+  int
+)
+"auxx.ml" 189 4797 4845 "auxx.ml" 189 4797 4849
+type(
+  out_channel
+)
+ident(
+  int_ref chan "auxx.ml" 187 4712 4724 "auxx.ml" 187 4712 4728
+)
+"auxx.ml" 189 4797 4815 "auxx.ml" 189 4797 4851
+type(
+  toc_t
+)
+"auxx.ml" 190 4855 4863 "auxx.ml" 190 4855 4874
+type(
+  (string, toc_t) Hashtbl.t -> string -> toc_t -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"auxx.ml" 190 4855 4875 "auxx.ml" 190 4855 4883
+type(
+  (string, toc_t) Hashtbl.t
+)
+ident(
+  int_ref toctable "auxx.ml" 150 3704 3708 "auxx.ml" 150 3704 3716
+)
+"auxx.ml" 190 4855 4884 "auxx.ml" 190 4855 4887
+type(
+  string
+)
+ident(
+  int_ref suf "auxx.ml" 179 4517 4528 "auxx.ml" 179 4517 4531
+)
+"auxx.ml" 190 4855 4888 "auxx.ml" 190 4855 4891
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 189 4797 4809 "auxx.ml" 189 4797 4812
+)
+"auxx.ml" 190 4855 4863 "auxx.ml" 190 4855 4891
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 191 4894 4902 "auxx.ml" 191 4894 4911
+type(
+  toc_t -> int -> string -> unit
+)
+ident(
+  int_ref do_addtoc "auxx.ml" 155 3791 3795 "auxx.ml" 155 3791 3804
+)
+"auxx.ml" 191 4894 4912 "auxx.ml" 191 4894 4915
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 189 4797 4809 "auxx.ml" 189 4797 4812
+)
+"auxx.ml" 191 4894 4916 "auxx.ml" 191 4894 4921
+type(
+  int
+)
+ident(
+  int_ref level "auxx.ml" 179 4517 4532 "auxx.ml" 179 4517 4537
+)
+"auxx.ml" 191 4894 4922 "auxx.ml" 191 4894 4926
+type(
+  string
+)
+ident(
+  int_ref what "auxx.ml" 179 4517 4538 "auxx.ml" 179 4517 4542
+)
+"auxx.ml" 191 4894 4902 "auxx.ml" 191 4894 4926
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 190 4855 4863 "auxx.ml" 191 4894 4926
+type(
+  unit
+)
+"auxx.ml" 189 4797 4805 "auxx.ml" 191 4894 4926
+type(
+  unit
+)
+"auxx.ml" 188 4748 4756 "auxx.ml" 191 4894 4926
+type(
+  unit
+)
+"auxx.ml" 187 4712 4720 "auxx.ml" 191 4894 4926
+type(
+  unit
+)
+"auxx.ml" 186 4662 4670 "auxx.ml" 191 4894 4926
+type(
+  unit
+)
+"auxx.ml" 181 4552 4556 "auxx.ml" 191 4894 4926
+type(
+  unit
+)
+"auxx.ml" 193 4934 4948 "auxx.ml" 193 4934 4951
+type(
+  string
+)
+ident(
+  def msg "auxx.ml" 194 4955 4961 "auxx.ml" 195 4974 5033
+)
+"auxx.ml" 193 4934 4938 "auxx.ml" 193 4934 4951
+type(
+  exn
+)
+"auxx.ml" 194 4955 4961 "auxx.ml" 194 4955 4973
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.warning
+)
+"auxx.ml" 195 4974 4983 "auxx.ml" 195 4974 5007
+type(
+  string
+)
+"auxx.ml" 195 4974 5007 "auxx.ml" 195 4974 5008
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 195 4974 5008 "auxx.ml" 195 4974 5019
+type(
+  string -> string
+)
+ident(
+  int_ref tocfilename "auxx.ml" 153 3740 3744 "auxx.ml" 153 3740 3755
+)
+"auxx.ml" 195 4974 5020 "auxx.ml" 195 4974 5023
+type(
+  string
+)
+ident(
+  int_ref suf "auxx.ml" 179 4517 4528 "auxx.ml" 179 4517 4531
+)
+"auxx.ml" 195 4974 5008 "auxx.ml" 195 4974 5023
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 195 4974 5023 "auxx.ml" 195 4974 5024
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 195 4974 5024 "auxx.ml" 195 4974 5028
+type(
+  string
+)
+"auxx.ml" 195 4974 5028 "auxx.ml" 195 4974 5029
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 195 4974 5029 "auxx.ml" 195 4974 5032
+type(
+  string
+)
+ident(
+  int_ref msg "auxx.ml" 193 4934 4948 "auxx.ml" 193 4934 4951
+)
+"auxx.ml" 195 4974 5024 "auxx.ml" 195 4974 5032
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 195 4974 5008 "auxx.ml" 195 4974 5032
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 195 4974 4982 "auxx.ml" 195 4974 5033
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 194 4955 4961 "auxx.ml" 195 4974 5033
+call(
+  tail
+)
+type(
+  unit
+)
+"auxx.ml" 180 4546 4548 "auxx.ml" 195 4974 5033
+type(
+  unit
+)
+"auxx.ml" 199 5084 5088 "auxx.ml" 199 5084 5092
+type(
+  string -> unit
+)
+ident(
+  def init "auxx.ml" 202 5140 5140 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 199 5084 5093 "auxx.ml" 199 5084 5097
+type(
+  string
+)
+ident(
+  def base "auxx.ml" 200 5100 5102 "auxx.ml" 200 5100 5138
+)
+"auxx.ml" 200 5100 5102 "auxx.ml" 200 5100 5108
+type(
+  Digest.t option ref
+)
+ident(
+  int_ref digest "auxx.ml" 45 1340 1344 "auxx.ml" 45 1340 1350
+)
+"auxx.ml" 200 5100 5109 "auxx.ml" 200 5100 5111
+type(
+  Digest.t option ref -> Digest.t option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"auxx.ml" 200 5100 5112 "auxx.ml" 200 5100 5123
+type(
+  string -> Digest.t option
+)
+ident(
+  int_ref read_digest "auxx.ml" 48 1366 1370 "auxx.ml" 48 1366 1381
+)
+"auxx.ml" 200 5100 5125 "auxx.ml" 200 5100 5129
+type(
+  string
+)
+ident(
+  int_ref base "auxx.ml" 199 5084 5093 "auxx.ml" 199 5084 5097
+)
+"auxx.ml" 200 5100 5129 "auxx.ml" 200 5100 5130
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 200 5100 5130 "auxx.ml" 200 5100 5137
+type(
+  string
+)
+"auxx.ml" 200 5100 5124 "auxx.ml" 200 5100 5138
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 200 5100 5112 "auxx.ml" 200 5100 5138
+call(
+  stack
+)
+type(
+  Digest.t option
+)
+"auxx.ml" 200 5100 5102 "auxx.ml" 200 5100 5138
+type(
+  unit
+)
+"auxx.ml" 202 5140 5144 "auxx.ml" 202 5140 5149
+type(
+  string -> unit
+)
+ident(
+  def final "auxx.ml" 220 5560 5560 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 202 5140 5150 "auxx.ml" 202 5140 5154
+type(
+  string
+)
+ident(
+  def base "auxx.ml" 203 5157 5159 "auxx.ml" 217 5502 5557
+)
+"auxx.ml" 203 5157 5159 "auxx.ml" 203 5157 5171
+type(
+  (string -> toc_t -> unit) -> (string, toc_t) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"auxx.ml" 204 5172 5181 "auxx.ml" 204 5172 5182
+type(
+  string
+)
+"auxx.ml" 204 5172 5183 "auxx.ml" 204 5172 5186
+type(
+  toc_t
+)
+ident(
+  def toc "auxx.ml" 205 5190 5196 "auxx.ml" 208 5285 5309
+)
+"auxx.ml" 205 5190 5203 "auxx.ml" 205 5190 5204
+type(
+  int
+)
+"auxx.ml" 205 5190 5208 "auxx.ml" 205 5190 5211
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 204 5172 5183 "auxx.ml" 204 5172 5186
+)
+"auxx.ml" 205 5190 5208 "auxx.ml" 205 5190 5217
+type(
+  int
+)
+"auxx.ml" 206 5221 5229 "auxx.ml" 206 5221 5242
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"auxx.ml" 206 5221 5243 "auxx.ml" 206 5221 5246
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 204 5172 5183 "auxx.ml" 204 5172 5186
+)
+"auxx.ml" 206 5221 5243 "auxx.ml" 206 5221 5251
+type(
+  out_channel
+)
+"auxx.ml" 206 5221 5252 "auxx.ml" 206 5221 5269
+type(
+  string
+)
+"auxx.ml" 206 5221 5229 "auxx.ml" 206 5221 5271
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 205 5190 5196 "auxx.ml" 207 5272 5282
+type(
+  unit
+)
+"auxx.ml" 208 5285 5291 "auxx.ml" 208 5285 5300
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"auxx.ml" 208 5285 5301 "auxx.ml" 208 5285 5304
+type(
+  toc_t
+)
+ident(
+  int_ref toc "auxx.ml" 204 5172 5183 "auxx.ml" 204 5172 5186
+)
+"auxx.ml" 208 5285 5301 "auxx.ml" 208 5285 5309
+type(
+  out_channel
+)
+"auxx.ml" 208 5285 5291 "auxx.ml" 208 5285 5309
+call(
+  tail
+)
+type(
+  unit
+)
+"auxx.ml" 205 5190 5196 "auxx.ml" 208 5285 5309
+type(
+  unit
+)
+"auxx.ml" 204 5172 5176 "auxx.ml" 208 5285 5310
+type(
+  string -> toc_t -> unit
+)
+"auxx.ml" 209 5312 5316 "auxx.ml" 209 5312 5324
+type(
+  (string, toc_t) Hashtbl.t
+)
+ident(
+  int_ref toctable "auxx.ml" 150 3704 3708 "auxx.ml" 150 3704 3716
+)
+"auxx.ml" 203 5157 5159 "auxx.ml" 209 5312 5324
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 210 5327 5329 "auxx.ml" 210 5327 5342
+type(
+  (string, toc_t) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.clear
+)
+"auxx.ml" 210 5327 5343 "auxx.ml" 210 5327 5351
+type(
+  (string, toc_t) Hashtbl.t
+)
+ident(
+  int_ref toctable "auxx.ml" 150 3704 3708 "auxx.ml" 150 3704 3716
+)
+"auxx.ml" 210 5327 5329 "auxx.ml" 210 5327 5351
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 211 5354 5360 "auxx.ml" 211 5354 5368
+type(
+  string
+)
+ident(
+  def filename "auxx.ml" 212 5387 5389 "auxx.ml" 217 5502 5557
+)
+"auxx.ml" 211 5354 5371 "auxx.ml" 211 5354 5375
+type(
+  string
+)
+ident(
+  int_ref base "auxx.ml" 202 5140 5150 "auxx.ml" 202 5140 5154
+)
+"auxx.ml" 211 5354 5375 "auxx.ml" 211 5354 5376
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 211 5354 5376 "auxx.ml" 211 5354 5383
+type(
+  string
+)
+"auxx.ml" 211 5354 5371 "auxx.ml" 211 5354 5383
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 213 5393 5401 "auxx.ml" 213 5393 5405
+type(
+  out_channel
+)
+ident(
+  def file "auxx.ml" 214 5429 5433 "auxx.ml" 215 5455 5479
+)
+"auxx.ml" 213 5393 5408 "auxx.ml" 213 5393 5416
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"auxx.ml" 213 5393 5417 "auxx.ml" 213 5393 5425
+type(
+  string
+)
+ident(
+  int_ref filename "auxx.ml" 211 5354 5360 "auxx.ml" 211 5354 5368
+)
+"auxx.ml" 213 5393 5408 "auxx.ml" 213 5393 5425
+call(
+  stack
+)
+type(
+  out_channel
+)
+"auxx.ml" 214 5429 5433 "auxx.ml" 214 5429 5440
+type(
+  string ref
+)
+ident(
+  int_ref auxname "auxx.ml" 43 1293 1297 "auxx.ml" 43 1293 1304
+)
+"auxx.ml" 214 5429 5441 "auxx.ml" 214 5429 5443
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"auxx.ml" 214 5429 5444 "auxx.ml" 214 5429 5452
+type(
+  string
+)
+ident(
+  int_ref filename "auxx.ml" 211 5354 5360 "auxx.ml" 211 5354 5368
+)
+"auxx.ml" 214 5429 5433 "auxx.ml" 214 5429 5452
+type(
+  unit
+)
+"auxx.ml" 215 5455 5459 "auxx.ml" 215 5455 5466
+type(
+  out_channel option ref
+)
+ident(
+  int_ref auxfile "auxx.ml" 42 1270 1274 "auxx.ml" 42 1270 1281
+)
+"auxx.ml" 215 5455 5467 "auxx.ml" 215 5455 5469
+type(
+  out_channel option ref -> out_channel option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"auxx.ml" 215 5455 5475 "auxx.ml" 215 5455 5479
+type(
+  out_channel
+)
+ident(
+  int_ref file "auxx.ml" 213 5393 5401 "auxx.ml" 213 5393 5405
+)
+"auxx.ml" 215 5455 5470 "auxx.ml" 215 5455 5479
+type(
+  out_channel option
+)
+"auxx.ml" 215 5455 5459 "auxx.ml" 215 5455 5479
+type(
+  unit
+)
+"auxx.ml" 214 5429 5433 "auxx.ml" 215 5455 5479
+type(
+  unit
+)
+"auxx.ml" 213 5393 5397 "auxx.ml" 215 5455 5479
+type(
+  unit
+)
+"auxx.ml" 216 5480 5497 "auxx.ml" 216 5480 5498
+type(
+  string
+)
+ident(
+  def s "auxx.ml" 217 5502 5506 "auxx.ml" 217 5502 5557
+)
+"auxx.ml" 216 5480 5487 "auxx.ml" 216 5480 5498
+type(
+  exn
+)
+"auxx.ml" 217 5502 5506 "auxx.ml" 217 5502 5513
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.warning
+)
+"auxx.ml" 217 5502 5515 "auxx.ml" 217 5502 5539
+type(
+  string
+)
+"auxx.ml" 217 5502 5539 "auxx.ml" 217 5502 5540
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 217 5502 5540 "auxx.ml" 217 5502 5548
+type(
+  string
+)
+ident(
+  int_ref filename "auxx.ml" 211 5354 5360 "auxx.ml" 211 5354 5368
+)
+"auxx.ml" 217 5502 5548 "auxx.ml" 217 5502 5549
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 217 5502 5549 "auxx.ml" 217 5502 5554
+type(
+  string
+)
+"auxx.ml" 217 5502 5554 "auxx.ml" 217 5502 5555
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"auxx.ml" 217 5502 5555 "auxx.ml" 217 5502 5556
+type(
+  string
+)
+ident(
+  int_ref s "auxx.ml" 216 5480 5497 "auxx.ml" 216 5480 5498
+)
+"auxx.ml" 217 5502 5549 "auxx.ml" 217 5502 5556
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 217 5502 5540 "auxx.ml" 217 5502 5556
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 217 5502 5514 "auxx.ml" 217 5502 5557
+call(
+  stack
+)
+type(
+  string
+)
+"auxx.ml" 217 5502 5506 "auxx.ml" 217 5502 5557
+call(
+  tail
+)
+type(
+  unit
+)
+"auxx.ml" 212 5387 5389 "auxx.ml" 217 5502 5557
+type(
+  unit
+)
+"auxx.ml" 211 5354 5356 "auxx.ml" 217 5502 5557
+type(
+  unit
+)
+"auxx.ml" 210 5327 5329 "auxx.ml" 217 5502 5557
+type(
+  unit
+)
+"auxx.ml" 203 5157 5159 "auxx.ml" 217 5502 5557
+type(
+  unit
+)
+"auxx.ml" 226 5750 5754 "auxx.ml" 226 5750 5759
+type(
+  unit ->
+  (string, string) Hashtbl.t * int * (string, int) Hashtbl.t *
+  (string, string) Hashtbl.t * (string, unit) Hashtbl.t *
+  out_channel option * string * bool * Digest.t option
+)
+ident(
+  def check "auxx.ml" 233 5913 5913 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 226 5750 5760 "auxx.ml" 226 5750 5762
+type(
+  unit
+)
+"auxx.ml" 227 5765 5767 "auxx.ml" 227 5765 5779
+type(
+  (string, string) Hashtbl.t -> (string, string) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.copy
+)
+"auxx.ml" 227 5765 5780 "auxx.ml" 227 5765 5786
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref rtable "auxx.ml" 14 752 756 "auxx.ml" 14 752 762
+)
+"auxx.ml" 227 5765 5767 "auxx.ml" 227 5765 5786
+call(
+  stack
+)
+type(
+  (string, string) Hashtbl.t
+)
+"auxx.ml" 228 5788 5790 "auxx.ml" 228 5788 5791
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"auxx.ml" 228 5788 5791 "auxx.ml" 228 5788 5801
+type(
+  int ref
+)
+ident(
+  int_ref labelcount "auxx.ml" 54 1455 1459 "auxx.ml" 54 1455 1469
+)
+"auxx.ml" 228 5788 5790 "auxx.ml" 228 5788 5801
+type(
+  int
+)
+"auxx.ml" 229 5803 5805 "auxx.ml" 229 5803 5817
+type(
+  (string, int) Hashtbl.t -> (string, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.copy
+)
+"auxx.ml" 229 5803 5818 "auxx.ml" 229 5803 5823
+type(
+  (string, int) Hashtbl.t
+)
+ident(
+  int_ref rseen "auxx.ml" 55 1478 1482 "auxx.ml" 55 1478 1487
+)
+"auxx.ml" 229 5803 5805 "auxx.ml" 229 5803 5823
+call(
+  stack
+)
+type(
+  (string, int) Hashtbl.t
+)
+"auxx.ml" 230 5825 5827 "auxx.ml" 230 5825 5839
+type(
+  (string, string) Hashtbl.t -> (string, string) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.copy
+)
+"auxx.ml" 230 5825 5840 "auxx.ml" 230 5825 5846
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref btable "auxx.ml" 26 977 981 "auxx.ml" 26 977 987
+)
+"auxx.ml" 230 5825 5827 "auxx.ml" 230 5825 5846
+call(
+  stack
+)
+type(
+  (string, string) Hashtbl.t
+)
+"auxx.ml" 230 5825 5849 "auxx.ml" 230 5825 5861
+type(
+  (string, unit) Hashtbl.t -> (string, unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.copy
+)
+"auxx.ml" 230 5825 5863 "auxx.ml" 230 5825 5868
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  int_ref bseen "auxx.ml" 56 1508 1512 "auxx.ml" 56 1508 1517
+)
+"auxx.ml" 230 5825 5849 "auxx.ml" 230 5825 5868
+call(
+  stack
+)
+type(
+  (string, unit) Hashtbl.t
+)
+"auxx.ml" 231 5870 5872 "auxx.ml" 231 5870 5873
+type(
+  out_channel option ref -> out_channel option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"auxx.ml" 231 5870 5873 "auxx.ml" 231 5870 5880
+type(
+  out_channel option ref
+)
+ident(
+  int_ref auxfile "auxx.ml" 42 1270 1274 "auxx.ml" 42 1270 1281
+)
+"auxx.ml" 231 5870 5872 "auxx.ml" 231 5870 5880
+type(
+  out_channel option
+)
+"auxx.ml" 231 5870 5882 "auxx.ml" 231 5870 5883
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"auxx.ml" 231 5870 5883 "auxx.ml" 231 5870 5890
+type(
+  string ref
+)
+ident(
+  int_ref auxname "auxx.ml" 43 1293 1297 "auxx.ml" 43 1293 1304
+)
+"auxx.ml" 231 5870 5882 "auxx.ml" 231 5870 5890
+type(
+  string
+)
+"auxx.ml" 231 5870 5892 "auxx.ml" 231 5870 5893
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"auxx.ml" 231 5870 5893 "auxx.ml" 231 5870 5902
+type(
+  bool ref
+)
+ident(
+  int_ref something "auxx.ml" 44 1314 1318 "auxx.ml" 44 1314 1327
+)
+"auxx.ml" 231 5870 5892 "auxx.ml" 231 5870 5902
+type(
+  bool
+)
+"auxx.ml" 231 5870 5904 "auxx.ml" 231 5870 5905
+type(
+  Digest.t option ref -> Digest.t option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"auxx.ml" 231 5870 5905 "auxx.ml" 231 5870 5911
+type(
+  Digest.t option ref
+)
+ident(
+  int_ref digest "auxx.ml" 45 1340 1344 "auxx.ml" 45 1340 1350
+)
+"auxx.ml" 231 5870 5904 "auxx.ml" 231 5870 5911
+type(
+  Digest.t option
+)
+"auxx.ml" 227 5765 5767 "auxx.ml" 231 5870 5911
+type(
+  (string, string) Hashtbl.t * int * (string, int) Hashtbl.t *
+  (string, string) Hashtbl.t * (string, unit) Hashtbl.t *
+  out_channel option * string * bool * Digest.t option
+)
+"auxx.ml" 233 5913 5917 "auxx.ml" 233 5913 5920
+type(
+  (string, string) Hashtbl.t * int * (string, int) Hashtbl.t *
+  (string, string) Hashtbl.t * (string, unit) Hashtbl.t *
+  out_channel option * string * bool * Digest.t option -> unit
+)
+ident(
+  def hot "auxx.ml" 246 6339 6339 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 234 5921 5923 "auxx.ml" 234 5921 5930
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  def srtable "auxx.ml" 236 6015 6017 "auxx.ml" 243 6264 6283
+)
+"auxx.ml" 234 5921 5932 "auxx.ml" 234 5921 5943
+type(
+  int
+)
+ident(
+  def slabelcount "auxx.ml" 236 6015 6017 "auxx.ml" 243 6264 6283
+)
+"auxx.ml" 234 5921 5945 "auxx.ml" 234 5921 5951
+type(
+  (string, int) Hashtbl.t
+)
+ident(
+  def srseen "auxx.ml" 236 6015 6017 "auxx.ml" 243 6264 6283
+)
+"auxx.ml" 234 5921 5953 "auxx.ml" 234 5921 5960
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  def sbtable "auxx.ml" 236 6015 6017 "auxx.ml" 243 6264 6283
+)
+"auxx.ml" 234 5921 5962 "auxx.ml" 234 5921 5968
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  def sbseen "auxx.ml" 236 6015 6017 "auxx.ml" 243 6264 6283
+)
+"auxx.ml" 235 5970 5972 "auxx.ml" 235 5970 5980
+type(
+  out_channel option
+)
+ident(
+  def sauxfile "auxx.ml" 236 6015 6017 "auxx.ml" 243 6264 6283
+)
+"auxx.ml" 235 5970 5982 "auxx.ml" 235 5970 5990
+type(
+  string
+)
+ident(
+  def sauxname "auxx.ml" 236 6015 6017 "auxx.ml" 243 6264 6283
+)
+"auxx.ml" 235 5970 5992 "auxx.ml" 235 5970 6002
+type(
+  bool
+)
+ident(
+  def ssomething "auxx.ml" 236 6015 6017 "auxx.ml" 243 6264 6283
+)
+"auxx.ml" 235 5970 6004 "auxx.ml" 235 5970 6011
+type(
+  Digest.t option
+)
+ident(
+  def sdigest "auxx.ml" 236 6015 6017 "auxx.ml" 243 6264 6283
+)
+"auxx.ml" 234 5921 5922 "auxx.ml" 235 5970 6012
+type(
+  (string, string) Hashtbl.t * int * (string, int) Hashtbl.t *
+  (string, string) Hashtbl.t * (string, unit) Hashtbl.t *
+  out_channel option * string * bool * Digest.t option
+)
+"auxx.ml" 236 6015 6017 "auxx.ml" 236 6015 6034
+type(
+  (string, string) Hashtbl.t -> (string, string) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Misc.copy_hashtbl
+)
+"auxx.ml" 236 6015 6035 "auxx.ml" 236 6015 6042
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref srtable "auxx.ml" 234 5921 5923 "auxx.ml" 234 5921 5930
+)
+"auxx.ml" 236 6015 6043 "auxx.ml" 236 6015 6049
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref rtable "auxx.ml" 14 752 756 "auxx.ml" 14 752 762
+)
+"auxx.ml" 236 6015 6017 "auxx.ml" 236 6015 6049
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 237 6052 6054 "auxx.ml" 237 6052 6064
+type(
+  int ref
+)
+ident(
+  int_ref labelcount "auxx.ml" 54 1455 1459 "auxx.ml" 54 1455 1469
+)
+"auxx.ml" 237 6052 6065 "auxx.ml" 237 6052 6067
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"auxx.ml" 237 6052 6068 "auxx.ml" 237 6052 6079
+type(
+  int
+)
+ident(
+  int_ref slabelcount "auxx.ml" 234 5921 5932 "auxx.ml" 234 5921 5943
+)
+"auxx.ml" 237 6052 6054 "auxx.ml" 237 6052 6079
+type(
+  unit
+)
+"auxx.ml" 238 6083 6085 "auxx.ml" 238 6083 6102
+type(
+  (string, int) Hashtbl.t -> (string, int) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Misc.copy_hashtbl
+)
+"auxx.ml" 238 6083 6103 "auxx.ml" 238 6083 6109
+type(
+  (string, int) Hashtbl.t
+)
+ident(
+  int_ref srseen "auxx.ml" 234 5921 5945 "auxx.ml" 234 5921 5951
+)
+"auxx.ml" 238 6083 6110 "auxx.ml" 238 6083 6115
+type(
+  (string, int) Hashtbl.t
+)
+ident(
+  int_ref rseen "auxx.ml" 55 1478 1482 "auxx.ml" 55 1478 1487
+)
+"auxx.ml" 238 6083 6085 "auxx.ml" 238 6083 6115
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 239 6118 6120 "auxx.ml" 239 6118 6137
+type(
+  (string, string) Hashtbl.t -> (string, string) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Misc.copy_hashtbl
+)
+"auxx.ml" 239 6118 6138 "auxx.ml" 239 6118 6145
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref sbtable "auxx.ml" 234 5921 5953 "auxx.ml" 234 5921 5960
+)
+"auxx.ml" 239 6118 6146 "auxx.ml" 239 6118 6152
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref btable "auxx.ml" 26 977 981 "auxx.ml" 26 977 987
+)
+"auxx.ml" 239 6118 6120 "auxx.ml" 239 6118 6152
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 239 6118 6155 "auxx.ml" 239 6118 6172
+type(
+  (string, unit) Hashtbl.t -> (string, unit) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Misc.copy_hashtbl
+)
+"auxx.ml" 239 6118 6173 "auxx.ml" 239 6118 6179
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  int_ref sbseen "auxx.ml" 234 5921 5962 "auxx.ml" 234 5921 5968
+)
+"auxx.ml" 239 6118 6180 "auxx.ml" 239 6118 6185
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  int_ref bseen "auxx.ml" 56 1508 1512 "auxx.ml" 56 1508 1517
+)
+"auxx.ml" 239 6118 6155 "auxx.ml" 239 6118 6185
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 240 6188 6190 "auxx.ml" 240 6188 6197
+type(
+  out_channel option ref
+)
+ident(
+  int_ref auxfile "auxx.ml" 42 1270 1274 "auxx.ml" 42 1270 1281
+)
+"auxx.ml" 240 6188 6198 "auxx.ml" 240 6188 6200
+type(
+  out_channel option ref -> out_channel option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"auxx.ml" 240 6188 6201 "auxx.ml" 240 6188 6209
+type(
+  out_channel option
+)
+ident(
+  int_ref sauxfile "auxx.ml" 235 5970 5972 "auxx.ml" 235 5970 5980
+)
+"auxx.ml" 240 6188 6190 "auxx.ml" 240 6188 6209
+type(
+  unit
+)
+"auxx.ml" 241 6212 6214 "auxx.ml" 241 6212 6221
+type(
+  string ref
+)
+ident(
+  int_ref auxname "auxx.ml" 43 1293 1297 "auxx.ml" 43 1293 1304
+)
+"auxx.ml" 241 6212 6222 "auxx.ml" 241 6212 6224
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"auxx.ml" 241 6212 6225 "auxx.ml" 241 6212 6233
+type(
+  string
+)
+ident(
+  int_ref sauxname "auxx.ml" 235 5970 5982 "auxx.ml" 235 5970 5990
+)
+"auxx.ml" 241 6212 6214 "auxx.ml" 241 6212 6233
+type(
+  unit
+)
+"auxx.ml" 242 6236 6238 "auxx.ml" 242 6236 6247
+type(
+  bool ref
+)
+ident(
+  int_ref something "auxx.ml" 44 1314 1318 "auxx.ml" 44 1314 1327
+)
+"auxx.ml" 242 6236 6248 "auxx.ml" 242 6236 6250
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"auxx.ml" 242 6236 6251 "auxx.ml" 242 6236 6261
+type(
+  bool
+)
+ident(
+  int_ref ssomething "auxx.ml" 235 5970 5992 "auxx.ml" 235 5970 6002
+)
+"auxx.ml" 242 6236 6238 "auxx.ml" 242 6236 6261
+type(
+  unit
+)
+"auxx.ml" 243 6264 6266 "auxx.ml" 243 6264 6272
+type(
+  Digest.t option ref
+)
+ident(
+  int_ref digest "auxx.ml" 45 1340 1344 "auxx.ml" 45 1340 1350
+)
+"auxx.ml" 243 6264 6273 "auxx.ml" 243 6264 6275
+type(
+  Digest.t option ref -> Digest.t option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"auxx.ml" 243 6264 6276 "auxx.ml" 243 6264 6283
+type(
+  Digest.t option
+)
+ident(
+  int_ref sdigest "auxx.ml" 235 5970 6004 "auxx.ml" 235 5970 6011
+)
+"auxx.ml" 243 6264 6266 "auxx.ml" 243 6264 6283
+type(
+  unit
+)
+"auxx.ml" 242 6236 6238 "auxx.ml" 243 6264 6283
+type(
+  unit
+)
+"auxx.ml" 241 6212 6214 "auxx.ml" 243 6264 6283
+type(
+  unit
+)
+"auxx.ml" 240 6188 6190 "auxx.ml" 243 6264 6283
+type(
+  unit
+)
+"auxx.ml" 239 6118 6155 "auxx.ml" 243 6264 6283
+type(
+  unit
+)
+"auxx.ml" 239 6118 6120 "auxx.ml" 243 6264 6283
+type(
+  unit
+)
+"auxx.ml" 238 6083 6085 "auxx.ml" 243 6264 6283
+type(
+  unit
+)
+"auxx.ml" 237 6052 6054 "auxx.ml" 243 6264 6283
+type(
+  unit
+)
+"auxx.ml" 236 6015 6017 "auxx.ml" 243 6264 6283
+type(
+  unit
+)
+"auxx.ml" 246 6339 6343 "auxx.ml" 246 6339 6352
+type(
+  unit -> unit
+)
+ident(
+  def hot_start "auxx.ml" 252 6532 6548 "auxx.ml" 1 0 -1
+)
+"auxx.ml" 246 6339 6353 "auxx.ml" 246 6339 6355
+type(
+  unit
+)
+"auxx.ml" 247 6358 6360 "auxx.ml" 247 6358 6373
+type(
+  (string, string) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.clear
+)
+"auxx.ml" 247 6358 6374 "auxx.ml" 247 6358 6380
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref rtable "auxx.ml" 14 752 756 "auxx.ml" 14 752 762
+)
+"auxx.ml" 247 6358 6360 "auxx.ml" 247 6358 6380
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 247 6358 6383 "auxx.ml" 247 6358 6393
+type(
+  int ref
+)
+ident(
+  int_ref labelcount "auxx.ml" 54 1455 1459 "auxx.ml" 54 1455 1469
+)
+"auxx.ml" 247 6358 6394 "auxx.ml" 247 6358 6396
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"auxx.ml" 247 6358 6397 "auxx.ml" 247 6358 6398
+type(
+  int
+)
+"auxx.ml" 247 6358 6383 "auxx.ml" 247 6358 6398
+type(
+  unit
+)
+"auxx.ml" 247 6358 6401 "auxx.ml" 247 6358 6414
+type(
+  (string, int) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.clear
+)
+"auxx.ml" 247 6358 6415 "auxx.ml" 247 6358 6420
+type(
+  (string, int) Hashtbl.t
+)
+ident(
+  int_ref rseen "auxx.ml" 55 1478 1482 "auxx.ml" 55 1478 1487
+)
+"auxx.ml" 247 6358 6401 "auxx.ml" 247 6358 6420
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 248 6423 6425 "auxx.ml" 248 6423 6438
+type(
+  (string, string) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.clear
+)
+"auxx.ml" 248 6423 6439 "auxx.ml" 248 6423 6445
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref btable "auxx.ml" 26 977 981 "auxx.ml" 26 977 987
+)
+"auxx.ml" 248 6423 6425 "auxx.ml" 248 6423 6445
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 248 6423 6448 "auxx.ml" 248 6423 6461
+type(
+  (string, unit) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.clear
+)
+"auxx.ml" 248 6423 6462 "auxx.ml" 248 6423 6467
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  int_ref bseen "auxx.ml" 56 1508 1512 "auxx.ml" 56 1508 1517
+)
+"auxx.ml" 248 6423 6448 "auxx.ml" 248 6423 6467
+call(
+  stack
+)
+type(
+  unit
+)
+"auxx.ml" 249 6470 6472 "auxx.ml" 249 6470 6479
+type(
+  out_channel option ref
+)
+ident(
+  int_ref auxfile "auxx.ml" 42 1270 1274 "auxx.ml" 42 1270 1281
+)
+"auxx.ml" 249 6470 6480 "auxx.ml" 249 6470 6482
+type(
+  out_channel option ref -> out_channel option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"auxx.ml" 249 6470 6484 "auxx.ml" 249 6470 6488
+type(
+  out_channel option
+)
+"auxx.ml" 249 6470 6472 "auxx.ml" 249 6470 6488
+type(
+  unit
+)
+"auxx.ml" 250 6491 6493 "auxx.ml" 250 6491 6500
+type(
+  string ref
+)
+ident(
+  int_ref auxname "auxx.ml" 43 1293 1297 "auxx.ml" 43 1293 1304
+)
+"auxx.ml" 250 6491 6501 "auxx.ml" 250 6491 6503
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"auxx.ml" 250 6491 6504 "auxx.ml" 250 6491 6506
+type(
+  string
+)
+"auxx.ml" 250 6491 6493 "auxx.ml" 250 6491 6506
+type(
+  unit
+)
+"auxx.ml" 251 6509 6511 "auxx.ml" 251 6509 6520
+type(
+  bool ref
+)
+ident(
+  int_ref something "auxx.ml" 44 1314 1318 "auxx.ml" 44 1314 1327
+)
+"auxx.ml" 251 6509 6521 "auxx.ml" 251 6509 6523
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"auxx.ml" 251 6509 6524 "auxx.ml" 251 6509 6529
+type(
+  bool
+)
+"auxx.ml" 251 6509 6511 "auxx.ml" 251 6509 6529
+type(
+  unit
+)
+"auxx.ml" 252 6532 6534 "auxx.ml" 252 6532 6540
+type(
+  Digest.t option ref
+)
+ident(
+  int_ref digest "auxx.ml" 45 1340 1344 "auxx.ml" 45 1340 1350
+)
+"auxx.ml" 252 6532 6541 "auxx.ml" 252 6532 6543
+type(
+  Digest.t option ref -> Digest.t option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"auxx.ml" 252 6532 6544 "auxx.ml" 252 6532 6548
+type(
+  Digest.t option
+)
+"auxx.ml" 252 6532 6534 "auxx.ml" 252 6532 6548
+type(
+  unit
+)
+"auxx.ml" 251 6509 6511 "auxx.ml" 252 6532 6548
+type(
+  unit
+)
+"auxx.ml" 250 6491 6493 "auxx.ml" 252 6532 6548
+type(
+  unit
+)
+"auxx.ml" 249 6470 6472 "auxx.ml" 252 6532 6548
+type(
+  unit
+)
+"auxx.ml" 248 6423 6448 "auxx.ml" 252 6532 6548
+type(
+  unit
+)
+"auxx.ml" 248 6423 6425 "auxx.ml" 252 6532 6548
+type(
+  unit
+)
+"auxx.ml" 247 6358 6401 "auxx.ml" 252 6532 6548
+type(
+  unit
+)
+"auxx.ml" 247 6358 6383 "auxx.ml" 252 6532 6548
+type(
+  unit
+)
+"auxx.ml" 247 6358 6360 "auxx.ml" 252 6532 6548
+type(
+  unit
+)

@@ -1,0 +1,2267 @@
+"foot.ml" 12 741 745 "foot.ml" 12 741 749
+type(
+  bool ref
+)
+ident(
+  def some "foot.ml" 16 767 767 "foot.ml" 1 0 -1
+)
+"foot.ml" 12 741 752 "foot.ml" 12 741 755
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"foot.ml" 12 741 756 "foot.ml" 12 741 761
+type(
+  bool
+)
+"foot.ml" 12 741 752 "foot.ml" 12 741 761
+type(
+  bool ref
+)
+"foot.ml" 16 767 771 "foot.ml" 16 767 777
+type(
+  int ref
+)
+ident(
+  def anchor "foot.ml" 19 790 790 "foot.ml" 1 0 -1
+)
+"foot.ml" 16 767 780 "foot.ml" 16 767 783
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"foot.ml" 16 767 784 "foot.ml" 16 767 785
+type(
+  int
+)
+"foot.ml" 16 767 780 "foot.ml" 16 767 785
+type(
+  int ref
+)
+"foot.ml" 19 790 794 "foot.ml" 19 790 808
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  def mark_to_anchor "foot.ml" 23 872 872 "foot.ml" 1 0 -1
+)
+"foot.ml" 19 790 811 "foot.ml" 19 790 825
+type(
+  ?random:bool -> int -> (int, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"foot.ml" 19 790 826 "foot.ml" 19 790 828
+type(
+  int
+)
+"foot.ml" 19 790 811 "foot.ml" 19 790 828
+call(
+  stack
+)
+type(
+  (int, int) Hashtbl.t
+)
+"foot.ml" 20 829 833 "foot.ml" 20 829 847
+type(
+  (int, int * string * string) Hashtbl.t
+)
+ident(
+  def anchor_to_note "foot.ml" 23 872 872 "foot.ml" 1 0 -1
+)
+"foot.ml" 20 829 850 "foot.ml" 20 829 864
+type(
+  ?random:bool -> int -> (int, int * string * string) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"foot.ml" 20 829 865 "foot.ml" 20 829 867
+type(
+  int
+)
+"foot.ml" 20 829 850 "foot.ml" 20 829 867
+call(
+  stack
+)
+type(
+  (int, int * string * string) Hashtbl.t
+)
+"foot.ml" 23 872 876 "foot.ml" 23 872 885
+type(
+  int MyStack.t
+)
+ident(
+  def fst_stack "foot.ml" 26 968 968 "foot.ml" 1 0 -1
+)
+"foot.ml" 23 872 888 "foot.ml" 23 872 907
+type(
+  string -> int -> int MyStack.t
+)
+ident(
+  ext_ref MyStack.create_init
+)
+"foot.ml" 23 872 908 "foot.ml" 23 872 919
+type(
+  string
+)
+"foot.ml" 23 872 920 "foot.ml" 23 872 921
+type(
+  int
+)
+"foot.ml" 23 872 888 "foot.ml" 23 872 921
+call(
+  stack
+)
+type(
+  int MyStack.t
+)
+"foot.ml" 24 922 926 "foot.ml" 24 922 936
+type(
+  bool MyStack.t
+)
+ident(
+  def some_stack "foot.ml" 26 968 968 "foot.ml" 1 0 -1
+)
+"foot.ml" 24 922 939 "foot.ml" 24 922 953
+type(
+  string -> bool MyStack.t
+)
+ident(
+  ext_ref MyStack.create
+)
+"foot.ml" 24 922 954 "foot.ml" 24 922 966
+type(
+  string
+)
+"foot.ml" 24 922 939 "foot.ml" 24 922 966
+call(
+  stack
+)
+type(
+  bool MyStack.t
+)
+"foot.ml" 32 1107 1111 "foot.ml" 32 1107 1121
+type(
+  unit ->
+  (int, int) Hashtbl.t * (int, int * string * string) Hashtbl.t * int *
+  bool * int MyStack.saved * bool MyStack.saved
+)
+ident(
+  def checkpoint "foot.ml" 47 1513 1513 "foot.ml" 1 0 -1
+)
+"foot.ml" 32 1107 1122 "foot.ml" 32 1107 1124
+type(
+  unit
+)
+"foot.ml" 33 1127 1129 "foot.ml" 33 1127 1141
+type(
+  (int, int) Hashtbl.t -> (int, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.copy
+)
+"foot.ml" 33 1127 1142 "foot.ml" 33 1127 1156
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref mark_to_anchor "foot.ml" 19 790 794 "foot.ml" 19 790 808
+)
+"foot.ml" 33 1127 1129 "foot.ml" 33 1127 1156
+call(
+  stack
+)
+type(
+  (int, int) Hashtbl.t
+)
+"foot.ml" 34 1158 1160 "foot.ml" 34 1158 1172
+type(
+  (int, int * string * string) Hashtbl.t ->
+  (int, int * string * string) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.copy
+)
+"foot.ml" 34 1158 1173 "foot.ml" 34 1158 1187
+type(
+  (int, int * string * string) Hashtbl.t
+)
+ident(
+  int_ref anchor_to_note "foot.ml" 20 829 833 "foot.ml" 20 829 847
+)
+"foot.ml" 34 1158 1160 "foot.ml" 34 1158 1187
+call(
+  stack
+)
+type(
+  (int, int * string * string) Hashtbl.t
+)
+"foot.ml" 35 1189 1191 "foot.ml" 35 1189 1192
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"foot.ml" 35 1189 1192 "foot.ml" 35 1189 1198
+type(
+  int ref
+)
+ident(
+  int_ref anchor "foot.ml" 16 767 771 "foot.ml" 16 767 777
+)
+"foot.ml" 35 1189 1191 "foot.ml" 35 1189 1198
+type(
+  int
+)
+"foot.ml" 35 1189 1200 "foot.ml" 35 1189 1201
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"foot.ml" 35 1189 1201 "foot.ml" 35 1189 1205
+type(
+  bool ref
+)
+ident(
+  int_ref some "foot.ml" 12 741 745 "foot.ml" 12 741 749
+)
+"foot.ml" 35 1189 1200 "foot.ml" 35 1189 1205
+type(
+  bool
+)
+"foot.ml" 36 1207 1209 "foot.ml" 36 1207 1221
+type(
+  int MyStack.t -> int MyStack.saved
+)
+ident(
+  ext_ref MyStack.save
+)
+"foot.ml" 36 1207 1222 "foot.ml" 36 1207 1231
+type(
+  int MyStack.t
+)
+ident(
+  int_ref fst_stack "foot.ml" 23 872 876 "foot.ml" 23 872 885
+)
+"foot.ml" 36 1207 1209 "foot.ml" 36 1207 1231
+call(
+  stack
+)
+type(
+  int MyStack.saved
+)
+"foot.ml" 36 1207 1233 "foot.ml" 36 1207 1245
+type(
+  bool MyStack.t -> bool MyStack.saved
+)
+ident(
+  ext_ref MyStack.save
+)
+"foot.ml" 36 1207 1246 "foot.ml" 36 1207 1256
+type(
+  bool MyStack.t
+)
+ident(
+  int_ref some_stack "foot.ml" 24 922 926 "foot.ml" 24 922 936
+)
+"foot.ml" 36 1207 1233 "foot.ml" 36 1207 1256
+call(
+  stack
+)
+type(
+  bool MyStack.saved
+)
+"foot.ml" 33 1127 1129 "foot.ml" 36 1207 1256
+type(
+  (int, int) Hashtbl.t * (int, int * string * string) Hashtbl.t * int *
+  bool * int MyStack.saved * bool MyStack.saved
+)
+"foot.ml" 38 1258 1262 "foot.ml" 38 1258 1271
+type(
+  (int, int) Hashtbl.t * (int, int * string * string) Hashtbl.t * int *
+  bool * int MyStack.saved * bool MyStack.saved -> unit
+)
+ident(
+  def hot_start "foot.ml" 47 1513 1513 "foot.ml" 1 0 -1
+)
+"foot.ml" 38 1258 1273 "foot.ml" 38 1258 1275
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  def t1 "foot.ml" 39 1307 1309 "foot.ml" 45 1507 1511
+)
+"foot.ml" 38 1258 1276 "foot.ml" 38 1258 1278
+type(
+  (int, int * string * string) Hashtbl.t
+)
+ident(
+  def t2 "foot.ml" 39 1307 1309 "foot.ml" 45 1507 1511
+)
+"foot.ml" 38 1258 1279 "foot.ml" 38 1258 1280
+type(
+  int
+)
+ident(
+  def i "foot.ml" 39 1307 1309 "foot.ml" 45 1507 1511
+)
+"foot.ml" 38 1258 1281 "foot.ml" 38 1258 1282
+type(
+  bool
+)
+ident(
+  def b "foot.ml" 39 1307 1309 "foot.ml" 45 1507 1511
+)
+"foot.ml" 38 1258 1283 "foot.ml" 38 1258 1292
+type(
+  int MyStack.saved
+)
+ident(
+  def fst_saved "foot.ml" 39 1307 1309 "foot.ml" 45 1507 1511
+)
+"foot.ml" 38 1258 1293 "foot.ml" 38 1258 1303
+type(
+  bool MyStack.saved
+)
+ident(
+  def some_saved "foot.ml" 39 1307 1309 "foot.ml" 45 1507 1511
+)
+"foot.ml" 38 1258 1272 "foot.ml" 38 1258 1304
+type(
+  (int, int) Hashtbl.t * (int, int * string * string) Hashtbl.t * int *
+  bool * int MyStack.saved * bool MyStack.saved
+)
+"foot.ml" 39 1307 1309 "foot.ml" 39 1307 1330
+type(
+  (int, int) Hashtbl.t -> (int, int) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Misc.copy_int_hashtbl
+)
+"foot.ml" 39 1307 1331 "foot.ml" 39 1307 1333
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref t1 "foot.ml" 38 1258 1273 "foot.ml" 38 1258 1275
+)
+"foot.ml" 39 1307 1334 "foot.ml" 39 1307 1348
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref mark_to_anchor "foot.ml" 19 790 794 "foot.ml" 19 790 808
+)
+"foot.ml" 39 1307 1309 "foot.ml" 39 1307 1348
+call(
+  stack
+)
+type(
+  unit
+)
+"foot.ml" 40 1351 1353 "foot.ml" 40 1351 1374
+type(
+  (int, int * string * string) Hashtbl.t ->
+  (int, int * string * string) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Misc.copy_int_hashtbl
+)
+"foot.ml" 40 1351 1375 "foot.ml" 40 1351 1377
+type(
+  (int, int * string * string) Hashtbl.t
+)
+ident(
+  int_ref t2 "foot.ml" 38 1258 1276 "foot.ml" 38 1258 1278
+)
+"foot.ml" 40 1351 1378 "foot.ml" 40 1351 1392
+type(
+  (int, int * string * string) Hashtbl.t
+)
+ident(
+  int_ref anchor_to_note "foot.ml" 20 829 833 "foot.ml" 20 829 847
+)
+"foot.ml" 40 1351 1353 "foot.ml" 40 1351 1392
+call(
+  stack
+)
+type(
+  unit
+)
+"foot.ml" 41 1395 1397 "foot.ml" 41 1395 1403
+type(
+  int ref
+)
+ident(
+  int_ref anchor "foot.ml" 16 767 771 "foot.ml" 16 767 777
+)
+"foot.ml" 41 1395 1404 "foot.ml" 41 1395 1406
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"foot.ml" 41 1395 1407 "foot.ml" 41 1395 1408
+type(
+  int
+)
+ident(
+  int_ref i "foot.ml" 38 1258 1279 "foot.ml" 38 1258 1280
+)
+"foot.ml" 41 1395 1397 "foot.ml" 41 1395 1408
+type(
+  unit
+)
+"foot.ml" 42 1411 1413 "foot.ml" 42 1411 1417
+type(
+  bool ref
+)
+ident(
+  int_ref some "foot.ml" 12 741 745 "foot.ml" 12 741 749
+)
+"foot.ml" 42 1411 1418 "foot.ml" 42 1411 1420
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"foot.ml" 42 1411 1421 "foot.ml" 42 1411 1422
+type(
+  bool
+)
+ident(
+  int_ref b "foot.ml" 38 1258 1281 "foot.ml" 38 1258 1282
+)
+"foot.ml" 42 1411 1413 "foot.ml" 42 1411 1422
+type(
+  unit
+)
+"foot.ml" 43 1425 1427 "foot.ml" 43 1425 1442
+type(
+  int MyStack.t -> int MyStack.saved -> unit
+)
+ident(
+  ext_ref MyStack.restore
+)
+"foot.ml" 43 1425 1443 "foot.ml" 43 1425 1452
+type(
+  int MyStack.t
+)
+ident(
+  int_ref fst_stack "foot.ml" 23 872 876 "foot.ml" 23 872 885
+)
+"foot.ml" 43 1425 1453 "foot.ml" 43 1425 1462
+type(
+  int MyStack.saved
+)
+ident(
+  int_ref fst_saved "foot.ml" 38 1258 1283 "foot.ml" 38 1258 1292
+)
+"foot.ml" 43 1425 1427 "foot.ml" 43 1425 1462
+call(
+  stack
+)
+type(
+  unit
+)
+"foot.ml" 44 1465 1467 "foot.ml" 44 1465 1482
+type(
+  bool MyStack.t -> bool MyStack.saved -> unit
+)
+ident(
+  ext_ref MyStack.restore
+)
+"foot.ml" 44 1465 1483 "foot.ml" 44 1465 1493
+type(
+  bool MyStack.t
+)
+ident(
+  int_ref some_stack "foot.ml" 24 922 926 "foot.ml" 24 922 936
+)
+"foot.ml" 44 1465 1494 "foot.ml" 44 1465 1504
+type(
+  bool MyStack.saved
+)
+ident(
+  int_ref some_saved "foot.ml" 38 1258 1293 "foot.ml" 38 1258 1303
+)
+"foot.ml" 44 1465 1467 "foot.ml" 44 1465 1504
+call(
+  stack
+)
+type(
+  unit
+)
+"foot.ml" 45 1507 1509 "foot.ml" 45 1507 1511
+type(
+  unit
+)
+"foot.ml" 44 1465 1467 "foot.ml" 45 1507 1511
+type(
+  unit
+)
+"foot.ml" 43 1425 1427 "foot.ml" 45 1507 1511
+type(
+  unit
+)
+"foot.ml" 42 1411 1413 "foot.ml" 45 1507 1511
+type(
+  unit
+)
+"foot.ml" 41 1395 1397 "foot.ml" 45 1507 1511
+type(
+  unit
+)
+"foot.ml" 40 1351 1353 "foot.ml" 45 1507 1511
+type(
+  unit
+)
+"foot.ml" 39 1307 1309 "foot.ml" 45 1507 1511
+type(
+  unit
+)
+"foot.ml" 47 1513 1517 "foot.ml" 47 1513 1528
+type(
+  int -> unit
+)
+ident(
+  def step_anchor "foot.ml" 53 1637 1637 "foot.ml" 1 0 -1
+)
+"foot.ml" 47 1513 1529 "foot.ml" 47 1513 1533
+type(
+  int
+)
+ident(
+  def mark "foot.ml" 48 1536 1538 "foot.ml" 50 1591 1632
+)
+"foot.ml" 48 1536 1538 "foot.ml" 48 1536 1542
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"foot.ml" 48 1536 1543 "foot.ml" 48 1536 1549
+type(
+  int ref
+)
+ident(
+  int_ref anchor "foot.ml" 16 767 771 "foot.ml" 16 767 777
+)
+"foot.ml" 48 1536 1538 "foot.ml" 48 1536 1549
+type(
+  unit
+)
+"foot.ml" 49 1552 1554 "foot.ml" 49 1552 1568
+type(
+  (int, int) Hashtbl.t -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"foot.ml" 49 1552 1569 "foot.ml" 49 1552 1583
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref mark_to_anchor "foot.ml" 19 790 794 "foot.ml" 19 790 808
+)
+"foot.ml" 49 1552 1584 "foot.ml" 49 1552 1588
+type(
+  int
+)
+ident(
+  int_ref mark "foot.ml" 47 1513 1529 "foot.ml" 47 1513 1533
+)
+"foot.ml" 49 1552 1554 "foot.ml" 49 1552 1588
+call(
+  stack
+)
+type(
+  unit
+)
+"foot.ml" 50 1591 1593 "foot.ml" 50 1591 1604
+type(
+  (int, int) Hashtbl.t -> int -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"foot.ml" 50 1591 1605 "foot.ml" 50 1591 1619
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref mark_to_anchor "foot.ml" 19 790 794 "foot.ml" 19 790 808
+)
+"foot.ml" 50 1591 1620 "foot.ml" 50 1591 1624
+type(
+  int
+)
+ident(
+  int_ref mark "foot.ml" 47 1513 1529 "foot.ml" 47 1513 1533
+)
+"foot.ml" 50 1591 1625 "foot.ml" 50 1591 1626
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"foot.ml" 50 1591 1626 "foot.ml" 50 1591 1632
+type(
+  int ref
+)
+ident(
+  int_ref anchor "foot.ml" 16 767 771 "foot.ml" 16 767 777
+)
+"foot.ml" 50 1591 1625 "foot.ml" 50 1591 1632
+type(
+  int
+)
+"foot.ml" 50 1591 1593 "foot.ml" 50 1591 1632
+call(
+  tail
+)
+type(
+  unit
+)
+"foot.ml" 49 1552 1554 "foot.ml" 50 1591 1632
+type(
+  unit
+)
+"foot.ml" 48 1536 1538 "foot.ml" 50 1591 1632
+type(
+  unit
+)
+"foot.ml" 53 1637 1641 "foot.ml" 53 1637 1651
+type(
+  int -> int
+)
+ident(
+  def get_anchor "foot.ml" 63 1798 1798 "foot.ml" 1 0 -1
+)
+"foot.ml" 53 1637 1652 "foot.ml" 53 1637 1656
+type(
+  int
+)
+ident(
+  def mark "foot.ml" 54 1659 1661 "foot.ml" 60 1788 1791
+)
+"foot.ml" 54 1659 1665 "foot.ml" 54 1659 1666
+type(
+  int
+)
+ident(
+  def r "foot.ml" 60 1788 1790 "foot.ml" 60 1788 1791
+)
+"foot.ml" 55 1669 1677 "foot.ml" 55 1669 1689
+type(
+  (int, int) Hashtbl.t -> int -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"foot.ml" 55 1669 1690 "foot.ml" 55 1669 1704
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref mark_to_anchor "foot.ml" 19 790 794 "foot.ml" 19 790 808
+)
+"foot.ml" 55 1669 1705 "foot.ml" 55 1669 1709
+type(
+  int
+)
+ident(
+  int_ref mark "foot.ml" 53 1637 1652 "foot.ml" 53 1637 1656
+)
+"foot.ml" 55 1669 1677 "foot.ml" 55 1669 1709
+call(
+  stack
+)
+type(
+  int
+)
+"foot.ml" 56 1710 1719 "foot.ml" 56 1710 1728
+type(
+  exn
+)
+"foot.ml" 57 1738 1744 "foot.ml" 57 1738 1755
+type(
+  int -> unit
+)
+ident(
+  int_ref step_anchor "foot.ml" 47 1513 1517 "foot.ml" 47 1513 1528
+)
+"foot.ml" 57 1738 1756 "foot.ml" 57 1738 1760
+type(
+  int
+)
+ident(
+  int_ref mark "foot.ml" 53 1637 1652 "foot.ml" 53 1637 1656
+)
+"foot.ml" 57 1738 1744 "foot.ml" 57 1738 1760
+call(
+  stack
+)
+type(
+  unit
+)
+"foot.ml" 58 1763 1769 "foot.ml" 58 1763 1770
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"foot.ml" 58 1763 1770 "foot.ml" 58 1763 1776
+type(
+  int ref
+)
+ident(
+  int_ref anchor "foot.ml" 16 767 771 "foot.ml" 16 767 777
+)
+"foot.ml" 58 1763 1769 "foot.ml" 58 1763 1776
+type(
+  int
+)
+"foot.ml" 56 1710 1732 "foot.ml" 59 1777 1784
+type(
+  int
+)
+"foot.ml" 55 1669 1673 "foot.ml" 59 1777 1784
+type(
+  int
+)
+"foot.ml" 60 1788 1790 "foot.ml" 60 1788 1791
+type(
+  int
+)
+ident(
+  int_ref r "foot.ml" 54 1659 1665 "foot.ml" 54 1659 1666
+)
+"foot.ml" 54 1659 1661 "foot.ml" 60 1788 1791
+type(
+  int
+)
+"foot.ml" 63 1798 1802 "foot.ml" 63 1798 1810
+type(
+  int -> string -> string -> unit
+)
+ident(
+  def register "foot.ml" 76 2129 2129 "foot.ml" 1 0 -1
+)
+"foot.ml" 63 1798 1811 "foot.ml" 63 1798 1815
+type(
+  int
+)
+ident(
+  def mark "foot.ml" 63 1798 1816 "foot.ml" 72 2068 2123
+)
+"foot.ml" 63 1798 1816 "foot.ml" 63 1798 1823
+type(
+  string
+)
+ident(
+  def themark "foot.ml" 63 1798 1824 "foot.ml" 72 2068 2123
+)
+"foot.ml" 63 1798 1824 "foot.ml" 63 1798 1828
+type(
+  string
+)
+ident(
+  def text "foot.ml" 64 1831 1833 "foot.ml" 72 2068 2123
+)
+"foot.ml" 64 1831 1833 "foot.ml" 64 1831 1837
+type(
+  bool ref
+)
+ident(
+  int_ref some "foot.ml" 12 741 745 "foot.ml" 12 741 749
+)
+"foot.ml" 64 1831 1838 "foot.ml" 64 1831 1840
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"foot.ml" 64 1831 1841 "foot.ml" 64 1831 1845
+type(
+  bool
+)
+"foot.ml" 64 1831 1833 "foot.ml" 64 1831 1845
+type(
+  unit
+)
+"foot.ml" 65 1848 1854 "foot.ml" 65 1848 1860
+type(
+  int
+)
+ident(
+  def anchor "foot.ml" 66 1882 1884 "foot.ml" 72 2068 2123
+)
+"foot.ml" 65 1848 1863 "foot.ml" 65 1848 1873
+type(
+  int -> int
+)
+ident(
+  int_ref get_anchor "foot.ml" 53 1637 1641 "foot.ml" 53 1637 1651
+)
+"foot.ml" 65 1848 1874 "foot.ml" 65 1848 1878
+type(
+  int
+)
+ident(
+  int_ref mark "foot.ml" 63 1798 1811 "foot.ml" 63 1798 1815
+)
+"foot.ml" 65 1848 1863 "foot.ml" 65 1848 1878
+call(
+  stack
+)
+type(
+  int
+)
+"foot.ml" 67 1894 1902 "foot.ml" 67 1894 1903
+type(
+  int * string * string
+)
+"foot.ml" 67 1894 1906 "foot.ml" 67 1894 1918
+type(
+  (int, int * string * string) Hashtbl.t -> int -> int * string * string
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"foot.ml" 67 1894 1919 "foot.ml" 67 1894 1933
+type(
+  (int, int * string * string) Hashtbl.t
+)
+ident(
+  int_ref anchor_to_note "foot.ml" 20 829 833 "foot.ml" 20 829 847
+)
+"foot.ml" 67 1894 1934 "foot.ml" 67 1894 1940
+type(
+  int
+)
+ident(
+  int_ref anchor "foot.ml" 65 1848 1854 "foot.ml" 65 1848 1860
+)
+"foot.ml" 67 1894 1906 "foot.ml" 67 1894 1940
+call(
+  stack
+)
+type(
+  int * string * string
+)
+"foot.ml" 68 1948 1952 "foot.ml" 68 1948 1964
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.warning
+)
+"foot.ml" 68 1948 1965 "foot.ml" 68 1948 1992
+type(
+  string
+)
+"foot.ml" 68 1948 1952 "foot.ml" 68 1948 1992
+call(
+  stack
+)
+type(
+  unit
+)
+"foot.ml" 69 1995 1999 "foot.ml" 69 1995 2013
+type(
+  (int, int * string * string) Hashtbl.t -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"foot.ml" 69 1995 2015 "foot.ml" 69 1995 2029
+type(
+  (int, int * string * string) Hashtbl.t
+)
+ident(
+  int_ref anchor_to_note "foot.ml" 20 829 833 "foot.ml" 20 829 847
+)
+"foot.ml" 69 1995 2030 "foot.ml" 69 1995 2036
+type(
+  int
+)
+ident(
+  int_ref anchor "foot.ml" 65 1848 1854 "foot.ml" 65 1848 1860
+)
+"foot.ml" 69 1995 1999 "foot.ml" 69 1995 2036
+call(
+  stack
+)
+type(
+  unit
+)
+"foot.ml" 68 1948 1952 "foot.ml" 69 1995 2036
+type(
+  unit
+)
+"foot.ml" 67 1894 1898 "foot.ml" 69 1995 2036
+type(
+  unit
+)
+"foot.ml" 70 2037 2044 "foot.ml" 70 2037 2053
+type(
+  exn
+)
+"foot.ml" 70 2037 2057 "foot.ml" 70 2037 2059
+type(
+  unit
+)
+"foot.ml" 66 1882 1884 "foot.ml" 71 2060 2065
+type(
+  unit
+)
+"foot.ml" 72 2068 2070 "foot.ml" 72 2068 2081
+type(
+  (int, int * string * string) Hashtbl.t ->
+  int -> int * string * string -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"foot.ml" 72 2068 2082 "foot.ml" 72 2068 2096
+type(
+  (int, int * string * string) Hashtbl.t
+)
+ident(
+  int_ref anchor_to_note "foot.ml" 20 829 833 "foot.ml" 20 829 847
+)
+"foot.ml" 72 2068 2097 "foot.ml" 72 2068 2103
+type(
+  int
+)
+ident(
+  int_ref anchor "foot.ml" 65 1848 1854 "foot.ml" 65 1848 1860
+)
+"foot.ml" 72 2068 2105 "foot.ml" 72 2068 2109
+type(
+  int
+)
+ident(
+  int_ref mark "foot.ml" 63 1798 1811 "foot.ml" 63 1798 1815
+)
+"foot.ml" 72 2068 2110 "foot.ml" 72 2068 2117
+type(
+  string
+)
+ident(
+  int_ref themark "foot.ml" 63 1798 1816 "foot.ml" 63 1798 1823
+)
+"foot.ml" 72 2068 2118 "foot.ml" 72 2068 2122
+type(
+  string
+)
+ident(
+  int_ref text "foot.ml" 63 1798 1824 "foot.ml" 63 1798 1828
+)
+"foot.ml" 72 2068 2104 "foot.ml" 72 2068 2123
+type(
+  int * string * string
+)
+"foot.ml" 72 2068 2070 "foot.ml" 72 2068 2123
+call(
+  tail
+)
+type(
+  unit
+)
+"foot.ml" 66 1882 1884 "foot.ml" 72 2068 2123
+type(
+  unit
+)
+"foot.ml" 65 1848 1850 "foot.ml" 72 2068 2123
+type(
+  unit
+)
+"foot.ml" 64 1831 1833 "foot.ml" 72 2068 2123
+type(
+  unit
+)
+"foot.ml" 76 2129 2133 "foot.ml" 76 2129 2142
+type(
+  unit -> unit
+)
+ident(
+  def sub_notes "foot.ml" 82 2235 2235 "foot.ml" 1 0 -1
+)
+"foot.ml" 76 2129 2143 "foot.ml" 76 2129 2145
+type(
+  unit
+)
+"foot.ml" 77 2148 2150 "foot.ml" 77 2148 2162
+type(
+  int MyStack.t -> int -> unit
+)
+ident(
+  ext_ref MyStack.push
+)
+"foot.ml" 77 2148 2163 "foot.ml" 77 2148 2172
+type(
+  int MyStack.t
+)
+ident(
+  int_ref fst_stack "foot.ml" 23 872 876 "foot.ml" 23 872 885
+)
+"foot.ml" 77 2148 2173 "foot.ml" 77 2148 2174
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"foot.ml" 77 2148 2174 "foot.ml" 77 2148 2180
+type(
+  int ref
+)
+ident(
+  int_ref anchor "foot.ml" 16 767 771 "foot.ml" 16 767 777
+)
+"foot.ml" 77 2148 2173 "foot.ml" 77 2148 2180
+type(
+  int
+)
+"foot.ml" 77 2148 2150 "foot.ml" 77 2148 2180
+call(
+  stack
+)
+type(
+  unit
+)
+"foot.ml" 78 2183 2185 "foot.ml" 78 2183 2197
+type(
+  bool MyStack.t -> bool -> unit
+)
+ident(
+  ext_ref MyStack.push
+)
+"foot.ml" 78 2183 2198 "foot.ml" 78 2183 2208
+type(
+  bool MyStack.t
+)
+ident(
+  int_ref some_stack "foot.ml" 24 922 926 "foot.ml" 24 922 936
+)
+"foot.ml" 78 2183 2209 "foot.ml" 78 2183 2210
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"foot.ml" 78 2183 2210 "foot.ml" 78 2183 2214
+type(
+  bool ref
+)
+ident(
+  int_ref some "foot.ml" 12 741 745 "foot.ml" 12 741 749
+)
+"foot.ml" 78 2183 2209 "foot.ml" 78 2183 2214
+type(
+  bool
+)
+"foot.ml" 78 2183 2185 "foot.ml" 78 2183 2214
+call(
+  stack
+)
+type(
+  unit
+)
+"foot.ml" 79 2217 2219 "foot.ml" 79 2217 2223
+type(
+  bool ref
+)
+ident(
+  int_ref some "foot.ml" 12 741 745 "foot.ml" 12 741 749
+)
+"foot.ml" 79 2217 2224 "foot.ml" 79 2217 2226
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"foot.ml" 79 2217 2227 "foot.ml" 79 2217 2232
+type(
+  bool
+)
+"foot.ml" 79 2217 2219 "foot.ml" 79 2217 2232
+type(
+  unit
+)
+"foot.ml" 78 2183 2185 "foot.ml" 79 2217 2232
+type(
+  unit
+)
+"foot.ml" 77 2148 2150 "foot.ml" 79 2217 2232
+type(
+  unit
+)
+"foot.ml" 82 2235 2239 "foot.ml" 82 2235 2244
+type(
+  bool -> (string -> 'a) -> (string -> unit) -> string -> string -> unit
+)
+ident(
+  def flush "foot.ml" 122 3391 3391 "foot.ml" 1 0 -1
+)
+"foot.ml" 82 2235 2245 "foot.ml" 82 2235 2251
+type(
+  bool
+)
+ident(
+  def sticky "foot.ml" 82 2235 2252 "foot.ml" 119 3381 3386
+)
+"foot.ml" 82 2235 2252 "foot.ml" 82 2235 2257
+type(
+  string -> 'a
+)
+ident(
+  def lexer "foot.ml" 82 2235 2258 "foot.ml" 119 3381 3386
+)
+"foot.ml" 82 2235 2258 "foot.ml" 82 2235 2261
+type(
+  string -> unit
+)
+ident(
+  def out "foot.ml" 82 2235 2262 "foot.ml" 119 3381 3386
+)
+"foot.ml" 82 2235 2262 "foot.ml" 82 2235 2271
+type(
+  string
+)
+ident(
+  def sec_notes "foot.ml" 82 2235 2272 "foot.ml" 119 3381 3386
+)
+"foot.ml" 82 2235 2272 "foot.ml" 82 2235 2280
+type(
+  string
+)
+ident(
+  def sec_here "foot.ml" 83 2283 2285 "foot.ml" 119 3381 3386
+)
+"foot.ml" 83 2283 2288 "foot.ml" 83 2283 2289
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"foot.ml" 83 2283 2289 "foot.ml" 83 2283 2293
+type(
+  bool ref
+)
+ident(
+  int_ref some "foot.ml" 12 741 745 "foot.ml" 12 741 749
+)
+"foot.ml" 83 2283 2288 "foot.ml" 83 2283 2293
+type(
+  bool
+)
+"foot.ml" 83 2283 2294 "foot.ml" 83 2283 2296
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"foot.ml" 83 2283 2297 "foot.ml" 83 2283 2310
+type(
+  string -> int
+)
+ident(
+  ext_ref Section.value
+)
+"foot.ml" 83 2283 2311 "foot.ml" 83 2283 2319
+type(
+  string
+)
+ident(
+  int_ref sec_here "foot.ml" 82 2235 2272 "foot.ml" 82 2235 2280
+)
+"foot.ml" 83 2283 2297 "foot.ml" 83 2283 2319
+call(
+  stack
+)
+type(
+  int
+)
+"foot.ml" 83 2283 2320 "foot.ml" 83 2283 2322
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"foot.ml" 83 2283 2323 "foot.ml" 83 2283 2336
+type(
+  string -> int
+)
+ident(
+  ext_ref Section.value
+)
+"foot.ml" 83 2283 2337 "foot.ml" 83 2283 2346
+type(
+  string
+)
+ident(
+  int_ref sec_notes "foot.ml" 82 2235 2262 "foot.ml" 82 2235 2271
+)
+"foot.ml" 83 2283 2323 "foot.ml" 83 2283 2346
+call(
+  stack
+)
+type(
+  int
+)
+"foot.ml" 83 2283 2297 "foot.ml" 83 2283 2346
+type(
+  bool
+)
+"foot.ml" 83 2283 2288 "foot.ml" 83 2283 2346
+type(
+  bool
+)
+"foot.ml" 88 2441 2445 "foot.ml" 88 2441 2449
+type(
+  bool ref
+)
+ident(
+  int_ref some "foot.ml" 12 741 745 "foot.ml" 12 741 749
+)
+"foot.ml" 88 2441 2450 "foot.ml" 88 2441 2452
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"foot.ml" 88 2441 2453 "foot.ml" 88 2441 2458
+type(
+  bool
+)
+"foot.ml" 88 2441 2445 "foot.ml" 88 2441 2458
+type(
+  unit
+)
+"foot.ml" 89 2461 2469 "foot.ml" 89 2461 2472
+type(
+  int
+)
+ident(
+  def fst "foot.ml" 90 2500 2504 "foot.ml" 118 3370 3380
+)
+"foot.ml" 89 2461 2475 "foot.ml" 89 2461 2486
+type(
+  int MyStack.t -> int
+)
+ident(
+  ext_ref MyStack.top
+)
+"foot.ml" 89 2461 2487 "foot.ml" 89 2461 2496
+type(
+  int MyStack.t
+)
+ident(
+  int_ref fst_stack "foot.ml" 23 872 876 "foot.ml" 23 872 885
+)
+"foot.ml" 89 2461 2475 "foot.ml" 89 2461 2496
+call(
+  stack
+)
+type(
+  int
+)
+"foot.ml" 90 2500 2504 "foot.ml" 90 2500 2509
+type(
+  string -> 'a
+)
+ident(
+  int_ref lexer "foot.ml" 82 2235 2252 "foot.ml" 82 2235 2257
+)
+"foot.ml" 91 2510 2517 "foot.ml" 91 2510 2540
+type(
+  string
+)
+"foot.ml" 91 2510 2541 "foot.ml" 91 2510 2542
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"foot.ml" 92 2543 2554 "foot.ml" 92 2543 2560
+type(
+  bool
+)
+ident(
+  int_ref sticky "foot.ml" 82 2235 2245 "foot.ml" 82 2235 2251
+)
+"foot.ml" 92 2543 2566 "foot.ml" 92 2543 2576
+type(
+  string
+)
+"foot.ml" 92 2543 2582 "foot.ml" 92 2543 2584
+type(
+  string
+)
+"foot.ml" 92 2543 2550 "foot.ml" 92 2543 2585
+type(
+  string
+)
+"foot.ml" 92 2543 2586 "foot.ml" 92 2543 2587
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"foot.ml" 93 2588 2595 "foot.ml" 93 2588 2598
+type(
+  string
+)
+"foot.ml" 93 2588 2598 "foot.ml" 93 2588 2599
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"foot.ml" 93 2588 2599 "foot.ml" 93 2588 2607
+type(
+  string
+)
+ident(
+  int_ref sec_here "foot.ml" 82 2235 2272 "foot.ml" 82 2235 2280
+)
+"foot.ml" 93 2588 2607 "foot.ml" 93 2588 2608
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"foot.ml" 93 2588 2608 "foot.ml" 93 2588 2611
+type(
+  string
+)
+"foot.ml" 93 2588 2599 "foot.ml" 93 2588 2611
+call(
+  stack
+)
+type(
+  string
+)
+"foot.ml" 93 2588 2595 "foot.ml" 93 2588 2611
+call(
+  stack
+)
+type(
+  string
+)
+"foot.ml" 92 2543 2550 "foot.ml" 93 2588 2611
+call(
+  stack
+)
+type(
+  string
+)
+"foot.ml" 91 2510 2516 "foot.ml" 93 2588 2612
+call(
+  stack
+)
+type(
+  string
+)
+"foot.ml" 90 2500 2504 "foot.ml" 93 2588 2612
+call(
+  stack
+)
+type(
+  'a
+)
+"foot.ml" 94 2615 2623 "foot.ml" 94 2615 2626
+type(
+  ((int * int) * (string * string)) list ref
+)
+ident(
+  def all "foot.ml" 95 2639 2643 "foot.ml" 118 3370 3380
+)
+"foot.ml" 94 2615 2629 "foot.ml" 94 2615 2632
+type(
+  ((int * int) * (string * string)) list ->
+  ((int * int) * (string * string)) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"foot.ml" 94 2615 2633 "foot.ml" 94 2615 2635
+type(
+  ((int * int) * (string * string)) list
+)
+"foot.ml" 94 2615 2629 "foot.ml" 94 2615 2635
+type(
+  ((int * int) * (string * string)) list ref
+)
+"foot.ml" 95 2639 2643 "foot.ml" 95 2639 2655
+type(
+  (int -> int * string * string -> unit) ->
+  (int, int * string * string) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"foot.ml" 96 2656 2667 "foot.ml" 96 2656 2673
+type(
+  int
+)
+ident(
+  def anchor "foot.ml" 96 2656 2674 "foot.ml" 98 2726 2779
+)
+"foot.ml" 96 2656 2675 "foot.ml" 96 2656 2679
+type(
+  int
+)
+ident(
+  def mark "foot.ml" 97 2697 2705 "foot.ml" 98 2726 2779
+)
+"foot.ml" 96 2656 2680 "foot.ml" 96 2656 2687
+type(
+  string
+)
+ident(
+  def themark "foot.ml" 97 2697 2705 "foot.ml" 98 2726 2779
+)
+"foot.ml" 96 2656 2688 "foot.ml" 96 2656 2692
+type(
+  string
+)
+ident(
+  def text "foot.ml" 97 2697 2705 "foot.ml" 98 2726 2779
+)
+"foot.ml" 96 2656 2674 "foot.ml" 96 2656 2693
+type(
+  int * string * string
+)
+"foot.ml" 97 2697 2708 "foot.ml" 97 2697 2714
+type(
+  int
+)
+ident(
+  int_ref anchor "foot.ml" 96 2656 2667 "foot.ml" 96 2656 2673
+)
+"foot.ml" 97 2697 2715 "foot.ml" 97 2697 2716
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"foot.ml" 97 2697 2717 "foot.ml" 97 2697 2720
+type(
+  int
+)
+ident(
+  int_ref fst "foot.ml" 89 2461 2469 "foot.ml" 89 2461 2472
+)
+"foot.ml" 97 2697 2708 "foot.ml" 97 2697 2720
+type(
+  bool
+)
+"foot.ml" 98 2726 2734 "foot.ml" 98 2726 2737
+type(
+  ((int * int) * (string * string)) list ref
+)
+ident(
+  int_ref all "foot.ml" 94 2615 2623 "foot.ml" 94 2615 2626
+)
+"foot.ml" 98 2726 2738 "foot.ml" 98 2726 2740
+type(
+  ((int * int) * (string * string)) list ref ->
+  ((int * int) * (string * string)) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"foot.ml" 98 2726 2743 "foot.ml" 98 2726 2747
+type(
+  int
+)
+ident(
+  int_ref mark "foot.ml" 96 2656 2675 "foot.ml" 96 2656 2679
+)
+"foot.ml" 98 2726 2748 "foot.ml" 98 2726 2754
+type(
+  int
+)
+ident(
+  int_ref anchor "foot.ml" 96 2656 2667 "foot.ml" 96 2656 2673
+)
+"foot.ml" 98 2726 2742 "foot.ml" 98 2726 2755
+type(
+  int * int
+)
+"foot.ml" 98 2726 2757 "foot.ml" 98 2726 2764
+type(
+  string
+)
+ident(
+  int_ref themark "foot.ml" 96 2656 2680 "foot.ml" 96 2656 2687
+)
+"foot.ml" 98 2726 2765 "foot.ml" 98 2726 2769
+type(
+  string
+)
+ident(
+  int_ref text "foot.ml" 96 2656 2688 "foot.ml" 96 2656 2692
+)
+"foot.ml" 98 2726 2756 "foot.ml" 98 2726 2770
+type(
+  string * string
+)
+"foot.ml" 98 2726 2741 "foot.ml" 98 2726 2771
+type(
+  (int * int) * (string * string)
+)
+"foot.ml" 98 2726 2775 "foot.ml" 98 2726 2776
+type(
+  ((int * int) * (string * string)) list ref ->
+  ((int * int) * (string * string)) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"foot.ml" 98 2726 2776 "foot.ml" 98 2726 2779
+type(
+  ((int * int) * (string * string)) list ref
+)
+ident(
+  int_ref all "foot.ml" 94 2615 2623 "foot.ml" 94 2615 2626
+)
+"foot.ml" 98 2726 2775 "foot.ml" 98 2726 2779
+type(
+  ((int * int) * (string * string)) list
+)
+"foot.ml" 98 2726 2741 "foot.ml" 98 2726 2779
+type(
+  ((int * int) * (string * string)) list
+)
+"foot.ml" 98 2726 2734 "foot.ml" 98 2726 2779
+type(
+  unit
+)
+"foot.ml" 97 2697 2705 "foot.ml" 98 2726 2779
+type(
+  unit
+)
+"foot.ml" 96 2656 2662 "foot.ml" 98 2726 2780
+type(
+  int -> int * string * string -> unit
+)
+"foot.ml" 99 2781 2787 "foot.ml" 99 2781 2801
+type(
+  (int, int * string * string) Hashtbl.t
+)
+ident(
+  int_ref anchor_to_note "foot.ml" 20 829 833 "foot.ml" 20 829 847
+)
+"foot.ml" 95 2639 2643 "foot.ml" 99 2781 2801
+call(
+  stack
+)
+type(
+  unit
+)
+"foot.ml" 100 2804 2808 "foot.ml" 100 2804 2811
+type(
+  ((int * int) * (string * string)) list ref
+)
+ident(
+  int_ref all "foot.ml" 94 2615 2623 "foot.ml" 94 2615 2626
+)
+"foot.ml" 100 2804 2812 "foot.ml" 100 2804 2814
+type(
+  ((int * int) * (string * string)) list ref ->
+  ((int * int) * (string * string)) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"foot.ml" 100 2804 2815 "foot.ml" 100 2804 2824
+type(
+  ((int * int) * (string * string) -> (int * int) * (string * string) -> int) ->
+  ((int * int) * (string * string)) list ->
+  ((int * int) * (string * string)) list
+)
+ident(
+  ext_ref List.sort
+)
+"foot.ml" 101 2825 2841 "foot.ml" 101 2825 2843
+type(
+  int
+)
+ident(
+  def m1 "foot.ml" 101 2825 2862 "foot.ml" 103 2954 2970
+)
+"foot.ml" 101 2825 2850 "foot.ml" 101 2825 2852
+type(
+  int
+)
+ident(
+  def a1 "foot.ml" 101 2825 2862 "foot.ml" 103 2954 2970
+)
+"foot.ml" 101 2825 2839 "foot.ml" 101 2825 2858
+type(
+  int * int
+)
+"foot.ml" 101 2825 2859 "foot.ml" 101 2825 2860
+type(
+  string * string
+)
+"foot.ml" 101 2825 2838 "foot.ml" 101 2825 2861
+type(
+  (int * int) * (string * string)
+)
+"foot.ml" 101 2825 2864 "foot.ml" 101 2825 2866
+type(
+  int
+)
+ident(
+  def m2 "foot.ml" 101 2825 2877 "foot.ml" 103 2954 2970
+)
+"foot.ml" 101 2825 2867 "foot.ml" 101 2825 2869
+type(
+  int
+)
+ident(
+  def a2 "foot.ml" 101 2825 2877 "foot.ml" 103 2954 2970
+)
+"foot.ml" 101 2825 2863 "foot.ml" 101 2825 2870
+type(
+  int * int
+)
+"foot.ml" 101 2825 2871 "foot.ml" 101 2825 2872
+type(
+  string * string
+)
+"foot.ml" 101 2825 2862 "foot.ml" 101 2825 2873
+type(
+  (int * int) * (string * string)
+)
+"foot.ml" 101 2825 2883 "foot.ml" 101 2825 2901
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"foot.ml" 101 2825 2902 "foot.ml" 101 2825 2904
+type(
+  int
+)
+ident(
+  int_ref a1 "foot.ml" 101 2825 2850 "foot.ml" 101 2825 2852
+)
+"foot.ml" 101 2825 2905 "foot.ml" 101 2825 2907
+type(
+  int
+)
+ident(
+  int_ref a2 "foot.ml" 101 2825 2867 "foot.ml" 101 2825 2869
+)
+"foot.ml" 101 2825 2883 "foot.ml" 101 2825 2907
+type(
+  int
+)
+"foot.ml" 102 2913 2923 "foot.ml" 102 2913 2924
+type(
+  int
+)
+"foot.ml" 102 2913 2929 "foot.ml" 102 2913 2947
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"foot.ml" 102 2913 2948 "foot.ml" 102 2913 2950
+type(
+  int
+)
+ident(
+  int_ref m1 "foot.ml" 101 2825 2841 "foot.ml" 101 2825 2843
+)
+"foot.ml" 102 2913 2951 "foot.ml" 102 2913 2953
+type(
+  int
+)
+ident(
+  int_ref m2 "foot.ml" 101 2825 2864 "foot.ml" 101 2825 2866
+)
+"foot.ml" 102 2913 2929 "foot.ml" 102 2913 2953
+type(
+  int
+)
+"foot.ml" 103 2954 2964 "foot.ml" 103 2954 2965
+type(
+  int
+)
+ident(
+  def r "foot.ml" 103 2954 2969 "foot.ml" 103 2954 2970
+)
+"foot.ml" 103 2954 2969 "foot.ml" 103 2954 2970
+type(
+  int
+)
+ident(
+  int_ref r "foot.ml" 103 2954 2964 "foot.ml" 103 2954 2965
+)
+"foot.ml" 101 2825 2877 "foot.ml" 103 2954 2970
+type(
+  int
+)
+"foot.ml" 101 2825 2833 "foot.ml" 103 2954 2971
+type(
+  (int * int) * (string * string) -> (int * int) * (string * string) -> int
+)
+"foot.ml" 103 2954 2972 "foot.ml" 103 2954 2973
+type(
+  ((int * int) * (string * string)) list ref ->
+  ((int * int) * (string * string)) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"foot.ml" 103 2954 2973 "foot.ml" 103 2954 2976
+type(
+  ((int * int) * (string * string)) list ref
+)
+ident(
+  int_ref all "foot.ml" 94 2615 2623 "foot.ml" 94 2615 2626
+)
+"foot.ml" 103 2954 2972 "foot.ml" 103 2954 2976
+type(
+  ((int * int) * (string * string)) list
+)
+"foot.ml" 100 2804 2815 "foot.ml" 103 2954 2976
+call(
+  stack
+)
+type(
+  ((int * int) * (string * string)) list
+)
+"foot.ml" 100 2804 2808 "foot.ml" 103 2954 2976
+type(
+  unit
+)
+"foot.ml" 104 2979 2983 "foot.ml" 104 2979 2992
+type(
+  ((int * int) * (string * string) -> unit) ->
+  ((int * int) * (string * string)) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"foot.ml" 105 2993 3006 "foot.ml" 105 2993 3007
+type(
+  int
+)
+"foot.ml" 105 2993 3008 "foot.ml" 105 2993 3014
+type(
+  int
+)
+ident(
+  def anchor "foot.ml" 106 3035 3043 "foot.ml" 111 3184 3200
+)
+"foot.ml" 105 2993 3005 "foot.ml" 105 2993 3015
+type(
+  int * int
+)
+"foot.ml" 105 2993 3017 "foot.ml" 105 2993 3024
+type(
+  string
+)
+ident(
+  def themark "foot.ml" 106 3035 3043 "foot.ml" 111 3184 3200
+)
+"foot.ml" 105 2993 3025 "foot.ml" 105 2993 3029
+type(
+  string
+)
+ident(
+  def text "foot.ml" 106 3035 3043 "foot.ml" 111 3184 3200
+)
+"foot.ml" 105 2993 3016 "foot.ml" 105 2993 3030
+type(
+  string * string
+)
+"foot.ml" 105 2993 3004 "foot.ml" 105 2993 3031
+type(
+  (int * int) * (string * string)
+)
+"foot.ml" 106 3035 3043 "foot.ml" 106 3035 3048
+type(
+  string -> 'a
+)
+ident(
+  int_ref lexer "foot.ml" 82 2235 2252 "foot.ml" 82 2235 2257
+)
+"foot.ml" 107 3049 3060 "foot.ml" 107 3049 3069
+type(
+  string
+)
+"foot.ml" 107 3049 3069 "foot.ml" 107 3049 3070
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"foot.ml" 108 3071 3082 "foot.ml" 108 3071 3107
+type(
+  string
+)
+"foot.ml" 108 3071 3107 "foot.ml" 108 3071 3108
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"foot.ml" 109 3109 3120 "foot.ml" 109 3109 3133
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"foot.ml" 109 3109 3134 "foot.ml" 109 3109 3140
+type(
+  int
+)
+ident(
+  int_ref anchor "foot.ml" 105 2993 3008 "foot.ml" 105 2993 3014
+)
+"foot.ml" 109 3109 3120 "foot.ml" 109 3109 3140
+call(
+  stack
+)
+type(
+  string
+)
+"foot.ml" 109 3109 3140 "foot.ml" 109 3109 3141
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"foot.ml" 110 3142 3153 "foot.ml" 110 3142 3166
+type(
+  string
+)
+"foot.ml" 110 3142 3166 "foot.ml" 110 3142 3167
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"foot.ml" 110 3142 3167 "foot.ml" 110 3142 3174
+type(
+  string
+)
+ident(
+  int_ref themark "foot.ml" 105 2993 3017 "foot.ml" 105 2993 3024
+)
+"foot.ml" 110 3142 3174 "foot.ml" 110 3142 3175
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"foot.ml" 110 3142 3175 "foot.ml" 110 3142 3180
+type(
+  string
+)
+"foot.ml" 110 3142 3167 "foot.ml" 110 3142 3180
+call(
+  stack
+)
+type(
+  string
+)
+"foot.ml" 110 3142 3153 "foot.ml" 110 3142 3180
+call(
+  stack
+)
+type(
+  string
+)
+"foot.ml" 109 3109 3120 "foot.ml" 110 3142 3180
+call(
+  stack
+)
+type(
+  string
+)
+"foot.ml" 108 3071 3082 "foot.ml" 110 3142 3180
+call(
+  stack
+)
+type(
+  string
+)
+"foot.ml" 107 3049 3059 "foot.ml" 110 3142 3181
+call(
+  stack
+)
+type(
+  string
+)
+"foot.ml" 106 3035 3043 "foot.ml" 110 3142 3181
+call(
+  stack
+)
+type(
+  'a
+)
+"foot.ml" 111 3184 3192 "foot.ml" 111 3184 3195
+type(
+  string -> unit
+)
+ident(
+  int_ref out "foot.ml" 82 2235 2258 "foot.ml" 82 2235 2261
+)
+"foot.ml" 111 3184 3196 "foot.ml" 111 3184 3200
+type(
+  string
+)
+ident(
+  int_ref text "foot.ml" 105 2993 3025 "foot.ml" 105 2993 3029
+)
+"foot.ml" 111 3184 3192 "foot.ml" 111 3184 3200
+call(
+  tail
+)
+type(
+  unit
+)
+"foot.ml" 106 3035 3043 "foot.ml" 111 3184 3200
+type(
+  unit
+)
+"foot.ml" 105 2993 2999 "foot.ml" 111 3184 3201
+type(
+  (int * int) * (string * string) -> unit
+)
+"foot.ml" 112 3202 3208 "foot.ml" 112 3202 3209
+type(
+  ((int * int) * (string * string)) list ref ->
+  ((int * int) * (string * string)) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"foot.ml" 112 3202 3209 "foot.ml" 112 3202 3212
+type(
+  ((int * int) * (string * string)) list ref
+)
+ident(
+  int_ref all "foot.ml" 94 2615 2623 "foot.ml" 94 2615 2626
+)
+"foot.ml" 112 3202 3208 "foot.ml" 112 3202 3212
+type(
+  ((int * int) * (string * string)) list
+)
+"foot.ml" 104 2979 2983 "foot.ml" 112 3202 3212
+call(
+  stack
+)
+type(
+  unit
+)
+"foot.ml" 113 3215 3219 "foot.ml" 113 3215 3224
+type(
+  string -> 'a
+)
+ident(
+  int_ref lexer "foot.ml" 82 2235 2252 "foot.ml" 82 2235 2257
+)
+"foot.ml" 113 3215 3225 "foot.ml" 113 3215 3246
+type(
+  string
+)
+"foot.ml" 113 3215 3219 "foot.ml" 113 3215 3246
+call(
+  stack
+)
+type(
+  'a
+)
+"foot.ml" 114 3249 3253 "foot.ml" 114 3249 3262
+type(
+  ((int * int) * (string * string) -> unit) ->
+  ((int * int) * (string * string)) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"foot.ml" 115 3263 3276 "foot.ml" 115 3263 3277
+type(
+  int
+)
+ident(
+  def m "foot.ml" 116 3287 3295 "foot.ml" 117 3329 3368
+)
+"foot.ml" 115 3263 3278 "foot.ml" 115 3263 3279
+type(
+  int
+)
+ident(
+  def a "foot.ml" 116 3287 3295 "foot.ml" 117 3329 3368
+)
+"foot.ml" 115 3263 3275 "foot.ml" 115 3263 3280
+type(
+  int * int
+)
+"foot.ml" 115 3263 3281 "foot.ml" 115 3263 3282
+type(
+  string * string
+)
+"foot.ml" 115 3263 3274 "foot.ml" 115 3263 3283
+type(
+  (int * int) * (string * string)
+)
+"foot.ml" 116 3287 3295 "foot.ml" 116 3287 3309
+type(
+  (int, int) Hashtbl.t -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"foot.ml" 116 3287 3310 "foot.ml" 116 3287 3324
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref mark_to_anchor "foot.ml" 19 790 794 "foot.ml" 19 790 808
+)
+"foot.ml" 116 3287 3325 "foot.ml" 116 3287 3326
+type(
+  int
+)
+ident(
+  int_ref m "foot.ml" 115 3263 3276 "foot.ml" 115 3263 3277
+)
+"foot.ml" 116 3287 3295 "foot.ml" 116 3287 3326
+call(
+  stack
+)
+type(
+  unit
+)
+"foot.ml" 117 3329 3337 "foot.ml" 117 3329 3351
+type(
+  (int, int * string * string) Hashtbl.t -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"foot.ml" 117 3329 3352 "foot.ml" 117 3329 3366
+type(
+  (int, int * string * string) Hashtbl.t
+)
+ident(
+  int_ref anchor_to_note "foot.ml" 20 829 833 "foot.ml" 20 829 847
+)
+"foot.ml" 117 3329 3367 "foot.ml" 117 3329 3368
+type(
+  int
+)
+ident(
+  int_ref a "foot.ml" 115 3263 3278 "foot.ml" 115 3263 3279
+)
+"foot.ml" 117 3329 3337 "foot.ml" 117 3329 3368
+call(
+  tail
+)
+type(
+  unit
+)
+"foot.ml" 116 3287 3295 "foot.ml" 117 3329 3368
+type(
+  unit
+)
+"foot.ml" 115 3263 3269 "foot.ml" 117 3329 3369
+type(
+  (int * int) * (string * string) -> unit
+)
+"foot.ml" 118 3370 3376 "foot.ml" 118 3370 3377
+type(
+  ((int * int) * (string * string)) list ref ->
+  ((int * int) * (string * string)) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"foot.ml" 118 3370 3377 "foot.ml" 118 3370 3380
+type(
+  ((int * int) * (string * string)) list ref
+)
+ident(
+  int_ref all "foot.ml" 94 2615 2623 "foot.ml" 94 2615 2626
+)
+"foot.ml" 118 3370 3376 "foot.ml" 118 3370 3380
+type(
+  ((int * int) * (string * string)) list
+)
+"foot.ml" 114 3249 3253 "foot.ml" 118 3370 3380
+call(
+  tail
+)
+type(
+  unit
+)
+"foot.ml" 113 3215 3219 "foot.ml" 118 3370 3380
+type(
+  unit
+)
+"foot.ml" 104 2979 2983 "foot.ml" 118 3370 3380
+type(
+  unit
+)
+"foot.ml" 100 2804 2808 "foot.ml" 118 3370 3380
+type(
+  unit
+)
+"foot.ml" 95 2639 2643 "foot.ml" 118 3370 3380
+type(
+  unit
+)
+"foot.ml" 94 2615 2619 "foot.ml" 118 3370 3380
+type(
+  unit
+)
+"foot.ml" 90 2500 2504 "foot.ml" 118 3370 3380
+type(
+  unit
+)
+"foot.ml" 89 2461 2465 "foot.ml" 118 3370 3380
+type(
+  unit
+)
+"foot.ml" 83 2283 2352 "foot.ml" 119 3381 3386
+type(
+  unit
+)
+"foot.ml" 83 2283 2285 "foot.ml" 119 3381 3386
+type(
+  unit
+)
+"foot.ml" 122 3391 3395 "foot.ml" 122 3391 3404
+type(
+  unit -> unit
+)
+ident(
+  def end_notes "foot.ml" 124 3445 3477 "foot.ml" 1 0 -1
+)
+"foot.ml" 122 3391 3405 "foot.ml" 122 3391 3407
+type(
+  unit
+)
+"foot.ml" 123 3410 3412 "foot.ml" 123 3410 3416
+type(
+  bool ref
+)
+ident(
+  int_ref some "foot.ml" 12 741 745 "foot.ml" 12 741 749
+)
+"foot.ml" 123 3410 3417 "foot.ml" 123 3410 3419
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"foot.ml" 123 3410 3420 "foot.ml" 123 3410 3431
+type(
+  bool MyStack.t -> bool
+)
+ident(
+  ext_ref MyStack.pop
+)
+"foot.ml" 123 3410 3432 "foot.ml" 123 3410 3442
+type(
+  bool MyStack.t
+)
+ident(
+  int_ref some_stack "foot.ml" 24 922 926 "foot.ml" 24 922 936
+)
+"foot.ml" 123 3410 3420 "foot.ml" 123 3410 3442
+call(
+  stack
+)
+type(
+  bool
+)
+"foot.ml" 123 3410 3412 "foot.ml" 123 3410 3442
+type(
+  unit
+)
+"foot.ml" 124 3445 3447 "foot.ml" 124 3445 3453
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"foot.ml" 124 3445 3455 "foot.ml" 124 3445 3466
+type(
+  int MyStack.t -> int
+)
+ident(
+  ext_ref MyStack.pop
+)
+"foot.ml" 124 3445 3467 "foot.ml" 124 3445 3476
+type(
+  int MyStack.t
+)
+ident(
+  int_ref fst_stack "foot.ml" 23 872 876 "foot.ml" 23 872 885
+)
+"foot.ml" 124 3445 3454 "foot.ml" 124 3445 3477
+call(
+  stack
+)
+type(
+  int
+)
+"foot.ml" 124 3445 3447 "foot.ml" 124 3445 3477
+type(
+  unit
+)
+"foot.ml" 123 3410 3412 "foot.ml" 124 3445 3477
+type(
+  unit
+)

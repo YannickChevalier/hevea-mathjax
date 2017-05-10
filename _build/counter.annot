@@ -1,0 +1,2785 @@
+"counter.ml" 21 909 913 "counter.ml" 21 909 919
+type(
+  t_checked
+)
+ident(
+  def cbidon "counter.ml" 23 968 968 "counter.ml" 1 0 -1
+)
+"counter.ml" 21 909 931 "counter.ml" 21 909 933
+type(
+  string
+)
+"counter.ml" 21 909 945 "counter.ml" 21 909 949
+type(
+  int
+)
+"counter.ml" 21 909 963 "counter.ml" 21 909 965
+type(
+  int list
+)
+"counter.ml" 21 909 922 "counter.ml" 21 909 966
+type(
+  t_checked
+)
+"counter.ml" 23 968 972 "counter.ml" 23 968 978
+type(
+  (string, t_counter) Hashtbl.t
+)
+ident(
+  def ctable "counter.ml" 25 1035 1035 "counter.ml" 1 0 -1
+)
+"counter.ml" 23 968 982 "counter.ml" 23 968 996
+type(
+  ?random:bool -> int -> (string, t_counter) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"counter.ml" 23 968 997 "counter.ml" 23 968 999
+type(
+  int
+)
+"counter.ml" 23 968 982 "counter.ml" 23 968 999
+call(
+  stack
+)
+type(
+  (string, t_counter) Hashtbl.t
+)
+type(
+  (string, t_counter) Hashtbl.t
+)
+"counter.ml" 28 1067 1071 "counter.ml" 28 1067 1079
+type(
+  t_checked array -> t_checked -> unit
+)
+ident(
+  def prerr_cc "counter.ml" 39 1361 1361 "counter.ml" 1 0 -1
+)
+"counter.ml" 28 1067 1080 "counter.ml" 28 1067 1092
+type(
+  t_checked array
+)
+ident(
+  def check_ctable "counter.ml" 28 1067 1093 "counter.ml" 37 1341 1359
+)
+"counter.ml" 28 1067 1093 "counter.ml" 28 1067 1095
+type(
+  t_checked
+)
+ident(
+  def cc "counter.ml" 29 1098 1100 "counter.ml" 37 1341 1359
+)
+"counter.ml" 29 1098 1100 "counter.ml" 29 1098 1113
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"counter.ml" 29 1098 1115 "counter.ml" 29 1098 1126
+type(
+  string
+)
+"counter.ml" 29 1098 1126 "counter.ml" 29 1098 1127
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"counter.ml" 29 1098 1127 "counter.ml" 29 1098 1129
+type(
+  t_checked
+)
+ident(
+  int_ref cc "counter.ml" 28 1067 1093 "counter.ml" 28 1067 1095
+)
+"counter.ml" 29 1098 1127 "counter.ml" 29 1098 1135
+type(
+  string
+)
+"counter.ml" 29 1098 1114 "counter.ml" 29 1098 1136
+call(
+  stack
+)
+type(
+  string
+)
+"counter.ml" 29 1098 1100 "counter.ml" 29 1098 1136
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 30 1139 1141 "counter.ml" 30 1139 1154
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"counter.ml" 30 1139 1156 "counter.ml" 30 1139 1168
+type(
+  string
+)
+"counter.ml" 30 1139 1168 "counter.ml" 30 1139 1169
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"counter.ml" 30 1139 1169 "counter.ml" 30 1139 1182
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"counter.ml" 30 1139 1183 "counter.ml" 30 1139 1185
+type(
+  t_checked
+)
+ident(
+  int_ref cc "counter.ml" 28 1067 1093 "counter.ml" 28 1067 1095
+)
+"counter.ml" 30 1139 1183 "counter.ml" 30 1139 1192
+type(
+  int
+)
+"counter.ml" 30 1139 1169 "counter.ml" 30 1139 1192
+call(
+  stack
+)
+type(
+  string
+)
+"counter.ml" 30 1139 1155 "counter.ml" 30 1139 1193
+call(
+  stack
+)
+type(
+  string
+)
+"counter.ml" 30 1139 1141 "counter.ml" 30 1139 1193
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 31 1196 1198 "counter.ml" 31 1196 1210
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_string
+)
+"counter.ml" 31 1196 1211 "counter.ml" 31 1196 1224
+type(
+  string
+)
+"counter.ml" 31 1196 1198 "counter.ml" 31 1196 1224
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 32 1227 1229 "counter.ml" 32 1227 1238
+type(
+  (int -> unit) -> int list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"counter.ml" 33 1239 1248 "counter.ml" 33 1239 1249
+type(
+  int
+)
+ident(
+  def j "counter.ml" 34 1253 1259 "counter.ml" 35 1278 1321
+)
+"counter.ml" 34 1253 1259 "counter.ml" 34 1253 1271
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_string
+)
+"counter.ml" 34 1253 1272 "counter.ml" 34 1253 1275
+type(
+  string
+)
+"counter.ml" 34 1253 1259 "counter.ml" 34 1253 1275
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 35 1278 1284 "counter.ml" 35 1278 1296
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_string
+)
+"counter.ml" 35 1278 1297 "counter.ml" 35 1278 1311
+type(
+  t_checked array
+)
+ident(
+  int_ref check_ctable "counter.ml" 28 1067 1080 "counter.ml" 28 1067 1092
+)
+"counter.ml" 35 1278 1313 "counter.ml" 35 1278 1314
+type(
+  int
+)
+ident(
+  int_ref j "counter.ml" 33 1239 1248 "counter.ml" 33 1239 1249
+)
+"counter.ml" 35 1278 1297 "counter.ml" 35 1278 1315
+type(
+  t_checked
+)
+"counter.ml" 35 1278 1297 "counter.ml" 35 1278 1321
+type(
+  string
+)
+"counter.ml" 35 1278 1284 "counter.ml" 35 1278 1321
+call(
+  tail
+)
+type(
+  unit
+)
+"counter.ml" 34 1253 1259 "counter.ml" 35 1278 1321
+type(
+  unit
+)
+"counter.ml" 33 1239 1243 "counter.ml" 35 1278 1322
+type(
+  int -> unit
+)
+"counter.ml" 36 1323 1327 "counter.ml" 36 1323 1329
+type(
+  t_checked
+)
+ident(
+  int_ref cc "counter.ml" 28 1067 1093 "counter.ml" 28 1067 1095
+)
+"counter.ml" 36 1323 1327 "counter.ml" 36 1323 1338
+type(
+  int list
+)
+"counter.ml" 32 1227 1229 "counter.ml" 36 1323 1338
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 37 1341 1343 "counter.ml" 37 1341 1356
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"counter.ml" 37 1341 1357 "counter.ml" 37 1341 1359
+type(
+  string
+)
+"counter.ml" 37 1341 1343 "counter.ml" 37 1341 1359
+call(
+  tail
+)
+type(
+  unit
+)
+"counter.ml" 32 1227 1229 "counter.ml" 37 1341 1359
+type(
+  unit
+)
+"counter.ml" 31 1196 1198 "counter.ml" 37 1341 1359
+type(
+  unit
+)
+"counter.ml" 30 1139 1141 "counter.ml" 37 1341 1359
+type(
+  unit
+)
+"counter.ml" 29 1098 1100 "counter.ml" 37 1341 1359
+type(
+  unit
+)
+"counter.ml" 39 1361 1365 "counter.ml" 39 1361 1375
+type(
+  unit -> t_checked array
+)
+ident(
+  def checkpoint "counter.ml" 94 2669 2669 "counter.ml" 1 0 -1
+)
+"counter.ml" 39 1361 1376 "counter.ml" 39 1361 1378
+type(
+  unit
+)
+"counter.ml" 42 1429 1437 "counter.ml" 42 1429 1442
+type(
+  'a -> 'a -> bool
+)
+ident(
+  def equal "counter.ml" 43 1451 1455 "counter.ml" 44 1479 1484
+)
+"counter.ml" 42 1429 1445 "counter.ml" 42 1429 1449
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"counter.ml" 43 1451 1459 "counter.ml" 43 1451 1463
+type(
+  'b -> int
+)
+ident(
+  def hash "counter.ml" 43 1451 1478 "counter.ml" 44 1479 1484
+)
+"counter.ml" 43 1451 1466 "counter.ml" 43 1451 1478
+type(
+  'b -> int
+)
+ident(
+  ext_ref Hashtbl.hash
+)
+"counter.ml" 45 1488 1511 "counter.ml" 45 1488 1527
+call(
+  stack
+)
+"counter.ml" 46 1531 1537 "counter.ml" 46 1531 1546
+type(
+  (string * int) RevHash.t
+)
+ident(
+  def rev_table "counter.ml" 48 1590 1592 "counter.ml" 69 2088 2091
+)
+"counter.ml" 46 1531 1549 "counter.ml" 46 1531 1563
+type(
+  int -> (string * int) RevHash.t
+)
+ident(
+  ext_ref RevHash.create
+)
+"counter.ml" 46 1531 1564 "counter.ml" 46 1531 1566
+type(
+  int
+)
+"counter.ml" 46 1531 1549 "counter.ml" 46 1531 1566
+call(
+  stack
+)
+type(
+  (string * int) RevHash.t
+)
+"counter.ml" 47 1567 1573 "counter.ml" 47 1567 1578
+type(
+  int ref
+)
+ident(
+  def count "counter.ml" 48 1590 1592 "counter.ml" 69 2088 2091
+)
+"counter.ml" 47 1567 1581 "counter.ml" 47 1567 1584
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"counter.ml" 47 1567 1585 "counter.ml" 47 1567 1586
+type(
+  int
+)
+"counter.ml" 47 1567 1581 "counter.ml" 47 1567 1586
+type(
+  int ref
+)
+"counter.ml" 48 1590 1592 "counter.ml" 48 1590 1604
+type(
+  (string -> t_counter -> unit) -> (string, t_counter) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"counter.ml" 49 1605 1614 "counter.ml" 49 1605 1617
+type(
+  string
+)
+ident(
+  def key "counter.ml" 49 1605 1618 "counter.ml" 51 1677 1693
+)
+"counter.ml" 49 1605 1618 "counter.ml" 49 1605 1623
+type(
+  t_counter
+)
+ident(
+  def value "counter.ml" 50 1627 1633 "counter.ml" 51 1677 1693
+)
+"counter.ml" 50 1627 1633 "counter.ml" 50 1627 1644
+type(
+  (string * int) RevHash.t -> t_counter -> string * int -> unit
+)
+ident(
+  ext_ref RevHash.add
+)
+"counter.ml" 50 1627 1645 "counter.ml" 50 1627 1654
+type(
+  (string * int) RevHash.t
+)
+ident(
+  int_ref rev_table "counter.ml" 46 1531 1537 "counter.ml" 46 1531 1546
+)
+"counter.ml" 50 1627 1655 "counter.ml" 50 1627 1660
+type(
+  t_counter
+)
+ident(
+  int_ref value "counter.ml" 49 1605 1618 "counter.ml" 49 1605 1623
+)
+"counter.ml" 50 1627 1662 "counter.ml" 50 1627 1665
+type(
+  string
+)
+ident(
+  int_ref key "counter.ml" 49 1605 1614 "counter.ml" 49 1605 1617
+)
+"counter.ml" 50 1627 1667 "counter.ml" 50 1627 1668
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"counter.ml" 50 1627 1668 "counter.ml" 50 1627 1673
+type(
+  int ref
+)
+ident(
+  int_ref count "counter.ml" 47 1567 1573 "counter.ml" 47 1567 1578
+)
+"counter.ml" 50 1627 1667 "counter.ml" 50 1627 1673
+type(
+  int
+)
+"counter.ml" 50 1627 1661 "counter.ml" 50 1627 1674
+type(
+  string * int
+)
+"counter.ml" 50 1627 1633 "counter.ml" 50 1627 1674
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 51 1677 1683 "counter.ml" 51 1677 1687
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"counter.ml" 51 1677 1688 "counter.ml" 51 1677 1693
+type(
+  int ref
+)
+ident(
+  int_ref count "counter.ml" 47 1567 1573 "counter.ml" 47 1567 1578
+)
+"counter.ml" 51 1677 1683 "counter.ml" 51 1677 1693
+type(
+  unit
+)
+"counter.ml" 50 1627 1633 "counter.ml" 51 1677 1693
+type(
+  unit
+)
+"counter.ml" 49 1605 1609 "counter.ml" 51 1677 1694
+type(
+  string -> t_counter -> unit
+)
+"counter.ml" 52 1695 1699 "counter.ml" 52 1695 1705
+type(
+  (string, t_counter) Hashtbl.t
+)
+ident(
+  int_ref ctable "counter.ml" 23 968 972 "counter.ml" 23 968 978
+)
+"counter.ml" 48 1590 1592 "counter.ml" 52 1695 1705
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 53 1708 1714 "counter.ml" 53 1708 1720
+type(
+  RevHash.key -> int
+)
+ident(
+  def to_int "counter.ml" 60 1849 1851 "counter.ml" 69 2088 2091
+)
+"counter.ml" 53 1708 1721 "counter.ml" 53 1708 1722
+type(
+  RevHash.key
+)
+ident(
+  def c "counter.ml" 54 1725 1729 "counter.ml" 58 1794 1844
+)
+"counter.ml" 55 1733 1743 "counter.ml" 55 1733 1744
+type(
+  string
+)
+"counter.ml" 55 1733 1745 "counter.ml" 55 1733 1746
+type(
+  int
+)
+ident(
+  def j "counter.ml" 56 1777 1783 "counter.ml" 56 1777 1784
+)
+"counter.ml" 55 1733 1743 "counter.ml" 55 1733 1746
+type(
+  string * int
+)
+"counter.ml" 55 1733 1749 "counter.ml" 55 1733 1761
+type(
+  (string * int) RevHash.t -> RevHash.key -> string * int
+)
+ident(
+  ext_ref RevHash.find
+)
+"counter.ml" 55 1733 1762 "counter.ml" 55 1733 1771
+type(
+  (string * int) RevHash.t
+)
+ident(
+  int_ref rev_table "counter.ml" 46 1531 1537 "counter.ml" 46 1531 1546
+)
+"counter.ml" 55 1733 1772 "counter.ml" 55 1733 1773
+type(
+  RevHash.key
+)
+ident(
+  int_ref c "counter.ml" 53 1708 1721 "counter.ml" 53 1708 1722
+)
+"counter.ml" 55 1733 1749 "counter.ml" 55 1733 1773
+call(
+  stack
+)
+type(
+  string * int
+)
+"counter.ml" 56 1777 1783 "counter.ml" 56 1777 1784
+type(
+  int
+)
+ident(
+  int_ref j "counter.ml" 55 1733 1745 "counter.ml" 55 1733 1746
+)
+"counter.ml" 55 1733 1739 "counter.ml" 56 1777 1784
+type(
+  int
+)
+"counter.ml" 58 1794 1800 "counter.ml" 58 1794 1809
+type(
+  exn
+)
+"counter.ml" 58 1794 1813 "counter.ml" 58 1794 1823
+type(
+  string -> int
+)
+ident(
+  ext_ref Misc.fatal
+)
+"counter.ml" 58 1794 1824 "counter.ml" 58 1794 1844
+type(
+  string
+)
+"counter.ml" 58 1794 1813 "counter.ml" 58 1794 1844
+call(
+  tail
+)
+type(
+  int
+)
+"counter.ml" 54 1725 1729 "counter.ml" 58 1794 1844
+type(
+  int
+)
+"counter.ml" 60 1849 1855 "counter.ml" 60 1849 1856
+type(
+  t_checked array
+)
+ident(
+  def t "counter.ml" 62 1888 1890 "counter.ml" 69 2088 2091
+)
+"counter.ml" 60 1849 1859 "counter.ml" 60 1849 1869
+type(
+  int -> t_checked -> t_checked array
+)
+ident(
+  ext_ref Array.make
+)
+"counter.ml" 60 1849 1870 "counter.ml" 60 1849 1871
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"counter.ml" 60 1849 1871 "counter.ml" 60 1849 1876
+type(
+  int ref
+)
+ident(
+  int_ref count "counter.ml" 47 1567 1573 "counter.ml" 47 1567 1578
+)
+"counter.ml" 60 1849 1870 "counter.ml" 60 1849 1876
+type(
+  int
+)
+"counter.ml" 60 1849 1877 "counter.ml" 60 1849 1883
+type(
+  t_checked
+)
+ident(
+  int_ref cbidon "counter.ml" 21 909 913 "counter.ml" 21 909 919
+)
+"counter.ml" 60 1849 1859 "counter.ml" 60 1849 1883
+type(
+  t_checked array
+)
+"counter.ml" 62 1888 1890 "counter.ml" 62 1888 1902
+type(
+  (RevHash.key -> string * int -> unit) -> (string * int) RevHash.t -> unit
+)
+ident(
+  ext_ref RevHash.iter
+)
+"counter.ml" 63 1903 1921 "counter.ml" 63 1903 1926
+type(
+  int
+)
+ident(
+  def value "counter.ml" 63 1903 1948 "counter.ml" 67 2027 2070
+)
+"counter.ml" 63 1903 1939 "counter.ml" 63 1903 1946
+type(
+  t_counter list
+)
+ident(
+  def related "counter.ml" 63 1903 1948 "counter.ml" 67 2027 2070
+)
+"counter.ml" 63 1903 1912 "counter.ml" 63 1903 1947
+type(
+  RevHash.key
+)
+"counter.ml" 63 1903 1949 "counter.ml" 63 1903 1953
+type(
+  string
+)
+ident(
+  def name "counter.ml" 64 1961 1967 "counter.ml" 67 2027 2070
+)
+"counter.ml" 63 1903 1955 "counter.ml" 63 1903 1956
+type(
+  int
+)
+ident(
+  def i "counter.ml" 64 1961 1967 "counter.ml" 67 2027 2070
+)
+"counter.ml" 63 1903 1948 "counter.ml" 63 1903 1957
+type(
+  string * int
+)
+"counter.ml" 64 1961 1967 "counter.ml" 64 1961 1968
+type(
+  t_checked array
+)
+ident(
+  int_ref t "counter.ml" 60 1849 1855 "counter.ml" 60 1849 1856
+)
+"counter.ml" 64 1961 1970 "counter.ml" 64 1961 1971
+type(
+  int
+)
+ident(
+  int_ref i "counter.ml" 63 1903 1955 "counter.ml" 63 1903 1956
+)
+"counter.ml" 65 1976 1994 "counter.ml" 65 1976 1998
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 63 1903 1949 "counter.ml" 63 1903 1953
+)
+"counter.ml" 66 2001 2019 "counter.ml" 66 2001 2024
+type(
+  int
+)
+ident(
+  int_ref value "counter.ml" 63 1903 1921 "counter.ml" 63 1903 1926
+)
+"counter.ml" 67 2027 2046 "counter.ml" 67 2027 2054
+type(
+  (RevHash.key -> int) -> RevHash.key list -> int list
+)
+ident(
+  ext_ref List.map
+)
+"counter.ml" 67 2027 2055 "counter.ml" 67 2027 2061
+type(
+  RevHash.key -> int
+)
+ident(
+  int_ref to_int "counter.ml" 53 1708 1714 "counter.ml" 53 1708 1720
+)
+"counter.ml" 67 2027 2062 "counter.ml" 67 2027 2069
+type(
+  RevHash.key list
+)
+ident(
+  int_ref related "counter.ml" 63 1903 1939 "counter.ml" 63 1903 1946
+)
+"counter.ml" 67 2027 2046 "counter.ml" 67 2027 2069
+call(
+  stack
+)
+type(
+  int list
+)
+"counter.ml" 65 1976 1985 "counter.ml" 67 2027 2070
+type(
+  t_checked
+)
+"counter.ml" 64 1961 1967 "counter.ml" 67 2027 2070
+type(
+  unit
+)
+"counter.ml" 63 1903 1907 "counter.ml" 67 2027 2071
+type(
+  RevHash.key -> string * int -> unit
+)
+"counter.ml" 68 2072 2076 "counter.ml" 68 2072 2085
+type(
+  (string * int) RevHash.t
+)
+ident(
+  int_ref rev_table "counter.ml" 46 1531 1537 "counter.ml" 46 1531 1546
+)
+"counter.ml" 62 1888 1890 "counter.ml" 68 2072 2085
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 69 2088 2090 "counter.ml" 69 2088 2091
+type(
+  t_checked array
+)
+ident(
+  int_ref t "counter.ml" 60 1849 1855 "counter.ml" 60 1849 1856
+)
+"counter.ml" 62 1888 1890 "counter.ml" 69 2088 2091
+type(
+  t_checked array
+)
+"counter.ml" 60 1849 1851 "counter.ml" 69 2088 2091
+type(
+  t_checked array
+)
+"counter.ml" 53 1708 1710 "counter.ml" 69 2088 2091
+type(
+  t_checked array
+)
+"counter.ml" 48 1590 1592 "counter.ml" 69 2088 2091
+type(
+  t_checked array
+)
+"counter.ml" 46 1531 1533 "counter.ml" 69 2088 2091
+type(
+  t_checked array
+)
+"counter.ml" 45 1488 1490 "counter.ml" 69 2088 2091
+type(
+  t_checked array
+)
+"counter.ml" 40 1381 1383 "counter.ml" 69 2088 2091
+type(
+  t_checked array
+)
+"counter.ml" 71 2093 2097 "counter.ml" 71 2093 2106
+type(
+  t_checked array -> unit
+)
+ident(
+  def hot_start "counter.ml" 94 2669 2669 "counter.ml" 1 0 -1
+)
+"counter.ml" 71 2093 2107 "counter.ml" 71 2093 2119
+type(
+  t_checked array
+)
+ident(
+  def check_ctable "counter.ml" 73 2125 2127 "counter.ml" 91 2658 2664
+)
+"counter.ml" 73 2125 2127 "counter.ml" 73 2125 2140
+type(
+  (string, t_counter) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.clear
+)
+"counter.ml" 73 2125 2141 "counter.ml" 73 2125 2147
+type(
+  (string, t_counter) Hashtbl.t
+)
+ident(
+  int_ref ctable "counter.ml" 23 968 972 "counter.ml" 23 968 978
+)
+"counter.ml" 73 2125 2127 "counter.ml" 73 2125 2147
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 74 2150 2160 "counter.ml" 74 2150 2170
+type(
+  int -> t_counter
+)
+ident(
+  def create_rec "counter.ml" 74 2150 2152 "counter.ml" 91 2658 2664
+)
+"counter.ml" 74 2150 2171 "counter.ml" 74 2150 2172
+type(
+  int
+)
+ident(
+  def i "counter.ml" 75 2175 2179 "counter.ml" 88 2566 2575
+)
+"counter.ml" 75 2175 2183 "counter.ml" 75 2175 2185
+type(
+  t_checked
+)
+ident(
+  def cc "counter.ml" 76 2210 2214 "counter.ml" 88 2566 2575
+)
+"counter.ml" 75 2175 2188 "counter.ml" 75 2175 2202
+type(
+  t_checked array
+)
+ident(
+  int_ref check_ctable "counter.ml" 71 2093 2107 "counter.ml" 71 2093 2119
+)
+"counter.ml" 75 2175 2204 "counter.ml" 75 2175 2205
+type(
+  int
+)
+ident(
+  int_ref i "counter.ml" 74 2150 2171 "counter.ml" 74 2150 2172
+)
+"counter.ml" 75 2175 2188 "counter.ml" 75 2175 2206
+type(
+  t_checked
+)
+"counter.ml" 77 2218 2224 "counter.ml" 77 2218 2236
+type(
+  (string, t_counter) Hashtbl.t -> string -> t_counter
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"counter.ml" 77 2218 2237 "counter.ml" 77 2218 2243
+type(
+  (string, t_counter) Hashtbl.t
+)
+ident(
+  int_ref ctable "counter.ml" 23 968 972 "counter.ml" 23 968 978
+)
+"counter.ml" 77 2218 2244 "counter.ml" 77 2218 2246
+type(
+  t_checked
+)
+ident(
+  int_ref cc "counter.ml" 75 2175 2183 "counter.ml" 75 2175 2185
+)
+"counter.ml" 77 2218 2244 "counter.ml" 77 2218 2252
+type(
+  string
+)
+"counter.ml" 77 2218 2224 "counter.ml" 77 2218 2252
+call(
+  stack
+)
+type(
+  t_counter
+)
+"counter.ml" 79 2262 2268 "counter.ml" 79 2262 2277
+type(
+  exn
+)
+"counter.ml" 80 2281 2293 "counter.ml" 80 2281 2294
+type(
+  t_counter
+)
+ident(
+  def c "counter.ml" 82 2345 2353 "counter.ml" 88 2566 2575
+)
+"counter.ml" 81 2297 2316 "counter.ml" 81 2297 2318
+type(
+  t_checked
+)
+ident(
+  int_ref cc "counter.ml" 75 2175 2183 "counter.ml" 75 2175 2185
+)
+"counter.ml" 81 2297 2316 "counter.ml" 81 2297 2325
+type(
+  int
+)
+"counter.ml" 81 2297 2338 "counter.ml" 81 2297 2340
+type(
+  t_counter list
+)
+"counter.ml" 81 2297 2307 "counter.ml" 81 2297 2341
+type(
+  t_counter
+)
+"counter.ml" 82 2345 2353 "counter.ml" 82 2345 2364
+type(
+  (string, t_counter) Hashtbl.t -> string -> t_counter -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"counter.ml" 82 2345 2365 "counter.ml" 82 2345 2371
+type(
+  (string, t_counter) Hashtbl.t
+)
+ident(
+  int_ref ctable "counter.ml" 23 968 972 "counter.ml" 23 968 978
+)
+"counter.ml" 82 2345 2372 "counter.ml" 82 2345 2374
+type(
+  t_checked
+)
+ident(
+  int_ref cc "counter.ml" 75 2175 2183 "counter.ml" 75 2175 2185
+)
+"counter.ml" 82 2345 2372 "counter.ml" 82 2345 2380
+type(
+  string
+)
+"counter.ml" 82 2345 2381 "counter.ml" 82 2345 2382
+type(
+  t_counter
+)
+ident(
+  int_ref c "counter.ml" 80 2281 2293 "counter.ml" 80 2281 2294
+)
+"counter.ml" 82 2345 2353 "counter.ml" 82 2345 2382
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 83 2384 2392 "counter.ml" 83 2384 2393
+type(
+  t_counter
+)
+ident(
+  int_ref c "counter.ml" 80 2281 2293 "counter.ml" 80 2281 2294
+)
+"counter.ml" 83 2384 2405 "counter.ml" 83 2384 2413
+type(
+  (int -> t_counter) -> int list -> t_counter list
+)
+ident(
+  ext_ref List.map
+)
+"counter.ml" 83 2384 2414 "counter.ml" 83 2384 2424
+type(
+  int -> t_counter
+)
+ident(
+  int_ref create_rec "counter.ml" 74 2150 2160 "counter.ml" 74 2150 2170
+)
+"counter.ml" 83 2384 2425 "counter.ml" 83 2384 2427
+type(
+  t_checked
+)
+ident(
+  int_ref cc "counter.ml" 75 2175 2183 "counter.ml" 75 2175 2185
+)
+"counter.ml" 83 2384 2425 "counter.ml" 83 2384 2436
+type(
+  int list
+)
+"counter.ml" 83 2384 2405 "counter.ml" 83 2384 2436
+call(
+  stack
+)
+type(
+  t_counter list
+)
+"counter.ml" 83 2384 2392 "counter.ml" 83 2384 2436
+type(
+  unit
+)
+"counter.ml" 84 2439 2450 "counter.ml" 84 2439 2451
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"counter.ml" 84 2439 2451 "counter.ml" 84 2439 2463
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"counter.ml" 84 2439 2450 "counter.ml" 84 2439 2463
+type(
+  int
+)
+"counter.ml" 84 2439 2464 "counter.ml" 84 2439 2465
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"counter.ml" 84 2439 2466 "counter.ml" 84 2439 2467
+type(
+  int
+)
+"counter.ml" 84 2439 2450 "counter.ml" 84 2439 2467
+type(
+  bool
+)
+"counter.ml" 85 2480 2490 "counter.ml" 85 2480 2502
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_string
+)
+"counter.ml" 85 2480 2503 "counter.ml" 85 2480 2514
+type(
+  string
+)
+"counter.ml" 85 2480 2490 "counter.ml" 85 2480 2514
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 86 2517 2527 "counter.ml" 86 2517 2535
+type(
+  t_checked array -> t_checked -> unit
+)
+ident(
+  int_ref prerr_cc "counter.ml" 28 1067 1071 "counter.ml" 28 1067 1079
+)
+"counter.ml" 86 2517 2536 "counter.ml" 86 2517 2548
+type(
+  t_checked array
+)
+ident(
+  int_ref check_ctable "counter.ml" 71 2093 2107 "counter.ml" 71 2093 2119
+)
+"counter.ml" 86 2517 2549 "counter.ml" 86 2517 2551
+type(
+  t_checked
+)
+ident(
+  int_ref cc "counter.ml" 75 2175 2183 "counter.ml" 75 2175 2185
+)
+"counter.ml" 86 2517 2527 "counter.ml" 86 2517 2551
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 84 2439 2473 "counter.ml" 87 2552 2563
+type(
+  unit
+)
+"counter.ml" 84 2439 2447 "counter.ml" 87 2552 2563
+type(
+  unit
+)
+"counter.ml" 88 2566 2574 "counter.ml" 88 2566 2575
+type(
+  t_counter
+)
+ident(
+  int_ref c "counter.ml" 80 2281 2293 "counter.ml" 80 2281 2294
+)
+"counter.ml" 84 2439 2447 "counter.ml" 88 2566 2575
+type(
+  t_counter
+)
+"counter.ml" 83 2384 2392 "counter.ml" 88 2566 2575
+type(
+  t_counter
+)
+"counter.ml" 82 2345 2353 "counter.ml" 88 2566 2575
+type(
+  t_counter
+)
+"counter.ml" 80 2281 2289 "counter.ml" 88 2566 2575
+type(
+  t_counter
+)
+"counter.ml" 76 2210 2214 "counter.ml" 88 2566 2575
+type(
+  t_counter
+)
+"counter.ml" 75 2175 2179 "counter.ml" 88 2566 2575
+type(
+  t_counter
+)
+"counter.ml" 89 2579 2589 "counter.ml" 89 2579 2590
+type(
+  int
+)
+"counter.ml" 89 2579 2594 "counter.ml" 89 2579 2606
+type(
+  t_checked array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"counter.ml" 89 2579 2607 "counter.ml" 89 2579 2619
+type(
+  t_checked array
+)
+ident(
+  int_ref check_ctable "counter.ml" 71 2093 2107 "counter.ml" 71 2093 2119
+)
+"counter.ml" 89 2579 2594 "counter.ml" 89 2579 2619
+type(
+  int
+)
+"counter.ml" 89 2579 2620 "counter.ml" 89 2579 2621
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"counter.ml" 89 2579 2622 "counter.ml" 89 2579 2623
+type(
+  int
+)
+"counter.ml" 89 2579 2594 "counter.ml" 89 2579 2623
+type(
+  int
+)
+"counter.ml" 90 2627 2635 "counter.ml" 90 2627 2636
+type(
+  t_counter
+)
+"counter.ml" 90 2627 2639 "counter.ml" 90 2627 2649
+type(
+  int -> t_counter
+)
+ident(
+  int_ref create_rec "counter.ml" 74 2150 2160 "counter.ml" 74 2150 2170
+)
+"counter.ml" 90 2627 2650 "counter.ml" 90 2627 2651
+type(
+  int
+)
+ident(
+  int_ref i "counter.ml" 89 2579 2581 "counter.ml" 91 2658 2664
+)
+"counter.ml" 90 2627 2639 "counter.ml" 90 2627 2651
+call(
+  stack
+)
+type(
+  t_counter
+)
+"counter.ml" 90 2627 2655 "counter.ml" 90 2627 2657
+type(
+  unit
+)
+"counter.ml" 90 2627 2631 "counter.ml" 90 2627 2657
+type(
+  unit
+)
+"counter.ml" 89 2579 2581 "counter.ml" 91 2658 2664
+type(
+  unit
+)
+"counter.ml" 74 2150 2152 "counter.ml" 91 2658 2664
+type(
+  unit
+)
+"counter.ml" 73 2125 2127 "counter.ml" 91 2658 2664
+type(
+  unit
+)
+"counter.ml" 94 2669 2673 "counter.ml" 94 2669 2679
+type(
+  string -> string -> unit
+)
+ident(
+  def unkown "counter.ml" 97 2749 2749 "counter.ml" 1 0 -1
+)
+"counter.ml" 94 2669 2680 "counter.ml" 94 2669 2684
+type(
+  string
+)
+ident(
+  def name "counter.ml" 94 2669 2685 "counter.ml" 95 2693 2747
+)
+"counter.ml" 94 2669 2685 "counter.ml" 94 2669 2690
+type(
+  string
+)
+ident(
+  def where "counter.ml" 95 2693 2695 "counter.ml" 95 2693 2747
+)
+"counter.ml" 95 2693 2695 "counter.ml" 95 2693 2707
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.warning
+)
+"counter.ml" 95 2693 2709 "counter.ml" 95 2693 2728
+type(
+  string
+)
+"counter.ml" 95 2693 2728 "counter.ml" 95 2693 2729
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"counter.ml" 95 2693 2729 "counter.ml" 95 2693 2733
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 94 2669 2680 "counter.ml" 94 2669 2684
+)
+"counter.ml" 95 2693 2733 "counter.ml" 95 2693 2734
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"counter.ml" 95 2693 2734 "counter.ml" 95 2693 2740
+type(
+  string
+)
+"counter.ml" 95 2693 2740 "counter.ml" 95 2693 2741
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"counter.ml" 95 2693 2741 "counter.ml" 95 2693 2746
+type(
+  string
+)
+ident(
+  int_ref where "counter.ml" 94 2669 2685 "counter.ml" 94 2669 2690
+)
+"counter.ml" 95 2693 2734 "counter.ml" 95 2693 2746
+call(
+  stack
+)
+type(
+  string
+)
+"counter.ml" 95 2693 2729 "counter.ml" 95 2693 2746
+call(
+  stack
+)
+type(
+  string
+)
+"counter.ml" 95 2693 2708 "counter.ml" 95 2693 2747
+call(
+  stack
+)
+type(
+  string
+)
+"counter.ml" 95 2693 2695 "counter.ml" 95 2693 2747
+call(
+  tail
+)
+type(
+  unit
+)
+"counter.ml" 97 2749 2753 "counter.ml" 97 2749 2765
+type(
+  string -> t_counter
+)
+ident(
+  def find_counter "counter.ml" 100 2800 2800 "counter.ml" 1 0 -1
+)
+"counter.ml" 97 2749 2766 "counter.ml" 97 2749 2770
+type(
+  string
+)
+ident(
+  def name "counter.ml" 97 2749 2773 "counter.ml" 97 2749 2797
+)
+"counter.ml" 97 2749 2773 "counter.ml" 97 2749 2785
+type(
+  (string, t_counter) Hashtbl.t -> string -> t_counter
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"counter.ml" 97 2749 2786 "counter.ml" 97 2749 2792
+type(
+  (string, t_counter) Hashtbl.t
+)
+ident(
+  int_ref ctable "counter.ml" 23 968 972 "counter.ml" 23 968 978
+)
+"counter.ml" 97 2749 2793 "counter.ml" 97 2749 2797
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 97 2749 2766 "counter.ml" 97 2749 2770
+)
+"counter.ml" 97 2749 2773 "counter.ml" 97 2749 2797
+call(
+  tail
+)
+type(
+  t_counter
+)
+"counter.ml" 100 2800 2804 "counter.ml" 100 2800 2817
+type(
+  string -> int
+)
+ident(
+  def value_counter "counter.ml" 109 2944 2944 "counter.ml" 1 0 -1
+)
+"counter.ml" 100 2800 2818 "counter.ml" 100 2800 2822
+type(
+  string
+)
+ident(
+  def name "counter.ml" 101 2825 2827 "counter.ml" 106 2934 2939
+)
+"counter.ml" 102 2831 2846 "counter.ml" 102 2831 2847
+type(
+  int
+)
+ident(
+  def c "counter.ml" 103 2872 2876 "counter.ml" 103 2872 2877
+)
+"counter.ml" 102 2831 2839 "counter.ml" 102 2831 2848
+type(
+  t_counter
+)
+"counter.ml" 102 2831 2851 "counter.ml" 102 2831 2863
+type(
+  string -> t_counter
+)
+ident(
+  int_ref find_counter "counter.ml" 97 2749 2753 "counter.ml" 97 2749 2765
+)
+"counter.ml" 102 2831 2864 "counter.ml" 102 2831 2868
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 100 2800 2818 "counter.ml" 100 2800 2822
+)
+"counter.ml" 102 2831 2851 "counter.ml" 102 2831 2868
+call(
+  stack
+)
+type(
+  t_counter
+)
+"counter.ml" 103 2872 2876 "counter.ml" 103 2872 2877
+type(
+  int
+)
+ident(
+  int_ref c "counter.ml" 102 2831 2846 "counter.ml" 102 2831 2847
+)
+"counter.ml" 102 2831 2835 "counter.ml" 103 2872 2877
+type(
+  int
+)
+"counter.ml" 104 2878 2885 "counter.ml" 104 2878 2894
+type(
+  exn
+)
+"counter.ml" 105 2904 2908 "counter.ml" 105 2904 2914
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref unkown "counter.ml" 94 2669 2673 "counter.ml" 94 2669 2679
+)
+"counter.ml" 105 2904 2915 "counter.ml" 105 2904 2919
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 100 2800 2818 "counter.ml" 100 2800 2822
+)
+"counter.ml" 105 2904 2920 "counter.ml" 105 2904 2929
+type(
+  string
+)
+"counter.ml" 105 2904 2908 "counter.ml" 105 2904 2929
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 105 2904 2932 "counter.ml" 105 2904 2933
+type(
+  int
+)
+"counter.ml" 104 2878 2898 "counter.ml" 106 2934 2939
+type(
+  int
+)
+"counter.ml" 101 2825 2827 "counter.ml" 106 2934 2939
+type(
+  int
+)
+"counter.ml" 109 2944 2948 "counter.ml" 109 2944 2959
+type(
+  string -> string -> unit
+)
+ident(
+  def def_counter "counter.ml" 128 3541 3541 "counter.ml" 1 0 -1
+)
+"counter.ml" 109 2944 2960 "counter.ml" 109 2944 2964
+type(
+  string
+)
+ident(
+  def name "counter.ml" 109 2944 2965 "counter.ml" 126 3534 3539
+)
+"counter.ml" 109 2944 2965 "counter.ml" 109 2944 2971
+type(
+  string
+)
+ident(
+  def within "counter.ml" 110 2974 2976 "counter.ml" 126 3534 3539
+)
+"counter.ml" 111 2980 2988 "counter.ml" 111 2980 2989
+type(
+  t_counter
+)
+"counter.ml" 111 2980 2992 "counter.ml" 111 2980 3004
+type(
+  (string, t_counter) Hashtbl.t -> string -> t_counter
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"counter.ml" 111 2980 3005 "counter.ml" 111 2980 3011
+type(
+  (string, t_counter) Hashtbl.t
+)
+ident(
+  int_ref ctable "counter.ml" 23 968 972 "counter.ml" 23 968 978
+)
+"counter.ml" 111 2980 3012 "counter.ml" 111 2980 3016
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 109 2944 2960 "counter.ml" 109 2944 2964
+)
+"counter.ml" 111 2980 2992 "counter.ml" 111 2980 3016
+call(
+  stack
+)
+type(
+  t_counter
+)
+"counter.ml" 112 3020 3024 "counter.ml" 112 3020 3036
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.warning
+)
+"counter.ml" 112 3020 3038 "counter.ml" 112 3020 3048
+type(
+  string
+)
+"counter.ml" 112 3020 3048 "counter.ml" 112 3020 3049
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"counter.ml" 112 3020 3049 "counter.ml" 112 3020 3053
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 109 2944 2960 "counter.ml" 109 2944 2964
+)
+"counter.ml" 112 3020 3053 "counter.ml" 112 3020 3054
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"counter.ml" 112 3020 3054 "counter.ml" 112 3020 3092
+type(
+  string
+)
+"counter.ml" 112 3020 3049 "counter.ml" 112 3020 3092
+call(
+  stack
+)
+type(
+  string
+)
+"counter.ml" 112 3020 3037 "counter.ml" 112 3020 3093
+call(
+  stack
+)
+type(
+  string
+)
+"counter.ml" 112 3020 3024 "counter.ml" 112 3020 3093
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 113 3096 3100 "counter.ml" 113 3096 3105
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"counter.ml" 113 3096 3106 "counter.ml" 113 3096 3124
+type(
+  exn
+)
+"counter.ml" 113 3096 3100 "counter.ml" 113 3096 3124
+type(
+  unit
+)
+"counter.ml" 112 3020 3024 "counter.ml" 113 3096 3124
+type(
+  unit
+)
+"counter.ml" 111 2980 2984 "counter.ml" 113 3096 3124
+type(
+  unit
+)
+"counter.ml" 115 3132 3136 "counter.ml" 115 3132 3145
+type(
+  exn
+)
+"counter.ml" 116 3155 3165 "counter.ml" 116 3155 3173
+type(
+  t_counter option
+)
+ident(
+  def within_c "counter.ml" 121 3370 3376 "counter.ml" 125 3518 3533
+)
+"counter.ml" 117 3176 3194 "counter.ml" 117 3176 3200
+type(
+  string
+)
+ident(
+  int_ref within "counter.ml" 109 2944 2965 "counter.ml" 109 2944 2971
+)
+"counter.ml" 117 3176 3206 "counter.ml" 117 3176 3208
+type(
+  string
+)
+"counter.ml" 117 3176 3212 "counter.ml" 117 3176 3216
+type(
+  t_counter option
+)
+"counter.ml" 117 3176 3219 "counter.ml" 117 3176 3220
+type(
+  string
+)
+"counter.ml" 117 3176 3230 "counter.ml" 117 3176 3242
+type(
+  string -> t_counter
+)
+ident(
+  int_ref find_counter "counter.ml" 97 2749 2753 "counter.ml" 97 2749 2765
+)
+"counter.ml" 117 3176 3243 "counter.ml" 117 3176 3249
+type(
+  string
+)
+ident(
+  int_ref within "counter.ml" 109 2944 2965 "counter.ml" 109 2944 2971
+)
+"counter.ml" 117 3176 3229 "counter.ml" 117 3176 3250
+call(
+  stack
+)
+type(
+  t_counter
+)
+"counter.ml" 117 3176 3224 "counter.ml" 117 3176 3250
+type(
+  t_counter option
+)
+"counter.ml" 117 3176 3188 "counter.ml" 117 3176 3250
+type(
+  t_counter option
+)
+"counter.ml" 118 3251 3264 "counter.ml" 118 3251 3273
+type(
+  exn
+)
+"counter.ml" 119 3283 3293 "counter.ml" 119 3283 3299
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref unkown "counter.ml" 94 2669 2673 "counter.ml" 94 2669 2679
+)
+"counter.ml" 119 3283 3300 "counter.ml" 119 3283 3306
+type(
+  string
+)
+ident(
+  int_ref within "counter.ml" 109 2944 2965 "counter.ml" 109 2944 2971
+)
+"counter.ml" 119 3283 3308 "counter.ml" 119 3283 3323
+type(
+  string
+)
+"counter.ml" 119 3283 3323 "counter.ml" 119 3283 3324
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"counter.ml" 119 3283 3324 "counter.ml" 119 3283 3328
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 109 2944 2960 "counter.ml" 109 2944 2964
+)
+"counter.ml" 119 3283 3328 "counter.ml" 119 3283 3329
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"counter.ml" 119 3283 3329 "counter.ml" 119 3283 3333
+type(
+  string
+)
+"counter.ml" 119 3283 3333 "counter.ml" 119 3283 3334
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"counter.ml" 119 3283 3334 "counter.ml" 119 3283 3340
+type(
+  string
+)
+ident(
+  int_ref within "counter.ml" 109 2944 2965 "counter.ml" 109 2944 2971
+)
+"counter.ml" 119 3283 3340 "counter.ml" 119 3283 3341
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"counter.ml" 119 3283 3341 "counter.ml" 119 3283 3344
+type(
+  string
+)
+"counter.ml" 119 3283 3334 "counter.ml" 119 3283 3344
+call(
+  stack
+)
+type(
+  string
+)
+"counter.ml" 119 3283 3329 "counter.ml" 119 3283 3344
+call(
+  stack
+)
+type(
+  string
+)
+"counter.ml" 119 3283 3324 "counter.ml" 119 3283 3344
+call(
+  stack
+)
+type(
+  string
+)
+"counter.ml" 119 3283 3307 "counter.ml" 119 3283 3345
+call(
+  stack
+)
+type(
+  string
+)
+"counter.ml" 119 3283 3293 "counter.ml" 119 3283 3345
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 120 3348 3358 "counter.ml" 120 3348 3362
+type(
+  t_counter option
+)
+"counter.ml" 118 3251 3277 "counter.ml" 120 3348 3366
+type(
+  t_counter option
+)
+"counter.ml" 117 3176 3184 "counter.ml" 120 3348 3366
+type(
+  t_counter option
+)
+"counter.ml" 121 3370 3380 "counter.ml" 121 3370 3381
+type(
+  t_counter
+)
+ident(
+  def c "counter.ml" 122 3412 3418 "counter.ml" 125 3518 3533
+)
+"counter.ml" 121 3370 3391 "counter.ml" 121 3370 3392
+type(
+  int
+)
+"counter.ml" 121 3370 3405 "counter.ml" 121 3370 3407
+type(
+  t_counter list
+)
+"counter.ml" 121 3370 3384 "counter.ml" 121 3370 3408
+type(
+  t_counter
+)
+"counter.ml" 122 3412 3418 "counter.ml" 122 3412 3429
+type(
+  (string, t_counter) Hashtbl.t -> string -> t_counter -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"counter.ml" 122 3412 3430 "counter.ml" 122 3412 3436
+type(
+  (string, t_counter) Hashtbl.t
+)
+ident(
+  int_ref ctable "counter.ml" 23 968 972 "counter.ml" 23 968 978
+)
+"counter.ml" 122 3412 3437 "counter.ml" 122 3412 3441
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 109 2944 2960 "counter.ml" 109 2944 2964
+)
+"counter.ml" 122 3412 3442 "counter.ml" 122 3412 3443
+type(
+  t_counter
+)
+ident(
+  int_ref c "counter.ml" 121 3370 3380 "counter.ml" 121 3370 3381
+)
+"counter.ml" 122 3412 3418 "counter.ml" 122 3412 3443
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 123 3446 3458 "counter.ml" 123 3446 3466
+type(
+  t_counter option
+)
+ident(
+  int_ref within_c "counter.ml" 116 3155 3165 "counter.ml" 116 3155 3173
+)
+"counter.ml" 124 3472 3485 "counter.ml" 124 3472 3486
+type(
+  t_counter
+)
+ident(
+  def d "counter.ml" 124 3472 3490 "counter.ml" 124 3472 3517
+)
+"counter.ml" 124 3472 3480 "counter.ml" 124 3472 3486
+type(
+  t_counter option
+)
+"counter.ml" 124 3472 3490 "counter.ml" 124 3472 3491
+type(
+  t_counter
+)
+ident(
+  int_ref d "counter.ml" 124 3472 3485 "counter.ml" 124 3472 3486
+)
+"counter.ml" 124 3472 3503 "counter.ml" 124 3472 3504
+type(
+  t_counter
+)
+ident(
+  int_ref c "counter.ml" 121 3370 3380 "counter.ml" 121 3370 3381
+)
+"counter.ml" 124 3472 3508 "counter.ml" 124 3472 3509
+type(
+  t_counter
+)
+ident(
+  int_ref d "counter.ml" 124 3472 3485 "counter.ml" 124 3472 3486
+)
+"counter.ml" 124 3472 3508 "counter.ml" 124 3472 3517
+type(
+  t_counter list
+)
+"counter.ml" 124 3472 3503 "counter.ml" 124 3472 3517
+type(
+  t_counter list
+)
+"counter.ml" 124 3472 3490 "counter.ml" 124 3472 3517
+type(
+  unit
+)
+"counter.ml" 125 3518 3526 "counter.ml" 125 3518 3527
+type(
+  t_counter option
+)
+"counter.ml" 125 3518 3531 "counter.ml" 125 3518 3533
+type(
+  unit
+)
+"counter.ml" 123 3446 3452 "counter.ml" 125 3518 3533
+type(
+  unit
+)
+"counter.ml" 122 3412 3418 "counter.ml" 125 3518 3533
+type(
+  unit
+)
+"counter.ml" 121 3370 3376 "counter.ml" 125 3518 3533
+type(
+  unit
+)
+"counter.ml" 115 3132 3149 "counter.ml" 126 3534 3539
+type(
+  unit
+)
+"counter.ml" 110 2974 2976 "counter.ml" 126 3534 3539
+type(
+  unit
+)
+"counter.ml" 128 3541 3545 "counter.ml" 128 3541 3556
+type(
+  string -> int -> unit
+)
+ident(
+  def add_counter "counter.ml" 134 3684 3684 "counter.ml" 1 0 -1
+)
+"counter.ml" 128 3541 3557 "counter.ml" 128 3541 3561
+type(
+  string
+)
+ident(
+  def name "counter.ml" 128 3541 3562 "counter.ml" 132 3630 3678
+)
+"counter.ml" 128 3541 3562 "counter.ml" 128 3541 3563
+type(
+  int
+)
+ident(
+  def i "counter.ml" 129 3566 3568 "counter.ml" 132 3630 3678
+)
+"counter.ml" 130 3572 3579 "counter.ml" 130 3572 3580
+type(
+  t_counter
+)
+ident(
+  def c "counter.ml" 131 3604 3607 "counter.ml" 131 3604 3629
+)
+"counter.ml" 130 3572 3583 "counter.ml" 130 3572 3595
+type(
+  string -> t_counter
+)
+ident(
+  int_ref find_counter "counter.ml" 97 2749 2753 "counter.ml" 97 2749 2765
+)
+"counter.ml" 130 3572 3596 "counter.ml" 130 3572 3600
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 128 3541 3557 "counter.ml" 128 3541 3561
+)
+"counter.ml" 130 3572 3583 "counter.ml" 130 3572 3600
+call(
+  stack
+)
+type(
+  t_counter
+)
+"counter.ml" 131 3604 3607 "counter.ml" 131 3604 3608
+type(
+  t_counter
+)
+ident(
+  int_ref c "counter.ml" 130 3572 3579 "counter.ml" 130 3572 3580
+)
+"counter.ml" 131 3604 3618 "counter.ml" 131 3604 3619
+type(
+  t_counter
+)
+ident(
+  int_ref c "counter.ml" 130 3572 3579 "counter.ml" 130 3572 3580
+)
+"counter.ml" 131 3604 3618 "counter.ml" 131 3604 3625
+type(
+  int
+)
+"counter.ml" 131 3604 3626 "counter.ml" 131 3604 3627
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"counter.ml" 131 3604 3628 "counter.ml" 131 3604 3629
+type(
+  int
+)
+ident(
+  int_ref i "counter.ml" 128 3541 3562 "counter.ml" 128 3541 3563
+)
+"counter.ml" 131 3604 3618 "counter.ml" 131 3604 3629
+type(
+  int
+)
+"counter.ml" 131 3604 3607 "counter.ml" 131 3604 3629
+type(
+  unit
+)
+"counter.ml" 130 3572 3575 "counter.ml" 131 3604 3629
+type(
+  unit
+)
+"counter.ml" 132 3630 3637 "counter.ml" 132 3630 3646
+type(
+  exn
+)
+"counter.ml" 132 3630 3650 "counter.ml" 132 3630 3656
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref unkown "counter.ml" 94 2669 2673 "counter.ml" 94 2669 2679
+)
+"counter.ml" 132 3630 3657 "counter.ml" 132 3630 3661
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 128 3541 3557 "counter.ml" 128 3541 3561
+)
+"counter.ml" 132 3630 3662 "counter.ml" 132 3630 3678
+type(
+  string
+)
+"counter.ml" 132 3630 3650 "counter.ml" 132 3630 3678
+call(
+  tail
+)
+type(
+  unit
+)
+"counter.ml" 129 3566 3568 "counter.ml" 132 3630 3678
+type(
+  unit
+)
+"counter.ml" 134 3684 3688 "counter.ml" 134 3684 3699
+type(
+  string -> int -> unit
+)
+ident(
+  def set_counter "counter.ml" 141 3816 3816 "counter.ml" 1 0 -1
+)
+"counter.ml" 134 3684 3700 "counter.ml" 134 3684 3704
+type(
+  string
+)
+ident(
+  def name "counter.ml" 134 3684 3705 "counter.ml" 138 3765 3811
+)
+"counter.ml" 134 3684 3705 "counter.ml" 134 3684 3706
+type(
+  int
+)
+ident(
+  def x "counter.ml" 135 3709 3711 "counter.ml" 138 3765 3811
+)
+"counter.ml" 136 3715 3723 "counter.ml" 136 3715 3724
+type(
+  t_counter
+)
+ident(
+  def c "counter.ml" 137 3748 3752 "counter.ml" 137 3748 3764
+)
+"counter.ml" 136 3715 3727 "counter.ml" 136 3715 3739
+type(
+  string -> t_counter
+)
+ident(
+  int_ref find_counter "counter.ml" 97 2749 2753 "counter.ml" 97 2749 2765
+)
+"counter.ml" 136 3715 3740 "counter.ml" 136 3715 3744
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 134 3684 3700 "counter.ml" 134 3684 3704
+)
+"counter.ml" 136 3715 3727 "counter.ml" 136 3715 3744
+call(
+  stack
+)
+type(
+  t_counter
+)
+"counter.ml" 137 3748 3752 "counter.ml" 137 3748 3753
+type(
+  t_counter
+)
+ident(
+  int_ref c "counter.ml" 136 3715 3723 "counter.ml" 136 3715 3724
+)
+"counter.ml" 137 3748 3763 "counter.ml" 137 3748 3764
+type(
+  int
+)
+ident(
+  int_ref x "counter.ml" 134 3684 3705 "counter.ml" 134 3684 3706
+)
+"counter.ml" 137 3748 3752 "counter.ml" 137 3748 3764
+type(
+  unit
+)
+"counter.ml" 136 3715 3719 "counter.ml" 137 3748 3764
+type(
+  unit
+)
+"counter.ml" 138 3765 3772 "counter.ml" 138 3765 3781
+type(
+  exn
+)
+"counter.ml" 138 3765 3785 "counter.ml" 138 3765 3791
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref unkown "counter.ml" 94 2669 2673 "counter.ml" 94 2669 2679
+)
+"counter.ml" 138 3765 3792 "counter.ml" 138 3765 3796
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 134 3684 3700 "counter.ml" 134 3684 3704
+)
+"counter.ml" 138 3765 3797 "counter.ml" 138 3765 3811
+type(
+  string
+)
+"counter.ml" 138 3765 3785 "counter.ml" 138 3765 3811
+call(
+  tail
+)
+type(
+  unit
+)
+"counter.ml" 135 3709 3711 "counter.ml" 138 3765 3811
+type(
+  unit
+)
+"counter.ml" 141 3816 3820 "counter.ml" 141 3816 3832
+type(
+  string -> unit
+)
+ident(
+  def step_counter "counter.ml" 150 4007 4007 "counter.ml" 1 0 -1
+)
+"counter.ml" 141 3816 3833 "counter.ml" 141 3816 3837
+type(
+  string
+)
+ident(
+  def name "counter.ml" 142 3840 3842 "counter.ml" 147 3969 4002
+)
+"counter.ml" 143 3846 3852 "counter.ml" 143 3846 3853
+type(
+  t_counter
+)
+ident(
+  def c "counter.ml" 144 3877 3879 "counter.ml" 145 3903 3948
+)
+"counter.ml" 143 3846 3856 "counter.ml" 143 3846 3868
+type(
+  string -> t_counter
+)
+ident(
+  int_ref find_counter "counter.ml" 97 2749 2753 "counter.ml" 97 2749 2765
+)
+"counter.ml" 143 3846 3869 "counter.ml" 143 3846 3873
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 141 3816 3833 "counter.ml" 141 3816 3837
+)
+"counter.ml" 143 3846 3856 "counter.ml" 143 3846 3873
+call(
+  stack
+)
+type(
+  t_counter
+)
+"counter.ml" 144 3877 3879 "counter.ml" 144 3877 3880
+type(
+  t_counter
+)
+ident(
+  int_ref c "counter.ml" 143 3846 3852 "counter.ml" 143 3846 3853
+)
+"counter.ml" 144 3877 3890 "counter.ml" 144 3877 3891
+type(
+  t_counter
+)
+ident(
+  int_ref c "counter.ml" 143 3846 3852 "counter.ml" 143 3846 3853
+)
+"counter.ml" 144 3877 3890 "counter.ml" 144 3877 3897
+type(
+  int
+)
+"counter.ml" 144 3877 3898 "counter.ml" 144 3877 3899
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"counter.ml" 144 3877 3900 "counter.ml" 144 3877 3901
+type(
+  int
+)
+"counter.ml" 144 3877 3890 "counter.ml" 144 3877 3901
+type(
+  int
+)
+"counter.ml" 144 3877 3879 "counter.ml" 144 3877 3901
+type(
+  unit
+)
+"counter.ml" 145 3903 3905 "counter.ml" 145 3903 3914
+type(
+  (t_counter -> unit) -> t_counter list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"counter.ml" 145 3903 3920 "counter.ml" 145 3903 3921
+type(
+  t_counter
+)
+ident(
+  def c "counter.ml" 145 3903 3925 "counter.ml" 145 3903 3937
+)
+"counter.ml" 145 3903 3925 "counter.ml" 145 3903 3926
+type(
+  t_counter
+)
+ident(
+  int_ref c "counter.ml" 145 3903 3920 "counter.ml" 145 3903 3921
+)
+"counter.ml" 145 3903 3936 "counter.ml" 145 3903 3937
+type(
+  int
+)
+"counter.ml" 145 3903 3925 "counter.ml" 145 3903 3937
+type(
+  unit
+)
+"counter.ml" 145 3903 3915 "counter.ml" 145 3903 3938
+type(
+  t_counter -> unit
+)
+"counter.ml" 145 3903 3939 "counter.ml" 145 3903 3940
+type(
+  t_counter
+)
+ident(
+  int_ref c "counter.ml" 143 3846 3852 "counter.ml" 143 3846 3853
+)
+"counter.ml" 145 3903 3939 "counter.ml" 145 3903 3948
+type(
+  t_counter list
+)
+"counter.ml" 145 3903 3905 "counter.ml" 145 3903 3948
+call(
+  stack
+)
+type(
+  unit
+)
+"counter.ml" 144 3877 3879 "counter.ml" 145 3903 3948
+type(
+  unit
+)
+"counter.ml" 143 3846 3848 "counter.ml" 145 3903 3948
+type(
+  unit
+)
+"counter.ml" 146 3949 3956 "counter.ml" 146 3949 3965
+type(
+  exn
+)
+"counter.ml" 147 3969 3973 "counter.ml" 147 3969 3979
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref unkown "counter.ml" 94 2669 2673 "counter.ml" 94 2669 2679
+)
+"counter.ml" 147 3969 3980 "counter.ml" 147 3969 3984
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 141 3816 3833 "counter.ml" 141 3816 3837
+)
+"counter.ml" 147 3969 3985 "counter.ml" 147 3969 4002
+type(
+  string
+)
+"counter.ml" 147 3969 3973 "counter.ml" 147 3969 4002
+call(
+  tail
+)
+type(
+  unit
+)
+"counter.ml" 142 3840 3842 "counter.ml" 147 3969 4002
+type(
+  unit
+)
+"counter.ml" 150 4007 4011 "counter.ml" 150 4007 4021
+type(
+  string -> string -> unit
+)
+ident(
+  def addtoreset "counter.ml" 167 4439 4491 "counter.ml" 1 0 -1
+)
+"counter.ml" 150 4007 4022 "counter.ml" 150 4007 4026
+type(
+  string
+)
+ident(
+  def name "counter.ml" 150 4007 4027 "counter.ml" 156 4162 4209
+)
+"counter.ml" 150 4007 4027 "counter.ml" 150 4007 4033
+type(
+  string
+)
+ident(
+  def within "counter.ml" 151 4036 4038 "counter.ml" 156 4162 4209
+)
+"counter.ml" 152 4042 4050 "counter.ml" 152 4042 4051
+type(
+  t_counter
+)
+ident(
+  def c "counter.ml" 153 4075 4079 "counter.ml" 154 4110 4141
+)
+"counter.ml" 152 4042 4054 "counter.ml" 152 4042 4066
+type(
+  string -> t_counter
+)
+ident(
+  int_ref find_counter "counter.ml" 97 2749 2753 "counter.ml" 97 2749 2765
+)
+"counter.ml" 152 4042 4067 "counter.ml" 152 4042 4071
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 150 4007 4022 "counter.ml" 150 4007 4026
+)
+"counter.ml" 152 4042 4054 "counter.ml" 152 4042 4071
+call(
+  stack
+)
+type(
+  t_counter
+)
+"counter.ml" 153 4075 4083 "counter.ml" 153 4075 4084
+type(
+  t_counter
+)
+ident(
+  def d "counter.ml" 154 4110 4114 "counter.ml" 154 4110 4141
+)
+"counter.ml" 153 4075 4087 "counter.ml" 153 4075 4099
+type(
+  string -> t_counter
+)
+ident(
+  int_ref find_counter "counter.ml" 97 2749 2753 "counter.ml" 97 2749 2765
+)
+"counter.ml" 153 4075 4100 "counter.ml" 153 4075 4106
+type(
+  string
+)
+ident(
+  int_ref within "counter.ml" 150 4007 4027 "counter.ml" 150 4007 4033
+)
+"counter.ml" 153 4075 4087 "counter.ml" 153 4075 4106
+call(
+  stack
+)
+type(
+  t_counter
+)
+"counter.ml" 154 4110 4114 "counter.ml" 154 4110 4115
+type(
+  t_counter
+)
+ident(
+  int_ref d "counter.ml" 153 4075 4083 "counter.ml" 153 4075 4084
+)
+"counter.ml" 154 4110 4127 "counter.ml" 154 4110 4128
+type(
+  t_counter
+)
+ident(
+  int_ref c "counter.ml" 152 4042 4050 "counter.ml" 152 4042 4051
+)
+"counter.ml" 154 4110 4132 "counter.ml" 154 4110 4133
+type(
+  t_counter
+)
+ident(
+  int_ref d "counter.ml" 153 4075 4083 "counter.ml" 153 4075 4084
+)
+"counter.ml" 154 4110 4132 "counter.ml" 154 4110 4141
+type(
+  t_counter list
+)
+"counter.ml" 154 4110 4127 "counter.ml" 154 4110 4141
+type(
+  t_counter list
+)
+"counter.ml" 154 4110 4114 "counter.ml" 154 4110 4141
+type(
+  unit
+)
+"counter.ml" 153 4075 4079 "counter.ml" 154 4110 4141
+type(
+  unit
+)
+"counter.ml" 152 4042 4046 "counter.ml" 154 4110 4141
+type(
+  unit
+)
+"counter.ml" 155 4142 4149 "counter.ml" 155 4142 4158
+type(
+  exn
+)
+"counter.ml" 156 4162 4166 "counter.ml" 156 4162 4172
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref unkown "counter.ml" 94 2669 2673 "counter.ml" 94 2669 2679
+)
+"counter.ml" 156 4162 4174 "counter.ml" 156 4162 4178
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 150 4007 4022 "counter.ml" 150 4007 4026
+)
+"counter.ml" 156 4162 4178 "counter.ml" 156 4162 4179
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"counter.ml" 156 4162 4179 "counter.ml" 156 4162 4185
+type(
+  string
+)
+"counter.ml" 156 4162 4185 "counter.ml" 156 4162 4186
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"counter.ml" 156 4162 4186 "counter.ml" 156 4162 4192
+type(
+  string
+)
+ident(
+  int_ref within "counter.ml" 150 4007 4027 "counter.ml" 150 4007 4033
+)
+"counter.ml" 156 4162 4179 "counter.ml" 156 4162 4192
+call(
+  stack
+)
+type(
+  string
+)
+"counter.ml" 156 4162 4173 "counter.ml" 156 4162 4193
+call(
+  stack
+)
+type(
+  string
+)
+"counter.ml" 156 4162 4194 "counter.ml" 156 4162 4209
+type(
+  string
+)
+"counter.ml" 156 4162 4166 "counter.ml" 156 4162 4209
+call(
+  tail
+)
+type(
+  unit
+)
+"counter.ml" 151 4036 4038 "counter.ml" 156 4162 4209
+type(
+  unit
+)
+"counter.ml" 158 4213 4217 "counter.ml" 158 4213 4232
+type(
+  string -> string -> unit
+)
+ident(
+  def removefromreset "counter.ml" 167 4439 4491 "counter.ml" 1 0 -1
+)
+"counter.ml" 158 4213 4233 "counter.ml" 158 4213 4237
+type(
+  string
+)
+ident(
+  def name "counter.ml" 158 4213 4238 "counter.ml" 167 4439 4491
+)
+"counter.ml" 158 4213 4238 "counter.ml" 158 4213 4244
+type(
+  string
+)
+ident(
+  def within "counter.ml" 159 4247 4249 "counter.ml" 167 4439 4491
+)
+"counter.ml" 160 4253 4261 "counter.ml" 160 4253 4262
+type(
+  t_counter
+)
+ident(
+  def c "counter.ml" 161 4286 4290 "counter.ml" 165 4404 4418
+)
+"counter.ml" 160 4253 4265 "counter.ml" 160 4253 4277
+type(
+  string -> t_counter
+)
+ident(
+  int_ref find_counter "counter.ml" 97 2749 2753 "counter.ml" 97 2749 2765
+)
+"counter.ml" 160 4253 4278 "counter.ml" 160 4253 4282
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 158 4213 4233 "counter.ml" 158 4213 4237
+)
+"counter.ml" 160 4253 4265 "counter.ml" 160 4253 4282
+call(
+  stack
+)
+type(
+  t_counter
+)
+"counter.ml" 161 4286 4294 "counter.ml" 161 4286 4295
+type(
+  t_counter
+)
+ident(
+  def d "counter.ml" 162 4321 4325 "counter.ml" 165 4404 4418
+)
+"counter.ml" 161 4286 4298 "counter.ml" 161 4286 4310
+type(
+  string -> t_counter
+)
+ident(
+  int_ref find_counter "counter.ml" 97 2749 2753 "counter.ml" 97 2749 2765
+)
+"counter.ml" 161 4286 4311 "counter.ml" 161 4286 4317
+type(
+  string
+)
+ident(
+  int_ref within "counter.ml" 158 4213 4238 "counter.ml" 158 4213 4244
+)
+"counter.ml" 161 4286 4298 "counter.ml" 161 4286 4317
+call(
+  stack
+)
+type(
+  t_counter
+)
+"counter.ml" 162 4321 4325 "counter.ml" 162 4321 4326
+type(
+  t_counter
+)
+ident(
+  int_ref d "counter.ml" 161 4286 4294 "counter.ml" 161 4286 4295
+)
+"counter.ml" 163 4338 4345 "counter.ml" 163 4338 4360
+type(
+  (t_counter -> t_counter list -> t_counter list) ->
+  t_counter list -> t_counter list -> t_counter list
+)
+ident(
+  ext_ref List.fold_right
+)
+"counter.ml" 164 4361 4368 "counter.ml" 164 4361 4369
+type(
+  t_counter
+)
+ident(
+  def e "counter.ml" 164 4361 4370 "counter.ml" 164 4361 4402
+)
+"counter.ml" 164 4361 4370 "counter.ml" 164 4361 4371
+type(
+  t_counter list
+)
+ident(
+  def r "counter.ml" 164 4361 4375 "counter.ml" 164 4361 4402
+)
+"counter.ml" 164 4361 4378 "counter.ml" 164 4361 4379
+type(
+  t_counter
+)
+ident(
+  int_ref e "counter.ml" 164 4361 4368 "counter.ml" 164 4361 4369
+)
+"counter.ml" 164 4361 4380 "counter.ml" 164 4361 4382
+type(
+  t_counter -> t_counter -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"counter.ml" 164 4361 4383 "counter.ml" 164 4361 4384
+type(
+  t_counter
+)
+ident(
+  int_ref c "counter.ml" 160 4253 4261 "counter.ml" 160 4253 4262
+)
+"counter.ml" 164 4361 4378 "counter.ml" 164 4361 4384
+type(
+  bool
+)
+"counter.ml" 164 4361 4390 "counter.ml" 164 4361 4391
+type(
+  t_counter list
+)
+ident(
+  int_ref r "counter.ml" 164 4361 4370 "counter.ml" 164 4361 4371
+)
+"counter.ml" 164 4361 4398 "counter.ml" 164 4361 4399
+type(
+  t_counter
+)
+ident(
+  int_ref e "counter.ml" 164 4361 4368 "counter.ml" 164 4361 4369
+)
+"counter.ml" 164 4361 4401 "counter.ml" 164 4361 4402
+type(
+  t_counter list
+)
+ident(
+  int_ref r "counter.ml" 164 4361 4370 "counter.ml" 164 4361 4371
+)
+"counter.ml" 164 4361 4398 "counter.ml" 164 4361 4402
+type(
+  t_counter list
+)
+"counter.ml" 164 4361 4375 "counter.ml" 164 4361 4402
+type(
+  t_counter list
+)
+"counter.ml" 164 4361 4363 "counter.ml" 164 4361 4403
+type(
+  t_counter -> t_counter list -> t_counter list
+)
+"counter.ml" 165 4404 4406 "counter.ml" 165 4404 4407
+type(
+  t_counter
+)
+ident(
+  int_ref d "counter.ml" 161 4286 4294 "counter.ml" 161 4286 4295
+)
+"counter.ml" 165 4404 4406 "counter.ml" 165 4404 4415
+type(
+  t_counter list
+)
+"counter.ml" 165 4404 4416 "counter.ml" 165 4404 4418
+type(
+  t_counter list
+)
+"counter.ml" 163 4338 4345 "counter.ml" 165 4404 4418
+call(
+  stack
+)
+type(
+  t_counter list
+)
+"counter.ml" 162 4321 4325 "counter.ml" 165 4404 4418
+type(
+  unit
+)
+"counter.ml" 161 4286 4290 "counter.ml" 165 4404 4418
+type(
+  unit
+)
+"counter.ml" 160 4253 4257 "counter.ml" 165 4404 4418
+type(
+  unit
+)
+"counter.ml" 166 4419 4426 "counter.ml" 166 4419 4435
+type(
+  exn
+)
+"counter.ml" 167 4439 4443 "counter.ml" 167 4439 4449
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref unkown "counter.ml" 94 2669 2673 "counter.ml" 94 2669 2679
+)
+"counter.ml" 167 4439 4451 "counter.ml" 167 4439 4455
+type(
+  string
+)
+ident(
+  int_ref name "counter.ml" 158 4213 4233 "counter.ml" 158 4213 4237
+)
+"counter.ml" 167 4439 4455 "counter.ml" 167 4439 4456
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"counter.ml" 167 4439 4456 "counter.ml" 167 4439 4462
+type(
+  string
+)
+"counter.ml" 167 4439 4462 "counter.ml" 167 4439 4463
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"counter.ml" 167 4439 4463 "counter.ml" 167 4439 4469
+type(
+  string
+)
+ident(
+  int_ref within "counter.ml" 158 4213 4238 "counter.ml" 158 4213 4244
+)
+"counter.ml" 167 4439 4456 "counter.ml" 167 4439 4469
+call(
+  stack
+)
+type(
+  string
+)
+"counter.ml" 167 4439 4450 "counter.ml" 167 4439 4470
+call(
+  stack
+)
+type(
+  string
+)
+"counter.ml" 167 4439 4471 "counter.ml" 167 4439 4491
+type(
+  string
+)
+"counter.ml" 167 4439 4443 "counter.ml" 167 4439 4491
+call(
+  tail
+)
+type(
+  unit
+)
+"counter.ml" 159 4247 4249 "counter.ml" 167 4439 4491
+type(
+  unit
+)

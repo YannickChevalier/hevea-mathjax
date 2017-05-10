@@ -1,0 +1,1487 @@
+"util.ml" 15 826 834 "util.ml" 15 826 841
+type(
+  ('a -> int * int) -> int * int -> 'a Tree.t -> int * int
+)
+ident(
+  def do_cost "util.ml" 15 826 826 "util.ml" 1 0 -1
+)
+"util.ml" 15 826 842 "util.ml" 15 826 844
+type(
+  'a -> int * int
+)
+ident(
+  def ks "util.ml" 15 826 845 "util.ml" 22 1020 1055
+)
+"util.ml" 15 826 847 "util.ml" 15 826 849
+type(
+  int
+)
+ident(
+  def k1 "util.ml" 15 826 862 "util.ml" 22 1020 1055
+)
+"util.ml" 15 826 850 "util.ml" 15 826 852
+type(
+  int
+)
+ident(
+  def k2 "util.ml" 15 826 862 "util.ml" 22 1020 1055
+)
+"util.ml" 15 826 846 "util.ml" 15 826 853
+type(
+  int * int
+)
+"util.ml" 15 826 857 "util.ml" 15 826 858
+ident(
+  def c "util.ml" 15 826 862 "util.ml" 22 1020 1055
+)
+"util.ml" 15 826 845 "util.ml" 15 826 859
+type(
+  int * int
+)
+"util.ml" 16 871 880 "util.ml" 16 871 881
+type(
+  string
+)
+"util.ml" 16 871 875 "util.ml" 16 871 881
+type(
+  'a Tree.t
+)
+"util.ml" 16 871 891 "util.ml" 16 871 892
+type(
+  string
+)
+"util.ml" 16 871 884 "util.ml" 16 871 892
+type(
+  'a Tree.t
+)
+"util.ml" 16 871 875 "util.ml" 16 871 892
+type(
+  'a Tree.t
+)
+"util.ml" 16 871 896 "util.ml" 16 871 897
+type(
+  int * int
+)
+ident(
+  int_ref c "util.ml" 15 826 845 "util.ml" 15 826 859
+)
+"util.ml" 17 898 909 "util.ml" 17 898 910
+type(
+  string
+)
+"util.ml" 17 898 911 "util.ml" 17 898 912
+type(
+  string
+)
+"util.ml" 17 898 913 "util.ml" 17 898 915
+type(
+  'a Tree.t list
+)
+ident(
+  def ts "util.ml" 18 920 926 "util.ml" 19 943 973
+)
+"util.ml" 17 898 902 "util.ml" 17 898 916
+type(
+  'a Tree.t
+)
+"util.ml" 18 920 930 "util.ml" 18 920 932
+type(
+  int
+)
+ident(
+  def c1 "util.ml" 19 943 949 "util.ml" 19 943 973
+)
+"util.ml" 18 920 933 "util.ml" 18 920 935
+type(
+  int
+)
+ident(
+  def c2 "util.ml" 19 943 949 "util.ml" 19 943 973
+)
+"util.ml" 18 920 930 "util.ml" 18 920 935
+type(
+  int * int
+)
+"util.ml" 18 920 938 "util.ml" 18 920 939
+type(
+  int * int
+)
+ident(
+  int_ref c "util.ml" 15 826 845 "util.ml" 15 826 859
+)
+"util.ml" 19 943 949 "util.ml" 19 943 957
+type(
+  ('a -> int * int) -> int * int -> 'a Tree.t list -> int * int
+)
+ident(
+  int_ref do_costs "util.ml" 24 1057 1061 "util.ml" 24 1057 1069
+)
+"util.ml" 19 943 958 "util.ml" 19 943 960
+type(
+  'a -> int * int
+)
+ident(
+  int_ref ks "util.ml" 15 826 842 "util.ml" 15 826 844
+)
+"util.ml" 19 943 962 "util.ml" 19 943 963
+type(
+  int
+)
+"util.ml" 19 943 963 "util.ml" 19 943 964
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"util.ml" 19 943 964 "util.ml" 19 943 966
+type(
+  int
+)
+ident(
+  int_ref c1 "util.ml" 18 920 930 "util.ml" 18 920 932
+)
+"util.ml" 19 943 962 "util.ml" 19 943 966
+type(
+  int
+)
+"util.ml" 19 943 967 "util.ml" 19 943 969
+type(
+  int
+)
+ident(
+  int_ref c2 "util.ml" 18 920 933 "util.ml" 18 920 935
+)
+"util.ml" 19 943 961 "util.ml" 19 943 970
+type(
+  int * int
+)
+"util.ml" 19 943 971 "util.ml" 19 943 973
+type(
+  'a Tree.t list
+)
+ident(
+  int_ref ts "util.ml" 17 898 913 "util.ml" 17 898 915
+)
+"util.ml" 19 943 949 "util.ml" 19 943 973
+call(
+  tail
+)
+type(
+  int * int
+)
+"util.ml" 18 920 926 "util.ml" 19 943 973
+type(
+  int * int
+)
+"util.ml" 20 974 984 "util.ml" 20 974 985
+type(
+  'a
+)
+ident(
+  def s "util.ml" 21 993 999 "util.ml" 22 1020 1055
+)
+"util.ml" 20 974 986 "util.ml" 20 974 988
+type(
+  'a Tree.t list
+)
+ident(
+  def ts "util.ml" 21 993 999 "util.ml" 22 1020 1055
+)
+"util.ml" 20 974 978 "util.ml" 20 974 989
+type(
+  'a Tree.t
+)
+"util.ml" 21 993 1003 "util.ml" 21 993 1005
+type(
+  int
+)
+ident(
+  def l1 "util.ml" 22 1020 1026 "util.ml" 22 1020 1055
+)
+"util.ml" 21 993 1007 "util.ml" 21 993 1009
+type(
+  int
+)
+ident(
+  def l2 "util.ml" 22 1020 1026 "util.ml" 22 1020 1055
+)
+"util.ml" 21 993 1003 "util.ml" 21 993 1009
+type(
+  int * int
+)
+"util.ml" 21 993 1012 "util.ml" 21 993 1014
+type(
+  'a -> int * int
+)
+ident(
+  int_ref ks "util.ml" 15 826 842 "util.ml" 15 826 844
+)
+"util.ml" 21 993 1015 "util.ml" 21 993 1016
+type(
+  'a
+)
+ident(
+  int_ref s "util.ml" 20 974 984 "util.ml" 20 974 985
+)
+"util.ml" 21 993 1012 "util.ml" 21 993 1016
+call(
+  stack
+)
+type(
+  int * int
+)
+"util.ml" 22 1020 1026 "util.ml" 22 1020 1034
+type(
+  ('a -> int * int) -> int * int -> 'a Tree.t list -> int * int
+)
+ident(
+  int_ref do_costs "util.ml" 24 1057 1061 "util.ml" 24 1057 1069
+)
+"util.ml" 22 1020 1035 "util.ml" 22 1020 1037
+type(
+  'a -> int * int
+)
+ident(
+  int_ref ks "util.ml" 15 826 842 "util.ml" 15 826 844
+)
+"util.ml" 22 1020 1039 "util.ml" 22 1020 1041
+type(
+  int
+)
+ident(
+  int_ref l1 "util.ml" 21 993 1003 "util.ml" 21 993 1005
+)
+"util.ml" 22 1020 1041 "util.ml" 22 1020 1042
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"util.ml" 22 1020 1042 "util.ml" 22 1020 1044
+type(
+  int
+)
+ident(
+  int_ref k1 "util.ml" 15 826 847 "util.ml" 15 826 849
+)
+"util.ml" 22 1020 1039 "util.ml" 22 1020 1044
+type(
+  int
+)
+"util.ml" 22 1020 1046 "util.ml" 22 1020 1048
+type(
+  int
+)
+ident(
+  int_ref l2 "util.ml" 21 993 1007 "util.ml" 21 993 1009
+)
+"util.ml" 22 1020 1048 "util.ml" 22 1020 1049
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"util.ml" 22 1020 1049 "util.ml" 22 1020 1051
+type(
+  int
+)
+ident(
+  int_ref k2 "util.ml" 15 826 850 "util.ml" 15 826 852
+)
+"util.ml" 22 1020 1046 "util.ml" 22 1020 1051
+type(
+  int
+)
+"util.ml" 22 1020 1038 "util.ml" 22 1020 1052
+type(
+  int * int
+)
+"util.ml" 22 1020 1053 "util.ml" 22 1020 1055
+type(
+  'a Tree.t list
+)
+ident(
+  int_ref ts "util.ml" 20 974 986 "util.ml" 20 974 988
+)
+"util.ml" 22 1020 1026 "util.ml" 22 1020 1055
+call(
+  tail
+)
+type(
+  int * int
+)
+"util.ml" 21 993 999 "util.ml" 22 1020 1055
+type(
+  int * int
+)
+"util.ml" 15 826 862 "util.ml" 22 1020 1055
+type(
+  'a Tree.t -> int * int
+)
+"util.ml" 24 1057 1061 "util.ml" 24 1057 1069
+type(
+  ('a -> int * int) -> int * int -> 'a Tree.t list -> int * int
+)
+ident(
+  def do_costs "util.ml" 15 826 826 "util.ml" 1 0 -1
+)
+"util.ml" 24 1057 1070 "util.ml" 24 1057 1072
+type(
+  'a -> int * int
+)
+ident(
+  def ks "util.ml" 24 1057 1073 "util.ml" 24 1057 1112
+)
+"util.ml" 24 1057 1073 "util.ml" 24 1057 1074
+type(
+  int * int
+)
+ident(
+  def k "util.ml" 24 1057 1075 "util.ml" 24 1057 1112
+)
+"util.ml" 24 1057 1075 "util.ml" 24 1057 1077
+type(
+  'a Tree.t list
+)
+ident(
+  def ts "util.ml" 24 1057 1080 "util.ml" 24 1057 1112
+)
+"util.ml" 24 1057 1080 "util.ml" 24 1057 1094
+type(
+  (int * int -> 'a Tree.t -> int * int) ->
+  int * int -> 'a Tree.t list -> int * int
+)
+ident(
+  ext_ref List.fold_left
+)
+"util.ml" 24 1057 1096 "util.ml" 24 1057 1103
+type(
+  ('a -> int * int) -> int * int -> 'a Tree.t -> int * int
+)
+ident(
+  int_ref do_cost "util.ml" 15 826 834 "util.ml" 15 826 841
+)
+"util.ml" 24 1057 1104 "util.ml" 24 1057 1106
+type(
+  'a -> int * int
+)
+ident(
+  int_ref ks "util.ml" 24 1057 1070 "util.ml" 24 1057 1072
+)
+"util.ml" 24 1057 1095 "util.ml" 24 1057 1107
+call(
+  stack
+)
+type(
+  int * int -> 'a Tree.t -> int * int
+)
+"util.ml" 24 1057 1108 "util.ml" 24 1057 1109
+type(
+  int * int
+)
+ident(
+  int_ref k "util.ml" 24 1057 1073 "util.ml" 24 1057 1074
+)
+"util.ml" 24 1057 1110 "util.ml" 24 1057 1112
+type(
+  'a Tree.t list
+)
+ident(
+  int_ref ts "util.ml" 24 1057 1075 "util.ml" 24 1057 1077
+)
+"util.ml" 24 1057 1080 "util.ml" 24 1057 1112
+call(
+  tail
+)
+type(
+  int * int
+)
+"util.ml" 26 1114 1118 "util.ml" 26 1114 1122
+type(
+  ('a -> int * int) -> 'a Tree.t -> int * int
+)
+ident(
+  def cost "util.ml" 29 1189 1189 "util.ml" 1 0 -1
+)
+"util.ml" 26 1114 1123 "util.ml" 26 1114 1125
+type(
+  'a -> int * int
+)
+ident(
+  def ks "util.ml" 26 1114 1126 "util.ml" 26 1114 1148
+)
+"util.ml" 26 1114 1126 "util.ml" 26 1114 1127
+type(
+  'a Tree.t
+)
+ident(
+  def t "util.ml" 26 1114 1130 "util.ml" 26 1114 1148
+)
+"util.ml" 26 1114 1130 "util.ml" 26 1114 1137
+type(
+  ('a -> int * int) -> int * int -> 'a Tree.t -> int * int
+)
+ident(
+  int_ref do_cost "util.ml" 15 826 834 "util.ml" 15 826 841
+)
+"util.ml" 26 1114 1138 "util.ml" 26 1114 1140
+type(
+  'a -> int * int
+)
+ident(
+  int_ref ks "util.ml" 26 1114 1123 "util.ml" 26 1114 1125
+)
+"util.ml" 26 1114 1142 "util.ml" 26 1114 1143
+type(
+  int
+)
+"util.ml" 26 1114 1144 "util.ml" 26 1114 1145
+type(
+  int
+)
+"util.ml" 26 1114 1141 "util.ml" 26 1114 1146
+type(
+  int * int
+)
+"util.ml" 26 1114 1147 "util.ml" 26 1114 1148
+type(
+  'a Tree.t
+)
+ident(
+  int_ref t "util.ml" 26 1114 1126 "util.ml" 26 1114 1127
+)
+"util.ml" 26 1114 1130 "util.ml" 26 1114 1148
+call(
+  tail
+)
+type(
+  int * int
+)
+"util.ml" 27 1149 1153 "util.ml" 27 1149 1158
+type(
+  ('b -> int * int) -> 'b Tree.t list -> int * int
+)
+ident(
+  def costs "util.ml" 29 1189 1189 "util.ml" 1 0 -1
+)
+"util.ml" 27 1149 1159 "util.ml" 27 1149 1161
+type(
+  'b -> int * int
+)
+ident(
+  def ks "util.ml" 27 1149 1162 "util.ml" 27 1149 1187
+)
+"util.ml" 27 1149 1162 "util.ml" 27 1149 1164
+type(
+  'b Tree.t list
+)
+ident(
+  def ts "util.ml" 27 1149 1167 "util.ml" 27 1149 1187
+)
+"util.ml" 27 1149 1167 "util.ml" 27 1149 1175
+type(
+  ('b -> int * int) -> int * int -> 'b Tree.t list -> int * int
+)
+ident(
+  int_ref do_costs "util.ml" 24 1057 1061 "util.ml" 24 1057 1069
+)
+"util.ml" 27 1149 1176 "util.ml" 27 1149 1178
+type(
+  'b -> int * int
+)
+ident(
+  int_ref ks "util.ml" 27 1149 1159 "util.ml" 27 1149 1161
+)
+"util.ml" 27 1149 1180 "util.ml" 27 1149 1181
+type(
+  int
+)
+"util.ml" 27 1149 1182 "util.ml" 27 1149 1183
+type(
+  int
+)
+"util.ml" 27 1149 1179 "util.ml" 27 1149 1184
+type(
+  int * int
+)
+"util.ml" 27 1149 1185 "util.ml" 27 1149 1187
+type(
+  'b Tree.t list
+)
+ident(
+  int_ref ts "util.ml" 27 1149 1162 "util.ml" 27 1149 1164
+)
+"util.ml" 27 1149 1167 "util.ml" 27 1149 1187
+call(
+  tail
+)
+type(
+  int * int
+)
+"util.ml" 29 1189 1193 "util.ml" 29 1189 1205
+type(
+  'a * 'b -> 'a * 'b -> int
+)
+ident(
+  def cost_compare "util.ml" 38 1381 1381 "util.ml" 1 0 -1
+)
+"util.ml" 29 1189 1208 "util.ml" 29 1189 1213
+type(
+  'a
+)
+ident(
+  def tags1 "util.ml" 29 1189 1222 "util.ml" 34 1365 1373
+)
+"util.ml" 29 1189 1214 "util.ml" 29 1189 1220
+type(
+  'b
+)
+ident(
+  def fonts1 "util.ml" 29 1189 1222 "util.ml" 34 1365 1373
+)
+"util.ml" 29 1189 1207 "util.ml" 29 1189 1221
+type(
+  'a * 'b
+)
+"util.ml" 29 1189 1223 "util.ml" 29 1189 1228
+type(
+  'a
+)
+ident(
+  def tags2 "util.ml" 30 1240 1242 "util.ml" 34 1365 1373
+)
+"util.ml" 29 1189 1230 "util.ml" 29 1189 1236
+type(
+  'b
+)
+ident(
+  def fonts2 "util.ml" 30 1240 1242 "util.ml" 34 1365 1373
+)
+"util.ml" 29 1189 1222 "util.ml" 29 1189 1237
+type(
+  'a * 'b
+)
+"util.ml" 30 1240 1245 "util.ml" 30 1240 1250
+type(
+  'a
+)
+ident(
+  int_ref tags1 "util.ml" 29 1189 1208 "util.ml" 29 1189 1213
+)
+"util.ml" 30 1240 1251 "util.ml" 30 1240 1252
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"util.ml" 30 1240 1253 "util.ml" 30 1240 1258
+type(
+  'a
+)
+ident(
+  int_ref tags2 "util.ml" 29 1189 1223 "util.ml" 29 1189 1228
+)
+"util.ml" 30 1240 1245 "util.ml" 30 1240 1258
+type(
+  bool
+)
+"util.ml" 30 1240 1264 "util.ml" 30 1240 1266
+type(
+  int
+)
+"util.ml" 31 1267 1277 "util.ml" 31 1267 1282
+type(
+  'a
+)
+ident(
+  int_ref tags1 "util.ml" 29 1189 1208 "util.ml" 29 1189 1213
+)
+"util.ml" 31 1267 1283 "util.ml" 31 1267 1284
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"util.ml" 31 1267 1285 "util.ml" 31 1267 1290
+type(
+  'a
+)
+ident(
+  int_ref tags2 "util.ml" 29 1189 1223 "util.ml" 29 1189 1228
+)
+"util.ml" 31 1267 1277 "util.ml" 31 1267 1290
+type(
+  bool
+)
+"util.ml" 31 1267 1296 "util.ml" 31 1267 1297
+type(
+  int
+)
+"util.ml" 32 1298 1308 "util.ml" 32 1298 1314
+type(
+  'b
+)
+ident(
+  int_ref fonts1 "util.ml" 29 1189 1214 "util.ml" 29 1189 1220
+)
+"util.ml" 32 1298 1315 "util.ml" 32 1298 1316
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"util.ml" 32 1298 1317 "util.ml" 32 1298 1323
+type(
+  'b
+)
+ident(
+  int_ref fonts2 "util.ml" 29 1189 1230 "util.ml" 29 1189 1236
+)
+"util.ml" 32 1298 1308 "util.ml" 32 1298 1323
+type(
+  bool
+)
+"util.ml" 32 1298 1329 "util.ml" 32 1298 1331
+type(
+  int
+)
+"util.ml" 33 1332 1342 "util.ml" 33 1332 1348
+type(
+  'b
+)
+ident(
+  int_ref fonts1 "util.ml" 29 1189 1214 "util.ml" 29 1189 1220
+)
+"util.ml" 33 1332 1349 "util.ml" 33 1332 1350
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"util.ml" 33 1332 1351 "util.ml" 33 1332 1357
+type(
+  'b
+)
+ident(
+  int_ref fonts2 "util.ml" 29 1189 1230 "util.ml" 29 1189 1236
+)
+"util.ml" 33 1332 1342 "util.ml" 33 1332 1357
+type(
+  bool
+)
+"util.ml" 33 1332 1363 "util.ml" 33 1332 1364
+type(
+  int
+)
+"util.ml" 34 1365 1372 "util.ml" 34 1365 1373
+type(
+  int
+)
+"util.ml" 33 1332 1339 "util.ml" 34 1365 1373
+type(
+  int
+)
+"util.ml" 32 1298 1305 "util.ml" 34 1365 1373
+type(
+  int
+)
+"util.ml" 31 1267 1274 "util.ml" 34 1365 1373
+type(
+  int
+)
+"util.ml" 30 1240 1242 "util.ml" 34 1365 1373
+type(
+  int
+)
+"util.ml" 38 1381 1385 "util.ml" 38 1381 1390
+type(
+  Htmltext.t_style -> Htmltext.t_style list -> bool
+)
+ident(
+  def there "util.ml" 40 1449 1449 "util.ml" 1 0 -1
+)
+"util.ml" 38 1381 1391 "util.ml" 38 1381 1392
+type(
+  Htmltext.t_style
+)
+ident(
+  def s "util.ml" 38 1381 1393 "util.ml" 38 1381 1447
+)
+"util.ml" 38 1381 1393 "util.ml" 38 1381 1394
+type(
+  Htmltext.t_style list
+)
+ident(
+  def l "util.ml" 38 1381 1397 "util.ml" 38 1381 1447
+)
+"util.ml" 38 1381 1397 "util.ml" 38 1381 1408
+type(
+  (Htmltext.t_style -> bool) -> Htmltext.t_style list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"util.ml" 38 1381 1414 "util.ml" 38 1381 1416
+type(
+  Htmltext.t_style
+)
+ident(
+  def os "util.ml" 38 1381 1420 "util.ml" 38 1381 1444
+)
+"util.ml" 38 1381 1420 "util.ml" 38 1381 1439
+type(
+  Htmltext.t_style -> Htmltext.t_style -> bool
+)
+ident(
+  ext_ref Htmltext.same_style
+)
+"util.ml" 38 1381 1440 "util.ml" 38 1381 1441
+type(
+  Htmltext.t_style
+)
+ident(
+  int_ref s "util.ml" 38 1381 1391 "util.ml" 38 1381 1392
+)
+"util.ml" 38 1381 1442 "util.ml" 38 1381 1444
+type(
+  Htmltext.t_style
+)
+ident(
+  int_ref os "util.ml" 38 1381 1414 "util.ml" 38 1381 1416
+)
+"util.ml" 38 1381 1420 "util.ml" 38 1381 1444
+call(
+  tail
+)
+type(
+  bool
+)
+"util.ml" 38 1381 1409 "util.ml" 38 1381 1445
+type(
+  Htmltext.t_style -> bool
+)
+"util.ml" 38 1381 1446 "util.ml" 38 1381 1447
+type(
+  Htmltext.t_style list
+)
+ident(
+  int_ref l "util.ml" 38 1381 1393 "util.ml" 38 1381 1394
+)
+"util.ml" 38 1381 1397 "util.ml" 38 1381 1447
+call(
+  tail
+)
+type(
+  bool
+)
+"util.ml" 40 1449 1453 "util.ml" 40 1449 1458
+type(
+  Htmltext.t_style list -> Htmltext.t_style list -> Htmltext.t_style list
+)
+ident(
+  def inter "util.ml" 45 1543 1543 "util.ml" 1 0 -1
+)
+"util.ml" 40 1449 1459 "util.ml" 40 1449 1461
+type(
+  Htmltext.t_style list
+)
+ident(
+  def s1 "util.ml" 40 1449 1462 "util.ml" 43 1532 1541
+)
+"util.ml" 40 1449 1462 "util.ml" 40 1449 1464
+type(
+  Htmltext.t_style list
+)
+ident(
+  def s2 "util.ml" 41 1467 1469 "util.ml" 43 1532 1541
+)
+"util.ml" 41 1467 1469 "util.ml" 41 1467 1483
+type(
+  (Htmltext.t_style list -> Htmltext.t_style -> Htmltext.t_style list) ->
+  Htmltext.t_style list -> Htmltext.t_style list -> Htmltext.t_style list
+)
+ident(
+  ext_ref List.fold_left
+)
+"util.ml" 42 1484 1493 "util.ml" 42 1484 1494
+type(
+  Htmltext.t_style list
+)
+ident(
+  def r "util.ml" 42 1484 1495 "util.ml" 42 1484 1530
+)
+"util.ml" 42 1484 1495 "util.ml" 42 1484 1496
+type(
+  Htmltext.t_style
+)
+ident(
+  def s "util.ml" 42 1484 1500 "util.ml" 42 1484 1530
+)
+"util.ml" 42 1484 1503 "util.ml" 42 1484 1508
+type(
+  Htmltext.t_style -> Htmltext.t_style list -> bool
+)
+ident(
+  int_ref there "util.ml" 38 1381 1385 "util.ml" 38 1381 1390
+)
+"util.ml" 42 1484 1509 "util.ml" 42 1484 1510
+type(
+  Htmltext.t_style
+)
+ident(
+  int_ref s "util.ml" 42 1484 1495 "util.ml" 42 1484 1496
+)
+"util.ml" 42 1484 1511 "util.ml" 42 1484 1513
+type(
+  Htmltext.t_style list
+)
+ident(
+  int_ref s2 "util.ml" 40 1449 1462 "util.ml" 40 1449 1464
+)
+"util.ml" 42 1484 1503 "util.ml" 42 1484 1513
+call(
+  stack
+)
+type(
+  bool
+)
+"util.ml" 42 1484 1519 "util.ml" 42 1484 1520
+type(
+  Htmltext.t_style
+)
+ident(
+  int_ref s "util.ml" 42 1484 1495 "util.ml" 42 1484 1496
+)
+"util.ml" 42 1484 1522 "util.ml" 42 1484 1523
+type(
+  Htmltext.t_style list
+)
+ident(
+  int_ref r "util.ml" 42 1484 1493 "util.ml" 42 1484 1494
+)
+"util.ml" 42 1484 1519 "util.ml" 42 1484 1523
+type(
+  Htmltext.t_style list
+)
+"util.ml" 42 1484 1529 "util.ml" 42 1484 1530
+type(
+  Htmltext.t_style list
+)
+ident(
+  int_ref r "util.ml" 42 1484 1493 "util.ml" 42 1484 1494
+)
+"util.ml" 42 1484 1500 "util.ml" 42 1484 1530
+type(
+  Htmltext.t_style list
+)
+"util.ml" 42 1484 1488 "util.ml" 42 1484 1531
+type(
+  Htmltext.t_style list -> Htmltext.t_style -> Htmltext.t_style list
+)
+"util.ml" 43 1532 1536 "util.ml" 43 1532 1538
+type(
+  Htmltext.t_style list
+)
+"util.ml" 43 1532 1539 "util.ml" 43 1532 1541
+type(
+  Htmltext.t_style list
+)
+ident(
+  int_ref s1 "util.ml" 40 1449 1459 "util.ml" 40 1449 1461
+)
+"util.ml" 41 1467 1469 "util.ml" 43 1532 1541
+call(
+  tail
+)
+type(
+  Htmltext.t_style list
+)
+"util.ml" 45 1543 1547 "util.ml" 45 1543 1550
+type(
+  Htmltext.t_style list -> Htmltext.t_style list -> Htmltext.t_style list
+)
+ident(
+  def sub "util.ml" 50 1635 1635 "util.ml" 1 0 -1
+)
+"util.ml" 45 1543 1551 "util.ml" 45 1543 1553
+type(
+  Htmltext.t_style list
+)
+ident(
+  def s1 "util.ml" 45 1543 1554 "util.ml" 48 1624 1633
+)
+"util.ml" 45 1543 1554 "util.ml" 45 1543 1556
+type(
+  Htmltext.t_style list
+)
+ident(
+  def s2 "util.ml" 46 1559 1561 "util.ml" 48 1624 1633
+)
+"util.ml" 46 1559 1561 "util.ml" 46 1559 1575
+type(
+  (Htmltext.t_style list -> Htmltext.t_style -> Htmltext.t_style list) ->
+  Htmltext.t_style list -> Htmltext.t_style list -> Htmltext.t_style list
+)
+ident(
+  ext_ref List.fold_left
+)
+"util.ml" 47 1576 1585 "util.ml" 47 1576 1586
+type(
+  Htmltext.t_style list
+)
+ident(
+  def r "util.ml" 47 1576 1587 "util.ml" 47 1576 1622
+)
+"util.ml" 47 1576 1587 "util.ml" 47 1576 1588
+type(
+  Htmltext.t_style
+)
+ident(
+  def s "util.ml" 47 1576 1592 "util.ml" 47 1576 1622
+)
+"util.ml" 47 1576 1595 "util.ml" 47 1576 1600
+type(
+  Htmltext.t_style -> Htmltext.t_style list -> bool
+)
+ident(
+  int_ref there "util.ml" 38 1381 1385 "util.ml" 38 1381 1390
+)
+"util.ml" 47 1576 1601 "util.ml" 47 1576 1602
+type(
+  Htmltext.t_style
+)
+ident(
+  int_ref s "util.ml" 47 1576 1587 "util.ml" 47 1576 1588
+)
+"util.ml" 47 1576 1603 "util.ml" 47 1576 1605
+type(
+  Htmltext.t_style list
+)
+ident(
+  int_ref s2 "util.ml" 45 1543 1554 "util.ml" 45 1543 1556
+)
+"util.ml" 47 1576 1595 "util.ml" 47 1576 1605
+call(
+  stack
+)
+type(
+  bool
+)
+"util.ml" 47 1576 1611 "util.ml" 47 1576 1612
+type(
+  Htmltext.t_style list
+)
+ident(
+  int_ref r "util.ml" 47 1576 1585 "util.ml" 47 1576 1586
+)
+"util.ml" 47 1576 1618 "util.ml" 47 1576 1619
+type(
+  Htmltext.t_style
+)
+ident(
+  int_ref s "util.ml" 47 1576 1587 "util.ml" 47 1576 1588
+)
+"util.ml" 47 1576 1621 "util.ml" 47 1576 1622
+type(
+  Htmltext.t_style list
+)
+ident(
+  int_ref r "util.ml" 47 1576 1585 "util.ml" 47 1576 1586
+)
+"util.ml" 47 1576 1618 "util.ml" 47 1576 1622
+type(
+  Htmltext.t_style list
+)
+"util.ml" 47 1576 1592 "util.ml" 47 1576 1622
+type(
+  Htmltext.t_style list
+)
+"util.ml" 47 1576 1580 "util.ml" 47 1576 1623
+type(
+  Htmltext.t_style list -> Htmltext.t_style -> Htmltext.t_style list
+)
+"util.ml" 48 1624 1628 "util.ml" 48 1624 1630
+type(
+  Htmltext.t_style list
+)
+"util.ml" 48 1624 1631 "util.ml" 48 1624 1633
+type(
+  Htmltext.t_style list
+)
+ident(
+  int_ref s1 "util.ml" 45 1543 1551 "util.ml" 45 1543 1553
+)
+"util.ml" 46 1559 1561 "util.ml" 48 1624 1633
+call(
+  tail
+)
+type(
+  Htmltext.t_style list
+)
+"util.ml" 50 1635 1639 "util.ml" 50 1635 1644
+type(
+  Htmltext.t_style list -> Htmltext.t_style list -> Htmltext.t_style list
+)
+ident(
+  def union "util.ml" 56 1729 1729 "util.ml" 1 0 -1
+)
+"util.ml" 50 1635 1645 "util.ml" 50 1635 1647
+type(
+  Htmltext.t_style list
+)
+ident(
+  def s1 "util.ml" 50 1635 1648 "util.ml" 53 1717 1726
+)
+"util.ml" 50 1635 1648 "util.ml" 50 1635 1650
+type(
+  Htmltext.t_style list
+)
+ident(
+  def s2 "util.ml" 51 1653 1655 "util.ml" 53 1717 1726
+)
+"util.ml" 51 1653 1655 "util.ml" 51 1653 1669
+type(
+  (Htmltext.t_style list -> Htmltext.t_style -> Htmltext.t_style list) ->
+  Htmltext.t_style list -> Htmltext.t_style list -> Htmltext.t_style list
+)
+ident(
+  ext_ref List.fold_left
+)
+"util.ml" 52 1670 1679 "util.ml" 52 1670 1680
+type(
+  Htmltext.t_style list
+)
+ident(
+  def r "util.ml" 52 1670 1681 "util.ml" 52 1670 1715
+)
+"util.ml" 52 1670 1681 "util.ml" 52 1670 1682
+type(
+  Htmltext.t_style
+)
+ident(
+  def s "util.ml" 52 1670 1686 "util.ml" 52 1670 1715
+)
+"util.ml" 52 1670 1689 "util.ml" 52 1670 1694
+type(
+  Htmltext.t_style -> Htmltext.t_style list -> bool
+)
+ident(
+  int_ref there "util.ml" 38 1381 1385 "util.ml" 38 1381 1390
+)
+"util.ml" 52 1670 1695 "util.ml" 52 1670 1696
+type(
+  Htmltext.t_style
+)
+ident(
+  int_ref s "util.ml" 52 1670 1681 "util.ml" 52 1670 1682
+)
+"util.ml" 52 1670 1697 "util.ml" 52 1670 1698
+type(
+  Htmltext.t_style list
+)
+ident(
+  int_ref r "util.ml" 52 1670 1679 "util.ml" 52 1670 1680
+)
+"util.ml" 52 1670 1689 "util.ml" 52 1670 1698
+call(
+  stack
+)
+type(
+  bool
+)
+"util.ml" 52 1670 1704 "util.ml" 52 1670 1705
+type(
+  Htmltext.t_style list
+)
+ident(
+  int_ref r "util.ml" 52 1670 1679 "util.ml" 52 1670 1680
+)
+"util.ml" 52 1670 1711 "util.ml" 52 1670 1712
+type(
+  Htmltext.t_style
+)
+ident(
+  int_ref s "util.ml" 52 1670 1681 "util.ml" 52 1670 1682
+)
+"util.ml" 52 1670 1714 "util.ml" 52 1670 1715
+type(
+  Htmltext.t_style list
+)
+ident(
+  int_ref r "util.ml" 52 1670 1679 "util.ml" 52 1670 1680
+)
+"util.ml" 52 1670 1711 "util.ml" 52 1670 1715
+type(
+  Htmltext.t_style list
+)
+"util.ml" 52 1670 1686 "util.ml" 52 1670 1715
+type(
+  Htmltext.t_style list
+)
+"util.ml" 52 1670 1674 "util.ml" 52 1670 1716
+type(
+  Htmltext.t_style list -> Htmltext.t_style -> Htmltext.t_style list
+)
+"util.ml" 53 1717 1721 "util.ml" 53 1717 1723
+type(
+  Htmltext.t_style list
+)
+ident(
+  int_ref s1 "util.ml" 50 1635 1645 "util.ml" 50 1635 1647
+)
+"util.ml" 53 1717 1724 "util.ml" 53 1717 1726
+type(
+  Htmltext.t_style list
+)
+ident(
+  int_ref s2 "util.ml" 50 1635 1648 "util.ml" 50 1635 1650
+)
+"util.ml" 51 1653 1655 "util.ml" 53 1717 1726
+call(
+  tail
+)
+type(
+  Htmltext.t_style list
+)
+"util.ml" 56 1729 1733 "util.ml" 56 1729 1740
+type(
+  Htmltext.t_style list -> Htmltext.t_style list * Htmltext.t_style list
+)
+ident(
+  def neutral "util.ml" 58 1787 1787 "util.ml" 1 0 -1
+)
+"util.ml" 56 1729 1741 "util.ml" 56 1729 1742
+type(
+  Htmltext.t_style list
+)
+ident(
+  def s "util.ml" 56 1729 1746 "util.ml" 56 1729 1785
+)
+"util.ml" 56 1729 1746 "util.ml" 56 1729 1760
+type(
+  (Htmltext.t_style -> bool) ->
+  Htmltext.t_style list -> Htmltext.t_style list * Htmltext.t_style list
+)
+ident(
+  ext_ref List.partition
+)
+"util.ml" 56 1729 1761 "util.ml" 56 1729 1783
+type(
+  Htmltext.t_style -> bool
+)
+ident(
+  ext_ref Htmltext.blanksNeutral
+)
+"util.ml" 56 1729 1784 "util.ml" 56 1729 1785
+type(
+  Htmltext.t_style list
+)
+ident(
+  int_ref s "util.ml" 56 1729 1741 "util.ml" 56 1729 1742
+)
+"util.ml" 56 1729 1746 "util.ml" 56 1729 1785
+call(
+  tail
+)
+type(
+  Htmltext.t_style list * Htmltext.t_style list
+)
+"util.ml" 58 1787 1795 "util.ml" 58 1787 1803
+type(
+  'a Tree.t -> bool
+)
+ident(
+  def is_blank "util.ml" 58 1787 1787 "util.ml" 1 0 -1
+)
+"util.ml" 59 1815 1824 "util.ml" 59 1815 1825
+type(
+  string
+)
+"util.ml" 59 1815 1819 "util.ml" 59 1815 1825
+type(
+  'a Tree.t
+)
+"util.ml" 59 1815 1829 "util.ml" 59 1815 1834
+type(
+  bool
+)
+"util.ml" 60 1835 1846 "util.ml" 60 1835 1847
+type(
+  string
+)
+"util.ml" 60 1835 1839 "util.ml" 60 1835 1847
+type(
+  'a Tree.t
+)
+"util.ml" 60 1835 1851 "util.ml" 60 1835 1855
+type(
+  bool
+)
+"util.ml" 61 1856 1866 "util.ml" 61 1856 1867
+type(
+  'a
+)
+"util.ml" 61 1856 1868 "util.ml" 61 1856 1870
+type(
+  'a Tree.t list
+)
+ident(
+  def ts "util.ml" 61 1856 1892 "util.ml" 61 1856 1904
+)
+"util.ml" 61 1856 1860 "util.ml" 61 1856 1871
+type(
+  'a Tree.t
+)
+"util.ml" 61 1856 1881 "util.ml" 61 1856 1882
+type(
+  string
+)
+"util.ml" 61 1856 1883 "util.ml" 61 1856 1884
+type(
+  string
+)
+"util.ml" 61 1856 1885 "util.ml" 61 1856 1887
+type(
+  'a Tree.t list
+)
+ident(
+  def ts "util.ml" 61 1856 1892 "util.ml" 61 1856 1904
+)
+"util.ml" 61 1856 1874 "util.ml" 61 1856 1888
+type(
+  'a Tree.t
+)
+"util.ml" 61 1856 1860 "util.ml" 61 1856 1888
+type(
+  'a Tree.t
+)
+"util.ml" 61 1856 1892 "util.ml" 61 1856 1901
+type(
+  'a Tree.t list -> bool
+)
+ident(
+  int_ref is_blanks "util.ml" 63 1906 1910 "util.ml" 63 1906 1919
+)
+"util.ml" 61 1856 1902 "util.ml" 61 1856 1904
+type(
+  'a Tree.t list
+)
+ident(
+  int_ref ts "util.ml" 61 1856 1868 "util.ml" 61 1856 1870
+)
+"util.ml" 61 1856 1892 "util.ml" 61 1856 1904
+call(
+  tail
+)
+type(
+  bool
+)
+"util.ml" 58 1787 1806 "util.ml" 61 1856 1904
+type(
+  'a Tree.t -> bool
+)
+"util.ml" 63 1906 1910 "util.ml" 63 1906 1919
+type(
+  'a Tree.t list -> bool
+)
+ident(
+  def is_blanks "util.ml" 58 1787 1787 "util.ml" 1 0 -1
+)
+"util.ml" 64 1931 1935 "util.ml" 64 1931 1937
+type(
+  'a Tree.t list
+)
+"util.ml" 64 1931 1941 "util.ml" 64 1931 1945
+type(
+  bool
+)
+"util.ml" 65 1946 1950 "util.ml" 65 1946 1951
+type(
+  'a Tree.t
+)
+ident(
+  def t "util.ml" 65 1946 1959 "util.ml" 65 1946 1985
+)
+"util.ml" 65 1946 1953 "util.ml" 65 1946 1955
+type(
+  'a Tree.t list
+)
+ident(
+  def ts "util.ml" 65 1946 1959 "util.ml" 65 1946 1985
+)
+"util.ml" 65 1946 1950 "util.ml" 65 1946 1955
+type(
+  'a Tree.t list
+)
+"util.ml" 65 1946 1959 "util.ml" 65 1946 1967
+type(
+  'a Tree.t -> bool
+)
+ident(
+  int_ref is_blank "util.ml" 58 1787 1795 "util.ml" 58 1787 1803
+)
+"util.ml" 65 1946 1968 "util.ml" 65 1946 1969
+type(
+  'a Tree.t
+)
+ident(
+  int_ref t "util.ml" 65 1946 1950 "util.ml" 65 1946 1951
+)
+"util.ml" 65 1946 1959 "util.ml" 65 1946 1969
+call(
+  stack
+)
+type(
+  bool
+)
+"util.ml" 65 1946 1970 "util.ml" 65 1946 1972
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"util.ml" 65 1946 1973 "util.ml" 65 1946 1982
+type(
+  'a Tree.t list -> bool
+)
+ident(
+  int_ref is_blanks "util.ml" 63 1906 1910 "util.ml" 63 1906 1919
+)
+"util.ml" 65 1946 1983 "util.ml" 65 1946 1985
+type(
+  'a Tree.t list
+)
+ident(
+  int_ref ts "util.ml" 65 1946 1953 "util.ml" 65 1946 1955
+)
+"util.ml" 65 1946 1973 "util.ml" 65 1946 1985
+call(
+  tail
+)
+type(
+  bool
+)
+"util.ml" 65 1946 1959 "util.ml" 65 1946 1985
+type(
+  bool
+)
+"util.ml" 63 1906 1922 "util.ml" 65 1946 1985
+type(
+  'a Tree.t list -> bool
+)
+"util.ml" 67 1987 1991 "util.ml" 67 1987 1996
+type(
+  'a list -> 'a list Tree.t list -> 'a list Tree.t list
+)
+ident(
+  def nodes "util.ml" 71 2054 2083 "util.ml" 1 0 -1
+)
+"util.ml" 67 1987 1997 "util.ml" 67 1987 1999
+type(
+  'a list
+)
+ident(
+  def ss "util.ml" 67 1987 2000 "util.ml" 69 2030 2052
+)
+"util.ml" 67 1987 2000 "util.ml" 67 1987 2002
+type(
+  'a list Tree.t list
+)
+ident(
+  def ts "util.ml" 67 1987 2005 "util.ml" 69 2030 2052
+)
+"util.ml" 67 1987 2011 "util.ml" 67 1987 2013
+type(
+  'a list
+)
+ident(
+  int_ref ss "util.ml" 67 1987 1997 "util.ml" 67 1987 1999
+)
+"util.ml" 68 2019 2021 "util.ml" 68 2019 2023
+type(
+  'a list
+)
+"util.ml" 68 2019 2027 "util.ml" 68 2019 2029
+type(
+  'a list Tree.t list
+)
+ident(
+  int_ref ts "util.ml" 67 1987 2000 "util.ml" 67 1987 2002
+)
+"util.ml" 69 2030 2032 "util.ml" 69 2030 2033
+type(
+  'a list
+)
+"util.ml" 69 2030 2045 "util.ml" 69 2030 2047
+type(
+  'a list
+)
+ident(
+  int_ref ss "util.ml" 67 1987 1997 "util.ml" 67 1987 1999
+)
+"util.ml" 69 2030 2048 "util.ml" 69 2030 2050
+type(
+  'a list Tree.t list
+)
+ident(
+  int_ref ts "util.ml" 67 1987 2000 "util.ml" 67 1987 2002
+)
+"util.ml" 69 2030 2039 "util.ml" 69 2030 2051
+type(
+  'a list Tree.t
+)
+"util.ml" 69 2030 2038 "util.ml" 69 2030 2052
+type(
+  'a list Tree.t list
+)
+"util.ml" 67 1987 2005 "util.ml" 69 2030 2052
+type(
+  'a list Tree.t list
+)
+"util.ml" 71 2054 2058 "util.ml" 71 2054 2062
+type(
+  'b -> 'b Tree.t list -> 'b Tree.t
+)
+ident(
+  def node "util.ml" 71 2054 2083 "util.ml" 1 0 -1
+)
+"util.ml" 71 2054 2063 "util.ml" 71 2054 2065
+type(
+  'b
+)
+ident(
+  def ss "util.ml" 71 2054 2066 "util.ml" 71 2054 2083
+)
+"util.ml" 71 2054 2066 "util.ml" 71 2054 2068
+type(
+  'b Tree.t list
+)
+ident(
+  def ts "util.ml" 71 2054 2071 "util.ml" 71 2054 2083
+)
+"util.ml" 71 2054 2077 "util.ml" 71 2054 2079
+type(
+  'b
+)
+ident(
+  int_ref ss "util.ml" 71 2054 2063 "util.ml" 71 2054 2065
+)
+"util.ml" 71 2054 2080 "util.ml" 71 2054 2082
+type(
+  'b Tree.t list
+)
+ident(
+  int_ref ts "util.ml" 71 2054 2066 "util.ml" 71 2054 2068
+)
+"util.ml" 71 2054 2071 "util.ml" 71 2054 2083
+type(
+  'b Tree.t
+)

@@ -1,0 +1,28 @@
+\ifstyleloaded\relax
+\else
+\input{articlecommon.hva}
+\newcommand{\@art@attr}[1]{\@secid\envclass@attr{#1}}
+\@makesection
+  {\part}{-1}{part}
+  {\@opencell{class="center"}{}{}\@open{h1}{\@art@attr{part}}}
+  {\partname~\thepart}{\\}
+  {\@close{h1}\@closecell}
+\newstyle{.part}{margin:2ex auto;text-align:center}
+\@makesection
+  {\section}{0}{section}
+  {\@open{h2}{\@art@attr{section}}}{\thesection}{\quad}{\@close{h2}}%
+\@makesection
+  {\subsection}{1}{subsection}
+  {\@open{h3}{\@art@attr{subsection}}}{\thesubsection}{\quad}{\@close{h3}}%
+\@makesection
+  {\subsubsection}{2}{subsubsection}
+  {\@open{h4}{\@art@attr{subsubsection}}}{\thesubsubsection}{\quad}{\@close{h4}}%
+\@makesection
+  {\paragraph}{3}{paragraph}
+  {\@open{h4}{\@art@attr{paragraph}}}{\theparagraph}{\quad}{\@close{h4}}%
+\@makesection
+  {\subparagraph}{4}{subparagraph}
+  {\@open{h5}{\@art@attr{subparagraph}}}{\thesubparagraph}{\quad}{\@close{h5}}%
+\newcommand{\hacha@style}{article}%
+\styleloadedtrue
+\fi

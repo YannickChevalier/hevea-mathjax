@@ -1,0 +1,5243 @@
+"latexmacros.ml" 20 838 844 "latexmacros.ml" 20 838 851
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "latexmacros.ml" 20 838 872 "latexmacros.ml" 21 873 876
+)
+"latexmacros.ml" 20 838 854 "latexmacros.ml" 20 838 872
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"latexmacros.ml" 23 878 895 "latexmacros.ml" 23 878 913
+call(
+  stack
+)
+"latexmacros.ml" 26 958 962 "latexmacros.ml" 26 958 973
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  def local_table "latexmacros.ml" 31 1103 1103 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 26 958 976 "latexmacros.ml" 26 958 990
+type(
+  ?random:bool ->
+  int -> (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"latexmacros.ml" 26 958 991 "latexmacros.ml" 26 958 993
+type(
+  int
+)
+"latexmacros.ml" 26 958 976 "latexmacros.ml" 26 958 993
+call(
+  stack
+)
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+"latexmacros.ml" 27 994 998 "latexmacros.ml" 27 994 1010
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  def global_table "latexmacros.ml" 31 1103 1103 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 27 994 1013 "latexmacros.ml" 27 994 1027
+type(
+  ?random:bool ->
+  int -> (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"latexmacros.ml" 27 994 1028 "latexmacros.ml" 27 994 1030
+type(
+  int
+)
+"latexmacros.ml" 27 994 1013 "latexmacros.ml" 27 994 1030
+call(
+  stack
+)
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+"latexmacros.ml" 28 1031 1035 "latexmacros.ml" 28 1031 1045
+type(
+  (string, unit -> unit) Hashtbl.t
+)
+ident(
+  def prim_table "latexmacros.ml" 31 1103 1103 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 28 1031 1048 "latexmacros.ml" 28 1031 1062
+type(
+  ?random:bool -> int -> (string, unit -> unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"latexmacros.ml" 28 1031 1063 "latexmacros.ml" 28 1031 1064
+type(
+  int
+)
+"latexmacros.ml" 28 1031 1048 "latexmacros.ml" 28 1031 1064
+call(
+  stack
+)
+type(
+  (string, unit -> unit) Hashtbl.t
+)
+"latexmacros.ml" 29 1065 1069 "latexmacros.ml" 29 1065 1081
+type(
+  Strings.t ref
+)
+ident(
+  def known_macros "latexmacros.ml" 31 1103 1103 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 29 1065 1084 "latexmacros.ml" 29 1065 1087
+type(
+  Strings.t -> Strings.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"latexmacros.ml" 29 1065 1088 "latexmacros.ml" 29 1065 1101
+type(
+  Strings.t
+)
+ident(
+  ext_ref Strings.empty
+)
+"latexmacros.ml" 29 1065 1084 "latexmacros.ml" 29 1065 1101
+type(
+  Strings.t ref
+)
+"latexmacros.ml" 31 1103 1107 "latexmacros.ml" 31 1103 1112
+type(
+  Strings.t ref
+)
+ident(
+  def purge "latexmacros.ml" 36 1215 1215 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 31 1103 1115 "latexmacros.ml" 31 1103 1118
+type(
+  Strings.t -> Strings.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"latexmacros.ml" 31 1103 1119 "latexmacros.ml" 31 1103 1132
+type(
+  Strings.t
+)
+ident(
+  ext_ref Strings.empty
+)
+"latexmacros.ml" 31 1103 1115 "latexmacros.ml" 31 1103 1132
+type(
+  Strings.t ref
+)
+"latexmacros.ml" 32 1133 1137 "latexmacros.ml" 32 1133 1148
+type(
+  Strings.t MyStack.t
+)
+ident(
+  def purge_stack "latexmacros.ml" 36 1215 1215 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 32 1133 1151 "latexmacros.ml" 32 1133 1165
+type(
+  string -> Strings.t MyStack.t
+)
+ident(
+  ext_ref MyStack.create
+)
+"latexmacros.ml" 32 1133 1166 "latexmacros.ml" 32 1133 1173
+type(
+  string
+)
+"latexmacros.ml" 32 1133 1151 "latexmacros.ml" 32 1133 1173
+call(
+  stack
+)
+type(
+  Strings.t MyStack.t
+)
+"latexmacros.ml" 33 1174 1178 "latexmacros.ml" 33 1174 1189
+type(
+  int ref
+)
+ident(
+  def group_level "latexmacros.ml" 36 1215 1215 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 33 1174 1192 "latexmacros.ml" 33 1174 1195
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"latexmacros.ml" 33 1174 1196 "latexmacros.ml" 33 1174 1197
+type(
+  int
+)
+"latexmacros.ml" 33 1174 1192 "latexmacros.ml" 33 1174 1197
+type(
+  int ref
+)
+"latexmacros.ml" 43 1416 1420 "latexmacros.ml" 43 1416 1432
+type(
+  Lexstate.pat -> Lexstate.action -> unit
+)
+ident(
+  def pretty_macro "latexmacros.ml" 48 1503 1503 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 43 1416 1433 "latexmacros.ml" 43 1416 1434
+type(
+  Lexstate.pat
+)
+ident(
+  def n "latexmacros.ml" 43 1416 1435 "latexmacros.ml" 46 1482 1501
+)
+"latexmacros.ml" 43 1416 1435 "latexmacros.ml" 43 1416 1438
+type(
+  Lexstate.action
+)
+ident(
+  def acs "latexmacros.ml" 44 1441 1443 "latexmacros.ml" 46 1482 1501
+)
+"latexmacros.ml" 44 1441 1443 "latexmacros.ml" 44 1441 1453
+type(
+  Lexstate.pat -> unit
+)
+ident(
+  ext_ref Lexstate.pretty_pat
+)
+"latexmacros.ml" 44 1441 1454 "latexmacros.ml" 44 1441 1455
+type(
+  Lexstate.pat
+)
+ident(
+  int_ref n "latexmacros.ml" 43 1416 1433 "latexmacros.ml" 43 1416 1434
+)
+"latexmacros.ml" 44 1441 1443 "latexmacros.ml" 44 1441 1455
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 45 1458 1460 "latexmacros.ml" 45 1458 1472
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_string
+)
+"latexmacros.ml" 45 1458 1473 "latexmacros.ml" 45 1458 1479
+type(
+  string
+)
+"latexmacros.ml" 45 1458 1460 "latexmacros.ml" 45 1458 1479
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 46 1482 1484 "latexmacros.ml" 46 1482 1497
+type(
+  Lexstate.action -> unit
+)
+ident(
+  ext_ref Lexstate.pretty_action
+)
+"latexmacros.ml" 46 1482 1498 "latexmacros.ml" 46 1482 1501
+type(
+  Lexstate.action
+)
+ident(
+  int_ref acs "latexmacros.ml" 43 1416 1435 "latexmacros.ml" 43 1416 1438
+)
+"latexmacros.ml" 46 1482 1484 "latexmacros.ml" 46 1482 1501
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 45 1458 1460 "latexmacros.ml" 46 1482 1501
+type(
+  unit
+)
+"latexmacros.ml" 44 1441 1443 "latexmacros.ml" 46 1482 1501
+type(
+  unit
+)
+"latexmacros.ml" 48 1503 1507 "latexmacros.ml" 48 1503 1526
+type(
+  (string, Lexstate.pat * Lexstate.action) Hashtbl.t -> unit
+)
+ident(
+  def hidden_pretty_table "latexmacros.ml" 74 2096 2096 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 48 1503 1527 "latexmacros.ml" 48 1503 1535
+type(
+  (string, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  def cmdtable "latexmacros.ml" 49 1538 1540 "latexmacros.ml" 72 2080 2094
+)
+"latexmacros.ml" 49 1538 1544 "latexmacros.ml" 49 1538 1545
+type(
+  (string, int ref) Hashtbl.t
+)
+ident(
+  def t "latexmacros.ml" 51 1589 1591 "latexmacros.ml" 72 2080 2094
+)
+"latexmacros.ml" 49 1538 1548 "latexmacros.ml" 49 1538 1562
+type(
+  ?random:bool -> int -> (string, int ref) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"latexmacros.ml" 49 1538 1563 "latexmacros.ml" 49 1538 1565
+type(
+  int
+)
+"latexmacros.ml" 49 1538 1548 "latexmacros.ml" 49 1538 1565
+call(
+  stack
+)
+type(
+  (string, int ref) Hashtbl.t
+)
+"latexmacros.ml" 50 1566 1572 "latexmacros.ml" 50 1566 1577
+type(
+  int ref
+)
+ident(
+  def count "latexmacros.ml" 51 1589 1591 "latexmacros.ml" 72 2080 2094
+)
+"latexmacros.ml" 50 1566 1580 "latexmacros.ml" 50 1566 1583
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"latexmacros.ml" 50 1566 1584 "latexmacros.ml" 50 1566 1585
+type(
+  int
+)
+"latexmacros.ml" 50 1566 1580 "latexmacros.ml" 50 1566 1585
+type(
+  int ref
+)
+"latexmacros.ml" 51 1589 1595 "latexmacros.ml" 51 1589 1599
+type(
+  string -> unit
+)
+ident(
+  def incr "latexmacros.ml" 60 1772 1774 "latexmacros.ml" 72 2080 2094
+)
+"latexmacros.ml" 51 1589 1600 "latexmacros.ml" 51 1589 1601
+type(
+  string
+)
+ident(
+  def k "latexmacros.ml" 52 1604 1608 "latexmacros.ml" 59 1758 1768
+)
+"latexmacros.ml" 52 1604 1608 "latexmacros.ml" 52 1604 1612
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"latexmacros.ml" 52 1604 1613 "latexmacros.ml" 52 1604 1618
+type(
+  int ref
+)
+ident(
+  int_ref count "latexmacros.ml" 50 1566 1572 "latexmacros.ml" 50 1566 1577
+)
+"latexmacros.ml" 52 1604 1608 "latexmacros.ml" 52 1604 1618
+type(
+  unit
+)
+"latexmacros.ml" 53 1621 1629 "latexmacros.ml" 53 1621 1630
+type(
+  int ref
+)
+ident(
+  def r "latexmacros.ml" 59 1758 1762 "latexmacros.ml" 59 1758 1768
+)
+"latexmacros.ml" 54 1633 1643 "latexmacros.ml" 54 1633 1655
+type(
+  (string, int ref) Hashtbl.t -> string -> int ref
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"latexmacros.ml" 54 1633 1656 "latexmacros.ml" 54 1633 1657
+type(
+  (string, int ref) Hashtbl.t
+)
+ident(
+  int_ref t "latexmacros.ml" 49 1538 1544 "latexmacros.ml" 49 1538 1545
+)
+"latexmacros.ml" 54 1633 1658 "latexmacros.ml" 54 1633 1659
+type(
+  string
+)
+ident(
+  int_ref k "latexmacros.ml" 51 1589 1600 "latexmacros.ml" 51 1589 1601
+)
+"latexmacros.ml" 54 1633 1643 "latexmacros.ml" 54 1633 1659
+call(
+  stack
+)
+type(
+  int ref
+)
+"latexmacros.ml" 55 1665 1673 "latexmacros.ml" 55 1665 1682
+type(
+  exn
+)
+"latexmacros.ml" 56 1686 1700 "latexmacros.ml" 56 1686 1701
+type(
+  int ref
+)
+ident(
+  def r "latexmacros.ml" 57 1713 1723 "latexmacros.ml" 58 1743 1754
+)
+"latexmacros.ml" 56 1686 1704 "latexmacros.ml" 56 1686 1707
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"latexmacros.ml" 56 1686 1708 "latexmacros.ml" 56 1686 1709
+type(
+  int
+)
+"latexmacros.ml" 56 1686 1704 "latexmacros.ml" 56 1686 1709
+type(
+  int ref
+)
+"latexmacros.ml" 57 1713 1723 "latexmacros.ml" 57 1713 1734
+type(
+  (string, int ref) Hashtbl.t -> string -> int ref -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"latexmacros.ml" 57 1713 1735 "latexmacros.ml" 57 1713 1736
+type(
+  (string, int ref) Hashtbl.t
+)
+ident(
+  int_ref t "latexmacros.ml" 49 1538 1544 "latexmacros.ml" 49 1538 1545
+)
+"latexmacros.ml" 57 1713 1737 "latexmacros.ml" 57 1713 1738
+type(
+  string
+)
+ident(
+  int_ref k "latexmacros.ml" 51 1589 1600 "latexmacros.ml" 51 1589 1601
+)
+"latexmacros.ml" 57 1713 1739 "latexmacros.ml" 57 1713 1740
+type(
+  int ref
+)
+ident(
+  int_ref r "latexmacros.ml" 56 1686 1700 "latexmacros.ml" 56 1686 1701
+)
+"latexmacros.ml" 57 1713 1723 "latexmacros.ml" 57 1713 1740
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 58 1743 1753 "latexmacros.ml" 58 1743 1754
+type(
+  int ref
+)
+ident(
+  int_ref r "latexmacros.ml" 56 1686 1700 "latexmacros.ml" 56 1686 1701
+)
+"latexmacros.ml" 57 1713 1723 "latexmacros.ml" 58 1743 1754
+type(
+  int ref
+)
+"latexmacros.ml" 56 1686 1696 "latexmacros.ml" 58 1743 1754
+type(
+  int ref
+)
+"latexmacros.ml" 54 1633 1639 "latexmacros.ml" 58 1743 1754
+type(
+  int ref
+)
+"latexmacros.ml" 59 1758 1762 "latexmacros.ml" 59 1758 1766
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"latexmacros.ml" 59 1758 1767 "latexmacros.ml" 59 1758 1768
+type(
+  int ref
+)
+ident(
+  int_ref r "latexmacros.ml" 53 1621 1629 "latexmacros.ml" 53 1621 1630
+)
+"latexmacros.ml" 59 1758 1762 "latexmacros.ml" 59 1758 1768
+type(
+  unit
+)
+"latexmacros.ml" 53 1621 1625 "latexmacros.ml" 59 1758 1768
+type(
+  unit
+)
+"latexmacros.ml" 52 1604 1608 "latexmacros.ml" 59 1758 1768
+type(
+  unit
+)
+"latexmacros.ml" 60 1772 1774 "latexmacros.ml" 60 1772 1786
+type(
+  (string -> Lexstate.pat * Lexstate.action -> unit) ->
+  (string, Lexstate.pat * Lexstate.action) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"latexmacros.ml" 60 1772 1792 "latexmacros.ml" 60 1772 1793
+type(
+  string
+)
+ident(
+  def k "latexmacros.ml" 60 1772 1794 "latexmacros.ml" 64 1892 1902
+)
+"latexmacros.ml" 60 1772 1795 "latexmacros.ml" 60 1772 1796
+type(
+  Lexstate.pat
+)
+ident(
+  def n "latexmacros.ml" 61 1805 1809 "latexmacros.ml" 64 1892 1902
+)
+"latexmacros.ml" 60 1772 1797 "latexmacros.ml" 60 1772 1800
+type(
+  Lexstate.action
+)
+ident(
+  def acc "latexmacros.ml" 61 1805 1809 "latexmacros.ml" 64 1892 1902
+)
+"latexmacros.ml" 60 1772 1794 "latexmacros.ml" 60 1772 1801
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 61 1805 1809 "latexmacros.ml" 61 1805 1823
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"latexmacros.ml" 61 1805 1824 "latexmacros.ml" 61 1805 1830
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"latexmacros.ml" 61 1805 1831 "latexmacros.ml" 61 1805 1839
+type(
+  (string -> unit, out_channel, unit) format
+)
+"latexmacros.ml" 61 1805 1840 "latexmacros.ml" 61 1805 1841
+type(
+  string
+)
+ident(
+  int_ref k "latexmacros.ml" 60 1772 1792 "latexmacros.ml" 60 1772 1793
+)
+"latexmacros.ml" 61 1805 1809 "latexmacros.ml" 61 1805 1841
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 62 1844 1848 "latexmacros.ml" 62 1844 1860
+type(
+  Lexstate.pat -> Lexstate.action -> unit
+)
+ident(
+  int_ref pretty_macro "latexmacros.ml" 43 1416 1420 "latexmacros.ml" 43 1416 1432
+)
+"latexmacros.ml" 62 1844 1861 "latexmacros.ml" 62 1844 1862
+type(
+  Lexstate.pat
+)
+ident(
+  int_ref n "latexmacros.ml" 60 1772 1795 "latexmacros.ml" 60 1772 1796
+)
+"latexmacros.ml" 62 1844 1863 "latexmacros.ml" 62 1844 1866
+type(
+  Lexstate.action
+)
+ident(
+  int_ref acc "latexmacros.ml" 60 1772 1797 "latexmacros.ml" 60 1772 1800
+)
+"latexmacros.ml" 62 1844 1848 "latexmacros.ml" 62 1844 1866
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 63 1869 1873 "latexmacros.ml" 63 1869 1886
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"latexmacros.ml" 63 1869 1887 "latexmacros.ml" 63 1869 1889
+type(
+  string
+)
+"latexmacros.ml" 63 1869 1873 "latexmacros.ml" 63 1869 1889
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 64 1892 1896 "latexmacros.ml" 64 1892 1900
+type(
+  string -> unit
+)
+ident(
+  int_ref incr "latexmacros.ml" 51 1589 1595 "latexmacros.ml" 51 1589 1599
+)
+"latexmacros.ml" 64 1892 1901 "latexmacros.ml" 64 1892 1902
+type(
+  string
+)
+ident(
+  int_ref k "latexmacros.ml" 60 1772 1792 "latexmacros.ml" 60 1772 1793
+)
+"latexmacros.ml" 64 1892 1896 "latexmacros.ml" 64 1892 1902
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 63 1869 1873 "latexmacros.ml" 64 1892 1902
+type(
+  unit
+)
+"latexmacros.ml" 62 1844 1848 "latexmacros.ml" 64 1892 1902
+type(
+  unit
+)
+"latexmacros.ml" 61 1805 1809 "latexmacros.ml" 64 1892 1902
+type(
+  unit
+)
+"latexmacros.ml" 60 1772 1787 "latexmacros.ml" 64 1892 1903
+type(
+  string -> Lexstate.pat * Lexstate.action -> unit
+)
+"latexmacros.ml" 64 1892 1904 "latexmacros.ml" 64 1892 1912
+type(
+  (string, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref cmdtable "latexmacros.ml" 48 1503 1527 "latexmacros.ml" 48 1503 1535
+)
+"latexmacros.ml" 60 1772 1774 "latexmacros.ml" 64 1892 1912
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 65 1915 1917 "latexmacros.ml" 65 1915 1931
+type(
+  out_channel -> (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"latexmacros.ml" 65 1915 1932 "latexmacros.ml" 65 1915 1938
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"latexmacros.ml" 66 1939 1945 "latexmacros.ml" 66 1939 1963
+type(
+  (int -> unit, out_channel, unit) format
+)
+"latexmacros.ml" 66 1939 1964 "latexmacros.ml" 66 1939 1965
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 66 1939 1965 "latexmacros.ml" 66 1939 1970
+type(
+  int ref
+)
+ident(
+  int_ref count "latexmacros.ml" 50 1566 1572 "latexmacros.ml" 50 1566 1577
+)
+"latexmacros.ml" 66 1939 1964 "latexmacros.ml" 66 1939 1970
+type(
+  int
+)
+"latexmacros.ml" 65 1915 1917 "latexmacros.ml" 66 1939 1970
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 67 1973 1975 "latexmacros.ml" 67 1973 1987
+type(
+  (string -> int ref -> unit) -> (string, int ref) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"latexmacros.ml" 68 1988 1997 "latexmacros.ml" 68 1988 1998
+type(
+  string
+)
+ident(
+  def k "latexmacros.ml" 68 1988 1999 "latexmacros.ml" 70 2025 2070
+)
+"latexmacros.ml" 68 1988 1999 "latexmacros.ml" 68 1988 2000
+type(
+  int ref
+)
+ident(
+  def r "latexmacros.ml" 69 2004 2010 "latexmacros.ml" 70 2025 2070
+)
+"latexmacros.ml" 69 2004 2013 "latexmacros.ml" 69 2004 2014
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 69 2004 2014 "latexmacros.ml" 69 2004 2015
+type(
+  int ref
+)
+ident(
+  int_ref r "latexmacros.ml" 68 1988 1999 "latexmacros.ml" 68 1988 2000
+)
+"latexmacros.ml" 69 2004 2013 "latexmacros.ml" 69 2004 2015
+type(
+  int
+)
+"latexmacros.ml" 69 2004 2016 "latexmacros.ml" 69 2004 2017
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"latexmacros.ml" 69 2004 2018 "latexmacros.ml" 69 2004 2019
+type(
+  int
+)
+"latexmacros.ml" 69 2004 2013 "latexmacros.ml" 69 2004 2019
+type(
+  bool
+)
+"latexmacros.ml" 70 2025 2033 "latexmacros.ml" 70 2025 2047
+type(
+  out_channel ->
+  (string -> int -> unit, out_channel, unit) format -> string -> int -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"latexmacros.ml" 70 2025 2048 "latexmacros.ml" 70 2025 2054
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"latexmacros.ml" 70 2025 2055 "latexmacros.ml" 70 2025 2065
+type(
+  (string -> int -> unit, out_channel, unit) format
+)
+"latexmacros.ml" 70 2025 2066 "latexmacros.ml" 70 2025 2067
+type(
+  string
+)
+ident(
+  int_ref k "latexmacros.ml" 68 1988 1997 "latexmacros.ml" 68 1988 1998
+)
+"latexmacros.ml" 70 2025 2068 "latexmacros.ml" 70 2025 2069
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 70 2025 2069 "latexmacros.ml" 70 2025 2070
+type(
+  int ref
+)
+ident(
+  int_ref r "latexmacros.ml" 68 1988 1999 "latexmacros.ml" 68 1988 2000
+)
+"latexmacros.ml" 70 2025 2068 "latexmacros.ml" 70 2025 2070
+type(
+  int
+)
+"latexmacros.ml" 70 2025 2033 "latexmacros.ml" 70 2025 2070
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 69 2004 2010 "latexmacros.ml" 70 2025 2070
+type(
+  unit
+)
+"latexmacros.ml" 68 1988 1992 "latexmacros.ml" 70 2025 2071
+type(
+  string -> int ref -> unit
+)
+"latexmacros.ml" 71 2072 2076 "latexmacros.ml" 71 2072 2077
+type(
+  (string, int ref) Hashtbl.t
+)
+ident(
+  int_ref t "latexmacros.ml" 49 1538 1544 "latexmacros.ml" 49 1538 1545
+)
+"latexmacros.ml" 67 1973 1975 "latexmacros.ml" 71 2072 2077
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 72 2080 2082 "latexmacros.ml" 72 2080 2087
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"latexmacros.ml" 72 2080 2088 "latexmacros.ml" 72 2080 2094
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"latexmacros.ml" 72 2080 2082 "latexmacros.ml" 72 2080 2094
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 67 1973 1975 "latexmacros.ml" 72 2080 2094
+type(
+  unit
+)
+"latexmacros.ml" 65 1915 1917 "latexmacros.ml" 72 2080 2094
+type(
+  unit
+)
+"latexmacros.ml" 60 1772 1774 "latexmacros.ml" 72 2080 2094
+type(
+  unit
+)
+"latexmacros.ml" 51 1589 1591 "latexmacros.ml" 72 2080 2094
+type(
+  unit
+)
+"latexmacros.ml" 49 1538 1540 "latexmacros.ml" 72 2080 2094
+type(
+  unit
+)
+"latexmacros.ml" 74 2096 2100 "latexmacros.ml" 74 2096 2112
+type(
+  unit -> unit
+)
+ident(
+  def pretty_table "latexmacros.ml" 81 2321 2321 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 74 2096 2113 "latexmacros.ml" 74 2096 2115
+type(
+  unit
+)
+"latexmacros.ml" 75 2118 2120 "latexmacros.ml" 75 2118 2134
+type(
+  out_channel -> (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"latexmacros.ml" 75 2118 2135 "latexmacros.ml" 75 2118 2141
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"latexmacros.ml" 75 2118 2142 "latexmacros.ml" 75 2118 2168
+type(
+  (int -> unit, out_channel, unit) format
+)
+"latexmacros.ml" 75 2118 2169 "latexmacros.ml" 75 2118 2170
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 75 2118 2170 "latexmacros.ml" 75 2118 2181
+type(
+  int ref
+)
+ident(
+  int_ref group_level "latexmacros.ml" 33 1174 1178 "latexmacros.ml" 33 1174 1189
+)
+"latexmacros.ml" 75 2118 2169 "latexmacros.ml" 75 2118 2181
+type(
+  int
+)
+"latexmacros.ml" 75 2118 2120 "latexmacros.ml" 75 2118 2181
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 76 2184 2186 "latexmacros.ml" 76 2184 2199
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"latexmacros.ml" 76 2184 2200 "latexmacros.ml" 76 2184 2214
+type(
+  string
+)
+"latexmacros.ml" 76 2184 2186 "latexmacros.ml" 76 2184 2214
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 77 2217 2219 "latexmacros.ml" 77 2217 2238
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t -> unit
+)
+ident(
+  int_ref hidden_pretty_table "latexmacros.ml" 48 1503 1507 "latexmacros.ml" 48 1503 1526
+)
+"latexmacros.ml" 77 2217 2239 "latexmacros.ml" 77 2217 2251
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref global_table "latexmacros.ml" 27 994 998 "latexmacros.ml" 27 994 1010
+)
+"latexmacros.ml" 77 2217 2219 "latexmacros.ml" 77 2217 2251
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 78 2254 2256 "latexmacros.ml" 78 2254 2269
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"latexmacros.ml" 78 2254 2270 "latexmacros.ml" 78 2254 2283
+type(
+  string
+)
+"latexmacros.ml" 78 2254 2256 "latexmacros.ml" 78 2254 2283
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 79 2286 2288 "latexmacros.ml" 79 2286 2307
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t -> unit
+)
+ident(
+  int_ref hidden_pretty_table "latexmacros.ml" 48 1503 1507 "latexmacros.ml" 48 1503 1526
+)
+"latexmacros.ml" 79 2286 2308 "latexmacros.ml" 79 2286 2319
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref local_table "latexmacros.ml" 26 958 962 "latexmacros.ml" 26 958 973
+)
+"latexmacros.ml" 79 2286 2288 "latexmacros.ml" 79 2286 2319
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 78 2254 2256 "latexmacros.ml" 79 2286 2319
+type(
+  unit
+)
+"latexmacros.ml" 77 2217 2219 "latexmacros.ml" 79 2286 2319
+type(
+  unit
+)
+"latexmacros.ml" 76 2184 2186 "latexmacros.ml" 79 2286 2319
+type(
+  unit
+)
+"latexmacros.ml" 75 2118 2120 "latexmacros.ml" 79 2286 2319
+type(
+  unit
+)
+"latexmacros.ml" 81 2321 2325 "latexmacros.ml" 81 2321 2335
+type(
+  unit ->
+  int * Strings.t * Strings.t MyStack.saved *
+  (string, unit -> unit) Hashtbl.t *
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t *
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t * Strings.t
+)
+ident(
+  def checkpoint "latexmacros.ml" 100 2976 2976 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 81 2321 2336 "latexmacros.ml" 81 2321 2338
+type(
+  unit
+)
+"latexmacros.ml" 82 2341 2343 "latexmacros.ml" 82 2341 2344
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 82 2341 2344 "latexmacros.ml" 82 2341 2355
+type(
+  int ref
+)
+ident(
+  int_ref group_level "latexmacros.ml" 33 1174 1178 "latexmacros.ml" 33 1174 1189
+)
+"latexmacros.ml" 82 2341 2343 "latexmacros.ml" 82 2341 2355
+type(
+  int
+)
+"latexmacros.ml" 82 2341 2357 "latexmacros.ml" 82 2341 2358
+type(
+  Strings.t ref -> Strings.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 82 2341 2358 "latexmacros.ml" 82 2341 2363
+type(
+  Strings.t ref
+)
+ident(
+  int_ref purge "latexmacros.ml" 31 1103 1107 "latexmacros.ml" 31 1103 1112
+)
+"latexmacros.ml" 82 2341 2357 "latexmacros.ml" 82 2341 2363
+type(
+  Strings.t
+)
+"latexmacros.ml" 82 2341 2365 "latexmacros.ml" 82 2341 2377
+type(
+  Strings.t MyStack.t -> Strings.t MyStack.saved
+)
+ident(
+  ext_ref MyStack.save
+)
+"latexmacros.ml" 82 2341 2378 "latexmacros.ml" 82 2341 2389
+type(
+  Strings.t MyStack.t
+)
+ident(
+  int_ref purge_stack "latexmacros.ml" 32 1133 1137 "latexmacros.ml" 32 1133 1148
+)
+"latexmacros.ml" 82 2341 2365 "latexmacros.ml" 82 2341 2389
+call(
+  stack
+)
+type(
+  Strings.t MyStack.saved
+)
+"latexmacros.ml" 83 2391 2393 "latexmacros.ml" 83 2391 2405
+type(
+  (string, unit -> unit) Hashtbl.t -> (string, unit -> unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.copy
+)
+"latexmacros.ml" 83 2391 2406 "latexmacros.ml" 83 2391 2416
+type(
+  (string, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref prim_table "latexmacros.ml" 28 1031 1035 "latexmacros.ml" 28 1031 1045
+)
+"latexmacros.ml" 83 2391 2393 "latexmacros.ml" 83 2391 2416
+call(
+  stack
+)
+type(
+  (string, unit -> unit) Hashtbl.t
+)
+"latexmacros.ml" 84 2418 2420 "latexmacros.ml" 84 2418 2432
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.copy
+)
+"latexmacros.ml" 84 2418 2433 "latexmacros.ml" 84 2418 2445
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref global_table "latexmacros.ml" 27 994 998 "latexmacros.ml" 27 994 1010
+)
+"latexmacros.ml" 84 2418 2420 "latexmacros.ml" 84 2418 2445
+call(
+  stack
+)
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+"latexmacros.ml" 84 2418 2447 "latexmacros.ml" 84 2418 2459
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.copy
+)
+"latexmacros.ml" 84 2418 2460 "latexmacros.ml" 84 2418 2471
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref local_table "latexmacros.ml" 26 958 962 "latexmacros.ml" 26 958 973
+)
+"latexmacros.ml" 84 2418 2447 "latexmacros.ml" 84 2418 2471
+call(
+  stack
+)
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+"latexmacros.ml" 85 2473 2475 "latexmacros.ml" 85 2473 2476
+type(
+  Strings.t ref -> Strings.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 85 2473 2476 "latexmacros.ml" 85 2473 2488
+type(
+  Strings.t ref
+)
+ident(
+  int_ref known_macros "latexmacros.ml" 29 1065 1069 "latexmacros.ml" 29 1065 1081
+)
+"latexmacros.ml" 85 2473 2475 "latexmacros.ml" 85 2473 2488
+type(
+  Strings.t
+)
+"latexmacros.ml" 82 2341 2343 "latexmacros.ml" 85 2473 2488
+type(
+  int * Strings.t * Strings.t MyStack.saved *
+  (string, unit -> unit) Hashtbl.t *
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t *
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t * Strings.t
+)
+"latexmacros.ml" 87 2490 2494 "latexmacros.ml" 87 2490 2503
+type(
+  int * Strings.t * Strings.t MyStack.saved *
+  (string, unit -> unit) Hashtbl.t *
+  (string, Lexstate.pat * Lexstate.action) Hashtbl.t *
+  (string, Lexstate.pat * Lexstate.action) Hashtbl.t * Strings.t -> unit
+)
+ident(
+  def hot_start "latexmacros.ml" 100 2976 2976 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 87 2490 2505 "latexmacros.ml" 87 2490 2518
+type(
+  int
+)
+ident(
+  def level_checked "latexmacros.ml" 91 2663 2665 "latexmacros.ml" 97 2919 2950
+)
+"latexmacros.ml" 87 2490 2520 "latexmacros.ml" 87 2490 2533
+type(
+  Strings.t
+)
+ident(
+  def purge_checked "latexmacros.ml" 91 2663 2665 "latexmacros.ml" 97 2919 2950
+)
+"latexmacros.ml" 87 2490 2535 "latexmacros.ml" 87 2490 2554
+type(
+  Strings.t MyStack.saved
+)
+ident(
+  def purge_stack_checked "latexmacros.ml" 91 2663 2665 "latexmacros.ml" 97 2919 2950
+)
+"latexmacros.ml" 88 2556 2571 "latexmacros.ml" 88 2556 2583
+type(
+  (string, unit -> unit) Hashtbl.t
+)
+ident(
+  def prim_checked "latexmacros.ml" 91 2663 2665 "latexmacros.ml" 97 2919 2950
+)
+"latexmacros.ml" 89 2585 2600 "latexmacros.ml" 89 2585 2614
+type(
+  (string, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  def global_checked "latexmacros.ml" 91 2663 2665 "latexmacros.ml" 97 2919 2950
+)
+"latexmacros.ml" 89 2585 2616 "latexmacros.ml" 89 2585 2629
+type(
+  (string, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  def local_checked "latexmacros.ml" 91 2663 2665 "latexmacros.ml" 97 2919 2950
+)
+"latexmacros.ml" 90 2631 2646 "latexmacros.ml" 90 2631 2659
+type(
+  Strings.t
+)
+ident(
+  def known_checked "latexmacros.ml" 91 2663 2665 "latexmacros.ml" 97 2919 2950
+)
+"latexmacros.ml" 87 2490 2504 "latexmacros.ml" 90 2631 2660
+type(
+  int * Strings.t * Strings.t MyStack.saved *
+  (string, unit -> unit) Hashtbl.t *
+  (string, Lexstate.pat * Lexstate.action) Hashtbl.t *
+  (string, Lexstate.pat * Lexstate.action) Hashtbl.t * Strings.t
+)
+"latexmacros.ml" 91 2663 2665 "latexmacros.ml" 91 2663 2676
+type(
+  int ref
+)
+ident(
+  int_ref group_level "latexmacros.ml" 33 1174 1178 "latexmacros.ml" 33 1174 1189
+)
+"latexmacros.ml" 91 2663 2677 "latexmacros.ml" 91 2663 2679
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"latexmacros.ml" 91 2663 2680 "latexmacros.ml" 91 2663 2693
+type(
+  int
+)
+ident(
+  int_ref level_checked "latexmacros.ml" 87 2490 2505 "latexmacros.ml" 87 2490 2518
+)
+"latexmacros.ml" 91 2663 2665 "latexmacros.ml" 91 2663 2693
+type(
+  unit
+)
+"latexmacros.ml" 92 2696 2698 "latexmacros.ml" 92 2696 2703
+type(
+  Strings.t ref
+)
+ident(
+  int_ref purge "latexmacros.ml" 31 1103 1107 "latexmacros.ml" 31 1103 1112
+)
+"latexmacros.ml" 92 2696 2704 "latexmacros.ml" 92 2696 2706
+type(
+  Strings.t ref -> Strings.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"latexmacros.ml" 92 2696 2707 "latexmacros.ml" 92 2696 2720
+type(
+  Strings.t
+)
+ident(
+  int_ref purge_checked "latexmacros.ml" 87 2490 2520 "latexmacros.ml" 87 2490 2533
+)
+"latexmacros.ml" 92 2696 2698 "latexmacros.ml" 92 2696 2720
+type(
+  unit
+)
+"latexmacros.ml" 93 2723 2725 "latexmacros.ml" 93 2723 2740
+type(
+  Strings.t MyStack.t -> Strings.t MyStack.saved -> unit
+)
+ident(
+  ext_ref MyStack.restore
+)
+"latexmacros.ml" 93 2723 2741 "latexmacros.ml" 93 2723 2752
+type(
+  Strings.t MyStack.t
+)
+ident(
+  int_ref purge_stack "latexmacros.ml" 32 1133 1137 "latexmacros.ml" 32 1133 1148
+)
+"latexmacros.ml" 93 2723 2753 "latexmacros.ml" 93 2723 2772
+type(
+  Strings.t MyStack.saved
+)
+ident(
+  int_ref purge_stack_checked "latexmacros.ml" 87 2490 2535 "latexmacros.ml" 87 2490 2554
+)
+"latexmacros.ml" 93 2723 2725 "latexmacros.ml" 93 2723 2772
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 94 2775 2777 "latexmacros.ml" 94 2775 2794
+type(
+  (string, unit -> unit) Hashtbl.t ->
+  (string, unit -> unit) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Misc.copy_hashtbl
+)
+"latexmacros.ml" 94 2775 2795 "latexmacros.ml" 94 2775 2807
+type(
+  (string, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref prim_checked "latexmacros.ml" 88 2556 2571 "latexmacros.ml" 88 2556 2583
+)
+"latexmacros.ml" 94 2775 2808 "latexmacros.ml" 94 2775 2818
+type(
+  (string, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref prim_table "latexmacros.ml" 28 1031 1035 "latexmacros.ml" 28 1031 1045
+)
+"latexmacros.ml" 94 2775 2777 "latexmacros.ml" 94 2775 2818
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 95 2821 2823 "latexmacros.ml" 95 2821 2840
+type(
+  (string, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Misc.copy_hashtbl
+)
+"latexmacros.ml" 95 2821 2841 "latexmacros.ml" 95 2821 2855
+type(
+  (string, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref global_checked "latexmacros.ml" 89 2585 2600 "latexmacros.ml" 89 2585 2614
+)
+"latexmacros.ml" 95 2821 2856 "latexmacros.ml" 95 2821 2868
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref global_table "latexmacros.ml" 27 994 998 "latexmacros.ml" 27 994 1010
+)
+"latexmacros.ml" 95 2821 2823 "latexmacros.ml" 95 2821 2868
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 96 2871 2873 "latexmacros.ml" 96 2871 2890
+type(
+  (string, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Misc.copy_hashtbl
+)
+"latexmacros.ml" 96 2871 2891 "latexmacros.ml" 96 2871 2904
+type(
+  (string, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref local_checked "latexmacros.ml" 89 2585 2616 "latexmacros.ml" 89 2585 2629
+)
+"latexmacros.ml" 96 2871 2905 "latexmacros.ml" 96 2871 2916
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref local_table "latexmacros.ml" 26 958 962 "latexmacros.ml" 26 958 973
+)
+"latexmacros.ml" 96 2871 2873 "latexmacros.ml" 96 2871 2916
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 97 2919 2921 "latexmacros.ml" 97 2919 2933
+type(
+  Strings.t ref
+)
+ident(
+  int_ref known_macros "latexmacros.ml" 29 1065 1069 "latexmacros.ml" 29 1065 1081
+)
+"latexmacros.ml" 97 2919 2934 "latexmacros.ml" 97 2919 2936
+type(
+  Strings.t ref -> Strings.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"latexmacros.ml" 97 2919 2937 "latexmacros.ml" 97 2919 2950
+type(
+  Strings.t
+)
+ident(
+  int_ref known_checked "latexmacros.ml" 90 2631 2646 "latexmacros.ml" 90 2631 2659
+)
+"latexmacros.ml" 97 2919 2921 "latexmacros.ml" 97 2919 2950
+type(
+  unit
+)
+"latexmacros.ml" 96 2871 2873 "latexmacros.ml" 97 2919 2950
+type(
+  unit
+)
+"latexmacros.ml" 95 2821 2823 "latexmacros.ml" 97 2919 2950
+type(
+  unit
+)
+"latexmacros.ml" 94 2775 2777 "latexmacros.ml" 97 2919 2950
+type(
+  unit
+)
+"latexmacros.ml" 93 2723 2725 "latexmacros.ml" 97 2919 2950
+type(
+  unit
+)
+"latexmacros.ml" 92 2696 2698 "latexmacros.ml" 97 2919 2950
+type(
+  unit
+)
+"latexmacros.ml" 91 2663 2665 "latexmacros.ml" 97 2919 2950
+type(
+  unit
+)
+"latexmacros.ml" 100 2976 2980 "latexmacros.ml" 100 2976 2990
+type(
+  unit -> unit
+)
+ident(
+  def open_group "latexmacros.ml" 113 3316 3316 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 100 2976 2991 "latexmacros.ml" 100 2976 2993
+type(
+  unit
+)
+"latexmacros.ml" 101 2996 2998 "latexmacros.ml" 101 2996 3002
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"latexmacros.ml" 101 2996 3003 "latexmacros.ml" 101 2996 3014
+type(
+  int ref
+)
+ident(
+  int_ref group_level "latexmacros.ml" 33 1174 1178 "latexmacros.ml" 33 1174 1189
+)
+"latexmacros.ml" 101 2996 2998 "latexmacros.ml" 101 2996 3014
+type(
+  unit
+)
+"latexmacros.ml" 102 3017 3019 "latexmacros.ml" 102 3017 3031
+type(
+  Strings.t MyStack.t -> Strings.t -> unit
+)
+ident(
+  ext_ref MyStack.push
+)
+"latexmacros.ml" 102 3017 3032 "latexmacros.ml" 102 3017 3043
+type(
+  Strings.t MyStack.t
+)
+ident(
+  int_ref purge_stack "latexmacros.ml" 32 1133 1137 "latexmacros.ml" 32 1133 1148
+)
+"latexmacros.ml" 102 3017 3044 "latexmacros.ml" 102 3017 3045
+type(
+  Strings.t ref -> Strings.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 102 3017 3045 "latexmacros.ml" 102 3017 3050
+type(
+  Strings.t ref
+)
+ident(
+  int_ref purge "latexmacros.ml" 31 1103 1107 "latexmacros.ml" 31 1103 1112
+)
+"latexmacros.ml" 102 3017 3044 "latexmacros.ml" 102 3017 3050
+type(
+  Strings.t
+)
+"latexmacros.ml" 102 3017 3019 "latexmacros.ml" 102 3017 3050
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 103 3053 3055 "latexmacros.ml" 103 3053 3060
+type(
+  Strings.t ref
+)
+ident(
+  int_ref purge "latexmacros.ml" 31 1103 1107 "latexmacros.ml" 31 1103 1112
+)
+"latexmacros.ml" 103 3053 3061 "latexmacros.ml" 103 3053 3063
+type(
+  Strings.t ref -> Strings.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"latexmacros.ml" 103 3053 3064 "latexmacros.ml" 103 3053 3077
+type(
+  Strings.t
+)
+ident(
+  ext_ref Strings.empty
+)
+"latexmacros.ml" 103 3053 3055 "latexmacros.ml" 103 3053 3077
+type(
+  unit
+)
+"latexmacros.ml" 102 3017 3019 "latexmacros.ml" 103 3053 3077
+type(
+  unit
+)
+"latexmacros.ml" 101 2996 2998 "latexmacros.ml" 103 3053 3077
+type(
+  unit
+)
+"latexmacros.ml" 105 3079 3083 "latexmacros.ml" 105 3079 3094
+type(
+  unit -> unit
+)
+ident(
+  def close_group "latexmacros.ml" 113 3316 3316 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 105 3079 3095 "latexmacros.ml" 105 3079 3097
+type(
+  unit
+)
+"latexmacros.ml" 106 3100 3105 "latexmacros.ml" 106 3100 3106
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 106 3100 3106 "latexmacros.ml" 106 3100 3117
+type(
+  int ref
+)
+ident(
+  int_ref group_level "latexmacros.ml" 33 1174 1178 "latexmacros.ml" 33 1174 1189
+)
+"latexmacros.ml" 106 3100 3105 "latexmacros.ml" 106 3100 3117
+type(
+  int
+)
+"latexmacros.ml" 106 3100 3118 "latexmacros.ml" 106 3100 3119
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"latexmacros.ml" 106 3100 3120 "latexmacros.ml" 106 3100 3121
+type(
+  int
+)
+"latexmacros.ml" 106 3100 3105 "latexmacros.ml" 106 3100 3121
+type(
+  bool
+)
+"latexmacros.ml" 107 3175 3179 "latexmacros.ml" 107 3175 3191
+type(
+  (Strings.elt -> unit) -> Strings.t -> unit
+)
+ident(
+  ext_ref Strings.iter
+)
+"latexmacros.ml" 108 3192 3203 "latexmacros.ml" 108 3192 3207
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 108 3192 3211 "latexmacros.ml" 108 3192 3242
+)
+"latexmacros.ml" 108 3192 3211 "latexmacros.ml" 108 3192 3225
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  Strings.elt -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"latexmacros.ml" 108 3192 3226 "latexmacros.ml" 108 3192 3237
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref local_table "latexmacros.ml" 26 958 962 "latexmacros.ml" 26 958 973
+)
+"latexmacros.ml" 108 3192 3238 "latexmacros.ml" 108 3192 3242
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 108 3192 3203 "latexmacros.ml" 108 3192 3207
+)
+"latexmacros.ml" 108 3192 3211 "latexmacros.ml" 108 3192 3242
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 108 3192 3198 "latexmacros.ml" 108 3192 3243
+type(
+  Strings.elt -> unit
+)
+"latexmacros.ml" 109 3244 3250 "latexmacros.ml" 109 3244 3251
+type(
+  Strings.t ref -> Strings.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 109 3244 3251 "latexmacros.ml" 109 3244 3256
+type(
+  Strings.t ref
+)
+ident(
+  int_ref purge "latexmacros.ml" 31 1103 1107 "latexmacros.ml" 31 1103 1112
+)
+"latexmacros.ml" 109 3244 3250 "latexmacros.ml" 109 3244 3256
+type(
+  Strings.t
+)
+"latexmacros.ml" 107 3175 3179 "latexmacros.ml" 109 3244 3256
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 106 3100 3102 "latexmacros.ml" 109 3244 3256
+type(
+  unit
+)
+"latexmacros.ml" 110 3259 3261 "latexmacros.ml" 110 3259 3265
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.decr
+)
+"latexmacros.ml" 110 3259 3266 "latexmacros.ml" 110 3259 3277
+type(
+  int ref
+)
+ident(
+  int_ref group_level "latexmacros.ml" 33 1174 1178 "latexmacros.ml" 33 1174 1189
+)
+"latexmacros.ml" 110 3259 3261 "latexmacros.ml" 110 3259 3277
+type(
+  unit
+)
+"latexmacros.ml" 111 3280 3282 "latexmacros.ml" 111 3280 3287
+type(
+  Strings.t ref
+)
+ident(
+  int_ref purge "latexmacros.ml" 31 1103 1107 "latexmacros.ml" 31 1103 1112
+)
+"latexmacros.ml" 111 3280 3288 "latexmacros.ml" 111 3280 3290
+type(
+  Strings.t ref -> Strings.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"latexmacros.ml" 111 3280 3291 "latexmacros.ml" 111 3280 3302
+type(
+  Strings.t MyStack.t -> Strings.t
+)
+ident(
+  ext_ref MyStack.pop
+)
+"latexmacros.ml" 111 3280 3303 "latexmacros.ml" 111 3280 3314
+type(
+  Strings.t MyStack.t
+)
+ident(
+  int_ref purge_stack "latexmacros.ml" 32 1133 1137 "latexmacros.ml" 32 1133 1148
+)
+"latexmacros.ml" 111 3280 3291 "latexmacros.ml" 111 3280 3314
+call(
+  stack
+)
+type(
+  Strings.t
+)
+"latexmacros.ml" 111 3280 3282 "latexmacros.ml" 111 3280 3314
+type(
+  unit
+)
+"latexmacros.ml" 110 3259 3261 "latexmacros.ml" 111 3280 3314
+type(
+  unit
+)
+"latexmacros.ml" 106 3100 3102 "latexmacros.ml" 111 3280 3314
+type(
+  unit
+)
+"latexmacros.ml" 113 3316 3320 "latexmacros.ml" 113 3316 3329
+type(
+  unit -> int
+)
+ident(
+  def get_level "latexmacros.ml" 116 3398 3398 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 113 3316 3330 "latexmacros.ml" 113 3316 3332
+type(
+  unit
+)
+"latexmacros.ml" 113 3316 3335 "latexmacros.ml" 113 3316 3336
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 113 3316 3336 "latexmacros.ml" 113 3316 3347
+type(
+  int ref
+)
+ident(
+  int_ref group_level "latexmacros.ml" 33 1174 1178 "latexmacros.ml" 33 1174 1189
+)
+"latexmacros.ml" 113 3316 3335 "latexmacros.ml" 113 3316 3347
+type(
+  int
+)
+"latexmacros.ml" 116 3398 3402 "latexmacros.ml" 116 3398 3411
+type(
+  Strings.elt -> Strings.t -> Strings.t
+)
+ident(
+  def pre_purge "latexmacros.ml" 124 3572 3572 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 116 3398 3412 "latexmacros.ml" 116 3398 3416
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 116 3398 3417 "latexmacros.ml" 121 3543 3552
+)
+"latexmacros.ml" 116 3398 3417 "latexmacros.ml" 116 3398 3422
+type(
+  Strings.t
+)
+ident(
+  def purge "latexmacros.ml" 117 3425 3427 "latexmacros.ml" 121 3543 3552
+)
+"latexmacros.ml" 117 3425 3430 "latexmacros.ml" 117 3425 3441
+type(
+  Strings.elt -> Strings.t -> bool
+)
+ident(
+  ext_ref Strings.mem
+)
+"latexmacros.ml" 117 3425 3442 "latexmacros.ml" 117 3425 3446
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 116 3398 3412 "latexmacros.ml" 116 3398 3416
+)
+"latexmacros.ml" 117 3425 3447 "latexmacros.ml" 117 3425 3452
+type(
+  Strings.t
+)
+ident(
+  int_ref purge "latexmacros.ml" 116 3398 3417 "latexmacros.ml" 116 3398 3422
+)
+"latexmacros.ml" 117 3425 3430 "latexmacros.ml" 117 3425 3452
+call(
+  stack
+)
+type(
+  bool
+)
+"latexmacros.ml" 118 3464 3468 "latexmacros.ml" 118 3464 3482
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  Strings.elt -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"latexmacros.ml" 118 3464 3483 "latexmacros.ml" 118 3464 3494
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref local_table "latexmacros.ml" 26 958 962 "latexmacros.ml" 26 958 973
+)
+"latexmacros.ml" 118 3464 3495 "latexmacros.ml" 118 3464 3499
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 116 3398 3412 "latexmacros.ml" 116 3398 3416
+)
+"latexmacros.ml" 118 3464 3468 "latexmacros.ml" 118 3464 3499
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 119 3502 3506 "latexmacros.ml" 119 3502 3520
+type(
+  Strings.elt -> Strings.t -> Strings.t
+)
+ident(
+  ext_ref Strings.remove
+)
+"latexmacros.ml" 119 3502 3521 "latexmacros.ml" 119 3502 3525
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 116 3398 3412 "latexmacros.ml" 116 3398 3416
+)
+"latexmacros.ml" 119 3502 3526 "latexmacros.ml" 119 3502 3531
+type(
+  Strings.t
+)
+ident(
+  int_ref purge "latexmacros.ml" 116 3398 3417 "latexmacros.ml" 116 3398 3422
+)
+"latexmacros.ml" 119 3502 3506 "latexmacros.ml" 119 3502 3531
+call(
+  tail
+)
+type(
+  Strings.t
+)
+"latexmacros.ml" 117 3425 3458 "latexmacros.ml" 120 3532 3537
+type(
+  Strings.t
+)
+"latexmacros.ml" 121 3543 3547 "latexmacros.ml" 121 3543 3552
+type(
+  Strings.t
+)
+ident(
+  int_ref purge "latexmacros.ml" 116 3398 3417 "latexmacros.ml" 116 3398 3422
+)
+"latexmacros.ml" 117 3425 3427 "latexmacros.ml" 121 3543 3552
+type(
+  Strings.t
+)
+"latexmacros.ml" 124 3572 3576 "latexmacros.ml" 124 3572 3593
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action -> unit
+)
+ident(
+  def hidden_global_def "latexmacros.ml" 135 3911 3911 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 124 3572 3594 "latexmacros.ml" 124 3572 3598
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 124 3572 3599 "latexmacros.ml" 133 3872 3909
+)
+"latexmacros.ml" 124 3572 3599 "latexmacros.ml" 124 3572 3600
+type(
+  Lexstate.pat * Lexstate.action
+)
+ident(
+  def x "latexmacros.ml" 125 3603 3605 "latexmacros.ml" 133 3872 3909
+)
+"latexmacros.ml" 125 3603 3608 "latexmacros.ml" 125 3603 3609
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 125 3603 3609 "latexmacros.ml" 125 3603 3620
+type(
+  int ref
+)
+ident(
+  int_ref group_level "latexmacros.ml" 33 1174 1178 "latexmacros.ml" 33 1174 1189
+)
+"latexmacros.ml" 125 3603 3608 "latexmacros.ml" 125 3603 3620
+type(
+  int
+)
+"latexmacros.ml" 125 3603 3621 "latexmacros.ml" 125 3603 3622
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"latexmacros.ml" 125 3603 3623 "latexmacros.ml" 125 3603 3624
+type(
+  int
+)
+"latexmacros.ml" 125 3603 3608 "latexmacros.ml" 125 3603 3624
+type(
+  bool
+)
+"latexmacros.ml" 125 3603 3625 "latexmacros.ml" 125 3603 3627
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"latexmacros.ml" 125 3603 3628 "latexmacros.ml" 125 3603 3639
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  Strings.elt -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"latexmacros.ml" 125 3603 3640 "latexmacros.ml" 125 3603 3651
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref local_table "latexmacros.ml" 26 958 962 "latexmacros.ml" 26 958 973
+)
+"latexmacros.ml" 125 3603 3652 "latexmacros.ml" 125 3603 3656
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 124 3572 3594 "latexmacros.ml" 124 3572 3598
+)
+"latexmacros.ml" 125 3603 3628 "latexmacros.ml" 125 3603 3656
+call(
+  stack
+)
+type(
+  bool
+)
+"latexmacros.ml" 125 3603 3608 "latexmacros.ml" 125 3603 3656
+type(
+  bool
+)
+"latexmacros.ml" 130 3763 3767 "latexmacros.ml" 130 3763 3772
+type(
+  Strings.t ref
+)
+ident(
+  int_ref purge "latexmacros.ml" 31 1103 1107 "latexmacros.ml" 31 1103 1112
+)
+"latexmacros.ml" 130 3763 3773 "latexmacros.ml" 130 3763 3775
+type(
+  Strings.t ref -> Strings.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"latexmacros.ml" 130 3763 3776 "latexmacros.ml" 130 3763 3785
+type(
+  Strings.elt -> Strings.t -> Strings.t
+)
+ident(
+  int_ref pre_purge "latexmacros.ml" 116 3398 3402 "latexmacros.ml" 116 3398 3411
+)
+"latexmacros.ml" 130 3763 3786 "latexmacros.ml" 130 3763 3790
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 124 3572 3594 "latexmacros.ml" 124 3572 3598
+)
+"latexmacros.ml" 130 3763 3791 "latexmacros.ml" 130 3763 3792
+type(
+  Strings.t ref -> Strings.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 130 3763 3792 "latexmacros.ml" 130 3763 3797
+type(
+  Strings.t ref
+)
+ident(
+  int_ref purge "latexmacros.ml" 31 1103 1107 "latexmacros.ml" 31 1103 1112
+)
+"latexmacros.ml" 130 3763 3791 "latexmacros.ml" 130 3763 3797
+type(
+  Strings.t
+)
+"latexmacros.ml" 130 3763 3776 "latexmacros.ml" 130 3763 3797
+call(
+  stack
+)
+type(
+  Strings.t
+)
+"latexmacros.ml" 130 3763 3767 "latexmacros.ml" 130 3763 3797
+type(
+  unit
+)
+"latexmacros.ml" 131 3800 3804 "latexmacros.ml" 131 3800 3815
+type(
+  Strings.t MyStack.t -> (Strings.t -> Strings.t) -> unit
+)
+ident(
+  ext_ref MyStack.map
+)
+"latexmacros.ml" 131 3800 3816 "latexmacros.ml" 131 3800 3827
+type(
+  Strings.t MyStack.t
+)
+ident(
+  int_ref purge_stack "latexmacros.ml" 32 1133 1137 "latexmacros.ml" 32 1133 1148
+)
+"latexmacros.ml" 131 3800 3833 "latexmacros.ml" 131 3800 3838
+type(
+  Strings.t
+)
+ident(
+  def purge "latexmacros.ml" 131 3800 3842 "latexmacros.ml" 131 3800 3862
+)
+"latexmacros.ml" 131 3800 3842 "latexmacros.ml" 131 3800 3851
+type(
+  Strings.elt -> Strings.t -> Strings.t
+)
+ident(
+  int_ref pre_purge "latexmacros.ml" 116 3398 3402 "latexmacros.ml" 116 3398 3411
+)
+"latexmacros.ml" 131 3800 3852 "latexmacros.ml" 131 3800 3856
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 124 3572 3594 "latexmacros.ml" 124 3572 3598
+)
+"latexmacros.ml" 131 3800 3857 "latexmacros.ml" 131 3800 3862
+type(
+  Strings.t
+)
+ident(
+  int_ref purge "latexmacros.ml" 131 3800 3833 "latexmacros.ml" 131 3800 3838
+)
+"latexmacros.ml" 131 3800 3842 "latexmacros.ml" 131 3800 3862
+call(
+  tail
+)
+type(
+  Strings.t
+)
+"latexmacros.ml" 131 3800 3828 "latexmacros.ml" 131 3800 3863
+type(
+  Strings.t -> Strings.t
+)
+"latexmacros.ml" 131 3800 3804 "latexmacros.ml" 131 3800 3863
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 125 3603 3662 "latexmacros.ml" 132 3864 3869
+type(
+  unit
+)
+"latexmacros.ml" 125 3603 3605 "latexmacros.ml" 132 3864 3869
+type(
+  unit
+)
+"latexmacros.ml" 133 3872 3874 "latexmacros.ml" 133 3872 3889
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  Strings.elt -> Lexstate.pat * Lexstate.action -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"latexmacros.ml" 133 3872 3890 "latexmacros.ml" 133 3872 3902
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref global_table "latexmacros.ml" 27 994 998 "latexmacros.ml" 27 994 1010
+)
+"latexmacros.ml" 133 3872 3903 "latexmacros.ml" 133 3872 3907
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 124 3572 3594 "latexmacros.ml" 124 3572 3598
+)
+"latexmacros.ml" 133 3872 3908 "latexmacros.ml" 133 3872 3909
+type(
+  Lexstate.pat * Lexstate.action
+)
+ident(
+  int_ref x "latexmacros.ml" 124 3572 3599 "latexmacros.ml" 124 3572 3600
+)
+"latexmacros.ml" 133 3872 3874 "latexmacros.ml" 133 3872 3909
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 125 3603 3605 "latexmacros.ml" 133 3872 3909
+type(
+  unit
+)
+"latexmacros.ml" 135 3911 3915 "latexmacros.ml" 135 3911 3931
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action -> unit
+)
+ident(
+  def hidden_local_def "latexmacros.ml" 146 4294 4294 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 135 3911 3932 "latexmacros.ml" 135 3911 3936
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 135 3911 3937 "latexmacros.ml" 144 4287 4292
+)
+"latexmacros.ml" 135 3911 3937 "latexmacros.ml" 135 3911 3938
+type(
+  Lexstate.pat * Lexstate.action
+)
+ident(
+  def x "latexmacros.ml" 136 3941 3943 "latexmacros.ml" 144 4287 4292
+)
+"latexmacros.ml" 136 3941 3946 "latexmacros.ml" 136 3941 3947
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 136 3941 3947 "latexmacros.ml" 136 3941 3958
+type(
+  int ref
+)
+ident(
+  int_ref group_level "latexmacros.ml" 33 1174 1178 "latexmacros.ml" 33 1174 1189
+)
+"latexmacros.ml" 136 3941 3946 "latexmacros.ml" 136 3941 3958
+type(
+  int
+)
+"latexmacros.ml" 136 3941 3959 "latexmacros.ml" 136 3941 3960
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"latexmacros.ml" 136 3941 3961 "latexmacros.ml" 136 3941 3962
+type(
+  int
+)
+"latexmacros.ml" 136 3941 3946 "latexmacros.ml" 136 3941 3962
+type(
+  bool
+)
+"latexmacros.ml" 137 3993 4000 "latexmacros.ml" 137 3993 4011
+type(
+  Strings.elt -> Strings.t -> bool
+)
+ident(
+  ext_ref Strings.mem
+)
+"latexmacros.ml" 137 3993 4012 "latexmacros.ml" 137 3993 4016
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 135 3911 3932 "latexmacros.ml" 135 3911 3936
+)
+"latexmacros.ml" 137 3993 4017 "latexmacros.ml" 137 3993 4018
+type(
+  Strings.t ref -> Strings.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 137 3993 4018 "latexmacros.ml" 137 3993 4023
+type(
+  Strings.t ref
+)
+ident(
+  int_ref purge "latexmacros.ml" 31 1103 1107 "latexmacros.ml" 31 1103 1112
+)
+"latexmacros.ml" 137 3993 4017 "latexmacros.ml" 137 3993 4023
+type(
+  Strings.t
+)
+"latexmacros.ml" 137 3993 4000 "latexmacros.ml" 137 3993 4023
+call(
+  stack
+)
+type(
+  bool
+)
+"latexmacros.ml" 138 4048 4054 "latexmacros.ml" 138 4048 4068
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  Strings.elt -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"latexmacros.ml" 138 4048 4069 "latexmacros.ml" 138 4048 4080
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref local_table "latexmacros.ml" 26 958 962 "latexmacros.ml" 26 958 973
+)
+"latexmacros.ml" 138 4048 4081 "latexmacros.ml" 138 4048 4085
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 135 3911 3932 "latexmacros.ml" 135 3911 3936
+)
+"latexmacros.ml" 138 4048 4054 "latexmacros.ml" 138 4048 4085
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 140 4133 4139 "latexmacros.ml" 140 4133 4144
+type(
+  Strings.t ref
+)
+ident(
+  int_ref purge "latexmacros.ml" 31 1103 1107 "latexmacros.ml" 31 1103 1112
+)
+"latexmacros.ml" 140 4133 4145 "latexmacros.ml" 140 4133 4147
+type(
+  Strings.t ref -> Strings.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"latexmacros.ml" 140 4133 4148 "latexmacros.ml" 140 4133 4159
+type(
+  Strings.elt -> Strings.t -> Strings.t
+)
+ident(
+  ext_ref Strings.add
+)
+"latexmacros.ml" 140 4133 4160 "latexmacros.ml" 140 4133 4164
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 135 3911 3932 "latexmacros.ml" 135 3911 3936
+)
+"latexmacros.ml" 140 4133 4165 "latexmacros.ml" 140 4133 4166
+type(
+  Strings.t ref -> Strings.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 140 4133 4166 "latexmacros.ml" 140 4133 4171
+type(
+  Strings.t ref
+)
+ident(
+  int_ref purge "latexmacros.ml" 31 1103 1107 "latexmacros.ml" 31 1103 1112
+)
+"latexmacros.ml" 140 4133 4165 "latexmacros.ml" 140 4133 4171
+type(
+  Strings.t
+)
+"latexmacros.ml" 140 4133 4148 "latexmacros.ml" 140 4133 4171
+call(
+  stack
+)
+type(
+  Strings.t
+)
+"latexmacros.ml" 140 4133 4139 "latexmacros.ml" 140 4133 4171
+type(
+  unit
+)
+"latexmacros.ml" 137 3993 3997 "latexmacros.ml" 140 4133 4171
+type(
+  unit
+)
+"latexmacros.ml" 141 4174 4178 "latexmacros.ml" 141 4174 4189
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  Strings.elt -> Lexstate.pat * Lexstate.action -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"latexmacros.ml" 141 4174 4190 "latexmacros.ml" 141 4174 4201
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref local_table "latexmacros.ml" 26 958 962 "latexmacros.ml" 26 958 973
+)
+"latexmacros.ml" 141 4174 4202 "latexmacros.ml" 141 4174 4206
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 135 3911 3932 "latexmacros.ml" 135 3911 3936
+)
+"latexmacros.ml" 141 4174 4207 "latexmacros.ml" 141 4174 4208
+type(
+  Lexstate.pat * Lexstate.action
+)
+ident(
+  int_ref x "latexmacros.ml" 135 3911 3937 "latexmacros.ml" 135 3911 3938
+)
+"latexmacros.ml" 141 4174 4178 "latexmacros.ml" 141 4174 4208
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 136 3941 3968 "latexmacros.ml" 142 4209 4214
+type(
+  unit
+)
+"latexmacros.ml" 143 4247 4251 "latexmacros.ml" 143 4247 4266
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  Strings.elt -> Lexstate.pat * Lexstate.action -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"latexmacros.ml" 143 4247 4267 "latexmacros.ml" 143 4247 4279
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref global_table "latexmacros.ml" 27 994 998 "latexmacros.ml" 27 994 1010
+)
+"latexmacros.ml" 143 4247 4280 "latexmacros.ml" 143 4247 4284
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 135 3911 3932 "latexmacros.ml" 135 3911 3936
+)
+"latexmacros.ml" 143 4247 4285 "latexmacros.ml" 143 4247 4286
+type(
+  Lexstate.pat * Lexstate.action
+)
+ident(
+  int_ref x "latexmacros.ml" 135 3911 3937 "latexmacros.ml" 135 3911 3938
+)
+"latexmacros.ml" 142 4209 4220 "latexmacros.ml" 144 4287 4292
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 136 3941 3943 "latexmacros.ml" 144 4287 4292
+type(
+  unit
+)
+"latexmacros.ml" 146 4294 4298 "latexmacros.ml" 146 4294 4309
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action
+)
+ident(
+  def hidden_find "latexmacros.ml" 153 4490 4490 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 146 4294 4310 "latexmacros.ml" 146 4294 4314
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 147 4317 4319 "latexmacros.ml" 151 4454 4488
+)
+"latexmacros.ml" 147 4317 4322 "latexmacros.ml" 147 4317 4323
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 147 4317 4323 "latexmacros.ml" 147 4317 4334
+type(
+  int ref
+)
+ident(
+  int_ref group_level "latexmacros.ml" 33 1174 1178 "latexmacros.ml" 33 1174 1189
+)
+"latexmacros.ml" 147 4317 4322 "latexmacros.ml" 147 4317 4334
+type(
+  int
+)
+"latexmacros.ml" 147 4317 4335 "latexmacros.ml" 147 4317 4336
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"latexmacros.ml" 147 4317 4337 "latexmacros.ml" 147 4317 4338
+type(
+  int
+)
+"latexmacros.ml" 147 4317 4322 "latexmacros.ml" 147 4317 4338
+type(
+  bool
+)
+"latexmacros.ml" 148 4350 4358 "latexmacros.ml" 148 4350 4370
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  Strings.elt -> Lexstate.pat * Lexstate.action
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"latexmacros.ml" 148 4350 4371 "latexmacros.ml" 148 4350 4382
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref local_table "latexmacros.ml" 26 958 962 "latexmacros.ml" 26 958 973
+)
+"latexmacros.ml" 148 4350 4383 "latexmacros.ml" 148 4350 4387
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 146 4294 4310 "latexmacros.ml" 146 4294 4314
+)
+"latexmacros.ml" 148 4350 4358 "latexmacros.ml" 148 4350 4387
+call(
+  stack
+)
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 149 4393 4399 "latexmacros.ml" 149 4393 4408
+type(
+  exn
+)
+"latexmacros.ml" 149 4393 4412 "latexmacros.ml" 149 4393 4424
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  Strings.elt -> Lexstate.pat * Lexstate.action
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"latexmacros.ml" 149 4393 4425 "latexmacros.ml" 149 4393 4437
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref global_table "latexmacros.ml" 27 994 998 "latexmacros.ml" 27 994 1010
+)
+"latexmacros.ml" 149 4393 4438 "latexmacros.ml" 149 4393 4442
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 146 4294 4310 "latexmacros.ml" 146 4294 4314
+)
+"latexmacros.ml" 149 4393 4412 "latexmacros.ml" 149 4393 4442
+call(
+  tail
+)
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 147 4317 4344 "latexmacros.ml" 150 4443 4448
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 151 4454 4458 "latexmacros.ml" 151 4454 4470
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  Strings.elt -> Lexstate.pat * Lexstate.action
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"latexmacros.ml" 151 4454 4471 "latexmacros.ml" 151 4454 4483
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref global_table "latexmacros.ml" 27 994 998 "latexmacros.ml" 27 994 1010
+)
+"latexmacros.ml" 151 4454 4484 "latexmacros.ml" 151 4454 4488
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 146 4294 4310 "latexmacros.ml" 146 4294 4314
+)
+"latexmacros.ml" 151 4454 4458 "latexmacros.ml" 151 4454 4488
+call(
+  tail
+)
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 147 4317 4319 "latexmacros.ml" 151 4454 4488
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 153 4490 4494 "latexmacros.ml" 153 4490 4510
+type(
+  unit -> unit
+)
+ident(
+  def set_saved_macros "latexmacros.ml" 159 4624 4624 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 153 4490 4511 "latexmacros.ml" 153 4490 4513
+type(
+  unit
+)
+"latexmacros.ml" 154 4516 4518 "latexmacros.ml" 154 4516 4530
+type(
+  Strings.t ref
+)
+ident(
+  int_ref known_macros "latexmacros.ml" 29 1065 1069 "latexmacros.ml" 29 1065 1081
+)
+"latexmacros.ml" 154 4516 4531 "latexmacros.ml" 154 4516 4533
+type(
+  Strings.t ref -> Strings.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"latexmacros.ml" 155 4534 4538 "latexmacros.ml" 155 4534 4550
+type(
+  (Strings.elt -> Lexstate.pat * Lexstate.action -> Strings.t -> Strings.t) ->
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  Strings.t -> Strings.t
+)
+ident(
+  ext_ref Hashtbl.fold
+)
+"latexmacros.ml" 156 4551 4562 "latexmacros.ml" 156 4551 4566
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 156 4551 4567 "latexmacros.ml" 156 4551 4588
+)
+"latexmacros.ml" 156 4551 4567 "latexmacros.ml" 156 4551 4568
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 156 4551 4572 "latexmacros.ml" 156 4551 4583
+type(
+  Strings.elt -> Strings.t -> Strings.t
+)
+ident(
+  ext_ref Strings.add
+)
+"latexmacros.ml" 156 4551 4584 "latexmacros.ml" 156 4551 4588
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 156 4551 4562 "latexmacros.ml" 156 4551 4566
+)
+"latexmacros.ml" 156 4551 4572 "latexmacros.ml" 156 4551 4588
+call(
+  tail
+)
+type(
+  Strings.t -> Strings.t
+)
+"latexmacros.ml" 156 4551 4557 "latexmacros.ml" 156 4551 4589
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action -> Strings.t -> Strings.t
+)
+"latexmacros.ml" 157 4590 4596 "latexmacros.ml" 157 4590 4608
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref global_table "latexmacros.ml" 27 994 998 "latexmacros.ml" 27 994 1010
+)
+"latexmacros.ml" 157 4590 4609 "latexmacros.ml" 157 4590 4622
+type(
+  Strings.t
+)
+ident(
+  ext_ref Strings.empty
+)
+"latexmacros.ml" 155 4534 4538 "latexmacros.ml" 157 4590 4622
+call(
+  stack
+)
+type(
+  Strings.t
+)
+"latexmacros.ml" 154 4516 4518 "latexmacros.ml" 157 4590 4622
+type(
+  unit
+)
+"latexmacros.ml" 159 4624 4628 "latexmacros.ml" 159 4624 4643
+type(
+  Strings.elt -> bool
+)
+ident(
+  def get_saved_macro "latexmacros.ml" 162 4702 4702 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 159 4624 4644 "latexmacros.ml" 159 4624 4648
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 159 4624 4651 "latexmacros.ml" 159 4624 4681
+)
+"latexmacros.ml" 159 4624 4651 "latexmacros.ml" 159 4624 4662
+type(
+  Strings.elt -> Strings.t -> bool
+)
+ident(
+  ext_ref Strings.mem
+)
+"latexmacros.ml" 159 4624 4663 "latexmacros.ml" 159 4624 4667
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 159 4624 4644 "latexmacros.ml" 159 4624 4648
+)
+"latexmacros.ml" 159 4624 4668 "latexmacros.ml" 159 4624 4669
+type(
+  Strings.t ref -> Strings.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 159 4624 4669 "latexmacros.ml" 159 4624 4681
+type(
+  Strings.t ref
+)
+ident(
+  int_ref known_macros "latexmacros.ml" 29 1065 1069 "latexmacros.ml" 29 1065 1081
+)
+"latexmacros.ml" 159 4624 4668 "latexmacros.ml" 159 4624 4681
+type(
+  Strings.t
+)
+"latexmacros.ml" 159 4624 4651 "latexmacros.ml" 159 4624 4681
+call(
+  tail
+)
+type(
+  bool
+)
+"latexmacros.ml" 162 4702 4706 "latexmacros.ml" 162 4702 4719
+type(
+  string -> (unit -> unit) -> unit
+)
+ident(
+  def register_init "latexmacros.ml" 189 5477 5477 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 162 4702 4720 "latexmacros.ml" 162 4702 4724
+type(
+  string
+)
+ident(
+  def name "latexmacros.ml" 162 4702 4725 "latexmacros.ml" 170 4955 5002
+)
+"latexmacros.ml" 162 4702 4725 "latexmacros.ml" 162 4702 4726
+type(
+  unit -> unit
+)
+ident(
+  def f "latexmacros.ml" 163 4729 4731 "latexmacros.ml" 170 4955 5002
+)
+"latexmacros.ml" 163 4729 4734 "latexmacros.ml" 163 4729 4735
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 163 4729 4735 "latexmacros.ml" 163 4729 4742
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"latexmacros.ml" 163 4729 4734 "latexmacros.ml" 163 4729 4742
+type(
+  int
+)
+"latexmacros.ml" 163 4729 4743 "latexmacros.ml" 163 4729 4744
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"latexmacros.ml" 163 4729 4745 "latexmacros.ml" 163 4729 4746
+type(
+  int
+)
+"latexmacros.ml" 163 4729 4734 "latexmacros.ml" 163 4729 4746
+type(
+  bool
+)
+"latexmacros.ml" 164 4752 4756 "latexmacros.ml" 164 4752 4769
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"latexmacros.ml" 164 4752 4771 "latexmacros.ml" 164 4752 4809
+type(
+  string
+)
+"latexmacros.ml" 164 4752 4809 "latexmacros.ml" 164 4752 4810
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"latexmacros.ml" 164 4752 4810 "latexmacros.ml" 164 4752 4814
+type(
+  string
+)
+ident(
+  int_ref name "latexmacros.ml" 162 4702 4720 "latexmacros.ml" 162 4702 4724
+)
+"latexmacros.ml" 164 4752 4770 "latexmacros.ml" 164 4752 4815
+call(
+  stack
+)
+type(
+  string
+)
+"latexmacros.ml" 164 4752 4756 "latexmacros.ml" 164 4752 4815
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 163 4729 4731 "latexmacros.ml" 164 4752 4815
+type(
+  unit
+)
+"latexmacros.ml" 166 4823 4831 "latexmacros.ml" 166 4823 4832
+type(
+  unit -> unit
+)
+"latexmacros.ml" 166 4823 4835 "latexmacros.ml" 166 4823 4847
+type(
+  (string, unit -> unit) Hashtbl.t -> string -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"latexmacros.ml" 166 4823 4848 "latexmacros.ml" 166 4823 4858
+type(
+  (string, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref prim_table "latexmacros.ml" 28 1031 1035 "latexmacros.ml" 28 1031 1045
+)
+"latexmacros.ml" 166 4823 4859 "latexmacros.ml" 166 4823 4863
+type(
+  string
+)
+ident(
+  int_ref name "latexmacros.ml" 162 4702 4720 "latexmacros.ml" 162 4702 4724
+)
+"latexmacros.ml" 166 4823 4835 "latexmacros.ml" 166 4823 4863
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"latexmacros.ml" 167 4867 4871 "latexmacros.ml" 167 4867 4876
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.fatal
+)
+"latexmacros.ml" 168 4877 4884 "latexmacros.ml" 168 4877 4932
+type(
+  string
+)
+"latexmacros.ml" 168 4877 4932 "latexmacros.ml" 168 4877 4933
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"latexmacros.ml" 168 4877 4933 "latexmacros.ml" 168 4877 4937
+type(
+  string
+)
+ident(
+  int_ref name "latexmacros.ml" 162 4702 4720 "latexmacros.ml" 162 4702 4724
+)
+"latexmacros.ml" 168 4877 4937 "latexmacros.ml" 168 4877 4938
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"latexmacros.ml" 168 4877 4938 "latexmacros.ml" 168 4877 4946
+type(
+  string
+)
+"latexmacros.ml" 168 4877 4933 "latexmacros.ml" 168 4877 4946
+call(
+  stack
+)
+type(
+  string
+)
+"latexmacros.ml" 168 4877 4883 "latexmacros.ml" 168 4877 4947
+call(
+  stack
+)
+type(
+  string
+)
+"latexmacros.ml" 167 4867 4871 "latexmacros.ml" 168 4877 4947
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 166 4823 4827 "latexmacros.ml" 168 4877 4947
+type(
+  unit
+)
+"latexmacros.ml" 170 4955 4959 "latexmacros.ml" 170 4955 4968
+type(
+  exn
+)
+"latexmacros.ml" 170 4955 4973 "latexmacros.ml" 170 4955 4984
+type(
+  (string, unit -> unit) Hashtbl.t -> string -> (unit -> unit) -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"latexmacros.ml" 170 4955 4985 "latexmacros.ml" 170 4955 4995
+type(
+  (string, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref prim_table "latexmacros.ml" 28 1031 1035 "latexmacros.ml" 28 1031 1045
+)
+"latexmacros.ml" 170 4955 4996 "latexmacros.ml" 170 4955 5000
+type(
+  string
+)
+ident(
+  int_ref name "latexmacros.ml" 162 4702 4720 "latexmacros.ml" 162 4702 4724
+)
+"latexmacros.ml" 170 4955 5001 "latexmacros.ml" 170 4955 5002
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "latexmacros.ml" 162 4702 4725 "latexmacros.ml" 162 4702 4726
+)
+"latexmacros.ml" 170 4955 4973 "latexmacros.ml" 170 4955 5002
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 165 4817 4819 "latexmacros.ml" 170 4955 5002
+type(
+  unit
+)
+"latexmacros.ml" 163 4729 4731 "latexmacros.ml" 170 4955 5002
+type(
+  unit
+)
+"latexmacros.ml" 172 5004 5008 "latexmacros.ml" 172 5004 5017
+type(
+  string -> unit
+)
+ident(
+  def exec_init "latexmacros.ml" 189 5477 5477 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 172 5004 5018 "latexmacros.ml" 172 5004 5022
+type(
+  string
+)
+ident(
+  def name "latexmacros.ml" 173 5025 5028 "latexmacros.ml" 183 5389 5451
+)
+"latexmacros.ml" 173 5025 5031 "latexmacros.ml" 173 5025 5032
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 173 5025 5032 "latexmacros.ml" 173 5025 5039
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"latexmacros.ml" 173 5025 5031 "latexmacros.ml" 173 5025 5039
+type(
+  int
+)
+"latexmacros.ml" 173 5025 5040 "latexmacros.ml" 173 5025 5041
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"latexmacros.ml" 173 5025 5042 "latexmacros.ml" 173 5025 5043
+type(
+  int
+)
+"latexmacros.ml" 173 5025 5031 "latexmacros.ml" 173 5025 5043
+type(
+  bool
+)
+"latexmacros.ml" 174 5049 5054 "latexmacros.ml" 174 5049 5067
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"latexmacros.ml" 174 5049 5069 "latexmacros.ml" 174 5049 5108
+type(
+  string
+)
+"latexmacros.ml" 174 5049 5108 "latexmacros.ml" 174 5049 5109
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"latexmacros.ml" 174 5049 5109 "latexmacros.ml" 174 5049 5113
+type(
+  string
+)
+ident(
+  int_ref name "latexmacros.ml" 172 5004 5018 "latexmacros.ml" 172 5004 5022
+)
+"latexmacros.ml" 174 5049 5068 "latexmacros.ml" 174 5049 5114
+call(
+  stack
+)
+type(
+  string
+)
+"latexmacros.ml" 174 5049 5054 "latexmacros.ml" 174 5049 5114
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 173 5025 5028 "latexmacros.ml" 174 5049 5114
+type(
+  unit
+)
+"latexmacros.ml" 176 5123 5131 "latexmacros.ml" 176 5123 5132
+type(
+  unit -> unit
+)
+ident(
+  def f "latexmacros.ml" 177 5167 5171 "latexmacros.ml" 181 5298 5368
+)
+"latexmacros.ml" 176 5123 5135 "latexmacros.ml" 176 5123 5147
+type(
+  (string, unit -> unit) Hashtbl.t -> string -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"latexmacros.ml" 176 5123 5148 "latexmacros.ml" 176 5123 5158
+type(
+  (string, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref prim_table "latexmacros.ml" 28 1031 1035 "latexmacros.ml" 28 1031 1045
+)
+"latexmacros.ml" 176 5123 5159 "latexmacros.ml" 176 5123 5163
+type(
+  string
+)
+ident(
+  int_ref name "latexmacros.ml" 172 5004 5018 "latexmacros.ml" 172 5004 5022
+)
+"latexmacros.ml" 176 5123 5135 "latexmacros.ml" 176 5123 5163
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"latexmacros.ml" 177 5167 5171 "latexmacros.ml" 177 5167 5185
+type(
+  (string, unit -> unit) Hashtbl.t -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"latexmacros.ml" 177 5167 5186 "latexmacros.ml" 177 5167 5196
+type(
+  (string, unit -> unit) Hashtbl.t
+)
+ident(
+  int_ref prim_table "latexmacros.ml" 28 1031 1035 "latexmacros.ml" 28 1031 1045
+)
+"latexmacros.ml" 177 5167 5197 "latexmacros.ml" 177 5167 5201
+type(
+  string
+)
+ident(
+  int_ref name "latexmacros.ml" 172 5004 5018 "latexmacros.ml" 172 5004 5022
+)
+"latexmacros.ml" 177 5167 5171 "latexmacros.ml" 177 5167 5201
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 178 5243 5251 "latexmacros.ml" 178 5243 5252
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "latexmacros.ml" 176 5123 5131 "latexmacros.ml" 176 5123 5132
+)
+"latexmacros.ml" 178 5243 5253 "latexmacros.ml" 178 5243 5255
+type(
+  unit
+)
+"latexmacros.ml" 178 5243 5251 "latexmacros.ml" 178 5243 5255
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 179 5261 5267 "latexmacros.ml" 179 5261 5273
+type(
+  exn
+)
+"latexmacros.ml" 180 5277 5285 "latexmacros.ml" 180 5277 5297
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.warning
+)
+"latexmacros.ml" 181 5298 5308 "latexmacros.ml" 181 5298 5362
+type(
+  string
+)
+"latexmacros.ml" 181 5298 5362 "latexmacros.ml" 181 5298 5363
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"latexmacros.ml" 181 5298 5363 "latexmacros.ml" 181 5298 5367
+type(
+  string
+)
+ident(
+  int_ref name "latexmacros.ml" 172 5004 5018 "latexmacros.ml" 172 5004 5022
+)
+"latexmacros.ml" 181 5298 5307 "latexmacros.ml" 181 5298 5368
+call(
+  stack
+)
+type(
+  string
+)
+"latexmacros.ml" 180 5277 5285 "latexmacros.ml" 181 5298 5368
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 178 5243 5247 "latexmacros.ml" 181 5298 5368
+type(
+  unit
+)
+"latexmacros.ml" 177 5167 5171 "latexmacros.ml" 181 5298 5368
+type(
+  unit
+)
+"latexmacros.ml" 176 5123 5127 "latexmacros.ml" 181 5298 5368
+type(
+  unit
+)
+"latexmacros.ml" 182 5369 5376 "latexmacros.ml" 182 5369 5385
+type(
+  exn
+)
+"latexmacros.ml" 183 5389 5393 "latexmacros.ml" 183 5389 5405
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.warning
+)
+"latexmacros.ml" 183 5389 5407 "latexmacros.ml" 183 5389 5445
+type(
+  string
+)
+"latexmacros.ml" 183 5389 5445 "latexmacros.ml" 183 5389 5446
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"latexmacros.ml" 183 5389 5446 "latexmacros.ml" 183 5389 5450
+type(
+  string
+)
+ident(
+  int_ref name "latexmacros.ml" 172 5004 5018 "latexmacros.ml" 172 5004 5022
+)
+"latexmacros.ml" 183 5389 5406 "latexmacros.ml" 183 5389 5451
+call(
+  stack
+)
+type(
+  string
+)
+"latexmacros.ml" 183 5389 5393 "latexmacros.ml" 183 5389 5451
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 175 5117 5119 "latexmacros.ml" 183 5389 5451
+type(
+  unit
+)
+"latexmacros.ml" 173 5025 5028 "latexmacros.ml" 183 5389 5451
+type(
+  unit
+)
+"latexmacros.ml" 189 5477 5481 "latexmacros.ml" 189 5477 5487
+type(
+  Strings.elt -> bool
+)
+ident(
+  def exists "latexmacros.ml" 196 5571 5571 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 189 5477 5488 "latexmacros.ml" 189 5477 5492
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 190 5496 5498 "latexmacros.ml" 193 5546 5568
+)
+"latexmacros.ml" 191 5502 5510 "latexmacros.ml" 191 5502 5511
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 191 5502 5514 "latexmacros.ml" 191 5502 5525
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action
+)
+ident(
+  int_ref hidden_find "latexmacros.ml" 146 4294 4298 "latexmacros.ml" 146 4294 4309
+)
+"latexmacros.ml" 191 5502 5526 "latexmacros.ml" 191 5502 5530
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 189 5477 5488 "latexmacros.ml" 189 5477 5492
+)
+"latexmacros.ml" 191 5502 5514 "latexmacros.ml" 191 5502 5530
+call(
+  stack
+)
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 191 5502 5534 "latexmacros.ml" 191 5502 5538
+type(
+  bool
+)
+"latexmacros.ml" 191 5502 5506 "latexmacros.ml" 191 5502 5538
+type(
+  bool
+)
+"latexmacros.ml" 193 5546 5550 "latexmacros.ml" 193 5546 5559
+type(
+  exn
+)
+"latexmacros.ml" 193 5546 5563 "latexmacros.ml" 193 5546 5568
+type(
+  bool
+)
+"latexmacros.ml" 190 5496 5498 "latexmacros.ml" 193 5546 5568
+type(
+  bool
+)
+"latexmacros.ml" 196 5571 5575 "latexmacros.ml" 196 5571 5579
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action
+)
+ident(
+  def find "latexmacros.ml" 206 5781 5781 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 196 5571 5580 "latexmacros.ml" 196 5571 5584
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 197 5587 5589 "latexmacros.ml" 200 5677 5699
+)
+"latexmacros.ml" 197 5587 5593 "latexmacros.ml" 197 5587 5604
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action
+)
+ident(
+  int_ref hidden_find "latexmacros.ml" 146 4294 4298 "latexmacros.ml" 146 4294 4309
+)
+"latexmacros.ml" 197 5587 5605 "latexmacros.ml" 197 5587 5609
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 196 5571 5580 "latexmacros.ml" 196 5571 5584
+)
+"latexmacros.ml" 197 5587 5593 "latexmacros.ml" 197 5587 5609
+call(
+  stack
+)
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 198 5615 5619 "latexmacros.ml" 198 5615 5628
+type(
+  exn
+)
+"latexmacros.ml" 199 5632 5638 "latexmacros.ml" 199 5632 5645
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.warning
+)
+"latexmacros.ml" 199 5632 5647 "latexmacros.ml" 199 5632 5668
+type(
+  string
+)
+"latexmacros.ml" 199 5632 5668 "latexmacros.ml" 199 5632 5669
+type(
+  string -> Strings.elt -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"latexmacros.ml" 199 5632 5669 "latexmacros.ml" 199 5632 5673
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 196 5571 5580 "latexmacros.ml" 196 5571 5584
+)
+"latexmacros.ml" 199 5632 5646 "latexmacros.ml" 199 5632 5674
+call(
+  stack
+)
+type(
+  string
+)
+"latexmacros.ml" 199 5632 5638 "latexmacros.ml" 199 5632 5674
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 200 5677 5684 "latexmacros.ml" 200 5677 5686
+type(
+  string list
+)
+"latexmacros.ml" 200 5677 5687 "latexmacros.ml" 200 5677 5689
+type(
+  string list
+)
+"latexmacros.ml" 200 5677 5683 "latexmacros.ml" 200 5677 5690
+type(
+  string list * string list
+)
+"latexmacros.ml" 200 5677 5697 "latexmacros.ml" 200 5677 5699
+type(
+  string list
+)
+"latexmacros.ml" 200 5677 5691 "latexmacros.ml" 200 5677 5699
+type(
+  Lexstate.action
+)
+"latexmacros.ml" 200 5677 5683 "latexmacros.ml" 200 5677 5699
+type(
+  (string list * string list) * Lexstate.action
+)
+"latexmacros.ml" 199 5632 5638 "latexmacros.ml" 200 5677 5699
+type(
+  (string list * string list) * Lexstate.action
+)
+"latexmacros.ml" 197 5587 5589 "latexmacros.ml" 200 5677 5699
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 202 5701 5705 "latexmacros.ml" 202 5701 5714
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action
+)
+ident(
+  def find_fail "latexmacros.ml" 206 5781 5781 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 202 5701 5715 "latexmacros.ml" 202 5701 5719
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 203 5722 5724 "latexmacros.ml" 204 5750 5779
+)
+"latexmacros.ml" 203 5722 5728 "latexmacros.ml" 203 5722 5739
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action
+)
+ident(
+  int_ref hidden_find "latexmacros.ml" 146 4294 4298 "latexmacros.ml" 146 4294 4309
+)
+"latexmacros.ml" 203 5722 5740 "latexmacros.ml" 203 5722 5744
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 202 5701 5715 "latexmacros.ml" 202 5701 5719
+)
+"latexmacros.ml" 203 5722 5728 "latexmacros.ml" 203 5722 5744
+call(
+  stack
+)
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 204 5750 5754 "latexmacros.ml" 204 5750 5763
+type(
+  exn
+)
+"latexmacros.ml" 204 5750 5767 "latexmacros.ml" 204 5750 5772
+type(
+  exn -> Lexstate.pat * Lexstate.action
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"latexmacros.ml" 204 5750 5773 "latexmacros.ml" 204 5750 5779
+type(
+  exn
+)
+"latexmacros.ml" 204 5750 5767 "latexmacros.ml" 204 5750 5779
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 203 5722 5724 "latexmacros.ml" 204 5750 5779
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 206 5781 5785 "latexmacros.ml" 206 5781 5799
+type(
+  Strings.elt -> unit
+)
+ident(
+  def pretty_command "latexmacros.ml" 212 5901 5901 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 206 5781 5800 "latexmacros.ml" 206 5781 5804
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 207 5807 5809 "latexmacros.ml" 210 5881 5899
+)
+"latexmacros.ml" 207 5807 5813 "latexmacros.ml" 207 5807 5814
+type(
+  Lexstate.pat
+)
+ident(
+  def n "latexmacros.ml" 208 5834 5836 "latexmacros.ml" 210 5881 5899
+)
+"latexmacros.ml" 207 5807 5815 "latexmacros.ml" 207 5807 5818
+type(
+  Lexstate.action
+)
+ident(
+  def acc "latexmacros.ml" 208 5834 5836 "latexmacros.ml" 210 5881 5899
+)
+"latexmacros.ml" 207 5807 5813 "latexmacros.ml" 207 5807 5818
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 207 5807 5821 "latexmacros.ml" 207 5807 5825
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action
+)
+ident(
+  int_ref find "latexmacros.ml" 196 5571 5575 "latexmacros.ml" 196 5571 5579
+)
+"latexmacros.ml" 207 5807 5826 "latexmacros.ml" 207 5807 5830
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 206 5781 5800 "latexmacros.ml" 206 5781 5804
+)
+"latexmacros.ml" 207 5807 5821 "latexmacros.ml" 207 5807 5830
+call(
+  stack
+)
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 208 5834 5836 "latexmacros.ml" 208 5834 5843
+type(
+  (Strings.elt -> unit, out_channel, unit) format -> Strings.elt -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"latexmacros.ml" 208 5834 5844 "latexmacros.ml" 208 5834 5850
+type(
+  (Strings.elt -> unit, out_channel, unit) format
+)
+"latexmacros.ml" 208 5834 5851 "latexmacros.ml" 208 5834 5855
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 206 5781 5800 "latexmacros.ml" 206 5781 5804
+)
+"latexmacros.ml" 208 5834 5836 "latexmacros.ml" 208 5834 5855
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 209 5858 5860 "latexmacros.ml" 209 5858 5872
+type(
+  Lexstate.pat -> Lexstate.action -> unit
+)
+ident(
+  int_ref pretty_macro "latexmacros.ml" 43 1416 1420 "latexmacros.ml" 43 1416 1432
+)
+"latexmacros.ml" 209 5858 5873 "latexmacros.ml" 209 5858 5874
+type(
+  Lexstate.pat
+)
+ident(
+  int_ref n "latexmacros.ml" 207 5807 5813 "latexmacros.ml" 207 5807 5814
+)
+"latexmacros.ml" 209 5858 5875 "latexmacros.ml" 209 5858 5878
+type(
+  Lexstate.action
+)
+ident(
+  int_ref acc "latexmacros.ml" 207 5807 5815 "latexmacros.ml" 207 5807 5818
+)
+"latexmacros.ml" 209 5858 5860 "latexmacros.ml" 209 5858 5878
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 210 5881 5883 "latexmacros.ml" 210 5881 5896
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"latexmacros.ml" 210 5881 5897 "latexmacros.ml" 210 5881 5899
+type(
+  string
+)
+"latexmacros.ml" 210 5881 5883 "latexmacros.ml" 210 5881 5899
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 209 5858 5860 "latexmacros.ml" 210 5881 5899
+type(
+  unit
+)
+"latexmacros.ml" 208 5834 5836 "latexmacros.ml" 210 5881 5899
+type(
+  unit
+)
+"latexmacros.ml" 207 5807 5809 "latexmacros.ml" 210 5881 5899
+type(
+  unit
+)
+"latexmacros.ml" 212 5901 5905 "latexmacros.ml" 212 5901 5908
+type(
+  Strings.elt -> Lexstate.pat -> Lexstate.action -> unit
+)
+ident(
+  def def "latexmacros.ml" 233 6407 6407 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 212 5901 5909 "latexmacros.ml" 212 5901 5913
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 212 5901 5914 "latexmacros.ml" 218 6059 6095
+)
+"latexmacros.ml" 212 5901 5914 "latexmacros.ml" 212 5901 5917
+type(
+  Lexstate.pat
+)
+ident(
+  def pat "latexmacros.ml" 212 5901 5918 "latexmacros.ml" 218 6059 6095
+)
+"latexmacros.ml" 212 5901 5918 "latexmacros.ml" 212 5901 5924
+type(
+  Lexstate.action
+)
+ident(
+  def action "latexmacros.ml" 213 5927 5929 "latexmacros.ml" 218 6059 6095
+)
+"latexmacros.ml" 213 5927 5932 "latexmacros.ml" 213 5927 5933
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 213 5927 5933 "latexmacros.ml" 213 5927 5940
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"latexmacros.ml" 213 5927 5932 "latexmacros.ml" 213 5927 5940
+type(
+  int
+)
+"latexmacros.ml" 213 5927 5941 "latexmacros.ml" 213 5927 5942
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"latexmacros.ml" 213 5927 5943 "latexmacros.ml" 213 5927 5944
+type(
+  int
+)
+"latexmacros.ml" 213 5927 5932 "latexmacros.ml" 213 5927 5944
+type(
+  bool
+)
+"latexmacros.ml" 214 5956 5960 "latexmacros.ml" 214 5956 5974
+type(
+  out_channel ->
+  (Strings.elt -> unit, out_channel, unit) format -> Strings.elt -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"latexmacros.ml" 214 5956 5975 "latexmacros.ml" 214 5956 5981
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"latexmacros.ml" 214 5956 5982 "latexmacros.ml" 214 5956 5993
+type(
+  (Strings.elt -> unit, out_channel, unit) format
+)
+"latexmacros.ml" 214 5956 5994 "latexmacros.ml" 214 5956 5998
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 212 5901 5909 "latexmacros.ml" 212 5901 5913
+)
+"latexmacros.ml" 214 5956 5960 "latexmacros.ml" 214 5956 5998
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 215 6000 6004 "latexmacros.ml" 215 6000 6016
+type(
+  Lexstate.pat -> Lexstate.action -> unit
+)
+ident(
+  int_ref pretty_macro "latexmacros.ml" 43 1416 1420 "latexmacros.ml" 43 1416 1432
+)
+"latexmacros.ml" 215 6000 6017 "latexmacros.ml" 215 6000 6020
+type(
+  Lexstate.pat
+)
+ident(
+  int_ref pat "latexmacros.ml" 212 5901 5914 "latexmacros.ml" 212 5901 5917
+)
+"latexmacros.ml" 215 6000 6021 "latexmacros.ml" 215 6000 6027
+type(
+  Lexstate.action
+)
+ident(
+  int_ref action "latexmacros.ml" 212 5901 5918 "latexmacros.ml" 212 5901 5924
+)
+"latexmacros.ml" 215 6000 6004 "latexmacros.ml" 215 6000 6027
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 216 6030 6034 "latexmacros.ml" 216 6030 6047
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"latexmacros.ml" 216 6030 6048 "latexmacros.ml" 216 6030 6050
+type(
+  string
+)
+"latexmacros.ml" 216 6030 6034 "latexmacros.ml" 216 6030 6050
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 215 6000 6004 "latexmacros.ml" 216 6030 6050
+type(
+  unit
+)
+"latexmacros.ml" 213 5927 5950 "latexmacros.ml" 217 6051 6056
+type(
+  unit
+)
+"latexmacros.ml" 213 5927 5929 "latexmacros.ml" 217 6051 6056
+type(
+  unit
+)
+"latexmacros.ml" 218 6059 6061 "latexmacros.ml" 218 6059 6077
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action -> unit
+)
+ident(
+  int_ref hidden_local_def "latexmacros.ml" 135 3911 3915 "latexmacros.ml" 135 3911 3931
+)
+"latexmacros.ml" 218 6059 6078 "latexmacros.ml" 218 6059 6082
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 212 5901 5909 "latexmacros.ml" 212 5901 5913
+)
+"latexmacros.ml" 218 6059 6084 "latexmacros.ml" 218 6059 6087
+type(
+  Lexstate.pat
+)
+ident(
+  int_ref pat "latexmacros.ml" 212 5901 5914 "latexmacros.ml" 212 5901 5917
+)
+"latexmacros.ml" 218 6059 6088 "latexmacros.ml" 218 6059 6094
+type(
+  Lexstate.action
+)
+ident(
+  int_ref action "latexmacros.ml" 212 5901 5918 "latexmacros.ml" 212 5901 5924
+)
+"latexmacros.ml" 218 6059 6083 "latexmacros.ml" 218 6059 6095
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 218 6059 6061 "latexmacros.ml" 218 6059 6095
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 213 5927 5929 "latexmacros.ml" 218 6059 6095
+type(
+  unit
+)
+"latexmacros.ml" 220 6097 6101 "latexmacros.ml" 220 6097 6111
+type(
+  Strings.elt -> Lexstate.pat -> Lexstate.action -> unit
+)
+ident(
+  def global_def "latexmacros.ml" 233 6407 6407 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 220 6097 6112 "latexmacros.ml" 220 6097 6116
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 220 6097 6117 "latexmacros.ml" 226 6269 6306
+)
+"latexmacros.ml" 220 6097 6117 "latexmacros.ml" 220 6097 6120
+type(
+  Lexstate.pat
+)
+ident(
+  def pat "latexmacros.ml" 220 6097 6121 "latexmacros.ml" 226 6269 6306
+)
+"latexmacros.ml" 220 6097 6121 "latexmacros.ml" 220 6097 6127
+type(
+  Lexstate.action
+)
+ident(
+  def action "latexmacros.ml" 221 6130 6132 "latexmacros.ml" 226 6269 6306
+)
+"latexmacros.ml" 221 6130 6135 "latexmacros.ml" 221 6130 6136
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 221 6130 6136 "latexmacros.ml" 221 6130 6143
+type(
+  int ref
+)
+ident(
+  ext_ref Misc.verbose
+)
+"latexmacros.ml" 221 6130 6135 "latexmacros.ml" 221 6130 6143
+type(
+  int
+)
+"latexmacros.ml" 221 6130 6144 "latexmacros.ml" 221 6130 6145
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"latexmacros.ml" 221 6130 6146 "latexmacros.ml" 221 6130 6147
+type(
+  int
+)
+"latexmacros.ml" 221 6130 6135 "latexmacros.ml" 221 6130 6147
+type(
+  bool
+)
+"latexmacros.ml" 222 6159 6163 "latexmacros.ml" 222 6159 6177
+type(
+  out_channel ->
+  (Strings.elt -> unit, out_channel, unit) format -> Strings.elt -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"latexmacros.ml" 222 6159 6178 "latexmacros.ml" 222 6159 6184
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"latexmacros.ml" 222 6159 6185 "latexmacros.ml" 222 6159 6203
+type(
+  (Strings.elt -> unit, out_channel, unit) format
+)
+"latexmacros.ml" 222 6159 6204 "latexmacros.ml" 222 6159 6208
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 220 6097 6112 "latexmacros.ml" 220 6097 6116
+)
+"latexmacros.ml" 222 6159 6163 "latexmacros.ml" 222 6159 6208
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 223 6210 6214 "latexmacros.ml" 223 6210 6226
+type(
+  Lexstate.pat -> Lexstate.action -> unit
+)
+ident(
+  int_ref pretty_macro "latexmacros.ml" 43 1416 1420 "latexmacros.ml" 43 1416 1432
+)
+"latexmacros.ml" 223 6210 6227 "latexmacros.ml" 223 6210 6230
+type(
+  Lexstate.pat
+)
+ident(
+  int_ref pat "latexmacros.ml" 220 6097 6117 "latexmacros.ml" 220 6097 6120
+)
+"latexmacros.ml" 223 6210 6231 "latexmacros.ml" 223 6210 6237
+type(
+  Lexstate.action
+)
+ident(
+  int_ref action "latexmacros.ml" 220 6097 6121 "latexmacros.ml" 220 6097 6127
+)
+"latexmacros.ml" 223 6210 6214 "latexmacros.ml" 223 6210 6237
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 224 6240 6244 "latexmacros.ml" 224 6240 6257
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"latexmacros.ml" 224 6240 6258 "latexmacros.ml" 224 6240 6260
+type(
+  string
+)
+"latexmacros.ml" 224 6240 6244 "latexmacros.ml" 224 6240 6260
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 223 6210 6214 "latexmacros.ml" 224 6240 6260
+type(
+  unit
+)
+"latexmacros.ml" 221 6130 6153 "latexmacros.ml" 225 6261 6266
+type(
+  unit
+)
+"latexmacros.ml" 221 6130 6132 "latexmacros.ml" 225 6261 6266
+type(
+  unit
+)
+"latexmacros.ml" 226 6269 6271 "latexmacros.ml" 226 6269 6288
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action -> unit
+)
+ident(
+  int_ref hidden_global_def "latexmacros.ml" 124 3572 3576 "latexmacros.ml" 124 3572 3593
+)
+"latexmacros.ml" 226 6269 6289 "latexmacros.ml" 226 6269 6293
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 220 6097 6112 "latexmacros.ml" 220 6097 6116
+)
+"latexmacros.ml" 226 6269 6295 "latexmacros.ml" 226 6269 6298
+type(
+  Lexstate.pat
+)
+ident(
+  int_ref pat "latexmacros.ml" 220 6097 6117 "latexmacros.ml" 220 6097 6120
+)
+"latexmacros.ml" 226 6269 6299 "latexmacros.ml" 226 6269 6305
+type(
+  Lexstate.action
+)
+ident(
+  int_ref action "latexmacros.ml" 220 6097 6121 "latexmacros.ml" 220 6097 6127
+)
+"latexmacros.ml" 226 6269 6294 "latexmacros.ml" 226 6269 6306
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 226 6269 6271 "latexmacros.ml" 226 6269 6306
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 221 6130 6132 "latexmacros.ml" 226 6269 6306
+type(
+  unit
+)
+"latexmacros.ml" 228 6308 6312 "latexmacros.ml" 228 6308 6324
+type(
+  Strings.elt -> unit
+)
+ident(
+  def global_undef "latexmacros.ml" 233 6407 6407 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 228 6308 6325 "latexmacros.ml" 228 6308 6329
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 229 6332 6334 "latexmacros.ml" 230 6369 6402
+)
+"latexmacros.ml" 229 6332 6334 "latexmacros.ml" 229 6332 6348
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  Strings.elt -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"latexmacros.ml" 229 6332 6349 "latexmacros.ml" 229 6332 6361
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref global_table "latexmacros.ml" 27 994 998 "latexmacros.ml" 27 994 1010
+)
+"latexmacros.ml" 229 6332 6362 "latexmacros.ml" 229 6332 6366
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 228 6308 6325 "latexmacros.ml" 228 6308 6329
+)
+"latexmacros.ml" 229 6332 6334 "latexmacros.ml" 229 6332 6366
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 230 6369 6371 "latexmacros.ml" 230 6369 6385
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  Strings.elt -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"latexmacros.ml" 230 6369 6386 "latexmacros.ml" 230 6369 6397
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref local_table "latexmacros.ml" 26 958 962 "latexmacros.ml" 26 958 973
+)
+"latexmacros.ml" 230 6369 6398 "latexmacros.ml" 230 6369 6402
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 228 6308 6325 "latexmacros.ml" 228 6308 6329
+)
+"latexmacros.ml" 230 6369 6371 "latexmacros.ml" 230 6369 6402
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 229 6332 6334 "latexmacros.ml" 230 6369 6402
+type(
+  unit
+)
+"latexmacros.ml" 233 6407 6411 "latexmacros.ml" 233 6407 6419
+type(
+  Strings.elt -> (Lexing.lexbuf -> unit) -> unit
+)
+ident(
+  def def_init "latexmacros.ml" 252 6856 6856 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 233 6407 6420 "latexmacros.ml" 233 6407 6424
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 233 6407 6425 "latexmacros.ml" 237 6523 6555
+)
+"latexmacros.ml" 233 6407 6425 "latexmacros.ml" 233 6407 6426
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def f "latexmacros.ml" 234 6429 6431 "latexmacros.ml" 237 6523 6555
+)
+"latexmacros.ml" 234 6429 6434 "latexmacros.ml" 234 6429 6440
+type(
+  Strings.elt -> bool
+)
+ident(
+  int_ref exists "latexmacros.ml" 189 5477 5481 "latexmacros.ml" 189 5477 5487
+)
+"latexmacros.ml" 234 6429 6441 "latexmacros.ml" 234 6429 6445
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 233 6407 6420 "latexmacros.ml" 233 6407 6424
+)
+"latexmacros.ml" 234 6429 6434 "latexmacros.ml" 234 6429 6445
+call(
+  stack
+)
+type(
+  bool
+)
+"latexmacros.ml" 235 6457 6461 "latexmacros.ml" 235 6457 6466
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.fatal
+)
+"latexmacros.ml" 235 6457 6468 "latexmacros.ml" 235 6457 6479
+type(
+  string
+)
+"latexmacros.ml" 235 6457 6479 "latexmacros.ml" 235 6457 6480
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"latexmacros.ml" 235 6457 6480 "latexmacros.ml" 235 6457 6484
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 233 6407 6420 "latexmacros.ml" 233 6407 6424
+)
+"latexmacros.ml" 235 6457 6484 "latexmacros.ml" 235 6457 6485
+type(
+  Strings.elt -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"latexmacros.ml" 235 6457 6485 "latexmacros.ml" 235 6457 6513
+type(
+  string
+)
+"latexmacros.ml" 235 6457 6480 "latexmacros.ml" 235 6457 6513
+call(
+  stack
+)
+type(
+  string
+)
+"latexmacros.ml" 235 6457 6467 "latexmacros.ml" 235 6457 6514
+call(
+  stack
+)
+type(
+  string
+)
+"latexmacros.ml" 234 6429 6451 "latexmacros.ml" 236 6515 6520
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 234 6429 6431 "latexmacros.ml" 236 6515 6520
+type(
+  unit
+)
+"latexmacros.ml" 237 6523 6525 "latexmacros.ml" 237 6523 6528
+type(
+  Strings.elt -> Lexstate.pat -> Lexstate.action -> unit
+)
+ident(
+  int_ref def "latexmacros.ml" 212 5901 5905 "latexmacros.ml" 212 5901 5908
+)
+"latexmacros.ml" 237 6523 6529 "latexmacros.ml" 237 6523 6533
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 233 6407 6420 "latexmacros.ml" 233 6407 6424
+)
+"latexmacros.ml" 237 6523 6534 "latexmacros.ml" 237 6523 6542
+type(
+  Lexstate.pat
+)
+ident(
+  ext_ref Lexstate.zero_pat
+)
+"latexmacros.ml" 237 6523 6553 "latexmacros.ml" 237 6523 6554
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref f "latexmacros.ml" 233 6407 6425 "latexmacros.ml" 233 6407 6426
+)
+"latexmacros.ml" 237 6523 6543 "latexmacros.ml" 237 6523 6555
+type(
+  Lexstate.action
+)
+"latexmacros.ml" 237 6523 6525 "latexmacros.ml" 237 6523 6555
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 234 6429 6431 "latexmacros.ml" 237 6523 6555
+type(
+  unit
+)
+"latexmacros.ml" 252 6856 6860 "latexmacros.ml" 252 6856 6867
+type(
+  Strings.elt ->
+  (Lexstate.pat * Lexstate.action) option ->
+  (Lexstate.pat * Lexstate.action) option
+)
+ident(
+  def replace "latexmacros.ml" 273 7421 7421 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 252 6856 6868 "latexmacros.ml" 252 6856 6872
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 252 6856 6873 "latexmacros.ml" 270 7388 7397
+)
+"latexmacros.ml" 252 6856 6873 "latexmacros.ml" 252 6856 6880
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+ident(
+  def new_def "latexmacros.ml" 253 6883 6885 "latexmacros.ml" 270 7388 7397
+)
+"latexmacros.ml" 253 6883 6889 "latexmacros.ml" 253 6883 6896
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+ident(
+  def old_def "latexmacros.ml" 260 7071 7073 "latexmacros.ml" 270 7388 7397
+)
+"latexmacros.ml" 254 6899 6913 "latexmacros.ml" 254 6899 6924
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action
+)
+ident(
+  int_ref hidden_find "latexmacros.ml" 146 4294 4298 "latexmacros.ml" 146 4294 4309
+)
+"latexmacros.ml" 254 6899 6925 "latexmacros.ml" 254 6899 6929
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 252 6856 6868 "latexmacros.ml" 252 6856 6872
+)
+"latexmacros.ml" 254 6899 6912 "latexmacros.ml" 254 6899 6930
+call(
+  stack
+)
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 254 6899 6907 "latexmacros.ml" 254 6899 6930
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+"latexmacros.ml" 255 6936 6942 "latexmacros.ml" 255 6936 6951
+type(
+  exn
+)
+"latexmacros.ml" 255 6936 6955 "latexmacros.ml" 255 6936 6959
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+"latexmacros.ml" 254 6899 6903 "latexmacros.ml" 255 6936 6959
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+"latexmacros.ml" 260 7071 7085 "latexmacros.ml" 260 7071 7092
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+ident(
+  int_ref new_def "latexmacros.ml" 252 6856 6873 "latexmacros.ml" 252 6856 6880
+)
+"latexmacros.ml" 261 7098 7107 "latexmacros.ml" 261 7098 7108
+type(
+  Lexstate.pat * Lexstate.action
+)
+ident(
+  def d "latexmacros.ml" 261 7098 7112 "latexmacros.ml" 261 7098 7135
+)
+"latexmacros.ml" 261 7098 7102 "latexmacros.ml" 261 7098 7108
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+"latexmacros.ml" 261 7098 7112 "latexmacros.ml" 261 7098 7128
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action -> unit
+)
+ident(
+  int_ref hidden_local_def "latexmacros.ml" 135 3911 3915 "latexmacros.ml" 135 3911 3931
+)
+"latexmacros.ml" 261 7098 7129 "latexmacros.ml" 261 7098 7133
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 252 6856 6868 "latexmacros.ml" 252 6856 6872
+)
+"latexmacros.ml" 261 7098 7134 "latexmacros.ml" 261 7098 7135
+type(
+  Lexstate.pat * Lexstate.action
+)
+ident(
+  int_ref d "latexmacros.ml" 261 7098 7107 "latexmacros.ml" 261 7098 7108
+)
+"latexmacros.ml" 261 7098 7112 "latexmacros.ml" 261 7098 7135
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 262 7136 7140 "latexmacros.ml" 262 7136 7144
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+"latexmacros.ml" 262 7136 7154 "latexmacros.ml" 262 7136 7161
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+ident(
+  int_ref old_def "latexmacros.ml" 253 6883 6889 "latexmacros.ml" 253 6883 6896
+)
+"latexmacros.ml" 263 7167 7173 "latexmacros.ml" 263 7167 7177
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+"latexmacros.ml" 263 7167 7181 "latexmacros.ml" 263 7167 7183
+type(
+  unit
+)
+"latexmacros.ml" 264 7184 7195 "latexmacros.ml" 264 7184 7196
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 264 7184 7190 "latexmacros.ml" 264 7184 7196
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+"latexmacros.ml" 265 7249 7260 "latexmacros.ml" 265 7249 7261
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 265 7249 7261 "latexmacros.ml" 265 7249 7272
+type(
+  int ref
+)
+ident(
+  int_ref group_level "latexmacros.ml" 33 1174 1178 "latexmacros.ml" 33 1174 1189
+)
+"latexmacros.ml" 265 7249 7260 "latexmacros.ml" 265 7249 7272
+type(
+  int
+)
+"latexmacros.ml" 265 7249 7273 "latexmacros.ml" 265 7249 7274
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"latexmacros.ml" 265 7249 7275 "latexmacros.ml" 265 7249 7276
+type(
+  int
+)
+"latexmacros.ml" 265 7249 7260 "latexmacros.ml" 265 7249 7276
+type(
+  bool
+)
+"latexmacros.ml" 266 7282 7292 "latexmacros.ml" 266 7282 7297
+type(
+  Strings.t ref
+)
+ident(
+  int_ref purge "latexmacros.ml" 31 1103 1107 "latexmacros.ml" 31 1103 1112
+)
+"latexmacros.ml" 266 7282 7298 "latexmacros.ml" 266 7282 7300
+type(
+  Strings.t ref -> Strings.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"latexmacros.ml" 266 7282 7301 "latexmacros.ml" 266 7282 7310
+type(
+  Strings.elt -> Strings.t -> Strings.t
+)
+ident(
+  int_ref pre_purge "latexmacros.ml" 116 3398 3402 "latexmacros.ml" 116 3398 3411
+)
+"latexmacros.ml" 266 7282 7311 "latexmacros.ml" 266 7282 7315
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 252 6856 6868 "latexmacros.ml" 252 6856 6872
+)
+"latexmacros.ml" 266 7282 7316 "latexmacros.ml" 266 7282 7317
+type(
+  Strings.t ref -> Strings.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"latexmacros.ml" 266 7282 7317 "latexmacros.ml" 266 7282 7322
+type(
+  Strings.t ref
+)
+ident(
+  int_ref purge "latexmacros.ml" 31 1103 1107 "latexmacros.ml" 31 1103 1112
+)
+"latexmacros.ml" 266 7282 7316 "latexmacros.ml" 266 7282 7322
+type(
+  Strings.t
+)
+"latexmacros.ml" 266 7282 7301 "latexmacros.ml" 266 7282 7322
+call(
+  stack
+)
+type(
+  Strings.t
+)
+"latexmacros.ml" 266 7282 7292 "latexmacros.ml" 266 7282 7322
+type(
+  unit
+)
+"latexmacros.ml" 268 7336 7346 "latexmacros.ml" 268 7336 7360
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t ->
+  Strings.elt -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"latexmacros.ml" 268 7336 7361 "latexmacros.ml" 268 7336 7373
+type(
+  (Strings.elt, Lexstate.pat * Lexstate.action) Hashtbl.t
+)
+ident(
+  int_ref global_table "latexmacros.ml" 27 994 998 "latexmacros.ml" 27 994 1010
+)
+"latexmacros.ml" 268 7336 7374 "latexmacros.ml" 268 7336 7378
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 252 6856 6868 "latexmacros.ml" 252 6856 6872
+)
+"latexmacros.ml" 268 7336 7346 "latexmacros.ml" 268 7336 7378
+call(
+  stack
+)
+type(
+  unit
+)
+"latexmacros.ml" 265 7249 7257 "latexmacros.ml" 268 7336 7378
+type(
+  unit
+)
+"latexmacros.ml" 262 7136 7148 "latexmacros.ml" 268 7336 7378
+type(
+  unit
+)
+"latexmacros.ml" 260 7071 7073 "latexmacros.ml" 269 7380 7385
+type(
+  unit
+)
+"latexmacros.ml" 270 7388 7390 "latexmacros.ml" 270 7388 7397
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+ident(
+  int_ref old_def "latexmacros.ml" 253 6883 6889 "latexmacros.ml" 253 6883 6896
+)
+"latexmacros.ml" 260 7071 7073 "latexmacros.ml" 270 7388 7397
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+"latexmacros.ml" 253 6883 6885 "latexmacros.ml" 270 7388 7397
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+"latexmacros.ml" 273 7421 7425 "latexmacros.ml" 273 7421 7430
+type(
+  Strings.elt -> string list -> unit
+)
+ident(
+  def addto "latexmacros.ml" 287 7787 7787 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 273 7421 7431 "latexmacros.ml" 273 7421 7435
+type(
+  Strings.elt
+)
+ident(
+  def name "latexmacros.ml" 273 7421 7436 "latexmacros.ml" 281 7691 7740
+)
+"latexmacros.ml" 273 7421 7436 "latexmacros.ml" 273 7421 7440
+type(
+  string list
+)
+ident(
+  def body "latexmacros.ml" 274 7443 7445 "latexmacros.ml" 281 7691 7740
+)
+"latexmacros.ml" 274 7443 7449 "latexmacros.ml" 274 7443 7452
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+ident(
+  def old "latexmacros.ml" 275 7509 7511 "latexmacros.ml" 281 7691 7740
+)
+"latexmacros.ml" 274 7443 7465 "latexmacros.ml" 274 7443 7476
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action
+)
+ident(
+  int_ref hidden_find "latexmacros.ml" 146 4294 4298 "latexmacros.ml" 146 4294 4309
+)
+"latexmacros.ml" 274 7443 7477 "latexmacros.ml" 274 7443 7481
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 273 7421 7431 "latexmacros.ml" 273 7421 7435
+)
+"latexmacros.ml" 274 7443 7464 "latexmacros.ml" 274 7443 7482
+call(
+  stack
+)
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 274 7443 7459 "latexmacros.ml" 274 7443 7482
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+"latexmacros.ml" 274 7443 7488 "latexmacros.ml" 274 7443 7497
+type(
+  exn
+)
+"latexmacros.ml" 274 7443 7501 "latexmacros.ml" 274 7443 7505
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+"latexmacros.ml" 274 7443 7455 "latexmacros.ml" 274 7443 7505
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+"latexmacros.ml" 275 7509 7517 "latexmacros.ml" 275 7509 7520
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+ident(
+  int_ref old "latexmacros.ml" 274 7443 7449 "latexmacros.ml" 274 7443 7452
+)
+"latexmacros.ml" 276 7526 7536 "latexmacros.ml" 276 7526 7539
+type(
+  Lexstate.pat
+)
+ident(
+  def pat "latexmacros.ml" 277 7556 7562 "latexmacros.ml" 277 7556 7617
+)
+"latexmacros.ml" 276 7526 7546 "latexmacros.ml" 276 7526 7551
+type(
+  string list
+)
+ident(
+  def obody "latexmacros.ml" 277 7556 7562 "latexmacros.ml" 277 7556 7617
+)
+"latexmacros.ml" 276 7526 7540 "latexmacros.ml" 276 7526 7551
+type(
+  Lexstate.action
+)
+"latexmacros.ml" 276 7526 7535 "latexmacros.ml" 276 7526 7552
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 276 7526 7530 "latexmacros.ml" 276 7526 7552
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+"latexmacros.ml" 277 7556 7562 "latexmacros.ml" 277 7556 7578
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action -> unit
+)
+ident(
+  int_ref hidden_local_def "latexmacros.ml" 135 3911 3915 "latexmacros.ml" 135 3911 3931
+)
+"latexmacros.ml" 277 7556 7579 "latexmacros.ml" 277 7556 7583
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 273 7421 7431 "latexmacros.ml" 273 7421 7435
+)
+"latexmacros.ml" 277 7556 7585 "latexmacros.ml" 277 7556 7588
+type(
+  Lexstate.pat
+)
+ident(
+  int_ref pat "latexmacros.ml" 276 7526 7536 "latexmacros.ml" 276 7526 7539
+)
+"latexmacros.ml" 277 7556 7596 "latexmacros.ml" 277 7556 7601
+type(
+  string list
+)
+ident(
+  int_ref obody "latexmacros.ml" 276 7526 7546 "latexmacros.ml" 276 7526 7551
+)
+"latexmacros.ml" 277 7556 7601 "latexmacros.ml" 277 7556 7602
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"latexmacros.ml" 277 7556 7603 "latexmacros.ml" 277 7556 7608
+type(
+  string
+)
+"latexmacros.ml" 277 7556 7610 "latexmacros.ml" 277 7556 7614
+type(
+  string list
+)
+ident(
+  int_ref body "latexmacros.ml" 273 7421 7436 "latexmacros.ml" 273 7421 7440
+)
+"latexmacros.ml" 277 7556 7602 "latexmacros.ml" 277 7556 7615
+type(
+  string list
+)
+"latexmacros.ml" 277 7556 7595 "latexmacros.ml" 277 7556 7616
+call(
+  stack
+)
+type(
+  string list
+)
+"latexmacros.ml" 277 7556 7589 "latexmacros.ml" 277 7556 7616
+type(
+  Lexstate.action
+)
+"latexmacros.ml" 277 7556 7584 "latexmacros.ml" 277 7556 7617
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 277 7556 7562 "latexmacros.ml" 277 7556 7617
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 278 7618 7628 "latexmacros.ml" 278 7618 7629
+type(
+  Lexstate.pat
+)
+"latexmacros.ml" 278 7618 7630 "latexmacros.ml" 278 7618 7631
+type(
+  Lexstate.action
+)
+"latexmacros.ml" 278 7618 7627 "latexmacros.ml" 278 7618 7632
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 278 7618 7622 "latexmacros.ml" 278 7618 7632
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+"latexmacros.ml" 279 7636 7642 "latexmacros.ml" 279 7636 7649
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.warning
+)
+"latexmacros.ml" 279 7636 7650 "latexmacros.ml" 279 7636 7678
+type(
+  string
+)
+"latexmacros.ml" 279 7636 7642 "latexmacros.ml" 279 7636 7678
+type(
+  unit
+)
+"latexmacros.ml" 280 7679 7683 "latexmacros.ml" 280 7679 7687
+type(
+  (Lexstate.pat * Lexstate.action) option
+)
+"latexmacros.ml" 281 7691 7697 "latexmacros.ml" 281 7691 7713
+type(
+  Strings.elt -> Lexstate.pat * Lexstate.action -> unit
+)
+ident(
+  int_ref hidden_local_def "latexmacros.ml" 135 3911 3915 "latexmacros.ml" 135 3911 3931
+)
+"latexmacros.ml" 281 7691 7714 "latexmacros.ml" 281 7691 7718
+type(
+  Strings.elt
+)
+ident(
+  int_ref name "latexmacros.ml" 273 7421 7431 "latexmacros.ml" 273 7421 7435
+)
+"latexmacros.ml" 281 7691 7720 "latexmacros.ml" 281 7691 7728
+type(
+  Lexstate.pat
+)
+ident(
+  ext_ref Lexstate.zero_pat
+)
+"latexmacros.ml" 281 7691 7735 "latexmacros.ml" 281 7691 7739
+type(
+  string list
+)
+ident(
+  int_ref body "latexmacros.ml" 273 7421 7436 "latexmacros.ml" 273 7421 7440
+)
+"latexmacros.ml" 281 7691 7729 "latexmacros.ml" 281 7691 7739
+type(
+  Lexstate.action
+)
+"latexmacros.ml" 281 7691 7719 "latexmacros.ml" 281 7691 7740
+type(
+  Lexstate.pat * Lexstate.action
+)
+"latexmacros.ml" 281 7691 7697 "latexmacros.ml" 281 7691 7740
+call(
+  tail
+)
+type(
+  unit
+)
+"latexmacros.ml" 275 7509 7511 "latexmacros.ml" 281 7691 7740
+type(
+  unit
+)
+"latexmacros.ml" 274 7443 7445 "latexmacros.ml" 281 7691 7740
+type(
+  unit
+)
+"latexmacros.ml" 287 7787 7791 "latexmacros.ml" 287 7787 7800
+type(
+  string -> bool
+)
+ident(
+  def invisible "latexmacros.ml" 304 8417 8478 "latexmacros.ml" 1 0 -1
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 288 7812 7825
+type(
+  string
+)
+"latexmacros.ml" 289 7826 7828 "latexmacros.ml" 289 7826 7841
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 289 7826 7841
+type(
+  string
+)
+"latexmacros.ml" 289 7826 7844 "latexmacros.ml" 289 7826 7859
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 289 7826 7859
+type(
+  string
+)
+"latexmacros.ml" 289 7826 7862 "latexmacros.ml" 289 7826 7875
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 289 7826 7875
+type(
+  string
+)
+"latexmacros.ml" 290 7876 7878 "latexmacros.ml" 290 7876 7893
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 290 7876 7893
+type(
+  string
+)
+"latexmacros.ml" 290 7876 7896 "latexmacros.ml" 290 7876 7905
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 290 7876 7905
+type(
+  string
+)
+"latexmacros.ml" 290 7876 7908 "latexmacros.ml" 290 7876 7917
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 290 7876 7917
+type(
+  string
+)
+"latexmacros.ml" 291 7918 7920 "latexmacros.ml" 291 7918 7930
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 291 7918 7930
+type(
+  string
+)
+"latexmacros.ml" 291 7918 7933 "latexmacros.ml" 291 7918 7945
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 291 7918 7945
+type(
+  string
+)
+"latexmacros.ml" 291 7918 7948 "latexmacros.ml" 291 7918 7961
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 291 7918 7961
+type(
+  string
+)
+"latexmacros.ml" 292 7962 7964 "latexmacros.ml" 292 7962 7974
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 292 7962 7974
+type(
+  string
+)
+"latexmacros.ml" 292 7962 7977 "latexmacros.ml" 292 7962 7986
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 292 7962 7986
+type(
+  string
+)
+"latexmacros.ml" 293 7987 7989 "latexmacros.ml" 293 7987 8000
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 293 7987 8000
+type(
+  string
+)
+"latexmacros.ml" 293 7987 8003 "latexmacros.ml" 293 7987 8009
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 293 7987 8009
+type(
+  string
+)
+"latexmacros.ml" 293 7987 8012 "latexmacros.ml" 293 7987 8018
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 293 7987 8018
+type(
+  string
+)
+"latexmacros.ml" 294 8019 8021 "latexmacros.ml" 294 8019 8027
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 294 8019 8027
+type(
+  string
+)
+"latexmacros.ml" 294 8019 8030 "latexmacros.ml" 294 8019 8036
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 294 8019 8036
+type(
+  string
+)
+"latexmacros.ml" 294 8019 8039 "latexmacros.ml" 294 8019 8045
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 294 8019 8045
+type(
+  string
+)
+"latexmacros.ml" 294 8019 8048 "latexmacros.ml" 294 8019 8054
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 294 8019 8054
+type(
+  string
+)
+"latexmacros.ml" 295 8056 8058 "latexmacros.ml" 295 8056 8066
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 295 8056 8066
+type(
+  string
+)
+"latexmacros.ml" 295 8056 8069 "latexmacros.ml" 295 8056 8085
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 295 8056 8085
+type(
+  string
+)
+"latexmacros.ml" 295 8056 8088 "latexmacros.ml" 295 8056 8102
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 295 8056 8102
+type(
+  string
+)
+"latexmacros.ml" 296 8103 8105 "latexmacros.ml" 296 8103 8114
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 296 8103 8114
+type(
+  string
+)
+"latexmacros.ml" 296 8103 8117 "latexmacros.ml" 296 8103 8131
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 296 8103 8131
+type(
+  string
+)
+"latexmacros.ml" 296 8103 8134 "latexmacros.ml" 296 8103 8143
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 296 8103 8143
+type(
+  string
+)
+"latexmacros.ml" 296 8103 8146 "latexmacros.ml" 296 8103 8155
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 296 8103 8155
+type(
+  string
+)
+"latexmacros.ml" 296 8103 8158 "latexmacros.ml" 296 8103 8167
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 296 8103 8167
+type(
+  string
+)
+"latexmacros.ml" 297 8168 8170 "latexmacros.ml" 297 8168 8178
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 297 8168 8178
+type(
+  string
+)
+"latexmacros.ml" 297 8168 8181 "latexmacros.ml" 297 8168 8189
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 297 8168 8189
+type(
+  string
+)
+"latexmacros.ml" 298 8190 8192 "latexmacros.ml" 298 8190 8202
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 298 8190 8202
+type(
+  string
+)
+"latexmacros.ml" 298 8190 8205 "latexmacros.ml" 298 8190 8215
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 298 8190 8215
+type(
+  string
+)
+"latexmacros.ml" 298 8190 8218 "latexmacros.ml" 298 8190 8226
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 298 8190 8226
+type(
+  string
+)
+"latexmacros.ml" 298 8190 8229 "latexmacros.ml" 298 8190 8238
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 298 8190 8238
+type(
+  string
+)
+"latexmacros.ml" 299 8239 8241 "latexmacros.ml" 299 8239 8251
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 299 8239 8251
+type(
+  string
+)
+"latexmacros.ml" 299 8239 8254 "latexmacros.ml" 299 8239 8261
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 299 8239 8261
+type(
+  string
+)
+"latexmacros.ml" 299 8239 8264 "latexmacros.ml" 299 8239 8275
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 299 8239 8275
+type(
+  string
+)
+"latexmacros.ml" 299 8239 8278 "latexmacros.ml" 299 8239 8287
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 299 8239 8287
+type(
+  string
+)
+"latexmacros.ml" 300 8288 8290 "latexmacros.ml" 300 8288 8298
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 300 8288 8298
+type(
+  string
+)
+"latexmacros.ml" 300 8288 8301 "latexmacros.ml" 300 8288 8310
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 300 8288 8310
+type(
+  string
+)
+"latexmacros.ml" 300 8288 8313 "latexmacros.ml" 300 8288 8323
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 300 8288 8323
+type(
+  string
+)
+"latexmacros.ml" 300 8288 8326 "latexmacros.ml" 300 8288 8334
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 300 8288 8334
+type(
+  string
+)
+"latexmacros.ml" 301 8335 8337 "latexmacros.ml" 301 8335 8345
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 301 8335 8345
+type(
+  string
+)
+"latexmacros.ml" 301 8335 8348 "latexmacros.ml" 301 8335 8356
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 301 8335 8356
+type(
+  string
+)
+"latexmacros.ml" 301 8335 8359 "latexmacros.ml" 301 8335 8367
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 301 8335 8367
+type(
+  string
+)
+"latexmacros.ml" 301 8335 8370 "latexmacros.ml" 301 8335 8378
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 301 8335 8378
+type(
+  string
+)
+"latexmacros.ml" 301 8335 8381 "latexmacros.ml" 301 8335 8387
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 301 8335 8387
+type(
+  string
+)
+"latexmacros.ml" 302 8388 8390 "latexmacros.ml" 302 8388 8398
+type(
+  string
+)
+"latexmacros.ml" 288 7812 7814 "latexmacros.ml" 302 8388 8398
+type(
+  string
+)
+"latexmacros.ml" 302 8388 8402 "latexmacros.ml" 302 8388 8406
+type(
+  bool
+)
+"latexmacros.ml" 303 8407 8409 "latexmacros.ml" 303 8407 8413
+type(
+  string
+)
+ident(
+  def name "latexmacros.ml" 304 8417 8421 "latexmacros.ml" 304 8417 8478
+)
+"latexmacros.ml" 304 8417 8422 "latexmacros.ml" 304 8417 8435
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"latexmacros.ml" 304 8417 8436 "latexmacros.ml" 304 8417 8440
+type(
+  string
+)
+ident(
+  int_ref name "latexmacros.ml" 303 8407 8409 "latexmacros.ml" 303 8407 8413
+)
+"latexmacros.ml" 304 8417 8422 "latexmacros.ml" 304 8417 8440
+type(
+  int
+)
+"latexmacros.ml" 304 8417 8441 "latexmacros.ml" 304 8417 8443
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"latexmacros.ml" 304 8417 8444 "latexmacros.ml" 304 8417 8445
+type(
+  int
+)
+"latexmacros.ml" 304 8417 8422 "latexmacros.ml" 304 8417 8445
+type(
+  bool
+)
+"latexmacros.ml" 304 8417 8446 "latexmacros.ml" 304 8417 8448
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"latexmacros.ml" 304 8417 8449 "latexmacros.ml" 304 8417 8459
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"latexmacros.ml" 304 8417 8460 "latexmacros.ml" 304 8417 8464
+type(
+  string
+)
+ident(
+  int_ref name "latexmacros.ml" 303 8407 8409 "latexmacros.ml" 303 8407 8413
+)
+"latexmacros.ml" 304 8417 8465 "latexmacros.ml" 304 8417 8466
+type(
+  int
+)
+"latexmacros.ml" 304 8417 8467 "latexmacros.ml" 304 8417 8468
+type(
+  int
+)
+"latexmacros.ml" 304 8417 8449 "latexmacros.ml" 304 8417 8468
+call(
+  stack
+)
+type(
+  string
+)
+"latexmacros.ml" 304 8417 8469 "latexmacros.ml" 304 8417 8470
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"latexmacros.ml" 304 8417 8471 "latexmacros.ml" 304 8417 8477
+type(
+  string
+)
+"latexmacros.ml" 304 8417 8449 "latexmacros.ml" 304 8417 8477
+type(
+  bool
+)
+"latexmacros.ml" 304 8417 8421 "latexmacros.ml" 304 8417 8478
+type(
+  bool
+)
+"latexmacros.ml" 287 7787 7803 "latexmacros.ml" 304 8417 8478
+type(
+  string -> bool
+)

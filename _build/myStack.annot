@@ -1,0 +1,1398 @@
+"myStack.ml" 17 916 920 "myStack.ml" 17 916 926
+type(
+  string -> 'a t
+)
+ident(
+  def create "myStack.ml" 18 971 971 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 17 916 927 "myStack.ml" 17 916 931
+type(
+  string
+)
+ident(
+  def name "myStack.ml" 17 916 934 "myStack.ml" 17 916 970
+)
+"myStack.ml" 17 916 939 "myStack.ml" 17 916 941
+type(
+  'a list
+)
+"myStack.ml" 17 916 949 "myStack.ml" 17 916 953
+type(
+  string
+)
+ident(
+  int_ref name "myStack.ml" 17 916 927 "myStack.ml" 17 916 931
+)
+"myStack.ml" 17 916 965 "myStack.ml" 17 916 969
+type(
+  'a option
+)
+"myStack.ml" 17 916 934 "myStack.ml" 17 916 970
+type(
+  'a t
+)
+"myStack.ml" 18 971 975 "myStack.ml" 18 971 986
+type(
+  string -> 'a -> 'a t
+)
+ident(
+  def create_init "myStack.ml" 20 1036 1036 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 18 971 987 "myStack.ml" 18 971 991
+type(
+  string
+)
+ident(
+  def name "myStack.ml" 18 971 992 "myStack.ml" 18 971 1034
+)
+"myStack.ml" 18 971 992 "myStack.ml" 18 971 993
+type(
+  'a
+)
+ident(
+  def x "myStack.ml" 18 971 996 "myStack.ml" 18 971 1034
+)
+"myStack.ml" 18 971 1001 "myStack.ml" 18 971 1003
+type(
+  'a list
+)
+"myStack.ml" 18 971 1011 "myStack.ml" 18 971 1015
+type(
+  string
+)
+ident(
+  int_ref name "myStack.ml" 18 971 987 "myStack.ml" 18 971 991
+)
+"myStack.ml" 18 971 1032 "myStack.ml" 18 971 1033
+type(
+  'a
+)
+ident(
+  int_ref x "myStack.ml" 18 971 992 "myStack.ml" 18 971 993
+)
+"myStack.ml" 18 971 1027 "myStack.ml" 18 971 1033
+type(
+  'a option
+)
+"myStack.ml" 18 971 996 "myStack.ml" 18 971 1034
+type(
+  'a t
+)
+"myStack.ml" 20 1036 1040 "myStack.ml" 20 1036 1045
+type(
+  'a t -> unit
+)
+ident(
+  def reset "myStack.ml" 22 1061 1061 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 20 1036 1046 "myStack.ml" 20 1036 1047
+type(
+  'a t
+)
+ident(
+  def s "myStack.ml" 20 1036 1050 "myStack.ml" 20 1036 1059
+)
+"myStack.ml" 20 1036 1050 "myStack.ml" 20 1036 1051
+type(
+  'a t
+)
+ident(
+  int_ref s "myStack.ml" 20 1036 1046 "myStack.ml" 20 1036 1047
+)
+"myStack.ml" 20 1036 1057 "myStack.ml" 20 1036 1059
+type(
+  'a list
+)
+"myStack.ml" 20 1036 1050 "myStack.ml" 20 1036 1059
+type(
+  unit
+)
+"myStack.ml" 22 1061 1065 "myStack.ml" 22 1061 1071
+type(
+  string -> 'a t -> 'a
+)
+ident(
+  def bottom "myStack.ml" 26 1157 1157 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 22 1061 1072 "myStack.ml" 22 1061 1075
+type(
+  string
+)
+ident(
+  def msg "myStack.ml" 22 1061 1076 "myStack.ml" 24 1142 1155
+)
+"myStack.ml" 22 1061 1076 "myStack.ml" 22 1061 1077
+type(
+  'a t
+)
+ident(
+  def s "myStack.ml" 22 1061 1080 "myStack.ml" 24 1142 1155
+)
+"myStack.ml" 22 1061 1086 "myStack.ml" 22 1061 1087
+type(
+  'a t
+)
+ident(
+  int_ref s "myStack.ml" 22 1061 1076 "myStack.ml" 22 1061 1077
+)
+"myStack.ml" 22 1061 1086 "myStack.ml" 22 1061 1094
+type(
+  'a option
+)
+"myStack.ml" 23 1100 1102 "myStack.ml" 23 1100 1106
+type(
+  'a option
+)
+"myStack.ml" 23 1100 1110 "myStack.ml" 23 1100 1115
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"myStack.ml" 23 1100 1124 "myStack.ml" 23 1100 1127
+type(
+  string
+)
+ident(
+  int_ref msg "myStack.ml" 22 1061 1072 "myStack.ml" 22 1061 1075
+)
+"myStack.ml" 23 1100 1127 "myStack.ml" 23 1100 1128
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myStack.ml" 23 1100 1128 "myStack.ml" 23 1100 1132
+type(
+  string
+)
+"myStack.ml" 23 1100 1132 "myStack.ml" 23 1100 1133
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myStack.ml" 23 1100 1133 "myStack.ml" 23 1100 1134
+type(
+  'a t
+)
+ident(
+  int_ref s "myStack.ml" 22 1061 1076 "myStack.ml" 22 1061 1077
+)
+"myStack.ml" 23 1100 1133 "myStack.ml" 23 1100 1139
+type(
+  string
+)
+"myStack.ml" 23 1100 1128 "myStack.ml" 23 1100 1139
+call(
+  stack
+)
+type(
+  string
+)
+"myStack.ml" 23 1100 1123 "myStack.ml" 23 1100 1140
+call(
+  stack
+)
+type(
+  string
+)
+"myStack.ml" 23 1100 1116 "myStack.ml" 23 1100 1141
+type(
+  exn
+)
+"myStack.ml" 23 1100 1110 "myStack.ml" 23 1100 1141
+type(
+  'a
+)
+"myStack.ml" 24 1142 1149 "myStack.ml" 24 1142 1150
+type(
+  'a
+)
+ident(
+  def x "myStack.ml" 24 1142 1154 "myStack.ml" 24 1142 1155
+)
+"myStack.ml" 24 1142 1144 "myStack.ml" 24 1142 1150
+type(
+  'a option
+)
+"myStack.ml" 24 1142 1154 "myStack.ml" 24 1142 1155
+type(
+  'a
+)
+ident(
+  int_ref x "myStack.ml" 24 1142 1149 "myStack.ml" 24 1142 1150
+)
+"myStack.ml" 22 1061 1080 "myStack.ml" 24 1142 1155
+type(
+  'a
+)
+"myStack.ml" 26 1157 1161 "myStack.ml" 26 1157 1165
+type(
+  'a t -> string
+)
+ident(
+  def name "myStack.ml" 50 1534 1534 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 26 1157 1172 "myStack.ml" 26 1157 1176
+type(
+  string
+)
+ident(
+  def name "myStack.ml" 26 1157 1182 "myStack.ml" 26 1157 1186
+)
+"myStack.ml" 26 1157 1166 "myStack.ml" 26 1157 1179
+type(
+  'a t
+)
+"myStack.ml" 26 1157 1182 "myStack.ml" 26 1157 1186
+type(
+  string
+)
+ident(
+  int_ref name "myStack.ml" 26 1157 1172 "myStack.ml" 26 1157 1176
+)
+"myStack.ml" 28 1188 1192 "myStack.ml" 28 1188 1196
+type(
+  'b t -> 'b -> unit
+)
+ident(
+  def push "myStack.ml" 50 1534 1534 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 28 1188 1197 "myStack.ml" 28 1188 1198
+type(
+  'b t
+)
+ident(
+  def s "myStack.ml" 28 1188 1199 "myStack.ml" 28 1188 1218
+)
+"myStack.ml" 28 1188 1199 "myStack.ml" 28 1188 1200
+type(
+  'b
+)
+ident(
+  def x "myStack.ml" 28 1188 1203 "myStack.ml" 28 1188 1218
+)
+"myStack.ml" 28 1188 1203 "myStack.ml" 28 1188 1204
+type(
+  'b t
+)
+ident(
+  int_ref s "myStack.ml" 28 1188 1197 "myStack.ml" 28 1188 1198
+)
+"myStack.ml" 28 1188 1210 "myStack.ml" 28 1188 1211
+type(
+  'b
+)
+ident(
+  int_ref x "myStack.ml" 28 1188 1199 "myStack.ml" 28 1188 1200
+)
+"myStack.ml" 28 1188 1215 "myStack.ml" 28 1188 1216
+type(
+  'b t
+)
+ident(
+  int_ref s "myStack.ml" 28 1188 1197 "myStack.ml" 28 1188 1198
+)
+"myStack.ml" 28 1188 1215 "myStack.ml" 28 1188 1218
+type(
+  'b list
+)
+"myStack.ml" 28 1188 1210 "myStack.ml" 28 1188 1218
+type(
+  'b list
+)
+"myStack.ml" 28 1188 1203 "myStack.ml" 28 1188 1218
+type(
+  unit
+)
+"myStack.ml" 30 1220 1224 "myStack.ml" 30 1220 1227
+type(
+  'c t -> 'c
+)
+ident(
+  def pop "myStack.ml" 50 1534 1534 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 30 1220 1228 "myStack.ml" 30 1220 1229
+type(
+  'c t
+)
+ident(
+  def s "myStack.ml" 30 1220 1232 "myStack.ml" 34 1297 1302
+)
+"myStack.ml" 30 1220 1238 "myStack.ml" 30 1220 1239
+type(
+  'c t
+)
+ident(
+  int_ref s "myStack.ml" 30 1220 1228 "myStack.ml" 30 1220 1229
+)
+"myStack.ml" 30 1220 1238 "myStack.ml" 30 1220 1241
+type(
+  'c list
+)
+"myStack.ml" 31 1247 1249 "myStack.ml" 31 1247 1251
+type(
+  'c list
+)
+"myStack.ml" 31 1247 1255 "myStack.ml" 31 1247 1261
+type(
+  string -> 'c t -> 'c
+)
+ident(
+  int_ref bottom "myStack.ml" 22 1061 1065 "myStack.ml" 22 1061 1071
+)
+"myStack.ml" 31 1247 1262 "myStack.ml" 31 1247 1267
+type(
+  string
+)
+"myStack.ml" 31 1247 1268 "myStack.ml" 31 1247 1269
+type(
+  'c t
+)
+ident(
+  int_ref s "myStack.ml" 30 1220 1228 "myStack.ml" 30 1220 1229
+)
+"myStack.ml" 31 1247 1255 "myStack.ml" 31 1247 1269
+call(
+  tail
+)
+type(
+  'c
+)
+"myStack.ml" 32 1270 1272 "myStack.ml" 32 1270 1273
+type(
+  'c
+)
+ident(
+  def x "myStack.ml" 33 1282 1286 "myStack.ml" 34 1297 1302
+)
+"myStack.ml" 32 1270 1277 "myStack.ml" 32 1270 1278
+type(
+  'c list
+)
+ident(
+  def r "myStack.ml" 33 1282 1286 "myStack.ml" 34 1297 1302
+)
+"myStack.ml" 32 1270 1272 "myStack.ml" 32 1270 1278
+type(
+  'c list
+)
+"myStack.ml" 33 1282 1286 "myStack.ml" 33 1282 1287
+type(
+  'c t
+)
+ident(
+  int_ref s "myStack.ml" 30 1220 1228 "myStack.ml" 30 1220 1229
+)
+"myStack.ml" 33 1282 1293 "myStack.ml" 33 1282 1294
+type(
+  'c list
+)
+ident(
+  int_ref r "myStack.ml" 32 1270 1277 "myStack.ml" 32 1270 1278
+)
+"myStack.ml" 33 1282 1286 "myStack.ml" 33 1282 1294
+type(
+  unit
+)
+"myStack.ml" 34 1297 1301 "myStack.ml" 34 1297 1302
+type(
+  'c
+)
+ident(
+  int_ref x "myStack.ml" 32 1270 1272 "myStack.ml" 32 1270 1273
+)
+"myStack.ml" 33 1282 1286 "myStack.ml" 34 1297 1302
+type(
+  'c
+)
+"myStack.ml" 30 1220 1232 "myStack.ml" 34 1297 1302
+type(
+  'c
+)
+"myStack.ml" 36 1304 1308 "myStack.ml" 36 1304 1311
+type(
+  'd t -> 'd
+)
+ident(
+  def top "myStack.ml" 50 1534 1534 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 36 1304 1312 "myStack.ml" 36 1304 1313
+type(
+  'd t
+)
+ident(
+  def s "myStack.ml" 36 1304 1316 "myStack.ml" 38 1354 1367
+)
+"myStack.ml" 36 1304 1322 "myStack.ml" 36 1304 1323
+type(
+  'd t
+)
+ident(
+  int_ref s "myStack.ml" 36 1304 1312 "myStack.ml" 36 1304 1313
+)
+"myStack.ml" 36 1304 1322 "myStack.ml" 36 1304 1325
+type(
+  'd list
+)
+"myStack.ml" 37 1331 1333 "myStack.ml" 37 1331 1335
+type(
+  'd list
+)
+"myStack.ml" 37 1331 1339 "myStack.ml" 37 1331 1345
+type(
+  string -> 'd t -> 'd
+)
+ident(
+  int_ref bottom "myStack.ml" 22 1061 1065 "myStack.ml" 22 1061 1071
+)
+"myStack.ml" 37 1331 1346 "myStack.ml" 37 1331 1351
+type(
+  string
+)
+"myStack.ml" 37 1331 1352 "myStack.ml" 37 1331 1353
+type(
+  'd t
+)
+ident(
+  int_ref s "myStack.ml" 36 1304 1312 "myStack.ml" 36 1304 1313
+)
+"myStack.ml" 37 1331 1339 "myStack.ml" 37 1331 1353
+call(
+  tail
+)
+type(
+  'd
+)
+"myStack.ml" 38 1354 1356 "myStack.ml" 38 1354 1357
+type(
+  'd
+)
+ident(
+  def x "myStack.ml" 38 1354 1366 "myStack.ml" 38 1354 1367
+)
+"myStack.ml" 38 1354 1361 "myStack.ml" 38 1354 1362
+type(
+  'd list
+)
+"myStack.ml" 38 1354 1356 "myStack.ml" 38 1354 1362
+type(
+  'd list
+)
+"myStack.ml" 38 1354 1366 "myStack.ml" 38 1354 1367
+type(
+  'd
+)
+ident(
+  int_ref x "myStack.ml" 38 1354 1356 "myStack.ml" 38 1354 1357
+)
+"myStack.ml" 36 1304 1316 "myStack.ml" 38 1354 1367
+type(
+  'd
+)
+"myStack.ml" 40 1369 1373 "myStack.ml" 40 1369 1377
+type(
+  'e t -> 'e
+)
+ident(
+  def top2 "myStack.ml" 50 1534 1534 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 40 1369 1378 "myStack.ml" 40 1369 1379
+type(
+  'e t
+)
+ident(
+  def s "myStack.ml" 40 1369 1382 "myStack.ml" 42 1425 1443
+)
+"myStack.ml" 40 1369 1388 "myStack.ml" 40 1369 1389
+type(
+  'e t
+)
+ident(
+  int_ref s "myStack.ml" 40 1369 1378 "myStack.ml" 40 1369 1379
+)
+"myStack.ml" 40 1369 1388 "myStack.ml" 40 1369 1391
+type(
+  'e list
+)
+"myStack.ml" 41 1397 1399 "myStack.ml" 41 1397 1401
+type(
+  'e list
+)
+"myStack.ml" 41 1397 1403 "myStack.ml" 41 1397 1404
+type(
+  'e
+)
+"myStack.ml" 41 1397 1402 "myStack.ml" 41 1397 1405
+type(
+  'e list
+)
+"myStack.ml" 41 1397 1399 "myStack.ml" 41 1397 1405
+type(
+  'e list
+)
+"myStack.ml" 41 1397 1409 "myStack.ml" 41 1397 1415
+type(
+  string -> 'e t -> 'e
+)
+ident(
+  int_ref bottom "myStack.ml" 22 1061 1065 "myStack.ml" 22 1061 1071
+)
+"myStack.ml" 41 1397 1416 "myStack.ml" 41 1397 1422
+type(
+  string
+)
+"myStack.ml" 41 1397 1423 "myStack.ml" 41 1397 1424
+type(
+  'e t
+)
+ident(
+  int_ref s "myStack.ml" 40 1369 1378 "myStack.ml" 40 1369 1379
+)
+"myStack.ml" 41 1397 1409 "myStack.ml" 41 1397 1424
+call(
+  tail
+)
+type(
+  'e
+)
+"myStack.ml" 42 1425 1427 "myStack.ml" 42 1425 1428
+type(
+  'e
+)
+"myStack.ml" 42 1425 1432 "myStack.ml" 42 1425 1433
+type(
+  'e
+)
+ident(
+  def x "myStack.ml" 42 1425 1442 "myStack.ml" 42 1425 1443
+)
+"myStack.ml" 42 1425 1437 "myStack.ml" 42 1425 1438
+type(
+  'e list
+)
+"myStack.ml" 42 1425 1432 "myStack.ml" 42 1425 1438
+type(
+  'e list
+)
+"myStack.ml" 42 1425 1427 "myStack.ml" 42 1425 1438
+type(
+  'e list
+)
+"myStack.ml" 42 1425 1442 "myStack.ml" 42 1425 1443
+type(
+  'e
+)
+ident(
+  int_ref x "myStack.ml" 42 1425 1432 "myStack.ml" 42 1425 1433
+)
+"myStack.ml" 40 1369 1382 "myStack.ml" 42 1425 1443
+type(
+  'e
+)
+"myStack.ml" 44 1445 1449 "myStack.ml" 44 1445 1455
+type(
+  'f t -> int
+)
+ident(
+  def length "myStack.ml" 50 1534 1534 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 44 1445 1456 "myStack.ml" 44 1445 1457
+type(
+  'f t
+)
+ident(
+  def s "myStack.ml" 44 1445 1460 "myStack.ml" 44 1445 1475
+)
+"myStack.ml" 44 1445 1460 "myStack.ml" 44 1445 1471
+type(
+  'f list -> int
+)
+ident(
+  ext_ref List.length
+)
+"myStack.ml" 44 1445 1472 "myStack.ml" 44 1445 1473
+type(
+  'f t
+)
+ident(
+  int_ref s "myStack.ml" 44 1445 1456 "myStack.ml" 44 1445 1457
+)
+"myStack.ml" 44 1445 1472 "myStack.ml" 44 1445 1475
+type(
+  'f list
+)
+"myStack.ml" 44 1445 1460 "myStack.ml" 44 1445 1475
+call(
+  tail
+)
+type(
+  int
+)
+"myStack.ml" 46 1477 1481 "myStack.ml" 46 1477 1486
+type(
+  'g t -> bool
+)
+ident(
+  def empty "myStack.ml" 50 1534 1534 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 46 1477 1487 "myStack.ml" 46 1477 1488
+type(
+  'g t
+)
+ident(
+  def s "myStack.ml" 46 1477 1491 "myStack.ml" 48 1519 1532
+)
+"myStack.ml" 46 1477 1497 "myStack.ml" 46 1477 1498
+type(
+  'g t
+)
+ident(
+  int_ref s "myStack.ml" 46 1477 1487 "myStack.ml" 46 1477 1488
+)
+"myStack.ml" 46 1477 1497 "myStack.ml" 46 1477 1500
+type(
+  'g list
+)
+"myStack.ml" 47 1506 1508 "myStack.ml" 47 1506 1510
+type(
+  'g list
+)
+"myStack.ml" 47 1506 1514 "myStack.ml" 47 1506 1518
+type(
+  bool
+)
+"myStack.ml" 48 1519 1521 "myStack.ml" 48 1519 1522
+type(
+  'g list
+)
+"myStack.ml" 48 1519 1527 "myStack.ml" 48 1519 1532
+type(
+  bool
+)
+"myStack.ml" 46 1477 1491 "myStack.ml" 48 1519 1532
+type(
+  bool
+)
+"myStack.ml" 50 1534 1538 "myStack.ml" 50 1534 1544
+type(
+  ('a -> string) -> 'a t -> unit
+)
+ident(
+  def pretty "myStack.ml" 65 1880 1880 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 50 1534 1545 "myStack.ml" 50 1534 1546
+type(
+  'a -> string
+)
+ident(
+  def f "myStack.ml" 50 1534 1547 "myStack.ml" 63 1862 1878
+)
+"myStack.ml" 50 1534 1547 "myStack.ml" 50 1534 1552
+type(
+  'a t
+)
+ident(
+  def stack "myStack.ml" 51 1555 1557 "myStack.ml" 63 1862 1878
+)
+"myStack.ml" 51 1555 1557 "myStack.ml" 51 1555 1569
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_string
+)
+"myStack.ml" 51 1555 1570 "myStack.ml" 51 1555 1575
+type(
+  'a t
+)
+ident(
+  int_ref stack "myStack.ml" 50 1534 1547 "myStack.ml" 50 1534 1552
+)
+"myStack.ml" 51 1555 1570 "myStack.ml" 51 1555 1580
+type(
+  string
+)
+"myStack.ml" 51 1555 1557 "myStack.ml" 51 1555 1580
+call(
+  stack
+)
+type(
+  unit
+)
+"myStack.ml" 52 1583 1585 "myStack.ml" 52 1583 1597
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_string
+)
+"myStack.ml" 52 1583 1598 "myStack.ml" 52 1583 1604
+type(
+  string
+)
+"myStack.ml" 52 1583 1585 "myStack.ml" 52 1583 1604
+call(
+  stack
+)
+type(
+  unit
+)
+"myStack.ml" 53 1607 1617 "myStack.ml" 53 1607 1623
+type(
+  'a list -> unit
+)
+ident(
+  def do_rec "myStack.ml" 53 1607 1609 "myStack.ml" 63 1862 1878
+)
+"myStack.ml" 54 1635 1641 "myStack.ml" 54 1635 1643
+type(
+  'a list
+)
+"myStack.ml" 54 1635 1647 "myStack.ml" 54 1635 1660
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"myStack.ml" 54 1635 1661 "myStack.ml" 54 1635 1665
+type(
+  string
+)
+"myStack.ml" 54 1635 1647 "myStack.ml" 54 1635 1665
+call(
+  tail
+)
+type(
+  unit
+)
+"myStack.ml" 55 1666 1673 "myStack.ml" 55 1666 1674
+type(
+  'a
+)
+ident(
+  def x "myStack.ml" 56 1679 1687 "myStack.ml" 57 1716 1742
+)
+"myStack.ml" 55 1666 1672 "myStack.ml" 55 1666 1675
+type(
+  'a list
+)
+"myStack.ml" 56 1679 1687 "myStack.ml" 56 1679 1699
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_string
+)
+"myStack.ml" 56 1679 1701 "myStack.ml" 56 1679 1704
+type(
+  string
+)
+"myStack.ml" 56 1679 1704 "myStack.ml" 56 1679 1705
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myStack.ml" 56 1679 1705 "myStack.ml" 56 1679 1706
+type(
+  'a -> string
+)
+ident(
+  int_ref f "myStack.ml" 50 1534 1545 "myStack.ml" 50 1534 1546
+)
+"myStack.ml" 56 1679 1707 "myStack.ml" 56 1679 1708
+type(
+  'a
+)
+ident(
+  int_ref x "myStack.ml" 55 1666 1673 "myStack.ml" 55 1666 1674
+)
+"myStack.ml" 56 1679 1705 "myStack.ml" 56 1679 1708
+call(
+  stack
+)
+type(
+  string
+)
+"myStack.ml" 56 1679 1708 "myStack.ml" 56 1679 1709
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"myStack.ml" 56 1679 1709 "myStack.ml" 56 1679 1712
+type(
+  string
+)
+"myStack.ml" 56 1679 1705 "myStack.ml" 56 1679 1712
+call(
+  stack
+)
+type(
+  string
+)
+"myStack.ml" 56 1679 1700 "myStack.ml" 56 1679 1713
+call(
+  stack
+)
+type(
+  string
+)
+"myStack.ml" 56 1679 1687 "myStack.ml" 56 1679 1713
+call(
+  stack
+)
+type(
+  unit
+)
+"myStack.ml" 57 1716 1724 "myStack.ml" 57 1716 1737
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"myStack.ml" 57 1716 1738 "myStack.ml" 57 1716 1742
+type(
+  string
+)
+"myStack.ml" 57 1716 1724 "myStack.ml" 57 1716 1742
+call(
+  tail
+)
+type(
+  unit
+)
+"myStack.ml" 56 1679 1687 "myStack.ml" 57 1716 1742
+type(
+  unit
+)
+"myStack.ml" 58 1743 1749 "myStack.ml" 58 1743 1750
+type(
+  'a
+)
+ident(
+  def x "myStack.ml" 59 1759 1767 "myStack.ml" 62 1842 1858
+)
+"myStack.ml" 58 1743 1754 "myStack.ml" 58 1743 1755
+type(
+  'a list
+)
+ident(
+  def r "myStack.ml" 59 1759 1767 "myStack.ml" 62 1842 1858
+)
+"myStack.ml" 58 1743 1749 "myStack.ml" 58 1743 1755
+type(
+  'a list
+)
+"myStack.ml" 59 1759 1767 "myStack.ml" 59 1759 1779
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_string
+)
+"myStack.ml" 59 1759 1780 "myStack.ml" 59 1759 1783
+type(
+  string
+)
+"myStack.ml" 59 1759 1767 "myStack.ml" 59 1759 1783
+call(
+  stack
+)
+type(
+  unit
+)
+"myStack.ml" 60 1786 1794 "myStack.ml" 60 1786 1806
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_string
+)
+"myStack.ml" 60 1786 1808 "myStack.ml" 60 1786 1809
+type(
+  'a -> string
+)
+ident(
+  int_ref f "myStack.ml" 50 1534 1545 "myStack.ml" 50 1534 1546
+)
+"myStack.ml" 60 1786 1810 "myStack.ml" 60 1786 1811
+type(
+  'a
+)
+ident(
+  int_ref x "myStack.ml" 58 1743 1749 "myStack.ml" 58 1743 1750
+)
+"myStack.ml" 60 1786 1807 "myStack.ml" 60 1786 1812
+call(
+  stack
+)
+type(
+  string
+)
+"myStack.ml" 60 1786 1794 "myStack.ml" 60 1786 1812
+call(
+  stack
+)
+type(
+  unit
+)
+"myStack.ml" 61 1815 1823 "myStack.ml" 61 1815 1835
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_string
+)
+"myStack.ml" 61 1815 1836 "myStack.ml" 61 1815 1839
+type(
+  string
+)
+"myStack.ml" 61 1815 1823 "myStack.ml" 61 1815 1839
+call(
+  stack
+)
+type(
+  unit
+)
+"myStack.ml" 62 1842 1850 "myStack.ml" 62 1842 1856
+type(
+  'a list -> unit
+)
+ident(
+  int_ref do_rec "myStack.ml" 53 1607 1617 "myStack.ml" 53 1607 1623
+)
+"myStack.ml" 62 1842 1857 "myStack.ml" 62 1842 1858
+type(
+  'a list
+)
+ident(
+  int_ref r "myStack.ml" 58 1743 1754 "myStack.ml" 58 1743 1755
+)
+"myStack.ml" 62 1842 1850 "myStack.ml" 62 1842 1858
+call(
+  tail
+)
+type(
+  unit
+)
+"myStack.ml" 61 1815 1823 "myStack.ml" 62 1842 1858
+type(
+  unit
+)
+"myStack.ml" 60 1786 1794 "myStack.ml" 62 1842 1858
+type(
+  unit
+)
+"myStack.ml" 59 1759 1767 "myStack.ml" 62 1842 1858
+type(
+  unit
+)
+"myStack.ml" 53 1607 1626 "myStack.ml" 62 1842 1858
+type(
+  'a list -> unit
+)
+"myStack.ml" 63 1862 1864 "myStack.ml" 63 1862 1870
+type(
+  'a list -> unit
+)
+ident(
+  int_ref do_rec "myStack.ml" 53 1607 1617 "myStack.ml" 53 1607 1623
+)
+"myStack.ml" 63 1862 1871 "myStack.ml" 63 1862 1876
+type(
+  'a t
+)
+ident(
+  int_ref stack "myStack.ml" 50 1534 1547 "myStack.ml" 50 1534 1552
+)
+"myStack.ml" 63 1862 1871 "myStack.ml" 63 1862 1878
+type(
+  'a list
+)
+"myStack.ml" 63 1862 1864 "myStack.ml" 63 1862 1878
+call(
+  tail
+)
+type(
+  unit
+)
+"myStack.ml" 53 1607 1609 "myStack.ml" 63 1862 1878
+type(
+  unit
+)
+"myStack.ml" 52 1583 1585 "myStack.ml" 63 1862 1878
+type(
+  unit
+)
+"myStack.ml" 51 1555 1557 "myStack.ml" 63 1862 1878
+type(
+  unit
+)
+"myStack.ml" 65 1880 1884 "myStack.ml" 65 1880 1887
+type(
+  'a t -> unit
+)
+ident(
+  def rev "myStack.ml" 66 1912 1912 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 65 1880 1888 "myStack.ml" 65 1880 1889
+type(
+  'a t
+)
+ident(
+  def s "myStack.ml" 65 1880 1892 "myStack.ml" 65 1880 1911
+)
+"myStack.ml" 65 1880 1892 "myStack.ml" 65 1880 1893
+type(
+  'a t
+)
+ident(
+  int_ref s "myStack.ml" 65 1880 1888 "myStack.ml" 65 1880 1889
+)
+"myStack.ml" 65 1880 1899 "myStack.ml" 65 1880 1907
+type(
+  'a list -> 'a list
+)
+ident(
+  ext_ref List.rev
+)
+"myStack.ml" 65 1880 1908 "myStack.ml" 65 1880 1909
+type(
+  'a t
+)
+ident(
+  int_ref s "myStack.ml" 65 1880 1888 "myStack.ml" 65 1880 1889
+)
+"myStack.ml" 65 1880 1908 "myStack.ml" 65 1880 1911
+type(
+  'a list
+)
+"myStack.ml" 65 1880 1899 "myStack.ml" 65 1880 1911
+call(
+  stack
+)
+type(
+  'a list
+)
+"myStack.ml" 65 1880 1892 "myStack.ml" 65 1880 1911
+type(
+  unit
+)
+"myStack.ml" 66 1912 1916 "myStack.ml" 66 1912 1919
+type(
+  'a t -> ('a -> 'a) -> unit
+)
+ident(
+  def map "myStack.ml" 68 1950 1950 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 66 1912 1920 "myStack.ml" 66 1912 1921
+type(
+  'a t
+)
+ident(
+  def s "myStack.ml" 66 1912 1922 "myStack.ml" 66 1912 1948
+)
+"myStack.ml" 66 1912 1922 "myStack.ml" 66 1912 1923
+type(
+  'a -> 'a
+)
+ident(
+  def f "myStack.ml" 66 1912 1927 "myStack.ml" 66 1912 1948
+)
+"myStack.ml" 66 1912 1927 "myStack.ml" 66 1912 1928
+type(
+  'a t
+)
+ident(
+  int_ref s "myStack.ml" 66 1912 1920 "myStack.ml" 66 1912 1921
+)
+"myStack.ml" 66 1912 1934 "myStack.ml" 66 1912 1942
+type(
+  ('a -> 'a) -> 'a list -> 'a list
+)
+ident(
+  ext_ref List.map
+)
+"myStack.ml" 66 1912 1943 "myStack.ml" 66 1912 1944
+type(
+  'a -> 'a
+)
+ident(
+  int_ref f "myStack.ml" 66 1912 1922 "myStack.ml" 66 1912 1923
+)
+"myStack.ml" 66 1912 1945 "myStack.ml" 66 1912 1946
+type(
+  'a t
+)
+ident(
+  int_ref s "myStack.ml" 66 1912 1920 "myStack.ml" 66 1912 1921
+)
+"myStack.ml" 66 1912 1945 "myStack.ml" 66 1912 1948
+type(
+  'a list
+)
+"myStack.ml" 66 1912 1934 "myStack.ml" 66 1912 1948
+call(
+  stack
+)
+type(
+  'a list
+)
+"myStack.ml" 66 1912 1927 "myStack.ml" 66 1912 1948
+type(
+  unit
+)
+"myStack.ml" 70 1975 1979 "myStack.ml" 70 1975 1990
+type(
+  'a list
+)
+ident(
+  def empty_saved "myStack.ml" 74 2045 2045 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 70 1975 1993 "myStack.ml" 70 1975 1995
+type(
+  'a list
+)
+"myStack.ml" 71 1996 2000 "myStack.ml" 71 1996 2004
+type(
+  'b t -> 'b list
+)
+ident(
+  def save "myStack.ml" 74 2045 2045 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 71 1996 2008 "myStack.ml" 71 1996 2009
+type(
+  'b list
+)
+ident(
+  def l "myStack.ml" 71 1996 2015 "myStack.ml" 71 1996 2016
+)
+"myStack.ml" 71 1996 2005 "myStack.ml" 71 1996 2012
+type(
+  'b t
+)
+"myStack.ml" 71 1996 2015 "myStack.ml" 71 1996 2016
+type(
+  'b list
+)
+ident(
+  int_ref l "myStack.ml" 71 1996 2008 "myStack.ml" 71 1996 2009
+)
+"myStack.ml" 72 2017 2021 "myStack.ml" 72 2017 2028
+type(
+  'c t -> 'c list -> unit
+)
+ident(
+  def restore "myStack.ml" 74 2045 2045 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 72 2017 2029 "myStack.ml" 72 2017 2030
+type(
+  'c t
+)
+ident(
+  def s "myStack.ml" 72 2017 2031 "myStack.ml" 72 2017 2043
+)
+"myStack.ml" 72 2017 2031 "myStack.ml" 72 2017 2032
+type(
+  'c list
+)
+ident(
+  def x "myStack.ml" 72 2017 2035 "myStack.ml" 72 2017 2043
+)
+"myStack.ml" 72 2017 2035 "myStack.ml" 72 2017 2036
+type(
+  'c t
+)
+ident(
+  int_ref s "myStack.ml" 72 2017 2029 "myStack.ml" 72 2017 2030
+)
+"myStack.ml" 72 2017 2042 "myStack.ml" 72 2017 2043
+type(
+  'c list
+)
+ident(
+  int_ref x "myStack.ml" 72 2017 2031 "myStack.ml" 72 2017 2032
+)
+"myStack.ml" 72 2017 2035 "myStack.ml" 72 2017 2043
+type(
+  unit
+)
+"myStack.ml" 74 2045 2049 "myStack.ml" 74 2045 2057
+type(
+  'a t -> ('a -> bool) -> ('a -> 'b) -> unit
+)
+ident(
+  def finalize "myStack.ml" 83 2217 2228 "myStack.ml" 1 0 -1
+)
+"myStack.ml" 74 2045 2061 "myStack.ml" 74 2045 2064
+type(
+  'a list
+)
+ident(
+  def now "myStack.ml" 74 2045 2068 "myStack.ml" 83 2217 2228
+)
+"myStack.ml" 74 2045 2058 "myStack.ml" 74 2045 2067
+type(
+  'a t
+)
+"myStack.ml" 74 2045 2068 "myStack.ml" 74 2045 2069
+type(
+  'a -> bool
+)
+ident(
+  def p "myStack.ml" 74 2045 2070 "myStack.ml" 83 2217 2228
+)
+"myStack.ml" 74 2045 2070 "myStack.ml" 74 2045 2071
+type(
+  'a -> 'b
+)
+ident(
+  def f "myStack.ml" 75 2074 2076 "myStack.ml" 83 2217 2228
+)
+"myStack.ml" 75 2074 2084 "myStack.ml" 75 2074 2089
+type(
+  'a list -> unit
+)
+ident(
+  def f_rec "myStack.ml" 75 2074 2076 "myStack.ml" 83 2217 2228
+)
+"myStack.ml" 76 2101 2107 "myStack.ml" 76 2101 2109
+type(
+  'a list
+)
+"myStack.ml" 76 2101 2113 "myStack.ml" 76 2101 2115
+type(
+  unit
+)
+"myStack.ml" 77 2116 2122 "myStack.ml" 77 2116 2124
+type(
+  'a
+)
+ident(
+  def nx "myStack.ml" 78 2132 2138 "myStack.ml" 82 2203 2212
+)
+"myStack.ml" 77 2116 2126 "myStack.ml" 77 2116 2127
+type(
+  'a list
+)
+ident(
+  def n "myStack.ml" 78 2132 2138 "myStack.ml" 82 2203 2212
+)
+"myStack.ml" 77 2116 2122 "myStack.ml" 77 2116 2127
+type(
+  'a list
+)
+"myStack.ml" 78 2132 2141 "myStack.ml" 78 2132 2142
+type(
+  'a -> bool
+)
+ident(
+  int_ref p "myStack.ml" 74 2045 2068 "myStack.ml" 74 2045 2069
+)
+"myStack.ml" 78 2132 2143 "myStack.ml" 78 2132 2145
+type(
+  'a
+)
+ident(
+  int_ref nx "myStack.ml" 77 2116 2122 "myStack.ml" 77 2116 2124
+)
+"myStack.ml" 78 2132 2141 "myStack.ml" 78 2132 2145
+call(
+  stack
+)
+type(
+  bool
+)
+"myStack.ml" 78 2132 2152 "myStack.ml" 78 2132 2154
+type(
+  unit
+)
+"myStack.ml" 80 2172 2180 "myStack.ml" 80 2172 2181
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "myStack.ml" 74 2045 2070 "myStack.ml" 74 2045 2071
+)
+"myStack.ml" 80 2172 2182 "myStack.ml" 80 2172 2184
+type(
+  'a
+)
+ident(
+  int_ref nx "myStack.ml" 77 2116 2122 "myStack.ml" 77 2116 2124
+)
+"myStack.ml" 80 2172 2180 "myStack.ml" 80 2172 2184
+call(
+  stack
+)
+type(
+  'b
+)
+"myStack.ml" 81 2187 2195 "myStack.ml" 81 2187 2200
+type(
+  'a list -> unit
+)
+ident(
+  int_ref f_rec "myStack.ml" 75 2074 2084 "myStack.ml" 75 2074 2089
+)
+"myStack.ml" 81 2187 2201 "myStack.ml" 81 2187 2202
+type(
+  'a list
+)
+ident(
+  int_ref n "myStack.ml" 77 2116 2126 "myStack.ml" 77 2116 2127
+)
+"myStack.ml" 81 2187 2195 "myStack.ml" 81 2187 2202
+call(
+  tail
+)
+type(
+  unit
+)
+"myStack.ml" 79 2155 2166 "myStack.ml" 82 2203 2212
+type(
+  unit
+)
+"myStack.ml" 78 2132 2138 "myStack.ml" 82 2203 2212
+type(
+  unit
+)
+"myStack.ml" 75 2074 2092 "myStack.ml" 82 2203 2212
+type(
+  'a list -> unit
+)
+"myStack.ml" 83 2217 2219 "myStack.ml" 83 2217 2224
+type(
+  'a list -> unit
+)
+ident(
+  int_ref f_rec "myStack.ml" 75 2074 2084 "myStack.ml" 75 2074 2089
+)
+"myStack.ml" 83 2217 2225 "myStack.ml" 83 2217 2228
+type(
+  'a list
+)
+ident(
+  int_ref now "myStack.ml" 74 2045 2061 "myStack.ml" 74 2045 2064
+)
+"myStack.ml" 83 2217 2219 "myStack.ml" 83 2217 2228
+call(
+  tail
+)
+type(
+  unit
+)
+"myStack.ml" 75 2074 2076 "myStack.ml" 83 2217 2228
+type(
+  unit
+)
