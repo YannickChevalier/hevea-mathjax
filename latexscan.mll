@@ -995,13 +995,16 @@ let top_open_maths main dodo =
       in_math := true ;
       if !display then  Dest.item_display () ;
       push stack_display !display ;
-      if dodo then begin
-	display  := true ;
-	Dest.open_maths dodo;
-      end else begin
-	Dest.open_maths dodo;
-	top_open_display () ;
-      end ;
+      if dodo then
+	begin
+	  display  := true ;
+	  Dest.open_maths dodo;
+	end
+      else
+	begin
+	  Dest.open_maths dodo;
+	  top_open_display () ;
+	end ;
       scan_this main "\\normalfont"
     end
   else
@@ -1068,9 +1071,10 @@ let newline = '\n' | ('\r' '\n')
     {do_expand_command main skip_blanks "\\@hevea@circ" lexbuf ;
       main lexbuf}
 (* Math mode *)
-| "$" | "$$" | "\\(" | "\\[" as lxm
+| "$" | "$$" | "\\(" | "\\[" | "\\)" | "\\]" as lxm
     {
       if !mathjax then
+	(* in this case, \\) and \\] are latex errors, which we do not handle *)
 	begin
 	  if lxm = "$" || lxm = "\\(" then
 	    Dest.put "\\("
@@ -1089,32 +1093,47 @@ let newline = '\n' | ('\r' '\n')
 	end
      else
        begin
-	 let dodo = lxm <> "$" in
+	 (* in constrast with non-forked hevea, we intercept \\( and \\[
+instead of evaluating them. This means we also have to handle their closing
+environment *)
 	 if effective !alltt || not (is_plain '$') then
-	   begin
-	     Dest.put lxm
-		      (* vicious case '$x$$y$' *)
-	   end
+	   Dest.put lxm
 	 else
-	   if dodo && not !display && !in_math then
-	     begin
-	       scan_this main "${}$"
-	     end
-	   else
-	     begin (* General case *)
-	       let math_env = if dodo then "*display" else "*math" in
-	       if !in_math then
-		 begin
-		   top_close_maths dodo ;
-		   close_env math_env
-		 end
-	       else
-		 begin
-		   new_env math_env ;
-		   top_open_maths main dodo ;
-		   if dodo then ignore (skip_blanks lexbuf)
-		 end
-	     end ;
+	   begin
+	     match lxm with
+	     | "\\(" | "\\)" -> scan_this main "$"
+	     | "\\["  | "\\]" -> scan_this main "$$"
+	     | "$" ->
+		begin
+		  if !in_math then
+		    begin
+		      top_close_maths false ;
+		      close_env "*math"
+		    end
+		  else
+		    begin
+		      new_env "*math" ;
+		      top_open_maths main false 
+		    end
+		end
+	     | "$$" ->
+		begin
+		  if not !display && !in_math then
+		    scan_this main "${}$"
+		  else
+		    if !in_math then
+		      begin
+			top_close_maths true ;
+			close_env "*display"
+		      end
+		    else
+		      begin
+			new_env "*display" ;
+			top_open_maths main true ;
+			ignore (skip_blanks lexbuf)
+		      end
+		end
+	   end ;
 	 main lexbuf
        end }
 
